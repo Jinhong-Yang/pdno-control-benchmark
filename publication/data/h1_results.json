@@ -1,0 +1,38 @@
+[
+  {
+    "bootstrap_replicates": 10000,
+    "comparison": "P/B4 host-ready p99 ratio; <1 favors P",
+    "hierarchical_seed_session_bootstrap_ci95": [
+      0.9786750183037668,
+      0.9928970228848052
+    ],
+    "interpretation": "descriptive with seed/session uncertainty; sessions are not independent environments",
+    "learned_seeds": 3,
+    "mean_per_seed_ratio": 0.9859115128190182,
+    "pde": "burgers",
+    "per_seed_p99_ratio": {
+      "11": 0.9840465606760314,
+      "23": 0.9831487815718785,
+      "37": 0.9905391962091449
+    },
+    "sessions": 3
+  },
+  {
+    "bootstrap_replicates": 10000,
+    "comparison": "P/B4 host-ready p99 ratio; <1 favors P",
+    "hierarchical_seed_session_bootstrap_ci95": [
+      0.9849270197970985,
+      1.0016314919169
+    ],
+    "interpretation": "descriptive with seed/session uncertainty; sessions are not independent environments",
+    "learned_seeds": 3,
+    "mean_per_seed_ratio": 0.9929645585620724,
+    "pde": "heat",
+    "per_seed_p99_ratio": {
+      "11": 0.9856865060499939,
+      "23": 1.0028600061489445,
+      "37": 0.9903471634872792
+    },
+    "sessions": 3
+  }
+]

@@ -1,0 +1,8 @@
+id,name,required,purpose,core_definition
+B0,nominal_lqr_projected_feedback,true,fast simple controller,linear modal feedback with common observer projection and fallback cost
+B1,finite_candidate_rom_predictive_controller,true,physics predictive baseline,16-mode Galerkin or thermal modal model; K=10 H=8
+B2,direct_bc_mlp_tcn,true,direct policy baseline,shared observation encoder and supervised teacher action
+B3,surrogate_gradient_direct_policy,true,policy optimization baseline,BC warm start then frozen B4 held-action cost gradients; <=1000 updates
+B4,candidate_conditioned_pi_deeponet,true,shared-computation control,shared context encoder; candidate axis batched; same operator rank and supervision as P
+B5,factorized_data_only_operator,true,physics-loss ablation,same architecture/parameters/teacher as P; physics and balance losses zero
+P,action_factorized_pi_deeponet,true,proposed method,shared branch and fixed polynomial candidate responses with explicit cost

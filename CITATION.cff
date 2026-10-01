@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the archived release when using this software."
+type: software
+title: "PDNO Control Benchmark: Frozen Code and Summary Results for Action-Factorized Neural-Operator Control"
+authors:
+  - family-names: Park
+    given-names: Hyojin
+    affiliation: "Gyeongnam Intelligence Innovation Center (GIIC), Kyungnam University"
+  - family-names: Yang
+    given-names: Jinhong
+    affiliation: "Department of Medical Information Technology, Inje University"
+version: 1.0.0
+date-released: 2026-10-01
+license: Apache-2.0
+repository-code: "https://github.com/Jinhong-Yang/pdno-control-benchmark"

@@ -1,0 +1,89 @@
+version: PDNO_JevLite_RTX5080_72H_research_v3
+status: DRAFT_NOT_FROZEN
+created_at_local: 2026-09-27
+parent_versions: [../pdno_jevLite_20260925, ../pdno_jevLite_20260926_v2]
+scope:
+  domain: manufacturing distributed-parameter PDE low-latency control
+  autonomous_driving_meaning: autonomous research execution, not automotive research
+  pdes: [forced periodic Burgers, Dirichlet heat]
+  deployment: simulation and software replay only
+  hardware: one locally verified RTX 5080; no cloud equivalence
+  previous_versions: preserved; no v1/v2 locked outcome payloads may be read or reused
+budget:
+  original_total_wall_hours: 72
+  original_luna_evidence_deadline_hours: 62
+  reserved_astra_hours: 10
+  status: recalculate from original start timestamp before any long run
+predeclared_repairs:
+  - generate all parent identities under namespace pdno-jevLite-parent-pool-v3-fresh-20260927; include namespace in identity and RNG input
+  - correct heat classical sensor coordinates to match truth-grid interpolation at indices linspace(0,255,16)
+  - preserve analytic heat boundary derivatives in the observer basis used by PDE balance loss
+  - extend numerical verification to deployed forced 200-tick trajectories and method/source-term contract
+  - make baseline observation availability and applied-action history match the declared input contract
+  - repair version-specific runners, hashes and split audit before any confirmatory data generation
+unchanged_scientific_gates:
+  operator_field_nrmse_max: 0.05
+  normalized_teacher_regret_median_max: 0.05
+  thresholds_may_change: false
+numerical_predata_gates:
+  burgers_forced_200_tick_relative_l2_vs_half_timestep_max: 0.01
+  burgers_forced_200_tick_mean_balance_abs_max: 1.0e-10
+  heat_forced_200_tick_relative_l2_vs_half_outer_timestep_max: 0.05
+  all_fields_and_source_sign_fixtures_must_be_finite: true
+state_constraints:
+  burgers:
+    lower: -1.2
+    upper: 1.2
+    violation_penalty: relu(lower-q)^2 + relu(q-upper)^2
+  heat:
+    interpretation: normalized excess temperature above ambient
+    lower: 0.0
+    upper: 1.25_times_max_reachable_steady_goal_from_train_and_validation_only
+    violation_penalty: relu(lower-theta)^2 + relu(theta-upper)^2
+  weight: 10.0
+  quadrature: equal-weight spatial mean, averaged across horizon
+  apply_identically_to: [teacher, B1, B2, B3, B4, B5, P, P-no-rank, closed-loop truth evaluation]
+  upper_bound_freezes_before_calibration: true
+required_models:
+  classical: [B0, B1]
+  learned: [B2, B3, B4, B5, P]
+  mechanism_ablation: [P-no-rank]
+  seeds: [11, 23, 37]
+  b3_direct_surrogate_gradient_policy: true
+  b4_shared_encoder_and_candidate_batching: true
+pilot:
+  seed: 7
+  observer_updates_per_pde: 500
+  field_updates_per_operator: 500
+  physics_updates_per_operator: 500
+  direct_policy_updates: 500
+  b3_surrogate_updates: 300
+  candidate_methods: [P, P-no-rank, B4, B5, B2, B3]
+  use_train_validation_only: true
+  report_accuracy_gate_even_if_failed: true
+  only_one_registered_candidate_per_family: true
+split_contract:
+  unit: independent parent episode
+  roles: [train, validation, gate_fit, calibration, locked_test]
+  cross_version_identity_overlap: 0
+  generate_calibration_after_model_normalizer_corrector_feature_score_grid_endpoint_bstar_family_freeze: true
+  open_locked_test_once_after_calibration_lock: true
+  never_resume_interrupted_locked_test: true
+stage_order:
+  - solver tests and deployed-horizon numerical audit
+  - causal observation, parent split, action accounting audits
+  - version-fresh train/validation data and teacher queries
+  - validation-only pilot and runtime measurement
+  - freeze complete model/data/evaluator specification
+  - train every mandatory model for three seeds sequentially
+  - calibration and calibration lock
+  - one locked test run
+  - host-ready E2E and tail latency if locked run completes
+  - hash freeze all raw evidence, failures and logs
+  - actual GPT-6 Astra handoff for final analysis and bounded manuscript
+decision_rule:
+  failed_gates: report honestly; do not tune on calibration or locked test
+  shrinking_budget: remove optional experiments before seeds, matched controls, audit or independent test
+  submission: do not submit, pay, sign, or act for authors
+  authors: preserve missing fields in AUTHOR_INPUT_REQUIRED and continue research
+next_executable_step: create isolated v3 runtime, run source-contract unit tests and solver verification, then rebuild metadata-only v3 parent manifest and cross-version overlap audit

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "fig01_design",
+    "description": "TikZ: causal loop, aligned P/B4 computation and distinct evidence roles",
+    "sources": [
+      "final_spec_v3.json",
+      "figures/fig01_design.tex"
+    ],
+    "pdf_sha256": "6bc2180f3f66c87476e68d974f8599ccb12e653c90bf9cbd6c78c53ffb18eb49",
+    "vector": true
+  },
+  {
+    "id": "fig02_prediction",
+    "description": "Selected field validation error for all 24 predictive checkpoints",
+    "sources": [
+      "selected_checkpoints.csv"
+    ],
+    "pdf_sha256": "62084d6e2ca92ff547229358bdb8d1d33747ffe53f9294b08d0e5819b9fbbadb",
+    "vector": true
+  },
+  {
+    "id": "fig03_control",
+    "description": "All eight controllers; registered paired-parent 95% intervals; dashed 5% margin",
+    "sources": [
+      "control_all_methods.csv"
+    ],
+    "pdf_sha256": "9d410ecb4011b9ccc0a558cbe261eb3b6905ed732aa3d08f1820c89e73d93329",
+    "vector": true
+  },
+  {
+    "id": "fig04_latency",
+    "description": "Pooled raw-request p99 and exact 5 ms miss proportions for all methods",
+    "sources": [
+      "latency_pooled_descriptive.csv"
+    ],
+    "pdf_sha256": "ef98320ebd8c4ef88b14519809aaf709045024889e421e891fa0dba05756ac4e",
+    "vector": true
+  },
+  {
+    "id": "fig05_h1",
+    "description": "Hierarchical seed/session bootstrap intervals and 25% reduction target",
+    "sources": [
+      "h1_results.json"
+    ],
+    "pdf_sha256": "249b15ddb98630dac5bd78ae68d60ef64455ed32045505c41d1a3e270a1abab1",
+    "vector": true
+  },
+  {
+    "id": "fig06_heat",
+    "description": "All observed heat episode events already occur at first advanced step; no later new or upper events",
+    "sources": [
+      "heat_constraint_diagnostic.csv"
+    ],
+    "pdf_sha256": "293b7bfa47d84ad2bb6cbeaa9ab63a8909ad276f3a06447a4868c14d8429a583",
+    "vector": true
+  },
+  {
+    "id": "figS01_training",
+    "description": "Recorded validation histories; phase boundary at update 2000",
+    "sources": [
+      "training_history.csv"
+    ],
+    "pdf_sha256": "980d345ee69af0af3524c8d85f80be677158201fa918e1e53614e7448906d50d",
+    "vector": true
+  }
+]

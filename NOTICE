@@ -1,0 +1,6 @@
+PDNO Control Benchmark
+Copyright 2026 Hyojin Park and Jinhong Yang
+
+Code and original summary/figure assets in this release are distributed under Apache License 2.0. NumPy, SciPy, PyTorch, Matplotlib, PyMuPDF, LaTeX and TikZ are dependencies under their respective licenses; their implementations are not vendored. No IEEE Access template, journal logo, proprietary template font file, author portrait or manuscript PDF is included.
+
+This work was supported by National IT Industry Promotion Agency(NIPA) grant funded by the Korea government(MSIT) (Development of Adaptive Physics-aware Synthetic Data Generation Technology, No.RS-2026-25621689)

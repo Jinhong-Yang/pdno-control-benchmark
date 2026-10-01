@@ -1,0 +1,18 @@
+roles:
+  experiment_execution:
+    requested_model: gpt-6-luna
+    actual_model: null
+    status: unverified_in_this_runtime
+    required_reasoning: high
+    tasks: [preflight, numerics, implementation, pilot, confirmatory_training, calibration, locked_test, timing, evidence_freeze]
+  final_independent_analysis:
+    requested_model: gpt-6-astra
+    actual_model: null
+    status: not_started
+    reserved_wall_hours: 10
+    required_reasoning: xhigh_or_highest_available
+    tasks: [raw_evidence_reaggregation, independent_audit, literature_scope_check, manuscript, journal_package]
+delegation:
+  requires_actual_runtime_model_metadata: true
+  if_unavailable: create_complete_handoff_and_mark_HANDOFF_READY
+  never_claim_unperformed_analysis: true

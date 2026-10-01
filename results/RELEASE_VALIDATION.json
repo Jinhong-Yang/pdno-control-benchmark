@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "date": "2026-10-01",
+  "cpu_tests_passed": 47,
+  "pytest_seconds": 9.20,
+  "cuda_visible_devices": "-1",
+  "new_training_or_test_campaign": false,
+  "interpretation": "CPU implementation tests on the staged release copy, not a GPU benchmark or a rerun of the frozen scientific evaluation."
+}

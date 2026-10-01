@@ -1,0 +1,1004 @@
+[
+  {
+    "path": "src/pdno/__init__.py",
+    "origin": "frozen-v3/src/pdno/__init__.py",
+    "sha256": "fd7c4d219a38b9a673328c63b8ff98659a187741f77800b9f5da2ab7dc885df4",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/controllers/actions.py",
+    "origin": "frozen-v3/src/pdno/controllers/actions.py",
+    "sha256": "d5719d6bea32646377b14a434e1543114f58a7c5d4605d645251a1ff7f0a1085",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/controllers/linear.py",
+    "origin": "frozen-v3/src/pdno/controllers/linear.py",
+    "sha256": "643e090f107f09d5532176773d9a5c50b9c062ace1bed49911ea1c87c0602ad1",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/controllers/objectives.py",
+    "origin": "frozen-v3/src/pdno/controllers/objectives.py",
+    "sha256": "313ebd60bc2b873fbf25bc530c88077cded936f825cf1d9cfb5f73bd1418958e",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/controllers/rom.py",
+    "origin": "frozen-v3/src/pdno/controllers/rom.py",
+    "sha256": "dd058ac5f31e3934c62c242b01d1b37c23e56d9e894ba0d785732e6c770396e1",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/data/audit_generated.py",
+    "origin": "frozen-v3/src/pdno/data/audit_generated.py",
+    "sha256": "162ec8cc81e52428fa4575c21a4972189e1136392f0c4a11d038f33123c974a3",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/data/audit_teacher.py",
+    "origin": "frozen-v3/src/pdno/data/audit_teacher.py",
+    "sha256": "7134dc0b83d738ab830f6aad488450e4d4d4afae8e33a7a2e410b02bfd7a7cce",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/data/causal.py",
+    "origin": "frozen-v3/src/pdno/data/causal.py",
+    "sha256": "9cd1512c4c50428ec7f82f4d43a5790f5665cc3ed1f5d054fc759909141ee6dd",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/data/generate.py",
+    "origin": "frozen-v3/src/pdno/data/generate.py",
+    "sha256": "fa05f889c3b6d424862313b69c49a90f14e36cee51a73f837400faa0e4fedb49",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/data/manifests.py",
+    "origin": "frozen-v3/src/pdno/data/manifests.py",
+    "sha256": "3de644322c676fce0486dd484ba9edf8edf2df43f12a3de3f9a680691f0531c5",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/data/splits.py",
+    "origin": "frozen-v3/src/pdno/data/splits.py",
+    "sha256": "2afcb9f83caa30caccb0d6f3d496ba2b2c5c0c70b652b7f275addd81f6d3e30f",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/data/teacher_queries.py",
+    "origin": "frozen-v3/src/pdno/data/teacher_queries.py",
+    "sha256": "faf7ec46c4c8f1ae67515ae804d8d2f0b65ababcfe47f68587361058416fe707",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/evaluation/__init__.py",
+    "origin": "frozen-v3/src/pdno/evaluation/__init__.py",
+    "sha256": "b152083f34286dc4d011e2fccc116304e210cf0d209c0d01fb5530feaaf9a5ac",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/evaluation/closed_loop.py",
+    "origin": "frozen-v3/src/pdno/evaluation/closed_loop.py",
+    "sha256": "cab74f4e7e9274da57127fa2a24ad53f17213e4a3e8937008a27f00e69f70e9f",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/models/__init__.py",
+    "origin": "frozen-v3/src/pdno/models/__init__.py",
+    "sha256": "19549ac302eccc673b7c064b26f9950b86431e62756314278d2a6bb2168d0eab",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/models/encoders.py",
+    "origin": "frozen-v3/src/pdno/models/encoders.py",
+    "sha256": "344824af7c50671daff77984d0c1e0736666c670962db2d4dbf58a0d9ac1424d",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/models/operators.py",
+    "origin": "frozen-v3/src/pdno/models/operators.py",
+    "sha256": "4576ddf2c2ec49a56443022b12a842f83f0f36d7cfc03b08c08f9d5309aca603",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/models/policies.py",
+    "origin": "frozen-v3/src/pdno/models/policies.py",
+    "sha256": "6c5cabb7c444fe7f246f805b26cefe8ca68b472d5f7e9f1545a13d7f79d96b23",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/physics/__init__.py",
+    "origin": "frozen-v3/src/pdno/physics/__init__.py",
+    "sha256": "475f4d687b2b34b0ffaf3633897092b4729eee08eca6f3329505a05340ac49f0",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/physics/burgers.py",
+    "origin": "frozen-v3/src/pdno/physics/burgers.py",
+    "sha256": "9497b122e7eb585bd12867adadfb55c6e8c36a29828a79f14717f457eb38e7b0",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/physics/finite_volume.py",
+    "origin": "frozen-v3/src/pdno/physics/finite_volume.py",
+    "sha256": "48116795acecd9a3adfc7e1155670f7efb4c1fce8d2c27f0d6a8cd5a3dfad938",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/physics/heat.py",
+    "origin": "frozen-v3/src/pdno/physics/heat.py",
+    "sha256": "0da5b5df6f811af43ecf54a4347f671945ccaa08a13f35d6adb260f4094e9a6c",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/training/__init__.py",
+    "origin": "frozen-v3/src/pdno/training/__init__.py",
+    "sha256": "56deb9c1ba1c77a92e41910b5475663f6a291093c592bd42d4c3a636d7f7dc7f",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/training/confirmatory.py",
+    "origin": "frozen-v3/src/pdno/training/confirmatory.py",
+    "sha256": "8dddb65948e9cf698325720a74fda5d2496dfe3f6108b12c66973c55547bcd30",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/training/fit.py",
+    "origin": "frozen-v3/src/pdno/training/fit.py",
+    "sha256": "d090b9a9dfa21f69fdda3a6cb8c5f58bd8bde419e180a8c59a9662de7ab1eeb6",
+    "unchanged": true
+  },
+  {
+    "path": "src/pdno/training/losses.py",
+    "origin": "frozen-v3/src/pdno/training/losses.py",
+    "sha256": "36442d274d2e003abccfa81b89236ec7175ac09b3d9eb8da9beb5de5f16e2336",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_action_accounting.py",
+    "origin": "frozen-v3/tests/test_action_accounting.py",
+    "sha256": "7a6f779dcd79dec90e404ae6c94135f2a9c8bf8dc7e13864b690ed9b980fd34f",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_causality.py",
+    "origin": "frozen-v3/tests/test_causality.py",
+    "sha256": "395878f26607cc8aa35d09e276038807778831768e691d238a6a6922fbef7607",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_closed_loop.py",
+    "origin": "frozen-v3/tests/test_closed_loop.py",
+    "sha256": "c04644ec1459734389f2f6bb259bb35c761ccb4affb5b58f6fee049470535b46",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_data_contract_audits.py",
+    "origin": "frozen-v3/tests/test_data_contract_audits.py",
+    "sha256": "da75c6e6a1a25cea47e8211b820c39e727ce114fb379013120a94383de685e30",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_encoder_normalizer.py",
+    "origin": "frozen-v3/tests/test_encoder_normalizer.py",
+    "sha256": "d023ee166749df504c751944edb5e0e045f1305f2c0e09dc005420eb8d9325f9",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_numerics.py",
+    "origin": "frozen-v3/tests/test_numerics.py",
+    "sha256": "5f04798438d0df74b8c6f41011ef9b48d7fe39fc2820d18da01d630c1abafc45",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_objective_constraints.py",
+    "origin": "frozen-v3/tests/test_objective_constraints.py",
+    "sha256": "29e59a5203ed200e6785a70c48064e488385e9167535b9f93ce5e8dc92d54f9a",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_operator_factorization.py",
+    "origin": "frozen-v3/tests/test_operator_factorization.py",
+    "sha256": "636069f50a8f52a3b4202cd7c8acaf9c55b4af4157798fea515f7fb1c89f9145",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_rom_controller.py",
+    "origin": "frozen-v3/tests/test_rom_controller.py",
+    "sha256": "0b6add8e1a0ad16160da253029d7875ca2b69b1f9957e5bdc070cdc49e45588c",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_splits.py",
+    "origin": "frozen-v3/tests/test_splits.py",
+    "sha256": "1d14bb8d4b84882c8810e2ca5a10b8b3e32fb987fc2b112bdb3ca083ca62fae4",
+    "unchanged": true
+  },
+  {
+    "path": "tests/test_training_losses.py",
+    "origin": "frozen-v3/tests/test_training_losses.py",
+    "sha256": "3205230ee9f5d225b05cb0dc4a6134b2ce4e24d46bf6cd3643f39138fffcab34",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/aggregate_locked_test.py",
+    "origin": "frozen-v3/scripts/aggregate_locked_test.py",
+    "sha256": "1f863741e683a6cff703c8b1c88dbcb4a84d0eee633e2bc14835d0162ee3ef3e",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/aggregate_locked_test_v2.py",
+    "origin": "frozen-v3/scripts/aggregate_locked_test_v2.py",
+    "sha256": "cff29bf74960dc52629cb2f8cf6be6ed2b6632bfc47cdd736747bdd64ea6b997",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/aggregate_locked_test_v3.py",
+    "origin": "frozen-v3/scripts/aggregate_locked_test_v3.py",
+    "sha256": "2043b07b5a0dd31276d9a1900c526ddcb4bb71f59d943ea3c706ac8b88845024",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/analyze_latency.py",
+    "origin": "frozen-v3/scripts/analyze_latency.py",
+    "sha256": "d1909303859b7637ad2ae6f4d5e15f7d4778a895ffaed4d392ba7d8d4669a5ab",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/analyze_latency_v2.py",
+    "origin": "frozen-v3/scripts/analyze_latency_v2.py",
+    "sha256": "4ef5283a1bcd0178e1af2b90f67c8751525889b9879f341cf7ccac8be22f8800",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/analyze_latency_v3.py",
+    "origin": "frozen-v3/scripts/analyze_latency_v3.py",
+    "sha256": "ddffdf3379a5e3ca9c833682cbd982eeb176b5dc18f6344a0567e5af4584a5f2",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/audit_calibration.py",
+    "origin": "frozen-v3/scripts/audit_calibration.py",
+    "sha256": "cf0fd0b53aba5591675cfe01262fc128a233f55e64110e360f4572b1f954c08a",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/audit_calibration_lock_v2.py",
+    "origin": "frozen-v3/scripts/audit_calibration_lock_v2.py",
+    "sha256": "4f719aa7a8282809ad5f2320bd6ca695a46dbcc2b9672ae29e8cfde5053b7290",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/audit_calibration_lock_v3.py",
+    "origin": "frozen-v3/scripts/audit_calibration_lock_v3.py",
+    "sha256": "f0ac801c955045b13bd65dcda6d2e1bc2301fb1a363fe37f9a24942cfc16576a",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/audit_calibration_queries_v2.py",
+    "origin": "frozen-v3/scripts/audit_calibration_queries_v2.py",
+    "sha256": "ea4820e2d28e07be38842088d2a9522a31b0a45ab48d4973a175c189a0690b12",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/audit_calibration_queries_v3.py",
+    "origin": "frozen-v3/scripts/audit_calibration_queries_v3.py",
+    "sha256": "d95b38e5ed3727cb0550c9741f272c3dfb273562837a70c116260e2c0968213c",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/audit_data.py",
+    "origin": "frozen-v3/scripts/audit_data.py",
+    "sha256": "846e8f0c63be9522b8ada1d4fce5d318eb6485ea77e30b44a50d45f277225149",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/audit_locked_roles.py",
+    "origin": "frozen-v3/scripts/audit_locked_roles.py",
+    "sha256": "36ce33838e56fa03539f9fc6fafbafc807f7f0a51172b8b62ca8a34b9daaf9e6",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/audit_locked_roles_v2.py",
+    "origin": "frozen-v3/scripts/audit_locked_roles_v2.py",
+    "sha256": "438e03d64b7b7bc29147a40b26a93b8750f0b85d5f6fe0059a8512035c39e849",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/audit_locked_roles_v3.py",
+    "origin": "frozen-v3/scripts/audit_locked_roles_v3.py",
+    "sha256": "5a0e0c89e70f61c32a1f83c75933ca82cc33bf64927ff6a1e72f63e1ff2ca9c1",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/audit_observation_floor.py",
+    "origin": "frozen-v3/scripts/audit_observation_floor.py",
+    "sha256": "66f2921c44641520a6280afece3d5eba73f85b50e4dfea1b8c8e9f1e923e2dfe",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/audit_parent_lineage_v3.py",
+    "origin": "frozen-v3/scripts/audit_parent_lineage_v3.py",
+    "sha256": "6c38d755bc7d7562368646a130489a903ca04a0dcd601f7106f984e07b30e887",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/audit_teacher_queries.py",
+    "origin": "frozen-v3/scripts/audit_teacher_queries.py",
+    "sha256": "f4c2672a53dd6e45387ebf9a7478f1f1a2495cc413b1848c0c0fdc2366b093d4",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/audit_v3_runner_contracts.py",
+    "origin": "frozen-v3/scripts/audit_v3_runner_contracts.py",
+    "sha256": "85e06d07a6243a2d2062135ee09e57ebc0e9a9d604f59640732ca506a9b1f836",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/audit_validation_comparator_v2.py",
+    "origin": "frozen-v3/scripts/audit_validation_comparator_v2.py",
+    "sha256": "37e86f4c23df3300489975851e858917d303f754d4fce02da022ed6e648bda11",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/audit_validation_comparator_v3.py",
+    "origin": "frozen-v3/scripts/audit_validation_comparator_v3.py",
+    "sha256": "90f615b7a42b9d7466527d2a5414c6ab873567ae5dd5557a363cbb0190517912",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/benchmark_host_e2e.py",
+    "origin": "frozen-v3/scripts/benchmark_host_e2e.py",
+    "sha256": "8dfd0cea9e243d26f39972892fe19501c53852193f5f993435aafc2528b03e6c",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/benchmark_host_e2e_v2.py",
+    "origin": "frozen-v3/scripts/benchmark_host_e2e_v2.py",
+    "sha256": "ba35745b5989824929074d23df2dbdaf3ebcc9250ebe3605550a205ef8cd04c3",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/benchmark_host_e2e_v3.py",
+    "origin": "frozen-v3/scripts/benchmark_host_e2e_v3.py",
+    "sha256": "0db3169647c1249dda2b2ce5ea732ecf57696e3a24fd5bf1c58a46caf0698246",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/benchmark_validation_rollout_v2.py",
+    "origin": "frozen-v3/scripts/benchmark_validation_rollout_v2.py",
+    "sha256": "5a190e0de0e12fc0b8564afc4c71c88b8f01776362660eac2682bcc4c765c34d",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/build_parent_manifest.py",
+    "origin": "frozen-v3/scripts/build_parent_manifest.py",
+    "sha256": "a8f4407f1760bc375bc571b5ae66bc7c103cc9175520b762f2760458ee3a7b15",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/calibrate_forecast_margins.py",
+    "origin": "frozen-v3/scripts/calibrate_forecast_margins.py",
+    "sha256": "acb4dc674840bd2fb18fbfed056a2eb20f083ab9133ad6e76c7579993a1d1319",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/calibrate_forecast_margins_v2.py",
+    "origin": "frozen-v3/scripts/calibrate_forecast_margins_v2.py",
+    "sha256": "532a7acaac8a4b2f6547763cd9da1dd254e14b1cfc9b6d7c7cb6d37f053400dd",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/calibrate_forecast_margins_v3.py",
+    "origin": "frozen-v3/scripts/calibrate_forecast_margins_v3.py",
+    "sha256": "08f43bc6fa191778389bd254128dae2982d224f7e6b7728d6cd80cb541a70aa2",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/deployed_solver_audit_v3.py",
+    "origin": "frozen-v3/scripts/deployed_solver_audit_v3.py",
+    "sha256": "a7e00348fdc9826b38ef3b7ca35294a611db9e647d40259ac1ee5e699cb1e78e",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/estimate_v2_evaluation_budget.py",
+    "origin": "frozen-v3/scripts/estimate_v2_evaluation_budget.py",
+    "sha256": "31816fce297ed299a0424612c543f4706a3a578906e537e354ca83604a6e0d5f",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/evaluate_classical_pilots.py",
+    "origin": "frozen-v3/scripts/evaluate_classical_pilots.py",
+    "sha256": "0761533cad02aee5bf175f9f8519cc94ab35ffa6a2b0cf24ec3dab70f2ab7cee",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/evaluate_pilot.py",
+    "origin": "frozen-v3/scripts/evaluate_pilot.py",
+    "sha256": "7ce3c718a27d6dfcc0a2ff179513074f106ca2ce0b52668f9bc7ae9e1c46b87c",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/evaluate_selected_pilot_g2_v2.py",
+    "origin": "frozen-v3/scripts/evaluate_selected_pilot_g2_v2.py",
+    "sha256": "dcbe70732b35c5211a4e0cd7978049f373ea6b0155113fbc2f79c9af3e87fd89",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/freeze_checkpoint_manifest.py",
+    "origin": "frozen-v3/scripts/freeze_checkpoint_manifest.py",
+    "sha256": "e8f6649b94f844165f85f723b3d71f70e6a59b6077a64645ca2cd14dffae4ad5",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/freeze_checkpoint_manifest_v2.py",
+    "origin": "frozen-v3/scripts/freeze_checkpoint_manifest_v2.py",
+    "sha256": "ac0a508b75c844f33fe28df22551bec3dfc38c2caf0a4b6eec958fe3c6acb1a3",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/freeze_checkpoint_manifest_v3.py",
+    "origin": "frozen-v3/scripts/freeze_checkpoint_manifest_v3.py",
+    "sha256": "a62d02e28bc3f2071e6926297db890236f066fbfe3a5c979e3e4da830ccceaee",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/freeze_locked_evaluation.py",
+    "origin": "frozen-v3/scripts/freeze_locked_evaluation.py",
+    "sha256": "24f1fc7e893d8c5080dba8e5667293f38a5a2fb5b16ec3ac187f3cc630adf6e8",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/freeze_locked_evaluation_v2.py",
+    "origin": "frozen-v3/scripts/freeze_locked_evaluation_v2.py",
+    "sha256": "e9d9113009414a076260213dae50e8c1bdd5b8ed781625f388977be1ea9733e9",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/freeze_locked_evaluation_v3.py",
+    "origin": "frozen-v3/scripts/freeze_locked_evaluation_v3.py",
+    "sha256": "ac6e7af5f734c7bb02f6485ac88bd784b543957a65a4bdd9c0659fddde05cd16",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/freeze_pretraining_spec_v2.py",
+    "origin": "frozen-v3/scripts/freeze_pretraining_spec_v2.py",
+    "sha256": "725c5bd14dda64e66aeb00b37c0c46f1a7bd95c6e7d0b45656798f229bb0db2f",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/freeze_pretraining_spec_v3.py",
+    "origin": "frozen-v3/scripts/freeze_pretraining_spec_v3.py",
+    "sha256": "e8db12dcdf522e58ca723d2cb7a78bdb46082fd97c972a04b4cac12ca1a146f4",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/freeze_raw_evidence_v3.py",
+    "origin": "frozen-v3/scripts/freeze_raw_evidence_v3.py",
+    "sha256": "5584e3b2d7e757cbd342d05881364dc4d97def473fa858ffe44c4f49ae619115",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/generate_calibration_data.py",
+    "origin": "frozen-v3/scripts/generate_calibration_data.py",
+    "sha256": "384a24dc177fb7df4e6402f97b4ad5a17e84594ca1f9cd0a3256b3425bd10f60",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/generate_calibration_data_v2.py",
+    "origin": "frozen-v3/scripts/generate_calibration_data_v2.py",
+    "sha256": "d88dba49b40498875974b0d9602704ad7abbfa8fbfbc5940de60e0dd83e52fb2",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/generate_calibration_data_v3.py",
+    "origin": "frozen-v3/scripts/generate_calibration_data_v3.py",
+    "sha256": "c642b4351efb374b0dd74bbf2934fc623071a470731d30b1454853dd131b0da5",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/generate_calibration_queries.py",
+    "origin": "frozen-v3/scripts/generate_calibration_queries.py",
+    "sha256": "1c78ffd3be811610ee24b18286b193b9c9993fbbbc120ae3e0e21b2fdb008c56",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/generate_calibration_queries_v2.py",
+    "origin": "frozen-v3/scripts/generate_calibration_queries_v2.py",
+    "sha256": "fd326af8be5ff6b82730fd04dfd1e4bb460782fac3aea78fee304aa16760fc13",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/generate_calibration_queries_v3.py",
+    "origin": "frozen-v3/scripts/generate_calibration_queries_v3.py",
+    "sha256": "de61fa848d57a4821f09a338486f073258bfd9e5b6c03a87d0f24684bda4900f",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/generate_data.py",
+    "origin": "frozen-v3/scripts/generate_data.py",
+    "sha256": "09627bf381f16d63b32d9c74a3bbf81f8d08ca9434a409b046835261301d59de",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/generate_locked_data_v2.py",
+    "origin": "frozen-v3/scripts/generate_locked_data_v2.py",
+    "sha256": "ec755cda965de2540d426d9907340d9e28cabf95cf1aeaa7b4ea93312b23ac4a",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/generate_locked_data_v3.py",
+    "origin": "frozen-v3/scripts/generate_locked_data_v3.py",
+    "sha256": "c82153198496f66cad92d48f02f90504ac83d8f9b6da2df6b7a63f5c223c0d37",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/generate_teacher_queries.py",
+    "origin": "frozen-v3/scripts/generate_teacher_queries.py",
+    "sha256": "01a083ab18ae2444e77cb029d61808d70069a40bd366880be1c1590178d7bc92",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/pilot_closed_loop_runtime.py",
+    "origin": "frozen-v3/scripts/pilot_closed_loop_runtime.py",
+    "sha256": "c974015c6640903d83762116f1f89df4a2d526c456c6d9c4eeed240aedac699c",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/pilot_closed_loop_runtime_v3.py",
+    "origin": "frozen-v3/scripts/pilot_closed_loop_runtime_v3.py",
+    "sha256": "8c40a8e036b734c98dff7de02019a90578331bb547160390317684ca79a56618",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/profile_training_classes.py",
+    "origin": "frozen-v3/scripts/profile_training_classes.py",
+    "sha256": "8443476f173cb0041f7e3c5748baab09fd7d937598a06097cf9fcf6221881885",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_confirmatory_models.py",
+    "origin": "frozen-v3/scripts/run_confirmatory_models.py",
+    "sha256": "4d1457e8c1d8c9cdc9ecbc32edf51e250ec02f50984bc46912574d594fa40911",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_confirmatory_models_v2.py",
+    "origin": "frozen-v3/scripts/run_confirmatory_models_v2.py",
+    "sha256": "88aa192137acf1bcf905d7fcb2e1ecbf9bfcf5c272da517bd327318518f2eb77",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_confirmatory_models_v3.py",
+    "origin": "frozen-v3/scripts/run_confirmatory_models_v3.py",
+    "sha256": "ef6c07e007c9aac91cefd8f8c63d4a9d8eafebb4aaf84cc25b09e051e7a49907",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_full_pilot.py",
+    "origin": "frozen-v3/scripts/run_full_pilot.py",
+    "sha256": "2f71fb5beddc530087ae607662af58c0e7eeebf5a0f1d7a6621ebbe6f9dff218",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_locked_test_once.py",
+    "origin": "frozen-v3/scripts/run_locked_test_once.py",
+    "sha256": "fa6627a02f12863aeadfe48930492d8006fa5413dcf4b12cb1f524f3f893af75",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_locked_test_once_v2.py",
+    "origin": "frozen-v3/scripts/run_locked_test_once_v2.py",
+    "sha256": "064b81af025f0f52f580b686d669e4b6bf3576548105cd78b85e4e5682b1c299",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_locked_test_once_v3.py",
+    "origin": "frozen-v3/scripts/run_locked_test_once_v3.py",
+    "sha256": "b03d8adb422b988e022187aea8d0e350d270a4e81f302374192da7977a136dcc",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_v3_g2_pilot.py",
+    "origin": "frozen-v3/scripts/run_v3_g2_pilot.py",
+    "sha256": "445d291d72db076d6c0e6635b95c570204eeb2c69803cad266580d3959e11da8",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/select_validation_checkpoints_v2.py",
+    "origin": "frozen-v3/scripts/select_validation_checkpoints_v2.py",
+    "sha256": "acca4b4422c51db41ec64162816e715bd5e5198b8f5864d27b7763a73bb63436",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/select_validation_comparator.py",
+    "origin": "frozen-v3/scripts/select_validation_comparator.py",
+    "sha256": "0b8ffe7d68667443a4f85a2c3d0f070083df846fe915d5d5239ca9ea247eec97",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/select_validation_comparator_v2.py",
+    "origin": "frozen-v3/scripts/select_validation_comparator_v2.py",
+    "sha256": "de150a1331548abeade3b7a16c1cd13b82e9ceaee1805cab7aa5a324d497d633",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/select_validation_comparator_v3.py",
+    "origin": "frozen-v3/scripts/select_validation_comparator_v3.py",
+    "sha256": "9599c312662e2da5a99773da656fcad1b521dea68231dc0f4a350e4c3cfe5142",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/smoke_closed_loop.py",
+    "origin": "frozen-v3/scripts/smoke_closed_loop.py",
+    "sha256": "0d45354620a9dc597495b1d1e2df7f0c98c488abf2205b27411900d3638455ab",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/smoke_closed_loop_v2.py",
+    "origin": "frozen-v3/scripts/smoke_closed_loop_v2.py",
+    "sha256": "a0219e24874572971167594be9c0f079c96de9d965a38c9d2113100897927bc1",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/smoke_confirmatory.py",
+    "origin": "frozen-v3/scripts/smoke_confirmatory.py",
+    "sha256": "cbb60570e9e28637cb3e15b3890c7f02eff2d35af511aefe51095daa2c1dd984",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/smoke_train_normalizer_v2.py",
+    "origin": "frozen-v3/scripts/smoke_train_normalizer_v2.py",
+    "sha256": "3d650ad3f40278737809f891aafaf4eddf2b5cffb76e5eb15c32cf80317ccf92",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/solver_refinement_audit.py",
+    "origin": "frozen-v3/scripts/solver_refinement_audit.py",
+    "sha256": "7f7c0cf45c788f36b6aac998789c0088f2a6067bdd77e4cd90441d856e5dd674",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/summarize_confirmatory.py",
+    "origin": "frozen-v3/scripts/summarize_confirmatory.py",
+    "sha256": "c3dc596e52ab705766f2650af1b28b5405d770a6d3c3f8ada030701684c033a1",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/summarize_cuda_optimizer_v2.py",
+    "origin": "frozen-v3/scripts/summarize_cuda_optimizer_v2.py",
+    "sha256": "55b024fd528a061cd1374a283608fc7c64546267bccaf13335730ed9fb79f05d",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/train_pilot.py",
+    "origin": "frozen-v3/scripts/train_pilot.py",
+    "sha256": "89e225b1cebba7cef22078f5766e86787858d6265758a3eed9def80c80f984cf",
+    "unchanged": true
+  },
+  {
+    "path": "config/final_spec_v3.json",
+    "origin": "frozen-v3/config/final_spec_v3.json",
+    "sha256": "afc57e2be4d9af716c7c43ba53c3a51ccaac0a1843c8bc9363ad00b2362a8902",
+    "unchanged": true
+  },
+  {
+    "path": "config/checkpoint_selection_v3.yaml",
+    "origin": "frozen-v3/config/checkpoint_selection_v3.yaml",
+    "sha256": "83f42a7ad1e83d09583fa4cd135b383bfa0f473915a75d7b6d4c2c00b70ff6a2",
+    "unchanged": true
+  },
+  {
+    "path": "config/evaluation_addendum_v3.yaml",
+    "origin": "frozen-v3/config/evaluation_addendum_v3.yaml",
+    "sha256": "a5c4590224975047e4c8175c996e15b74588cd97de03c14e519d0121132fa89c",
+    "unchanged": true
+  },
+  {
+    "path": "config/v3_preregistration.yaml",
+    "origin": "frozen-v3/config/v3_preregistration.yaml",
+    "sha256": "1601723faa5c8de683faf02697be014b5077c4215182122a21da17bf3fded98d",
+    "unchanged": true
+  },
+  {
+    "path": "config/baseline_registry.csv",
+    "origin": "frozen-v3/config/baseline_registry.csv",
+    "sha256": "5fb21da125d3aa56b68bba9d7f5e6146eea14aa0818f11259f3acf62fcc33460",
+    "unchanged": true
+  },
+  {
+    "path": "config/model_roles.yaml",
+    "origin": "frozen-v3/config/model_roles.yaml",
+    "sha256": "07ab74cb20157f30cae98cd59cce2ad702a1e169df69b7c08516b8f28108637f",
+    "unchanged": true
+  },
+  {
+    "path": "pyproject.toml",
+    "origin": "frozen-v3/pyproject.toml",
+    "sha256": "cb600b38a16a5ab7879a0496c2cb867fcbc5cd6aea70e232c603bf7c5e5b15fb",
+    "unchanged": true
+  },
+  {
+    "path": "reports/audit_frozen_v3.py",
+    "origin": "frozen-v3/reports/audit_frozen_v3.py",
+    "sha256": "1d0dde86bdf00a285265b493931672c09a9d8bf4c3e70d66a431abfabbaac9cd",
+    "unchanged": true
+  },
+  {
+    "path": "publication/data/calibration_margins.csv",
+    "origin": "publication/data/calibration_margins.csv",
+    "sha256": "c5e443647e44db1324726d566bd0084f12ade005d3b2cf0d8ea4ece4a54bd5aa",
+    "unchanged": true
+  },
+  {
+    "path": "publication/data/control_all_methods.csv",
+    "origin": "publication/data/control_all_methods.csv",
+    "sha256": "a95f79272504bbdd50f5d75ee6aacde27d14db27c89f3449a2364bfb337a571a",
+    "unchanged": true
+  },
+  {
+    "path": "publication/data/figure_provenance.json",
+    "origin": "publication/data/figure_provenance.json",
+    "sha256": "33c0697c5b5eb040a0bcf8a6f8a36b2f7a38761ad7f57bf31ecc6383963dc8ae",
+    "unchanged": true
+  },
+  {
+    "path": "publication/data/final_spec_v3.json",
+    "origin": "publication/data/final_spec_v3.json",
+    "sha256": "afc57e2be4d9af716c7c43ba53c3a51ccaac0a1843c8bc9363ad00b2362a8902",
+    "unchanged": true
+  },
+  {
+    "path": "publication/data/h1_results.json",
+    "origin": "publication/data/h1_results.json",
+    "sha256": "72444aaa5175ec0e389aeacd587fee987e165ad2cd417c9fdc129d4ef3d1fda4",
+    "unchanged": true
+  },
+  {
+    "path": "publication/data/heat_constraint_diagnostic.csv",
+    "origin": "publication/data/heat_constraint_diagnostic.csv",
+    "sha256": "b0e83a4c25577d0fda5a5b6e34ad1b360160e4e8609d5100922d5db659341912",
+    "unchanged": true
+  },
+  {
+    "path": "publication/data/latency_analysis_v3.json",
+    "origin": "publication/data/latency_analysis_v3.json",
+    "sha256": "f46114814f3f0b59dc27659336c73d9b8ade9d87c0cb62b30022aad879d584f4",
+    "unchanged": true
+  },
+  {
+    "path": "publication/data/latency_per_seed.csv",
+    "origin": "publication/data/latency_per_seed.csv",
+    "sha256": "50f5064774a445f82bbd14d37da2a12af80329bddccaeabcdf4789587b82845a",
+    "unchanged": true
+  },
+  {
+    "path": "publication/data/latency_pooled_descriptive.csv",
+    "origin": "publication/data/latency_pooled_descriptive.csv",
+    "sha256": "f4b6cef4f93550ec44faf220b2ff34239c15317bb8bb1f24df1c2e8e6f594ee9",
+    "unchanged": true
+  },
+  {
+    "path": "publication/data/P_B5_matched_actions.csv",
+    "origin": "publication/data/P_B5_matched_actions.csv",
+    "sha256": "38dc9792543abf10cbe3d40d996d6c75fa4b42587e64c2036202dbca7355c16f",
+    "unchanged": true
+  },
+  {
+    "path": "publication/data/selected_checkpoints.csv",
+    "origin": "publication/data/selected_checkpoints.csv",
+    "sha256": "b4b73cc78f14c9857df1d12ec6fe9ba158b001694f2f80652fe98b3fc5aa65ae",
+    "unchanged": true
+  },
+  {
+    "path": "publication/data/training_history.csv",
+    "origin": "publication/data/training_history.csv",
+    "sha256": "999115b45060de48016ecc60751ae1612bd05249ebd7b10ab6ab193637be13ee",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/fig01_design.pdf",
+    "origin": "publication/figures/fig01_design.pdf",
+    "sha256": "6bc2180f3f66c87476e68d974f8599ccb12e653c90bf9cbd6c78c53ffb18eb49",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/fig01_design.png",
+    "origin": "publication/figures/fig01_design.png",
+    "sha256": "a953ff4837b7b40de76b484953e11394607d3ba0d61a6cf94efcc635fd7e16bf",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/fig01_design.svg",
+    "origin": "publication/figures/fig01_design.svg",
+    "sha256": "004b3daccbb957c155e5b1b02acfde5985863d94dd98b8531b7661155d565c1b",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/fig01_design.tex",
+    "origin": "publication/figures/fig01_design.tex",
+    "sha256": "4ed832aae629a01ca0f99181f32ea529ec02dd5f2efc3e252832f7be23853c97",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/fig02_prediction.pdf",
+    "origin": "publication/figures/fig02_prediction.pdf",
+    "sha256": "62084d6e2ca92ff547229358bdb8d1d33747ffe53f9294b08d0e5819b9fbbadb",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/fig02_prediction.png",
+    "origin": "publication/figures/fig02_prediction.png",
+    "sha256": "131134b303eb9b0d9c87be92c4a58127fcfa68594345632d6f7a0e42d46656c9",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/fig02_prediction.svg",
+    "origin": "publication/figures/fig02_prediction.svg",
+    "sha256": "ede6783cef3519b055989e9f6ec434f07e952a2f207074534ab3a986531baf1b",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/fig03_control.pdf",
+    "origin": "publication/figures/fig03_control.pdf",
+    "sha256": "9d410ecb4011b9ccc0a558cbe261eb3b6905ed732aa3d08f1820c89e73d93329",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/fig03_control.png",
+    "origin": "publication/figures/fig03_control.png",
+    "sha256": "4c30e129b9887d2c516778ad94be102408a64e3a7fa1d5bd8cb8861893af3a9e",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/fig03_control.svg",
+    "origin": "publication/figures/fig03_control.svg",
+    "sha256": "52d67f5b2a18e1de2e3bd49ded44ab266f32c2a44bef86cd755f3f4103b245e5",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/fig04_latency.pdf",
+    "origin": "publication/figures/fig04_latency.pdf",
+    "sha256": "ef98320ebd8c4ef88b14519809aaf709045024889e421e891fa0dba05756ac4e",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/fig04_latency.png",
+    "origin": "publication/figures/fig04_latency.png",
+    "sha256": "d6cbcbd7ae6facbfb3005714821bc44d7754cf153f677427e845a24495465083",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/fig04_latency.svg",
+    "origin": "publication/figures/fig04_latency.svg",
+    "sha256": "b0d3406f79c011264789efcefe7c1fd88a1a076ea62b40870445b536bf9ca2ae",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/fig05_h1.pdf",
+    "origin": "publication/figures/fig05_h1.pdf",
+    "sha256": "249b15ddb98630dac5bd78ae68d60ef64455ed32045505c41d1a3e270a1abab1",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/fig05_h1.png",
+    "origin": "publication/figures/fig05_h1.png",
+    "sha256": "ef46f32a26784d9068aced3e4a442dd5b0cc3cebddb52515ef527793e85a04fb",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/fig05_h1.svg",
+    "origin": "publication/figures/fig05_h1.svg",
+    "sha256": "cd7e4217071560dda2a0a946059f1f3371ee3aafca96aeb11476a93aea7a5d28",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/fig06_heat.pdf",
+    "origin": "publication/figures/fig06_heat.pdf",
+    "sha256": "293b7bfa47d84ad2bb6cbeaa9ab63a8909ad276f3a06447a4868c14d8429a583",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/fig06_heat.png",
+    "origin": "publication/figures/fig06_heat.png",
+    "sha256": "35e3e250a286044d325d9397e21de010d261dcd6c6a17da4bb72192d42bd738c",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/fig06_heat.svg",
+    "origin": "publication/figures/fig06_heat.svg",
+    "sha256": "ce2b243e586a2cd82e07ceff06602417cfdbafaba95e783c6c8ca429d89690d6",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/figS01_training.pdf",
+    "origin": "publication/figures/figS01_training.pdf",
+    "sha256": "980d345ee69af0af3524c8d85f80be677158201fa918e1e53614e7448906d50d",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/figS01_training.png",
+    "origin": "publication/figures/figS01_training.png",
+    "sha256": "b49394511007c8260cb7c12430d5f85e529fbe185bf697451c538fedfe39dddc",
+    "unchanged": true
+  },
+  {
+    "path": "publication/figures/figS01_training.svg",
+    "origin": "publication/figures/figS01_training.svg",
+    "sha256": "7239917fd1e8ba1eda7ae7fc8e57c52463b6f8f89d216b895caac78980232ac5",
+    "unchanged": true
+  },
+  {
+    "path": "publication/tables/nominal.tex",
+    "origin": "publication/tables/nominal.tex",
+    "sha256": "4422c65712671c3e7529bb67fa93397d255631e2fa3d7c7e54ef9ba644b7ec52",
+    "unchanged": true
+  },
+  {
+    "path": "publication/tables/supp_calibration.tex",
+    "origin": "publication/tables/supp_calibration.tex",
+    "sha256": "83dab84b3383b5158c1587af0916cb1f8ec4f43adc06d065c9767f24ce892f5b",
+    "unchanged": true
+  },
+  {
+    "path": "publication/tables/supp_control.tex",
+    "origin": "publication/tables/supp_control.tex",
+    "sha256": "f76814ef848da36d3d145c46634f9fd78147330c1d706f3011503a13da399142",
+    "unchanged": true
+  },
+  {
+    "path": "publication/tables/supp_latency.tex",
+    "origin": "publication/tables/supp_latency.tex",
+    "sha256": "781f09da06dbb0ffb5850b3a7234d49d73b1f66a0cc5645238194425171f7614",
+    "unchanged": true
+  },
+  {
+    "path": "publication/scripts/build_diagram.py",
+    "origin": "publication/scripts/build_diagram.py",
+    "sha256": "a379c1e2e5ee821fce93bd9bc8edcd67c8fbddf4607b5eb812c622cdd234b105",
+    "unchanged": true
+  },
+  {
+    "path": "publication/scripts/build_figures.py",
+    "origin": "publication/scripts/build_figures.py",
+    "sha256": "3bd80d0e83d36b1025b4309868ef4afaea1d1c2f5466e727bfc6fe3c97267409",
+    "unchanged": true
+  },
+  {
+    "path": "publication/scripts/build_tables.py",
+    "origin": "publication/scripts/build_tables.py",
+    "sha256": "0fc326f56c2c2ae7bd13e314c176b1607058184aed8434cb7a7ba56222ab04cd",
+    "unchanged": true
+  },
+  {
+    "path": "publication/requirements-figures.txt",
+    "origin": "publication/requirements-figures.txt",
+    "sha256": "7a884ea6400b02ead1a07413af0433f6363bcf861c9aa0082d1f7e7be0eaecc3",
+    "unchanged": true
+  },
+  {
+    "path": "publication/FIGURE_GUIDE.md",
+    "origin": "publication/FIGURE_GUIDE.md",
+    "sha256": "351bafc036863c81110878a5e7395ea47bbf11ce865daf86a4fc49955f5f4347",
+    "unchanged": true
+  },
+  {
+    "path": "results/control_per_seed.csv",
+    "origin": "frozen-v3/reports/analysis_20260928/control_per_seed.csv",
+    "sha256": "c0eb7121ef204cf1624be8618ffcdabe09ec6ab28d232efd78a9e55ef1960d71",
+    "unchanged": true
+  },
+  {
+    "path": "results/audit.json",
+    "origin": "frozen-v3/reports/analysis_20260928/audit.json",
+    "sha256": "1933f8d81664727664e609b61c41cfca9e0480f23a8a65d88c4d22d260f468b4",
+    "unchanged": true
+  },
+  {
+    "path": "results/claim_evidence.csv",
+    "origin": "frozen-v3/reports/claim_evidence.csv",
+    "sha256": "abaacc91eaff09bbf5edad6d57bf7907ddb00c5da8d13f5fd2f1c137e0180280",
+    "unchanged": true
+  }
+]

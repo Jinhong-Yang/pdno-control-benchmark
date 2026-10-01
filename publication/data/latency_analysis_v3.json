@@ -1,0 +1,730 @@
+{
+  "H1_p99_ratio_analysis": [
+    {
+      "bootstrap_replicates": 10000,
+      "comparison": "P/B4 host-ready p99 ratio; <1 favors P",
+      "hierarchical_seed_session_bootstrap_ci95": [
+        0.9786750183037668,
+        0.9928970228848052
+      ],
+      "interpretation": "descriptive with seed/session uncertainty; sessions are not independent environments",
+      "learned_seeds": 3,
+      "mean_per_seed_ratio": 0.9859115128190182,
+      "pde": "burgers",
+      "per_seed_p99_ratio": {
+        "11": 0.9840465606760314,
+        "23": 0.9831487815718785,
+        "37": 0.9905391962091449
+      },
+      "sessions": 3
+    },
+    {
+      "bootstrap_replicates": 10000,
+      "comparison": "P/B4 host-ready p99 ratio; <1 favors P",
+      "hierarchical_seed_session_bootstrap_ci95": [
+        0.9849270197970985,
+        1.0016314919169
+      ],
+      "interpretation": "descriptive with seed/session uncertainty; sessions are not independent environments",
+      "learned_seeds": 3,
+      "mean_per_seed_ratio": 0.9929645585620724,
+      "pde": "heat",
+      "per_seed_p99_ratio": {
+        "11": 0.9856865060499939,
+        "23": 1.0028600061489445,
+        "37": 0.9903471634872792
+      },
+      "sessions": 3
+    }
+  ],
+  "boundary": "host replay arrays -> request dictionary preparation -> input transfer/model or ROM/candidate scoring -> return transfer -> common action projection -> finite typed action validation",
+  "controller_groups": [
+    {
+      "deadline_miss_rate_5ms": 0.0,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 21,
+        "2ms": 0,
+        "5ms": 0
+      },
+      "method": "B0",
+      "p50_ms": 0.5148,
+      "p95_ms": 0.5577,
+      "p999_ms": 0.8288002999999989,
+      "p99_ms": 0.5893010000000003,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": null
+    },
+    {
+      "deadline_miss_rate_5ms": 1.0,
+      "deadline_misses": {
+        "10ms": 60000,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 60000
+      },
+      "method": "B1",
+      "p50_ms": 14.39955,
+      "p95_ms": 15.199405,
+      "p999_ms": 15.9833,
+      "p99_ms": 15.544308000000001,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": null
+    },
+    {
+      "deadline_miss_rate_5ms": 0.0,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 13510,
+        "5ms": 0
+      },
+      "method": "B2",
+      "p50_ms": 1.9083,
+      "p95_ms": 3.6122049999999994,
+      "p999_ms": 4.0182,
+      "p99_ms": 3.798104000000001,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": 11
+    },
+    {
+      "deadline_miss_rate_5ms": 0.0,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 9916,
+        "5ms": 0
+      },
+      "method": "B2",
+      "p50_ms": 1.9025,
+      "p95_ms": 3.5273,
+      "p999_ms": 3.9386007999999975,
+      "p99_ms": 3.731802,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": 23
+    },
+    {
+      "deadline_miss_rate_5ms": 0.0,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 11138,
+        "5ms": 0
+      },
+      "method": "B2",
+      "p50_ms": 1.9002,
+      "p95_ms": 3.5559,
+      "p999_ms": 4.0399033999999885,
+      "p99_ms": 3.7827020000000005,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": 37
+    },
+    {
+      "deadline_miss_rate_5ms": 3.3333333333333335e-05,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 12977,
+        "5ms": 2
+      },
+      "method": "B3",
+      "p50_ms": 1.9074,
+      "p95_ms": 3.6093,
+      "p999_ms": 4.067600299999999,
+      "p99_ms": 3.8169,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": 11
+    },
+    {
+      "deadline_miss_rate_5ms": 5e-05,
+      "deadline_misses": {
+        "10ms": 1,
+        "1ms": 60000,
+        "2ms": 13681,
+        "5ms": 3
+      },
+      "method": "B3",
+      "p50_ms": 1.9094,
+      "p95_ms": 3.6170199999999983,
+      "p999_ms": 4.19360289999999,
+      "p99_ms": 3.8376010000000003,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": 23
+    },
+    {
+      "deadline_miss_rate_5ms": 0.0011666666666666668,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 15648,
+        "5ms": 70
+      },
+      "method": "B3",
+      "p50_ms": 1.9165,
+      "p95_ms": 3.639004999999999,
+      "p999_ms": 5.041210399999964,
+      "p99_ms": 3.877101,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": 37
+    },
+    {
+      "deadline_miss_rate_5ms": 0.1498,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 8988
+      },
+      "method": "B4",
+      "p50_ms": 3.1573,
+      "p95_ms": 6.516,
+      "p999_ms": 7.195900099999999,
+      "p99_ms": 6.8011040000000005,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": 11
+    },
+    {
+      "deadline_miss_rate_5ms": 0.14353333333333335,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 8612
+      },
+      "method": "B4",
+      "p50_ms": 3.1557,
+      "p95_ms": 6.527905,
+      "p999_ms": 7.29580289999999,
+      "p99_ms": 6.830604,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": 23
+    },
+    {
+      "deadline_miss_rate_5ms": 0.17726666666666666,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 10636
+      },
+      "method": "B4",
+      "p50_ms": 3.1658,
+      "p95_ms": 6.5456,
+      "p999_ms": 7.15670589999998,
+      "p99_ms": 6.7953,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": 37
+    },
+    {
+      "deadline_miss_rate_5ms": 0.15185,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 9111
+      },
+      "method": "B5",
+      "p50_ms": 3.12165,
+      "p95_ms": 6.473705,
+      "p999_ms": 7.188000299999999,
+      "p99_ms": 6.7612,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": 11
+    },
+    {
+      "deadline_miss_rate_5ms": 0.1351,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 8106
+      },
+      "method": "B5",
+      "p50_ms": 3.11705,
+      "p95_ms": 6.4221,
+      "p999_ms": 7.111401199999996,
+      "p99_ms": 6.720102000000001,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": 23
+    },
+    {
+      "deadline_miss_rate_5ms": 0.14518333333333333,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 8711
+      },
+      "method": "B5",
+      "p50_ms": 3.1111,
+      "p95_ms": 6.422505,
+      "p999_ms": 7.061601199999997,
+      "p99_ms": 6.696601,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": 37
+    },
+    {
+      "deadline_miss_rate_5ms": 0.13566666666666666,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 8140
+      },
+      "method": "P",
+      "p50_ms": 3.1064,
+      "p95_ms": 6.411,
+      "p999_ms": 7.137706299999978,
+      "p99_ms": 6.692603,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": 11
+    },
+    {
+      "deadline_miss_rate_5ms": 0.16405,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 9843
+      },
+      "method": "P",
+      "p50_ms": 3.11785,
+      "p95_ms": 6.449709999999999,
+      "p999_ms": 7.071101899999994,
+      "p99_ms": 6.7155,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": 23
+    },
+    {
+      "deadline_miss_rate_5ms": 0.12706666666666666,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 7624
+      },
+      "method": "P",
+      "p50_ms": 3.1191,
+      "p95_ms": 6.4407049999999995,
+      "p999_ms": 7.163907699999974,
+      "p99_ms": 6.731011000000002,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": 37
+    },
+    {
+      "deadline_miss_rate_5ms": 0.15933333333333333,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 9560
+      },
+      "method": "P-no-rank",
+      "p50_ms": 3.1206,
+      "p95_ms": 6.453205,
+      "p999_ms": 7.085802599999991,
+      "p99_ms": 6.735408000000002,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": 11
+    },
+    {
+      "deadline_miss_rate_5ms": 0.12673333333333334,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 7604
+      },
+      "method": "P-no-rank",
+      "p50_ms": 3.1091,
+      "p95_ms": 6.383909999999998,
+      "p999_ms": 7.057501799999994,
+      "p99_ms": 6.678902,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": 23
+    },
+    {
+      "deadline_miss_rate_5ms": 0.1367,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 8202
+      },
+      "method": "P-no-rank",
+      "p50_ms": 3.1148,
+      "p95_ms": 6.4333,
+      "p999_ms": 7.079206699999977,
+      "p99_ms": 6.710302,
+      "pde": "burgers",
+      "requests": 60000,
+      "seed": 37
+    },
+    {
+      "deadline_miss_rate_5ms": 0.0,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 25,
+        "2ms": 0,
+        "5ms": 0
+      },
+      "method": "B0",
+      "p50_ms": 0.5527,
+      "p95_ms": 0.6069,
+      "p999_ms": 0.8981010999999962,
+      "p99_ms": 0.6446,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": null
+    },
+    {
+      "deadline_miss_rate_5ms": 0.015616666666666666,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 58397,
+        "2ms": 2758,
+        "5ms": 937
+      },
+      "method": "B1",
+      "p50_ms": 1.696,
+      "p95_ms": 1.950609999999999,
+      "p999_ms": 6.657100499999998,
+      "p99_ms": 5.680636000000008,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": null
+    },
+    {
+      "deadline_miss_rate_5ms": 0.0,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 21131,
+        "5ms": 0
+      },
+      "method": "B2",
+      "p50_ms": 1.9618,
+      "p95_ms": 3.6676,
+      "p999_ms": 4.162401999999993,
+      "p99_ms": 3.86,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": 11
+    },
+    {
+      "deadline_miss_rate_5ms": 1.6666666666666667e-05,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 19735,
+        "5ms": 1
+      },
+      "method": "B2",
+      "p50_ms": 1.96,
+      "p95_ms": 3.6782049999999993,
+      "p999_ms": 4.136500799999997,
+      "p99_ms": 3.8780030000000005,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": 23
+    },
+    {
+      "deadline_miss_rate_5ms": 0.0,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 21899,
+        "5ms": 0
+      },
+      "method": "B2",
+      "p50_ms": 1.9683,
+      "p95_ms": 3.693104999999999,
+      "p999_ms": 4.174602499999991,
+      "p99_ms": 3.9157020000000005,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": 37
+    },
+    {
+      "deadline_miss_rate_5ms": 0.0075,
+      "deadline_misses": {
+        "10ms": 4,
+        "1ms": 60000,
+        "2ms": 25056,
+        "5ms": 450
+      },
+      "method": "B3",
+      "p50_ms": 1.9774,
+      "p95_ms": 3.7705049999999996,
+      "p999_ms": 8.205500999999996,
+      "p99_ms": 4.218925000000005,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": 11
+    },
+    {
+      "deadline_miss_rate_5ms": 0.007533333333333334,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 23007,
+        "5ms": 452
+      },
+      "method": "B3",
+      "p50_ms": 1.971,
+      "p95_ms": 3.6741,
+      "p999_ms": 6.688309399999968,
+      "p99_ms": 4.120005000000001,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": 23
+    },
+    {
+      "deadline_miss_rate_5ms": 3.3333333333333335e-05,
+      "deadline_misses": {
+        "10ms": 0,
+        "1ms": 60000,
+        "2ms": 22619,
+        "5ms": 2
+      },
+      "method": "B3",
+      "p50_ms": 1.9719,
+      "p95_ms": 3.6717,
+      "p999_ms": 4.104601999999993,
+      "p99_ms": 3.862204000000001,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": 37
+    },
+    {
+      "deadline_miss_rate_5ms": 0.21958333333333332,
+      "deadline_misses": {
+        "10ms": 1651,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 13175
+      },
+      "method": "B4",
+      "p50_ms": 4.8132,
+      "p95_ms": 9.847814999999999,
+      "p999_ms": 10.748501699999995,
+      "p99_ms": 10.262903000000001,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": 11
+    },
+    {
+      "deadline_miss_rate_5ms": 0.21556666666666666,
+      "deadline_misses": {
+        "10ms": 1258,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 12934
+      },
+      "method": "B4",
+      "p50_ms": 4.80275,
+      "p95_ms": 9.809305,
+      "p999_ms": 10.657703299999989,
+      "p99_ms": 10.174104,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": 23
+    },
+    {
+      "deadline_miss_rate_5ms": 0.21148333333333333,
+      "deadline_misses": {
+        "10ms": 1414,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 12689
+      },
+      "method": "B4",
+      "p50_ms": 4.8069,
+      "p95_ms": 9.8059,
+      "p999_ms": 10.690002199999991,
+      "p99_ms": 10.194102,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": 37
+    },
+    {
+      "deadline_miss_rate_5ms": 0.20173333333333332,
+      "deadline_misses": {
+        "10ms": 1041,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 12104
+      },
+      "method": "B5",
+      "p50_ms": 4.7626,
+      "p95_ms": 9.739805,
+      "p999_ms": 10.689504199999986,
+      "p99_ms": 10.131308,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": 11
+    },
+    {
+      "deadline_miss_rate_5ms": 0.18108333333333335,
+      "deadline_misses": {
+        "10ms": 1106,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 10865
+      },
+      "method": "B5",
+      "p50_ms": 4.755,
+      "p95_ms": 9.734905,
+      "p999_ms": 10.681401999999993,
+      "p99_ms": 10.169801000000001,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": 23
+    },
+    {
+      "deadline_miss_rate_5ms": 0.20203333333333334,
+      "deadline_misses": {
+        "10ms": 995,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 12122
+      },
+      "method": "B5",
+      "p50_ms": 4.7519,
+      "p95_ms": 9.74621,
+      "p999_ms": 10.634008599999971,
+      "p99_ms": 10.128801000000001,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": 37
+    },
+    {
+      "deadline_miss_rate_5ms": 0.185,
+      "deadline_misses": {
+        "10ms": 968,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 11100
+      },
+      "method": "P",
+      "p50_ms": 4.7578,
+      "p95_ms": 9.738519999999998,
+      "p999_ms": 10.5891001,
+      "p99_ms": 10.116005000000001,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": 11
+    },
+    {
+      "deadline_miss_rate_5ms": 0.19093333333333334,
+      "deadline_misses": {
+        "10ms": 1276,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 11456
+      },
+      "method": "P",
+      "p50_ms": 4.7555,
+      "p95_ms": 9.7625,
+      "p999_ms": 10.722300599999999,
+      "p99_ms": 10.203202000000001,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": 23
+    },
+    {
+      "deadline_miss_rate_5ms": 0.17431666666666668,
+      "deadline_misses": {
+        "10ms": 917,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 10459
+      },
+      "method": "P",
+      "p50_ms": 4.7528,
+      "p95_ms": 9.725305,
+      "p999_ms": 10.61540229999999,
+      "p99_ms": 10.0957,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": 37
+    },
+    {
+      "deadline_miss_rate_5ms": 0.18706666666666666,
+      "deadline_misses": {
+        "10ms": 1327,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 11224
+      },
+      "method": "P-no-rank",
+      "p50_ms": 4.7603,
+      "p95_ms": 9.765705,
+      "p999_ms": 10.710409999999966,
+      "p99_ms": 10.194501,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": 11
+    },
+    {
+      "deadline_miss_rate_5ms": 0.19011666666666666,
+      "deadline_misses": {
+        "10ms": 1014,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 11407
+      },
+      "method": "P-no-rank",
+      "p50_ms": 4.7617,
+      "p95_ms": 9.7536,
+      "p999_ms": 10.574500899999997,
+      "p99_ms": 10.121704000000001,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": 23
+    },
+    {
+      "deadline_miss_rate_5ms": 0.18778333333333333,
+      "deadline_misses": {
+        "10ms": 1102,
+        "1ms": 60000,
+        "2ms": 60000,
+        "5ms": 11267
+      },
+      "method": "P-no-rank",
+      "p50_ms": 4.7515,
+      "p95_ms": 9.7547,
+      "p999_ms": 10.652100299999999,
+      "p99_ms": 10.151703000000001,
+      "pde": "heat",
+      "requests": 60000,
+      "seed": 37
+    }
+  ],
+  "hard_deadline_ms": 5,
+  "latency_summary_sha256": "98555f0a22937792548b6826ea8542f3135858334fa83ebfa844d07666ced4bb",
+  "requests_per_variant": 60000,
+  "sessions": 3,
+  "status": "LOCKED_LATENCY_ANALYSIS_COMPLETE",
+  "target_p99_ms": 2,
+  "test_opened": true
+}

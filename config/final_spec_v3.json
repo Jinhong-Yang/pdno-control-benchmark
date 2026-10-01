@@ -1,0 +1,171 @@
+{
+  "calibration": {
+    "endpoint": "per-parent maximum absolute selected-action future-field error over 8 fixed snapshots and 128-point grid",
+    "finite_sample_order_index_zero_based": 61,
+    "margin_changes_action_selection": false,
+    "quantile": 0.95,
+    "scope": "nominal calibration parents only; no OOD or uniform safety guarantee"
+  },
+  "data": {
+    "calibration_parents_per_pde": 64,
+    "calibration_queries_per_parent": 8,
+    "locked_parent_counts_per_pde": {
+      "locked_coefficient_ood": 128,
+      "locked_delay_dropout": 128,
+      "locked_nominal": 384
+    },
+    "locked_parent_total": 1280,
+    "namespace": "pdno-jevLite-parent-pool-v3-fresh-20260927",
+    "train_queries_per_parent": 4,
+    "train_validation_parent_counts": {
+      "burgers_train": 512,
+      "burgers_validation": 64,
+      "heat_train": 256,
+      "heat_validation": 64
+    },
+    "unit": "independent parent trajectory episode",
+    "v1_v2_parent_identity_and_seed_tuple_overlap": 0,
+    "validation_queries_per_parent": 1
+  },
+  "decision_context": {
+    "disposition": "preserve G2 field-accuracy failure; no threshold relaxation; any later test is confirmatory/descriptive and cannot be described as G2 success",
+    "g2_field_nrmse_threshold": 0.05,
+    "g2_pilot_status": "G2_FAIL_RETAINED",
+    "median_teacher_regret": 0.0,
+    "observed_field_nrmse": {
+      "burgers": {
+        "B4": 0.23486115,
+        "B5": 0.235772505,
+        "P": 0.235772491,
+        "P-no-rank": 0.235893145
+      },
+      "heat": {
+        "B4": 0.113252372,
+        "B5": 0.10975717,
+        "P": 0.10975714,
+        "P-no-rank": 0.109805517
+      }
+    }
+  },
+  "domain": "synthetic manufacturing distributed-parameter PDE low-latency control",
+  "hardware": {
+    "PDE_residual_autocast": false,
+    "cuda_runtime": "13.0",
+    "driver": "591.86",
+    "local_gpu": "NVIDIA GeForce RTX 5080",
+    "precision": "FP32",
+    "pytorch": "2.12.0+cu130",
+    "training_optimizer": "eager AdamW; fused variant not selected for this freeze"
+  },
+  "latency": {
+    "host_ready_measurement_after_complete_locked_test": true,
+    "include_host_prepare_transfer_inference_projection_return": true,
+    "pretest_controller_p99_is_not_host_ready_e2e": true,
+    "report_cpu_and_cuda_separately": true,
+    "request_batch": 1,
+    "requests_per_session": 20000,
+    "sessions": 3
+  },
+  "locked_test": {
+    "all_methods_share_parent_state_material_disturbance_and_observation_schedule": true,
+    "episode_ticks": 200,
+    "executions": 25600,
+    "paired_parent_bootstrap_replicates": 10000,
+    "paired_parent_unit": true,
+    "query_tick": 100,
+    "report_each_training_seed": true,
+    "single_open_only": true,
+    "test_tuning": false
+  },
+  "mandatory_controllers": {
+    "B3_direct_policy_surrogate_gradient": true,
+    "B4_candidate_batching": true,
+    "B4_shared_encoder": true,
+    "classical": [
+      "B0",
+      "B1"
+    ],
+    "learned_families": [
+      "P",
+      "P-no-rank",
+      "B4",
+      "B5",
+      "B2",
+      "B3"
+    ],
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "training_execution": "one CUDA process at a time",
+    "variants_per_pde_in_locked_evaluation": 20
+  },
+  "physics_cost_contract": {
+    "action_effort_weight": 0.01,
+    "action_slew_weight": 0.05,
+    "burgers_bounds": [
+      -1.2,
+      1.2
+    ],
+    "heat_bounds": [
+      0.0,
+      "1.25*max reachable steady goal from train/validation"
+    ],
+    "same_cost_applies_to": [
+      "teacher",
+      "B1",
+      "P",
+      "P-no-rank",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "closed-loop truth"
+    ],
+    "violation_weight": 10.0
+  },
+  "protocol": "PDNO_JevLite_RTX5080_72H_frozen_spec_v3",
+  "research_claims": {
+    "authors": "AUTHOR_INPUT_REQUIRED",
+    "conditional_harm_requires_nonempty_acceptance_gate": true,
+    "positive_g2_claim_prohibited": true,
+    "residual_or_selected_forecast_coverage_is_not_actual_solution_error_guarantee": true
+  },
+  "runtime_budget": {
+    "astra_reserved_hours": 10,
+    "estimate_includes_cpu_truth_solver": true,
+    "estimate_is_not_a_guarantee": true,
+    "luna_evidence_deadline_hours": 62,
+    "pilot_planning_hours_with_15pct_margin": 15.3012,
+    "pilot_point_hours": 13.3054
+  },
+  "scientific_gates": {
+    "normalized_teacher_regret_median_max": 0.05,
+    "operator_field_nrmse_max": 0.05,
+    "reject_all_is_success": false,
+    "thresholds_may_change": false
+  },
+  "sealed_at_pretraining_freeze": {
+    "calibration_generated": false,
+    "locked_test_generated": false,
+    "locked_test_opened": false
+  },
+  "status": "FROZEN_FAIL_INCLUSIVE_PRETRAINING_SPEC",
+  "training": {
+    "b3_surrogate_updates": 1000,
+    "batch_size": 64,
+    "checkpoint_selection": "registered training selection score over train/validation; no calibration/test inputs",
+    "direct_policy_updates": 3000,
+    "gradient_clip": 1.0,
+    "learning_rate": 0.001,
+    "observer_seed": 7,
+    "observer_updates_per_pde": 1000,
+    "operator_field_updates": 2000,
+    "operator_physics_updates": 3000,
+    "optimizer": "AdamW",
+    "scheduler": "cosine",
+    "validation_interval": 500,
+    "weight_decay": 0.0001
+  }
+}

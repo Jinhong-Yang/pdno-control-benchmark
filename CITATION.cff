@@ -13,3 +13,5 @@ version: 1.0.0
 date-released: 2026-10-01
 license: Apache-2.0
 repository-code: "https://github.com/Jinhong-Yang/pdno-control-benchmark"
+doi: "10.5281/zenodo.23083472"
+url: "https://doi.org/10.5281/zenodo.23083472"

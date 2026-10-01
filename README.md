@@ -4,6 +4,10 @@ Frozen implementation and summary-data companion to **Control Quality and Tail L
 
 The benchmark compares eight controller families on forced periodic Burgers and Dirichlet heat systems. It separates prediction, closed-loop utility and serialized host-ready latency. The proposed implementation did not achieve its quality/latency hypothesis: nominal cost increases over the selected modal controller were 28.04% and 13.70%; registered mean seed-specific P/B4 p99 ratios were 0.98591 and 0.99296. The original scientific disposition remains `NO_GO_V3_PROPOSED_CLAIM`.
 
+## Archived release
+
+Version 1.0.0: [Zenodo DOI 10.5281/zenodo.23083472](https://doi.org/10.5281/zenodo.23083472). The immutable archive corresponds to commit `b5453468157654a9b1b9c6a68619246c78afd77f`. Later citation-only documentation updates on `main` do not alter this archived version.
+
 ## Contents
 
 | Path | Purpose |

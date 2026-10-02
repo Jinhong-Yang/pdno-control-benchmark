@@ -1,0 +1,6322 @@
+{
+  "status": "PASS_REVISION_TRAINING_TABLE_TRANSCRIPTION",
+  "tables": 35,
+  "rows": 223,
+  "displayed_values_checked": 1259,
+  "checks": [
+    {
+      "location": "('original', '1', 'B4', '11')/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "('original', '1', 'B4', '11')/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "('original', '1', 'B4', '11')/field_nrmse",
+      "displayed": "0.1588",
+      "expected": "0.1588"
+    },
+    {
+      "location": "('original', '1', 'B4', '11')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('original', '1', 'B4', '23')/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "('original', '1', 'B4', '23')/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "('original', '1', 'B4', '23')/field_nrmse",
+      "displayed": "0.1591",
+      "expected": "0.1591"
+    },
+    {
+      "location": "('original', '1', 'B4', '23')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('original', '1', 'B4', '37')/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "('original', '1', 'B4', '37')/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "('original', '1', 'B4', '37')/field_nrmse",
+      "displayed": "0.1592",
+      "expected": "0.1592"
+    },
+    {
+      "location": "('original', '1', 'B4', '37')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('original', '1', 'P', '11')/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "('original', '1', 'P', '11')/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "('original', '1', 'P', '11')/field_nrmse",
+      "displayed": "0.1583",
+      "expected": "0.1583"
+    },
+    {
+      "location": "('original', '1', 'P', '11')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('original', '1', 'P', '23')/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "('original', '1', 'P', '23')/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "('original', '1', 'P', '23')/field_nrmse",
+      "displayed": "0.1598",
+      "expected": "0.1598"
+    },
+    {
+      "location": "('original', '1', 'P', '23')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('original', '1', 'P', '37')/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "('original', '1', 'P', '37')/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "('original', '1', 'P', '37')/field_nrmse",
+      "displayed": "0.1618",
+      "expected": "0.1618"
+    },
+    {
+      "location": "('original', '1', 'P', '37')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '1', 'B4', '11')/actual",
+      "displayed": "18500",
+      "expected": "18500"
+    },
+    {
+      "location": "('E3', '1', 'B4', '11')/selected",
+      "displayed": "18500",
+      "expected": "18500"
+    },
+    {
+      "location": "('E3', '1', 'B4', '11')/field_nrmse",
+      "displayed": "0.0829",
+      "expected": "0.0829"
+    },
+    {
+      "location": "('E3', '1', 'B4', '11')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '1', 'B4', '23')/actual",
+      "displayed": "15000",
+      "expected": "15000"
+    },
+    {
+      "location": "('E3', '1', 'B4', '23')/selected",
+      "displayed": "15000",
+      "expected": "15000"
+    },
+    {
+      "location": "('E3', '1', 'B4', '23')/field_nrmse",
+      "displayed": "0.0884",
+      "expected": "0.0884"
+    },
+    {
+      "location": "('E3', '1', 'B4', '23')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '1', 'B4', '37')/actual",
+      "displayed": "15000",
+      "expected": "15000"
+    },
+    {
+      "location": "('E3', '1', 'B4', '37')/selected",
+      "displayed": "14500",
+      "expected": "14500"
+    },
+    {
+      "location": "('E3', '1', 'B4', '37')/field_nrmse",
+      "displayed": "0.0890",
+      "expected": "0.0890"
+    },
+    {
+      "location": "('E3', '1', 'B4', '37')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '1', 'P', '11')/actual",
+      "displayed": "12000",
+      "expected": "12000"
+    },
+    {
+      "location": "('E3', '1', 'P', '11')/selected",
+      "displayed": "11500",
+      "expected": "11500"
+    },
+    {
+      "location": "('E3', '1', 'P', '11')/field_nrmse",
+      "displayed": "0.0982",
+      "expected": "0.0982"
+    },
+    {
+      "location": "('E3', '1', 'P', '11')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '1', 'P', '23')/actual",
+      "displayed": "14000",
+      "expected": "14000"
+    },
+    {
+      "location": "('E3', '1', 'P', '23')/selected",
+      "displayed": "14000",
+      "expected": "14000"
+    },
+    {
+      "location": "('E3', '1', 'P', '23')/field_nrmse",
+      "displayed": "0.0972",
+      "expected": "0.0972"
+    },
+    {
+      "location": "('E3', '1', 'P', '23')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '1', 'P', '37')/actual",
+      "displayed": "18000",
+      "expected": "18000"
+    },
+    {
+      "location": "('E3', '1', 'P', '37')/selected",
+      "displayed": "17500",
+      "expected": "17500"
+    },
+    {
+      "location": "('E3', '1', 'P', '37')/field_nrmse",
+      "displayed": "0.0885",
+      "expected": "0.0885"
+    },
+    {
+      "location": "('E3', '1', 'P', '37')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '4', 'B4', '11')/actual",
+      "displayed": "14500",
+      "expected": "14500"
+    },
+    {
+      "location": "('E3', '4', 'B4', '11')/selected",
+      "displayed": "14500",
+      "expected": "14500"
+    },
+    {
+      "location": "('E3', '4', 'B4', '11')/field_nrmse",
+      "displayed": "0.1056",
+      "expected": "0.1056"
+    },
+    {
+      "location": "('E3', '4', 'B4', '11')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '4', 'B4', '23')/actual",
+      "displayed": "19500",
+      "expected": "19500"
+    },
+    {
+      "location": "('E3', '4', 'B4', '23')/selected",
+      "displayed": "19000",
+      "expected": "19000"
+    },
+    {
+      "location": "('E3', '4', 'B4', '23')/field_nrmse",
+      "displayed": "0.1025",
+      "expected": "0.1025"
+    },
+    {
+      "location": "('E3', '4', 'B4', '23')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '4', 'B4', '37')/actual",
+      "displayed": "19500",
+      "expected": "19500"
+    },
+    {
+      "location": "('E3', '4', 'B4', '37')/selected",
+      "displayed": "19500",
+      "expected": "19500"
+    },
+    {
+      "location": "('E3', '4', 'B4', '37')/field_nrmse",
+      "displayed": "0.1010",
+      "expected": "0.1010"
+    },
+    {
+      "location": "('E3', '4', 'B4', '37')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '4', 'P', '11')/actual",
+      "displayed": "16500",
+      "expected": "16500"
+    },
+    {
+      "location": "('E3', '4', 'P', '11')/selected",
+      "displayed": "14500",
+      "expected": "14500"
+    },
+    {
+      "location": "('E3', '4', 'P', '11')/field_nrmse",
+      "displayed": "0.1065",
+      "expected": "0.1065"
+    },
+    {
+      "location": "('E3', '4', 'P', '11')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '4', 'P', '23')/actual",
+      "displayed": "15500",
+      "expected": "15500"
+    },
+    {
+      "location": "('E3', '4', 'P', '23')/selected",
+      "displayed": "15500",
+      "expected": "15500"
+    },
+    {
+      "location": "('E3', '4', 'P', '23')/field_nrmse",
+      "displayed": "0.1067",
+      "expected": "0.1067"
+    },
+    {
+      "location": "('E3', '4', 'P', '23')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '4', 'P', '37')/actual",
+      "displayed": "16500",
+      "expected": "16500"
+    },
+    {
+      "location": "('E3', '4', 'P', '37')/selected",
+      "displayed": "15000",
+      "expected": "15000"
+    },
+    {
+      "location": "('E3', '4', 'P', '37')/field_nrmse",
+      "displayed": "0.1061",
+      "expected": "0.1061"
+    },
+    {
+      "location": "('E3', '4', 'P', '37')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '16', 'B4', '11')/actual",
+      "displayed": "17000",
+      "expected": "17000"
+    },
+    {
+      "location": "('E3', '16', 'B4', '11')/selected",
+      "displayed": "14500",
+      "expected": "14500"
+    },
+    {
+      "location": "('E3', '16', 'B4', '11')/field_nrmse",
+      "displayed": "0.1080",
+      "expected": "0.1080"
+    },
+    {
+      "location": "('E3', '16', 'B4', '11')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '16', 'B4', '23')/actual",
+      "displayed": "15500",
+      "expected": "15500"
+    },
+    {
+      "location": "('E3', '16', 'B4', '23')/selected",
+      "displayed": "15000",
+      "expected": "15000"
+    },
+    {
+      "location": "('E3', '16', 'B4', '23')/field_nrmse",
+      "displayed": "0.1072",
+      "expected": "0.1072"
+    },
+    {
+      "location": "('E3', '16', 'B4', '23')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '16', 'B4', '37')/actual",
+      "displayed": "16500",
+      "expected": "16500"
+    },
+    {
+      "location": "('E3', '16', 'B4', '37')/selected",
+      "displayed": "15500",
+      "expected": "15500"
+    },
+    {
+      "location": "('E3', '16', 'B4', '37')/field_nrmse",
+      "displayed": "0.1061",
+      "expected": "0.1061"
+    },
+    {
+      "location": "('E3', '16', 'B4', '37')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '16', 'P', '11')/actual",
+      "displayed": "15000",
+      "expected": "15000"
+    },
+    {
+      "location": "('E3', '16', 'P', '11')/selected",
+      "displayed": "14500",
+      "expected": "14500"
+    },
+    {
+      "location": "('E3', '16', 'P', '11')/field_nrmse",
+      "displayed": "0.1091",
+      "expected": "0.1091"
+    },
+    {
+      "location": "('E3', '16', 'P', '11')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '16', 'P', '23')/actual",
+      "displayed": "15500",
+      "expected": "15500"
+    },
+    {
+      "location": "('E3', '16', 'P', '23')/selected",
+      "displayed": "15500",
+      "expected": "15500"
+    },
+    {
+      "location": "('E3', '16', 'P', '23')/field_nrmse",
+      "displayed": "0.1086",
+      "expected": "0.1086"
+    },
+    {
+      "location": "('E3', '16', 'P', '23')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '16', 'P', '37')/actual",
+      "displayed": "16500",
+      "expected": "16500"
+    },
+    {
+      "location": "('E3', '16', 'P', '37')/selected",
+      "displayed": "16000",
+      "expected": "16000"
+    },
+    {
+      "location": "('E3', '16', 'P', '37')/field_nrmse",
+      "displayed": "0.1075",
+      "expected": "0.1075"
+    },
+    {
+      "location": "('E3', '16', 'P', '37')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "['B2', '11']/actual",
+      "displayed": "3000",
+      "expected": "3000"
+    },
+    {
+      "location": "['B2', '11']/selected",
+      "displayed": "2500",
+      "expected": "2500"
+    },
+    {
+      "location": "['B2', '11']/metric",
+      "displayed": "Action MSE",
+      "expected": "Action MSE"
+    },
+    {
+      "location": "['B2', '11']/selection_value",
+      "displayed": "0.001575",
+      "expected": "0.001575"
+    },
+    {
+      "location": "['B2', '11']/no_field_metric",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "['B2', '23']/actual",
+      "displayed": "3000",
+      "expected": "3000"
+    },
+    {
+      "location": "['B2', '23']/selected",
+      "displayed": "3000",
+      "expected": "3000"
+    },
+    {
+      "location": "['B2', '23']/metric",
+      "displayed": "Action MSE",
+      "expected": "Action MSE"
+    },
+    {
+      "location": "['B2', '23']/selection_value",
+      "displayed": "0.001579",
+      "expected": "0.001579"
+    },
+    {
+      "location": "['B2', '23']/no_field_metric",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "['B2', '37']/actual",
+      "displayed": "3000",
+      "expected": "3000"
+    },
+    {
+      "location": "['B2', '37']/selected",
+      "displayed": "3000",
+      "expected": "3000"
+    },
+    {
+      "location": "['B2', '37']/metric",
+      "displayed": "Action MSE",
+      "expected": "Action MSE"
+    },
+    {
+      "location": "['B2', '37']/selection_value",
+      "displayed": "0.001587",
+      "expected": "0.001587"
+    },
+    {
+      "location": "['B2', '37']/no_field_metric",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "['B3', '11']/actual",
+      "displayed": "1000",
+      "expected": "1000"
+    },
+    {
+      "location": "['B3', '11']/selected",
+      "displayed": "1000",
+      "expected": "1000"
+    },
+    {
+      "location": "['B3', '11']/metric",
+      "displayed": "Composite",
+      "expected": "Composite"
+    },
+    {
+      "location": "['B3', '11']/selection_value",
+      "displayed": "0.147638",
+      "expected": "0.147638"
+    },
+    {
+      "location": "['B3', '11']/no_field_metric",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "['B3', '23']/actual",
+      "displayed": "1000",
+      "expected": "1000"
+    },
+    {
+      "location": "['B3', '23']/selected",
+      "displayed": "1000",
+      "expected": "1000"
+    },
+    {
+      "location": "['B3', '23']/metric",
+      "displayed": "Composite",
+      "expected": "Composite"
+    },
+    {
+      "location": "['B3', '23']/selection_value",
+      "displayed": "0.147704",
+      "expected": "0.147704"
+    },
+    {
+      "location": "['B3', '23']/no_field_metric",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "['B3', '37']/actual",
+      "displayed": "1000",
+      "expected": "1000"
+    },
+    {
+      "location": "['B3', '37']/selected",
+      "displayed": "1000",
+      "expected": "1000"
+    },
+    {
+      "location": "['B3', '37']/metric",
+      "displayed": "Composite",
+      "expected": "Composite"
+    },
+    {
+      "location": "['B3', '37']/selection_value",
+      "displayed": "0.147676",
+      "expected": "0.147676"
+    },
+    {
+      "location": "['B3', '37']/no_field_metric",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "['B4', '11']/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['B4', '11']/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['B4', '11']/metric",
+      "displayed": "Composite",
+      "expected": "Composite"
+    },
+    {
+      "location": "['B4', '11']/selection_value",
+      "displayed": "0.025734",
+      "expected": "0.025734"
+    },
+    {
+      "location": "['B4', '11']/field_nrmse",
+      "displayed": "0.0515",
+      "expected": "0.0515"
+    },
+    {
+      "location": "['B4', '23']/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['B4', '23']/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['B4', '23']/metric",
+      "displayed": "Composite",
+      "expected": "Composite"
+    },
+    {
+      "location": "['B4', '23']/selection_value",
+      "displayed": "0.026268",
+      "expected": "0.026268"
+    },
+    {
+      "location": "['B4', '23']/field_nrmse",
+      "displayed": "0.0525",
+      "expected": "0.0525"
+    },
+    {
+      "location": "['B4', '37']/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['B4', '37']/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['B4', '37']/metric",
+      "displayed": "Composite",
+      "expected": "Composite"
+    },
+    {
+      "location": "['B4', '37']/selection_value",
+      "displayed": "0.025950",
+      "expected": "0.025950"
+    },
+    {
+      "location": "['B4', '37']/field_nrmse",
+      "displayed": "0.0519",
+      "expected": "0.0519"
+    },
+    {
+      "location": "['B5', '11']/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['B5', '11']/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['B5', '11']/metric",
+      "displayed": "Composite",
+      "expected": "Composite"
+    },
+    {
+      "location": "['B5', '11']/selection_value",
+      "displayed": "0.025704",
+      "expected": "0.025704"
+    },
+    {
+      "location": "['B5', '11']/field_nrmse",
+      "displayed": "0.0514",
+      "expected": "0.0514"
+    },
+    {
+      "location": "['B5', '23']/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['B5', '23']/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['B5', '23']/metric",
+      "displayed": "Composite",
+      "expected": "Composite"
+    },
+    {
+      "location": "['B5', '23']/selection_value",
+      "displayed": "0.025976",
+      "expected": "0.025976"
+    },
+    {
+      "location": "['B5', '23']/field_nrmse",
+      "displayed": "0.0520",
+      "expected": "0.0520"
+    },
+    {
+      "location": "['B5', '37']/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['B5', '37']/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['B5', '37']/metric",
+      "displayed": "Composite",
+      "expected": "Composite"
+    },
+    {
+      "location": "['B5', '37']/selection_value",
+      "displayed": "0.026334",
+      "expected": "0.026334"
+    },
+    {
+      "location": "['B5', '37']/field_nrmse",
+      "displayed": "0.0527",
+      "expected": "0.0527"
+    },
+    {
+      "location": "['P', '11']/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['P', '11']/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['P', '11']/metric",
+      "displayed": "Composite",
+      "expected": "Composite"
+    },
+    {
+      "location": "['P', '11']/selection_value",
+      "displayed": "0.025704",
+      "expected": "0.025704"
+    },
+    {
+      "location": "['P', '11']/field_nrmse",
+      "displayed": "0.0514",
+      "expected": "0.0514"
+    },
+    {
+      "location": "['P', '23']/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['P', '23']/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['P', '23']/metric",
+      "displayed": "Composite",
+      "expected": "Composite"
+    },
+    {
+      "location": "['P', '23']/selection_value",
+      "displayed": "0.025976",
+      "expected": "0.025976"
+    },
+    {
+      "location": "['P', '23']/field_nrmse",
+      "displayed": "0.0520",
+      "expected": "0.0520"
+    },
+    {
+      "location": "['P', '37']/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['P', '37']/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['P', '37']/metric",
+      "displayed": "Composite",
+      "expected": "Composite"
+    },
+    {
+      "location": "['P', '37']/selection_value",
+      "displayed": "0.026334",
+      "expected": "0.026334"
+    },
+    {
+      "location": "['P', '37']/field_nrmse",
+      "displayed": "0.0527",
+      "expected": "0.0527"
+    },
+    {
+      "location": "['P-nr', '11']/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['P-nr', '11']/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['P-nr', '11']/metric",
+      "displayed": "Composite",
+      "expected": "Composite"
+    },
+    {
+      "location": "['P-nr', '11']/selection_value",
+      "displayed": "0.025703",
+      "expected": "0.025703"
+    },
+    {
+      "location": "['P-nr', '11']/field_nrmse",
+      "displayed": "0.0514",
+      "expected": "0.0514"
+    },
+    {
+      "location": "['P-nr', '23']/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['P-nr', '23']/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['P-nr', '23']/metric",
+      "displayed": "Composite",
+      "expected": "Composite"
+    },
+    {
+      "location": "['P-nr', '23']/selection_value",
+      "displayed": "0.025953",
+      "expected": "0.025953"
+    },
+    {
+      "location": "['P-nr', '23']/field_nrmse",
+      "displayed": "0.0519",
+      "expected": "0.0519"
+    },
+    {
+      "location": "['P-nr', '37']/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['P-nr', '37']/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "['P-nr', '37']/metric",
+      "displayed": "Composite",
+      "expected": "Composite"
+    },
+    {
+      "location": "['P-nr', '37']/selection_value",
+      "displayed": "0.026340",
+      "expected": "0.026340"
+    },
+    {
+      "location": "['P-nr', '37']/field_nrmse",
+      "displayed": "0.0527",
+      "expected": "0.0527"
+    },
+    {
+      "location": "['observer', '7']/actual",
+      "displayed": "1000",
+      "expected": "1000"
+    },
+    {
+      "location": "['observer', '7']/selected",
+      "displayed": "1000",
+      "expected": "1000"
+    },
+    {
+      "location": "['observer', '7']/metric",
+      "displayed": "Observer nRMSE",
+      "expected": "Observer nRMSE"
+    },
+    {
+      "location": "['observer', '7']/selection_value",
+      "displayed": "0.047698",
+      "expected": "0.047698"
+    },
+    {
+      "location": "['observer', '7']/no_field_metric",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:weights_burgers/P_s11/field",
+      "displayed": "0.1583",
+      "expected": "0.1583"
+    },
+    {
+      "location": "tab:weights_burgers/P_s11/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_burgers/P_s11/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_burgers/P_s11/physics_data_ratio",
+      "displayed": "5.220e-05",
+      "expected": "5.220e-05"
+    },
+    {
+      "location": "tab:weights_burgers/P_s11/balance_data_ratio",
+      "displayed": "3.619e-06",
+      "expected": "3.619e-06"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys0.01_rank1_s11/field",
+      "displayed": "0.1583",
+      "expected": "0.1583"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys0.01_rank1_s11/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys0.01_rank1_s11/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys0.01_rank1_s11/physics_data_ratio",
+      "displayed": "5.366e-05",
+      "expected": "5.366e-05"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys0.01_rank1_s11/balance_data_ratio",
+      "displayed": "3.851e-06",
+      "expected": "3.851e-06"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys0.1_rank0.1_s11/field",
+      "displayed": "0.1583",
+      "expected": "0.1583"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys0.1_rank0.1_s11/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys0.1_rank0.1_s11/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys0.1_rank0.1_s11/physics_data_ratio",
+      "displayed": "5.220e-04",
+      "expected": "5.220e-04"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys0.1_rank0.1_s11/balance_data_ratio",
+      "displayed": "3.614e-05",
+      "expected": "3.614e-05"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys0.1_rank1_s11/field",
+      "displayed": "0.1583",
+      "expected": "0.1583"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys0.1_rank1_s11/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys0.1_rank1_s11/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys0.1_rank1_s11/physics_data_ratio",
+      "displayed": "5.366e-04",
+      "expected": "5.366e-04"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys0.1_rank1_s11/balance_data_ratio",
+      "displayed": "3.846e-05",
+      "expected": "3.846e-05"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys1_rank0.1_s11/field",
+      "displayed": "0.1583",
+      "expected": "0.1583"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys1_rank0.1_s11/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys1_rank0.1_s11/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys1_rank0.1_s11/physics_data_ratio",
+      "displayed": "5.219e-03",
+      "expected": "5.219e-03"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys1_rank0.1_s11/balance_data_ratio",
+      "displayed": "3.525e-04",
+      "expected": "3.525e-04"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys1_rank1_s11/field",
+      "displayed": "0.1583",
+      "expected": "0.1583"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys1_rank1_s11/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys1_rank1_s11/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys1_rank1_s11/physics_data_ratio",
+      "displayed": "5.363e-03",
+      "expected": "5.363e-03"
+    },
+    {
+      "location": "tab:weights_burgers/burgers_phys1_rank1_s11/balance_data_ratio",
+      "displayed": "3.794e-04",
+      "expected": "3.794e-04"
+    },
+    {
+      "location": "tab:weights_heat/P_s11/field",
+      "displayed": "0.0789",
+      "expected": "0.0789"
+    },
+    {
+      "location": "tab:weights_heat/P_s11/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_heat/P_s11/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_heat/P_s11/physics_data_ratio",
+      "displayed": "9.135e-05",
+      "expected": "9.135e-05"
+    },
+    {
+      "location": "tab:weights_heat/P_s11/balance_data_ratio",
+      "displayed": "8.995e-05",
+      "expected": "8.995e-05"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys0.01_rank1_s11/field",
+      "displayed": "0.0852",
+      "expected": "0.0852"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys0.01_rank1_s11/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys0.01_rank1_s11/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys0.01_rank1_s11/physics_data_ratio",
+      "displayed": "8.369e-05",
+      "expected": "8.369e-05"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys0.01_rank1_s11/balance_data_ratio",
+      "displayed": "3.783e-05",
+      "expected": "3.783e-05"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys0.1_rank0.1_s11/field",
+      "displayed": "0.0789",
+      "expected": "0.0789"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys0.1_rank0.1_s11/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys0.1_rank0.1_s11/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys0.1_rank0.1_s11/physics_data_ratio",
+      "displayed": "9.147e-04",
+      "expected": "9.147e-04"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys0.1_rank0.1_s11/balance_data_ratio",
+      "displayed": "8.948e-04",
+      "expected": "8.948e-04"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys0.1_rank1_s11/field",
+      "displayed": "0.0852",
+      "expected": "0.0852"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys0.1_rank1_s11/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys0.1_rank1_s11/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys0.1_rank1_s11/physics_data_ratio",
+      "displayed": "8.352e-04",
+      "expected": "8.352e-04"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys0.1_rank1_s11/balance_data_ratio",
+      "displayed": "3.766e-04",
+      "expected": "3.766e-04"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys1_rank0.1_s11/field",
+      "displayed": "0.0788",
+      "expected": "0.0788"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys1_rank0.1_s11/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys1_rank0.1_s11/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys1_rank0.1_s11/physics_data_ratio",
+      "displayed": "9.252e-03",
+      "expected": "9.252e-03"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys1_rank0.1_s11/balance_data_ratio",
+      "displayed": "8.674e-03",
+      "expected": "8.674e-03"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys1_rank1_s11/field",
+      "displayed": "0.0852",
+      "expected": "0.0852"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys1_rank1_s11/actual",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys1_rank1_s11/selected",
+      "displayed": "5000",
+      "expected": "5000"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys1_rank1_s11/physics_data_ratio",
+      "displayed": "8.198e-03",
+      "expected": "8.198e-03"
+    },
+    {
+      "location": "tab:weights_heat/heat_phys1_rank1_s11/balance_data_ratio",
+      "displayed": "3.612e-03",
+      "expected": "3.612e-03"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.01_rank0.1_s11/cost",
+      "displayed": "0.341188",
+      "expected": "0.341188"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.01_rank0.1_s11/excess",
+      "displayed": "28.04",
+      "expected": "28.04"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.01_rank0.1_s11/fixed/low",
+      "displayed": "23.59",
+      "expected": "23.59"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.01_rank0.1_s11/fixed/high",
+      "displayed": "32.84",
+      "expected": "32.84"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.01_rank0.1_s11/exact_history_agreement",
+      "displayed": "100.00",
+      "expected": "100.00"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.01_rank0.1_s11/history_agreement_at_1e7",
+      "displayed": "100.00",
+      "expected": "100.00"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.01_rank1_s11/cost",
+      "displayed": "0.341078",
+      "expected": "0.341078"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.01_rank1_s11/excess",
+      "displayed": "28.00",
+      "expected": "28.00"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.01_rank1_s11/fixed/low",
+      "displayed": "23.55",
+      "expected": "23.55"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.01_rank1_s11/fixed/high",
+      "displayed": "32.84",
+      "expected": "32.84"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.01_rank1_s11/exact_history_agreement",
+      "displayed": "85.94",
+      "expected": "85.94"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.01_rank1_s11/history_agreement_at_1e7",
+      "displayed": "85.94",
+      "expected": "85.94"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.1_rank0.1_s11/cost",
+      "displayed": "0.341189",
+      "expected": "0.341189"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.1_rank0.1_s11/excess",
+      "displayed": "28.04",
+      "expected": "28.04"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.1_rank0.1_s11/fixed/low",
+      "displayed": "23.59",
+      "expected": "23.59"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.1_rank0.1_s11/fixed/high",
+      "displayed": "32.84",
+      "expected": "32.84"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.1_rank0.1_s11/exact_history_agreement",
+      "displayed": "98.18",
+      "expected": "98.18"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.1_rank0.1_s11/history_agreement_at_1e7",
+      "displayed": "98.18",
+      "expected": "98.18"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.1_rank1_s11/cost",
+      "displayed": "0.341078",
+      "expected": "0.341078"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.1_rank1_s11/excess",
+      "displayed": "28.00",
+      "expected": "28.00"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.1_rank1_s11/fixed/low",
+      "displayed": "23.55",
+      "expected": "23.55"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.1_rank1_s11/fixed/high",
+      "displayed": "32.84",
+      "expected": "32.84"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.1_rank1_s11/exact_history_agreement",
+      "displayed": "85.94",
+      "expected": "85.94"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys0.1_rank1_s11/history_agreement_at_1e7",
+      "displayed": "85.94",
+      "expected": "85.94"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys1_rank0.1_s11/cost",
+      "displayed": "0.341189",
+      "expected": "0.341189"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys1_rank0.1_s11/excess",
+      "displayed": "28.04",
+      "expected": "28.04"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys1_rank0.1_s11/fixed/low",
+      "displayed": "23.59",
+      "expected": "23.59"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys1_rank0.1_s11/fixed/high",
+      "displayed": "32.84",
+      "expected": "32.84"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys1_rank0.1_s11/exact_history_agreement",
+      "displayed": "98.18",
+      "expected": "98.18"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys1_rank0.1_s11/history_agreement_at_1e7",
+      "displayed": "98.18",
+      "expected": "98.18"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys1_rank1_s11/cost",
+      "displayed": "0.341078",
+      "expected": "0.341078"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys1_rank1_s11/excess",
+      "displayed": "28.00",
+      "expected": "28.00"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys1_rank1_s11/fixed/low",
+      "displayed": "23.55",
+      "expected": "23.55"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys1_rank1_s11/fixed/high",
+      "displayed": "32.84",
+      "expected": "32.84"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys1_rank1_s11/exact_history_agreement",
+      "displayed": "86.20",
+      "expected": "86.20"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_nominal/burgers_phys1_rank1_s11/history_agreement_at_1e7",
+      "displayed": "86.20",
+      "expected": "86.20"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.01_rank0.1_s11/cost",
+      "displayed": "0.537914",
+      "expected": "0.537914"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.01_rank0.1_s11/excess",
+      "displayed": "38.27",
+      "expected": "38.27"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.01_rank0.1_s11/fixed/low",
+      "displayed": "26.26",
+      "expected": "26.26"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.01_rank0.1_s11/fixed/high",
+      "displayed": "51.98",
+      "expected": "51.98"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.01_rank0.1_s11/exact_history_agreement",
+      "displayed": "100.00",
+      "expected": "100.00"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.01_rank0.1_s11/history_agreement_at_1e7",
+      "displayed": "100.00",
+      "expected": "100.00"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.01_rank1_s11/cost",
+      "displayed": "0.537672",
+      "expected": "0.537672"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.01_rank1_s11/excess",
+      "displayed": "38.21",
+      "expected": "38.21"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.01_rank1_s11/fixed/low",
+      "displayed": "26.25",
+      "expected": "26.25"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.01_rank1_s11/fixed/high",
+      "displayed": "51.86",
+      "expected": "51.86"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.01_rank1_s11/exact_history_agreement",
+      "displayed": "68.75",
+      "expected": "68.75"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.01_rank1_s11/history_agreement_at_1e7",
+      "displayed": "68.75",
+      "expected": "68.75"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.1_rank0.1_s11/cost",
+      "displayed": "0.537914",
+      "expected": "0.537914"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.1_rank0.1_s11/excess",
+      "displayed": "38.27",
+      "expected": "38.27"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.1_rank0.1_s11/fixed/low",
+      "displayed": "26.26",
+      "expected": "26.26"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.1_rank0.1_s11/fixed/high",
+      "displayed": "51.98",
+      "expected": "51.98"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.1_rank0.1_s11/exact_history_agreement",
+      "displayed": "96.88",
+      "expected": "96.88"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.1_rank0.1_s11/history_agreement_at_1e7",
+      "displayed": "96.88",
+      "expected": "96.88"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.1_rank1_s11/cost",
+      "displayed": "0.537672",
+      "expected": "0.537672"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.1_rank1_s11/excess",
+      "displayed": "38.21",
+      "expected": "38.21"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.1_rank1_s11/fixed/low",
+      "displayed": "26.25",
+      "expected": "26.25"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.1_rank1_s11/fixed/high",
+      "displayed": "51.86",
+      "expected": "51.86"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.1_rank1_s11/exact_history_agreement",
+      "displayed": "68.75",
+      "expected": "68.75"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys0.1_rank1_s11/history_agreement_at_1e7",
+      "displayed": "68.75",
+      "expected": "68.75"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys1_rank0.1_s11/cost",
+      "displayed": "0.537914",
+      "expected": "0.537914"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys1_rank0.1_s11/excess",
+      "displayed": "38.27",
+      "expected": "38.27"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys1_rank0.1_s11/fixed/low",
+      "displayed": "26.26",
+      "expected": "26.26"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys1_rank0.1_s11/fixed/high",
+      "displayed": "51.98",
+      "expected": "51.98"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys1_rank0.1_s11/exact_history_agreement",
+      "displayed": "96.88",
+      "expected": "96.88"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys1_rank0.1_s11/history_agreement_at_1e7",
+      "displayed": "96.88",
+      "expected": "96.88"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys1_rank1_s11/cost",
+      "displayed": "0.537672",
+      "expected": "0.537672"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys1_rank1_s11/excess",
+      "displayed": "38.21",
+      "expected": "38.21"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys1_rank1_s11/fixed/low",
+      "displayed": "26.25",
+      "expected": "26.25"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys1_rank1_s11/fixed/high",
+      "displayed": "51.86",
+      "expected": "51.86"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys1_rank1_s11/exact_history_agreement",
+      "displayed": "68.75",
+      "expected": "68.75"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_coefficient_ood/burgers_phys1_rank1_s11/history_agreement_at_1e7",
+      "displayed": "68.75",
+      "expected": "68.75"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.01_rank0.1_s11/cost",
+      "displayed": "0.312712",
+      "expected": "0.312712"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.01_rank0.1_s11/excess",
+      "displayed": "25.01",
+      "expected": "25.01"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.01_rank0.1_s11/fixed/low",
+      "displayed": "18.53",
+      "expected": "18.53"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.01_rank0.1_s11/fixed/high",
+      "displayed": "32.05",
+      "expected": "32.05"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.01_rank0.1_s11/exact_history_agreement",
+      "displayed": "100.00",
+      "expected": "100.00"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.01_rank0.1_s11/history_agreement_at_1e7",
+      "displayed": "100.00",
+      "expected": "100.00"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.01_rank1_s11/cost",
+      "displayed": "0.312709",
+      "expected": "0.312709"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.01_rank1_s11/excess",
+      "displayed": "25.01",
+      "expected": "25.01"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.01_rank1_s11/fixed/low",
+      "displayed": "18.53",
+      "expected": "18.53"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.01_rank1_s11/fixed/high",
+      "displayed": "32.04",
+      "expected": "32.04"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.01_rank1_s11/exact_history_agreement",
+      "displayed": "84.38",
+      "expected": "84.38"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.01_rank1_s11/history_agreement_at_1e7",
+      "displayed": "84.38",
+      "expected": "84.38"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.1_rank0.1_s11/cost",
+      "displayed": "0.312712",
+      "expected": "0.312712"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.1_rank0.1_s11/excess",
+      "displayed": "25.01",
+      "expected": "25.01"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.1_rank0.1_s11/fixed/low",
+      "displayed": "18.53",
+      "expected": "18.53"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.1_rank0.1_s11/fixed/high",
+      "displayed": "32.05",
+      "expected": "32.05"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.1_rank0.1_s11/exact_history_agreement",
+      "displayed": "97.66",
+      "expected": "97.66"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.1_rank0.1_s11/history_agreement_at_1e7",
+      "displayed": "97.66",
+      "expected": "97.66"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.1_rank1_s11/cost",
+      "displayed": "0.312709",
+      "expected": "0.312709"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.1_rank1_s11/excess",
+      "displayed": "25.01",
+      "expected": "25.01"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.1_rank1_s11/fixed/low",
+      "displayed": "18.53",
+      "expected": "18.53"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.1_rank1_s11/fixed/high",
+      "displayed": "32.04",
+      "expected": "32.04"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.1_rank1_s11/exact_history_agreement",
+      "displayed": "84.38",
+      "expected": "84.38"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys0.1_rank1_s11/history_agreement_at_1e7",
+      "displayed": "84.38",
+      "expected": "84.38"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys1_rank0.1_s11/cost",
+      "displayed": "0.312712",
+      "expected": "0.312712"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys1_rank0.1_s11/excess",
+      "displayed": "25.01",
+      "expected": "25.01"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys1_rank0.1_s11/fixed/low",
+      "displayed": "18.53",
+      "expected": "18.53"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys1_rank0.1_s11/fixed/high",
+      "displayed": "32.05",
+      "expected": "32.05"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys1_rank0.1_s11/exact_history_agreement",
+      "displayed": "97.66",
+      "expected": "97.66"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys1_rank0.1_s11/history_agreement_at_1e7",
+      "displayed": "97.66",
+      "expected": "97.66"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys1_rank1_s11/cost",
+      "displayed": "0.312711",
+      "expected": "0.312711"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys1_rank1_s11/excess",
+      "displayed": "25.01",
+      "expected": "25.01"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys1_rank1_s11/fixed/low",
+      "displayed": "18.53",
+      "expected": "18.53"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys1_rank1_s11/fixed/high",
+      "displayed": "32.04",
+      "expected": "32.04"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys1_rank1_s11/exact_history_agreement",
+      "displayed": "83.59",
+      "expected": "83.59"
+    },
+    {
+      "location": "tab:weights_control_burgers_locked_delay_dropout/burgers_phys1_rank1_s11/history_agreement_at_1e7",
+      "displayed": "83.59",
+      "expected": "83.59"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.01_rank0.1_s11/cost",
+      "displayed": "13.751036",
+      "expected": "13.751036"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.01_rank0.1_s11/excess",
+      "displayed": "14.07",
+      "expected": "14.07"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.01_rank0.1_s11/fixed/low",
+      "displayed": "13.29",
+      "expected": "13.29"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.01_rank0.1_s11/fixed/high",
+      "displayed": "14.87",
+      "expected": "14.87"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.01_rank0.1_s11/exact_history_agreement",
+      "displayed": "100.00",
+      "expected": "100.00"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.01_rank0.1_s11/history_agreement_at_1e7",
+      "displayed": "100.00",
+      "expected": "100.00"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.01_rank1_s11/cost",
+      "displayed": "13.713948",
+      "expected": "13.713948"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.01_rank1_s11/excess",
+      "displayed": "13.76",
+      "expected": "13.76"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.01_rank1_s11/fixed/low",
+      "displayed": "12.98",
+      "expected": "12.98"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.01_rank1_s11/fixed/high",
+      "displayed": "14.57",
+      "expected": "14.57"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.01_rank1_s11/exact_history_agreement",
+      "displayed": "4.43",
+      "expected": "4.43"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.01_rank1_s11/history_agreement_at_1e7",
+      "displayed": "4.43",
+      "expected": "4.43"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.1_rank0.1_s11/cost",
+      "displayed": "13.750965",
+      "expected": "13.750965"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.1_rank0.1_s11/excess",
+      "displayed": "14.07",
+      "expected": "14.07"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.1_rank0.1_s11/fixed/low",
+      "displayed": "13.29",
+      "expected": "13.29"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.1_rank0.1_s11/fixed/high",
+      "displayed": "14.87",
+      "expected": "14.87"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.1_rank0.1_s11/exact_history_agreement",
+      "displayed": "96.35",
+      "expected": "96.35"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.1_rank0.1_s11/history_agreement_at_1e7",
+      "displayed": "96.35",
+      "expected": "96.35"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.1_rank1_s11/cost",
+      "displayed": "13.713948",
+      "expected": "13.713948"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.1_rank1_s11/excess",
+      "displayed": "13.76",
+      "expected": "13.76"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.1_rank1_s11/fixed/low",
+      "displayed": "12.98",
+      "expected": "12.98"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.1_rank1_s11/fixed/high",
+      "displayed": "14.57",
+      "expected": "14.57"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.1_rank1_s11/exact_history_agreement",
+      "displayed": "4.43",
+      "expected": "4.43"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys0.1_rank1_s11/history_agreement_at_1e7",
+      "displayed": "4.43",
+      "expected": "4.43"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys1_rank0.1_s11/cost",
+      "displayed": "13.749424",
+      "expected": "13.749424"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys1_rank0.1_s11/excess",
+      "displayed": "14.06",
+      "expected": "14.06"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys1_rank0.1_s11/fixed/low",
+      "displayed": "13.28",
+      "expected": "13.28"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys1_rank0.1_s11/fixed/high",
+      "displayed": "14.85",
+      "expected": "14.85"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys1_rank0.1_s11/exact_history_agreement",
+      "displayed": "91.67",
+      "expected": "91.67"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys1_rank0.1_s11/history_agreement_at_1e7",
+      "displayed": "91.67",
+      "expected": "91.67"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys1_rank1_s11/cost",
+      "displayed": "13.713943",
+      "expected": "13.713943"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys1_rank1_s11/excess",
+      "displayed": "13.76",
+      "expected": "13.76"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys1_rank1_s11/fixed/low",
+      "displayed": "12.98",
+      "expected": "12.98"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys1_rank1_s11/fixed/high",
+      "displayed": "14.57",
+      "expected": "14.57"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys1_rank1_s11/exact_history_agreement",
+      "displayed": "4.43",
+      "expected": "4.43"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_nominal/heat_phys1_rank1_s11/history_agreement_at_1e7",
+      "displayed": "4.43",
+      "expected": "4.43"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.01_rank0.1_s11/cost",
+      "displayed": "7.069706",
+      "expected": "7.069706"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.01_rank0.1_s11/excess",
+      "displayed": "27.46",
+      "expected": "27.46"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.01_rank0.1_s11/fixed/low",
+      "displayed": "25.41",
+      "expected": "25.41"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.01_rank0.1_s11/fixed/high",
+      "displayed": "29.51",
+      "expected": "29.51"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.01_rank0.1_s11/exact_history_agreement",
+      "displayed": "100.00",
+      "expected": "100.00"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.01_rank0.1_s11/history_agreement_at_1e7",
+      "displayed": "100.00",
+      "expected": "100.00"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.01_rank1_s11/cost",
+      "displayed": "7.127815",
+      "expected": "7.127815"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.01_rank1_s11/excess",
+      "displayed": "28.50",
+      "expected": "28.50"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.01_rank1_s11/fixed/low",
+      "displayed": "26.34",
+      "expected": "26.34"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.01_rank1_s11/fixed/high",
+      "displayed": "30.70",
+      "expected": "30.70"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.01_rank1_s11/exact_history_agreement",
+      "displayed": "8.59",
+      "expected": "8.59"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.01_rank1_s11/history_agreement_at_1e7",
+      "displayed": "8.59",
+      "expected": "8.59"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.1_rank0.1_s11/cost",
+      "displayed": "7.069621",
+      "expected": "7.069621"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.1_rank0.1_s11/excess",
+      "displayed": "27.46",
+      "expected": "27.46"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.1_rank0.1_s11/fixed/low",
+      "displayed": "25.41",
+      "expected": "25.41"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.1_rank0.1_s11/fixed/high",
+      "displayed": "29.51",
+      "expected": "29.51"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.1_rank0.1_s11/exact_history_agreement",
+      "displayed": "98.44",
+      "expected": "98.44"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.1_rank0.1_s11/history_agreement_at_1e7",
+      "displayed": "98.44",
+      "expected": "98.44"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.1_rank1_s11/cost",
+      "displayed": "7.127815",
+      "expected": "7.127815"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.1_rank1_s11/excess",
+      "displayed": "28.50",
+      "expected": "28.50"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.1_rank1_s11/fixed/low",
+      "displayed": "26.34",
+      "expected": "26.34"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.1_rank1_s11/fixed/high",
+      "displayed": "30.70",
+      "expected": "30.70"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.1_rank1_s11/exact_history_agreement",
+      "displayed": "8.59",
+      "expected": "8.59"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys0.1_rank1_s11/history_agreement_at_1e7",
+      "displayed": "8.59",
+      "expected": "8.59"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys1_rank0.1_s11/cost",
+      "displayed": "7.069429",
+      "expected": "7.069429"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys1_rank0.1_s11/excess",
+      "displayed": "27.45",
+      "expected": "27.45"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys1_rank0.1_s11/fixed/low",
+      "displayed": "25.40",
+      "expected": "25.40"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys1_rank0.1_s11/fixed/high",
+      "displayed": "29.50",
+      "expected": "29.50"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys1_rank0.1_s11/exact_history_agreement",
+      "displayed": "93.75",
+      "expected": "93.75"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys1_rank0.1_s11/history_agreement_at_1e7",
+      "displayed": "93.75",
+      "expected": "93.75"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys1_rank1_s11/cost",
+      "displayed": "7.127815",
+      "expected": "7.127815"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys1_rank1_s11/excess",
+      "displayed": "28.50",
+      "expected": "28.50"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys1_rank1_s11/fixed/low",
+      "displayed": "26.34",
+      "expected": "26.34"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys1_rank1_s11/fixed/high",
+      "displayed": "30.70",
+      "expected": "30.70"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys1_rank1_s11/exact_history_agreement",
+      "displayed": "8.59",
+      "expected": "8.59"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_coefficient_ood/heat_phys1_rank1_s11/history_agreement_at_1e7",
+      "displayed": "8.59",
+      "expected": "8.59"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.01_rank0.1_s11/cost",
+      "displayed": "14.398928",
+      "expected": "14.398928"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.01_rank0.1_s11/excess",
+      "displayed": "10.79",
+      "expected": "10.79"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.01_rank0.1_s11/fixed/low",
+      "displayed": "10.13",
+      "expected": "10.13"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.01_rank0.1_s11/fixed/high",
+      "displayed": "11.44",
+      "expected": "11.44"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.01_rank0.1_s11/exact_history_agreement",
+      "displayed": "100.00",
+      "expected": "100.00"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.01_rank0.1_s11/history_agreement_at_1e7",
+      "displayed": "100.00",
+      "expected": "100.00"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.01_rank1_s11/cost",
+      "displayed": "14.362504",
+      "expected": "14.362504"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.01_rank1_s11/excess",
+      "displayed": "10.51",
+      "expected": "10.51"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.01_rank1_s11/fixed/low",
+      "displayed": "9.84",
+      "expected": "9.84"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.01_rank1_s11/fixed/high",
+      "displayed": "11.17",
+      "expected": "11.17"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.01_rank1_s11/exact_history_agreement",
+      "displayed": "3.91",
+      "expected": "3.91"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.01_rank1_s11/history_agreement_at_1e7",
+      "displayed": "3.91",
+      "expected": "3.91"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.1_rank0.1_s11/cost",
+      "displayed": "14.398887",
+      "expected": "14.398887"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.1_rank0.1_s11/excess",
+      "displayed": "10.79",
+      "expected": "10.79"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.1_rank0.1_s11/fixed/low",
+      "displayed": "10.13",
+      "expected": "10.13"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.1_rank0.1_s11/fixed/high",
+      "displayed": "11.44",
+      "expected": "11.44"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.1_rank0.1_s11/exact_history_agreement",
+      "displayed": "96.09",
+      "expected": "96.09"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.1_rank0.1_s11/history_agreement_at_1e7",
+      "displayed": "96.09",
+      "expected": "96.09"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.1_rank1_s11/cost",
+      "displayed": "14.362442",
+      "expected": "14.362442"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.1_rank1_s11/excess",
+      "displayed": "10.51",
+      "expected": "10.51"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.1_rank1_s11/fixed/low",
+      "displayed": "9.84",
+      "expected": "9.84"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.1_rank1_s11/fixed/high",
+      "displayed": "11.17",
+      "expected": "11.17"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.1_rank1_s11/exact_history_agreement",
+      "displayed": "3.91",
+      "expected": "3.91"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys0.1_rank1_s11/history_agreement_at_1e7",
+      "displayed": "3.91",
+      "expected": "3.91"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys1_rank0.1_s11/cost",
+      "displayed": "14.398533",
+      "expected": "14.398533"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys1_rank0.1_s11/excess",
+      "displayed": "10.78",
+      "expected": "10.78"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys1_rank0.1_s11/fixed/low",
+      "displayed": "10.13",
+      "expected": "10.13"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys1_rank0.1_s11/fixed/high",
+      "displayed": "11.44",
+      "expected": "11.44"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys1_rank0.1_s11/exact_history_agreement",
+      "displayed": "88.28",
+      "expected": "88.28"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys1_rank0.1_s11/history_agreement_at_1e7",
+      "displayed": "88.28",
+      "expected": "88.28"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys1_rank1_s11/cost",
+      "displayed": "14.362356",
+      "expected": "14.362356"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys1_rank1_s11/excess",
+      "displayed": "10.51",
+      "expected": "10.51"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys1_rank1_s11/fixed/low",
+      "displayed": "9.84",
+      "expected": "9.84"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys1_rank1_s11/fixed/high",
+      "displayed": "11.17",
+      "expected": "11.17"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys1_rank1_s11/exact_history_agreement",
+      "displayed": "3.12",
+      "expected": "3.12"
+    },
+    {
+      "location": "tab:weights_control_heat_locked_delay_dropout/heat_phys1_rank1_s11/history_agreement_at_1e7",
+      "displayed": "3.12",
+      "expected": "3.12"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_nominal/O-cand-obs/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_nominal/O-cand-obs/cost",
+      "displayed": "0.346007",
+      "expected": "0.346007"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_nominal/O-cand-obs/excess",
+      "displayed": "29.85",
+      "expected": "29.85"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_nominal/O-cand-obs/fixed/low",
+      "displayed": "24.84",
+      "expected": "24.84"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_nominal/O-cand-obs/fixed/high",
+      "displayed": "35.55",
+      "expected": "35.55"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_nominal/O-cand-obs/joint/low",
+      "displayed": "25.49",
+      "expected": "25.49"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_nominal/O-cand-obs/joint/high",
+      "displayed": "34.71",
+      "expected": "34.71"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_nominal/O-cand-state/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_nominal/O-cand-state/cost",
+      "displayed": "0.341698",
+      "expected": "0.341698"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_nominal/O-cand-state/excess",
+      "displayed": "28.23",
+      "expected": "28.23"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_nominal/O-cand-state/fixed/low",
+      "displayed": "23.61",
+      "expected": "23.61"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_nominal/O-cand-state/fixed/high",
+      "displayed": "33.28",
+      "expected": "33.28"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_nominal/O-cand-state/joint/low",
+      "displayed": "24.50",
+      "expected": "24.50"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_nominal/O-cand-state/joint/high",
+      "displayed": "32.13",
+      "expected": "32.13"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_coefficient_ood/O-cand-obs/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_coefficient_ood/O-cand-obs/cost",
+      "displayed": "0.535012",
+      "expected": "0.535012"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_coefficient_ood/O-cand-obs/excess",
+      "displayed": "37.52",
+      "expected": "37.52"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_coefficient_ood/O-cand-obs/fixed/low",
+      "displayed": "26.07",
+      "expected": "26.07"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_coefficient_ood/O-cand-obs/fixed/high",
+      "displayed": "50.53",
+      "expected": "50.53"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_coefficient_ood/O-cand-obs/joint/low",
+      "displayed": "28.34",
+      "expected": "28.34"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_coefficient_ood/O-cand-obs/joint/high",
+      "displayed": "48.24",
+      "expected": "48.24"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_coefficient_ood/O-cand-state/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_coefficient_ood/O-cand-state/cost",
+      "displayed": "0.535725",
+      "expected": "0.535725"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_coefficient_ood/O-cand-state/excess",
+      "displayed": "37.70",
+      "expected": "37.70"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_coefficient_ood/O-cand-state/fixed/low",
+      "displayed": "26.03",
+      "expected": "26.03"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_coefficient_ood/O-cand-state/fixed/high",
+      "displayed": "51.08",
+      "expected": "51.08"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_coefficient_ood/O-cand-state/joint/low",
+      "displayed": "28.32",
+      "expected": "28.32"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_coefficient_ood/O-cand-state/joint/high",
+      "displayed": "48.73",
+      "expected": "48.73"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_delay_dropout/O-cand-obs/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_delay_dropout/O-cand-obs/cost",
+      "displayed": "0.316309",
+      "expected": "0.316309"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_delay_dropout/O-cand-obs/excess",
+      "displayed": "26.45",
+      "expected": "26.45"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_delay_dropout/O-cand-obs/fixed/low",
+      "displayed": "19.49",
+      "expected": "19.49"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_delay_dropout/O-cand-obs/fixed/high",
+      "displayed": "33.86",
+      "expected": "33.86"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_delay_dropout/O-cand-obs/joint/low",
+      "displayed": "20.83",
+      "expected": "20.83"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_delay_dropout/O-cand-obs/joint/high",
+      "displayed": "32.34",
+      "expected": "32.34"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_delay_dropout/O-cand-state/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_delay_dropout/O-cand-state/cost",
+      "displayed": "0.311253",
+      "expected": "0.311253"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_delay_dropout/O-cand-state/excess",
+      "displayed": "24.43",
+      "expected": "24.43"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_delay_dropout/O-cand-state/fixed/low",
+      "displayed": "18.08",
+      "expected": "18.08"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_delay_dropout/O-cand-state/fixed/high",
+      "displayed": "31.28",
+      "expected": "31.28"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_delay_dropout/O-cand-state/joint/low",
+      "displayed": "19.35",
+      "expected": "19.35"
+    },
+    {
+      "location": "tab:revision_cost_E1_burgers_locked_delay_dropout/O-cand-state/joint/high",
+      "displayed": "29.81",
+      "expected": "29.81"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_nominal/O-cand-obs/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_nominal/O-cand-obs/cost",
+      "displayed": "13.586433",
+      "expected": "13.586433"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_nominal/O-cand-obs/excess",
+      "displayed": "12.70",
+      "expected": "12.70"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_nominal/O-cand-obs/fixed/low",
+      "displayed": "11.93",
+      "expected": "11.93"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_nominal/O-cand-obs/fixed/high",
+      "displayed": "13.50",
+      "expected": "13.50"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_nominal/O-cand-obs/joint/low",
+      "displayed": "11.25",
+      "expected": "11.25"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_nominal/O-cand-obs/joint/high",
+      "displayed": "14.34",
+      "expected": "14.34"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_nominal/O-cand-state/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_nominal/O-cand-state/cost",
+      "displayed": "13.572635",
+      "expected": "13.572635"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_nominal/O-cand-state/excess",
+      "displayed": "12.59",
+      "expected": "12.59"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_nominal/O-cand-state/fixed/low",
+      "displayed": "11.80",
+      "expected": "11.80"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_nominal/O-cand-state/fixed/high",
+      "displayed": "13.41",
+      "expected": "13.41"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_nominal/O-cand-state/joint/low",
+      "displayed": "11.15",
+      "expected": "11.15"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_nominal/O-cand-state/joint/high",
+      "displayed": "14.19",
+      "expected": "14.19"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_coefficient_ood/O-cand-obs/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_coefficient_ood/O-cand-obs/cost",
+      "displayed": "6.900211",
+      "expected": "6.900211"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_coefficient_ood/O-cand-obs/excess",
+      "displayed": "24.40",
+      "expected": "24.40"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_coefficient_ood/O-cand-obs/fixed/low",
+      "displayed": "21.77",
+      "expected": "21.77"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_coefficient_ood/O-cand-obs/fixed/high",
+      "displayed": "27.12",
+      "expected": "27.12"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_coefficient_ood/O-cand-obs/joint/low",
+      "displayed": "20.72",
+      "expected": "20.72"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_coefficient_ood/O-cand-obs/joint/high",
+      "displayed": "28.66",
+      "expected": "28.66"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_coefficient_ood/O-cand-state/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_coefficient_ood/O-cand-state/cost",
+      "displayed": "6.864443",
+      "expected": "6.864443"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_coefficient_ood/O-cand-state/excess",
+      "displayed": "23.76",
+      "expected": "23.76"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_coefficient_ood/O-cand-state/fixed/low",
+      "displayed": "21.15",
+      "expected": "21.15"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_coefficient_ood/O-cand-state/fixed/high",
+      "displayed": "26.46",
+      "expected": "26.46"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_coefficient_ood/O-cand-state/joint/low",
+      "displayed": "20.09",
+      "expected": "20.09"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_coefficient_ood/O-cand-state/joint/high",
+      "displayed": "28.01",
+      "expected": "28.01"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_delay_dropout/O-cand-obs/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_delay_dropout/O-cand-obs/cost",
+      "displayed": "14.215194",
+      "expected": "14.215194"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_delay_dropout/O-cand-obs/excess",
+      "displayed": "9.37",
+      "expected": "9.37"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_delay_dropout/O-cand-obs/fixed/low",
+      "displayed": "8.70",
+      "expected": "8.70"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_delay_dropout/O-cand-obs/fixed/high",
+      "displayed": "10.05",
+      "expected": "10.05"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_delay_dropout/O-cand-obs/joint/low",
+      "displayed": "7.73",
+      "expected": "7.73"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_delay_dropout/O-cand-obs/joint/high",
+      "displayed": "11.48",
+      "expected": "11.48"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_delay_dropout/O-cand-state/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_delay_dropout/O-cand-state/cost",
+      "displayed": "14.251135",
+      "expected": "14.251135"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_delay_dropout/O-cand-state/excess",
+      "displayed": "9.65",
+      "expected": "9.65"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_delay_dropout/O-cand-state/fixed/low",
+      "displayed": "9.00",
+      "expected": "9.00"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_delay_dropout/O-cand-state/fixed/high",
+      "displayed": "10.30",
+      "expected": "10.30"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_delay_dropout/O-cand-state/joint/low",
+      "displayed": "8.02",
+      "expected": "8.02"
+    },
+    {
+      "location": "tab:revision_cost_E1_heat_locked_delay_dropout/O-cand-state/joint/high",
+      "displayed": "11.75",
+      "expected": "11.75"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.01 / 1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.01 / 1/cost",
+      "displayed": "0.341078",
+      "expected": "0.341078"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.01 / 1/excess",
+      "displayed": "28.00",
+      "expected": "28.00"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.01 / 1/fixed/low",
+      "displayed": "23.55",
+      "expected": "23.55"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.01 / 1/fixed/high",
+      "displayed": "32.84",
+      "expected": "32.84"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.01 / 1/joint/low",
+      "displayed": "24.31",
+      "expected": "24.31"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.01 / 1/joint/high",
+      "displayed": "31.95",
+      "expected": "31.95"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.1 / 0.1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.1 / 0.1/cost",
+      "displayed": "0.341189",
+      "expected": "0.341189"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.1 / 0.1/excess",
+      "displayed": "28.04",
+      "expected": "28.04"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.1 / 0.1/fixed/low",
+      "displayed": "23.59",
+      "expected": "23.59"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.1 / 0.1/fixed/high",
+      "displayed": "32.84",
+      "expected": "32.84"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.1 / 0.1/joint/low",
+      "displayed": "24.35",
+      "expected": "24.35"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.1 / 0.1/joint/high",
+      "displayed": "31.98",
+      "expected": "31.98"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.1 / 1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.1 / 1/cost",
+      "displayed": "0.341078",
+      "expected": "0.341078"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.1 / 1/excess",
+      "displayed": "28.00",
+      "expected": "28.00"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.1 / 1/fixed/low",
+      "displayed": "23.55",
+      "expected": "23.55"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.1 / 1/fixed/high",
+      "displayed": "32.84",
+      "expected": "32.84"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.1 / 1/joint/low",
+      "displayed": "24.31",
+      "expected": "24.31"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.1 / 1/joint/high",
+      "displayed": "31.95",
+      "expected": "31.95"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/1 / 0.1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/1 / 0.1/cost",
+      "displayed": "0.341189",
+      "expected": "0.341189"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/1 / 0.1/excess",
+      "displayed": "28.04",
+      "expected": "28.04"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/1 / 0.1/fixed/low",
+      "displayed": "23.59",
+      "expected": "23.59"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/1 / 0.1/fixed/high",
+      "displayed": "32.84",
+      "expected": "32.84"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/1 / 0.1/joint/low",
+      "displayed": "24.35",
+      "expected": "24.35"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/1 / 0.1/joint/high",
+      "displayed": "31.98",
+      "expected": "31.98"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/1 / 1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/1 / 1/cost",
+      "displayed": "0.341078",
+      "expected": "0.341078"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/1 / 1/excess",
+      "displayed": "28.00",
+      "expected": "28.00"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/1 / 1/fixed/low",
+      "displayed": "23.55",
+      "expected": "23.55"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/1 / 1/fixed/high",
+      "displayed": "32.84",
+      "expected": "32.84"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/1 / 1/joint/low",
+      "displayed": "24.31",
+      "expected": "24.31"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/1 / 1/joint/high",
+      "displayed": "31.95",
+      "expected": "31.95"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.01 / 0.1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.01 / 0.1/cost",
+      "displayed": "0.341188",
+      "expected": "0.341188"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.01 / 0.1/excess",
+      "displayed": "28.04",
+      "expected": "28.04"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.01 / 0.1/fixed/low",
+      "displayed": "23.59",
+      "expected": "23.59"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.01 / 0.1/fixed/high",
+      "displayed": "32.84",
+      "expected": "32.84"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.01 / 0.1/joint/low",
+      "displayed": "24.35",
+      "expected": "24.35"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_nominal/0.01 / 0.1/joint/high",
+      "displayed": "31.98",
+      "expected": "31.98"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.01 / 1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.01 / 1/cost",
+      "displayed": "0.537672",
+      "expected": "0.537672"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.01 / 1/excess",
+      "displayed": "38.21",
+      "expected": "38.21"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.01 / 1/fixed/low",
+      "displayed": "26.25",
+      "expected": "26.25"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.01 / 1/fixed/high",
+      "displayed": "51.86",
+      "expected": "51.86"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.01 / 1/joint/low",
+      "displayed": "28.71",
+      "expected": "28.71"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.01 / 1/joint/high",
+      "displayed": "49.40",
+      "expected": "49.40"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.1 / 0.1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.1 / 0.1/cost",
+      "displayed": "0.537914",
+      "expected": "0.537914"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.1 / 0.1/excess",
+      "displayed": "38.27",
+      "expected": "38.27"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.1 / 0.1/fixed/low",
+      "displayed": "26.26",
+      "expected": "26.26"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.1 / 0.1/fixed/high",
+      "displayed": "51.98",
+      "expected": "51.98"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.1 / 0.1/joint/low",
+      "displayed": "28.71",
+      "expected": "28.71"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.1 / 0.1/joint/high",
+      "displayed": "49.53",
+      "expected": "49.53"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.1 / 1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.1 / 1/cost",
+      "displayed": "0.537672",
+      "expected": "0.537672"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.1 / 1/excess",
+      "displayed": "38.21",
+      "expected": "38.21"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.1 / 1/fixed/low",
+      "displayed": "26.25",
+      "expected": "26.25"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.1 / 1/fixed/high",
+      "displayed": "51.86",
+      "expected": "51.86"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.1 / 1/joint/low",
+      "displayed": "28.71",
+      "expected": "28.71"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.1 / 1/joint/high",
+      "displayed": "49.40",
+      "expected": "49.40"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/1 / 0.1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/1 / 0.1/cost",
+      "displayed": "0.537914",
+      "expected": "0.537914"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/1 / 0.1/excess",
+      "displayed": "38.27",
+      "expected": "38.27"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/1 / 0.1/fixed/low",
+      "displayed": "26.26",
+      "expected": "26.26"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/1 / 0.1/fixed/high",
+      "displayed": "51.98",
+      "expected": "51.98"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/1 / 0.1/joint/low",
+      "displayed": "28.71",
+      "expected": "28.71"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/1 / 0.1/joint/high",
+      "displayed": "49.53",
+      "expected": "49.53"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/1 / 1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/1 / 1/cost",
+      "displayed": "0.537672",
+      "expected": "0.537672"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/1 / 1/excess",
+      "displayed": "38.21",
+      "expected": "38.21"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/1 / 1/fixed/low",
+      "displayed": "26.25",
+      "expected": "26.25"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/1 / 1/fixed/high",
+      "displayed": "51.86",
+      "expected": "51.86"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/1 / 1/joint/low",
+      "displayed": "28.71",
+      "expected": "28.71"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/1 / 1/joint/high",
+      "displayed": "49.40",
+      "expected": "49.40"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.01 / 0.1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.01 / 0.1/cost",
+      "displayed": "0.537914",
+      "expected": "0.537914"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.01 / 0.1/excess",
+      "displayed": "38.27",
+      "expected": "38.27"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.01 / 0.1/fixed/low",
+      "displayed": "26.26",
+      "expected": "26.26"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.01 / 0.1/fixed/high",
+      "displayed": "51.98",
+      "expected": "51.98"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.01 / 0.1/joint/low",
+      "displayed": "28.71",
+      "expected": "28.71"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_coefficient_ood/0.01 / 0.1/joint/high",
+      "displayed": "49.53",
+      "expected": "49.53"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.01 / 1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.01 / 1/cost",
+      "displayed": "0.312709",
+      "expected": "0.312709"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.01 / 1/excess",
+      "displayed": "25.01",
+      "expected": "25.01"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.01 / 1/fixed/low",
+      "displayed": "18.53",
+      "expected": "18.53"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.01 / 1/fixed/high",
+      "displayed": "32.04",
+      "expected": "32.04"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.01 / 1/joint/low",
+      "displayed": "19.87",
+      "expected": "19.87"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.01 / 1/joint/high",
+      "displayed": "30.44",
+      "expected": "30.44"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.1 / 0.1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.1 / 0.1/cost",
+      "displayed": "0.312712",
+      "expected": "0.312712"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.1 / 0.1/excess",
+      "displayed": "25.01",
+      "expected": "25.01"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.1 / 0.1/fixed/low",
+      "displayed": "18.53",
+      "expected": "18.53"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.1 / 0.1/fixed/high",
+      "displayed": "32.05",
+      "expected": "32.05"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.1 / 0.1/joint/low",
+      "displayed": "19.87",
+      "expected": "19.87"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.1 / 0.1/joint/high",
+      "displayed": "30.45",
+      "expected": "30.45"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.1 / 1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.1 / 1/cost",
+      "displayed": "0.312709",
+      "expected": "0.312709"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.1 / 1/excess",
+      "displayed": "25.01",
+      "expected": "25.01"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.1 / 1/fixed/low",
+      "displayed": "18.53",
+      "expected": "18.53"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.1 / 1/fixed/high",
+      "displayed": "32.04",
+      "expected": "32.04"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.1 / 1/joint/low",
+      "displayed": "19.87",
+      "expected": "19.87"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.1 / 1/joint/high",
+      "displayed": "30.44",
+      "expected": "30.44"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/1 / 0.1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/1 / 0.1/cost",
+      "displayed": "0.312712",
+      "expected": "0.312712"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/1 / 0.1/excess",
+      "displayed": "25.01",
+      "expected": "25.01"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/1 / 0.1/fixed/low",
+      "displayed": "18.53",
+      "expected": "18.53"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/1 / 0.1/fixed/high",
+      "displayed": "32.05",
+      "expected": "32.05"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/1 / 0.1/joint/low",
+      "displayed": "19.87",
+      "expected": "19.87"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/1 / 0.1/joint/high",
+      "displayed": "30.45",
+      "expected": "30.45"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/1 / 1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/1 / 1/cost",
+      "displayed": "0.312711",
+      "expected": "0.312711"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/1 / 1/excess",
+      "displayed": "25.01",
+      "expected": "25.01"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/1 / 1/fixed/low",
+      "displayed": "18.53",
+      "expected": "18.53"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/1 / 1/fixed/high",
+      "displayed": "32.04",
+      "expected": "32.04"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/1 / 1/joint/low",
+      "displayed": "19.87",
+      "expected": "19.87"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/1 / 1/joint/high",
+      "displayed": "30.45",
+      "expected": "30.45"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.01 / 0.1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.01 / 0.1/cost",
+      "displayed": "0.312712",
+      "expected": "0.312712"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.01 / 0.1/excess",
+      "displayed": "25.01",
+      "expected": "25.01"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.01 / 0.1/fixed/low",
+      "displayed": "18.53",
+      "expected": "18.53"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.01 / 0.1/fixed/high",
+      "displayed": "32.05",
+      "expected": "32.05"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.01 / 0.1/joint/low",
+      "displayed": "19.87",
+      "expected": "19.87"
+    },
+    {
+      "location": "tab:revision_cost_E4_burgers_locked_delay_dropout/0.01 / 0.1/joint/high",
+      "displayed": "30.45",
+      "expected": "30.45"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.01 / 1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.01 / 1/cost",
+      "displayed": "13.713948",
+      "expected": "13.713948"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.01 / 1/excess",
+      "displayed": "13.76",
+      "expected": "13.76"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.01 / 1/fixed/low",
+      "displayed": "12.98",
+      "expected": "12.98"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.01 / 1/fixed/high",
+      "displayed": "14.57",
+      "expected": "14.57"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.01 / 1/joint/low",
+      "displayed": "12.18",
+      "expected": "12.18"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.01 / 1/joint/high",
+      "displayed": "15.50",
+      "expected": "15.50"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.1 / 0.1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.1 / 0.1/cost",
+      "displayed": "13.750965",
+      "expected": "13.750965"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.1 / 0.1/excess",
+      "displayed": "14.07",
+      "expected": "14.07"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.1 / 0.1/fixed/low",
+      "displayed": "13.29",
+      "expected": "13.29"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.1 / 0.1/fixed/high",
+      "displayed": "14.87",
+      "expected": "14.87"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.1 / 0.1/joint/low",
+      "displayed": "12.48",
+      "expected": "12.48"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.1 / 0.1/joint/high",
+      "displayed": "15.83",
+      "expected": "15.83"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.1 / 1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.1 / 1/cost",
+      "displayed": "13.713948",
+      "expected": "13.713948"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.1 / 1/excess",
+      "displayed": "13.76",
+      "expected": "13.76"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.1 / 1/fixed/low",
+      "displayed": "12.98",
+      "expected": "12.98"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.1 / 1/fixed/high",
+      "displayed": "14.57",
+      "expected": "14.57"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.1 / 1/joint/low",
+      "displayed": "12.18",
+      "expected": "12.18"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.1 / 1/joint/high",
+      "displayed": "15.50",
+      "expected": "15.50"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/1 / 0.1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/1 / 0.1/cost",
+      "displayed": "13.749424",
+      "expected": "13.749424"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/1 / 0.1/excess",
+      "displayed": "14.06",
+      "expected": "14.06"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/1 / 0.1/fixed/low",
+      "displayed": "13.28",
+      "expected": "13.28"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/1 / 0.1/fixed/high",
+      "displayed": "14.85",
+      "expected": "14.85"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/1 / 0.1/joint/low",
+      "displayed": "12.47",
+      "expected": "12.47"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/1 / 0.1/joint/high",
+      "displayed": "15.81",
+      "expected": "15.81"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/1 / 1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/1 / 1/cost",
+      "displayed": "13.713943",
+      "expected": "13.713943"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/1 / 1/excess",
+      "displayed": "13.76",
+      "expected": "13.76"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/1 / 1/fixed/low",
+      "displayed": "12.98",
+      "expected": "12.98"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/1 / 1/fixed/high",
+      "displayed": "14.57",
+      "expected": "14.57"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/1 / 1/joint/low",
+      "displayed": "12.18",
+      "expected": "12.18"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/1 / 1/joint/high",
+      "displayed": "15.50",
+      "expected": "15.50"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.01 / 0.1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.01 / 0.1/cost",
+      "displayed": "13.751036",
+      "expected": "13.751036"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.01 / 0.1/excess",
+      "displayed": "14.07",
+      "expected": "14.07"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.01 / 0.1/fixed/low",
+      "displayed": "13.29",
+      "expected": "13.29"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.01 / 0.1/fixed/high",
+      "displayed": "14.87",
+      "expected": "14.87"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.01 / 0.1/joint/low",
+      "displayed": "12.48",
+      "expected": "12.48"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_nominal/0.01 / 0.1/joint/high",
+      "displayed": "15.83",
+      "expected": "15.83"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.01 / 1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.01 / 1/cost",
+      "displayed": "7.127815",
+      "expected": "7.127815"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.01 / 1/excess",
+      "displayed": "28.50",
+      "expected": "28.50"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.01 / 1/fixed/low",
+      "displayed": "26.34",
+      "expected": "26.34"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.01 / 1/fixed/high",
+      "displayed": "30.70",
+      "expected": "30.70"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.01 / 1/joint/low",
+      "displayed": "24.80",
+      "expected": "24.80"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.01 / 1/joint/high",
+      "displayed": "32.73",
+      "expected": "32.73"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.1 / 0.1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.1 / 0.1/cost",
+      "displayed": "7.069621",
+      "expected": "7.069621"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.1 / 0.1/excess",
+      "displayed": "27.46",
+      "expected": "27.46"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.1 / 0.1/fixed/low",
+      "displayed": "25.41",
+      "expected": "25.41"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.1 / 0.1/fixed/high",
+      "displayed": "29.51",
+      "expected": "29.51"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.1 / 0.1/joint/low",
+      "displayed": "23.87",
+      "expected": "23.87"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.1 / 0.1/joint/high",
+      "displayed": "31.53",
+      "expected": "31.53"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.1 / 1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.1 / 1/cost",
+      "displayed": "7.127815",
+      "expected": "7.127815"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.1 / 1/excess",
+      "displayed": "28.50",
+      "expected": "28.50"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.1 / 1/fixed/low",
+      "displayed": "26.34",
+      "expected": "26.34"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.1 / 1/fixed/high",
+      "displayed": "30.70",
+      "expected": "30.70"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.1 / 1/joint/low",
+      "displayed": "24.80",
+      "expected": "24.80"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.1 / 1/joint/high",
+      "displayed": "32.73",
+      "expected": "32.73"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/1 / 0.1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/1 / 0.1/cost",
+      "displayed": "7.069429",
+      "expected": "7.069429"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/1 / 0.1/excess",
+      "displayed": "27.45",
+      "expected": "27.45"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/1 / 0.1/fixed/low",
+      "displayed": "25.40",
+      "expected": "25.40"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/1 / 0.1/fixed/high",
+      "displayed": "29.50",
+      "expected": "29.50"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/1 / 0.1/joint/low",
+      "displayed": "23.86",
+      "expected": "23.86"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/1 / 0.1/joint/high",
+      "displayed": "31.53",
+      "expected": "31.53"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/1 / 1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/1 / 1/cost",
+      "displayed": "7.127815",
+      "expected": "7.127815"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/1 / 1/excess",
+      "displayed": "28.50",
+      "expected": "28.50"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/1 / 1/fixed/low",
+      "displayed": "26.34",
+      "expected": "26.34"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/1 / 1/fixed/high",
+      "displayed": "30.70",
+      "expected": "30.70"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/1 / 1/joint/low",
+      "displayed": "24.80",
+      "expected": "24.80"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/1 / 1/joint/high",
+      "displayed": "32.73",
+      "expected": "32.73"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.01 / 0.1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.01 / 0.1/cost",
+      "displayed": "7.069706",
+      "expected": "7.069706"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.01 / 0.1/excess",
+      "displayed": "27.46",
+      "expected": "27.46"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.01 / 0.1/fixed/low",
+      "displayed": "25.41",
+      "expected": "25.41"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.01 / 0.1/fixed/high",
+      "displayed": "29.51",
+      "expected": "29.51"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.01 / 0.1/joint/low",
+      "displayed": "23.87",
+      "expected": "23.87"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_coefficient_ood/0.01 / 0.1/joint/high",
+      "displayed": "31.53",
+      "expected": "31.53"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.01 / 1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.01 / 1/cost",
+      "displayed": "14.362504",
+      "expected": "14.362504"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.01 / 1/excess",
+      "displayed": "10.51",
+      "expected": "10.51"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.01 / 1/fixed/low",
+      "displayed": "9.84",
+      "expected": "9.84"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.01 / 1/fixed/high",
+      "displayed": "11.17",
+      "expected": "11.17"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.01 / 1/joint/low",
+      "displayed": "8.66",
+      "expected": "8.66"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.01 / 1/joint/high",
+      "displayed": "12.91",
+      "expected": "12.91"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.1 / 0.1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.1 / 0.1/cost",
+      "displayed": "14.398887",
+      "expected": "14.398887"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.1 / 0.1/excess",
+      "displayed": "10.79",
+      "expected": "10.79"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.1 / 0.1/fixed/low",
+      "displayed": "10.13",
+      "expected": "10.13"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.1 / 0.1/fixed/high",
+      "displayed": "11.44",
+      "expected": "11.44"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.1 / 0.1/joint/low",
+      "displayed": "8.92",
+      "expected": "8.92"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.1 / 0.1/joint/high",
+      "displayed": "13.20",
+      "expected": "13.20"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.1 / 1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.1 / 1/cost",
+      "displayed": "14.362442",
+      "expected": "14.362442"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.1 / 1/excess",
+      "displayed": "10.51",
+      "expected": "10.51"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.1 / 1/fixed/low",
+      "displayed": "9.84",
+      "expected": "9.84"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.1 / 1/fixed/high",
+      "displayed": "11.17",
+      "expected": "11.17"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.1 / 1/joint/low",
+      "displayed": "8.66",
+      "expected": "8.66"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.1 / 1/joint/high",
+      "displayed": "12.91",
+      "expected": "12.91"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/1 / 0.1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/1 / 0.1/cost",
+      "displayed": "14.398533",
+      "expected": "14.398533"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/1 / 0.1/excess",
+      "displayed": "10.78",
+      "expected": "10.78"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/1 / 0.1/fixed/low",
+      "displayed": "10.13",
+      "expected": "10.13"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/1 / 0.1/fixed/high",
+      "displayed": "11.44",
+      "expected": "11.44"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/1 / 0.1/joint/low",
+      "displayed": "8.92",
+      "expected": "8.92"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/1 / 0.1/joint/high",
+      "displayed": "13.20",
+      "expected": "13.20"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/1 / 1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/1 / 1/cost",
+      "displayed": "14.362356",
+      "expected": "14.362356"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/1 / 1/excess",
+      "displayed": "10.51",
+      "expected": "10.51"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/1 / 1/fixed/low",
+      "displayed": "9.84",
+      "expected": "9.84"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/1 / 1/fixed/high",
+      "displayed": "11.17",
+      "expected": "11.17"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/1 / 1/joint/low",
+      "displayed": "8.65",
+      "expected": "8.65"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/1 / 1/joint/high",
+      "displayed": "12.91",
+      "expected": "12.91"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.01 / 0.1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.01 / 0.1/cost",
+      "displayed": "14.398928",
+      "expected": "14.398928"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.01 / 0.1/excess",
+      "displayed": "10.79",
+      "expected": "10.79"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.01 / 0.1/fixed/low",
+      "displayed": "10.13",
+      "expected": "10.13"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.01 / 0.1/fixed/high",
+      "displayed": "11.44",
+      "expected": "11.44"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.01 / 0.1/joint/low",
+      "displayed": "8.92",
+      "expected": "8.92"
+    },
+    {
+      "location": "tab:revision_cost_E4_heat_locked_delay_dropout/0.01 / 0.1/joint/high",
+      "displayed": "13.20",
+      "expected": "13.20"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B0/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B0/cost",
+      "displayed": "7.242664",
+      "expected": "7.242664"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B0/excess",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B0/fixed/low",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B0/fixed/high",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B0/joint/low",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B0/joint/high",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B1/cost",
+      "displayed": "9.118768",
+      "expected": "9.118768"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B1/excess",
+      "displayed": "25.90",
+      "expected": "25.90"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B1/fixed/low",
+      "displayed": "24.50",
+      "expected": "24.50"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B1/fixed/high",
+      "displayed": "27.39",
+      "expected": "27.39"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B1/joint/low",
+      "displayed": "23.16",
+      "expected": "23.16"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B1/joint/high",
+      "displayed": "29.07",
+      "expected": "29.07"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B2/seeds",
+      "displayed": "3",
+      "expected": "3"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B2/cost",
+      "displayed": "12.154613",
+      "expected": "12.154613"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B2/excess",
+      "displayed": "67.82",
+      "expected": "67.82"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B2/fixed/low",
+      "displayed": "63.45",
+      "expected": "63.45"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B2/fixed/high",
+      "displayed": "72.40",
+      "expected": "72.40"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B2/joint/low",
+      "displayed": "63.11",
+      "expected": "63.11"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B2/joint/high",
+      "displayed": "72.97",
+      "expected": "72.97"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B3/seeds",
+      "displayed": "3",
+      "expected": "3"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B3/cost",
+      "displayed": "12.362595",
+      "expected": "12.362595"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B3/excess",
+      "displayed": "70.69",
+      "expected": "70.69"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B3/fixed/low",
+      "displayed": "66.18",
+      "expected": "66.18"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B3/fixed/high",
+      "displayed": "75.42",
+      "expected": "75.42"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B3/joint/low",
+      "displayed": "65.91",
+      "expected": "65.91"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B3/joint/high",
+      "displayed": "75.94",
+      "expected": "75.94"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B4/seeds",
+      "displayed": "3",
+      "expected": "3"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B4/cost",
+      "displayed": "9.326493",
+      "expected": "9.326493"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B4/excess",
+      "displayed": "28.77",
+      "expected": "28.77"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B4/fixed/low",
+      "displayed": "27.35",
+      "expected": "27.35"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B4/fixed/high",
+      "displayed": "30.25",
+      "expected": "30.25"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B4/joint/low",
+      "displayed": "25.85",
+      "expected": "25.85"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B4/joint/high",
+      "displayed": "32.18",
+      "expected": "32.18"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B5/seeds",
+      "displayed": "3",
+      "expected": "3"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B5/cost",
+      "displayed": "9.231219",
+      "expected": "9.231219"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B5/excess",
+      "displayed": "27.46",
+      "expected": "27.46"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B5/fixed/low",
+      "displayed": "26.05",
+      "expected": "26.05"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B5/fixed/high",
+      "displayed": "28.93",
+      "expected": "28.93"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B5/joint/low",
+      "displayed": "24.57",
+      "expected": "24.57"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/B5/joint/high",
+      "displayed": "30.83",
+      "expected": "30.83"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/P-nr/seeds",
+      "displayed": "3",
+      "expected": "3"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/P-nr/cost",
+      "displayed": "9.268920",
+      "expected": "9.268920"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/P-nr/excess",
+      "displayed": "27.98",
+      "expected": "27.98"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/P-nr/fixed/low",
+      "displayed": "26.57",
+      "expected": "26.57"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/P-nr/fixed/high",
+      "displayed": "29.43",
+      "expected": "29.43"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/P-nr/joint/low",
+      "displayed": "25.06",
+      "expected": "25.06"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/P-nr/joint/high",
+      "displayed": "31.38",
+      "expected": "31.38"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/P/seeds",
+      "displayed": "3",
+      "expected": "3"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/P/cost",
+      "displayed": "9.231207",
+      "expected": "9.231207"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/P/excess",
+      "displayed": "27.46",
+      "expected": "27.46"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/P/fixed/low",
+      "displayed": "26.05",
+      "expected": "26.05"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/P/fixed/high",
+      "displayed": "28.93",
+      "expected": "28.93"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/P/joint/low",
+      "displayed": "24.57",
+      "expected": "24.57"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_nominal/P/joint/high",
+      "displayed": "30.83",
+      "expected": "30.83"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B0/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B0/cost",
+      "displayed": "2.871902",
+      "expected": "2.871902"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B0/excess",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B0/fixed/low",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B0/fixed/high",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B0/joint/low",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B0/joint/high",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B1/cost",
+      "displayed": "4.448797",
+      "expected": "4.448797"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B1/excess",
+      "displayed": "54.91",
+      "expected": "54.91"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B1/fixed/low",
+      "displayed": "49.84",
+      "expected": "49.84"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B1/fixed/high",
+      "displayed": "60.13",
+      "expected": "60.13"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B1/joint/low",
+      "displayed": "49.91",
+      "expected": "49.91"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B1/joint/high",
+      "displayed": "60.16",
+      "expected": "60.16"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B2/seeds",
+      "displayed": "3",
+      "expected": "3"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B2/cost",
+      "displayed": "7.684250",
+      "expected": "7.684250"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B2/excess",
+      "displayed": "167.57",
+      "expected": "167.57"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B2/fixed/low",
+      "displayed": "149.01",
+      "expected": "149.01"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B2/fixed/high",
+      "displayed": "186.65",
+      "expected": "186.65"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B2/joint/low",
+      "displayed": "151.54",
+      "expected": "151.54"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B2/joint/high",
+      "displayed": "184.87",
+      "expected": "184.87"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B3/seeds",
+      "displayed": "3",
+      "expected": "3"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B3/cost",
+      "displayed": "7.820357",
+      "expected": "7.820357"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B3/excess",
+      "displayed": "172.31",
+      "expected": "172.31"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B3/fixed/low",
+      "displayed": "153.56",
+      "expected": "153.56"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B3/fixed/high",
+      "displayed": "191.45",
+      "expected": "191.45"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B3/joint/low",
+      "displayed": "156.55",
+      "expected": "156.55"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B3/joint/high",
+      "displayed": "189.38",
+      "expected": "189.38"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B4/seeds",
+      "displayed": "3",
+      "expected": "3"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B4/cost",
+      "displayed": "4.638952",
+      "expected": "4.638952"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B4/excess",
+      "displayed": "61.53",
+      "expected": "61.53"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B4/fixed/low",
+      "displayed": "55.78",
+      "expected": "55.78"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B4/fixed/high",
+      "displayed": "67.34",
+      "expected": "67.34"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B4/joint/low",
+      "displayed": "55.99",
+      "expected": "55.99"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B4/joint/high",
+      "displayed": "67.23",
+      "expected": "67.23"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B5/seeds",
+      "displayed": "3",
+      "expected": "3"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B5/cost",
+      "displayed": "4.594399",
+      "expected": "4.594399"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B5/excess",
+      "displayed": "59.98",
+      "expected": "59.98"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B5/fixed/low",
+      "displayed": "54.42",
+      "expected": "54.42"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B5/fixed/high",
+      "displayed": "65.61",
+      "expected": "65.61"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B5/joint/low",
+      "displayed": "54.20",
+      "expected": "54.20"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/B5/joint/high",
+      "displayed": "65.92",
+      "expected": "65.92"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/P-nr/seeds",
+      "displayed": "3",
+      "expected": "3"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/P-nr/cost",
+      "displayed": "4.512963",
+      "expected": "4.512963"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/P-nr/excess",
+      "displayed": "57.14",
+      "expected": "57.14"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/P-nr/fixed/low",
+      "displayed": "51.89",
+      "expected": "51.89"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/P-nr/fixed/high",
+      "displayed": "62.42",
+      "expected": "62.42"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/P-nr/joint/low",
+      "displayed": "51.17",
+      "expected": "51.17"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/P-nr/joint/high",
+      "displayed": "63.41",
+      "expected": "63.41"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/P/seeds",
+      "displayed": "3",
+      "expected": "3"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/P/cost",
+      "displayed": "4.594455",
+      "expected": "4.594455"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/P/excess",
+      "displayed": "59.98",
+      "expected": "59.98"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/P/fixed/low",
+      "displayed": "54.43",
+      "expected": "54.43"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/P/fixed/high",
+      "displayed": "65.61",
+      "expected": "65.61"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/P/joint/low",
+      "displayed": "54.20",
+      "expected": "54.20"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_coefficient_ood/P/joint/high",
+      "displayed": "65.92",
+      "expected": "65.92"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B0/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B0/cost",
+      "displayed": "7.069461",
+      "expected": "7.069461"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B0/excess",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B0/fixed/low",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B0/fixed/high",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B0/joint/low",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B0/joint/high",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B1/seeds",
+      "displayed": "--",
+      "expected": "--"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B1/cost",
+      "displayed": "8.574835",
+      "expected": "8.574835"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B1/excess",
+      "displayed": "21.29",
+      "expected": "21.29"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B1/fixed/low",
+      "displayed": "19.57",
+      "expected": "19.57"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B1/fixed/high",
+      "displayed": "22.94",
+      "expected": "22.94"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B1/joint/low",
+      "displayed": "17.39",
+      "expected": "17.39"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B1/joint/high",
+      "displayed": "25.98",
+      "expected": "25.98"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B2/seeds",
+      "displayed": "3",
+      "expected": "3"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B2/cost",
+      "displayed": "12.295526",
+      "expected": "12.295526"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B2/excess",
+      "displayed": "73.92",
+      "expected": "73.92"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B2/fixed/low",
+      "displayed": "65.47",
+      "expected": "65.47"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B2/fixed/high",
+      "displayed": "82.56",
+      "expected": "82.56"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B2/joint/low",
+      "displayed": "66.53",
+      "expected": "66.53"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B2/joint/high",
+      "displayed": "82.43",
+      "expected": "82.43"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B3/seeds",
+      "displayed": "3",
+      "expected": "3"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B3/cost",
+      "displayed": "12.469471",
+      "expected": "12.469471"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B3/excess",
+      "displayed": "76.39",
+      "expected": "76.39"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B3/fixed/low",
+      "displayed": "67.63",
+      "expected": "67.63"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B3/fixed/high",
+      "displayed": "85.33",
+      "expected": "85.33"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B3/joint/low",
+      "displayed": "69.02",
+      "expected": "69.02"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B3/joint/high",
+      "displayed": "84.84",
+      "expected": "84.84"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B4/seeds",
+      "displayed": "3",
+      "expected": "3"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B4/cost",
+      "displayed": "8.917261",
+      "expected": "8.917261"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B4/excess",
+      "displayed": "26.14",
+      "expected": "26.14"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B4/fixed/low",
+      "displayed": "24.36",
+      "expected": "24.36"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B4/fixed/high",
+      "displayed": "27.79",
+      "expected": "27.79"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B4/joint/low",
+      "displayed": "21.52",
+      "expected": "21.52"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B4/joint/high",
+      "displayed": "31.67",
+      "expected": "31.67"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B5/seeds",
+      "displayed": "3",
+      "expected": "3"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B5/cost",
+      "displayed": "8.839740",
+      "expected": "8.839740"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B5/excess",
+      "displayed": "25.04",
+      "expected": "25.04"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B5/fixed/low",
+      "displayed": "23.22",
+      "expected": "23.22"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B5/fixed/high",
+      "displayed": "26.74",
+      "expected": "26.74"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B5/joint/low",
+      "displayed": "20.45",
+      "expected": "20.45"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/B5/joint/high",
+      "displayed": "30.62",
+      "expected": "30.62"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/P-nr/seeds",
+      "displayed": "3",
+      "expected": "3"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/P-nr/cost",
+      "displayed": "8.905168",
+      "expected": "8.905168"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/P-nr/excess",
+      "displayed": "25.97",
+      "expected": "25.97"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/P-nr/fixed/low",
+      "displayed": "24.12",
+      "expected": "24.12"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/P-nr/fixed/high",
+      "displayed": "27.71",
+      "expected": "27.71"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/P-nr/joint/low",
+      "displayed": "21.31",
+      "expected": "21.31"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/P-nr/joint/high",
+      "displayed": "31.62",
+      "expected": "31.62"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/P/seeds",
+      "displayed": "3",
+      "expected": "3"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/P/cost",
+      "displayed": "8.839717",
+      "expected": "8.839717"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/P/excess",
+      "displayed": "25.04",
+      "expected": "25.04"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/P/fixed/low",
+      "displayed": "23.22",
+      "expected": "23.22"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/P/fixed/high",
+      "displayed": "26.74",
+      "expected": "26.74"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/P/joint/low",
+      "displayed": "20.45",
+      "expected": "20.45"
+    },
+    {
+      "location": "tab:revision_cost_E5_heat_locked_delay_dropout/P/joint/high",
+      "displayed": "30.62",
+      "expected": "30.62"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B0/cost",
+      "displayed": "7.242664",
+      "expected": "7.242664"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B0/tracking",
+      "displayed": "5.638780",
+      "expected": "5.638780"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B0/action",
+      "displayed": "1.584747",
+      "expected": "1.584747"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B0/slew",
+      "displayed": "0.019136",
+      "expected": "0.019136"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B0/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B0/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B1/cost",
+      "displayed": "9.118768",
+      "expected": "9.118768"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B1/tracking",
+      "displayed": "8.056694",
+      "expected": "8.056694"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B1/action",
+      "displayed": "1.055392",
+      "expected": "1.055392"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B1/slew",
+      "displayed": "0.006683",
+      "expected": "0.006683"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B1/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B1/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B2/cost",
+      "displayed": "12.154613",
+      "expected": "12.154613"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B2/tracking",
+      "displayed": "11.334590",
+      "expected": "11.334590"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B2/action",
+      "displayed": "0.816391",
+      "expected": "0.816391"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B2/slew",
+      "displayed": "0.003632",
+      "expected": "0.003632"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B2/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B2/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B3/cost",
+      "displayed": "12.362595",
+      "expected": "12.362595"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B3/tracking",
+      "displayed": "11.557263",
+      "expected": "11.557263"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B3/action",
+      "displayed": "0.801488",
+      "expected": "0.801488"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B3/slew",
+      "displayed": "0.003844",
+      "expected": "0.003844"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B3/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B3/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B4/cost",
+      "displayed": "9.326493",
+      "expected": "9.326493"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B4/tracking",
+      "displayed": "8.274286",
+      "expected": "8.274286"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B4/action",
+      "displayed": "1.046423",
+      "expected": "1.046423"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B4/slew",
+      "displayed": "0.005783",
+      "expected": "0.005783"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B4/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B4/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B5/cost",
+      "displayed": "9.231219",
+      "expected": "9.231219"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B5/tracking",
+      "displayed": "8.170763",
+      "expected": "8.170763"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B5/action",
+      "displayed": "1.054422",
+      "expected": "1.054422"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B5/slew",
+      "displayed": "0.006034",
+      "expected": "0.006034"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B5/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/B5/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/P-nr/cost",
+      "displayed": "9.268920",
+      "expected": "9.268920"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/P-nr/tracking",
+      "displayed": "8.209773",
+      "expected": "8.209773"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/P-nr/action",
+      "displayed": "1.053208",
+      "expected": "1.053208"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/P-nr/slew",
+      "displayed": "0.005939",
+      "expected": "0.005939"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/P-nr/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/P-nr/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/P/cost",
+      "displayed": "9.231207",
+      "expected": "9.231207"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/P/tracking",
+      "displayed": "8.170751",
+      "expected": "8.170751"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/P/action",
+      "displayed": "1.054421",
+      "expected": "1.054421"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/P/slew",
+      "displayed": "0.006034",
+      "expected": "0.006034"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/P/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_nominal/P/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B0/cost",
+      "displayed": "2.871902",
+      "expected": "2.871902"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B0/tracking",
+      "displayed": "1.643104",
+      "expected": "1.643104"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B0/action",
+      "displayed": "1.214869",
+      "expected": "1.214869"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B0/slew",
+      "displayed": "0.013929",
+      "expected": "0.013929"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B0/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B0/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B1/cost",
+      "displayed": "4.448797",
+      "expected": "4.448797"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B1/tracking",
+      "displayed": "3.729406",
+      "expected": "3.729406"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B1/action",
+      "displayed": "0.717042",
+      "expected": "0.717042"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B1/slew",
+      "displayed": "0.002350",
+      "expected": "0.002350"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B1/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B1/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B2/cost",
+      "displayed": "7.684250",
+      "expected": "7.684250"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B2/tracking",
+      "displayed": "7.264237",
+      "expected": "7.264237"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B2/action",
+      "displayed": "0.418603",
+      "expected": "0.418603"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B2/slew",
+      "displayed": "0.001409",
+      "expected": "0.001409"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B2/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B2/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B3/cost",
+      "displayed": "7.820357",
+      "expected": "7.820357"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B3/tracking",
+      "displayed": "7.408208",
+      "expected": "7.408208"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B3/action",
+      "displayed": "0.410557",
+      "expected": "0.410557"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B3/slew",
+      "displayed": "0.001592",
+      "expected": "0.001592"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B3/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B3/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B4/cost",
+      "displayed": "4.638952",
+      "expected": "4.638952"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B4/tracking",
+      "displayed": "3.923897",
+      "expected": "3.923897"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B4/action",
+      "displayed": "0.713218",
+      "expected": "0.713218"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B4/slew",
+      "displayed": "0.001837",
+      "expected": "0.001837"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B4/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B4/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B5/cost",
+      "displayed": "4.594399",
+      "expected": "4.594399"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B5/tracking",
+      "displayed": "3.873993",
+      "expected": "3.873993"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B5/action",
+      "displayed": "0.718477",
+      "expected": "0.718477"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B5/slew",
+      "displayed": "0.001929",
+      "expected": "0.001929"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B5/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/B5/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/P-nr/cost",
+      "displayed": "4.512963",
+      "expected": "4.512963"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/P-nr/tracking",
+      "displayed": "3.785252",
+      "expected": "3.785252"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/P-nr/action",
+      "displayed": "0.725512",
+      "expected": "0.725512"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/P-nr/slew",
+      "displayed": "0.002200",
+      "expected": "0.002200"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/P-nr/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/P-nr/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/P/cost",
+      "displayed": "4.594455",
+      "expected": "4.594455"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/P/tracking",
+      "displayed": "3.874061",
+      "expected": "3.874061"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/P/action",
+      "displayed": "0.718464",
+      "expected": "0.718464"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/P/slew",
+      "displayed": "0.001929",
+      "expected": "0.001929"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/P/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_coefficient_ood/P/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B0/cost",
+      "displayed": "7.069461",
+      "expected": "7.069461"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B0/tracking",
+      "displayed": "5.447737",
+      "expected": "5.447737"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B0/action",
+      "displayed": "1.607687",
+      "expected": "1.607687"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B0/slew",
+      "displayed": "0.014037",
+      "expected": "0.014037"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B0/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B0/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B1/cost",
+      "displayed": "8.574835",
+      "expected": "8.574835"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B1/tracking",
+      "displayed": "7.451420",
+      "expected": "7.451420"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B1/action",
+      "displayed": "1.117106",
+      "expected": "1.117106"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B1/slew",
+      "displayed": "0.006309",
+      "expected": "0.006309"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B1/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B1/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B2/cost",
+      "displayed": "12.295526",
+      "expected": "12.295526"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B2/tracking",
+      "displayed": "11.467093",
+      "expected": "11.467093"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B2/action",
+      "displayed": "0.824592",
+      "expected": "0.824592"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B2/slew",
+      "displayed": "0.003842",
+      "expected": "0.003842"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B2/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B2/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B3/cost",
+      "displayed": "12.469471",
+      "expected": "12.469471"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B3/tracking",
+      "displayed": "11.653131",
+      "expected": "11.653131"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B3/action",
+      "displayed": "0.812235",
+      "expected": "0.812235"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B3/slew",
+      "displayed": "0.004105",
+      "expected": "0.004105"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B3/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B3/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B4/cost",
+      "displayed": "8.917261",
+      "expected": "8.917261"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B4/tracking",
+      "displayed": "7.818960",
+      "expected": "7.818960"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B4/action",
+      "displayed": "1.093037",
+      "expected": "1.093037"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B4/slew",
+      "displayed": "0.005264",
+      "expected": "0.005264"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B4/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B4/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B5/cost",
+      "displayed": "8.839740",
+      "expected": "8.839740"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B5/tracking",
+      "displayed": "7.734763",
+      "expected": "7.734763"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B5/action",
+      "displayed": "1.099492",
+      "expected": "1.099492"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B5/slew",
+      "displayed": "0.005485",
+      "expected": "0.005485"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B5/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/B5/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/P-nr/cost",
+      "displayed": "8.905168",
+      "expected": "8.905168"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/P-nr/tracking",
+      "displayed": "7.804369",
+      "expected": "7.804369"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/P-nr/action",
+      "displayed": "1.095477",
+      "expected": "1.095477"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/P-nr/slew",
+      "displayed": "0.005321",
+      "expected": "0.005321"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/P-nr/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/P-nr/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/P/cost",
+      "displayed": "8.839717",
+      "expected": "8.839717"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/P/tracking",
+      "displayed": "7.734736",
+      "expected": "7.734736"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/P/action",
+      "displayed": "1.099495",
+      "expected": "1.099495"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/P/slew",
+      "displayed": "0.005485",
+      "expected": "0.005485"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/P/violation",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_costparts_locked_delay_dropout/P/first_step_violation_cost",
+      "displayed": "0.000000",
+      "expected": "0.000000"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B0/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B0/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B0/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B0/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B0/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B1/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B1/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B1/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B1/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B1/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B2/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B2/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B2/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B2/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B2/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B3/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B3/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B3/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B3/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B3/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B4/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B4/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B4/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B4/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B4/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B5/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B5/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B5/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B5/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/B5/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/P-nr/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/P-nr/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/P-nr/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/P-nr/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/P-nr/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/P/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/P/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/P/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/P/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_nominal/P/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B0/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B0/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B0/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B0/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B0/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B1/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B1/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B1/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B1/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B1/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B2/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B2/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B2/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B2/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B2/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B3/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B3/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B3/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B3/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B3/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B4/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B4/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B4/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B4/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B4/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B5/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B5/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B5/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B5/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/B5/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/P-nr/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/P-nr/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/P-nr/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/P-nr/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/P-nr/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/P/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/P/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/P/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/P/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_coefficient_ood/P/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B0/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B0/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B0/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B0/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B0/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B1/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B1/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B1/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B1/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B1/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B2/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B2/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B2/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B2/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B2/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B3/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B3/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B3/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B3/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B3/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B4/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B4/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B4/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B4/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B4/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B5/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B5/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B5/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B5/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/B5/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/P-nr/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/P-nr/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/P-nr/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/P-nr/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/P-nr/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/P/any_violation_rate",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/P/violation_rate_tolerance_1e7",
+      "displayed": "0.00",
+      "expected": "0.00"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/P/violation_duration_seconds",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/P/violation_max",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "tab:new_heat_constraints_locked_delay_dropout/P/violation_integrated_mean",
+      "displayed": "0",
+      "expected": "0"
+    },
+    {
+      "location": "['Nominal', 'P']/9",
+      "displayed": "0.07",
+      "expected": "0.07"
+    },
+    {
+      "location": "['Nominal', 'P']/4",
+      "displayed": "92.97",
+      "expected": "92.97"
+    },
+    {
+      "location": "['Nominal', 'B4']/9",
+      "displayed": "0.08",
+      "expected": "0.08"
+    },
+    {
+      "location": "['Nominal', 'B4']/4",
+      "displayed": "93.18",
+      "expected": "93.18"
+    },
+    {
+      "location": "['Nominal', 'B5']/9",
+      "displayed": "0.07",
+      "expected": "0.07"
+    },
+    {
+      "location": "['Nominal', 'B5']/4",
+      "displayed": "92.97",
+      "expected": "92.97"
+    },
+    {
+      "location": "['Nominal', 'P-nr']/9",
+      "displayed": "0.08",
+      "expected": "0.08"
+    },
+    {
+      "location": "['Nominal', 'P-nr']/4",
+      "displayed": "93.13",
+      "expected": "93.13"
+    },
+    {
+      "location": "['Coefficient shift', 'P']/9",
+      "displayed": "0.03",
+      "expected": "0.03"
+    },
+    {
+      "location": "['Coefficient shift', 'P']/4",
+      "displayed": "98.21",
+      "expected": "98.21"
+    },
+    {
+      "location": "['Coefficient shift', 'B4']/9",
+      "displayed": "0.03",
+      "expected": "0.03"
+    },
+    {
+      "location": "['Coefficient shift', 'B4']/4",
+      "displayed": "98.29",
+      "expected": "98.29"
+    },
+    {
+      "location": "['Coefficient shift', 'B5']/9",
+      "displayed": "0.03",
+      "expected": "0.03"
+    },
+    {
+      "location": "['Coefficient shift', 'B5']/4",
+      "displayed": "98.21",
+      "expected": "98.21"
+    },
+    {
+      "location": "['Coefficient shift', 'P-nr']/9",
+      "displayed": "0.03",
+      "expected": "0.03"
+    },
+    {
+      "location": "['Coefficient shift', 'P-nr']/4",
+      "displayed": "97.99",
+      "expected": "97.99"
+    },
+    {
+      "location": "['Delay/dropout', 'P']/9",
+      "displayed": "0.04",
+      "expected": "0.04"
+    },
+    {
+      "location": "['Delay/dropout', 'P']/4",
+      "displayed": "95.41",
+      "expected": "95.41"
+    },
+    {
+      "location": "['Delay/dropout', 'B4']/9",
+      "displayed": "0.04",
+      "expected": "0.04"
+    },
+    {
+      "location": "['Delay/dropout', 'B4']/4",
+      "displayed": "95.59",
+      "expected": "95.59"
+    },
+    {
+      "location": "['Delay/dropout', 'B5']/9",
+      "displayed": "0.04",
+      "expected": "0.04"
+    },
+    {
+      "location": "['Delay/dropout', 'B5']/4",
+      "displayed": "95.41",
+      "expected": "95.41"
+    },
+    {
+      "location": "['Delay/dropout', 'P-nr']/9",
+      "displayed": "0.04",
+      "expected": "0.04"
+    },
+    {
+      "location": "['Delay/dropout', 'P-nr']/4",
+      "displayed": "95.53",
+      "expected": "95.53"
+    }
+  ],
+  "sha256": {
+    "data\\revision\\E1_candidate_frequency.csv": "310efa12161af07c79fb701585235d0a0c1ecb93425b9d6671306a5d40bb8d96",
+    "data\\revision\\E4_ACTION_AGREEMENT.csv": "b0a3eb28a137bfefd6257e8b603b122a6a39bb1251a44a3b4c5708a70bf995d8",
+    "data\\revision\\E4_selected_gradient_diagnostics.csv": "c431517bb32054741209193f789036e77f37f7a2a2f55beae8706498ac849f52",
+    "data\\revision\\E6_new_heat_cost_decomposition.csv": "6fc99c3769390da8b3a79a37e418fdf9a882aed08384916137ac1bb907fa64ec",
+    "data\\revision\\REVISION_COST_SUMMARY.csv": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741",
+    "data\\revision\\REVISION_RAW_AUDIT.json": "ceb89b10f6ca29c9653dd61ee48416a3bd9a6158157506e044384537e64c00ed",
+    "data\\revision\\REVISION_TRAINING_EXPORT.json": "5547ab5eb2aa70c1fa768a2934534c8bee61664389324c59fc3802c1c62c8cc2",
+    "data\\revision\\REVISION_TRAINING_SELECTION.csv": "7510cf96d86f80ecc0698aaeb49e8f964d4cc683b2925758513ea26f26fdffe9",
+    "tables\\revision_all_cost_intervals.tex": "8ddb47ed8861b67d7ef7e64ed288c2fa5e40710715acf16676f062496b8ced5f",
+    "tables\\revision_heat_selection.tex": "f856b79b7202ce6e8f3b1090fae8127b8ade49a623628247d275e8356437963d",
+    "tables\\revision_new_heat_choices.tex": "1760d0b7e05f9f2f2367a1fbfdd0bae6eea4ea555fe5fbd90a56435494e04aaf",
+    "tables\\revision_new_heat_constraints.tex": "0f9fe42dba0e3172f12f612fa7a323897f55d4fc2382bb8414e3ffcdcdeb42cc",
+    "tables\\revision_new_heat_cost.tex": "a9d3aa2cf0488343260a70c84a52a4698630ee1fd08f7cc1421906bc0f2b159c",
+    "tables\\revision_scaling_selection.tex": "db98857383ea688ffaadaba05079a5f2bc9cc0496147f654836773b5a30a29a8",
+    "tables\\revision_weight_control.tex": "e7970dca1d41f6b831a4c9a14c1300fd11c95b1b008724733c671c587d7e210b",
+    "tables\\revision_weight_selection.tex": "e183aa533227920d7bd970f5c04b93e1f7e1b1972d428e9269f53b9ec6486e4b"
+  },
+  "limits": "Keyed summary-to-table identities, aggregation and rounding only. No raw recomputation, confidence-interval methodology, prose/main-paper numeric coverage or PDF review."
+}

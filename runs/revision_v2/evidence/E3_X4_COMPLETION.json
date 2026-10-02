@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-10-02T06:01:25.113021+00:00",
+  "status": "X4_SIX_OPERATORS_COMPLETED_FORMAL_E3_GATE_PENDING",
+  "completed_fits_at_observation": 14,
+  "required_fits": 21,
+  "rows": [
+    {
+      "condition": "burgers_x4_P_s11",
+      "actual_updates": 16500,
+      "selected_update": 14500,
+      "field_nrmse": 0.10648220777511597,
+      "wall_seconds": 1005.2492299999576,
+      "summary": "runs/revision_v2/checkpoints/E3/burgers_x4_P_s11.summary.json",
+      "summary_sha256": "aa39842c908ba482925d09a0174260a2a4d6b0b4ce1ebd4a05588d0109ee27f5"
+    },
+    {
+      "condition": "burgers_x4_B4_s11",
+      "actual_updates": 14500,
+      "selected_update": 14500,
+      "field_nrmse": 0.10562201589345932,
+      "wall_seconds": 831.1399669999955,
+      "summary": "runs/revision_v2/checkpoints/E3/burgers_x4_B4_s11.summary.json",
+      "summary_sha256": "756ca4a215996a3c731caa620343c78df290deef179d91edd6cc49c2c919b4a7"
+    },
+    {
+      "condition": "burgers_x4_P_s23",
+      "actual_updates": 15500,
+      "selected_update": 15500,
+      "field_nrmse": 0.1066681370139122,
+      "wall_seconds": 888.8140010000207,
+      "summary": "runs/revision_v2/checkpoints/E3/burgers_x4_P_s23.summary.json",
+      "summary_sha256": "1107b37e9c734e3083e34ad7f1f7ec5234daafd64dfd7cb8cfbf38dcbc03f421"
+    },
+    {
+      "condition": "burgers_x4_B4_s23",
+      "actual_updates": 19500,
+      "selected_update": 19000,
+      "field_nrmse": 0.10251856595277786,
+      "wall_seconds": 1154.988783799985,
+      "summary": "runs/revision_v2/checkpoints/E3/burgers_x4_B4_s23.summary.json",
+      "summary_sha256": "8d9bc2e502efee875e029812932accd3a175a3680e6b3e0ec9d798231011bf49"
+    },
+    {
+      "condition": "burgers_x4_P_s37",
+      "actual_updates": 16500,
+      "selected_update": 15000,
+      "field_nrmse": 0.10609246790409088,
+      "wall_seconds": 973.8560525000212,
+      "summary": "runs/revision_v2/checkpoints/E3/burgers_x4_P_s37.summary.json",
+      "summary_sha256": "bb0c72a9d0fa17cc4a64faee6711839d7f4ed02096aa9f8846858949062fd281"
+    },
+    {
+      "condition": "burgers_x4_B4_s37",
+      "actual_updates": 19500,
+      "selected_update": 19500,
+      "field_nrmse": 0.10099184513092041,
+      "wall_seconds": 1206.3398214000044,
+      "summary": "runs/revision_v2/checkpoints/E3/burgers_x4_B4_s37.summary.json",
+      "summary_sha256": "a33aa7506505b054753196c43cb6d024c3a7d3ef6dd14e6e46ffe8affc62bc5d"
+    }
+  ],
+  "selected_field_le_005": 0,
+  "limits": "All21fits and frozen selection required before formal18operator gate. No final scaling or closed-loop effect conclusion; same-parent expanded queries are not new independent parents."
+}

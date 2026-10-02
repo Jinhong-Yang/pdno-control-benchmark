@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-02T06:17:18.712781+00:00",
+  "status": "COMPLETED_FIT_NOT_FINAL_E3_GATE",
+  "completed_fits_at_observation": 16,
+  "required_fits": 21,
+  "condition": "burgers_x16_P_s11",
+  "actual_updates": 15000,
+  "selected_update": 14500,
+  "field_nrmse": 0.10909414291381836,
+  "wall_seconds": 898.4956639999873,
+  "summary": "runs/revision_v2/checkpoints/E3/burgers_x16_P_s11.summary.json",
+  "summary_sha256": "02b5ee82a71261c95039faff3e940b222418d99fa61f4433a6d8ee7fbe0a64a7",
+  "limits": "First factor16 operator only; no final scaling/architecture/closed-loop conclusion. Formal all18operator gate after all21fits and seal."
+}

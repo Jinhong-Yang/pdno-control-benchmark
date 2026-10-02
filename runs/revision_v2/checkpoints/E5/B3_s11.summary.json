@@ -1,0 +1,30 @@
+{
+  "method": "B3",
+  "pde": "heat",
+  "seed": 11,
+  "best_step": 1000,
+  "validation_score": 0.14763802560996736,
+  "actual_updates": 1000,
+  "elapsed_seconds": 9.626263199956156,
+  "history": [
+    {
+      "step": 500,
+      "train_objective": 0.020045960322022438,
+      "train_bc_loss": 0.000761941191740334,
+      "validation_surrogate_cost_mean": 0.14748570445226505,
+      "validation_teacher_action_mse": 0.0016706630844396386,
+      "selection_score": 0.147652770760709
+    },
+    {
+      "step": 1000,
+      "train_objective": 0.014414834789931774,
+      "train_bc_loss": 0.001205690554343164,
+      "validation_surrogate_cost_mean": 0.14747796014125925,
+      "validation_teacher_action_mse": 0.00160065468708126,
+      "selection_score": 0.14763802560996736
+    }
+  ],
+  "checkpoint": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\revision_v2\\checkpoints\\E5\\B3_s11.pt",
+  "frozen_surrogate": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\revision_v2\\checkpoints\\E5\\B4_s11.pt",
+  "BC_initialization": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\revision_v2\\checkpoints\\E5\\B2_s11.pt"
+}

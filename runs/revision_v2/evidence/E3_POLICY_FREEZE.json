@@ -1,0 +1,94 @@
+{
+  "status": "FROZEN_BEFORE_GATE_TRIGGERED_CONTROL_EVALUATION",
+  "created_utc": "2026-10-02T07:37:41.003525+00:00",
+  "checkpoints": [
+    {
+      "path": "checkpoints\\E3\\burgers_x16_B4_s11.pt",
+      "sha256": "d2aabd3d018d5429c5ede62fd421f668a030d32e9514b08c092e98e57f7d1b58"
+    },
+    {
+      "path": "checkpoints\\E3\\burgers_x16_B4_s23.pt",
+      "sha256": "5dfd876e29b07b481eaf586d9eac41f28febbf8a8408773cf482060e3ff205ae"
+    },
+    {
+      "path": "checkpoints\\E3\\burgers_x16_B4_s37.pt",
+      "sha256": "59745d335bbf9f3d3c1fa79e2fcb910c07de276a26d07eb68b3535e90ef4b2a7"
+    },
+    {
+      "path": "checkpoints\\E3\\burgers_x16_P_s11.pt",
+      "sha256": "3f54ef6d370199b4f9a717b5ea4635331578b859ef2917aaf394243595096a15"
+    },
+    {
+      "path": "checkpoints\\E3\\burgers_x16_P_s23.pt",
+      "sha256": "47ac605bac7d825e380b06055a5452947177c4f54d40c2d53d82bf8a4b6d144a"
+    },
+    {
+      "path": "checkpoints\\E3\\burgers_x16_P_s37.pt",
+      "sha256": "ba85db25d09507c12767ac680875785f8fb52648d7229778b1d630fab182adcd"
+    },
+    {
+      "path": "checkpoints\\E3\\burgers_x1_B4_s11.pt",
+      "sha256": "f7dcecf5e66ed90a547f282cd83a25bae1327afab91f2dff185e5b8114a503a9"
+    },
+    {
+      "path": "checkpoints\\E3\\burgers_x1_B4_s23.pt",
+      "sha256": "3353bb7c3aaf0b286885d7a5cc5933745a092001cfe0542b17b9251184ef534d"
+    },
+    {
+      "path": "checkpoints\\E3\\burgers_x1_B4_s37.pt",
+      "sha256": "8e8217e8b620bd6c7f9634c382706071275915e265afffe59e782a81afa6b649"
+    },
+    {
+      "path": "checkpoints\\E3\\burgers_x1_P_s11.pt",
+      "sha256": "e13b2955dd6ae617e2b3da408ef50016206a362d14f97aacb056654cd1f8cc9c"
+    },
+    {
+      "path": "checkpoints\\E3\\burgers_x1_P_s23.pt",
+      "sha256": "3f7b1e7cde7a915f6c2482c547c8c18f7dc75cffbd56f1e59501f3e7e636df1d"
+    },
+    {
+      "path": "checkpoints\\E3\\burgers_x1_P_s37.pt",
+      "sha256": "2c7ac88080fa4411a6eaa4d4bacaa9e6f01331832880f28180fad9353906a9b0"
+    },
+    {
+      "path": "checkpoints\\E3\\burgers_x4_B4_s11.pt",
+      "sha256": "5627fd4e3b4152a8603faea0263b8c3e803b6f5387862478260cbe6df0ca8c4c"
+    },
+    {
+      "path": "checkpoints\\E3\\burgers_x4_B4_s23.pt",
+      "sha256": "0650a9ce87b2ecc453314e564763bce20d588791ace9e3fa0c0d03df7337a785"
+    },
+    {
+      "path": "checkpoints\\E3\\burgers_x4_B4_s37.pt",
+      "sha256": "495bead1972119493cf2fcd81d0f571477fd895bb431634858cf53fb1bbf5dbe"
+    },
+    {
+      "path": "checkpoints\\E3\\burgers_x4_P_s11.pt",
+      "sha256": "7af6f765b68b075b7699b1bc8c63338a880d1af9e88c6a0ecb1105875a8c8bfe"
+    },
+    {
+      "path": "checkpoints\\E3\\burgers_x4_P_s23.pt",
+      "sha256": "51df33fb651094b122a51d093f0db42d4258f60e398bdd881e5462296a960180"
+    },
+    {
+      "path": "checkpoints\\E3\\burgers_x4_P_s37.pt",
+      "sha256": "ba94989c7867251e20404a9cf7ca973354190659c080e69e834fcd8b0ff7a50d"
+    },
+    {
+      "path": "checkpoints\\E3\\observer\\burgers_x16_seed7.pt",
+      "sha256": "2c1aaa956812229b27ceca21f42e61f3b195b216ef81219c4b687bc63b9d3270"
+    },
+    {
+      "path": "checkpoints\\E3\\observer\\burgers_x1_seed7.pt",
+      "sha256": "1c35db13a2d0b192723a2b2e68c8f9994caad9f21f69ae39ec4990bc8694ecef"
+    },
+    {
+      "path": "checkpoints\\E3\\observer\\burgers_x4_seed7.pt",
+      "sha256": "0d84cf1aecd35602985df65018cc7809d43e9661ac637ecaa3e608cb9b7faf67"
+    }
+  ],
+  "amendment_sha256": "768865d64bac364becad03a68d663897999b5b29efe34274c2b9ff9fc893e63e",
+  "accuracy_gate": 0.05,
+  "selection": "validation-only selection; existing test parents reused only for gate-passing checkpoints",
+  "evaluation_script_sha256": "6f69351c991ac9e39a43c6eecfacd98f769058951c64d4c6d17ceb2a96f1b3eb"
+}

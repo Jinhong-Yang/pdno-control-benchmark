@@ -1,0 +1,34 @@
+{
+  "status": "STATIC_CALL_PATH_AUDIT_NOT_TIMING_ATTRIBUTION",
+  "checked_utc": "2026-10-02T02:10:38.186420+00:00",
+  "correction": "Supersedes any earlier broad statement that heat goal least-squares operations are all outside host-ready timing. There are two distinct goal representations and call paths.",
+  "inside_request_preparation": [
+    "run_e2_timing.request calls nominal_lqr_action before the request_preparation mark.",
+    "For heat, nominal_lqr_action constructs the seven-mode goal projection using np.linalg.lstsq(modal,goal), then solves the steady-input least-squares problem. Both calls are inside request_preparation.",
+    "Modal observation reconstruction and B0 gain lookup/construction are also inside request_preparation."
+  ],
+  "outside_request_boundary": [
+    "closed_loop._goal_coeff constructs32 heat goal coefficients for neural observations when replay observations were originally assembled. These stored goal_coefficients are read by E2; that32-mode least-squares solve is not re-executed inside E2.request.",
+    "CachedOperator initialization precomputes model-specific trunk output and spatial basis before warmup and timed requests."
+  ],
+  "model_path_static_facts": [
+    "Uncached heat spatial_basis executes32 Python-loop iterations, each making a device scalar wave_number, sinusoidal terms and the linear endpoint-roundoff correction.",
+    "The periodic Burgers basis uses16 harmonic iterations with sine and cosine, plus a constant basis.",
+    "The profile field_assembly_and_other remainder contains spatial_basis, initial-head work, field combinations and instrumentation overhead; the current profiler does not isolate individual basis operations.",
+    "Cache on precomputes both trunk output and spatial basis; an observed timing change cannot be assigned exclusively to either one without a further controlled measurement."
+  ],
+  "gain_cache_lifecycle": [
+    "Both _burgers_gain and _heat_gain use process-local lru_cache(maxsize=8192).",
+    "The E2 runner uses one process for all three randomized-condition sessions and does not clear these gain caches between conditions/sessions.",
+    "Every condition uses the specified50warmup requests, plus four equivalence-check observations; this does not imply a cold process or complete gain-cache prewarming.",
+    "All recorded requests and outliers remain in the primary analysis; no retrospective removal or timing restart is authorized by this static finding."
+  ],
+  "interpretation_limit": "Use completed stage profiles to describe observed associations. This code inspection does not measure milliseconds, isolate a causal share of the heat/Burgers gap, or establish an effect of persistent gain caches. Three sequential sessions are not independently restarted environments.",
+  "source_sha256": {
+    "runs/revision_v2/scripts/run_e2_timing.py": "3446b19593aaee51c3d48ef585e45116924b12e67a8a4b6dbc5cc411adeaa8ad",
+    "runs/revision_v2/src/pdno/controllers/linear.py": "643e090f107f09d5532176773d9a5c50b9c062ace1bed49911ea1c87c0602ad1",
+    "runs/revision_v2/src/pdno/models/operators.py": "4576ddf2c2ec49a56443022b12a842f83f0f36d7cfc03b08c08f9d5309aca603",
+    "runs/revision_v2/src/pdno/models/revision_cache.py": "59376f3d4a51a03c30b3063c2e5f289ea09e66f6237b3da0115b1d55d3b148f4",
+    "runs/revision_v2/src/pdno/evaluation/closed_loop.py": "6402a37c0e07c1169a11472f6d0f4d1b0f9c0943868298b5a05287f3067e203d"
+  }
+}

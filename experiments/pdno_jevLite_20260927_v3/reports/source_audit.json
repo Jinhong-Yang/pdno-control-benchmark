@@ -1,0 +1,337 @@
+{
+  "selected_operator_checkpoint_checks": [
+    {
+      "pde": "burgers",
+      "method": "P",
+      "seed": 11,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.1582564264535904,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "burgers",
+      "method": "P",
+      "seed": 23,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.15979814529418945,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "burgers",
+      "method": "P",
+      "seed": 37,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.16182494163513184,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "burgers",
+      "method": "P-no-rank",
+      "seed": 11,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.15845930576324463,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "burgers",
+      "method": "P-no-rank",
+      "seed": 23,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.15994179248809814,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "burgers",
+      "method": "P-no-rank",
+      "seed": 37,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.1619691103696823,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "burgers",
+      "method": "B4",
+      "seed": 11,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.1588338017463684,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "burgers",
+      "method": "B4",
+      "seed": 23,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.1591140627861023,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "burgers",
+      "method": "B4",
+      "seed": 37,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.15918245911598206,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "burgers",
+      "method": "B5",
+      "seed": 11,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.15825648605823517,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "burgers",
+      "method": "B5",
+      "seed": 23,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.15979818999767303,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "burgers",
+      "method": "B5",
+      "seed": 37,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.1618250012397766,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "heat",
+      "method": "P",
+      "seed": 11,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.07887555658817291,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "heat",
+      "method": "P",
+      "seed": 23,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.08353152126073837,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "heat",
+      "method": "P",
+      "seed": 37,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.08439669758081436,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "heat",
+      "method": "P-no-rank",
+      "seed": 11,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.07700414955615997,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "heat",
+      "method": "P-no-rank",
+      "seed": 23,
+      "selected_update": 4500,
+      "minimum_score_update": 4500,
+      "match": true,
+      "field_nrmse": 0.08244631439447403,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "heat",
+      "method": "P-no-rank",
+      "seed": 37,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.08400676399469376,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "heat",
+      "method": "B4",
+      "seed": 11,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.08341123908758163,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "heat",
+      "method": "B4",
+      "seed": 23,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.08417071402072906,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "heat",
+      "method": "B4",
+      "seed": 37,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.08306223899126053,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "heat",
+      "method": "B5",
+      "seed": 11,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.07887617498636246,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "heat",
+      "method": "B5",
+      "seed": 23,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.0835317000746727,
+      "field_gate_pass": false
+    },
+    {
+      "pde": "heat",
+      "method": "B5",
+      "seed": 37,
+      "selected_update": 5000,
+      "minimum_score_update": 5000,
+      "match": true,
+      "field_nrmse": 0.08439676463603973,
+      "field_gate_pass": false
+    }
+  ],
+  "operator_checkpoints": 24,
+  "failed_field_gates": 24,
+  "P_loss_scale_diagnostic": [
+    {
+      "pde": "burgers",
+      "seed": 11,
+      "selected_phase": "physics_ranking",
+      "weighted_physics_balance_fraction_of_logged_loss": 3.5178887273040766e-05,
+      "source": "selected-update minibatch logs; not gradient influence or independent PDE residual"
+    },
+    {
+      "pde": "burgers",
+      "seed": 23,
+      "selected_phase": "physics_ranking",
+      "weighted_physics_balance_fraction_of_logged_loss": 2.3357776174637414e-05,
+      "source": "selected-update minibatch logs; not gradient influence or independent PDE residual"
+    },
+    {
+      "pde": "burgers",
+      "seed": 37,
+      "selected_phase": "physics_ranking",
+      "weighted_physics_balance_fraction_of_logged_loss": 2.363796384173281e-05,
+      "source": "selected-update minibatch logs; not gradient influence or independent PDE residual"
+    },
+    {
+      "pde": "heat",
+      "seed": 11,
+      "selected_phase": "physics_ranking",
+      "weighted_physics_balance_fraction_of_logged_loss": 2.1063588984223438e-05,
+      "source": "selected-update minibatch logs; not gradient influence or independent PDE residual"
+    },
+    {
+      "pde": "heat",
+      "seed": 23,
+      "selected_phase": "physics_ranking",
+      "weighted_physics_balance_fraction_of_logged_loss": 3.811030159031928e-05,
+      "source": "selected-update minibatch logs; not gradient influence or independent PDE residual"
+    },
+    {
+      "pde": "heat",
+      "seed": 37,
+      "selected_phase": "physics_ranking",
+      "weighted_physics_balance_fraction_of_logged_loss": 3.343679737563842e-05,
+      "source": "selected-update minibatch logs; not gradient influence or independent PDE residual"
+    }
+  ],
+  "comparator_scores_recomputed": {
+    "B0": 1.0,
+    "B1": 1.2018290518001318,
+    "B2": 1.265445871899187,
+    "B3": 1.26714840744397,
+    "B4": 1.2066298206154262,
+    "B5": 1.2076668570477467
+  },
+  "comparator_scores_match": true,
+  "comparator_selected": "B0",
+  "manifest_chain": [
+    {
+      "manifest": "pretraining_spec_freeze_v3.json",
+      "key": "inputs_sha256",
+      "count": 88,
+      "mismatches": [
+        {
+          "path": "evidence\\failures_and_modifications_v3.jsonl",
+          "expected": "1b3819e67479a5c63f0a9f4964f48bc599fb2d4d3b942bb2d350e178e286ecb0",
+          "actual": "bb1c3b45b6fbd7b697f9d1f6a1a77bf2a3dfa61494bf3ee57e76f0c602fb5cd9"
+        },
+        {
+          "path": "scripts\\benchmark_host_e2e_v3.py",
+          "expected": "8dc9ddaa20c70c7462c739c818d0e9ab8a3176dfd265f86aeb7efa4765b4203b",
+          "actual": "0db3169647c1249dda2b2ce5ea732ecf57696e3a24fd5bf1c58a46caf0698246"
+        }
+      ]
+    },
+    {
+      "manifest": "locked_evaluation_freeze_v3.json",
+      "key": "frozen_input_sha256",
+      "count": 61,
+      "mismatches": [
+        {
+          "path": "scripts\\benchmark_host_e2e_v3.py",
+          "expected": "8dc9ddaa20c70c7462c739c818d0e9ab8a3176dfd265f86aeb7efa4765b4203b",
+          "actual": "0db3169647c1249dda2b2ce5ea732ecf57696e3a24fd5bf1c58a46caf0698246"
+        }
+      ]
+    },
+    {
+      "manifest": "locked_evaluation_freeze_v3.json",
+      "key": "checkpoint_sha256",
+      "count": 38,
+      "mismatches": []
+    }
+  ]
+}

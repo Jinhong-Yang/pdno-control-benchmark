@@ -1,0 +1,20 @@
+{
+  "status": "EXITED_SUCCESS",
+  "evidence_basis": "reconstructed_from_persisted_supervisor_completion",
+  "supervisor_session": 44307,
+  "recorded_exit_code": 0,
+  "process_receipt_created_at": "2026-09-28T01:10:00+09:00",
+  "note": "Original transient process receipt absent. This receipt transcribes the persisted RUN_STATE completion entry and cross-checks complete progress, summaries, checkpoints, and frozen manifest; it does not claim a fresh process observation.",
+  "progress_status": "TRAINING_COMPLETE",
+  "progress_rows": 38,
+  "progress_elapsed_seconds": 6411.5417730000045,
+  "summary_files": 38,
+  "checkpoint_files": 38,
+  "frozen_manifest_status": "FROZEN_CONFIRMATORY_CHECKPOINTS",
+  "frozen_learned_checkpoints": 36,
+  "sha256": {
+    "checkpoint_manifest": "c1fa3e36b0750b1c5f0a9be0132b85c3df7764b4b493938ac4ff2b364bbb1007",
+    "run_state_before_receipt": "8d69ef8a85688168c42d573f5028e8a308c9e0746812fea11b1a7f581b0a242c",
+    "progress": "b06ff7036edc9a87831aee3d8b3c170bae9756048c4b03fca2d19321cce33a68"
+  }
+}

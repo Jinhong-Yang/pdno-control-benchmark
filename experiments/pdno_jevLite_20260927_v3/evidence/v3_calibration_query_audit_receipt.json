@@ -1,0 +1,25 @@
+{
+  "all_checks_passed": true,
+  "calibration_data_audit_sha256": "7f72bd1b5c03a8a2e3fc2031d35a58605270c8cda98efe0a7506d8c8e37c1e26",
+  "generation_receipt_sha256": "1a9718fda038e5c09598e31d12ad19780bad37afed017aa9c16fd3d58e78a664",
+  "query_manifest_sha256": "cfac4518e07447926b616c42a13af8fd3fd46f503033638af1e37fe3b64b3a8b",
+  "role_manifest_sha256": "06b1fedff7e30849831c09de92749311ca8a388606200a8e99806a760d2f5bfd",
+  "shards": [
+    {
+      "parent_count": 64,
+      "pde": "burgers",
+      "queries": 512,
+      "query_sha256": "7e022f72ad6be8738ac63f944f2e2b358698a6517c4b570e776ffafda4536c2e",
+      "snapshots_per_parent": 8
+    },
+    {
+      "parent_count": 64,
+      "pde": "heat",
+      "queries": 512,
+      "query_sha256": "343cb46a426925e3713019966519f56935b28444b4a38f8ae60e55c68bdc5e37",
+      "snapshots_per_parent": 8
+    }
+  ],
+  "status": "CALIBRATION_QUERY_AUDIT_PASSED",
+  "test_opened": false
+}

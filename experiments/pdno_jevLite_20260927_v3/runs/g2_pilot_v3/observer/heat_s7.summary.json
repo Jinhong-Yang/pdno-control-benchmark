@@ -1,0 +1,47 @@
+{
+  "method": "observer",
+  "pde": "heat",
+  "seed": 7,
+  "updates": 500,
+  "best_step": 500,
+  "best_validation_nrmse": 0.11797396093606949,
+  "elapsed_seconds": 6.310348899976816,
+  "history": [
+    {
+      "step": 100,
+      "validation_nrmse": 0.24419766664505005,
+      "train_normalized_loss": 0.012573972344398499,
+      "train_initial_field_loss": 0.006221873220056295,
+      "train_sensor_consistency_loss": 0.006352098658680916
+    },
+    {
+      "step": 200,
+      "validation_nrmse": 0.14085744321346283,
+      "train_normalized_loss": 0.004261285997927189,
+      "train_initial_field_loss": 0.0016925534000620246,
+      "train_sensor_consistency_loss": 0.0025687324814498425
+    },
+    {
+      "step": 300,
+      "validation_nrmse": 0.12737691402435303,
+      "train_normalized_loss": 0.002507326193153858,
+      "train_initial_field_loss": 0.0007728348718956113,
+      "train_sensor_consistency_loss": 0.001734491321258247
+    },
+    {
+      "step": 400,
+      "validation_nrmse": 0.11995819956064224,
+      "train_normalized_loss": 0.0024289782159030437,
+      "train_initial_field_loss": 0.0006968277157284319,
+      "train_sensor_consistency_loss": 0.001732150441966951
+    },
+    {
+      "step": 500,
+      "validation_nrmse": 0.11797396093606949,
+      "train_normalized_loss": 0.002431136555969715,
+      "train_initial_field_loss": 0.0007245538290590048,
+      "train_sensor_consistency_loss": 0.0017065827269107103
+    }
+  ],
+  "checkpoint": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\runs\\g2_pilot_v3\\observer\\heat_s7.pt"
+}

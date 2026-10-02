@@ -1,0 +1,92 @@
+{
+  "all_checks_passed": true,
+  "data_generation_receipt_sha256": "62ba920f44167d6826ff3e1642502f7dec4ec4d77a67f7037632294fcf509f56",
+  "query_generation_receipt_sha256": "1a9718fda038e5c09598e31d12ad19780bad37afed017aa9c16fd3d58e78a664",
+  "role_manifest_sha256": "06b1fedff7e30849831c09de92749311ca8a388606200a8e99806a760d2f5bfd",
+  "shards": [
+    {
+      "decision_ticks": [
+        8,
+        24,
+        40,
+        56,
+        72,
+        88,
+        104,
+        120
+      ],
+      "parent_count": 64,
+      "pde": "burgers",
+      "q_max": 1.2,
+      "queries_per_parent": 8,
+      "query_audit": {
+        "candidate_count": 10,
+        "errors": [],
+        "parent_count": 64,
+        "parent_id_sha256": "28b763f994afd392ea7326029dd519dd5c232b831350a6356d720c0f81648111",
+        "passed": true,
+        "query_count": 512,
+        "teacher_cost_recompute_max_abs_difference": 1.780382744009934e-08,
+        "teacher_peak_recompute_max_abs_difference": 0.0
+      },
+      "query_count": 512,
+      "query_sha256": "7e022f72ad6be8738ac63f944f2e2b358698a6517c4b570e776ffafda4536c2e",
+      "trajectory_audit": {
+        "action_count": 200,
+        "all_applied_equal_projected": true,
+        "errors": [],
+        "finite_truth": true,
+        "parent_count": 64,
+        "parent_id_count": 64,
+        "parent_id_sha256": "28b763f994afd392ea7326029dd519dd5c232b831350a6356d720c0f81648111",
+        "passed": true,
+        "time_points": 201
+      },
+      "trajectory_sha256": "a2171858d849858ea9044eb4fc568a9cb7c7a1ab7327ba079ce379c9b2612249",
+      "trajectory_ticks": 201
+    },
+    {
+      "decision_ticks": [
+        8,
+        24,
+        40,
+        56,
+        72,
+        88,
+        104,
+        120
+      ],
+      "parent_count": 64,
+      "pde": "heat",
+      "q_max": 2.1322593688964844,
+      "queries_per_parent": 8,
+      "query_audit": {
+        "candidate_count": 10,
+        "errors": [],
+        "parent_count": 64,
+        "parent_id_sha256": "909c18d19e78c5904a67e99c72b80ae36e081270614e57d8c37c6c3a02390276",
+        "passed": true,
+        "query_count": 512,
+        "teacher_cost_recompute_max_abs_difference": 1.3423076250518307e-07,
+        "teacher_peak_recompute_max_abs_difference": 0.0
+      },
+      "query_count": 512,
+      "query_sha256": "343cb46a426925e3713019966519f56935b28444b4a38f8ae60e55c68bdc5e37",
+      "trajectory_audit": {
+        "action_count": 200,
+        "all_applied_equal_projected": true,
+        "errors": [],
+        "finite_truth": true,
+        "parent_count": 64,
+        "parent_id_count": 64,
+        "parent_id_sha256": "909c18d19e78c5904a67e99c72b80ae36e081270614e57d8c37c6c3a02390276",
+        "passed": true,
+        "time_points": 201
+      },
+      "trajectory_sha256": "3a358884de8aadb330252e5ce9daed3b4cea2f71e342cfbd0025c4ccf8969eb1",
+      "trajectory_ticks": 201
+    }
+  ],
+  "status": "V3_CALIBRATION_QUERIES_AUDITED_TEST_SEALED",
+  "test_opened": false
+}

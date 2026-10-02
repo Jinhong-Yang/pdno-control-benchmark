@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "parents": 128,
+  "pde": "heat",
+  "method": "O-cand-state",
+  "role": "locked_delay_dropout",
+  "sha256": "3d04b0f587bd879c080bbd22ad35a02f6a37aadf2e6896b8823eb58a5781bc8d",
+  "seconds_since_start": 650.0868771000532,
+  "test_reuse": "post-hoc oracle diagnostic; not fresh confirmatory evidence"
+}

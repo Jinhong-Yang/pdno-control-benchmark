@@ -1,0 +1,264 @@
+{
+  "derived_after_raw_freeze": true,
+  "groups": [
+    {
+      "cuda_stream_ms": null,
+      "host_requests": 60000,
+      "host_wall_ms": {
+        "p50": 0.5148,
+        "p95": 0.5577,
+        "p99": 0.8288002999999989
+      },
+      "method": "B0",
+      "pde": "burgers"
+    },
+    {
+      "cuda_stream_ms": null,
+      "host_requests": 60000,
+      "host_wall_ms": {
+        "p50": 14.39955,
+        "p95": 15.199405,
+        "p99": 15.9833
+      },
+      "method": "B1",
+      "pde": "burgers"
+    },
+    {
+      "cuda_stream_ms": {
+        "p50": 3.040447950363159,
+        "p95": 6.329184055328369,
+        "p99": 7.003808789730064
+      },
+      "cuda_stream_to_host_wall_ratio_p99": 0.9837537157492533,
+      "host_minus_stream_p99_ms": 0.10908081796264746,
+      "host_requests": 180000,
+      "host_wall_ms": {
+        "p50": 3.1147,
+        "p95": 6.4343,
+        "p99": 7.12820089999999
+      },
+      "method": "P",
+      "pde": "burgers"
+    },
+    {
+      "cuda_stream_ms": {
+        "p50": 3.0405759811401367,
+        "p95": 6.321985411643982,
+        "p99": 6.957376291275021
+      },
+      "cuda_stream_to_host_wall_ratio_p99": 0.9833970913018305,
+      "host_minus_stream_p99_ms": 0.11138227329253958,
+      "host_requests": 180000,
+      "host_wall_ms": {
+        "p50": 3.1148,
+        "p95": 6.4278,
+        "p99": 7.077001299999986
+      },
+      "method": "P-no-rank",
+      "pde": "burgers"
+    },
+    {
+      "cuda_stream_ms": {
+        "p50": 1.830016016960144,
+        "p95": 3.4619855284690852,
+        "p99": 3.893600371122356
+      },
+      "cuda_stream_to_host_wall_ratio_p99": 0.9699452938769787,
+      "host_minus_stream_p99_ms": 0.11352867696380686,
+      "host_requests": 180000,
+      "host_wall_ms": {
+        "p50": 1.9035,
+        "p95": 3.567,
+        "p99": 4.012600399999996
+      },
+      "method": "B2",
+      "pde": "burgers"
+    },
+    {
+      "cuda_stream_ms": {
+        "p50": 1.8372960090637207,
+        "p95": 3.515360116958618,
+        "p99": 4.411296434879297
+      },
+      "cuda_stream_to_host_wall_ratio_p99": 0.9698172343063495,
+      "host_minus_stream_p99_ms": 0.11589578371047926,
+      "host_requests": 180000,
+      "host_wall_ms": {
+        "p50": 1.911,
+        "p95": 3.6221,
+        "p99": 4.533500599999994
+      },
+      "method": "B3",
+      "pde": "burgers"
+    },
+    {
+      "cuda_stream_ms": {
+        "p50": 3.0852479934692383,
+        "p95": 6.424961733818054,
+        "p99": 7.08649693250655
+      },
+      "cuda_stream_to_host_wall_ratio_p99": 0.9837224509262485,
+      "host_minus_stream_p99_ms": 0.11083876374054302,
+      "host_requests": 180000,
+      "host_wall_ms": {
+        "p50": 3.1595,
+        "p95": 6.5311,
+        "p99": 7.211200699999992
+      },
+      "method": "B4",
+      "pde": "burgers"
+    },
+    {
+      "cuda_stream_ms": {
+        "p50": 3.042464017868042,
+        "p95": 6.335617709159851,
+        "p99": 7.0088643097877465
+      },
+      "cuda_stream_to_host_wall_ratio_p99": 0.9834775410379104,
+      "host_minus_stream_p99_ms": 0.11113833673095463,
+      "host_requests": 180000,
+      "host_wall_ms": {
+        "p50": 3.1167,
+        "p95": 6.4408,
+        "p99": 7.1303002999999965
+      },
+      "method": "B5",
+      "pde": "burgers"
+    },
+    {
+      "cuda_stream_ms": null,
+      "host_requests": 60000,
+      "host_wall_ms": {
+        "p50": 0.5527,
+        "p95": 0.6069,
+        "p99": 0.8981010999999962
+      },
+      "method": "B0",
+      "pde": "heat"
+    },
+    {
+      "cuda_stream_ms": null,
+      "host_requests": 60000,
+      "host_wall_ms": {
+        "p50": 1.696,
+        "p95": 1.950609999999999,
+        "p99": 6.657100499999998
+      },
+      "method": "B1",
+      "pde": "heat"
+    },
+    {
+      "cuda_stream_ms": {
+        "p50": 4.682496070861816,
+        "p95": 9.637439727783203,
+        "p99": 10.52169650650024
+      },
+      "cuda_stream_to_host_wall_ratio_p99": 0.9889997389084083,
+      "host_minus_stream_p99_ms": 0.11155144767761271,
+      "host_requests": 180000,
+      "host_wall_ms": {
+        "p50": 4.7553,
+        "p95": 9.7424,
+        "p99": 10.643600199999996
+      },
+      "method": "P",
+      "pde": "heat"
+    },
+    {
+      "cuda_stream_ms": {
+        "p50": 4.685152053833008,
+        "p95": 9.65235390663147,
+        "p99": 10.5242562007904
+      },
+      "cuda_stream_to_host_wall_ratio_p99": 0.9889010911105492,
+      "host_minus_stream_p99_ms": 0.11273829913330324,
+      "host_requests": 180000,
+      "host_wall_ms": {
+        "p50": 4.758,
+        "p95": 9.7571,
+        "p99": 10.649100499999996
+      },
+      "method": "P-no-rank",
+      "pde": "heat"
+    },
+    {
+      "cuda_stream_ms": {
+        "p50": 1.8895039558410645,
+        "p95": 3.572256088256836,
+        "p99": 4.0323855190276925
+      },
+      "cuda_stream_to_host_wall_ratio_p99": 0.9700468410161621,
+      "host_minus_stream_p99_ms": 0.1163950104484548,
+      "host_requests": 180000,
+      "host_wall_ms": {
+        "p50": 1.9633,
+        "p95": 3.6794049999999987,
+        "p99": 4.1596
+      },
+      "method": "B2",
+      "pde": "heat"
+    },
+    {
+      "cuda_stream_ms": {
+        "p50": 1.8992639780044556,
+        "p95": 3.598720073699951,
+        "p99": 7.275777893543222
+      },
+      "cuda_stream_to_host_wall_ratio_p99": 0.9694941737900686,
+      "host_minus_stream_p99_ms": 0.12184332046508706,
+      "host_requests": 180000,
+      "host_wall_ms": {
+        "p50": 1.9733,
+        "p95": 3.707,
+        "p99": 7.5932008999999905
+      },
+      "method": "B3",
+      "pde": "heat"
+    },
+    {
+      "cuda_stream_ms": {
+        "p50": 4.734655857086182,
+        "p95": 9.715137195587157,
+        "p99": 10.585312561988824
+      },
+      "cuda_stream_to_host_wall_ratio_p99": 0.9890948853913945,
+      "host_minus_stream_p99_ms": 0.11138813395690939,
+      "host_requests": 180000,
+      "host_wall_ms": {
+        "p50": 4.8077,
+        "p95": 9.8203,
+        "p99": 10.705701499999984
+      },
+      "method": "B4",
+      "pde": "heat"
+    },
+    {
+      "cuda_stream_ms": {
+        "p50": 4.68390417098999,
+        "p95": 9.63644790649414,
+        "p99": 10.543232892036428
+      },
+      "cuda_stream_to_host_wall_ratio_p99": 0.9890544144247773,
+      "host_minus_stream_p99_ms": 0.1110287473449727,
+      "host_requests": 180000,
+      "host_wall_ms": {
+        "p50": 4.7566,
+        "p95": 9.7406,
+        "p99": 10.66860279999997
+      },
+      "method": "B5",
+      "pde": "heat"
+    }
+  ],
+  "latency_analysis_sha256": "f46114814f3f0b59dc27659336c73d9b8ade9d87c0cb62b30022aad879d584f4",
+  "latency_summary_sha256": "98555f0a22937792548b6826ea8542f3135858334fa83ebfa844d07666ced4bb",
+  "limitations": [
+    "Stream time is not an end-to-end service replacement benchmark.",
+    "CUDA utilization snapshots are not a profiler and do not contradict serialized GPU work.",
+    "Rows are replay requests from frozen pools; sessions are not independent environments.",
+    "B0 and B1 have no CUDA stream timing because they do not use the learned CUDA policy path."
+  ],
+  "method": "Read only frozen latency_raw_v3 arrays; combined all three seeds and three sessions per PDE/method. CUDA stream times came from CUDA events around policy_action and synchronized as registered; host wall includes request dictionary preparation, transfer/model or ROM scoring, projection, and output validation.",
+  "raw_freeze_manifest_sha256": "2fc83da6f7c577d09d1c75ce44e276726a6705383e074974f94d9f321a3eea41",
+  "status": "POST_FREEZE_CUDA_RUNTIME_ASSESSMENT"
+}

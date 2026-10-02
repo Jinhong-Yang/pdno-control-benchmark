@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "parents": 384,
+  "precision": "FP64 CUDA reference with graph replay; original FP32 tick states",
+  "role": "locked_nominal",
+  "method": "O-cand-state",
+  "sha256": "827e8d4c090647a760ad6663c71432f5425a17f8a0c9f238f43b24bd0abe408a",
+  "source_data_sha256": "3593372427758053bbf13ced3d7f4957409ba230f2fb9b89867ef24843c34e0c",
+  "post_hoc": true
+}

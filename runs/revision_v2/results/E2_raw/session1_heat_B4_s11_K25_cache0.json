@@ -1,0 +1,27 @@
+{
+  "session": 1,
+  "pde": "heat",
+  "method": "B4",
+  "seed": 11,
+  "K": 25,
+  "cache": false,
+  "requests": 5000,
+  "warmup": 50,
+  "p50_ms": 4.8363,
+  "p99_ms": 10.166845000000002,
+  "cache_init_ms": 2.9750000103376806,
+  "sha256": "910c540ea6523e50cc42a2485a2886c1930ad27be51223ca594bfd9cf345fc20",
+  "checkpoint_sha256": "93f5ce1932228c1785a8aa5aabb95d01d7a78ab6ead34c287622ccf0c74adc02",
+  "input_sha256": {
+    "evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B4_s11.npz": "68ea44eea125848030b3a94a447b7e9f194dc89d0130c3522515c58efd317b41",
+    "evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B4_s11.npz": "bfc6de82ffbf83d24aada78fc43ac8b47ef9fa0784f290391bc90d40a1df9c03",
+    "evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B4_s11.npz": "14ce4101d39e2a59d8f695f05933774d370c3b7e13200944ab1682729c778e36"
+  },
+  "equivalence": {
+    "pde": "heat",
+    "method": "B4",
+    "seed": 11,
+    "K": 25,
+    "max_abs_error": 0.0
+  }
+}

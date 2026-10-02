@@ -1,0 +1,28 @@
+{
+  "pde": "smooth forced-periodic Burgers without external forcing for cross-solver trajectory check",
+  "burgers": {
+    "nu": 0.02,
+    "t_end": 0.02,
+    "spectral_reference_grid": 512,
+    "fv_relative_l2_vs_spectral_by_grid": {
+      "128": 0.0009128050226206537,
+      "256": 0.0003903057938302579,
+      "512": 0.00019312961096606637
+    },
+    "fv_absolute_mass_errors": {
+      "128": 7.166745766718635e-18,
+      "256": 1.3877787807814457e-17,
+      "512": 0.0
+    },
+    "passes_1pct_at_grid_256": true,
+    "grid_error_decreases_128_256_512": true
+  },
+  "heat": {
+    "grid": 256,
+    "t": 0.05,
+    "kappa": 0.01,
+    "decay": 0.3,
+    "relative_l2_vs_analytic": 6.14332188187974e-08,
+    "passes_1e-4": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "status": "E3_X1_TRAINING_COMPLETE_FULL_E3_PENDING",
+  "rows": [
+    {
+      "method": "B4",
+      "seed": 11,
+      "actual_updates": 18500,
+      "selected_update": 18500,
+      "field_nrmse": 0.08286678045988083,
+      "process_wall_seconds": 1089.7373702999903,
+      "summary": "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s11.summary.json",
+      "sha256": "38370dda740c69e0c72374a0090bba0b4a0748b7abe03e9538f542e961b682cb"
+    },
+    {
+      "method": "B4",
+      "seed": 23,
+      "actual_updates": 15000,
+      "selected_update": 15000,
+      "field_nrmse": 0.08838692307472229,
+      "process_wall_seconds": 859.076329500007,
+      "summary": "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s23.summary.json",
+      "sha256": "a6fa672a6bcba7fc03fc502ca18f3f31de32e19c32976aafc5b728667fe5b8c3"
+    },
+    {
+      "method": "B4",
+      "seed": 37,
+      "actual_updates": 15000,
+      "selected_update": 14500,
+      "field_nrmse": 0.08902544528245926,
+      "process_wall_seconds": 913.8915016999817,
+      "summary": "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s37.summary.json",
+      "sha256": "5a606b5ac0b77499a1493ef3e5299cad481e4658720522a8020f6358d7f36c98"
+    },
+    {
+      "method": "P",
+      "seed": 11,
+      "actual_updates": 12000,
+      "selected_update": 11500,
+      "field_nrmse": 0.09816283732652664,
+      "process_wall_seconds": 665.9344525000197,
+      "summary": "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s11.summary.json",
+      "sha256": "49add17f292ec7a0af0d83e16d941e5351961a0d17c1f7e12b7e3addf5fb1944"
+    },
+    {
+      "method": "P",
+      "seed": 23,
+      "actual_updates": 14000,
+      "selected_update": 14000,
+      "field_nrmse": 0.09718384593725204,
+      "process_wall_seconds": 792.8323462000117,
+      "summary": "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s23.summary.json",
+      "sha256": "e36e08638331c76b75c394e038a4e504fdb6a3881a25e3170f7f7c331d7fe042"
+    },
+    {
+      "method": "P",
+      "seed": 37,
+      "actual_updates": 18000,
+      "selected_update": 17500,
+      "field_nrmse": 0.08847656846046448,
+      "process_wall_seconds": 1098.9906860999763,
+      "summary": "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s37.summary.json",
+      "sha256": "7884156ab42eeb0ff9d836d3204eca6814193ce71a754b5cb46a5012640d2d3b"
+    }
+  ],
+  "field_threshold": 0.05,
+  "gate_below_or_equal_count": 0,
+  "scope": "Current factor1observer-retrained,20koperatorcap condition. Actualearlystoppingupdatesrecorded. FormalE3gateandevaluationfollowall21fitsandseal. No factor4/16 result inferred."
+}

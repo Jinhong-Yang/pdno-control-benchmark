@@ -1,0 +1,40 @@
+{
+  "recorded_utc": "2026-10-02T00:55:05.671603+00:00",
+  "E3_targets_generated": false,
+  "E3_training_started": false,
+  "E3_results_examined": false,
+  "supersedes": "prepared runner and state note that kept original observer unchanged",
+  "reason": "To evaluate the requested data/training-budget scaling across the learned pipeline, the upstream observation encoder and initial-field head must have access to the enlarged train-only target set. Holding them at the original allocation would narrow the experiment.",
+  "observer": {
+    "seed": 7,
+    "one_per_factor": [
+      1,
+      4,
+      16
+    ],
+    "max_updates": 4000,
+    "original_max_updates": 1000,
+    "eval_interval": 100,
+    "selection": "minimum validation initial-field nRMSE, same validation parents",
+    "normalizer": "refit from corresponding training targets only",
+    "shared_between": [
+      "P",
+      "B4"
+    ],
+    "frozen_during_operator_fit": true
+  },
+  "operator": {
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "max_updates": 20000,
+    "unchanged_original_early_stopping": true
+  },
+  "data": "same512trainingparents; nested4/16/64 temporal snapshots per parent, no increase in independent parent count",
+  "original_results_unchanged": true,
+  "timing_campaign_unchanged": true,
+  "interpretation": "Jointly scaled upstream and predictive allocation; not an isolated response-branch optimization effect",
+  "phase1_original_sha256": "7b671a8112c9bafd9e55b21be02334458009cc2d8650b71c555a9bc87600d415"
+}

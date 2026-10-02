@@ -1,0 +1,30 @@
+{
+  "method": "B3",
+  "pde": "burgers",
+  "seed": 11,
+  "best_step": 1000,
+  "validation_score": 0.006519740028306842,
+  "actual_updates": 1000,
+  "elapsed_seconds": 6.998713300010422,
+  "history": [
+    {
+      "step": 500,
+      "train_objective": 0.06319732964038849,
+      "train_bc_loss": 5.5007185437716544e-05,
+      "validation_surrogate_cost_mean": 0.006280739940848434,
+      "validation_teacher_action_mse": 0.0024801656634281244,
+      "selection_score": 0.006528756507191247
+    },
+    {
+      "step": 1000,
+      "train_objective": 0.0019716937094926834,
+      "train_bc_loss": 0.0011827896814793348,
+      "validation_surrogate_cost_mean": 0.006277807657170342,
+      "validation_teacher_action_mse": 0.0024193237113649957,
+      "selection_score": 0.006519740028306842
+    }
+  ],
+  "checkpoint": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\B3_s11.pt",
+  "frozen_surrogate": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\B4_s11.pt",
+  "BC_initialization": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\B2_s11.pt"
+}

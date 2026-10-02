@@ -1,0 +1,118 @@
+{
+  "calibration_lock_sha256": "b8afd86d16cc1ed8cbaf31505673af942ec4446aedd44766dc8b4dd5f77e6d13",
+  "checkpoint_manifest_sha256": "c1fa3e36b0750b1c5f0a9be0132b85c3df7764b4b493938ac4ff2b364bbb1007",
+  "outer_ticks": 200,
+  "parent_total": 1280,
+  "roles": [
+    {
+      "elapsed_seconds": 528.3115081000142,
+      "fields_shape": [
+        384,
+        201,
+        256
+      ],
+      "file": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\data\\locked_v3\\locked_nominal\\burgers\\trajectories.npz",
+      "generator_version": "causal-observation-v5-200tick-locked-balanced-roles",
+      "observation_mapping_version": 2,
+      "outer_ticks": 200,
+      "parent_count": 384,
+      "pde": "burgers",
+      "role_assignment": "frozen manifest order; OOD low/high and heat step/no-step alternate exactly by role index",
+      "seconds_per_parent": 1.3758112190104537,
+      "split": "locked_nominal",
+      "targets_generated": true
+    },
+    {
+      "elapsed_seconds": 176.4848932000168,
+      "fields_shape": [
+        128,
+        201,
+        256
+      ],
+      "file": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\data\\locked_v3\\locked_coefficient_ood\\burgers\\trajectories.npz",
+      "generator_version": "causal-observation-v5-200tick-locked-balanced-roles",
+      "observation_mapping_version": 2,
+      "outer_ticks": 200,
+      "parent_count": 128,
+      "pde": "burgers",
+      "role_assignment": "frozen manifest order; OOD low/high and heat step/no-step alternate exactly by role index",
+      "seconds_per_parent": 1.3787882281251314,
+      "split": "locked_coefficient_ood",
+      "targets_generated": true
+    },
+    {
+      "elapsed_seconds": 175.46897530002752,
+      "fields_shape": [
+        128,
+        201,
+        256
+      ],
+      "file": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\data\\locked_v3\\locked_delay_dropout\\burgers\\trajectories.npz",
+      "generator_version": "causal-observation-v5-200tick-locked-balanced-roles",
+      "observation_mapping_version": 2,
+      "outer_ticks": 200,
+      "parent_count": 128,
+      "pde": "burgers",
+      "role_assignment": "frozen manifest order; OOD low/high and heat step/no-step alternate exactly by role index",
+      "seconds_per_parent": 1.370851369531465,
+      "split": "locked_delay_dropout",
+      "targets_generated": true
+    },
+    {
+      "elapsed_seconds": 17.743406499997946,
+      "fields_shape": [
+        384,
+        201,
+        256
+      ],
+      "file": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\data\\locked_v3\\locked_nominal\\heat\\trajectories.npz",
+      "generator_version": "causal-observation-v5-200tick-locked-balanced-roles",
+      "observation_mapping_version": 2,
+      "outer_ticks": 200,
+      "parent_count": 384,
+      "pde": "heat",
+      "role_assignment": "frozen manifest order; OOD low/high and heat step/no-step alternate exactly by role index",
+      "seconds_per_parent": 0.046206787760411316,
+      "split": "locked_nominal",
+      "targets_generated": true
+    },
+    {
+      "elapsed_seconds": 5.971864000021014,
+      "fields_shape": [
+        128,
+        201,
+        256
+      ],
+      "file": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\data\\locked_v3\\locked_coefficient_ood\\heat\\trajectories.npz",
+      "generator_version": "causal-observation-v5-200tick-locked-balanced-roles",
+      "observation_mapping_version": 2,
+      "outer_ticks": 200,
+      "parent_count": 128,
+      "pde": "heat",
+      "role_assignment": "frozen manifest order; OOD low/high and heat step/no-step alternate exactly by role index",
+      "seconds_per_parent": 0.046655187500164175,
+      "split": "locked_coefficient_ood",
+      "targets_generated": true
+    },
+    {
+      "elapsed_seconds": 5.192784499988193,
+      "fields_shape": [
+        128,
+        201,
+        256
+      ],
+      "file": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\data\\locked_v3\\locked_delay_dropout\\heat\\trajectories.npz",
+      "generator_version": "causal-observation-v5-200tick-locked-balanced-roles",
+      "observation_mapping_version": 2,
+      "outer_ticks": 200,
+      "parent_count": 128,
+      "pde": "heat",
+      "role_assignment": "frozen manifest order; OOD low/high and heat step/no-step alternate exactly by role index",
+      "seconds_per_parent": 0.040568628906157755,
+      "split": "locked_delay_dropout",
+      "targets_generated": true
+    }
+  ],
+  "status": "V3_LOCKED_PARENT_DATA_GENERATED_TEST_SEALED",
+  "test_opened": false
+}

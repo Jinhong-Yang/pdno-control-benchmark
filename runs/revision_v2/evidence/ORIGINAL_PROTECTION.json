@@ -1,0 +1,2312 @@
+[
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/__init__.py",
+    "sha256": "fd7c4d219a38b9a673328c63b8ff98659a187741f77800b9f5da2ab7dc885df4",
+    "bytes": 45
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/controllers/actions.py",
+    "sha256": "d5719d6bea32646377b14a434e1543114f58a7c5d4605d645251a1ff7f0a1085",
+    "bytes": 1294
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/controllers/linear.py",
+    "sha256": "643e090f107f09d5532176773d9a5c50b9c062ace1bed49911ea1c87c0602ad1",
+    "bytes": 4976
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/controllers/objectives.py",
+    "sha256": "313ebd60bc2b873fbf25bc530c88077cded936f825cf1d9cfb5f73bd1418958e",
+    "bytes": 2317
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/controllers/rom.py",
+    "sha256": "dd058ac5f31e3934c62c242b01d1b37c23e56d9e894ba0d785732e6c770396e1",
+    "bytes": 5509
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/data/audit_generated.py",
+    "sha256": "162ec8cc81e52428fa4575c21a4972189e1136392f0c4a11d038f33123c974a3",
+    "bytes": 4394
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/data/audit_teacher.py",
+    "sha256": "7134dc0b83d738ab830f6aad488450e4d4d4afae8e33a7a2e410b02bfd7a7cce",
+    "bytes": 7176
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/data/causal.py",
+    "sha256": "9cd1512c4c50428ec7f82f4d43a5790f5665cc3ed1f5d054fc759909141ee6dd",
+    "bytes": 713
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/data/generate.py",
+    "sha256": "fa05f889c3b6d424862313b69c49a90f14e36cee51a73f837400faa0e4fedb49",
+    "bytes": 14453
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/data/manifests.py",
+    "sha256": "3de644322c676fce0486dd484ba9edf8edf2df43f12a3de3f9a680691f0531c5",
+    "bytes": 3373
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/data/splits.py",
+    "sha256": "2afcb9f83caa30caccb0d6f3d496ba2b2c5c0c70b652b7f275addd81f6d3e30f",
+    "bytes": 1770
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/data/teacher_queries.py",
+    "sha256": "faf7ec46c4c8f1ae67515ae804d8d2f0b65ababcfe47f68587361058416fe707",
+    "bytes": 11050
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/evaluation/closed_loop.py",
+    "sha256": "cab74f4e7e9274da57127fa2a24ad53f17213e4a3e8937008a27f00e69f70e9f",
+    "bytes": 17825
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/evaluation/__init__.py",
+    "sha256": "b152083f34286dc4d011e2fccc116304e210cf0d209c0d01fb5530feaaf9a5ac",
+    "bytes": 51
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/models/encoders.py",
+    "sha256": "344824af7c50671daff77984d0c1e0736666c670962db2d4dbf58a0d9ac1424d",
+    "bytes": 5353
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/models/operators.py",
+    "sha256": "4576ddf2c2ec49a56443022b12a842f83f0f36d7cfc03b08c08f9d5309aca603",
+    "bytes": 9628
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/models/policies.py",
+    "sha256": "6c5cabb7c444fe7f246f805b26cefe8ca68b472d5f7e9f1545a13d7f79d96b23",
+    "bytes": 1078
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/models/__init__.py",
+    "sha256": "19549ac302eccc673b7c064b26f9950b86431e62756314278d2a6bb2168d0eab",
+    "bytes": 69
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/physics/burgers.py",
+    "sha256": "9497b122e7eb585bd12867adadfb55c6e8c36a29828a79f14717f457eb38e7b0",
+    "bytes": 4954
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/physics/finite_volume.py",
+    "sha256": "48116795acecd9a3adfc7e1155670f7efb4c1fce8d2c27f0d6a8cd5a3dfad938",
+    "bytes": 2131
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/physics/heat.py",
+    "sha256": "0da5b5df6f811af43ecf54a4347f671945ccaa08a13f35d6adb260f4094e9a6c",
+    "bytes": 1666
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/physics/__init__.py",
+    "sha256": "475f4d687b2b34b0ffaf3633897092b4729eee08eca6f3329505a05340ac49f0",
+    "bytes": 44
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/training/confirmatory.py",
+    "sha256": "8dddb65948e9cf698325720a74fda5d2496dfe3f6108b12c66973c55547bcd30",
+    "bytes": 26363
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/training/fit.py",
+    "sha256": "d090b9a9dfa21f69fdda3a6cb8c5f58bd8bde419e180a8c59a9662de7ab1eeb6",
+    "bytes": 12680
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/training/losses.py",
+    "sha256": "36442d274d2e003abccfa81b89236ec7175ac09b3d9eb8da9beb5de5f16e2336",
+    "bytes": 6722
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/src/pdno/training/__init__.py",
+    "sha256": "56deb9c1ba1c77a92e41910b5475663f6a291093c592bd42d4c3a636d7f7dc7f",
+    "bytes": 60
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B2_s11/update_00500.pt",
+    "sha256": "de7566d3b0bf3fb7c15d462999e95798d3ded7c8b2cdfae6fc3a9a394913ab90",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B2_s11/update_01000.pt",
+    "sha256": "6b873224bd30d076aab2d60047a5774e3eb7daa0f96052bed1f26db77ceec1c6",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B2_s11/update_01500.pt",
+    "sha256": "b62a55b6bbcc4f8504094871312d47bd0c3e042f8cd9f85cb1998f70067a0df4",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B2_s11/update_02000.pt",
+    "sha256": "ef84eb18818a6ab4bda78ea4e18fa1dd89a44bdd288286bb5214f77d0ce251a8",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B2_s11/update_02500.pt",
+    "sha256": "1a6a2c59495a1f00c9c7e13cf6488459a62fc2b7ec71a9fe34c2eafec31bb4fe",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B2_s11/update_03000.pt",
+    "sha256": "7d37cf17d3414d9dd92d8a3460dcd6b5948f2c8139599fe003ef7aad9efa7cda",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B2_s23/update_00500.pt",
+    "sha256": "7d6269fdfc14ccb5976b00c7de99d7ed12eaa452eed4bf6bc6fa4606cf8d5de6",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B2_s23/update_01000.pt",
+    "sha256": "30c2bbc9bbb298c9c116be6dc58ec57e3127e0ee916b94594425c27d4a659ebe",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B2_s23/update_01500.pt",
+    "sha256": "2b4ebe959d8d7a20f3f39c3125827ea6f8aaf891c35b4758f8c941ea7b766a19",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B2_s23/update_02000.pt",
+    "sha256": "33e8d45dda229a578f7de4897f9084f486af9abc815b39863a54ed4be9fd4901",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B2_s23/update_02500.pt",
+    "sha256": "a66a4ea8762ac475659c7a114a96376656f051ca2a84efc07907f9b0daf91dd8",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B2_s23/update_03000.pt",
+    "sha256": "5435e99b78c34b4c0b766b629a21e9ad3082b309c2afbe2dcfcc80e16dd9dd58",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B2_s37/update_00500.pt",
+    "sha256": "4ed70eaee8e6645a1f265686f61c0cd6795d90f1afd4c678d35cb420295999c3",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B2_s37/update_01000.pt",
+    "sha256": "5d5892a56c1f746bfff4beff481124db45d93667b947ab24b5e4d5a2e683a732",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B2_s37/update_01500.pt",
+    "sha256": "b16d78f60d8bc6567731030d24af8d6e15bfd8821e9e3127d85a383c8c6f16c9",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B2_s37/update_02000.pt",
+    "sha256": "f36a8d74770d6595dcf891b835f530dfd88f0896f3913a01d406d7da70de9a6a",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B2_s37/update_02500.pt",
+    "sha256": "710c3aa4a1c77e36d2e40e63a18e33f68aac1da075f9ab74712c8c652706d24a",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B2_s37/update_03000.pt",
+    "sha256": "8696aa213905b33b333678f901b890743c67e13e101f00d8782ea7b30e157a70",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B3_s11/update_00500.pt",
+    "sha256": "bd427afd11cc9e463896cea9aefee3c487affe40749b639db3217e797f84ecf3",
+    "bytes": 734293
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B3_s11/update_01000.pt",
+    "sha256": "4e4c1f3d48a7f98497d575840748f6493c26d7b3f380a4de961aca00fa6cfbe8",
+    "bytes": 734293
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B3_s23/update_00500.pt",
+    "sha256": "e594c61f57540d8e46831137b660a1ed930787329917ef8f3d179a45b9337f61",
+    "bytes": 734293
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B3_s23/update_01000.pt",
+    "sha256": "23499ee591ff223695cbedd75fe4d370736074f386e6ad8f3d3f0892393ab4d5",
+    "bytes": 734293
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B3_s37/update_00500.pt",
+    "sha256": "1b782c5da2597d19f39f9e0e7894e63180baeba99417ffd2ca818d99757c3e23",
+    "bytes": 734293
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B3_s37/update_01000.pt",
+    "sha256": "3c8edfa2e2ccb9361fb8f97e5faa6399a0d33dc7c94f027a0325978340dec4e7",
+    "bytes": 734293
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s11/update_00500.pt",
+    "sha256": "f41a22f55f7e7c7f59fe7607282dd2299790b423164db3de6b5769ce5eadcb79",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s11/update_01000.pt",
+    "sha256": "c19477c49b9baec826c32fd2eb23063fe1ed33040ff9ec5fc1589f5909f4f61d",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s11/update_01500.pt",
+    "sha256": "e6b7b32694532d91da9f1d4b64a060d2e41f08566d88e3d40be40657031f7440",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s11/update_02000.pt",
+    "sha256": "f23491872edad03edc4842392a354fcfc9d28e65f953f1f60a5846fae8bae24e",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s11/update_02500.pt",
+    "sha256": "3766fefcd4e3762cc72c991b1a98dced2f5a2e8942a295567db48b8d54c83b64",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s11/update_03000.pt",
+    "sha256": "fc9adfd4a7109d4c0c27afbe7a50df448bf1c551092e270b3d99d8e7af3945b1",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s11/update_03500.pt",
+    "sha256": "9c2430ad713f26d9d1276129fc79caf0fd314940d0bf5c55f469555a6f4f9fa3",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s11/update_04000.pt",
+    "sha256": "f2495a9c42de465103c0e6ceb54b7f22d7d1e1cb3e8ddac06129ef0b1973e856",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s11/update_04500.pt",
+    "sha256": "5e05125a962cab4e4a9b765bb3755b6a4822e803b8bd59f442af5977fa186460",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s11/update_05000.pt",
+    "sha256": "22b78a98d69ceef23d755d763574e69dde60010396d867e69e8aac1acd2df32f",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s23/update_00500.pt",
+    "sha256": "b000fbae092139587aac9ecf5d53f8e857be96fbc1e815f5f35a2b79cd69de89",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s23/update_01000.pt",
+    "sha256": "75a00a28dad7e0bedf5874a9909d9542de50e4a532e21fc423a884855e63ffd5",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s23/update_01500.pt",
+    "sha256": "9789c78db02e584f34abf99b6b3b632d11c461092d5c42d6bf78f38e9a43ba29",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s23/update_02000.pt",
+    "sha256": "ebf37ac53c1bf740cf191f78eb0dc2d33b26cb57df482f7b0faf18b04b1d3eae",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s23/update_02500.pt",
+    "sha256": "9e15f8d4dc379baf13d95992751e2bf61747546e6ffde280d9d46c452e6b5ee8",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s23/update_03000.pt",
+    "sha256": "a12c5204ae8a320ca352dbc5bd21e648a70bd4c8f8d5136392490c1fee37c49b",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s23/update_03500.pt",
+    "sha256": "d84860f0b588dae997bce69570bf8acd1fbc50e58bcc97e71a1c74cb5fd1e53c",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s23/update_04000.pt",
+    "sha256": "1a3a0236d959d861177869738b2b6f16f23f4479d84def30d5b48fcfc6df0ffd",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s23/update_04500.pt",
+    "sha256": "55b8ee3b7163e52e898c4d0c9832c4ca0bb1660f757221dce1617416dd1f6e30",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s23/update_05000.pt",
+    "sha256": "067d303ba8cc1e4a6d43065558b4598bf4c065aa61461954476999cb689eaff7",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s37/update_00500.pt",
+    "sha256": "4882c4a35ffa4edfa93d77dd5ae568f66e92e3ecf4ccf7b4fa0cac6d3773abdc",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s37/update_01000.pt",
+    "sha256": "4b8ab475d7a237b94879bfc7e233c8a0c46f356e8ae084ddaae055a9bddae275",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s37/update_01500.pt",
+    "sha256": "46db4544890b6898930ea99c8e54cc0fc1e8abbd81b09711c2cbf802c2306c6c",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s37/update_02000.pt",
+    "sha256": "c942fee9158858ff3c9ecb408d94ed18d03ff73f907b91c10de8e153893ce68c",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s37/update_02500.pt",
+    "sha256": "9b1e671b52050d9a857a558f218b25e4b55c31a6cf7670880cf9a11fdcdae544",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s37/update_03000.pt",
+    "sha256": "8fe16e7e35681cb21c113b433ffc650398faa033f084200aad83eb254b01f40e",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s37/update_03500.pt",
+    "sha256": "538e104522b6abc19431563e56569b340b561e05d965c71eff1f326b860f6032",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s37/update_04000.pt",
+    "sha256": "cb84e3ca7a3091037185136ec1f00d20d020e32e9d99e21b0962ba59398c5fbc",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s37/update_04500.pt",
+    "sha256": "25cf06c4e57831d40a35a16d0db6e68e21c2eda7a952241fb678a1acf62ef6a3",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B4_s37/update_05000.pt",
+    "sha256": "b0ffd2fc408e25084036ed25f095aa6c2e7de2949f681d00e5f403353ce49058",
+    "bytes": 1342919
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s11/update_00500.pt",
+    "sha256": "42ce3660962d783169c7a28fa0c55a8e01d3dcb763e7387c99312f65f2630b0c",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s11/update_01000.pt",
+    "sha256": "e16cce86adc723c96293e1bd9a2deb02bd9f6f5cf534f542b2a5552c12d5c2f0",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s11/update_01500.pt",
+    "sha256": "3915b6c3238f5e30b375882913292fde9e8ea6f6bf1f2b8d851d2a107e97ae4a",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s11/update_02000.pt",
+    "sha256": "f11e668db26948ec67f97b5e5ca3c293b55d43b08d379d7d55556632ba6dc828",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s11/update_02500.pt",
+    "sha256": "4ab83a79c3f686be340dcbde3b362e2b93e609caaf804471e0a74b2a7954ad9c",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s11/update_03000.pt",
+    "sha256": "83a16bfed5fa02cc71753efbf5f4d452bafbe3603f29e7d0568e784b0bf8940d",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s11/update_03500.pt",
+    "sha256": "454001bdb1ed789f7c27dc6cfa9fceae01044ab244b23285694acb40cf0fe4ae",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s11/update_04000.pt",
+    "sha256": "28cda74e38469d6dc4ac3f56970f65faa9dc7aaf2e2a1ffca6d1008ebc43cfcd",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s11/update_04500.pt",
+    "sha256": "9aeb3b2037e09955c2497bf432ca7eedffd4e1e273fddcb68a7f5bdfb82a64ed",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s11/update_05000.pt",
+    "sha256": "c480a2efa963319f22816cc6cb41303b6dc20b50876e0b4473f36a2d1582ad3f",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s23/update_00500.pt",
+    "sha256": "f0aa5e02de2aa4dfb807078b69f4a6c767603937356aaff5409c03655744cc71",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s23/update_01000.pt",
+    "sha256": "42c069dc7aaa511301ac41bca079ea3df93b092b026db930423c55f635e2d29a",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s23/update_01500.pt",
+    "sha256": "25f5f880a63e8fc17737e7a2d247505ff3e1519fa9b582bc2c4d8a7901219e33",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s23/update_02000.pt",
+    "sha256": "bd5364a27b94fa84bd866a70c90cb5fcf13fde139fd81fc387f9abd4887cc2dc",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s23/update_02500.pt",
+    "sha256": "7a069c6d260cbf5f10f94abb0cfc1ea7a88be9ba1de3807c6bb25af65354775e",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s23/update_03000.pt",
+    "sha256": "248d640c509e4fd7dcb5fc26f488aaf922803d3767915220115e71278e481326",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s23/update_03500.pt",
+    "sha256": "da3d08b924881c0bde74bccae9e787ae507c79398eb578afde849b9b1883b531",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s23/update_04000.pt",
+    "sha256": "7216e0e5707eb823f3e1b05a6a4ca3df97e5a101ddb3562041cfdd611332d7ad",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s23/update_04500.pt",
+    "sha256": "fb80c8b84c3e91044c8ac72fb7b42f4bc761afc52f9e5bdc7ca698fea269ae4a",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s23/update_05000.pt",
+    "sha256": "ba96d2a0bf908409387e564311655898111aa9d882aec3c91325162552900d16",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s37/update_00500.pt",
+    "sha256": "ba78590d8c47054a5e5fb43f8d7344e95f43b67f235012ec6c1807fc3de747f0",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s37/update_01000.pt",
+    "sha256": "cdc50c9faa7c8878c574a52d52aeb3467c57b2cc63e379c3b657d82f1ed7329a",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s37/update_01500.pt",
+    "sha256": "e7451641aa4db4536ebc09c36f57cc85794eaa5f09fef54830b69a9f581c323c",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s37/update_02000.pt",
+    "sha256": "47196a4657d8c4b25d8f7b5557d6758062685a1da30112d5527a227df64d6778",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s37/update_02500.pt",
+    "sha256": "68f9ac2aa6b9da3c28240e39334d9e12980e2e4f3c5112d8bf4fe8fadf4c8b16",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s37/update_03000.pt",
+    "sha256": "4bdbc872230ef676df1d2ac6496c3804bf26b0f191ee9f3fadc6d10fa793c2aa",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s37/update_03500.pt",
+    "sha256": "be5d576a4640a9a28abfc3f268937e55771d1c3ac13f4fc335b6bf3dbc23bd45",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s37/update_04000.pt",
+    "sha256": "a0b820d12e57c3fde7e4db1ca85d8fe25bd3675f4cf8fbea86c7c297ead467ab",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s37/update_04500.pt",
+    "sha256": "9c03e04fd8f4c4937131e49bed1b75f7d13141104cc65a511dfb9a7aded4a54a",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/B5_s37/update_05000.pt",
+    "sha256": "1792a2380890d031276ea5e00fb04718db0346aa67f2bddda6e5b2fbe9ed6edc",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s11/update_00500.pt",
+    "sha256": "fd1a4e10cf2c609ab2d893938d209e46c0a88da28290966937aabf84ec39d3bf",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s11/update_01000.pt",
+    "sha256": "435c640f49304a5dbb74756b2ca30d952e6e6b6e51961e68cc8c9eb162d6f8fa",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s11/update_01500.pt",
+    "sha256": "46678fa87d795bd6fcbc320964ce6a2c5a05b9aba6be114517da916a0f06de47",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s11/update_02000.pt",
+    "sha256": "9e00f4a28d62c94dc7877251ce7c5d75c55d3881b209119516ec9bf1284add23",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s11/update_02500.pt",
+    "sha256": "afb1e6c8fd8904f659ffd6c1c28d49086a5e33830a8c4a595d6c7f03cd143a6d",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s11/update_03000.pt",
+    "sha256": "cd836303a5a20a39b332b12a5317d81aa632065957fe4526c4755230e8f1b7b2",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s11/update_03500.pt",
+    "sha256": "7d354ef1ea9dc7dfab5a4e2f8995dc3f7651f60aa63feba3dad7fc4e496213fa",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s11/update_04000.pt",
+    "sha256": "c9fdbd9283aaa3404c4fdd80e5d6284a1544fe9df2756e5449fdc59403b51d11",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s11/update_04500.pt",
+    "sha256": "908f62ef91b3a8075760f43d1be2ebd5282c52edf016adea57f6e3131a1fb51a",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s11/update_05000.pt",
+    "sha256": "7e7d5acce3a87897bb3d372bdf9939bc8a6d312acec5244201bb04156d02a835",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s23/update_00500.pt",
+    "sha256": "77bef35ec9806266eb50af7e90e266a138dd36505983b8525306f9b3df17d0dd",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s23/update_01000.pt",
+    "sha256": "6697ebd39a41618787cd1c49ba35a77e4fea0be1cbb98197820a4185d0445f35",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s23/update_01500.pt",
+    "sha256": "098a13fe59a1f56bc56c553944959311627c40c26b089f470462524f9eec22d7",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s23/update_02000.pt",
+    "sha256": "1de8186134c5a6405760cf21a6774112243f68b10af220243fc9e46927514bf5",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s23/update_02500.pt",
+    "sha256": "93a9a79c425db2517a9959e9f987c331e841b54d7445b26d552918425395a2ac",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s23/update_03000.pt",
+    "sha256": "0c5f68b0f1c4b4a6e047dec07bc472722c25ca6eff356091d76e4324a639ef71",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s23/update_03500.pt",
+    "sha256": "e352f00bde0b39a9dd072da3c0dcd9d4837a9b75b9151329d8757603cc1ff3e9",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s23/update_04000.pt",
+    "sha256": "8d3a23ee7546a8ebc09552dede7da544e6e91b00589e92f58457a5753ef07f7f",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s23/update_04500.pt",
+    "sha256": "304a86e684b69f4a131fbc657410ee996a7d07ef3d894be759578bf7290030d8",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s23/update_05000.pt",
+    "sha256": "d1bee9ad820cc1b7b2c0016d60881d3e4ad4efbdca5c38fcfdf69568a7264a78",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s37/update_00500.pt",
+    "sha256": "f8f0cbc7ac38931fa7c5da89229c0b22903d7113d501ac3a1b3d4e111e202274",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s37/update_01000.pt",
+    "sha256": "b6f7cb907ac302d8bf4bfc7c72ac9247146e22fff00b18e41aa8605f78b70caf",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s37/update_01500.pt",
+    "sha256": "bbecaef8937c57a753f77cef656d5d0a97236bc5c9afb9b09097f28af0663cec",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s37/update_02000.pt",
+    "sha256": "668b5d67599a0d457beee65610f3d41e688ceeaa29494ed19ff6a524e6ffbb69",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s37/update_02500.pt",
+    "sha256": "eabdaf5ad5477651afb82fff0e0b640a2746b939cc45c4086b7e72e20207c555",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s37/update_03000.pt",
+    "sha256": "3f05fb500eb964be040e50faa3c367583c047bf047634b98f438421830fd8a5d",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s37/update_03500.pt",
+    "sha256": "847a7c5506310d2ced51c43591d5cbdf976c87335157aac8fa971f00906d2d5b",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s37/update_04000.pt",
+    "sha256": "72788dc1cd05ea9968b5858e804e0ce0f72d2d5dc1c89843811064ca8e276286",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s37/update_04500.pt",
+    "sha256": "9bd97a5328859e6fb4d2f011300992085d3462d055ad44b43dc8f125901d32eb",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P-no-rank_s37/update_05000.pt",
+    "sha256": "d36ac470a48df436cbc2bccdb98257a319c7b4465bb8fc852a451e550522dc1b",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s11/update_00500.pt",
+    "sha256": "b20c072ad75c56b8c1de11a7db917c696b16b753c6100c9a7ec15bc1707d001b",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s11/update_01000.pt",
+    "sha256": "a666b5387fd046b0f01176196dcd9ed5e1b1ceaa6fba2ab77898fea6c2509439",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s11/update_01500.pt",
+    "sha256": "98eb9a9e6083cc27e7e56a454e10633faf21d6559665bb4cb8bf5f74a16768db",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s11/update_02000.pt",
+    "sha256": "2fadada55ade8bf95f68a80b61d836047e4c4a5a207d4724f9b7d19cc582d30e",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s11/update_02500.pt",
+    "sha256": "e5829939a553bc5def24e27793ec9a7f12bd399fc42fc71c66d91e9d258e4c5e",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s11/update_03000.pt",
+    "sha256": "0b18b38626a8492ebdc54969ffb28f0ef27594e0c4cc4a93b17bfd077abde620",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s11/update_03500.pt",
+    "sha256": "acaa769ebd3927f3fe3b162709b1938932e1d8e3f6977f2e609291569704d554",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s11/update_04000.pt",
+    "sha256": "419c896ce87f0979d3a2d0a4aecbc3763cbd72d0fff090fb9b351f266dab2da0",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s11/update_04500.pt",
+    "sha256": "15df4dc973b94d02e0f7132523522e14f3ba45a6f1318ccb941f2ae8135ef6ad",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s11/update_05000.pt",
+    "sha256": "8bc905b5e6709f3be5e02d3f85731d3814aa7e94b26d66f531b98d155a6c0ed4",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s23/update_00500.pt",
+    "sha256": "0ea6dd5c720edef86b7395f4f8d470e47bf7480a7d7f22464292f8e0de97c4df",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s23/update_01000.pt",
+    "sha256": "42402ebc595d5dbfb8e80ce3a9f95beb4d32d08b87a3837c7f13b83f76efb4fa",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s23/update_01500.pt",
+    "sha256": "d2044ffd51cc08388693b56d8f3ea5da8aa89b688024f7e389a0094f81ae64c3",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s23/update_02000.pt",
+    "sha256": "b7d370cf47855ec7b89fbb335ed299cdbceefbff9cd97f031beceab52d868abb",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s23/update_02500.pt",
+    "sha256": "4f874f9637ef9b1ccea10baa68a039da91bece1ea504f868c78dccc4c413fbab",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s23/update_03000.pt",
+    "sha256": "a38946ed118fa419a3e314eace90f5e69a89fb6855f204ebc7f2c51c188a9899",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s23/update_03500.pt",
+    "sha256": "4acc543b01f8c813f1e744cbf79995246b0c213087b4972bfc57086bb842dbf5",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s23/update_04000.pt",
+    "sha256": "6c85e840da1ec1897304f98ee7d1e0b4a73da7b2494d6e4037bb50af13cf173b",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s23/update_04500.pt",
+    "sha256": "1d821a91d4df44e4572e07662a0fbaedac843aa7d2c853c07feef0346c5ec4e0",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s23/update_05000.pt",
+    "sha256": "a324b0734665b5c97e8b971cc5396d199ff10384b0d0b29d7728e3fb9bdc6fb4",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s37/update_00500.pt",
+    "sha256": "b50249370ce0fcd585f73ee6d7542e55ee7f39e7caf80378ffb7dc6dcec8bf27",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s37/update_01000.pt",
+    "sha256": "f2ea3972a9817c71fa46544aa8b660d9a6651816fb0ac5ac117293c61a3a7aaa",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s37/update_01500.pt",
+    "sha256": "487fdd349b4a9abb30874bc99203655a3e933494c63395983abd1919e942f2e6",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s37/update_02000.pt",
+    "sha256": "dddce0c68a509a8df5b497d75a1b45ae02fee9440853ffe0989a34746f6ec41c",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s37/update_02500.pt",
+    "sha256": "5ccd0470d094b5df0ef43d9cd5ccfc8210b18bf95a6d8671060922d31071fa33",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s37/update_03000.pt",
+    "sha256": "401e3ccfe790b5eac86a961211316a5436c8008decd7cb14057028417f4d3762",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s37/update_03500.pt",
+    "sha256": "0e08dd51c588fc42d2c1e93afae2ea0a8267ea5fe46152b5440a029f08d469a4",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s37/update_04000.pt",
+    "sha256": "47f578c92016757489d2d05bab3c535b237f08188a1581475c34e8b884277aa2",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s37/update_04500.pt",
+    "sha256": "951fd3678cf06a97e16f989b89a61a182c4d22741e814b1378122174b4217f17",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/burgers/P_s37/update_05000.pt",
+    "sha256": "a59de2090caac3b51810af38d56e4647b5b02ef8f7fcdc6529470d353e2b066a",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B2_s11/update_00500.pt",
+    "sha256": "741c1392a91f1aaf3683a96def6924f513674aaf2afda085d53c510ac65b0283",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B2_s11/update_01000.pt",
+    "sha256": "7f731201bc4fec1d7ec363f670914b9cb65b9b73937bbbaa62ec84dff089dd16",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B2_s11/update_01500.pt",
+    "sha256": "6457e89fdda5e72b207886aae536409b29f9ec62d81015669da5442685bdf98b",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B2_s11/update_02000.pt",
+    "sha256": "7befc55513c365b665f3306944a9d4d6da8244de4951101464a1967dcc00b26c",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B2_s11/update_02500.pt",
+    "sha256": "89d0063d32edc9a60269f561d0e7bc03b16ab09363c65d8241cdaa84cce3a2a9",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B2_s11/update_03000.pt",
+    "sha256": "1d641b67a43d36c8a6539a14269c1b8c1a031bdc28b8cc1c0f98ed0288f60c6e",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B2_s23/update_00500.pt",
+    "sha256": "b5698040773fe1a1d9b758a19e08eb3054c93f8403f7b834d584bbee1108322b",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B2_s23/update_01000.pt",
+    "sha256": "0a856f97cf71dbd5f014fcd80e062aadba2619f4841f0948d15c594b2afb96f2",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B2_s23/update_01500.pt",
+    "sha256": "a01c6e4b25058d9518621166f84a3ce0c0a4d389e446388cd64a4780aafaffdf",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B2_s23/update_02000.pt",
+    "sha256": "03c128ab65635fbcbcc4985024a50f2909dcbe09f32f6c620e8948ac729d2484",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B2_s23/update_02500.pt",
+    "sha256": "4c48a8400142b381d15eae0f0d46dcb3613fa074fb2d972029c18aa0e45fbfef",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B2_s23/update_03000.pt",
+    "sha256": "12b4056e8552b46a661caa71719f21f4e239b2e3dcc8b097663ab4b8a100d8bd",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B2_s37/update_00500.pt",
+    "sha256": "326397df6cf17161f01be4d16ea6f710d4b147ff794fc60d4bc8e4208d7ac8b4",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B2_s37/update_01000.pt",
+    "sha256": "883883584779842723640cb5815f1d555a6f61e170a968eb88087c354df4a3f9",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B2_s37/update_01500.pt",
+    "sha256": "db807836be54625067238b9052251c4db549cbddac5b4b5796d58b31fedb4753",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B2_s37/update_02000.pt",
+    "sha256": "e7dfe8262edc956f612d060335b1c3a726a64c231a545eebedb8753f6136fe85",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B2_s37/update_02500.pt",
+    "sha256": "533e55c979d4253fa5a142dccd1fb888a1cd0c1d099d3790036c3e88de23d7bb",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B2_s37/update_03000.pt",
+    "sha256": "334ab8cef70689ba95aed90a23134d200d7d4773071a040dcc1edb8d7ab3cd58",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B3_s11/update_00500.pt",
+    "sha256": "be16f3bf0377dfcef63c05e1fa8a72a1b0aca57a3b0e1a580048872511357ae2",
+    "bytes": 733269
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B3_s11/update_01000.pt",
+    "sha256": "64dd690fb6faf1c9c8c94a24f0df8102e87e4536f3706c8d5ef3b3450a392d2b",
+    "bytes": 733269
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B3_s23/update_00500.pt",
+    "sha256": "1f5ff1947b5f0c6ba2af2633fa011317df037912877bff4b309eef636d93bb63",
+    "bytes": 733269
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B3_s23/update_01000.pt",
+    "sha256": "7d59804e929bcce3b3fb23f306f5893936d7d54e1ff32d58c9814d4338ecb550",
+    "bytes": 733269
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B3_s37/update_00500.pt",
+    "sha256": "0c695356ebb6a6dca7c501ff96d7b8937ece95b939deb636a1be61a2fb286ec6",
+    "bytes": 733269
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B3_s37/update_01000.pt",
+    "sha256": "f8fa5e37920b0d26ef74ef47a453df429545254438b72a41fea94eab4c4f2567",
+    "bytes": 733269
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s11/update_00500.pt",
+    "sha256": "08d567d7ae2aaeb7bac717aba0bef6636c1417596cff08878b419a8102033576",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s11/update_01000.pt",
+    "sha256": "449b9771ce93643b1a0645eec412e7da47c563ef09d0566dd097ddce3cf73bcb",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s11/update_01500.pt",
+    "sha256": "11bbb61b8eb417fa91571115edab35b94778dc21d8333fcea7a4e9ad4f6c132c",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s11/update_02000.pt",
+    "sha256": "2b4caa4914cb9dd2275c668dce1babaf8e7430407ccdf29ee1c3e7de1912d497",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s11/update_02500.pt",
+    "sha256": "ccf6ee6c7b74622883676bbd449289e4c99da4f349fc3debed05bad03ea568e9",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s11/update_03000.pt",
+    "sha256": "40addb603749846c3d0f9146c7229a3710ef517bf8d938b197b7fbc7e143cd1a",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s11/update_03500.pt",
+    "sha256": "057988d906a4d496c9681b459fb0dace7949a5fba9a3bd0c1f14e97e2fe55faa",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s11/update_04000.pt",
+    "sha256": "03ff3b4f564584f16d7e1ae30f1710e197a61f77ffe1198fedccf417213dce33",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s11/update_04500.pt",
+    "sha256": "108cc314eae04f48e5daf880ba15c8ba2ddae9467b8ff55b6a47955b19c99ab6",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s11/update_05000.pt",
+    "sha256": "577e8e263e276c2bcce00fdaefe5d02fa748ea915d7c86d77aa9637f7f71fbc9",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s23/update_00500.pt",
+    "sha256": "04768185d4374451e0a018e82ab225e56fb826d7780b56d1d35cbf9c66c14203",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s23/update_01000.pt",
+    "sha256": "7c6a06cbfae24ac7a2c308d8f0ad049b1c701d1a38071707d4fd873e796c7e78",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s23/update_01500.pt",
+    "sha256": "c36a8d6338af19085ba8a8be74e6c9363d6d63c98a9e55f8d6400260b93ec8c7",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s23/update_02000.pt",
+    "sha256": "759589c0979e4c01a60897631e57acd79bcb49ed69585872edbf6857361399eb",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s23/update_02500.pt",
+    "sha256": "3d3ab81313b4b98cbfb729a8895f0849bee7c9c4f2bd0a0be0e0ff92ea36e223",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s23/update_03000.pt",
+    "sha256": "bff5afa146564ed85ae20a1b894e0dc755a3d5c1194699f0ac29f1e7fccf5b50",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s23/update_03500.pt",
+    "sha256": "40405fe07fd6ee5fac8faaa8777ea874809e0230c838f2c9deae278d701a6d4c",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s23/update_04000.pt",
+    "sha256": "9d199aaf3a5f1ef529a489d00162d701a401836e53e5b8e588a71b8a8d89b339",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s23/update_04500.pt",
+    "sha256": "315aa0411abce5c4a49f572fbcbafa772774ea44e99843eb4abeff697fecd063",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s23/update_05000.pt",
+    "sha256": "5d08a9e438a52cd28112ea9c486f228517a5bfb0d0a2e2f70626160e0890f887",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s37/update_00500.pt",
+    "sha256": "9a71306ca77ba9b8e9a10c502fe0488c7cab4b3ac5214e6f072c4f2c0fe8a885",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s37/update_01000.pt",
+    "sha256": "565406ce2bed2acc0affc375688ba08437d292051d6db3c68e20cbc3302ecf06",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s37/update_01500.pt",
+    "sha256": "f2fd52428e74c206022d33280709a9c61290e8b9c87b1a6ef5e578ff3b6ddeb7",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s37/update_02000.pt",
+    "sha256": "8e7c17c8e35b913804fbc93eea145f3cd9aca97a937c65388f0890e034ffbc53",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s37/update_02500.pt",
+    "sha256": "c60f99d6ba55277ac739f7ec392738210d19f99674ac33bd24604373ff3621b8",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s37/update_03000.pt",
+    "sha256": "5a77fe6334eaed81c17478149feb19eac8f060305ffd11bc184f5b094e68cb86",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s37/update_03500.pt",
+    "sha256": "2709d801a6b7e3d7b3bdcf85a7bdb2b390305df8e83a9a99aa39a82bec3f0734",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s37/update_04000.pt",
+    "sha256": "8abe9954117cd5f74f5540eeee17aa0a578f7d7e05cc4cef1dad5c524e227319",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s37/update_04500.pt",
+    "sha256": "284ca5fe7ee65476d3f77b084d79c535c8fdd45f0a7e46bfb4be9b5564586665",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B4_s37/update_05000.pt",
+    "sha256": "51b6a2c810a1b61b2462a488883adae70b1e26b0660d374aa49486583714ed86",
+    "bytes": 1340359
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s11/update_00500.pt",
+    "sha256": "76300fe7f9b39f9e440559bf3ed6f94d355305c4dd782c284cac3a3b9b6546bd",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s11/update_01000.pt",
+    "sha256": "3efeeb6957c9cd1c4d1245b40a878567e02cd618052541c1e02fb54af1d17283",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s11/update_01500.pt",
+    "sha256": "985f3e8cc270344c94de57860d4547de9b83910c65a77242ababb09ad28152c6",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s11/update_02000.pt",
+    "sha256": "2b3dbe9939a500dc007c859a957259855e3dc35e8ed72925af60d284dc23e4ce",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s11/update_02500.pt",
+    "sha256": "ed92da5cb5252fc231ad9aa9d81d7c013a00edc963fcc293060d477d158437d8",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s11/update_03000.pt",
+    "sha256": "e6eeda91c5a246d39f00401680b58d8d87478e4eed96f11973fd46ac8bb9d813",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s11/update_03500.pt",
+    "sha256": "5211687cd43f39cbbec00c28bec4f2816f20c176441a3eaf41c249567e006851",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s11/update_04000.pt",
+    "sha256": "f411a3cef1eb5eb12d88f3a7dff20d07ce2f3733d7f1943073b98d21900f215a",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s11/update_04500.pt",
+    "sha256": "c52f04e341136655acd47890bec7e7852acfcc6b44a7135dd6e40ce0f631e3e0",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s11/update_05000.pt",
+    "sha256": "31e0e049f7b7d044a464f934832ad990e34fe53b654c1760b4e1f5dfd3076ec2",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s23/update_00500.pt",
+    "sha256": "001c0838d0190fa2e314003ed31a89b82f2ec1796d0f0be316d07f7fb439b412",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s23/update_01000.pt",
+    "sha256": "fa8ae0963ab260403c48b3921580cd774a3d2ddfe8cc93256c7e10ed47dc0356",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s23/update_01500.pt",
+    "sha256": "e1219c1b0511a9a63f38b623c451ab5080e365c8a016015b8101f430ad692d7c",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s23/update_02000.pt",
+    "sha256": "f8453d4805a40849f15eee7e9bdaa7ece911f04ad644fa83cb4a3c6f3456263d",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s23/update_02500.pt",
+    "sha256": "7c7b48f393ffe0609ce8de78cc9ee2f9e6e11d5e47ebaaa20a2c3e5313ce8fc2",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s23/update_03000.pt",
+    "sha256": "b0d16d5b1c627f907fc4a542a212a1b2a66448310ccad1e7e898590fa312e73b",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s23/update_03500.pt",
+    "sha256": "2a1bd0fbc2f0d37e4ce25a92f047a4e08c54e962f765a0e406ad13aa51e7dfdf",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s23/update_04000.pt",
+    "sha256": "7d74f4001a5c0460df2018c1c68b94e52cb3c32f11dfdf426e68b9fcd943774c",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s23/update_04500.pt",
+    "sha256": "292e394bf48994d616b12cd151ca3b8827f316d58eff1b8a42ff4abfc1ff90eb",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s23/update_05000.pt",
+    "sha256": "e0b4a0449ffc7e8e4a06b43b651c1a278d98aea6bfab85072aeba7a4386b25b3",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s37/update_00500.pt",
+    "sha256": "e1d4936040e3dc2d39c660f34ab19ac8cad60256a795c9f91aae7323ec14e009",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s37/update_01000.pt",
+    "sha256": "e26512e624849451eebe0a0aaf5a4d8dfc7fbbf789880b2811cf8ec8187b3f83",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s37/update_01500.pt",
+    "sha256": "ef490bd70685f53ebc0ff5726f6f5bb1b306eb34237d99819b64e4091b3b476d",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s37/update_02000.pt",
+    "sha256": "c42d9ac34509a8406038598195671e73d43bd06d4502204625af4aa60d553245",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s37/update_02500.pt",
+    "sha256": "c9d59074d348489acabfad634d2c8d3d2770e40f8a9a4703445c8e38d0348c8c",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s37/update_03000.pt",
+    "sha256": "d453b4b231846a9d31a380c5072a0f08ba88017411caf24077db716d071c3aa9",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s37/update_03500.pt",
+    "sha256": "0948875a2db609428d92e141ab4e12e746a835fb0faf9d829427bb0739936067",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s37/update_04000.pt",
+    "sha256": "eff314b904c26be5d381d7b5458ac4e92ed124edb0c1a0d1d91d4b137c9c3e48",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s37/update_04500.pt",
+    "sha256": "27c486a1853f2d5333d5ad95174d2f80fda8eca2d3687bf657965fbe1db436d3",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/B5_s37/update_05000.pt",
+    "sha256": "44c205c35e09fa9d9b99e62c7ffc5bb526935e934f3bd3a1f9b707f9f2932e7f",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s11/update_00500.pt",
+    "sha256": "aea9b1781bc84905c91e664fd85013dd5d5dfe3c8b10eb4b33a50ffeefa2d4f6",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s11/update_01000.pt",
+    "sha256": "8e91a77fb2606aba6c897e743b16c93e62a6fff50bc04a71c8b252f61ffe9fa4",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s11/update_01500.pt",
+    "sha256": "5946a972d42bdd0a8b024fe19e670075fbcddacae0de20400275b54f4b8dcefa",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s11/update_02000.pt",
+    "sha256": "3f8f2fc18ff4799e152991e68d6819f6f45a825a890f7fce373c337160a82379",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s11/update_02500.pt",
+    "sha256": "ef7bba28c24d743286dfdc969ee12fbe65be5ba91a4eaf55e2a63df74bb04984",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s11/update_03000.pt",
+    "sha256": "d710f294d0a456b2a62cae8a156176ed04a9209c8c30d7f9cb6741b582d98c16",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s11/update_03500.pt",
+    "sha256": "e34004bf0b19159116e7fc0c05a1e8a7ba6ee71ea12c5ff9465925b944c5c17c",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s11/update_04000.pt",
+    "sha256": "69f733bbab02387d6d111b4ab576e959201cc726540755124f15c3a0df16458f",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s11/update_04500.pt",
+    "sha256": "b69e45de2b282c483de0c2499e8bc57b6739f980c9a3eca5962bcfe95970a50f",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s11/update_05000.pt",
+    "sha256": "7222aa97303a22d9bcbe04cde24b408190a55abde3de3e6ede0c1afc0d5d5a4d",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s23/update_00500.pt",
+    "sha256": "cc28271fa239b76e2cb11829ba1bc9c6dd6b45b4302f396a911d1ec60d7c9f32",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s23/update_01000.pt",
+    "sha256": "ffe4372d0c0a7c5cd1ee8ba4098258b911a7e9498a0dfe5d510b9641e51a4bf6",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s23/update_01500.pt",
+    "sha256": "8f48dcef7271f4ea6fecebcfa0b5651e0bd3dd77aa83790554ab31b4f855e4ac",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s23/update_02000.pt",
+    "sha256": "424924e612f94de0b9bc7e285c1e957366dc4e6c75d8e16075c289d4e9d57a26",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s23/update_02500.pt",
+    "sha256": "10d650dd1b91b37a23a5aaae51857827ee7082e78507505bb9b8b8e46e06904a",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s23/update_03000.pt",
+    "sha256": "f3d7bfa0356de0697878639fcfd9cbfa09dd93c03cd15ffa1257c39f1ed12468",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s23/update_03500.pt",
+    "sha256": "2a25501b2e3bab167183b51cfc0e1f7dcd7084eb10f8c44a63fe0e7cd50a52fa",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s23/update_04000.pt",
+    "sha256": "44e5268af7d22f018365f930983f398931da98a72f50b5545f8e20c2019b77af",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s23/update_04500.pt",
+    "sha256": "a124ef30d1661a5eab510f7249b3d466a59bdbd85b142dc4737b9c4c7b65c6e7",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s23/update_05000.pt",
+    "sha256": "13c8463ab097c021295e2ad43d9545ab796b9a268e22b6172585ef3a84041136",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s37/update_00500.pt",
+    "sha256": "8aeab6f5ded0120fdd5f63f03d55aafbd778731477c762753214c93129054efd",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s37/update_01000.pt",
+    "sha256": "eacac17b416d0d6dc3a3b8cb8d19540675d02221fe304ddc48585821d02eeb6e",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s37/update_01500.pt",
+    "sha256": "30298b2e3c3f2081e1a1116268b288deb74e114f3abbf06b87955bc2407a29e1",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s37/update_02000.pt",
+    "sha256": "e93edf97cd06e0d498585ae1ee9aecfc8067470c06db0818147ee6b9764a7df2",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s37/update_02500.pt",
+    "sha256": "e2e185e30ef914b9ef31d61118c163ae3788d1a1d99c60cf3f46ad8783a06329",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s37/update_03000.pt",
+    "sha256": "2964e117dd66facef41848fd7846dd036d2d06bafcecfb5fc258daad0edcb2f4",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s37/update_03500.pt",
+    "sha256": "67602c8e35c292253e2ccead13c8f925dbfea215e58a872c046ffb924acef819",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s37/update_04000.pt",
+    "sha256": "adf31ff4a42e47b48d22a0c1f539327ecd216bfdf76d63d6d418891b08094a70",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s37/update_04500.pt",
+    "sha256": "d322b845a19735c40bd08514a724cf022cee989dbc2cc4a8d7186d3ccda6d720",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P-no-rank_s37/update_05000.pt",
+    "sha256": "a1ce6486e169bdf51ddee92f1b63baa626f7662aff1ed96cca5dbce7423c0aca",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s11/update_00500.pt",
+    "sha256": "5deb774a8b521eb0952f230c89c2dc7461036d0efcec4cb4d3b296796ad218c8",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s11/update_01000.pt",
+    "sha256": "1b6294e9e84567b8b45685f9203b3a8e095b52de5aacf33fea998b3da08d1af1",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s11/update_01500.pt",
+    "sha256": "2cd607c4c0a50f632b331ec0395687cf3ddef1a3bdbf4fd76684942fd64c2558",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s11/update_02000.pt",
+    "sha256": "e2e37050bde64607a8accb55cc86a46b68e208f72ee005b93447b92cb908575d",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s11/update_02500.pt",
+    "sha256": "c06c74ab67ddaa77fe889a1b38b2681fa3de5a4536c64821a026f15e74a84e44",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s11/update_03000.pt",
+    "sha256": "ce61925b734d3eccdf4e35ba80b75c4347f6dbbc12e1e932a49c23e9422274ab",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s11/update_03500.pt",
+    "sha256": "7d3f59b597f70008d466581aa08faff755ad3d6b924b46c7acdacf98b5f31076",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s11/update_04000.pt",
+    "sha256": "78d0abf4a2ed5472078645ecdc843fd3685394751405dcd72e87801256c720d5",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s11/update_04500.pt",
+    "sha256": "17ac2e8e760b71e4fef225c476a29f42036f48ecefc714b58156f25f1dae0aba",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s11/update_05000.pt",
+    "sha256": "0a81a71ddaa8f8ba7baaa3fa810b1f298c31a26aec7e76c2609eaee5613d637c",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s23/update_00500.pt",
+    "sha256": "07650435fec5e4770493638b3b7396f7d9bdabb9fd9521183f157b3e8d7cd318",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s23/update_01000.pt",
+    "sha256": "4077903e5ce0a2f4411db88235f38a04b28732ad6cabb8d939335a4008fd34b4",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s23/update_01500.pt",
+    "sha256": "7674f5a9252516a3fc8610253cf78ff6017a24138e6e8289cd265a1d19f2c745",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s23/update_02000.pt",
+    "sha256": "56a73e0dd93fcf247a1b896b4856fba11c88bd5451f4a5e8413afbfd92554813",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s23/update_02500.pt",
+    "sha256": "9f4406c49038bc469777b9604425dca4faf877fbe38d3a645acb51ba479bb83b",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s23/update_03000.pt",
+    "sha256": "8cb8f534c43471aae6f6098964cda212c1aa022d9b67659904421d53a6340a0e",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s23/update_03500.pt",
+    "sha256": "352dbaa0dba9f5fbbc95bf40890f7a62e3a5f1b15e71a2ef154fabdfb3cb9e0e",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s23/update_04000.pt",
+    "sha256": "8defba02d3c998df6e9ec27fb8f383f251baa1aa9b957fb9c6831b3ee7d775fa",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s23/update_04500.pt",
+    "sha256": "8a5b06d69dbc076f2005d64599cd96c471dac762591ba214e70ab33d2da49caa",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s23/update_05000.pt",
+    "sha256": "5124b94b931e437d77fdb2964bd4274af1ab252bd79e4b9f3770ffa79ec3f420",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s37/update_00500.pt",
+    "sha256": "307fa4364726581a58eed27c9def8ceb9874b2e7274b7d2c76b89528945d5475",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s37/update_01000.pt",
+    "sha256": "675d036a0b09d802a4e507400c283614866610e334998642d0eee1c36a48950f",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s37/update_01500.pt",
+    "sha256": "b90488e2714e9d2d1355dcc24fb0eb9f2d3870018fb37bee6c45bca212d14401",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s37/update_02000.pt",
+    "sha256": "b6cd7ce1ab9ba16a3fdf9f90c77cb48bdf8b6a58cd25719ed64f1692e0733332",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s37/update_02500.pt",
+    "sha256": "ae3d607d9b0de6a862043fe72367a604b84f041a29209e48d64ea683423cdd20",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s37/update_03000.pt",
+    "sha256": "02ea3de6a0344ad6985f833bfc65cfddd1397246fb4deb0b03a230f5289550c1",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s37/update_03500.pt",
+    "sha256": "e6e7e6a3b78c2d7fbd2b44e47dcb8562fb7cffe96cfbc9aa43ca1c4797da0f56",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s37/update_04000.pt",
+    "sha256": "9c50093d1d73a7ed8bd92b3f36bcf5c422a63c77ee7aa4b546352599c9b440c7",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s37/update_04500.pt",
+    "sha256": "df87b8cb5b5da75aa1e8253d3be0b878194149fe91fedd6b33311bca1f86bfe0",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_candidates/heat/P_s37/update_05000.pt",
+    "sha256": "f3bd11f52d6d6e0bf8b74d74c8718009364b764b5d18fed4f5d49007c667946f",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B2_s11.pt",
+    "sha256": "773ff10aa1fd91a5a6a8f3e9838729deb81d608f2aa0dc0ef582f3e8d3ed415b",
+    "bytes": 734293
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B2_s23.pt",
+    "sha256": "cb65e51bf85612b143a424494a5c0e39a7276ad323e8d9af6fead457c5c993ac",
+    "bytes": 734293
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B2_s37.pt",
+    "sha256": "d968987bac175251bfe63d090c477ed37be35ab503b42d9a9c947ef4064607f8",
+    "bytes": 734293
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B3_s11.pt",
+    "sha256": "12996a2f2a99f762e73389c3386324c4ddd1519f1cb1c8e6a4ed38cce652aede",
+    "bytes": 734613
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B3_s23.pt",
+    "sha256": "da22427a0275973a5b5e6be9bfecb1b0f4741ef60a69cc206d324f3b192ef554",
+    "bytes": 734613
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B3_s37.pt",
+    "sha256": "4fc6b022e03db41abbca0b9ab2f06e19ba62e013556b59c57a668d5bf87fd627",
+    "bytes": 734613
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B4_s11.pt",
+    "sha256": "ae65b087136663f66500d58fccad3cb7e7437ea5559c62675ebf39a334f0e20b",
+    "bytes": 1342859
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B4_s23.pt",
+    "sha256": "c196d8bb83988455c23d19855448c9f0dab59f59b34c4d9de9c8340f9e5e77e5",
+    "bytes": 1342859
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B4_s37.pt",
+    "sha256": "7fb44fbefacd2f214fde3e47449f752aa7439faa62edde03372c9caf2f2fa972",
+    "bytes": 1342859
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B5_s11.pt",
+    "sha256": "06ccfa4271a1aecef18288189df09be9cfcc52621810a6ee71c74b382aedc513",
+    "bytes": 1340811
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B5_s23.pt",
+    "sha256": "2f0e42319365b1351a924b6651dd5d083cdc12933e997ca12e05f30c5bfc5177",
+    "bytes": 1340811
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B5_s37.pt",
+    "sha256": "34b54b37f1aa4fa6249ce5038cc24d7e4b87e253f4af9bf5d74a118efae067e6",
+    "bytes": 1340811
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/P-no-rank_s11.pt",
+    "sha256": "4eba43f50ab6acb6d2abd1160e271819cc67991799d04255300eb9be8d08cce5",
+    "bytes": 1341105
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/P-no-rank_s23.pt",
+    "sha256": "f490a11ad0ad6992a3f1b2bf1f3f5f46d2eb1c9a80600c4efb9329a96fe023e7",
+    "bytes": 1341105
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/P-no-rank_s37.pt",
+    "sha256": "9510f08b2f6fea87adf02ca75186bdd46c3ccd7b98d8c771cb8ceded4708aebe",
+    "bytes": 1341105
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/P_s11.pt",
+    "sha256": "7b222060d53a024baef3515715a5877d67ebf369748cc1ac16d4be1002457a0c",
+    "bytes": 1340769
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/P_s23.pt",
+    "sha256": "5e4edea83527e6d459825ec1bd578d224c78a4541204db72e3c530022aac91eb",
+    "bytes": 1340769
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/P_s37.pt",
+    "sha256": "dcc4d82ec51e115c5c36049255f4862298374916ecc26da616f3574ab18d8fbb",
+    "bytes": 1340769
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B2_s11.pt",
+    "sha256": "07f22e864895b091253d7795930ae7097a5bfb41b25e302d630cce400b93890b",
+    "bytes": 733269
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B2_s23.pt",
+    "sha256": "a5a261991f105f599fbe031cdb5fe840e073468a8822fb598d7cbf4ca6055ea9",
+    "bytes": 733269
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B2_s37.pt",
+    "sha256": "e046346447b7d12c4c67a49670e91fdac924c49a156139d4a6476181bd06e985",
+    "bytes": 733269
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B3_s11.pt",
+    "sha256": "77a52e5711e7b49773fbf211709e34b7157a41c6723e4f19177a8fff219e0d00",
+    "bytes": 733589
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B3_s23.pt",
+    "sha256": "ca460bc4d78d33f8b6def14fb299ad2681ed1ef9a8bd7a87baac1fe024af18b3",
+    "bytes": 733589
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B3_s37.pt",
+    "sha256": "4d04197082095390f95ca82e5f9a2d991c3ebac51e983403ae25b3f0b1b92f33",
+    "bytes": 733589
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B4_s11.pt",
+    "sha256": "93f5ce1932228c1785a8aa5aabb95d01d7a78ab6ead34c287622ccf0c74adc02",
+    "bytes": 1340235
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B4_s23.pt",
+    "sha256": "c5b7fa56b4b2d2b13b846ea52499ffd972e9c8028c6529771f082cab2bd74dc2",
+    "bytes": 1340235
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B4_s37.pt",
+    "sha256": "af01e898f027ba06271def0d3c1790b252e5912a43b4ead62678976b2839672d",
+    "bytes": 1340235
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B5_s11.pt",
+    "sha256": "f499e54b081a7018e2759f7824b2060fa381a54f99577cf307f8d97fc6e2e115",
+    "bytes": 1338251
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B5_s23.pt",
+    "sha256": "d057b493b2a97edc52baac2fdcd2127232e86d869c6d828504fc41e06136e8b7",
+    "bytes": 1338251
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B5_s37.pt",
+    "sha256": "997a821745e74444c1fe0da854a3fdc3423b5d68dc0d5c003d60b143404fa4a4",
+    "bytes": 1338251
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/P-no-rank_s11.pt",
+    "sha256": "40a77757d674a8da22ce0f9b93ff209a02e72ef5a8eab44ecc4f3d1af6b8a5f2",
+    "bytes": 1338545
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/P-no-rank_s23.pt",
+    "sha256": "ed6b34289ebd66e3ee8887fd71615994c0b95d14c75fd4ea50ff602efd0ee6b8",
+    "bytes": 1338545
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/P-no-rank_s37.pt",
+    "sha256": "b20cdc845ec62a0d3eff517650e92aeeb0d549e4a7619037be03e14b3041a4d8",
+    "bytes": 1338545
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/P_s11.pt",
+    "sha256": "335cd17c3fe439ab3d5987e117524559307f7447e41d9d3cdf2f7921630b26c4",
+    "bytes": 1338209
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/P_s23.pt",
+    "sha256": "556334358dbfbe5233045bb2bafc85f77d500712640b0cd2d21d0526feabd2e4",
+    "bytes": 1338209
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/P_s37.pt",
+    "sha256": "71d5a71cdd21cc57006e5d405b0824b0073aaff363ca17ea0eff36861b52d9a3",
+    "bytes": 1338209
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/observer/burgers_seed7.pt",
+    "sha256": "ed92701776328207b4044c4e60f1217004be37fe543642f9cb4aa3b7394af142",
+    "bytes": 683625
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/observer/heat_seed7.pt",
+    "sha256": "282a68b40092b4edfbf682a1fac347596604784de1dd45e6eb4a6d7da6f4fde5",
+    "bytes": 681999
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/burgers/B2_s7.pt",
+    "sha256": "b913b488d8bcb4a3d5d7096825a8791528a7c7fb5d88446291e6acb1238bdda5",
+    "bytes": 734197
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/burgers/B3_s7.pt",
+    "sha256": "548145b095ace763e6f4f28fdefa06b2737d25e44bdf59d6eec5f4f3683c3464",
+    "bytes": 734581
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/burgers/B4_s7.pt",
+    "sha256": "91e243249f75078f9401349f36dea215f10908f77521a376d6cb11024eebcc16",
+    "bytes": 1342753
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/burgers/B5_s7.pt",
+    "sha256": "a082145c037851a0347c83b85e1267f92c127a38aa8ce3c3e2591bc098738d70",
+    "bytes": 1340769
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/burgers/P-no-rank_s7.pt",
+    "sha256": "c8adbc1a74b4967d3e467f5cbf54d5cf4faca74fe3537e81a26a6201a1a2870b",
+    "bytes": 1341063
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/burgers/P_s7.pt",
+    "sha256": "749816ac00d4c6460f532e17dbfa33eabd9ae57df195236789a97373f33636dd",
+    "bytes": 1340407
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/heat/B2_s7.pt",
+    "sha256": "02e1a4ecdca430eb18e2d422b070e4c5dd009a2709482d13869e9e0c855114c9",
+    "bytes": 733173
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/heat/B3_s7.pt",
+    "sha256": "cccfd101713876d4ccf91b4967d837466289a0b365bfa94b8028aa0763352b18",
+    "bytes": 733493
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/heat/B4_s7.pt",
+    "sha256": "58c4f7b46e02f6645f5a9f767b01ce142d872c33b5a40cb879bc49df1aadcf1b",
+    "bytes": 1340193
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/heat/B5_s7.pt",
+    "sha256": "66d42ca17e54d67eb37024518eca927b671b7c5a5c8ba1e55e785c2198ce5159",
+    "bytes": 1338145
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/heat/P-no-rank_s7.pt",
+    "sha256": "877647c59cbb24ff583df7290676ed1001b0abfff1a80ec14cab62dbc4166020",
+    "bytes": 1338503
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/heat/P_s7.pt",
+    "sha256": "a71298d34cd26de0dffd8ebdc4c5e2ea49eafe7055e275fc7d183b07da05a4af",
+    "bytes": 1337783
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/observer/burgers_s7.pt",
+    "sha256": "f089dbd2a8b1a44ea8b84c8624e52d31acbb3ece73493e76c68f0b3af6691edb",
+    "bytes": 683535
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/observer/heat_s7.pt",
+    "sha256": "1e7777794faa71fa4aab815f12805e40e46fc6658278cca6018be94c793ceb39",
+    "bytes": 681909
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B2_s7/update_00100.pt",
+    "sha256": "46827d48a8f999f312fbb4125768aa36d94f6ff5363b3ff23c3cc4ff02769d6c",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B2_s7/update_00200.pt",
+    "sha256": "e28cb29cf33b1e7a7133de8dc005b1d0aab8cb0d100b5ec251ef0f730b1438bd",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B2_s7/update_00300.pt",
+    "sha256": "f3985f68d1899ecb8e85d4a65de4f41d74686843f645879ae7fea230aae30f8b",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B2_s7/update_00400.pt",
+    "sha256": "6e50e2729dbbe14062b7a347b753ed91f96c658cf6bb4408b9f35d2198422bb9",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B2_s7/update_00500.pt",
+    "sha256": "2cd23fe7937be110bbdd9ebd72c6ce0367851084b1ebd7f855de352294c9109f",
+    "bytes": 734101
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B3_s7/update_00100.pt",
+    "sha256": "6a24700427b4596178c3eb16f6245e6f72cbb649885eeb6ca1e29071cc6254d8",
+    "bytes": 734293
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B3_s7/update_00200.pt",
+    "sha256": "a2f1b1623f575de3457cc1657d7498f9e5e32859fa6b3e14fcfa6e80a323ac29",
+    "bytes": 734293
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B3_s7/update_00300.pt",
+    "sha256": "2a95b8cfb03f3fc9c8ff4473578f32e6d1674056d1294bc97b4acd69f9b285f0",
+    "bytes": 734293
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B4_s7/update_00100.pt",
+    "sha256": "3df9b85a301315cded437da6fd3dd984d70a56ae427be5e8ff2544c6756bb0d3",
+    "bytes": 1342855
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B4_s7/update_00200.pt",
+    "sha256": "0444fb21cbfe1f2142e12168a8f54e26b18e1e7ba0ab28d011e695499f0401ef",
+    "bytes": 1342855
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B4_s7/update_00300.pt",
+    "sha256": "35fcfc91a8da8f3c06c7da0dcb141c9e48037c2ee93b01ffca89dc7a7d6b9a0c",
+    "bytes": 1342855
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B4_s7/update_00400.pt",
+    "sha256": "ab9c46e0c987318eaeaabd4e1b63933c47ad055c608be213ba7fe98fbeed7968",
+    "bytes": 1342855
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B4_s7/update_00500.pt",
+    "sha256": "2f8803619ffd776e7492c4b31a12293d8f2fef212abfeba46b4358bac169e245",
+    "bytes": 1342855
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B4_s7/update_00600.pt",
+    "sha256": "b2532623518c026da3673812e34896b033bc2cb0512764563453494d86efd2a6",
+    "bytes": 1342855
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B4_s7/update_00700.pt",
+    "sha256": "a7c066982a7c5005c54a4c57f6487b36711a9927481a127d2b6b5029bac1fba0",
+    "bytes": 1342855
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B4_s7/update_00800.pt",
+    "sha256": "5d2335a104d2161fae91ab0ee63d1008d37a35660e36f2d1325675a9d2ea5c88",
+    "bytes": 1342855
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B4_s7/update_00900.pt",
+    "sha256": "30f8314755fca2fadbcd571cfa822b01351bf52bcb673159d4581df05c8bcb6f",
+    "bytes": 1342855
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B4_s7/update_01000.pt",
+    "sha256": "8fa4a5cc386978a5f07ba1f9e318956149e6bd7509fa328df0848af91f394804",
+    "bytes": 1342855
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B5_s7/update_00100.pt",
+    "sha256": "d1b43c73394a0e284da9a5d8f8a6f9eda23414a2904f089a43755d75b978c94a",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B5_s7/update_00200.pt",
+    "sha256": "a3fd0b6842088bd85395b4de831551cd24571e7ce5b897f5a97f1f974190f4e0",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B5_s7/update_00300.pt",
+    "sha256": "779cceb94e4ac5dfd2cf8295743b7c6bb86dacc76bb7ffaf80c786a9ee686f4b",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B5_s7/update_00400.pt",
+    "sha256": "e35dfe20b01d81cae68b76acfca5be16e2f2db74c64c46b3c8982ef370d8dc41",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B5_s7/update_00500.pt",
+    "sha256": "8a609b9c7ded9a2bf0c773dbff963e5b074e6340803f407b4927732d1c6df996",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B5_s7/update_00600.pt",
+    "sha256": "9174b25be58438610d847894e6d791741cf4bfca0be38db0834aa4b389db8216",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B5_s7/update_00700.pt",
+    "sha256": "b3b4402d79abdc5b6b35f1f4b43d94cce3a081bdf6185583b6e44dcba79c681c",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B5_s7/update_00800.pt",
+    "sha256": "03e7a50a9f4d7fb84ae276fbe69aca9e5acf22b2bd6981291ffb40e25a7525ce",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B5_s7/update_00900.pt",
+    "sha256": "845a8c3d5585e594b4cd3fed9951e33eba6d163ab6da8d0e0d9dc3ccc836029f",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/B5_s7/update_01000.pt",
+    "sha256": "357389f1d8a7d38c2fd06ff4b5e2dbcab7e67c4f6c49cd51e0dc29b7f3428fe1",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P-no-rank_s7/update_00100.pt",
+    "sha256": "e4d0a5692ac6f2d93a33b5009ed5ea23abb63b37c154e04e9c21ce75ecafd13c",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P-no-rank_s7/update_00200.pt",
+    "sha256": "bcd3428e9b5deba16d3235b2104180d7222f5a5768f8dde3ce804b13b189d2a6",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P-no-rank_s7/update_00300.pt",
+    "sha256": "af7b6dd95a646774908c476211aa83c84eedaf851409a3145d64c92627e20db3",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P-no-rank_s7/update_00400.pt",
+    "sha256": "6d9e77e95f3336e88f1d770f71162ef0cde81bf81f4b35618206fb93a7ddc2fc",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P-no-rank_s7/update_00500.pt",
+    "sha256": "0cb6b1a367acc042765aaab841c79a73da7c1e6025aaada40329ceb8f6fdb31c",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P-no-rank_s7/update_00600.pt",
+    "sha256": "8386815a1779885ff5baca4b369916d7c88f5d2a826d187749b8e41818f86d04",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P-no-rank_s7/update_00700.pt",
+    "sha256": "4405bd6404e3c232f9c42097a7e0d5cda2859ae61cec37a49e66a92aa198a151",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P-no-rank_s7/update_00800.pt",
+    "sha256": "31e471c9c3a93740aff789384cc3e6581873b45b32db0f5d6e47766c5b300d61",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P-no-rank_s7/update_00900.pt",
+    "sha256": "abd2d0947858cca9e2af74946eda5168d2869c7dd38143f4ebfdd8a353069ddb",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P-no-rank_s7/update_01000.pt",
+    "sha256": "d4be3f94637a085b6879c21ed6277b9642b333e31ebc96ef9046d52f31dc30c8",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P_s7/update_00100.pt",
+    "sha256": "42b0220cef2e9c2bd970f2ed280510e3bdb9cea6df279f77e3b3585ed8de11fb",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P_s7/update_00200.pt",
+    "sha256": "432923bfcb86aef82f1abe624ec676f9a3bd808326cbd718c7bdc1f58ba88a39",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P_s7/update_00300.pt",
+    "sha256": "f32de28419043f12b48336ec0ef7170ec2b27efdc009a61366ebab447523232e",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P_s7/update_00400.pt",
+    "sha256": "0f6d35ea48dda400b3e8fac8c8b350ebd3bf40aa9f8fff8890db58edd546de96",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P_s7/update_00500.pt",
+    "sha256": "eac90c46f4a76bc5522a49fc5458b447df17272953f9690a2a7a286e9132d87d",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P_s7/update_00600.pt",
+    "sha256": "baeb133cee57d54f22599ec725886f35c5cefe1310c40b3140cabd07caf908e7",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P_s7/update_00700.pt",
+    "sha256": "a8a53545ee10e39e2709711bde96b5dba7cd2f03e767e80a2512f6a7a1287177",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P_s7/update_00800.pt",
+    "sha256": "663e7f5f13a871723a10b563c53cd379f8027a50c24da3d9693860963a581342",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P_s7/update_00900.pt",
+    "sha256": "7c0248d61902257f2b4c7d74760b47ec87c72f9821d6ffa3778b39dd3f793b40",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/burgers/P_s7/update_01000.pt",
+    "sha256": "2bb82b6a55a28750691a10dd194e7acf8d134f094e3bb5948c49029a82149488",
+    "bytes": 1340871
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B2_s7/update_00100.pt",
+    "sha256": "95597229b068f4a34ee9e2ef8e308b3d633e3fb6925478716b8ca52151057224",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B2_s7/update_00200.pt",
+    "sha256": "116c522348034f14a2e402e3b5f5a3852a7ef680453e302b87f62f883d88bc08",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B2_s7/update_00300.pt",
+    "sha256": "4e6526d921fa340d08173c42d4412943063d680db4d5b015accdc2d51bc3e31f",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B2_s7/update_00400.pt",
+    "sha256": "4448d0b22948b9121f8e1f2380f94e40486d436a2333c2246a0aff16a8767c0f",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B2_s7/update_00500.pt",
+    "sha256": "a01ff5471ebf9dfa1ba1929a3e2aa5b798340e50ffc8068d09dc0debaf93bdd6",
+    "bytes": 733077
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B3_s7/update_00100.pt",
+    "sha256": "8cc30e93a33e9f24a587d76c426c6e9e407a13690b16fb93a4b53f3e32b53093",
+    "bytes": 733205
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B3_s7/update_00200.pt",
+    "sha256": "5407c31428861bde0a16c175a8c4de848bea39734cce23592f28a1771633bd3d",
+    "bytes": 733205
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B3_s7/update_00300.pt",
+    "sha256": "71a02f6f3c5ad9c40b562e84c65a45962d68d36ebf595b42fb9d71ef4a5156a4",
+    "bytes": 733205
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B4_s7/update_00100.pt",
+    "sha256": "11d9fc20bb37091a262fd23dd4b5c238ad5a3c73f04922e81df4bc0229dbb882",
+    "bytes": 1340295
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B4_s7/update_00200.pt",
+    "sha256": "e9246c89eaa51fc427193f1bbb1a3fa0a01b3321b3fbba0e79fd635170efe4e4",
+    "bytes": 1340295
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B4_s7/update_00300.pt",
+    "sha256": "fd43ec3dfdda96324017c17a3d21fbaa318387845ebfaa5a2585fc226fdbc3d7",
+    "bytes": 1340295
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B4_s7/update_00400.pt",
+    "sha256": "4a47f0cffee8d16af346744fce1f096c135644c09dea32f10b2e101d87d32ce6",
+    "bytes": 1340295
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B4_s7/update_00500.pt",
+    "sha256": "73502f9a5aa88dee6dc224b424c8104fc0938afa0beb5c08e4075774a6273def",
+    "bytes": 1340295
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B4_s7/update_00600.pt",
+    "sha256": "03b9fcd80d9f9b4a7f5ac5d82f7bd4830aecc73d545be03f2378e6f4c37982f8",
+    "bytes": 1340295
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B4_s7/update_00700.pt",
+    "sha256": "27b18289a80d1f3190c95ddc448ca556ab055bd868add68611ee7318ddd93f26",
+    "bytes": 1340295
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B4_s7/update_00800.pt",
+    "sha256": "a891ef68667ae9343bb028ccd6006ed863dd718e60a0bd92fbde8ba5c65d4cda",
+    "bytes": 1340295
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B4_s7/update_00900.pt",
+    "sha256": "f5d4d11ed6d2f0d111342a1be517549260c04fe6766b1194a4b40bb0b02230a6",
+    "bytes": 1340295
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B4_s7/update_01000.pt",
+    "sha256": "c94850a473de7f1f75433befbb4f579108ad3c273081cfd19b6f6db10c5f1b80",
+    "bytes": 1340295
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B5_s7/update_00100.pt",
+    "sha256": "eb7b15d52462aafe2efccb401076c46441ad27526631806a01ef9b3aa20b0261",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B5_s7/update_00200.pt",
+    "sha256": "c12ef85b391de94e1ec453153e93da7971212c29eb9b8efc15304752850437ea",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B5_s7/update_00300.pt",
+    "sha256": "34f4002f93f2dc975e3ae84b5fed48234dcddef08efd30df06ef9c2e776fe818",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B5_s7/update_00400.pt",
+    "sha256": "f85e7338366fcce4d3d2bd300919cf7384c1f2e7e35eb30ceeb4b6af8af4748f",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B5_s7/update_00500.pt",
+    "sha256": "9e1ffc514751949759ce983ca347211de76e55f01bb92a31a69e63a63e34b81d",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B5_s7/update_00600.pt",
+    "sha256": "5b8cc3b15b5f24bf01784ccddb7527f521d69a6796046a7b74a46829af21ac57",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B5_s7/update_00700.pt",
+    "sha256": "8658d8e33c17a74a3deadbf6bbc65c9aa9c8765c39e478379a41d144fd48f76e",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B5_s7/update_00800.pt",
+    "sha256": "379a037dca6cb015cbf98d214025802c15fed159bdf1b1ccb6d9c2cb97ecde38",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B5_s7/update_00900.pt",
+    "sha256": "fdba755b8d8ae08a2af983d17a6b41b3c5740609d2a9b6f054435b3a573318d3",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/B5_s7/update_01000.pt",
+    "sha256": "c03930840f9a534a382d609f0f9869fd4a402ce890a06e58b78195e5e0c42204",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P-no-rank_s7/update_00100.pt",
+    "sha256": "d0d5f671bbdebffadeb5ec24761b71cd5dc75d5c23f350e3c50af1312df92874",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P-no-rank_s7/update_00200.pt",
+    "sha256": "bf154a4a8eaaec98e6751436f506617809bde8860a914840a6228630bf317bf3",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P-no-rank_s7/update_00300.pt",
+    "sha256": "68efaf6698219fe768b33a403d3bb1750f93295041f309b7f861039f0b75e2f4",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P-no-rank_s7/update_00400.pt",
+    "sha256": "ba0b9c84f27f679505021ac3bb327d5506386f69c02d91556f658205685c927b",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P-no-rank_s7/update_00500.pt",
+    "sha256": "dd4a5162720d8e8022bbc5f7389841f4b1a784160b82aaed13129f869f5a8ec4",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P-no-rank_s7/update_00600.pt",
+    "sha256": "ea7afbb91774c770c3a32659ed095b8eda3f9b1b76d1b486bacad819c452002c",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P-no-rank_s7/update_00700.pt",
+    "sha256": "48b39785227606583ca95de8816145ea62b627a34d29066bc95cf6445a1165d1",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P-no-rank_s7/update_00800.pt",
+    "sha256": "f1bd92f71e8e591d4a814062ebc8d1f5a27e3ba46ac395fb30a09ac5e6448be2",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P-no-rank_s7/update_00900.pt",
+    "sha256": "4c0bf52b5c53c1618486a4b7ca3a0ec065c3623cfb7417272f5b3a36969ef2b4",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P-no-rank_s7/update_01000.pt",
+    "sha256": "e42bff895ec84217dc8825e5dd57031ffd654634ec7cf439b0a65be99486eff3",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P_s7/update_00100.pt",
+    "sha256": "99e1b00649a8422c6e73a15b5ea49a87a62901965c3a08c6f1b74132076ed419",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P_s7/update_00200.pt",
+    "sha256": "53101be71546c7e966f8c2c1795bc8854adf2ac3ba5aee18829fe71c8014ade8",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P_s7/update_00300.pt",
+    "sha256": "85d2c4646e268a9f4103fe55f48ac8ac1f05e8e82a081adf118d2112496b4c8e",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P_s7/update_00400.pt",
+    "sha256": "4c39f675ca4bbfb4ad6c29169b384b4a5a4ed7a557021e0cc5b11314c467fa85",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P_s7/update_00500.pt",
+    "sha256": "ad0c9e391243625f6f6664a1bc56c580f7bae6fa7eede54417b525eb1445c5a8",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P_s7/update_00600.pt",
+    "sha256": "e3ccb7dab54d8a6deb285d6510f715a5a445ab08dcf7155002cf2d4297d6aa2b",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P_s7/update_00700.pt",
+    "sha256": "7fd249395cd490a76c18a9b80ae95cfcd2cae5e301e85f8e82c8babe0edb4370",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P_s7/update_00800.pt",
+    "sha256": "25f8a8431fcd986ce4accf03229fcf1e121e02c20caae7305ea5d9ea6f97268a",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P_s7/update_00900.pt",
+    "sha256": "e4ac69f2a56ef483cb58abe5d9f23b7e9f326776fb1c7158fcfa51ac0d8604dc",
+    "bytes": 1338311
+  },
+  {
+    "path": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3_candidates/heat/P_s7/update_01000.pt",
+    "sha256": "95e29a073312941796f7288a35fef54ff5a05d140a073cb3d7ede704a7f18953",
+    "bytes": 1338311
+  }
+]

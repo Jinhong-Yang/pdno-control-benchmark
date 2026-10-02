@@ -1,0 +1,45 @@
+protocol: PDNO_JevLite_RTX5080_72H_locked_execution_addendum_v2
+parent_protocol: config/frozen_experiment.yaml
+calibration_protocol: config/evaluation_addendum_v1.yaml
+calibration_lock: evidence/calibration_lock_v2.json
+reason: source_protocol_requires_200_tick_closed_loop_episodes; pre-test_execution_correction
+closed_loop:
+  episode_ticks: 200
+  simulation_dt_seconds: 0.02
+  horizon_ticks: 8
+  all_methods_share_parent_initial_condition_material_disturbance_and_observation_schedule: true
+  controllers: [B0, B1, P, P-no-rank, B4, B5, B2, B3]
+  learned_seeds: [11, 23, 37]
+  heat_mid_episode_step_tick: 100
+  heat_step_parents: 192_of_384_locked_nominal
+  action_projection: common_box_and_slew_each_tick
+  online_field_forecast_error_and_candidate_regret_snapshot_tick: 100
+  exact_candidate_regret: actual_selected_action_horizon_cost_minus_minimum_shared_K10_candidate_horizon_cost
+  per_episode_metrics: [cumulative_control_cost, tracking_rmse, constraint_violation, fallback_rate, forecast_nrmse, candidate_regret]
+statistics:
+  independent_unit: parent_episode
+  training_seed_is_hierarchical_not_an_environment_replication
+  paired_parent_bootstrap_replicates: 10000
+  all_methods_and_seeds_use_identical_parent_condition_schedules: true
+h3_comparator:
+  select_before_test_from: [B0, B1, B2, B3, B4, B5]
+  exclude_proposed_methods: [P, P-no-rank]
+  criterion: lowest_validation_mean_control_cost_after_equal_weight_normalization_within_each_pde; learned seeds averaged within parent
+  validation_parent_episode_count_per_pde: 64
+  global_selection_rule: mean_of_burgers_and_heat_within_pde_cost_ratio_to_B0
+  tie_break: B0
+  selected_before_test: null
+  selection_evidence: evidence/validation_closed_loop_comparator_v2.json
+sequence:
+  generated_128_tick_locked_v1_is_superseded_provenance_only: true
+  only_200_tick_locked_v2_is_eligible_for_one_time_evaluation: true
+  locked_test_result_accessed_only_after_every_method_runner_and_hash_is_frozen: true
+  no_test_tuning: true
+runtime_budget:
+  measured_locked_evaluation_point_estimate_hours: 12.84
+  measured_locked_evaluation_planning_estimate_with_25pct_margin_hours: 16.05
+  runtime_estimate_evidence: evidence/v2_evaluation_budget_reconciliation.json
+  runtime_estimate_scope: one validation parent per PDE and method; not a robust guarantee
+  evidence_window_hours: 62
+  astra_reserve_hours: 10
+  required_methods_and_parent_counts_retained: true

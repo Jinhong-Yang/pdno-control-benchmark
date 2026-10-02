@@ -1,0 +1,21 @@
+{
+  "all_checks_passed": true,
+  "generation_receipt_sha256": "62ba920f44167d6826ff3e1642502f7dec4ec4d77a67f7037632294fcf509f56",
+  "role_manifest_sha256": "06b1fedff7e30849831c09de92749311ca8a388606200a8e99806a760d2f5bfd",
+  "shards": [
+    {
+      "parent_count": 64,
+      "pde": "burgers",
+      "ticks": 201,
+      "trajectory_sha256": "a2171858d849858ea9044eb4fc568a9cb7c7a1ab7327ba079ce379c9b2612249"
+    },
+    {
+      "parent_count": 64,
+      "pde": "heat",
+      "ticks": 201,
+      "trajectory_sha256": "3a358884de8aadb330252e5ce9daed3b4cea2f71e342cfbd0025c4ccf8969eb1"
+    }
+  ],
+  "status": "CALIBRATION_TRAJECTORY_AUDIT_PASSED",
+  "test_opened": false
+}

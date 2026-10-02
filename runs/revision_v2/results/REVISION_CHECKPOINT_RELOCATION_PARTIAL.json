@@ -1,0 +1,180 @@
+{
+  "status": "PASS_PARTIAL_REVISION_CPU_RELOCATION",
+  "complete_checkpoint_inventory": false,
+  "counts": {
+    "E3": {
+      "completed": 6,
+      "required": 21
+    },
+    "E4": {
+      "completed": 0,
+      "required": 10
+    },
+    "E5": {
+      "completed": 0,
+      "required": 19
+    }
+  },
+  "external_checkpoint_reads_allowed": false,
+  "input_sha256": {
+    "runs\\revision_v2\\src\\pdno\\__init__.py": "fd7c4d219a38b9a673328c63b8ff98659a187741f77800b9f5da2ab7dc885df4",
+    "runs\\revision_v2\\src\\pdno\\controllers\\actions.py": "d5719d6bea32646377b14a434e1543114f58a7c5d4605d645251a1ff7f0a1085",
+    "runs\\revision_v2\\src\\pdno\\controllers\\linear.py": "643e090f107f09d5532176773d9a5c50b9c062ace1bed49911ea1c87c0602ad1",
+    "runs\\revision_v2\\src\\pdno\\controllers\\objectives.py": "313ebd60bc2b873fbf25bc530c88077cded936f825cf1d9cfb5f73bd1418958e",
+    "runs\\revision_v2\\src\\pdno\\controllers\\revision_oracle.py": "16012b5b5c69ed7a48311c27aa0218825911f0585e9c3b565b2d2f8a58a056dd",
+    "runs\\revision_v2\\src\\pdno\\controllers\\revision_oracle_cuda.py": "cc21f131411783e1cff232f92bd46c703ae67aac6177539c345397b2d5ea6d2e",
+    "runs\\revision_v2\\src\\pdno\\controllers\\rom.py": "dd058ac5f31e3934c62c242b01d1b37c23e56d9e894ba0d785732e6c770396e1",
+    "runs\\revision_v2\\src\\pdno\\data\\audit_generated.py": "162ec8cc81e52428fa4575c21a4972189e1136392f0c4a11d038f33123c974a3",
+    "runs\\revision_v2\\src\\pdno\\data\\audit_teacher.py": "7134dc0b83d738ab830f6aad488450e4d4d4afae8e33a7a2e410b02bfd7a7cce",
+    "runs\\revision_v2\\src\\pdno\\data\\causal.py": "9cd1512c4c50428ec7f82f4d43a5790f5665cc3ed1f5d054fc759909141ee6dd",
+    "runs\\revision_v2\\src\\pdno\\data\\generate.py": "fa05f889c3b6d424862313b69c49a90f14e36cee51a73f837400faa0e4fedb49",
+    "runs\\revision_v2\\src\\pdno\\data\\manifests.py": "3de644322c676fce0486dd484ba9edf8edf2df43f12a3de3f9a680691f0531c5",
+    "runs\\revision_v2\\src\\pdno\\data\\revision_heat.py": "163ec7146769d125d4fbdc53adc97b3ad97668530ac103574130fdb17ef6b5bf",
+    "runs\\revision_v2\\src\\pdno\\data\\splits.py": "2afcb9f83caa30caccb0d6f3d496ba2b2c5c0c70b652b7f275addd81f6d3e30f",
+    "runs\\revision_v2\\src\\pdno\\data\\teacher_queries.py": "faf7ec46c4c8f1ae67515ae804d8d2f0b65ababcfe47f68587361058416fe707",
+    "runs\\revision_v2\\src\\pdno\\evaluation\\__init__.py": "b152083f34286dc4d011e2fccc116304e210cf0d209c0d01fb5530feaaf9a5ac",
+    "runs\\revision_v2\\src\\pdno\\evaluation\\closed_loop.py": "6402a37c0e07c1169a11472f6d0f4d1b0f9c0943868298b5a05287f3067e203d",
+    "runs\\revision_v2\\src\\pdno\\evaluation\\revision_batch.py": "2a78d9f37e9bc34095c8731545d9a1e9986dd6f1ed8a368432428057b0915c23",
+    "runs\\revision_v2\\src\\pdno\\models\\__init__.py": "19549ac302eccc673b7c064b26f9950b86431e62756314278d2a6bb2168d0eab",
+    "runs\\revision_v2\\src\\pdno\\models\\encoders.py": "344824af7c50671daff77984d0c1e0736666c670962db2d4dbf58a0d9ac1424d",
+    "runs\\revision_v2\\src\\pdno\\models\\operators.py": "4576ddf2c2ec49a56443022b12a842f83f0f36d7cfc03b08c08f9d5309aca603",
+    "runs\\revision_v2\\src\\pdno\\models\\policies.py": "6c5cabb7c444fe7f246f805b26cefe8ca68b472d5f7e9f1545a13d7f79d96b23",
+    "runs\\revision_v2\\src\\pdno\\models\\revision_cache.py": "59376f3d4a51a03c30b3063c2e5f289ea09e66f6237b3da0115b1d55d3b148f4",
+    "runs\\revision_v2\\src\\pdno\\physics\\__init__.py": "475f4d687b2b34b0ffaf3633897092b4729eee08eca6f3329505a05340ac49f0",
+    "runs\\revision_v2\\src\\pdno\\physics\\burgers.py": "9497b122e7eb585bd12867adadfb55c6e8c36a29828a79f14717f457eb38e7b0",
+    "runs\\revision_v2\\src\\pdno\\physics\\finite_volume.py": "48116795acecd9a3adfc7e1155670f7efb4c1fce8d2c27f0d6a8cd5a3dfad938",
+    "runs\\revision_v2\\src\\pdno\\physics\\heat.py": "0da5b5df6f811af43ecf54a4347f671945ccaa08a13f35d6adb260f4094e9a6c",
+    "runs\\revision_v2\\src\\pdno\\training\\__init__.py": "56deb9c1ba1c77a92e41910b5475663f6a291093c592bd42d4c3a636d7f7dc7f",
+    "runs\\revision_v2\\src\\pdno\\training\\confirmatory.py": "8dddb65948e9cf698325720a74fda5d2496dfe3f6108b12c66973c55547bcd30",
+    "runs\\revision_v2\\src\\pdno\\training\\fit.py": "d090b9a9dfa21f69fdda3a6cb8c5f58bd8bde419e180a8c59a9662de7ab1eeb6",
+    "runs\\revision_v2\\src\\pdno\\training\\losses.py": "36442d274d2e003abccfa81b89236ec7175ac09b3d9eb8da9beb5de5f16e2336",
+    "experiments\\pdno_jevLite_20260927_v3\\data\\queries_v3\\train\\burgers\\teacher_queries.npz": "3e9b36fdce4ba64ab4aa399b47a1721233e13bd195010148a666873d97491e3d",
+    "relocated_fixture/original_burgers.npz": "4d434ba456a566be2ab1b997e4def141c3b6aef7fe3c97e0cb961c7cfd842930",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s11.pt": "f7dcecf5e66ed90a547f282cd83a25bae1327afab91f2dff185e5b8114a503a9",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s11.summary.json": "38370dda740c69e0c72374a0090bba0b4a0748b7abe03e9538f542e961b682cb",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s23.pt": "3353bb7c3aaf0b286885d7a5cc5933745a092001cfe0542b17b9251184ef534d",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s23.summary.json": "a6fa672a6bcba7fc03fc502ca18f3f31de32e19c32976aafc5b728667fe5b8c3",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s11.pt": "e13b2955dd6ae617e2b3da408ef50016206a362d14f97aacb056654cd1f8cc9c",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s11.summary.json": "49add17f292ec7a0af0d83e16d941e5351961a0d17c1f7e12b7e3addf5fb1944",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s23.pt": "3f7b1e7cde7a915f6c2482c547c8c18f7dc75cffbd56f1e59501f3e7e636df1d",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s23.summary.json": "e36e08638331c76b75c394e038a4e504fdb6a3881a25e3170f7f7c331d7fe042",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s37.pt": "2c7ac88080fa4411a6eaa4d4bacaa9e6f01331832880f28180fad9353906a9b0",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s37.summary.json": "7884156ab42eeb0ff9d836d3204eca6814193ce71a754b5cb46a5012640d2d3b",
+    "runs\\revision_v2\\checkpoints\\E3\\observer\\burgers_x1_seed7.pt": "1c35db13a2d0b192723a2b2e68c8f9994caad9f21f69ae39ec4990bc8694ecef",
+    "runs\\revision_v2\\checkpoints\\E3\\observer\\burgers_x1_seed7.summary.json": "be2c27b0cd279e2ccfec099713b73bbf1e679ed790258be41ea360c5d540f8f8"
+  },
+  "test_sha256": "3c216b4a5aede8da314f09bbd25c0df1cf31c230aa23b529be28101e1d941ab4",
+  "rows": [
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "B4",
+      "seed": 11,
+      "selected_update": 18500,
+      "weight": "00_E3_burgers_x1_B4_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s11.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "e3fc93944e54013172688a7779ebee79466b6a5fe49f24ef5f2069a9de04a31c"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "B4",
+      "seed": 23,
+      "selected_update": 15000,
+      "weight": "01_E3_burgers_x1_B4_s23.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s23.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "7caba52c75f8292c5222197d1f39cda65107228852d264b59e19356825c12597"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "P",
+      "seed": 11,
+      "selected_update": 11500,
+      "weight": "02_E3_burgers_x1_P_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s11.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "f635a1bac8a9a0d6707d97643f4597f0dd277797773c53fedc2d7e9d1bd41dc2"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "P",
+      "seed": 23,
+      "selected_update": 14000,
+      "weight": "03_E3_burgers_x1_P_s23.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s23.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "38392c9f398f7a0f8bf9ce07f63bf3e8fae45d9c3ad26bc0a580c16a7a8b28e3"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "P",
+      "seed": 37,
+      "selected_update": 17500,
+      "weight": "04_E3_burgers_x1_P_s37.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s37.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "8efe8838191e8718d3d0958a7b2a25914cc83bd5d1142b0cd22db28396bfe9e3"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "observer",
+      "seed": 7,
+      "selected_update": 4000,
+      "weight": "05_E3_burgers_x1_seed7.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\observer\\burgers_x1_seed7.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        128
+      ],
+      "output_sha256": "8eb2092fd1e423824d910b7352a1e6253cbfad513bb49b79a172885b9c57bd12"
+    }
+  ],
+  "checkpoint_reads": [
+    "00_E3_burgers_x1_B4_s11.pt",
+    "01_E3_burgers_x1_B4_s23.pt",
+    "02_E3_burgers_x1_P_s11.pt",
+    "03_E3_burgers_x1_P_s23.pt",
+    "04_E3_burgers_x1_P_s37.pt",
+    "05_E3_burgers_x1_seed7.pt"
+  ],
+  "gpu_operations": 0,
+  "limits": "One training-observation forward pass per selected model using relocated code and weights. No closed-loop evaluation, GPU performance, full fresh-install or downloaded-archive certification.",
+  "incomplete_default_run_rejected": true
+}

@@ -1,0 +1,34 @@
+{
+  "status": "DRAFT_SAVED_DOI_RESERVED_NOT_PUBLISHED",
+  "observed_utc": "2026-10-02T04:24:25.317400+00:00",
+  "draft_url": "https://zenodo.org/uploads/23094639",
+  "reserved_doi": "10.5281/zenodo.23094639",
+  "version": "1.1.0",
+  "title": "PDNO Control Benchmark: Revision Experiments, Model Checkpoints, and Raw Evidence",
+  "prior_version_doi": "10.5281/zenodo.23083472",
+  "concept_doi": "10.5281/zenodo.23083471",
+  "creators_in_order": [
+    "Park, Hyojin",
+    "Yang, Jinhong"
+  ],
+  "license": "Apache-2.0",
+  "files_uploaded": 0,
+  "bytes_uploaded": 0,
+  "publish_clicked": false,
+  "ui_saved_message": "Record saved with validation feedback in Files 1",
+  "validation_feedback_scope": "No files yet; expected unfinished draft. Publish remains disabled.",
+  "registration_scope": "DOI is reserved; Zenodo states it will be registered when upload is published. Do not cite this draft as an available published release.",
+  "screenshot": "publications\\ieee_access_pdno_revision_v2_20261002\\qa\\ZENODO_V11_DRAFT.png",
+  "screenshot_sha256": "4e94cc85cd5a6f61080e0f5da5b3620daaa63230bee6f17f036a80c1dde1723b",
+  "remaining": [
+    "finish required experiments and scientific QA",
+    "review final release description and actual publication date",
+    "build and verify source and evidence archives",
+    "upload verified files",
+    "set actual source commit and final metadata",
+    "publish and verify DOI/downloaded payloads",
+    "update manuscript availability references"
+  ],
+  "browser_id": "2",
+  "tab_id": "596495178"
+}

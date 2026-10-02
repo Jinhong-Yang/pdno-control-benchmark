@@ -1,0 +1,60 @@
+{
+  "status": "COMPLETE_AFTER_POLICY_FREEZE",
+  "freeze_sha256": "fc3dcb29a6b070dc5924fbdab46042683a730aa2a906189bd0e285af444951ec",
+  "records": [
+    {
+      "generator_version": "causal-observation-v5-200tick-locked-balanced-roles",
+      "observation_mapping_version": 2,
+      "outer_ticks": 200,
+      "role_assignment": "frozen manifest order; OOD low/high and heat step/no-step alternate exactly by role index",
+      "pde": "heat",
+      "split": "locked_nominal",
+      "parent_count": 384,
+      "elapsed_seconds": 17.91703139996389,
+      "seconds_per_parent": 0.046658935937405964,
+      "file": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\revision_v2\\data\\positive_heat\\locked_nominal\\heat\\trajectories.npz",
+      "fields_shape": [
+        384,
+        201,
+        256
+      ],
+      "targets_generated": true
+    },
+    {
+      "generator_version": "causal-observation-v5-200tick-locked-balanced-roles",
+      "observation_mapping_version": 2,
+      "outer_ticks": 200,
+      "role_assignment": "frozen manifest order; OOD low/high and heat step/no-step alternate exactly by role index",
+      "pde": "heat",
+      "split": "locked_coefficient_ood",
+      "parent_count": 128,
+      "elapsed_seconds": 5.952420599991456,
+      "seconds_per_parent": 0.04650328593743325,
+      "file": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\revision_v2\\data\\positive_heat\\locked_coefficient_ood\\heat\\trajectories.npz",
+      "fields_shape": [
+        128,
+        201,
+        256
+      ],
+      "targets_generated": true
+    },
+    {
+      "generator_version": "causal-observation-v5-200tick-locked-balanced-roles",
+      "observation_mapping_version": 2,
+      "outer_ticks": 200,
+      "role_assignment": "frozen manifest order; OOD low/high and heat step/no-step alternate exactly by role index",
+      "pde": "heat",
+      "split": "locked_delay_dropout",
+      "parent_count": 128,
+      "elapsed_seconds": 5.226927699986845,
+      "seconds_per_parent": 0.04083537265614723,
+      "file": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\revision_v2\\data\\positive_heat\\locked_delay_dropout\\heat\\trajectories.npz",
+      "fields_shape": [
+        128,
+        201,
+        256
+      ],
+      "targets_generated": true
+    }
+  ]
+}

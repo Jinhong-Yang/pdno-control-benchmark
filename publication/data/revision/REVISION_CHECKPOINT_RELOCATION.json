@@ -1,0 +1,1045 @@
+{
+  "status": "PASS_ALL_50_REVISION_CHECKPOINTS_CPU_RELOCATION",
+  "complete_checkpoint_inventory": true,
+  "counts": {
+    "E3": {
+      "completed": 21,
+      "required": 21
+    },
+    "E4": {
+      "completed": 10,
+      "required": 10
+    },
+    "E5": {
+      "completed": 19,
+      "required": 19
+    }
+  },
+  "external_checkpoint_reads_allowed": false,
+  "input_sha256": {
+    "runs\\revision_v2\\src\\pdno\\__init__.py": "fd7c4d219a38b9a673328c63b8ff98659a187741f77800b9f5da2ab7dc885df4",
+    "runs\\revision_v2\\src\\pdno\\controllers\\actions.py": "d5719d6bea32646377b14a434e1543114f58a7c5d4605d645251a1ff7f0a1085",
+    "runs\\revision_v2\\src\\pdno\\controllers\\linear.py": "643e090f107f09d5532176773d9a5c50b9c062ace1bed49911ea1c87c0602ad1",
+    "runs\\revision_v2\\src\\pdno\\controllers\\objectives.py": "313ebd60bc2b873fbf25bc530c88077cded936f825cf1d9cfb5f73bd1418958e",
+    "runs\\revision_v2\\src\\pdno\\controllers\\revision_oracle.py": "16012b5b5c69ed7a48311c27aa0218825911f0585e9c3b565b2d2f8a58a056dd",
+    "runs\\revision_v2\\src\\pdno\\controllers\\revision_oracle_cuda.py": "cc21f131411783e1cff232f92bd46c703ae67aac6177539c345397b2d5ea6d2e",
+    "runs\\revision_v2\\src\\pdno\\controllers\\rom.py": "dd058ac5f31e3934c62c242b01d1b37c23e56d9e894ba0d785732e6c770396e1",
+    "runs\\revision_v2\\src\\pdno\\data\\audit_generated.py": "162ec8cc81e52428fa4575c21a4972189e1136392f0c4a11d038f33123c974a3",
+    "runs\\revision_v2\\src\\pdno\\data\\audit_teacher.py": "7134dc0b83d738ab830f6aad488450e4d4d4afae8e33a7a2e410b02bfd7a7cce",
+    "runs\\revision_v2\\src\\pdno\\data\\causal.py": "9cd1512c4c50428ec7f82f4d43a5790f5665cc3ed1f5d054fc759909141ee6dd",
+    "runs\\revision_v2\\src\\pdno\\data\\generate.py": "fa05f889c3b6d424862313b69c49a90f14e36cee51a73f837400faa0e4fedb49",
+    "runs\\revision_v2\\src\\pdno\\data\\manifests.py": "3de644322c676fce0486dd484ba9edf8edf2df43f12a3de3f9a680691f0531c5",
+    "runs\\revision_v2\\src\\pdno\\data\\revision_heat.py": "163ec7146769d125d4fbdc53adc97b3ad97668530ac103574130fdb17ef6b5bf",
+    "runs\\revision_v2\\src\\pdno\\data\\splits.py": "2afcb9f83caa30caccb0d6f3d496ba2b2c5c0c70b652b7f275addd81f6d3e30f",
+    "runs\\revision_v2\\src\\pdno\\data\\teacher_queries.py": "faf7ec46c4c8f1ae67515ae804d8d2f0b65ababcfe47f68587361058416fe707",
+    "runs\\revision_v2\\src\\pdno\\evaluation\\__init__.py": "b152083f34286dc4d011e2fccc116304e210cf0d209c0d01fb5530feaaf9a5ac",
+    "runs\\revision_v2\\src\\pdno\\evaluation\\closed_loop.py": "6402a37c0e07c1169a11472f6d0f4d1b0f9c0943868298b5a05287f3067e203d",
+    "runs\\revision_v2\\src\\pdno\\evaluation\\revision_batch.py": "2a78d9f37e9bc34095c8731545d9a1e9986dd6f1ed8a368432428057b0915c23",
+    "runs\\revision_v2\\src\\pdno\\models\\__init__.py": "19549ac302eccc673b7c064b26f9950b86431e62756314278d2a6bb2168d0eab",
+    "runs\\revision_v2\\src\\pdno\\models\\encoders.py": "344824af7c50671daff77984d0c1e0736666c670962db2d4dbf58a0d9ac1424d",
+    "runs\\revision_v2\\src\\pdno\\models\\operators.py": "4576ddf2c2ec49a56443022b12a842f83f0f36d7cfc03b08c08f9d5309aca603",
+    "runs\\revision_v2\\src\\pdno\\models\\policies.py": "6c5cabb7c444fe7f246f805b26cefe8ca68b472d5f7e9f1545a13d7f79d96b23",
+    "runs\\revision_v2\\src\\pdno\\models\\revision_cache.py": "59376f3d4a51a03c30b3063c2e5f289ea09e66f6237b3da0115b1d55d3b148f4",
+    "runs\\revision_v2\\src\\pdno\\physics\\__init__.py": "475f4d687b2b34b0ffaf3633897092b4729eee08eca6f3329505a05340ac49f0",
+    "runs\\revision_v2\\src\\pdno\\physics\\burgers.py": "9497b122e7eb585bd12867adadfb55c6e8c36a29828a79f14717f457eb38e7b0",
+    "runs\\revision_v2\\src\\pdno\\physics\\finite_volume.py": "48116795acecd9a3adfc7e1155670f7efb4c1fce8d2c27f0d6a8cd5a3dfad938",
+    "runs\\revision_v2\\src\\pdno\\physics\\heat.py": "0da5b5df6f811af43ecf54a4347f671945ccaa08a13f35d6adb260f4094e9a6c",
+    "runs\\revision_v2\\src\\pdno\\training\\__init__.py": "56deb9c1ba1c77a92e41910b5475663f6a291093c592bd42d4c3a636d7f7dc7f",
+    "runs\\revision_v2\\src\\pdno\\training\\confirmatory.py": "8dddb65948e9cf698325720a74fda5d2496dfe3f6108b12c66973c55547bcd30",
+    "runs\\revision_v2\\src\\pdno\\training\\fit.py": "d090b9a9dfa21f69fdda3a6cb8c5f58bd8bde419e180a8c59a9662de7ab1eeb6",
+    "runs\\revision_v2\\src\\pdno\\training\\losses.py": "36442d274d2e003abccfa81b89236ec7175ac09b3d9eb8da9beb5de5f16e2336",
+    "experiments\\pdno_jevLite_20260927_v3\\data\\queries_v3\\train\\burgers\\teacher_queries.npz": "3e9b36fdce4ba64ab4aa399b47a1721233e13bd195010148a666873d97491e3d",
+    "relocated_fixture/original_burgers.npz": "4d434ba456a566be2ab1b997e4def141c3b6aef7fe3c97e0cb961c7cfd842930",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_B4_s11.pt": "d2aabd3d018d5429c5ede62fd421f668a030d32e9514b08c092e98e57f7d1b58",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_B4_s11.summary.json": "281b07aeccb237113f1ad8a4774c59985984286b87e9e3e924fd89cb2da3515d",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_B4_s23.pt": "5dfd876e29b07b481eaf586d9eac41f28febbf8a8408773cf482060e3ff205ae",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_B4_s23.summary.json": "7f3814242e16a3d5f51179a55e2a30b0d4ec9a250fadc6f6bb7476011869dc14",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_B4_s37.pt": "59745d335bbf9f3d3c1fa79e2fcb910c07de276a26d07eb68b3535e90ef4b2a7",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_B4_s37.summary.json": "239811f15e4b3ea7072d828712f5b88259099540605c1fda5c8f1ee6873fab98",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_P_s11.pt": "3f54ef6d370199b4f9a717b5ea4635331578b859ef2917aaf394243595096a15",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_P_s11.summary.json": "02b5ee82a71261c95039faff3e940b222418d99fa61f4433a6d8ee7fbe0a64a7",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_P_s23.pt": "47ac605bac7d825e380b06055a5452947177c4f54d40c2d53d82bf8a4b6d144a",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_P_s23.summary.json": "e6e7eaf5660a067a422c5807fac6ebe3668c3b1a99e3c50cd46ea22a980c352e",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_P_s37.pt": "ba85db25d09507c12767ac680875785f8fb52648d7229778b1d630fab182adcd",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_P_s37.summary.json": "ca4606855c61bcfd10fed1667eded4151633a55a8d34fb47d334be829900203f",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s11.pt": "f7dcecf5e66ed90a547f282cd83a25bae1327afab91f2dff185e5b8114a503a9",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s11.summary.json": "38370dda740c69e0c72374a0090bba0b4a0748b7abe03e9538f542e961b682cb",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s23.pt": "3353bb7c3aaf0b286885d7a5cc5933745a092001cfe0542b17b9251184ef534d",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s23.summary.json": "a6fa672a6bcba7fc03fc502ca18f3f31de32e19c32976aafc5b728667fe5b8c3",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s37.pt": "8e8217e8b620bd6c7f9634c382706071275915e265afffe59e782a81afa6b649",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s37.summary.json": "5a606b5ac0b77499a1493ef3e5299cad481e4658720522a8020f6358d7f36c98",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s11.pt": "e13b2955dd6ae617e2b3da408ef50016206a362d14f97aacb056654cd1f8cc9c",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s11.summary.json": "49add17f292ec7a0af0d83e16d941e5351961a0d17c1f7e12b7e3addf5fb1944",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s23.pt": "3f7b1e7cde7a915f6c2482c547c8c18f7dc75cffbd56f1e59501f3e7e636df1d",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s23.summary.json": "e36e08638331c76b75c394e038a4e504fdb6a3881a25e3170f7f7c331d7fe042",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s37.pt": "2c7ac88080fa4411a6eaa4d4bacaa9e6f01331832880f28180fad9353906a9b0",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s37.summary.json": "7884156ab42eeb0ff9d836d3204eca6814193ce71a754b5cb46a5012640d2d3b",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_B4_s11.pt": "5627fd4e3b4152a8603faea0263b8c3e803b6f5387862478260cbe6df0ca8c4c",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_B4_s11.summary.json": "756ca4a215996a3c731caa620343c78df290deef179d91edd6cc49c2c919b4a7",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_B4_s23.pt": "0650a9ce87b2ecc453314e564763bce20d588791ace9e3fa0c0d03df7337a785",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_B4_s23.summary.json": "8d9bc2e502efee875e029812932accd3a175a3680e6b3e0ec9d798231011bf49",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_B4_s37.pt": "495bead1972119493cf2fcd81d0f571477fd895bb431634858cf53fb1bbf5dbe",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_B4_s37.summary.json": "a33aa7506505b054753196c43cb6d024c3a7d3ef6dd14e6e46ffe8affc62bc5d",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_P_s11.pt": "7af6f765b68b075b7699b1bc8c63338a880d1af9e88c6a0ecb1105875a8c8bfe",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_P_s11.summary.json": "aa39842c908ba482925d09a0174260a2a4d6b0b4ce1ebd4a05588d0109ee27f5",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_P_s23.pt": "51df33fb651094b122a51d093f0db42d4258f60e398bdd881e5462296a960180",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_P_s23.summary.json": "1107b37e9c734e3083e34ad7f1f7ec5234daafd64dfd7cb8cfbf38dcbc03f421",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_P_s37.pt": "ba94989c7867251e20404a9cf7ca973354190659c080e69e834fcd8b0ff7a50d",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_P_s37.summary.json": "bb0c72a9d0fa17cc4a64faee6711839d7f4ed02096aa9f8846858949062fd281",
+    "runs\\revision_v2\\checkpoints\\E3\\observer\\burgers_x16_seed7.pt": "2c1aaa956812229b27ceca21f42e61f3b195b216ef81219c4b687bc63b9d3270",
+    "runs\\revision_v2\\checkpoints\\E3\\observer\\burgers_x16_seed7.summary.json": "69f73dbe7336873cc22c5e66a54a89229637cea439d085322489e416e9a6c966",
+    "runs\\revision_v2\\checkpoints\\E3\\observer\\burgers_x1_seed7.pt": "1c35db13a2d0b192723a2b2e68c8f9994caad9f21f69ae39ec4990bc8694ecef",
+    "runs\\revision_v2\\checkpoints\\E3\\observer\\burgers_x1_seed7.summary.json": "be2c27b0cd279e2ccfec099713b73bbf1e679ed790258be41ea360c5d540f8f8",
+    "runs\\revision_v2\\checkpoints\\E3\\observer\\burgers_x4_seed7.pt": "0d84cf1aecd35602985df65018cc7809d43e9661ac637ecaa3e608cb9b7faf67",
+    "runs\\revision_v2\\checkpoints\\E3\\observer\\burgers_x4_seed7.summary.json": "07af52d730ab5e8b92e6e66f3ab5a805714d6a090f4e7c6a9177f335d9cf313b",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\burgers_phys0.01_rank1_s11.pt": "0c786d4bce3c653101f91a72f7a954ad30392eadf0460cf9c12f1dfb81d09c66",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\burgers_phys0.01_rank1_s11.summary.json": "34fad86d990cedada5e3c932a354856f2017d4de0b13a9a794064ada9638a3b0",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\burgers_phys0.1_rank0.1_s11.pt": "e1a7d458abc1e8e63944ecce3dccd51bdf076892e16b59985798d2822f9d7c34",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\burgers_phys0.1_rank0.1_s11.summary.json": "14a7ddaf8ba70b5616f733648de9241ab2184534d629d5335130cb55314ea4fc",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\burgers_phys0.1_rank1_s11.pt": "bafabdea705157b576631a5c7b4d9575c621f3cee8d5c4851289c0730c1383c4",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\burgers_phys0.1_rank1_s11.summary.json": "739c13bb6095cc852ed9181eaf16a154a0a771b32416696637143c8217595cb4",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\burgers_phys1_rank0.1_s11.pt": "76eca9834a5cab257335eb1d0f38b773ffd3223620991dbbe494a2556cbc9e0a",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\burgers_phys1_rank0.1_s11.summary.json": "311278e093ab088ea76869897b3d4cf56ffd1045ad501074defe9a19b822b5e8",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\burgers_phys1_rank1_s11.pt": "712c5ea5b41ecf856722d492e274a9cdfc3aa50850dcde91a60c02d3afcdf19c",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\burgers_phys1_rank1_s11.summary.json": "901ad79783e5e7d610fc14fb4b589f61e33414f2f66bce2d0562c1da98f1a84c",
+    "experiments\\pdno_jevLite_20260927_v3\\data\\queries_v3\\train\\heat\\teacher_queries.npz": "858136df212d5a7df23e607abd58e4f8df39cf7e5e7683e3079b488d8d33f3a4",
+    "relocated_fixture/original_heat.npz": "636b5e57106c541247abd24482060fa27d506410c6c9c8e97f9c83c2116b4f26",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\heat_phys0.01_rank1_s11.pt": "9e3bc722dd236f77414e7c184406b84712466b82d45a93bf0f7370c7b5423383",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\heat_phys0.01_rank1_s11.summary.json": "a82ee02bec8bef401dcbe41479c8a94330206a96854caa66e09c60e179485eb9",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\heat_phys0.1_rank0.1_s11.pt": "1fd39059e90a9de4bb86eb9bba922cc3d03ab72c9774b75a60f65be15d5f9b49",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\heat_phys0.1_rank0.1_s11.summary.json": "79feddb8680cf45453b3278c724a6d3372c442e5136a2e7db971bb1d83c607cb",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\heat_phys0.1_rank1_s11.pt": "5c5f7f5729a15d15cf43076f023f0d07584a6d81936cd370c2390523bf9603e7",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\heat_phys0.1_rank1_s11.summary.json": "715cf596ed888c868f3c460e6d768250d5a5a3992757c90647a2026bb288b2f8",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\heat_phys1_rank0.1_s11.pt": "0a089bb72f8101317e79d4f7e2890d4ab1a7d1e045ec17b86c87a9809c461b84",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\heat_phys1_rank0.1_s11.summary.json": "7b7b81df3b76ce4a7ecb9a0cc72e3a60202dd6c92e01e66493fff07b56663bcf",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\heat_phys1_rank1_s11.pt": "0eaad40c57be9556f340126c934e2b90b7bb4ae8e533ac375a852c6dba82658f",
+    "runs\\revision_v2\\checkpoints\\E4_cuda\\heat_phys1_rank1_s11.summary.json": "768380f3106d3744c37abd3e93edc478cce187cda8de436b9581a120db19e3cb",
+    "runs\\revision_v2\\data\\positive_heat_queries\\train\\heat\\teacher_queries.npz": "8bbd90d5c430a5b292b0b07e6cb515899ce169613ce5fd7da9fdce5063772dd4",
+    "relocated_fixture/new_heat_heat.npz": "62bd2a6a3890dafa42ce91e0cd14f43fdbe8d1b7eec0fce2ecdead80459c83f8",
+    "runs\\revision_v2\\checkpoints\\E5\\B2_s11.pt": "61f60d6ee5da71c0e3490d06c216a4bd5821245c76cea26726fa21d7262be175",
+    "runs\\revision_v2\\checkpoints\\E5\\B2_s11.summary.json": "ea9e316b2dc521b088941f1326c8bbc74068c97b568f479b6267f2a59eee1eee",
+    "runs\\revision_v2\\checkpoints\\E5\\B2_s23.pt": "fdd610fbc34359cac01b1d0a16818fabf0727dbde41c46cc25457f36076b260d",
+    "runs\\revision_v2\\checkpoints\\E5\\B2_s23.summary.json": "3cf45457ac61a8411f0b46b2d009e8dbe5996c650021a69e41d2f9f5d7ec7d5d",
+    "runs\\revision_v2\\checkpoints\\E5\\B2_s37.pt": "18828fe906d01888ba828782fd8720429983d982476c88e7135dd6d57628b1d8",
+    "runs\\revision_v2\\checkpoints\\E5\\B2_s37.summary.json": "ad7380cff137b97384c4bff084f1af780972809a397ff50c582e9c4de008fa98",
+    "runs\\revision_v2\\checkpoints\\E5\\B3_s11.pt": "a97fa0bd9cd3629cd0601e3a3c820ca6c604d29f4da85ad9256e5604021ff18d",
+    "runs\\revision_v2\\checkpoints\\E5\\B3_s11.summary.json": "ae2eb79563ebfaa4719a32420370f624fb5a20e6cec7422e8530e572a0e7c97c",
+    "runs\\revision_v2\\checkpoints\\E5\\B3_s23.pt": "36a31d49f440669d1cd71c268b9922b6bed33b8c68b823090d0de2d3ba2ff8a1",
+    "runs\\revision_v2\\checkpoints\\E5\\B3_s23.summary.json": "4579383a14031242bd95b663930703dd2a116b064b7aee75b532087602c0aa9d",
+    "runs\\revision_v2\\checkpoints\\E5\\B3_s37.pt": "20ebf928d90b27a5b59509f44f9413348a095c848fd61bda4660378dc0d06d56",
+    "runs\\revision_v2\\checkpoints\\E5\\B3_s37.summary.json": "ba56bc5cef1b8b26f4afcc0b77116a08a2adb9193f802307e3ec4fd3e962065f",
+    "runs\\revision_v2\\checkpoints\\E5\\B4_s11.pt": "cdadcf6ba3fa0a34afa4575f8780eaba2eecfd501890cd8fc0d4fb90ea328b46",
+    "runs\\revision_v2\\checkpoints\\E5\\B4_s11.summary.json": "e20f2853baed2a97cf8e43cbd0cccf4632c673d326ec05a4f818f74971eedccc",
+    "runs\\revision_v2\\checkpoints\\E5\\B4_s23.pt": "e0df5dca7e5aef6ef1fa22f20d6f9be6b6be97bb50feeee713405f8a18436a46",
+    "runs\\revision_v2\\checkpoints\\E5\\B4_s23.summary.json": "fb5c9af7f34d6b01e6d2a5af9eb2e7af86e9657f71923e909317eb19fc090c03",
+    "runs\\revision_v2\\checkpoints\\E5\\B4_s37.pt": "b8735b61c205f1d187ee2ebde9bcbbf78e154ec6fffd6694a9464773f7a075d5",
+    "runs\\revision_v2\\checkpoints\\E5\\B4_s37.summary.json": "105d31c6f05e53d720fb570536a66ee2954d8353c16df1f10ae34dbaf2532e8e",
+    "runs\\revision_v2\\checkpoints\\E5\\B5_s11.pt": "12697767856b6a04e53ec20fde3c05876f91f4d3f3bd0e08fa720464a7ca6ac8",
+    "runs\\revision_v2\\checkpoints\\E5\\B5_s11.summary.json": "90fbb24a93fb261ea84b025bca0bc52b82778c3fc2444bf25db85d15e082e299",
+    "runs\\revision_v2\\checkpoints\\E5\\B5_s23.pt": "658e3244891117f26eb4b9162562be41e3f79be816d6c70d7f67cf34dbefac76",
+    "runs\\revision_v2\\checkpoints\\E5\\B5_s23.summary.json": "37783b2375147339fe016b2b4635b241030f9e7278840ef99ec892b0a8fb6f55",
+    "runs\\revision_v2\\checkpoints\\E5\\B5_s37.pt": "d876ebd6d7b3fe24275e442133f2ad4b748362fb42e1e5236cbceb8e55333b0f",
+    "runs\\revision_v2\\checkpoints\\E5\\B5_s37.summary.json": "f72a1ae1b1b807c96e10604b3ace3462e02c086fd883b6f5a059dc93d02d4d0b",
+    "runs\\revision_v2\\checkpoints\\E5\\observer\\heat_seed7.pt": "3a4881daca641ccc0dac554d61289d47d970b6a7331dc2ccc88a6e6e3c4dc748",
+    "runs\\revision_v2\\checkpoints\\E5\\observer\\heat_seed7.summary.json": "08e3f2fd8832bcd52f619ead565077c5ed11ef37d118556739d047cf5aeb743f",
+    "runs\\revision_v2\\checkpoints\\E5\\P-no-rank_s11.pt": "c9da22166f447a9971dec43a06ef324f66264468d8d6daa82965ead0aef45c13",
+    "runs\\revision_v2\\checkpoints\\E5\\P-no-rank_s11.summary.json": "9e60c89fd50f5937d21a1bffbf28cd36b222cb4cb905a5f8fea75d9203241846",
+    "runs\\revision_v2\\checkpoints\\E5\\P-no-rank_s23.pt": "51586832002d707d1cd956cf6c62d6988a7a3472186bfe3fea418b9c451fb7e1",
+    "runs\\revision_v2\\checkpoints\\E5\\P-no-rank_s23.summary.json": "71cb6774fc8de10983446f2b42a407371218b018b493c09125d9495b1fc538a2",
+    "runs\\revision_v2\\checkpoints\\E5\\P-no-rank_s37.pt": "16333070d2e091a6af33181c9c8203b9d20ea9faa88ca78ca2b405c8c36e482a",
+    "runs\\revision_v2\\checkpoints\\E5\\P-no-rank_s37.summary.json": "6414db928ed5355448b12d169c280a05228531cfc6bf899484215f300000fcd4",
+    "runs\\revision_v2\\checkpoints\\E5\\P_s11.pt": "442090f3dac69036a029212ad64de5bae6ef6b01ac0745cf0a8a52ad68777626",
+    "runs\\revision_v2\\checkpoints\\E5\\P_s11.summary.json": "ae33e91363e3e576efb05c3cca1707030772a3a5e8f82e10b840f391719a8456",
+    "runs\\revision_v2\\checkpoints\\E5\\P_s23.pt": "5dd4372da1081eba71fc1a161b79cd055e18c5b6420da2d0d6d3f738f2a484dc",
+    "runs\\revision_v2\\checkpoints\\E5\\P_s23.summary.json": "c62ab46288dd09bbf20622d51ea747d69b18f29c387ab700a80613d1d4ae3f46",
+    "runs\\revision_v2\\checkpoints\\E5\\P_s37.pt": "4dd873fc99864dbde4fe4f5a0ee74e5b021101b8506d61bbc2f6a02f5b5f8066",
+    "runs\\revision_v2\\checkpoints\\E5\\P_s37.summary.json": "ee1e8c442ce32929f01e5a4146bedb74a468177a0be4c7d466037a80bd87b156"
+  },
+  "test_sha256": "3c216b4a5aede8da314f09bbd25c0df1cf31c230aa23b529be28101e1d941ab4",
+  "rows": [
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "B4",
+      "seed": 11,
+      "selected_update": 14500,
+      "weight": "00_E3_burgers_x16_B4_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_B4_s11.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "d8aafa6eeceb60b57a4fc90ce95bc66cb2641bc8bb1826aec1df019ea062bc93"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "B4",
+      "seed": 23,
+      "selected_update": 15000,
+      "weight": "01_E3_burgers_x16_B4_s23.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_B4_s23.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "7f720e7ac87bec32725a6fb0346ef021469bcc9fb3720b71c4173ffef100a56c"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "B4",
+      "seed": 37,
+      "selected_update": 15500,
+      "weight": "02_E3_burgers_x16_B4_s37.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_B4_s37.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "ab6a0813aa474a754d60111992421aa04e5ab8d7f38fb04b80f9404f293cd2da"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "P",
+      "seed": 11,
+      "selected_update": 14500,
+      "weight": "03_E3_burgers_x16_P_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_P_s11.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "d255b4e0d008615f85a5ad3312ed0ad32cfab0f04ec56ebfbfbf5164e46332ed"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "P",
+      "seed": 23,
+      "selected_update": 15500,
+      "weight": "04_E3_burgers_x16_P_s23.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_P_s23.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "729da7a8c67c59a2d49253b12b5d3482770a6305e670caa8c5d046ec22fc5a88"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "P",
+      "seed": 37,
+      "selected_update": 16000,
+      "weight": "05_E3_burgers_x16_P_s37.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_P_s37.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "fc2ea5d30fcebe106571b71faa7320fdd24d3864c99645ba41094de32263a08e"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "B4",
+      "seed": 11,
+      "selected_update": 18500,
+      "weight": "06_E3_burgers_x1_B4_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s11.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "e3fc93944e54013172688a7779ebee79466b6a5fe49f24ef5f2069a9de04a31c"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "B4",
+      "seed": 23,
+      "selected_update": 15000,
+      "weight": "07_E3_burgers_x1_B4_s23.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s23.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "7caba52c75f8292c5222197d1f39cda65107228852d264b59e19356825c12597"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "B4",
+      "seed": 37,
+      "selected_update": 14500,
+      "weight": "08_E3_burgers_x1_B4_s37.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s37.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "6b7132e60a96b6cc36263f922b0f671f06999e9efc088a5c6926e3d07d3d07fc"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "P",
+      "seed": 11,
+      "selected_update": 11500,
+      "weight": "09_E3_burgers_x1_P_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s11.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "f635a1bac8a9a0d6707d97643f4597f0dd277797773c53fedc2d7e9d1bd41dc2"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "P",
+      "seed": 23,
+      "selected_update": 14000,
+      "weight": "10_E3_burgers_x1_P_s23.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s23.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "38392c9f398f7a0f8bf9ce07f63bf3e8fae45d9c3ad26bc0a580c16a7a8b28e3"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "P",
+      "seed": 37,
+      "selected_update": 17500,
+      "weight": "11_E3_burgers_x1_P_s37.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s37.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "8efe8838191e8718d3d0958a7b2a25914cc83bd5d1142b0cd22db28396bfe9e3"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "B4",
+      "seed": 11,
+      "selected_update": 14500,
+      "weight": "12_E3_burgers_x4_B4_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_B4_s11.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "a9b9e639aafc654a26705ab2cf30550719cc5fa854487a980b7b6a28089a8a8f"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "B4",
+      "seed": 23,
+      "selected_update": 19000,
+      "weight": "13_E3_burgers_x4_B4_s23.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_B4_s23.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "61c60776c0e5112eb766fbbc3412c21f134820d672fdeb702827f9a595fccd51"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "B4",
+      "seed": 37,
+      "selected_update": 19500,
+      "weight": "14_E3_burgers_x4_B4_s37.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_B4_s37.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "67ff7fefb4983b479880723acbbf7d24a5479e08eec9ca6aa5b65d2862cf4248"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "P",
+      "seed": 11,
+      "selected_update": 14500,
+      "weight": "15_E3_burgers_x4_P_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_P_s11.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "ab6f568d6a1acca9a6dce46322d4d5acf404e8a5f39e20a57aa940f3af21d238"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "P",
+      "seed": 23,
+      "selected_update": 15500,
+      "weight": "16_E3_burgers_x4_P_s23.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_P_s23.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "5786e2d6af628caac614d041fe78cc5ffedd194689b715c317a3497dce8c8a01"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "P",
+      "seed": 37,
+      "selected_update": 15000,
+      "weight": "17_E3_burgers_x4_P_s37.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_P_s37.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "2ee03b59e7f423fee4796eda851b04075b3074c814c39e5b03891dc7180d83fd"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "observer",
+      "seed": 7,
+      "selected_update": 3300,
+      "weight": "18_E3_burgers_x16_seed7.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\observer\\burgers_x16_seed7.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        128
+      ],
+      "output_sha256": "84426fd552d93cb1756a6fb55b0bf460ca91ee3c3be414aae9a0a68cfd64995f"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "observer",
+      "seed": 7,
+      "selected_update": 4000,
+      "weight": "19_E3_burgers_x1_seed7.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\observer\\burgers_x1_seed7.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        128
+      ],
+      "output_sha256": "8eb2092fd1e423824d910b7352a1e6253cbfad513bb49b79a172885b9c57bd12"
+    },
+    {
+      "stage": "E3",
+      "pde": "burgers",
+      "method": "observer",
+      "seed": 7,
+      "selected_update": 3400,
+      "weight": "20_E3_burgers_x4_seed7.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E3\\observer\\burgers_x4_seed7.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        128
+      ],
+      "output_sha256": "86009c1565088c6cd9acd082d0b8fe2cfe408ba59a8887f4ef5f10a77bce9702"
+    },
+    {
+      "stage": "E4",
+      "pde": "burgers",
+      "method": "P",
+      "seed": 11,
+      "selected_update": 5000,
+      "weight": "21_E4_burgers_phys0.01_rank1_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E4_cuda\\burgers_phys0.01_rank1_s11.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "704feae154a0a1fc25458ad85a21cd61bac64fcad4d510694ce9e22cbaf70707"
+    },
+    {
+      "stage": "E4",
+      "pde": "burgers",
+      "method": "P",
+      "seed": 11,
+      "selected_update": 5000,
+      "weight": "22_E4_burgers_phys0.1_rank0.1_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E4_cuda\\burgers_phys0.1_rank0.1_s11.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "5e04cc5a24b2f7c97911f43b959017efb3c2beb8ce47755b742df1227d5c9822"
+    },
+    {
+      "stage": "E4",
+      "pde": "burgers",
+      "method": "P",
+      "seed": 11,
+      "selected_update": 5000,
+      "weight": "23_E4_burgers_phys0.1_rank1_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E4_cuda\\burgers_phys0.1_rank1_s11.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "63d836b5c5101c266c788553e06c00d3da6602290f8fb6146c8b341e83a006bc"
+    },
+    {
+      "stage": "E4",
+      "pde": "burgers",
+      "method": "P",
+      "seed": 11,
+      "selected_update": 5000,
+      "weight": "24_E4_burgers_phys1_rank0.1_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E4_cuda\\burgers_phys1_rank0.1_s11.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "8ba254871a244cf0e5b7b2cd2d6882a33f99d7992f7ccfe33cd5f3b53aaa198e"
+    },
+    {
+      "stage": "E4",
+      "pde": "burgers",
+      "method": "P",
+      "seed": 11,
+      "selected_update": 5000,
+      "weight": "25_E4_burgers_phys1_rank1_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E4_cuda\\burgers_phys1_rank1_s11.pt",
+      "fixture": "original_burgers.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "ef47ee0e76cda95a9c551750ee97d7a42fbbe9b69024a5c8a68e6fef010529a8"
+    },
+    {
+      "stage": "E4",
+      "pde": "heat",
+      "method": "P",
+      "seed": 11,
+      "selected_update": 5000,
+      "weight": "26_E4_heat_phys0.01_rank1_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E4_cuda\\heat_phys0.01_rank1_s11.pt",
+      "fixture": "original_heat.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "dc4f6edbffcec159899c8c8b957912b490fcd4e059f3e4120d0e40e295a78451"
+    },
+    {
+      "stage": "E4",
+      "pde": "heat",
+      "method": "P",
+      "seed": 11,
+      "selected_update": 5000,
+      "weight": "27_E4_heat_phys0.1_rank0.1_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E4_cuda\\heat_phys0.1_rank0.1_s11.pt",
+      "fixture": "original_heat.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "bee4d8e4b7cd9faf0249072e0857b34ddab4ddbd831b255fac760c7bcd4e03e9"
+    },
+    {
+      "stage": "E4",
+      "pde": "heat",
+      "method": "P",
+      "seed": 11,
+      "selected_update": 5000,
+      "weight": "28_E4_heat_phys0.1_rank1_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E4_cuda\\heat_phys0.1_rank1_s11.pt",
+      "fixture": "original_heat.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "a727461f37df035c25adbd7399092c6f10cb1af9b9788d33411a62566d87a592"
+    },
+    {
+      "stage": "E4",
+      "pde": "heat",
+      "method": "P",
+      "seed": 11,
+      "selected_update": 5000,
+      "weight": "29_E4_heat_phys1_rank0.1_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E4_cuda\\heat_phys1_rank0.1_s11.pt",
+      "fixture": "original_heat.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "45225e8a6f5027c64353fbb4076aa0351a22732f135a279ba97596d2e95d5fa4"
+    },
+    {
+      "stage": "E4",
+      "pde": "heat",
+      "method": "P",
+      "seed": 11,
+      "selected_update": 5000,
+      "weight": "30_E4_heat_phys1_rank1_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E4_cuda\\heat_phys1_rank1_s11.pt",
+      "fixture": "original_heat.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "50c670cb38840d7a984ba197fe649959cf566c77c5c5717794bfef789a05cd14"
+    },
+    {
+      "stage": "E5",
+      "pde": "heat",
+      "method": "B2",
+      "seed": 11,
+      "selected_update": 2500,
+      "weight": "31_E5_B2_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E5\\B2_s11.pt",
+      "fixture": "new_heat_heat.npz",
+      "shape": [
+        1,
+        2
+      ],
+      "output_sha256": "d5eaa986b58a836569b1fdf6e168a1c4a566680d087b032f7ecd6efb122a0972"
+    },
+    {
+      "stage": "E5",
+      "pde": "heat",
+      "method": "B2",
+      "seed": 23,
+      "selected_update": 3000,
+      "weight": "32_E5_B2_s23.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E5\\B2_s23.pt",
+      "fixture": "new_heat_heat.npz",
+      "shape": [
+        1,
+        2
+      ],
+      "output_sha256": "f970df55cf055bfee9ead95825cc92e7528ac9d31966c3bb0b4c03cf56b84e84"
+    },
+    {
+      "stage": "E5",
+      "pde": "heat",
+      "method": "B2",
+      "seed": 37,
+      "selected_update": 3000,
+      "weight": "33_E5_B2_s37.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E5\\B2_s37.pt",
+      "fixture": "new_heat_heat.npz",
+      "shape": [
+        1,
+        2
+      ],
+      "output_sha256": "923c0f60337837fcedd2b0eeb5aa3f2e0bf1212d848bb337679d8c6bd74299d1"
+    },
+    {
+      "stage": "E5",
+      "pde": "heat",
+      "method": "B3",
+      "seed": 11,
+      "selected_update": 1000,
+      "weight": "34_E5_B3_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E5\\B3_s11.pt",
+      "fixture": "new_heat_heat.npz",
+      "shape": [
+        1,
+        2
+      ],
+      "output_sha256": "dee9f38254cc59f7aaf27635d3cbebe3c245568465b5090050496c6db62723bb"
+    },
+    {
+      "stage": "E5",
+      "pde": "heat",
+      "method": "B3",
+      "seed": 23,
+      "selected_update": 1000,
+      "weight": "35_E5_B3_s23.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E5\\B3_s23.pt",
+      "fixture": "new_heat_heat.npz",
+      "shape": [
+        1,
+        2
+      ],
+      "output_sha256": "ffcbe5d6b8080be6568a3d98d9a074869ec8de3c279d2e7f13c47afaf0ef782e"
+    },
+    {
+      "stage": "E5",
+      "pde": "heat",
+      "method": "B3",
+      "seed": 37,
+      "selected_update": 1000,
+      "weight": "36_E5_B3_s37.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E5\\B3_s37.pt",
+      "fixture": "new_heat_heat.npz",
+      "shape": [
+        1,
+        2
+      ],
+      "output_sha256": "5750d11975dd5f116a2e378807242b83e6f643ce474618cfb1b1511f9baeaad5"
+    },
+    {
+      "stage": "E5",
+      "pde": "heat",
+      "method": "B4",
+      "seed": 11,
+      "selected_update": 5000,
+      "weight": "37_E5_B4_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E5\\B4_s11.pt",
+      "fixture": "new_heat_heat.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "1899c9d102f77f5adc330ce627329614d68aef5f19d3ccfb2078199e7114654b"
+    },
+    {
+      "stage": "E5",
+      "pde": "heat",
+      "method": "B4",
+      "seed": 23,
+      "selected_update": 5000,
+      "weight": "38_E5_B4_s23.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E5\\B4_s23.pt",
+      "fixture": "new_heat_heat.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "3d76c420c720246b9ebd71715bd580d18f05e0c4ab94c806083ce874b97eda13"
+    },
+    {
+      "stage": "E5",
+      "pde": "heat",
+      "method": "B4",
+      "seed": 37,
+      "selected_update": 5000,
+      "weight": "39_E5_B4_s37.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E5\\B4_s37.pt",
+      "fixture": "new_heat_heat.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "79079a4c1b5d1b44815c90eeb382da05847b34a9a872f06f2ecfcd5d8a178fb1"
+    },
+    {
+      "stage": "E5",
+      "pde": "heat",
+      "method": "B5",
+      "seed": 11,
+      "selected_update": 5000,
+      "weight": "40_E5_B5_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E5\\B5_s11.pt",
+      "fixture": "new_heat_heat.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "61c977777dbd79ffb48d7a273d4e3f499537c716c83191f21f807c61ca559395"
+    },
+    {
+      "stage": "E5",
+      "pde": "heat",
+      "method": "B5",
+      "seed": 23,
+      "selected_update": 5000,
+      "weight": "41_E5_B5_s23.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E5\\B5_s23.pt",
+      "fixture": "new_heat_heat.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "f3da6e30395949b5b9b6d46e215286872026a5d09307e293ed54415eb0b7b55c"
+    },
+    {
+      "stage": "E5",
+      "pde": "heat",
+      "method": "B5",
+      "seed": 37,
+      "selected_update": 5000,
+      "weight": "42_E5_B5_s37.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E5\\B5_s37.pt",
+      "fixture": "new_heat_heat.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "760cf91a72496dfa0ca094a3c1c215b0f6db5128547ed6b9966747682b41049a"
+    },
+    {
+      "stage": "E5",
+      "pde": "heat",
+      "method": "observer",
+      "seed": 7,
+      "selected_update": 1000,
+      "weight": "43_E5_heat_seed7.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E5\\observer\\heat_seed7.pt",
+      "fixture": "new_heat_heat.npz",
+      "shape": [
+        1,
+        128
+      ],
+      "output_sha256": "8835219c09123a8d40e0da9d40a06182acca9c3e6c0b9afcdca297203448fce0"
+    },
+    {
+      "stage": "E5",
+      "pde": "heat",
+      "method": "P-no-rank",
+      "seed": 11,
+      "selected_update": 5000,
+      "weight": "44_E5_P-no-rank_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E5\\P-no-rank_s11.pt",
+      "fixture": "new_heat_heat.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "11ed4bcf02003b2ac9f2f7db126899b0e6b7f0944355dbe43db91b362f2713d4"
+    },
+    {
+      "stage": "E5",
+      "pde": "heat",
+      "method": "P-no-rank",
+      "seed": 23,
+      "selected_update": 5000,
+      "weight": "45_E5_P-no-rank_s23.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E5\\P-no-rank_s23.pt",
+      "fixture": "new_heat_heat.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "9eaf6ec8abf1ecd2d2d8808e12a6237f2d0886d5fe7d93c1f7c19b770972a692"
+    },
+    {
+      "stage": "E5",
+      "pde": "heat",
+      "method": "P-no-rank",
+      "seed": 37,
+      "selected_update": 5000,
+      "weight": "46_E5_P-no-rank_s37.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E5\\P-no-rank_s37.pt",
+      "fixture": "new_heat_heat.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "3e0427eaee95465c152e85838cb4d36899691aeb798ccbfc82419978f34486b0"
+    },
+    {
+      "stage": "E5",
+      "pde": "heat",
+      "method": "P",
+      "seed": 11,
+      "selected_update": 5000,
+      "weight": "47_E5_P_s11.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E5\\P_s11.pt",
+      "fixture": "new_heat_heat.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "247ce8c8a062ffa6640b0be89b3df1b93da6e54632c44fd453cd1dd23f36f324"
+    },
+    {
+      "stage": "E5",
+      "pde": "heat",
+      "method": "P",
+      "seed": 23,
+      "selected_update": 5000,
+      "weight": "48_E5_P_s23.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E5\\P_s23.pt",
+      "fixture": "new_heat_heat.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "f0253d00b40c1dbfa328f0876414c294da87a8ec7e5255d62b3b63fc885a7ef7"
+    },
+    {
+      "stage": "E5",
+      "pde": "heat",
+      "method": "P",
+      "seed": 37,
+      "selected_update": 5000,
+      "weight": "49_E5_P_s37.pt",
+      "source": "runs\\revision_v2\\checkpoints\\E5\\P_s37.pt",
+      "fixture": "new_heat_heat.npz",
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "d3f1b8fa44d54a85df74c0d38a42a7deeb73fdc848033e3e2b4b18ecd05ef3c7"
+    }
+  ],
+  "checkpoint_reads": [
+    "00_E3_burgers_x16_B4_s11.pt",
+    "01_E3_burgers_x16_B4_s23.pt",
+    "02_E3_burgers_x16_B4_s37.pt",
+    "03_E3_burgers_x16_P_s11.pt",
+    "04_E3_burgers_x16_P_s23.pt",
+    "05_E3_burgers_x16_P_s37.pt",
+    "06_E3_burgers_x1_B4_s11.pt",
+    "07_E3_burgers_x1_B4_s23.pt",
+    "08_E3_burgers_x1_B4_s37.pt",
+    "09_E3_burgers_x1_P_s11.pt",
+    "10_E3_burgers_x1_P_s23.pt",
+    "11_E3_burgers_x1_P_s37.pt",
+    "12_E3_burgers_x4_B4_s11.pt",
+    "13_E3_burgers_x4_B4_s23.pt",
+    "14_E3_burgers_x4_B4_s37.pt",
+    "15_E3_burgers_x4_P_s11.pt",
+    "16_E3_burgers_x4_P_s23.pt",
+    "17_E3_burgers_x4_P_s37.pt",
+    "18_E3_burgers_x16_seed7.pt",
+    "19_E3_burgers_x1_seed7.pt",
+    "20_E3_burgers_x4_seed7.pt",
+    "21_E4_burgers_phys0.01_rank1_s11.pt",
+    "22_E4_burgers_phys0.1_rank0.1_s11.pt",
+    "23_E4_burgers_phys0.1_rank1_s11.pt",
+    "24_E4_burgers_phys1_rank0.1_s11.pt",
+    "25_E4_burgers_phys1_rank1_s11.pt",
+    "26_E4_heat_phys0.01_rank1_s11.pt",
+    "27_E4_heat_phys0.1_rank0.1_s11.pt",
+    "28_E4_heat_phys0.1_rank1_s11.pt",
+    "29_E4_heat_phys1_rank0.1_s11.pt",
+    "30_E4_heat_phys1_rank1_s11.pt",
+    "31_E5_B2_s11.pt",
+    "32_E5_B2_s23.pt",
+    "33_E5_B2_s37.pt",
+    "34_E5_B3_s11.pt",
+    "35_E5_B3_s23.pt",
+    "36_E5_B3_s37.pt",
+    "37_E5_B4_s11.pt",
+    "38_E5_B4_s23.pt",
+    "39_E5_B4_s37.pt",
+    "40_E5_B5_s11.pt",
+    "41_E5_B5_s23.pt",
+    "42_E5_B5_s37.pt",
+    "43_E5_heat_seed7.pt",
+    "44_E5_P-no-rank_s11.pt",
+    "45_E5_P-no-rank_s23.pt",
+    "46_E5_P-no-rank_s37.pt",
+    "47_E5_P_s11.pt",
+    "48_E5_P_s23.pt",
+    "49_E5_P_s37.pt"
+  ],
+  "gpu_operations": 0,
+  "limits": "One training-observation forward pass per selected model using relocated code and weights. No closed-loop evaluation, GPU performance, full fresh-install or downloaded-archive certification."
+}

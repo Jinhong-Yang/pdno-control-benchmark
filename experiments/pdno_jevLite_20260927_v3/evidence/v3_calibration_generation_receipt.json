@@ -1,0 +1,44 @@
+{
+  "outer_ticks": 200,
+  "parent_manifest_sha256": "06b1fedff7e30849831c09de92749311ca8a388606200a8e99806a760d2f5bfd",
+  "roles": [
+    {
+      "elapsed_seconds": 89.00220869999612,
+      "fields_shape": [
+        64,
+        201,
+        256
+      ],
+      "file": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\data\\calibration_v3\\calibration\\burgers\\trajectories.npz",
+      "generator_version": "causal-observation-v5-200tick-locked-balanced-roles",
+      "observation_mapping_version": 2,
+      "outer_ticks": 200,
+      "parent_count": 64,
+      "pde": "burgers",
+      "role_assignment": "frozen manifest order; OOD low/high and heat step/no-step alternate exactly by role index",
+      "seconds_per_parent": 1.3906595109374393,
+      "split": "calibration",
+      "targets_generated": true
+    },
+    {
+      "elapsed_seconds": 2.9557002000219654,
+      "fields_shape": [
+        64,
+        201,
+        256
+      ],
+      "file": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\data\\calibration_v3\\calibration\\heat\\trajectories.npz",
+      "generator_version": "causal-observation-v5-200tick-locked-balanced-roles",
+      "observation_mapping_version": 2,
+      "outer_ticks": 200,
+      "parent_count": 64,
+      "pde": "heat",
+      "role_assignment": "frozen manifest order; OOD low/high and heat step/no-step alternate exactly by role index",
+      "seconds_per_parent": 0.04618281562534321,
+      "split": "calibration",
+      "targets_generated": true
+    }
+  ],
+  "status": "V3_CALIBRATION_TRAJECTORIES_GENERATED_TEST_SEALED",
+  "test_opened": false
+}

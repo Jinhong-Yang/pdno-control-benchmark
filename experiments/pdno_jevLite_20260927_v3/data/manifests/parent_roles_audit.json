@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "errors": [],
+  "pdes": {
+    "burgers": {
+      "parent_count": 1280,
+      "role_counts": {
+        "train": 512,
+        "validation": 64,
+        "calibration": 64,
+        "locked_nominal": 384,
+        "locked_coefficient_ood": 128,
+        "locked_delay_dropout": 128
+      },
+      "unique_parent_ids": 1280
+    },
+    "heat": {
+      "parent_count": 1024,
+      "role_counts": {
+        "train": 256,
+        "validation": 64,
+        "calibration": 64,
+        "locked_nominal": 384,
+        "locked_coefficient_ood": 128,
+        "locked_delay_dropout": 128
+      },
+      "unique_parent_ids": 1024
+    }
+  },
+  "test_opened": false
+}

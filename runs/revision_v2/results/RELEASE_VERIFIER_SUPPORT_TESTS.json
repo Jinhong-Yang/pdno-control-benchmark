@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "matching payload passes",
+    "same-size tamper detected",
+    "missing payload detected",
+    "unsafe path rejected: ../outside.bin",
+    "unsafe path rejected: /absolute.bin",
+    "unsafe path rejected: C:/outside.bin",
+    "unsafe path rejected: folder\\file.bin",
+    "incomplete inventory rejected"
+  ],
+  "scope": "Tiny integrity fixtures only; final archive download and full hash validation remain pending."
+}

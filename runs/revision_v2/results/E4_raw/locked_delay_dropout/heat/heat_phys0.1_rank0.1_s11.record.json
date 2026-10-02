@@ -1,0 +1,16 @@
+{
+  "stage": "E4",
+  "pde": "heat",
+  "method": "P",
+  "seed": 11,
+  "label": "heat_phys0.1_rank0.1_s11",
+  "role": "locked_delay_dropout",
+  "parents": 128,
+  "sha256": "14801a0ef7b3734f9008b59e2ac1670179c4b2b88dc80da31f18b1bb77af50aa",
+  "input_sha256": "82ac8ace2e11a9f6b7c17f8899135a581531700485c2746a9254e47d5b4c0769",
+  "checkpoint_sha256": "1fd39059e90a9de4bb86eb9bba922cc3d03ab72c9774b75a60f65be15d5f9b49",
+  "elapsed_s": 863.6034443000099,
+  "post_hoc_original_parents": true,
+  "latency_measurement": false,
+  "mean_cost": 14.398887179226314
+}

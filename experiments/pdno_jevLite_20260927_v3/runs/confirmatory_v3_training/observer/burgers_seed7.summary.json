@@ -1,0 +1,82 @@
+{
+  "method": "observer",
+  "pde": "burgers",
+  "seed": 7,
+  "updates": 1000,
+  "best_step": 1000,
+  "best_validation_nrmse": 0.09369105100631714,
+  "elapsed_seconds": 9.415268600016134,
+  "history": [
+    {
+      "step": 100,
+      "validation_nrmse": 0.19731485843658447,
+      "train_normalized_loss": 0.013684856705367565,
+      "train_initial_field_loss": 0.004896733909845352,
+      "train_sensor_consistency_loss": 0.008788122795522213
+    },
+    {
+      "step": 200,
+      "validation_nrmse": 0.14513400197029114,
+      "train_normalized_loss": 0.014109421521425247,
+      "train_initial_field_loss": 0.005027001723647118,
+      "train_sensor_consistency_loss": 0.00908241979777813
+    },
+    {
+      "step": 300,
+      "validation_nrmse": 0.12293244898319244,
+      "train_normalized_loss": 0.01155215036123991,
+      "train_initial_field_loss": 0.003350395942106843,
+      "train_sensor_consistency_loss": 0.00820175465196371
+    },
+    {
+      "step": 400,
+      "validation_nrmse": 0.11519984900951385,
+      "train_normalized_loss": 0.008107729256153107,
+      "train_initial_field_loss": 0.0021203598007559776,
+      "train_sensor_consistency_loss": 0.005987368989735842
+    },
+    {
+      "step": 500,
+      "validation_nrmse": 0.10369203239679337,
+      "train_normalized_loss": 0.007782230153679848,
+      "train_initial_field_loss": 0.0020608326885849237,
+      "train_sensor_consistency_loss": 0.005721397697925568
+    },
+    {
+      "step": 600,
+      "validation_nrmse": 0.10031261295080185,
+      "train_normalized_loss": 0.00724510895088315,
+      "train_initial_field_loss": 0.0017585428431630135,
+      "train_sensor_consistency_loss": 0.005486566107720137
+    },
+    {
+      "step": 700,
+      "validation_nrmse": 0.09660159796476364,
+      "train_normalized_loss": 0.0063489219173789024,
+      "train_initial_field_loss": 0.0013000156031921506,
+      "train_sensor_consistency_loss": 0.005048906430602074
+    },
+    {
+      "step": 800,
+      "validation_nrmse": 0.09501387178897858,
+      "train_normalized_loss": 0.0060416837222874165,
+      "train_initial_field_loss": 0.0011998697882518172,
+      "train_sensor_consistency_loss": 0.004841813817620277
+    },
+    {
+      "step": 900,
+      "validation_nrmse": 0.09407804906368256,
+      "train_normalized_loss": 0.006481533404439688,
+      "train_initial_field_loss": 0.0012195586459711194,
+      "train_sensor_consistency_loss": 0.00526197487488389
+    },
+    {
+      "step": 1000,
+      "validation_nrmse": 0.09369105100631714,
+      "train_normalized_loss": 0.0053707025945186615,
+      "train_initial_field_loss": 0.0010691497009247541,
+      "train_sensor_consistency_loss": 0.004301552660763264
+    }
+  ],
+  "checkpoint": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\observer\\burgers_seed7.pt"
+}

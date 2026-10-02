@@ -1,0 +1,35 @@
+{
+  "recorded_utc": "2026-10-02T02:34:48.951+00:00",
+  "capture_phase": "E2 session3, after342 of360conditions; read-only snapshot, not pre-run state",
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 5080",
+    "pstate": "P1",
+    "temperature_celsius": 47,
+    "gpu_utilization_percent": 27,
+    "memory_utilization_percent": 0,
+    "power_watts": 52.9,
+    "graphics_clock_mhz": 2865,
+    "memory_clock_mhz": 14801,
+    "memory_used_mib": 1378
+  },
+  "python_processes": [
+    {
+      "pid": 27556,
+      "role": "revision supervisor venv wrapper"
+    },
+    {
+      "pid": 18576,
+      "role": "revision supervisor actual interpreter"
+    },
+    {
+      "pid": 10876,
+      "role": "E2 worker venv wrapper"
+    },
+    {
+      "pid": 2948,
+      "role": "E2 worker actual interpreter"
+    }
+  ],
+  "observation": "Recent session3 metadata includes larger p99 values. This snapshot does not identify their cause or time-localize power-state transitions. Earlier snapshot was P3; this snapshot is P1. Neither constitutes a controlled comparison.",
+  "action": "No data exclusion, restart, clock change, process termination or new GPU workload. Preserve every observation and inspect full seed/session distributions."
+}

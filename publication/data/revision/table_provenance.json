@@ -1,0 +1,174 @@
+[
+  {
+    "table": "tables\\revision_gradients.tex",
+    "inputs": [
+      {
+        "path": "data\\revision\\P0_1_gradient_audit.json",
+        "sha256": "17a9c53dbaff4b7a3f2ac33a0f7ba1f2fade49f2100d53529cebb135e09a3764"
+      }
+    ],
+    "sha256": "f6222bf95832423e28a40d1d186cd9f9a2ce86b005da28e6da2ada9b8161fc2e"
+  },
+  {
+    "table": "tables\\revision_oracle.tex",
+    "inputs": [
+      {
+        "path": "data\\revision\\REVISION_COST_SUMMARY.csv",
+        "sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+      }
+    ],
+    "sha256": "7da201a8a637203e19d580ec0aa10b3ae923d49af78ecb16aab245c086aad2fd"
+  },
+  {
+    "table": "tables\\revision_bootstrap.tex",
+    "inputs": [
+      {
+        "path": "data\\revision\\E7_joint_denominator_bootstrap.csv",
+        "sha256": "4e6f9fa668a06fdc2345f1c7c016846126557cad40ef798815d0a434a376634a"
+      },
+      {
+        "path": "data/control_all_methods.csv",
+        "sha256": "a95f79272504bbdd50f5d75ee6aacde27d14db27c89f3449a2364bfb337a571a"
+      }
+    ],
+    "sha256": "8cf74282e14411fd085fd638379ae43be9a6a9ce804288f7640b7e7d28aedc16"
+  },
+  {
+    "table": "tables\\revision_heat_cost.tex",
+    "inputs": [
+      {
+        "path": "data\\revision\\E6_original_heat_cost_decomposition.csv",
+        "sha256": "c9d28d0c553de66cb9ae202d07f030ede7fa29bdccd7c89e2a7abd1584d785e6"
+      }
+    ],
+    "sha256": "72803ad79014e2b6544871185b334a38d7cae0c6acde939c0e6423dec9c12cfc"
+  },
+  {
+    "table": "tables\\revision_choices.tex",
+    "inputs": [
+      {
+        "path": "data\\revision\\E1_candidate_frequency.csv",
+        "sha256": "310efa12161af07c79fb701585235d0a0c1ecb93425b9d6671306a5d40bb8d96"
+      }
+    ],
+    "sha256": "5a8825002fcbf5d55e7282ef78df5e008137a7787b9ab462dfda53255deb5500"
+  },
+  {
+    "table": "tables\\revision_new_heat_choices.tex",
+    "inputs": [
+      {
+        "path": "data\\revision\\E1_candidate_frequency.csv",
+        "sha256": "310efa12161af07c79fb701585235d0a0c1ecb93425b9d6671306a5d40bb8d96"
+      }
+    ],
+    "sha256": "1760d0b7e05f9f2f2367a1fbfdd0bae6eea4ea555fe5fbd90a56435494e04aaf"
+  },
+  {
+    "table": "tables\\revision_latency_per_seed.tex",
+    "sha256": "66d7028a6db4b7d894a45b6820e01393258c7e78e1667601ac57278f4bdc0d31",
+    "inputs": [
+      {
+        "path": "data\\revision\\E2_per_seed.csv",
+        "sha256": "7e67cf613f1f54fdf4b622759d5df95fc11ecc2eae1cd83af84e167aef1c866d"
+      }
+    ]
+  },
+  {
+    "table": "tables\\revision_latency_ratios.tex",
+    "sha256": "0be73d1d1e8e5766bacaedf5e8af1341c813d1408cedfe95d445608aab83e411",
+    "inputs": [
+      {
+        "path": "data\\revision\\E2_ratio_bootstrap.csv",
+        "sha256": "044aec3379f660f636203404946e34648388ab3dd1ee3fa740e97d0a7c7dfc3b"
+      }
+    ]
+  },
+  {
+    "table": "tables\\revision_latency_profiles.tex",
+    "sha256": "ae0e86ab4484b3974a2ddf5a36509203aee906625d9b7c9518ae4a130d8da3c6",
+    "inputs": [
+      {
+        "path": "data\\revision\\E2_stage_profile.csv",
+        "sha256": "e5b437450d2a4f61d6bc8723df72153313d16615b20f4b45fb2d7e4e9a53ebf4"
+      }
+    ]
+  },
+  {
+    "table": "tables\\revision_scaling_selection.tex",
+    "sha256": "db98857383ea688ffaadaba05079a5f2bc9cc0496147f654836773b5a30a29a8",
+    "inputs": [
+      {
+        "path": "data\\revision\\REVISION_TRAINING_SELECTION.csv",
+        "sha256": "7510cf96d86f80ecc0698aaeb49e8f964d4cc683b2925758513ea26f26fdffe9"
+      }
+    ]
+  },
+  {
+    "table": "tables\\revision_heat_selection.tex",
+    "sha256": "f856b79b7202ce6e8f3b1090fae8127b8ade49a623628247d275e8356437963d",
+    "inputs": [
+      {
+        "path": "data\\revision\\REVISION_TRAINING_SELECTION.csv",
+        "sha256": "7510cf96d86f80ecc0698aaeb49e8f964d4cc683b2925758513ea26f26fdffe9"
+      }
+    ]
+  },
+  {
+    "table": "tables\\revision_weight_selection.tex",
+    "sha256": "e183aa533227920d7bd970f5c04b93e1f7e1b1972d428e9269f53b9ec6486e4b",
+    "inputs": [
+      {
+        "path": "data\\revision\\REVISION_TRAINING_SELECTION.csv",
+        "sha256": "7510cf96d86f80ecc0698aaeb49e8f964d4cc683b2925758513ea26f26fdffe9"
+      },
+      {
+        "path": "data\\revision\\E4_selected_gradient_diagnostics.csv",
+        "sha256": "c431517bb32054741209193f789036e77f37f7a2a2f55beae8706498ac849f52"
+      }
+    ]
+  },
+  {
+    "table": "tables\\revision_weight_control.tex",
+    "sha256": "e7970dca1d41f6b831a4c9a14c1300fd11c95b1b008724733c671c587d7e210b",
+    "inputs": [
+      {
+        "path": "data\\revision\\REVISION_COST_SUMMARY.csv",
+        "sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+      },
+      {
+        "path": "data\\revision\\E4_ACTION_AGREEMENT.csv",
+        "sha256": "b0a3eb28a137bfefd6257e8b603b122a6a39bb1251a44a3b4c5708a70bf995d8"
+      }
+    ]
+  },
+  {
+    "table": "tables\\revision_all_cost_intervals.tex",
+    "sha256": "8ddb47ed8861b67d7ef7e64ed288c2fa5e40710715acf16676f062496b8ced5f",
+    "inputs": [
+      {
+        "path": "data\\revision\\REVISION_COST_SUMMARY.csv",
+        "sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+      }
+    ]
+  },
+  {
+    "table": "tables\\revision_new_heat_cost.tex",
+    "sha256": "a9d3aa2cf0488343260a70c84a52a4698630ee1fd08f7cc1421906bc0f2b159c",
+    "inputs": [
+      {
+        "path": "data\\revision\\E6_new_heat_cost_decomposition.csv",
+        "sha256": "6fc99c3769390da8b3a79a37e418fdf9a882aed08384916137ac1bb907fa64ec"
+      }
+    ]
+  },
+  {
+    "table": "tables\\revision_new_heat_constraints.tex",
+    "sha256": "0f9fe42dba0e3172f12f612fa7a323897f55d4fc2382bb8414e3ffcdcdeb42cc",
+    "inputs": [
+      {
+        "path": "data\\revision\\REVISION_COST_SUMMARY.csv",
+        "sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "task_id": "01a0e439-093f-7601-8a7d-6e8929a7ced4",
+  "actual_model": "gpt-6-astra",
+  "actual_reasoning_effort": "xhigh",
+  "started_at_utc": "2026-09-27T18:55:39.789Z",
+  "metadata_source": "C:\\Users\\WIN\\.codex\\sessions\\2026\\09\\28\\rollout-2026-09-28T03-55-38-01a0e439-093f-7601-8a7d-6e8929a7ced4.jsonl",
+  "metadata_record_sha256": "7d9962c001da75fc44ce4b5923d35d623fc0ed6147534f86b4d76443aacf981b",
+  "metadata_type": "turn_context",
+  "analysis_only": true,
+  "prior_execution_model": "UNKNOWN; no retroactive attribution",
+  "task_environment": "local Codex desktop, PowerShell, v3 isolated existing venv",
+  "new_gpu_training_inference_solver_benchmark_executions": 0,
+  "independent_reaggregation_wall_seconds": 54.79565589997219,
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "torch": "2.12.0+cu130",
+    "pytest": "9.1.1"
+  },
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]"
+}

@@ -1,0 +1,491 @@
+{
+  "status": "COMPLETE_ORIGINAL_CAMPAIGN_ONLY",
+  "input_hashes": [
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B0_sna.npz",
+      "sha256": "8da6b9937c8d735da9af7dc19cb1183957ff343c90b99297291eb576247a5a16"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B1_sna.npz",
+      "sha256": "279696b4dfafc47e748199551b5069d367ee5049d79636dbef12edfebc3dc4de"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\P_s11.npz",
+      "sha256": "df61117b81de92cb23680a5e48a0e501945d65231d066d17c4f9f9d0a3a91b0a"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\P_s23.npz",
+      "sha256": "d5bb2bbebc43e9ba605096ec01b8daaa979334b9d7d41e7414c565b52039aaab"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\P_s37.npz",
+      "sha256": "12e6c047602f70a99dc4ec83b8186cd89b6348a8a65ae7c1f43c8ddc0821be61"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\P-no-rank_s11.npz",
+      "sha256": "256e5899072450314899f9b20b07462f1b6b6584505874593e757a28ece9efea"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\P-no-rank_s23.npz",
+      "sha256": "715f6b054f9cc90a4b090db1fa59c295e00f584d5ab723ffb0fe7aa1b89c0502"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\P-no-rank_s37.npz",
+      "sha256": "40464b45f4106d00b5534a36ebfee09d9f7befa8ae9607a0fe4e6ddae7e1f480"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B4_s11.npz",
+      "sha256": "2097dc4bdcdf3de5be5f6344fe378692d51201c940ae024a6cc8da3fae5a2d7b"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B4_s23.npz",
+      "sha256": "973afde563888f91907aa8cd8ec01df3791aa6a892f76df01f310eb4e74426e5"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B4_s37.npz",
+      "sha256": "0c334c38a6fb1e88a1740eae062115024faf08262917eac2a8e1225b6a7826c2"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B5_s11.npz",
+      "sha256": "b3dd889b3332baa8402300fab2623674b3165259a8df09d23cca7559e3908e02"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B5_s23.npz",
+      "sha256": "35f165fc7572ff611f7e0d87b20e7bc4ae08d87c38d70cd0e08caa33a66ad1e5"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B5_s37.npz",
+      "sha256": "2c9d3464f2d118a1ead342b386724ea8bfd58b4c5172df967d4c2a63db0878ca"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B2_s11.npz",
+      "sha256": "95522e672f475f3cd2404351412fd5bdc551e1a6e807e9f5c1847274991c975a"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B2_s23.npz",
+      "sha256": "bcdaf2c955cecfec66812995f58156f6a3fae035d96e31135c9cf3043f583628"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B2_s37.npz",
+      "sha256": "5ca250611b1d6f365b7427fc8ba54c470493532179e4c11339cc9fd30beff2ad"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B3_s11.npz",
+      "sha256": "733ec370ca25793fc6d63d3f02d1f352219f495e38c1305b1ccb0fdc80040499"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B3_s23.npz",
+      "sha256": "8a26301e30c0a4d21191d8f849fcab4f0cbdfb250ffefec5e82d1ea19771256a"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B3_s37.npz",
+      "sha256": "8d33b7c0f8ef71f671665cae4e5444e839844d8cf0a7f0620b675806d532c689"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B0_sna.npz",
+      "sha256": "5e08db1436df14638505dd427d0ce49cd3479db386eee1273289a9fbf7e57d26"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B1_sna.npz",
+      "sha256": "fcb5b4e454b57fa322650b7fd22562fe0ca01ac64c1c6054ba83ffa758a0740e"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\P_s11.npz",
+      "sha256": "050338f6e7f5be9b302bed242debae31bb5ac629197294791033c3d41b8981d0"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\P_s23.npz",
+      "sha256": "e0d705b05167c93035495a464661c3dfa8f15b9da1292d9a6e76d210f7de9b17"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\P_s37.npz",
+      "sha256": "05a4a8ee9cc26075479d21af5b85fcede3c5da51d897cd404d56c610e0b6f9c9"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\P-no-rank_s11.npz",
+      "sha256": "3043fdd8731637fdfd3a68bbc226bab9696f757ba37b663a17aeca137a180964"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\P-no-rank_s23.npz",
+      "sha256": "b5e9bc35af9222a6e6dc2546be08df69e693a1b3d86c41e20f730d749afeac39"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\P-no-rank_s37.npz",
+      "sha256": "c6f0853c4ed38a8f9981c24f1aa9c04f6b0f4f540b07cf626fe880616877283b"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B4_s11.npz",
+      "sha256": "68ea44eea125848030b3a94a447b7e9f194dc89d0130c3522515c58efd317b41"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B4_s23.npz",
+      "sha256": "f6bf456d5f207ca41c47a5a36b76f4b992627b950b61960a35f990636b1b33a5"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B4_s37.npz",
+      "sha256": "b35a70e12a38b2d26949b6a6380bda8d99d5b198d7042cb0a114023d6feb1349"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B5_s11.npz",
+      "sha256": "b7487872544b29988327566c248f34af59a26576c0054b3b75b105ef338159bf"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B5_s23.npz",
+      "sha256": "fb94758143c9bc8c4af9d096b8905fbed8acbc3a0949088638ef1e08aa09ecfa"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B5_s37.npz",
+      "sha256": "cb8815d8cddad8826db56b8813f0e31346f71781e762604a406aa12fc54b4002"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B2_s11.npz",
+      "sha256": "37b527b3af3a527150204a42a9967b97562066319f22fbac4d28de6f696892a2"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B2_s23.npz",
+      "sha256": "2522d2e286539fa9ac3561e3cf97d052a265ed28767859bfe9bdf24bd4241c4f"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B2_s37.npz",
+      "sha256": "45276d21ccd7521bc08356b831ed0467fc77096321eeb7d54adc3f3e60cf45cf"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B3_s11.npz",
+      "sha256": "3c941bf1a91235c88c875c4b7e90e08d1fe7ebcf8befac2bc7b242300f096224"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B3_s23.npz",
+      "sha256": "e699b85942624503a38c2fc39f3c3779f2ab3b63b6b15493fd9583bfe62a0ff2"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B3_s37.npz",
+      "sha256": "33771b084346ceaa748546c23f9cd331245ebe9f84cc2518a816ebe8b2afc2a7"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B0_sna.npz",
+      "sha256": "e66ef30505a56f796e1f928ea8ba618f4498524ae305716ef2da0232c5942fb1"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B1_sna.npz",
+      "sha256": "5d310d6dcb7974d557234aceed3b84f46ea81df70911dc41f40e7afb1b0ca0a5"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\P_s11.npz",
+      "sha256": "660db878ead3744bb83d20b8780218c9bbd6d67ebc95707084be7ea05d9f466b"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\P_s23.npz",
+      "sha256": "d3ded97caeef76f67bfb77958d567ae89a4959f3436ddc45bcfdb4191c527e74"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\P_s37.npz",
+      "sha256": "994a078c09ff76406492d0cef7eb283923a3ad2e89e36621051cb1366ace05f5"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\P-no-rank_s11.npz",
+      "sha256": "28a50c98c1839979c0c1d3c4e234ab760223c1d1408a1dd9552f5ed5702d9e62"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\P-no-rank_s23.npz",
+      "sha256": "d7fa5e4a269cbc89e4b53e16c73912157a66bca0fa9b77c38954129b42662742"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\P-no-rank_s37.npz",
+      "sha256": "9317c7cd16113c66529a9433b7aab36713937bf5e9b8deb83e8c752557a245f0"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B4_s11.npz",
+      "sha256": "bb78e108ca5bc75e4ca18ba9a9b14a07187d018d493a93a2d13c7614e33bc4fb"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B4_s23.npz",
+      "sha256": "2af1c0d690a9e8934a299a2b10b7acc14485451f879708f3e1b2d96c751388bf"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B4_s37.npz",
+      "sha256": "42d379fcb63112225616c4933cebe5bbfb97c983a956374a0d5557e104854172"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B5_s11.npz",
+      "sha256": "3c0e32f555b19cc752724e9cf6bb2ca32fd60cc6f2b0d59e8ac0b098bb68432a"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B5_s23.npz",
+      "sha256": "4b7310583e34e4fd59303691d32e6b8a2aae1cb0d7bf9152f8e3b5de8f92186e"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B5_s37.npz",
+      "sha256": "f61b985a7262edadd6249adb37ec6b4a39056578f302e4855ab1929ee07a858c"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B2_s11.npz",
+      "sha256": "b32c890a2594b337ab700cd8757cca58179c1776be3091dc55806d8fd0640b80"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B2_s23.npz",
+      "sha256": "d5f460b6ef22fbbe1067a41dad7ee96680d8e414c1b14b989555c02b68e74f0a"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B2_s37.npz",
+      "sha256": "bdf8c5e1472fcf607dfac4b66f288122d94a7f6da03ffedc9817d18f1ca4fff0"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B3_s11.npz",
+      "sha256": "8f492ff19817576454b8d8ee42005df6e0b2ad30bc1b928f73158686a7c18ec4"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B3_s23.npz",
+      "sha256": "2e40baae8dc6545c2d2ebb3116408e9dbec63c118ee358e4856337d185961064"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B3_s37.npz",
+      "sha256": "c6d970c7499c686488403a66188d186747c708a5dd41104273051fb16517cd98"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B0_sna.npz",
+      "sha256": "fad905e6c82fa6a9325b229dacb7069951e2897d233320ca0434434fb8d7f878"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B1_sna.npz",
+      "sha256": "0b7726cfe20396822ef947c791ff5819486c28b31e8490a40a6d1fb1e5bda3be"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\P_s11.npz",
+      "sha256": "1adfd7367b45e703e0399e5b7321f9ec14c07885960a83490786dd6ad0f2e359"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\P_s23.npz",
+      "sha256": "01920101962aeceb1590a2b8a12ad36a939bb83842a9edc2617830eea925d7fa"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\P_s37.npz",
+      "sha256": "d8aeacf0274dbacebbea8ee2aaabde9fb01d01e0f00bddb9a79539f53f1f4926"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\P-no-rank_s11.npz",
+      "sha256": "07a4d680a7509586eb43f0b1b345ff7ad2e03caa02bde701d199a13fc6bb3f40"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\P-no-rank_s23.npz",
+      "sha256": "f42ad3d765ec572ca9105c47e4091e655cac6902f0e2e33a0a53ffc327471a15"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\P-no-rank_s37.npz",
+      "sha256": "57e767ebdffae1bc4741b78ce0fb6f6b1eb16b99a223c8927b340229ae9815f7"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B4_s11.npz",
+      "sha256": "bfc6de82ffbf83d24aada78fc43ac8b47ef9fa0784f290391bc90d40a1df9c03"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B4_s23.npz",
+      "sha256": "5c8cab3a5ab6ffa27fa0253e5da4ab487f88a3ce076bca7a0489d394d646e7a7"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B4_s37.npz",
+      "sha256": "bad29a0af7fc9d27ec54395c94ffdb3d7696d084181871eedce05dc8d8e40416"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B5_s11.npz",
+      "sha256": "63b81080a784e4cf610d6d8e7f233888cf86971e12c1f22e221e8a11984abbc1"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B5_s23.npz",
+      "sha256": "ca6ac7412d4f6460cb5131b106c7c39be29d5c59ed74fc97e851d8112938909a"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B5_s37.npz",
+      "sha256": "d3aa0090846ca317c91773c5aeba6d9b48d0a8a3a41cd7a0eb249b789c5978b3"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B2_s11.npz",
+      "sha256": "0c5b72de0f4676269c0cc98d773a497bab0df65ef187017ad488aacc0d91a66e"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B2_s23.npz",
+      "sha256": "3e879296194e9f02dbd29338a7fa0b6de6ab6e3d5cffc9dc3eada9cfaf8f55fb"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B2_s37.npz",
+      "sha256": "574dc0525cfd21b238ef420aa7e1979c46ff21584ef4f08ef3ed56171e8134d5"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B3_s11.npz",
+      "sha256": "2edebe51e03af247aae51ab9fdb86814c0dd9f1d8ff4534ca04b0e16b58f8ba6"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B3_s23.npz",
+      "sha256": "39dbdbbaa6e627b066bfb8a2b7105487738807b8dcac523712b04dde8099f540"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B3_s37.npz",
+      "sha256": "bd96c5f88e6c798ca9398240c63e0873995bad7bbf5998d16789e5015bc2fdd4"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B0_sna.npz",
+      "sha256": "ec9b3697e22f8f44f8d29d8dd84055512dcbd2d7513f11a02c4e2dfe6dda9e0f"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B1_sna.npz",
+      "sha256": "8a6721538629b8b6f74ff8eac51c8445ba4c948c47e0bfad8cc5e5c4d3803317"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\P_s11.npz",
+      "sha256": "dc3922baf02112512ba2340d2cc07f39f5edd2e168e9f529e84bbfb6cc75518b"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\P_s23.npz",
+      "sha256": "45f683ffcd696205bff073da1aa3ab7da8c5949f8727f78cd578f01e21d4393a"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\P_s37.npz",
+      "sha256": "bd902d1d47c04d096dc0841e2ab8b24c6f62911c14e10b78bfb2ebdf565a1a81"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\P-no-rank_s11.npz",
+      "sha256": "4d2b7b08405843875ec3233becc321acdfba0ce73497487e16283eb5f880766a"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\P-no-rank_s23.npz",
+      "sha256": "a7e725fc332e2f10844cda5ce888b511b79df41dc8025780044aabc2879277fe"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\P-no-rank_s37.npz",
+      "sha256": "f9fe1da2efa509997533261943c57a32633e36268c60514c662ed024260a6d0d"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B4_s11.npz",
+      "sha256": "11ae8ad999016827f7bd45770330f3b41aa3d1b43030aa0bb90a2f9fd5de4413"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B4_s23.npz",
+      "sha256": "6a6849e852ca455d983cf1c25a995f1f941b820171aa5a52384145ce3dd0b184"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B4_s37.npz",
+      "sha256": "e605e3cbc90592da76e4570a38fd86869ba2f3546b8095a7fb1fa87e4e47239e"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B5_s11.npz",
+      "sha256": "57c5848041a23ca8675bf64c1fe689fb0d45162ca31ef6d44e6d69e20229fbbd"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B5_s23.npz",
+      "sha256": "54559e7de873ccc10d03cf320a74dac9bfda7d186d6cdf738da4882210747202"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B5_s37.npz",
+      "sha256": "4df58ca3986da94c0b7bdbf4bcc96cf55aebd51f3147d95dda005031446537d1"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B2_s11.npz",
+      "sha256": "3bb59afaa7ebacce27b4fd5b8ae87a09c8c189bc33423de0e23101136fe6d5a4"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B2_s23.npz",
+      "sha256": "eb77d49f98a5ae418e550e65dff642fffe16e81a7b00c9facbe372fc73e4ea44"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B2_s37.npz",
+      "sha256": "430ea21e6255a57ec9ea093c6ba1d11d91d3ba389c4987f95e14d72520251eed"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B3_s11.npz",
+      "sha256": "9e6adbb50e501193f7d36c3a8e2c67913c888e08f4125fd27ed4d9bd15d43721"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B3_s23.npz",
+      "sha256": "3fb6f02f1bf233710d4d7ba37dfe1e7ac424e036f467a2767ff1cc60fcdff1e6"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B3_s37.npz",
+      "sha256": "c6555eb01318372b6fb6459c401aaab6f5587f26193b8893a1809e43b63efb03"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B0_sna.npz",
+      "sha256": "a511f3ca75ce91bbd35e98e09b35446b064390fd5f8eb5f5b31700d80a7aabd9"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B1_sna.npz",
+      "sha256": "b5e4400b1200b6590e66f993d3bf5bcef532bd387bba9bcf2a8f3f054c60dd21"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\P_s11.npz",
+      "sha256": "309f4b7be09c906f2b06c9d2e5d0da6d4f26d2ac68d786f93c2c51e5d49fc9a7"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\P_s23.npz",
+      "sha256": "6785b59661468acbf2b0937cdf1b52939dc3e3b3bac723f14e72db36651b525e"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\P_s37.npz",
+      "sha256": "0f8a5dfc11aaa73df201e3969062ec2922dc8ff6e0ab38ae269eae68ddd2bc66"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\P-no-rank_s11.npz",
+      "sha256": "a75847b68964641f8487bd718bced1e13d0ab96c171c9888046546f4e98e41df"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\P-no-rank_s23.npz",
+      "sha256": "9d8041aad32cfea935ef5379548b44bdbf1fc77c80e283cabb4e4ab25e03bd05"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\P-no-rank_s37.npz",
+      "sha256": "5d3cb6a3cbd47ac8746cfbfe590ea6ba6e5c3505517d4242649f5483bfc55daa"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B4_s11.npz",
+      "sha256": "14ce4101d39e2a59d8f695f05933774d370c3b7e13200944ab1682729c778e36"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B4_s23.npz",
+      "sha256": "876ecee42239763bc574a6efa81ab0906b38e92bd7398c37d1c76617a59948d5"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B4_s37.npz",
+      "sha256": "19f7b70e71742177b5a55f8264426d0099b01c50aa6860cce2a7132a88f38f4f"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B5_s11.npz",
+      "sha256": "116bb3dc7a0ea512f866fed5d5d8d55d7b25468244f060dddedb1fefded6f03b"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B5_s23.npz",
+      "sha256": "b240aae1568c804c05f52ee977084720e75e3cfeeb8729f352f7812db6da71de"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B5_s37.npz",
+      "sha256": "c8b6f98162658dbb7fc2979fd77be7f3dbc63db6b3c7e87e188f8f18cc197eab"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B2_s11.npz",
+      "sha256": "0784653518152a341e47cfb1ba142adb78828faeef9d69dd4edc4adc55769a9f"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B2_s23.npz",
+      "sha256": "0a999474f3f0c727adf97c36c7c7c599e83f916e7f956b024bbf6c016d1e26e6"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B2_s37.npz",
+      "sha256": "b455ce2a58cc69f6a5531f487c9b773277a51b042369c96ae206b3d832bf8eea"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B3_s11.npz",
+      "sha256": "a40d0472dfefd63e98890d1b792d3fbec307725e14194da43a6019197d6c6238"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B3_s23.npz",
+      "sha256": "2b7d4577b151494598d5d755f27e6ab1e66dcae23984ba0f5067cb32756701da"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B3_s37.npz",
+      "sha256": "229bac99d195530ff7ac3db6358bd89f9059eef917d2f8b19e0d64dee31146e7"
+    }
+  ],
+  "E6_rows": 60,
+  "E7_rows": 48,
+  "bootstrap_seed": 2026100207,
+  "parent_cluster": "training seeds averaged within each parent before bootstrap; numerator and baseline use same sampled parent indices",
+  "new_result_scope": "post-hoc reanalysis only; revision experiments must later be added",
+  "frozen_inputs_unchanged": true
+}

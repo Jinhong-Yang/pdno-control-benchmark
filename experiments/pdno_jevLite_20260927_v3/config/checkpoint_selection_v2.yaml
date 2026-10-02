@@ -1,0 +1,20 @@
+{
+  "protocol": "validation_closed_loop_checkpoint_selection_v2",
+  "candidate_cadence_updates": 500,
+  "validation_parents_per_pde": 8,
+  "parent_selection": "lexicographically_first_parent_ids_after_sorted_order",
+  "candidate_gate": {
+    "require_finite_actions": true,
+    "require_zero_fallbacks": true,
+    "require_zero_causal_timestamp_violations": true,
+    "require_zero_truth_constraint_violations": true
+  },
+  "ranking": {
+    "primary": "minimum_mean_episode_control_cost",
+    "latency_tie_band": 0.05,
+    "tie_break": "minimum_p95_controller_latency_ms",
+    "final_tie_break": "earliest_update"
+  },
+  "if_no_candidate_passes_gate": "retain_minimum_violation_count_then_cost_as_diagnostic_and_mark_no_go",
+  "locked_test_access": "prohibited"
+}

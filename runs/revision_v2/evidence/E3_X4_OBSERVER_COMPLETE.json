@@ -1,0 +1,9 @@
+{
+  "condition": "burgers_x4_observer_s7",
+  "selected_update": 3400,
+  "actual_updates": 4000,
+  "observer_nrmse": 0.07881435751914978,
+  "process_wall_seconds": 35.562695599975996,
+  "sha256": "07af52d730ab5e8b92e6e66f3ab5a805714d6a090f4e7c6a9177f335d9cf313b",
+  "scope": "Observer metric only, not operator field accuracy or a closedloop result"
+}

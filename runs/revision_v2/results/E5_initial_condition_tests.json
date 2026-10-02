@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "synthetic_test_draws": 1000,
+  "min_initial": 2.5531029334929248e-05,
+  "max_initial": 0.4999079463369184,
+  "minimum_after_one_zero_action_tick": 2.5843053960682134e-05,
+  "contract_sha256": "eeaeb31fa790b9afdb2f36f49e1a3481f7b70f7a31f3fa2de7d3a8f5c23b34e1",
+  "not_benchmark_results": true
+}

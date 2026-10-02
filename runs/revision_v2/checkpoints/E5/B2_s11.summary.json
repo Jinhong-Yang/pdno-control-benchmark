@@ -1,0 +1,42 @@
+{
+  "method": "B2",
+  "pde": "heat",
+  "seed": 11,
+  "best_step": 2500,
+  "validation_action_mse": 0.0015752601791518828,
+  "actual_updates": 3000,
+  "elapsed_seconds": 8.117173400009051,
+  "history": [
+    {
+      "step": 500,
+      "train_action_mse": 0.0016928308177739382,
+      "validation_action_mse": 0.0019768922937828393
+    },
+    {
+      "step": 1000,
+      "train_action_mse": 0.0015313252806663513,
+      "validation_action_mse": 0.001827562262860738
+    },
+    {
+      "step": 1500,
+      "train_action_mse": 0.001422672881744802,
+      "validation_action_mse": 0.001725343549082936
+    },
+    {
+      "step": 2000,
+      "train_action_mse": 0.0011871883179992437,
+      "validation_action_mse": 0.0016091571976630803
+    },
+    {
+      "step": 2500,
+      "train_action_mse": 0.0011333157308399677,
+      "validation_action_mse": 0.0015752601791518828
+    },
+    {
+      "step": 3000,
+      "train_action_mse": 0.0010729233035817742,
+      "validation_action_mse": 0.0015771676922895494
+    }
+  ],
+  "checkpoint": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\revision_v2\\checkpoints\\E5\\B2_s11.pt"
+}

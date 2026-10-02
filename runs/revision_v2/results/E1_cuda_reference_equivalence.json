@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "max_abs_error": 0.0,
+  "pde": "burgers",
+  "parents": 2,
+  "candidate_count": 10,
+  "precision": "FP64 solver, FP32 restricted outputs matching original",
+  "support_elapsed_seconds": 1.0807592999772169,
+  "not_benchmark_latency": true
+}

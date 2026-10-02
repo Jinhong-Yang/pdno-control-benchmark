@@ -1,0 +1,70 @@
+{
+  "checked_date": "2026-10-02",
+  "manuscript_insertion": "Main-text citations and relation sentences after Phase 2; bibliography metadata staged now.",
+  "sources": [
+    {
+      "key": "kunisch1999pod",
+      "authors": "K. Kunisch and S. Volkwein",
+      "title": "Control of the Burgers Equation by a Reduced-Order Approach Using Proper Orthogonal Decomposition",
+      "journal": "Journal of Optimization Theory and Applications",
+      "year": 1999,
+      "volume": "102",
+      "pages": "345--371",
+      "doi": "10.1023/A:1021732508059",
+      "primary_source": "https://link.springer.com/article/10.1023/A:1021732508059",
+      "relevance": "POD reduced models for open- and closed-loop Burgers control; the present B1 is a modal numerical comparator, not a replication of that POD method.",
+      "relation_paragraph_for_phase2": "Kunisch and Volkwein used proper orthogonal decomposition for open- and closed-loop Burgers control~\\cite{kunisch1999pod}. This motivates a reduced-model control reference; our B1 instead uses a fixed trigonometric Galerkin basis and does not reproduce their POD construction.",
+      "abstract_checked_utc": "2026-10-02T04:59:47.668547+00:00",
+      "claim_scope": "Paraphrase of primary abstract plus actual benchmark source; no quantitative superiority or replication claim."
+    },
+    {
+      "key": "hertneck2018mpc",
+      "authors": "M. Hertneck, J. Koehler, S. Trimpe, and F. Allgoewer",
+      "title": "Learning an Approximate Model Predictive Controller with Guarantees",
+      "year": 2018,
+      "arxiv": "1806.04167",
+      "doi": "10.1109/LCSYS.2018.2843682",
+      "primary_source": "https://arxiv.org/abs/1806.04167",
+      "relevance": "Robust MPC and statistical validation of approximate control; the present empirical comparisons do not establish stability or safety guarantees.",
+      "relation_paragraph_for_phase2": "Hertneck et al. combined robust MPC design and statistical validation to obtain closed-loop guarantees for a learned approximation~\\cite{hertneck2018mpc}. Our comparison measures control outcomes and request latency empirically and does not inherit their stability or constraint-satisfaction guarantees.",
+      "abstract_checked_utc": "2026-10-02T04:59:47.668547+00:00",
+      "claim_scope": "Paraphrase of primary abstract plus actual benchmark source; no quantitative superiority or replication claim."
+    },
+    {
+      "key": "peitz2019koopman",
+      "authors": "S. Peitz and S. Klus",
+      "title": "Koopman operator-based model reduction for switched-system control of PDEs",
+      "journal": "Automatica",
+      "year": 2019,
+      "volume": "106",
+      "pages": "184--191",
+      "doi": "10.1016/j.automatica.2019.05.016",
+      "arxiv": "1710.06759",
+      "primary_source": "https://ris.uni-paderborn.de/record/10593",
+      "relevance": "Finite-control switched-system reduction with Koopman models; relevant control precedent, not an executed baseline in this benchmark.",
+      "relation_paragraph_for_phase2": "Peitz and Klus used Koopman-based reduced models to formulate PDE control with finitely many constant inputs as a switching problem~\\cite{peitz2019koopman}. Their work provides a control precedent for discrete input alternatives; our short-horizon candidate scoring uses a different predictor and does not implement a Koopman baseline.",
+      "abstract_checked_utc": "2026-10-02T04:59:47.668547+00:00",
+      "claim_scope": "Paraphrase of primary abstract plus actual benchmark source; no quantitative superiority or replication claim.",
+      "abstract_primary_source": "https://arxiv.org/abs/1710.06759"
+    },
+    {
+      "key": "reddi2020mlperf",
+      "authors": "V. J. Reddi et al.",
+      "title": "MLPerf Inference Benchmark",
+      "year": 2020,
+      "arxiv": "1911.02549",
+      "primary_source": "https://arxiv.org/abs/1911.02549",
+      "relevance": "Comparable inference scenarios and measurement rules; the present host-ready serialized endpoint is a specific software boundary and not a complete deployment service.",
+      "relation_paragraph_for_phase2": "MLPerf Inference specifies benchmarking rules to support comparisons across inference systems~\\cite{reddi2020mlperf}. Our serialized replay instead defines a task-specific stored-observation-to-host-action timing boundary; its results are not MLPerf scores or measurements of a complete deployed sensing and control service.",
+      "abstract_checked_utc": "2026-10-02T04:59:47.668547+00:00",
+      "claim_scope": "Paraphrase of primary abstract plus actual benchmark source; no quantitative superiority or replication claim."
+    }
+  ],
+  "bibliography_status": "Four verified entries added; not yet cited in main text. Relationship sentences and final bibliography rendering await Phase2.",
+  "relation_status": "Four final-style relation paragraphs prepared and primary-abstract checked; not inserted into main until Phase2.",
+  "local_scope_evidence_sha256": {
+    "runs/revision_v2/src/pdno/controllers/rom.py": "dd058ac5f31e3934c62c242b01d1b37c23e56d9e894ba0d785732e6c770396e1",
+    "runs/revision_v2/scripts/run_e2_timing.py": "3446b19593aaee51c3d48ef585e45116924b12e67a8a4b6dbc5cc411adeaa8ad",
+    "runs/revision_v2/config/PHASE1_SPEC.json": "7b671a8112c9bafd9e55b21be02334458009cc2d8650b71c555a9bc87600d415"
+  }
+}

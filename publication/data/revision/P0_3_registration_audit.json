@@ -1,0 +1,14 @@
+{
+  "classification": "PRIMARY",
+  "external_prospective_registration_found": false,
+  "pretest_git_commit_found": false,
+  "internal_document": {
+    "path": "config/v3_preregistration.yaml",
+    "sha256": "1601723faa5c8de683faf02697be014b5077c4215182122a21da17bf3fded98d"
+  },
+  "local_pretraining_seal": "evidence/pretraining_spec_freeze_v3.json",
+  "later_public_commit": "b5453468157654a9b1b9c6a68619246c78afd77f",
+  "later_public_commit_is_not_preregistration": true,
+  "wording": "primary; original internally specified protocol, no externally verifiable prospective registration",
+  "rationale": "Workspace is not a Git checkout. The public release was made after evaluation. Local file/record dates are retained but are not an independently time-stamped pre-test commit."
+}

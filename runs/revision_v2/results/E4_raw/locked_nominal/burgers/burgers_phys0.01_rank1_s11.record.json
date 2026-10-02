@@ -1,0 +1,16 @@
+{
+  "stage": "E4",
+  "pde": "burgers",
+  "method": "P",
+  "seed": 11,
+  "label": "burgers_phys0.01_rank1_s11",
+  "role": "locked_nominal",
+  "parents": 384,
+  "sha256": "165ef242a035e7f18426e027c92fec8f25bf73cc157bdf1ddbbf21752472609e",
+  "input_sha256": "3593372427758053bbf13ced3d7f4957409ba230f2fb9b89867ef24843c34e0c",
+  "checkpoint_sha256": "0c786d4bce3c653101f91a72f7a954ad30392eadf0460cf9c12f1dfb81d09c66",
+  "elapsed_s": 80.37401110003702,
+  "post_hoc_original_parents": true,
+  "latency_measurement": false,
+  "mean_cost": 0.34107800475108013
+}

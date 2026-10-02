@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "parents": 128,
+  "pde": "heat",
+  "method": "O-cand-state",
+  "role": "locked_coefficient_ood",
+  "sha256": "eead628bbe79fb01da1720981d348e859d76645db13e2f6d2fa6a95cf34a4452",
+  "seconds_since_start": 505.2203058000305,
+  "test_reuse": "post-hoc oracle diagnostic; not fresh confirmatory evidence"
+}

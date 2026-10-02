@@ -1,0 +1,334 @@
+{
+  "g2_failure_retained": true,
+  "g2_field_gate_pass": false,
+  "protocol": "validation_checkpoint_selection_v3",
+  "selected": [
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\burgers\\P_s11.pt",
+      "method": "P",
+      "official_checkpoint_sha256": "7b222060d53a024baef3515715a5877d67ebf369748cc1ac16d4be1002457a0c",
+      "pde": "burgers",
+      "seed": 11,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\burgers\\P_s23.pt",
+      "method": "P",
+      "official_checkpoint_sha256": "5e4edea83527e6d459825ec1bd578d224c78a4541204db72e3c530022aac91eb",
+      "pde": "burgers",
+      "seed": 23,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\burgers\\P_s37.pt",
+      "method": "P",
+      "official_checkpoint_sha256": "dcc4d82ec51e115c5c36049255f4862298374916ecc26da616f3574ab18d8fbb",
+      "pde": "burgers",
+      "seed": 37,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\burgers\\P-no-rank_s11.pt",
+      "method": "P-no-rank",
+      "official_checkpoint_sha256": "4eba43f50ab6acb6d2abd1160e271819cc67991799d04255300eb9be8d08cce5",
+      "pde": "burgers",
+      "seed": 11,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\burgers\\P-no-rank_s23.pt",
+      "method": "P-no-rank",
+      "official_checkpoint_sha256": "f490a11ad0ad6992a3f1b2bf1f3f5f46d2eb1c9a80600c4efb9329a96fe023e7",
+      "pde": "burgers",
+      "seed": 23,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\burgers\\P-no-rank_s37.pt",
+      "method": "P-no-rank",
+      "official_checkpoint_sha256": "9510f08b2f6fea87adf02ca75186bdd46c3ccd7b98d8c771cb8ceded4708aebe",
+      "pde": "burgers",
+      "seed": 37,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\burgers\\B4_s11.pt",
+      "method": "B4",
+      "official_checkpoint_sha256": "ae65b087136663f66500d58fccad3cb7e7437ea5559c62675ebf39a334f0e20b",
+      "pde": "burgers",
+      "seed": 11,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\burgers\\B4_s23.pt",
+      "method": "B4",
+      "official_checkpoint_sha256": "c196d8bb83988455c23d19855448c9f0dab59f59b34c4d9de9c8340f9e5e77e5",
+      "pde": "burgers",
+      "seed": 23,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\burgers\\B4_s37.pt",
+      "method": "B4",
+      "official_checkpoint_sha256": "7fb44fbefacd2f214fde3e47449f752aa7439faa62edde03372c9caf2f2fa972",
+      "pde": "burgers",
+      "seed": 37,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\burgers\\B5_s11.pt",
+      "method": "B5",
+      "official_checkpoint_sha256": "06ccfa4271a1aecef18288189df09be9cfcc52621810a6ee71c74b382aedc513",
+      "pde": "burgers",
+      "seed": 11,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\burgers\\B5_s23.pt",
+      "method": "B5",
+      "official_checkpoint_sha256": "2f0e42319365b1351a924b6651dd5d083cdc12933e997ca12e05f30c5bfc5177",
+      "pde": "burgers",
+      "seed": 23,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\burgers\\B5_s37.pt",
+      "method": "B5",
+      "official_checkpoint_sha256": "34b54b37f1aa4fa6249ce5038cc24d7e4b87e253f4af9bf5d74a118efae067e6",
+      "pde": "burgers",
+      "seed": 37,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\burgers\\B2_s11.pt",
+      "method": "B2",
+      "official_checkpoint_sha256": "773ff10aa1fd91a5a6a8f3e9838729deb81d608f2aa0dc0ef582f3e8d3ed415b",
+      "pde": "burgers",
+      "seed": 11,
+      "selection_status": "BEST_VALIDATION_CHECKPOINT",
+      "update": 3000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\burgers\\B2_s23.pt",
+      "method": "B2",
+      "official_checkpoint_sha256": "cb65e51bf85612b143a424494a5c0e39a7276ad323e8d9af6fead457c5c993ac",
+      "pde": "burgers",
+      "seed": 23,
+      "selection_status": "BEST_VALIDATION_CHECKPOINT",
+      "update": 3000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\burgers\\B2_s37.pt",
+      "method": "B2",
+      "official_checkpoint_sha256": "d968987bac175251bfe63d090c477ed37be35ab503b42d9a9c947ef4064607f8",
+      "pde": "burgers",
+      "seed": 37,
+      "selection_status": "BEST_VALIDATION_CHECKPOINT",
+      "update": 3000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\burgers\\B3_s11.pt",
+      "method": "B3",
+      "official_checkpoint_sha256": "12996a2f2a99f762e73389c3386324c4ddd1519f1cb1c8e6a4ed38cce652aede",
+      "pde": "burgers",
+      "seed": 11,
+      "selection_status": "BEST_VALIDATION_CHECKPOINT",
+      "update": 1000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\burgers\\B3_s23.pt",
+      "method": "B3",
+      "official_checkpoint_sha256": "da22427a0275973a5b5e6be9bfecb1b0f4741ef60a69cc206d324f3b192ef554",
+      "pde": "burgers",
+      "seed": 23,
+      "selection_status": "BEST_VALIDATION_CHECKPOINT",
+      "update": 1000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\burgers\\B3_s37.pt",
+      "method": "B3",
+      "official_checkpoint_sha256": "4fc6b022e03db41abbca0b9ab2f06e19ba62e013556b59c57a668d5bf87fd627",
+      "pde": "burgers",
+      "seed": 37,
+      "selection_status": "BEST_VALIDATION_CHECKPOINT",
+      "update": 1000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\heat\\P_s11.pt",
+      "method": "P",
+      "official_checkpoint_sha256": "335cd17c3fe439ab3d5987e117524559307f7447e41d9d3cdf2f7921630b26c4",
+      "pde": "heat",
+      "seed": 11,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\heat\\P_s23.pt",
+      "method": "P",
+      "official_checkpoint_sha256": "556334358dbfbe5233045bb2bafc85f77d500712640b0cd2d21d0526feabd2e4",
+      "pde": "heat",
+      "seed": 23,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\heat\\P_s37.pt",
+      "method": "P",
+      "official_checkpoint_sha256": "71d5a71cdd21cc57006e5d405b0824b0073aaff363ca17ea0eff36861b52d9a3",
+      "pde": "heat",
+      "seed": 37,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\heat\\P-no-rank_s11.pt",
+      "method": "P-no-rank",
+      "official_checkpoint_sha256": "40a77757d674a8da22ce0f9b93ff209a02e72ef5a8eab44ecc4f3d1af6b8a5f2",
+      "pde": "heat",
+      "seed": 11,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\heat\\P-no-rank_s23.pt",
+      "method": "P-no-rank",
+      "official_checkpoint_sha256": "ed6b34289ebd66e3ee8887fd71615994c0b95d14c75fd4ea50ff602efd0ee6b8",
+      "pde": "heat",
+      "seed": 23,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 4500
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\heat\\P-no-rank_s37.pt",
+      "method": "P-no-rank",
+      "official_checkpoint_sha256": "b20cdc845ec62a0d3eff517650e92aeeb0d549e4a7619037be03e14b3041a4d8",
+      "pde": "heat",
+      "seed": 37,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\heat\\B4_s11.pt",
+      "method": "B4",
+      "official_checkpoint_sha256": "93f5ce1932228c1785a8aa5aabb95d01d7a78ab6ead34c287622ccf0c74adc02",
+      "pde": "heat",
+      "seed": 11,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\heat\\B4_s23.pt",
+      "method": "B4",
+      "official_checkpoint_sha256": "c5b7fa56b4b2d2b13b846ea52499ffd972e9c8028c6529771f082cab2bd74dc2",
+      "pde": "heat",
+      "seed": 23,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\heat\\B4_s37.pt",
+      "method": "B4",
+      "official_checkpoint_sha256": "af01e898f027ba06271def0d3c1790b252e5912a43b4ead62678976b2839672d",
+      "pde": "heat",
+      "seed": 37,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\heat\\B5_s11.pt",
+      "method": "B5",
+      "official_checkpoint_sha256": "f499e54b081a7018e2759f7824b2060fa381a54f99577cf307f8d97fc6e2e115",
+      "pde": "heat",
+      "seed": 11,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\heat\\B5_s23.pt",
+      "method": "B5",
+      "official_checkpoint_sha256": "d057b493b2a97edc52baac2fdcd2127232e86d869c6d828504fc41e06136e8b7",
+      "pde": "heat",
+      "seed": 23,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\heat\\B5_s37.pt",
+      "method": "B5",
+      "official_checkpoint_sha256": "997a821745e74444c1fe0da854a3fdc3423b5d68dc0d5c003d60b143404fa4a4",
+      "pde": "heat",
+      "seed": 37,
+      "selection_status": "G2_FAIL_RETAINED_DIAGNOSTIC",
+      "update": 5000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\heat\\B2_s11.pt",
+      "method": "B2",
+      "official_checkpoint_sha256": "07f22e864895b091253d7795930ae7097a5bfb41b25e302d630cce400b93890b",
+      "pde": "heat",
+      "seed": 11,
+      "selection_status": "BEST_VALIDATION_CHECKPOINT",
+      "update": 2500
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\heat\\B2_s23.pt",
+      "method": "B2",
+      "official_checkpoint_sha256": "a5a261991f105f599fbe031cdb5fe840e073468a8822fb598d7cbf4ca6055ea9",
+      "pde": "heat",
+      "seed": 23,
+      "selection_status": "BEST_VALIDATION_CHECKPOINT",
+      "update": 3000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\heat\\B2_s37.pt",
+      "method": "B2",
+      "official_checkpoint_sha256": "e046346447b7d12c4c67a49670e91fdac924c49a156139d4a6476181bd06e985",
+      "pde": "heat",
+      "seed": 37,
+      "selection_status": "BEST_VALIDATION_CHECKPOINT",
+      "update": 3000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\heat\\B3_s11.pt",
+      "method": "B3",
+      "official_checkpoint_sha256": "77a52e5711e7b49773fbf211709e34b7157a41c6723e4f19177a8fff219e0d00",
+      "pde": "heat",
+      "seed": 11,
+      "selection_status": "BEST_VALIDATION_CHECKPOINT",
+      "update": 500
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\heat\\B3_s23.pt",
+      "method": "B3",
+      "official_checkpoint_sha256": "ca460bc4d78d33f8b6def14fb299ad2681ed1ef9a8bd7a87baac1fe024af18b3",
+      "pde": "heat",
+      "seed": 23,
+      "selection_status": "BEST_VALIDATION_CHECKPOINT",
+      "update": 1000
+    },
+    {
+      "checkpoint": "runs\\confirmatory_v3_training\\heat\\B3_s37.pt",
+      "method": "B3",
+      "official_checkpoint_sha256": "4d04197082095390f95ca82e5f9a2d991c3ebac51e983403ae25b3f0b1b92f33",
+      "pde": "heat",
+      "seed": 37,
+      "selection_status": "BEST_VALIDATION_CHECKPOINT",
+      "update": 500
+    }
+  ],
+  "selection_source": "per-model train/validation best checkpoint summary; no calibration/test data used",
+  "status": "VALIDATION_SELECTED_G2_FAIL_RETAINED",
+  "test_opened": false
+}

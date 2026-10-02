@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "method": "O-cand-state",
+      "state_max_abs": 0.0,
+      "action_max_abs": 0.0,
+      "cost_max_abs": 0.0,
+      "all_200_choices_identical": true
+    },
+    {
+      "method": "O-cand-obs",
+      "state_max_abs": 0.0,
+      "action_max_abs": 0.0,
+      "cost_max_abs": 0.0,
+      "all_200_choices_identical": true
+    }
+  ],
+  "population": "first original nominal Burgers parent; support validation only"
+}

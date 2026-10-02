@@ -1,0 +1,127 @@
+protocol: PDNO_JevLite_RTX5080_72H_frozen_v1
+status: FROZEN_WITH_PILOT_G2_FAIL
+frozen_at_kst: "2026-09-26T00:42:00+09:00"
+source_instruction: "C:/Users/WIN/Downloads/PDNO_JevLite_RTX5080_72H_실험지시서.md"
+domain: manufacturing_distributed_parameter_control
+autonomous_execution_means: research_workflow_autonomy
+budget:
+  total_wall_hours: 72
+  luna_evidence_deadline_hours: 62
+  reserved_astra_hours: 10
+  max_gpu_active_hours: 62
+  started_at_kst: "2026-09-25T23:09:10+09:00"
+  test_opened: false
+hardware:
+  required_gpu: NVIDIA_GeForce_RTX_5080
+  max_vram_gib_target: 13
+  max_host_rss_gib_target: 48
+  model_precision: FP32
+  compile: false
+numerics:
+  pde_primary: forced_periodic_burgers
+  pde_crosscheck: dirichlet_heat
+  model_grid: 128
+  truth_grid: 256
+  horizon_ticks: 8
+  simulation_dt_seconds: 0.02
+  action_held_constant_across_horizon: true
+  future_supervised_disturbance: 0
+  truth_projection: conservative_or_cell_center_contract_v2
+observation:
+  sensor_count: 16
+  history_ticks: 8
+  image_shape: [1, 16, 64]
+  event_available_only_if_capture_and_receive_at_or_before_decision: true
+  shared_frozen_neural_observer: true
+  observer_seed: 7
+  observer_max_updates: 1000
+  observer_validation_interval: 100
+splits:
+  unit: parent_episode
+  train_parents: {burgers: 512, heat: 256}
+  validation_parents: {burgers: 64, heat: 64}
+  calibration_parents: {burgers: 64, heat: 64}
+  locked_nominal_parents: {burgers: 384, heat: 384}
+  locked_coefficient_ood_parents: {burgers: 128, heat: 128}
+  locked_delay_dropout_parents: {burgers: 128, heat: 128}
+  train_queries_per_parent: 4
+  validation_queries_per_parent: 1
+  calibration_targets_generated_after_model_freeze: true
+  locked_test_targets_opened_once_after_calibration_lock: true
+models:
+  required: [B0, B1, B2, B3, B4, B5, P]
+  trained_seed_set: [11, 23, 37]
+  classic_baselines_use_same_parent_inputs_not_duplicate_training_seeds: true
+  candidates: 10
+  horizon: 8
+  b0: projected_modal_lqr
+  b1: finite_candidate_16_state_galerkin_rom
+  b2: frozen_shared_encoder_direct_bc_policy
+  b3: b2_warm_started_direct_policy_optimized_through_frozen_b4
+  b3_max_updates: 1000
+  b3_bc_penalty: 0.1
+  b4: shared_encoder_candidate_conditioned_pi_deeponet
+  b4_candidate_axis_gpu_batched: true
+  b5: same_action_factorized_operator_without_physics_or_balance_losses
+  p: action_factorized_pi_deeponet_quadratic_action_basis_p6_rank32
+  p_lambda_phys: 0.01
+  lambda_balance: 0.01
+  lambda_rank: 0.1
+training:
+  optimizer: AdamW
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  scheduler: cosine
+  gradient_norm_clip: 1.0
+  batch_size: 64
+  gradient_accumulation: 1
+  observer_max_updates: 1000
+  operator_field_warmup_max_updates: 2000
+  operator_physics_ranking_max_updates: 3000
+  b2_max_updates: 3000
+  b3_max_updates: 1000
+  validation_interval_updates: 100
+  early_stop_after_validation_evals_without_0_5_percent_improvement: 5
+  pde_collocation_points_per_sample: 32
+  pde_autograd_precision: FP32
+  residual_scale: train_only_fixed_per_pde
+  checkpoint_selection_score: 0.5*validation_field_nrmse+0.5*mean_train_iqr_normalized_teacher_regret
+  pilot_lambda_screen: [0.01, 0.1, 1.0]
+  pilot_lambda_screen_pde: burgers
+  pilot_lambda_screen_seed: 7
+  pilot_quality_gate_field_nrmse_max: 0.05
+  pilot_quality_gate_status: FAIL
+  gate_failure_action: preserve_required_models_and_report_no_positive_claim_without_revalidation
+cost:
+  tracking: horizon_mean_spatial_mean_squared_error
+  action_effort_weight: 0.01
+  action_slew_weight: 0.05
+  state_violation_weight: 10.0
+  state_limit: {burgers_abs_field: 1.2, heat_positive_upper_limit: 1.25_times_max_train_validation_steady_goal}
+calibration:
+  endpoint: per_parent_max_absolute_future_field_error
+  margin: empirical_95th_percentile_by_pde_and_model
+  action_selection_uses_margin: false
+  claim_scope: diagnostic_empirical_margin_not_a_uniform_or_ood_safety_guarantee
+locked_test:
+  once_only: true
+  no_training_or_configuration_changes_after_unlock: true
+  primary_metrics: [episode_control_cost, tracking_rmse, truth_constraint_violation, fallback_rate, field_nrmse, candidate_regret]
+  units: independent_parent_episode
+  paired_parent_bootstrap_replicates: 10000
+  report_each_seed: true
+latency:
+  request_batch: 1
+  hard_deadline_ms: 5
+  target_p99_ms: 2
+  sessions: 3
+  quantiles_ms: [50, 95, 99, 99.9]
+  include_host_prepare_transfer_inference_projection_return_copy: true
+  report_cpu_baseline_and_gpu_separately: true
+quality_review:
+  pilot_validation_result: evidence/full_data_pilot_v2.json
+  observation_floor_result: evidence/observation_interpolation_floor_v2.json
+  classical_baseline_result: evidence/classical_validation_pilot_v2.json
+  current_g2_gate: FAIL
+  root_cause: sparse_observation_reconstruction_floor_and_validation_generalization; no test-based tuning
+  claim_rule: do_not_claim_hypothesis_success_from_pilot_or_low_teacher_regret_alone

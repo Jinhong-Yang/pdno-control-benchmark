@@ -1,0 +1,37 @@
+{
+  "method": "B2",
+  "pde": "burgers",
+  "seed": 7,
+  "best_step": 100,
+  "validation_action_mse": 0.003497275100983188,
+  "actual_updates": 500,
+  "elapsed_seconds": 1.4516370999917854,
+  "history": [
+    {
+      "step": 100,
+      "train_action_mse": 0.0061272503808140755,
+      "validation_action_mse": 0.003497275100983188
+    },
+    {
+      "step": 200,
+      "train_action_mse": 0.00360826775431633,
+      "validation_action_mse": 0.003962852540780659
+    },
+    {
+      "step": 300,
+      "train_action_mse": 0.0029161013662815094,
+      "validation_action_mse": 0.0043607367403240005
+    },
+    {
+      "step": 400,
+      "train_action_mse": 0.0029334514401853085,
+      "validation_action_mse": 0.004454330552263741
+    },
+    {
+      "step": 500,
+      "train_action_mse": 0.003564469050616026,
+      "validation_action_mse": 0.004472703132350375
+    }
+  ],
+  "checkpoint": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\runs\\g2_pilot_v3\\burgers\\B2_s7.pt"
+}

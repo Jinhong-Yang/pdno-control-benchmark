@@ -1,0 +1,148 @@
+{
+  "status": "PASS",
+  "device": "cpu",
+  "cases": [
+    {
+      "pde": "burgers",
+      "method": "P",
+      "K": 10,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    },
+    {
+      "pde": "burgers",
+      "method": "P",
+      "K": 25,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    },
+    {
+      "pde": "burgers",
+      "method": "P",
+      "K": 50,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    },
+    {
+      "pde": "burgers",
+      "method": "P",
+      "K": 100,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    },
+    {
+      "pde": "burgers",
+      "method": "P",
+      "K": 200,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    },
+    {
+      "pde": "burgers",
+      "method": "B4",
+      "K": 10,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    },
+    {
+      "pde": "burgers",
+      "method": "B4",
+      "K": 25,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    },
+    {
+      "pde": "burgers",
+      "method": "B4",
+      "K": 50,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    },
+    {
+      "pde": "burgers",
+      "method": "B4",
+      "K": 100,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    },
+    {
+      "pde": "burgers",
+      "method": "B4",
+      "K": 200,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    },
+    {
+      "pde": "heat",
+      "method": "P",
+      "K": 10,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    },
+    {
+      "pde": "heat",
+      "method": "P",
+      "K": 25,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    },
+    {
+      "pde": "heat",
+      "method": "P",
+      "K": 50,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    },
+    {
+      "pde": "heat",
+      "method": "P",
+      "K": 100,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    },
+    {
+      "pde": "heat",
+      "method": "P",
+      "K": 200,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    },
+    {
+      "pde": "heat",
+      "method": "B4",
+      "K": 10,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    },
+    {
+      "pde": "heat",
+      "method": "B4",
+      "K": 25,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    },
+    {
+      "pde": "heat",
+      "method": "B4",
+      "K": 50,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    },
+    {
+      "pde": "heat",
+      "method": "B4",
+      "K": 100,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    },
+    {
+      "pde": "heat",
+      "method": "B4",
+      "K": 200,
+      "observations": 4,
+      "max_absolute_error": 0.0
+    }
+  ],
+  "cuda_test_required_before_timing": true,
+  "not_a_latency_benchmark": true
+}

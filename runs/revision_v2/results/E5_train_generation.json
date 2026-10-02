@@ -1,0 +1,80 @@
+{
+  "status": "TRAIN_VALIDATION_COMPLETE_TEST_NOT_GENERATED",
+  "seconds": 18.318362799996976,
+  "manifest_sha256": "a85f3aa7ee2fe0451df49baf0ca76cc508f04ba8ebce527b9ca99861db1214ea",
+  "initial_condition_source_sha256": "163ec7146769d125d4fbdc53adc97b3ad97668530ac103574130fdb17ef6b5bf",
+  "roles": [
+    {
+      "generator_version": "causal-observation-v5-200tick-locked-balanced-roles",
+      "observation_mapping_version": 2,
+      "outer_ticks": 128,
+      "role_assignment": "frozen manifest order; OOD low/high and heat step/no-step alternate exactly by role index",
+      "pde": "heat",
+      "split": "train",
+      "parent_count": 256,
+      "elapsed_seconds": 6.6807541999733075,
+      "seconds_per_parent": 0.026096696093645733,
+      "file": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\revision_v2\\data\\positive_heat\\train\\heat\\trajectories.npz",
+      "fields_shape": [
+        256,
+        129,
+        256
+      ],
+      "targets_generated": true
+    },
+    {
+      "generator_version": "causal-observation-v5-200tick-locked-balanced-roles",
+      "observation_mapping_version": 2,
+      "outer_ticks": 128,
+      "role_assignment": "frozen manifest order; OOD low/high and heat step/no-step alternate exactly by role index",
+      "pde": "heat",
+      "split": "validation",
+      "parent_count": 64,
+      "elapsed_seconds": 1.6782640000456013,
+      "seconds_per_parent": 0.02622287500071252,
+      "file": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\revision_v2\\data\\positive_heat\\validation\\heat\\trajectories.npz",
+      "fields_shape": [
+        64,
+        129,
+        256
+      ],
+      "targets_generated": true
+    }
+  ],
+  "queries": [
+    {
+      "pde": "heat",
+      "split": "train",
+      "parent_count": 256,
+      "query_count": 1024,
+      "snapshots_per_parent": 4,
+      "runtime_seconds": 4.1939756000065245,
+      "seconds_per_query": 0.0040956792968813716,
+      "generator_version": "v3-fresh-parent-split-signed-thermal-constraint",
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\revision_v2\\data\\positive_heat_queries\\train\\heat\\teacher_queries.npz",
+      "action_hold": "constant for horizon; first tick applied in closed loop",
+      "future_disturbance": "zero in supervised counterfactuals",
+      "candidate_count": 10,
+      "state_constraint": "Burgers symmetric; heat lower=0 and train/validation-frozen upper",
+      "targets_generated": true,
+      "locked_test_opened": false
+    },
+    {
+      "pde": "heat",
+      "split": "validation",
+      "parent_count": 64,
+      "query_count": 64,
+      "snapshots_per_parent": 1,
+      "runtime_seconds": 0.2875748000224121,
+      "seconds_per_query": 0.004493356250350189,
+      "generator_version": "v3-fresh-parent-split-signed-thermal-constraint",
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\revision_v2\\data\\positive_heat_queries\\validation\\heat\\teacher_queries.npz",
+      "action_hold": "constant for horizon; first tick applied in closed loop",
+      "future_disturbance": "zero in supervised counterfactuals",
+      "candidate_count": 10,
+      "state_constraint": "Burgers symmetric; heat lower=0 and train/validation-frozen upper",
+      "targets_generated": true,
+      "locked_test_opened": false
+    }
+  ]
+}

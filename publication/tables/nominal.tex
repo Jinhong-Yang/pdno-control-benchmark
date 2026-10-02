@@ -1,8 +1,8 @@
 \begin{table*}[t]
-\caption{Nominal closed-loop performance. Costs and tracking RMSE are parent means after averaging fitted seeds within each parent.}\label{tab:nominal}
+\caption{Original nominal parents: mean cost, tracking RMSE and excess cost relative to B0. Learned seeds are averaged within parent. Oracle rows reuse the original parents and are separate post-hoc diagnostics; State has privileged current truth and Observed uses B0 reconstruction. Original heat is distinct from the new heat population in Fig.~\ref{fig:control}.}\label{tab:nominal}
 \centering\small
 \begin{tabular}{@{}lrrrrrr@{}}\toprule
-& \multicolumn{3}{c}{Burgers} & \multicolumn{3}{c}{Heat}\\
+& \multicolumn{3}{c}{Burgers} & \multicolumn{3}{c}{Original heat}\\
 \cmidrule(lr){2-4}\cmidrule(l){5-7}
 Method & Cost & RMSE & $\Delta$ (\%) & Cost & RMSE & $\Delta$ (\%)\\\midrule
 B0 & 0.266473 & 0.032749 & +0.00 & 12.055011 & 0.194435 & +0.00\\
@@ -13,5 +13,7 @@ B4 & 0.340785 & 0.037201 & +27.89 & 13.700599 & 0.224151 & +13.65\\
 B5 & 0.341189 & 0.037221 & +28.04 & 13.706314 & 0.224296 & +13.70\\
 P-nr & 0.341181 & 0.037220 & +28.04 & 13.678660 & 0.223901 & +13.47\\
 P & 0.341189 & 0.037221 & +28.04 & 13.706313 & 0.224296 & +13.70\\
+Oracle: State & 0.341698 & 0.037153 & +28.23 & 13.572635 & 0.222604 & +12.59\\
+Oracle: Observed & 0.346007 & 0.037353 & +29.85 & 13.586433 & 0.222918 & +12.70\\
 \bottomrule\end{tabular}
 \end{table*}

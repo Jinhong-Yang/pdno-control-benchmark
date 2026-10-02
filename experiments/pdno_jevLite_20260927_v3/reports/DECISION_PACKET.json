@@ -1,0 +1,367 @@
+{
+  "schema": "PDNO_v3_final_independent_decision_1.0",
+  "analysis_task_id": "01a0e439-093f-7601-8a7d-6e8929a7ced4",
+  "domain": "synthetic manufacturing distributed-parameter PDE low-latency control",
+  "outcome": "NO_GO_V3_PROPOSED_CLAIM",
+  "outcome_scope": "Implemented frozen benchmark; not universal method failure or full original-protocol confirmation",
+  "draft_status": "COMPLETE_MANUSCRIPT_DRAFT_FOR_HUMAN_REVIEW",
+  "submission_status": "HOLD_NOT_SUBMITTED",
+  "authors": "AUTHOR_INPUT_REQUIRED",
+  "primary_reasons": [
+    "G2_FAIL_RETAINED",
+    "H1_25_PERCENT_TARGET_NOT_MET",
+    "H2_CONTROL_BENEFIT_NOT_SUPPORTED",
+    "H3_IMPLEMENTED_COST_NONINFERIORITY_FAILED",
+    "STRONG_SIMPLE_BASELINE_B0",
+    "SAFETY_AND_SCHEDULED_REAL_TIME_NOT_ESTABLISHED"
+  ],
+  "hypotheses": {
+    "G2": {
+      "status": "FAIL_RETAINED",
+      "predictor_count": 24,
+      "fail_count": 24,
+      "threshold_nrmse": 0.05
+    },
+    "H1": {
+      "status": "MEANINGFUL_TARGET_NOT_MET",
+      "target_p99_ratio_max": 0.75,
+      "registered_results": [
+        {
+          "bootstrap_replicates": 10000,
+          "comparison": "P/B4 host-ready p99 ratio; <1 favors P",
+          "hierarchical_seed_session_bootstrap_ci95": [
+            0.9786750183037668,
+            0.9928970228848052
+          ],
+          "interpretation": "descriptive with seed/session uncertainty; sessions are not independent environments",
+          "learned_seeds": 3,
+          "mean_per_seed_ratio": 0.9859115128190182,
+          "pde": "burgers",
+          "per_seed_p99_ratio": {
+            "11": 0.9840465606760314,
+            "23": 0.9831487815718785,
+            "37": 0.9905391962091449
+          },
+          "sessions": 3
+        },
+        {
+          "bootstrap_replicates": 10000,
+          "comparison": "P/B4 host-ready p99 ratio; <1 favors P",
+          "hierarchical_seed_session_bootstrap_ci95": [
+            0.9849270197970985,
+            1.0016314919169
+          ],
+          "interpretation": "descriptive with seed/session uncertainty; sessions are not independent environments",
+          "learned_seeds": 3,
+          "mean_per_seed_ratio": 0.9929645585620724,
+          "pde": "heat",
+          "per_seed_p99_ratio": {
+            "11": 0.9856865060499939,
+            "23": 1.0028600061489445,
+            "37": 0.9903471634872792
+          },
+          "sessions": 3
+        }
+      ]
+    },
+    "H2": {
+      "status": "NOT_SUPPORTED_FOR_IMPLEMENTED_CONTROL",
+      "P_B5_registered_pairs": [
+        {
+          "role": "locked_nominal",
+          "pde": "burgers",
+          "paired_parent_bootstrap": {
+            "ci95_percentile": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0,
+            "replicates": 10000
+          }
+        },
+        {
+          "role": "locked_nominal",
+          "pde": "heat",
+          "paired_parent_bootstrap": {
+            "ci95_percentile": [
+              -8.61458525809137e-06,
+              6.862739512521661e-06
+            ],
+            "mean": -1.77975247002878e-07,
+            "replicates": 10000
+          }
+        },
+        {
+          "role": "locked_coefficient_ood",
+          "pde": "burgers",
+          "paired_parent_bootstrap": {
+            "ci95_percentile": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0,
+            "replicates": 10000
+          }
+        },
+        {
+          "role": "locked_coefficient_ood",
+          "pde": "heat",
+          "paired_parent_bootstrap": {
+            "ci95_percentile": [
+              0.0,
+              2.024473752217093e-05
+            ],
+            "mean": 6.748245840723643e-06,
+            "replicates": 10000
+          }
+        },
+        {
+          "role": "locked_delay_dropout",
+          "pde": "burgers",
+          "paired_parent_bootstrap": {
+            "ci95_percentile": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0,
+            "replicates": 10000
+          }
+        },
+        {
+          "role": "locked_delay_dropout",
+          "pde": "heat",
+          "paired_parent_bootstrap": {
+            "ci95_percentile": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0,
+            "replicates": 10000
+          }
+        }
+      ],
+      "independent_test_physics_residual": "NOT_MEASURED"
+    },
+    "H3": {
+      "status": "IMPLEMENTED_COST_NONINFERIORITY_FAILED",
+      "comparator": "B0",
+      "cost_margin": 0.05,
+      "violation_margin": 0.01,
+      "estimand": "Difference of parent-averaged means divided by fixed observed comparator mean",
+      "original_parentwise_floor_estimand": "NOT_REPRODUCED_AS_EXECUTED",
+      "results": [
+        {
+          "role": "locked_nominal",
+          "pde": "burgers",
+          "comparator_only_violation": 0,
+          "method_only_violation": 0,
+          "normalized_cost_difference_ci95": [
+            0.23550975075586966,
+            0.32872868455597754
+          ],
+          "normalized_cost_difference_mean": 0.2803926804718251,
+          "paired_both_violate": 0,
+          "paired_neither_violate": 384,
+          "parent_count": 384,
+          "violation_rate_difference_ci95": [
+            0.0,
+            0.0
+          ],
+          "violation_rate_difference_mean": 0.0
+        },
+        {
+          "role": "locked_nominal",
+          "pde": "heat",
+          "comparator_only_violation": 0,
+          "method_only_violation": 0,
+          "normalized_cost_difference_ci95": [
+            0.12930612085453388,
+            0.14490742684800184
+          ],
+          "normalized_cost_difference_mean": 0.13698054907775367,
+          "paired_both_violate": 351,
+          "paired_neither_violate": 33,
+          "parent_count": 384,
+          "violation_rate_difference_ci95": [
+            0.0,
+            0.0
+          ],
+          "violation_rate_difference_mean": 0.0
+        },
+        {
+          "role": "locked_coefficient_ood",
+          "pde": "burgers",
+          "comparator_only_violation": 0,
+          "method_only_violation": 0,
+          "normalized_cost_difference_ci95": [
+            0.2601310466099916,
+            0.5148306698555758
+          ],
+          "normalized_cost_difference_mean": 0.38232719928169834,
+          "paired_both_violate": 0,
+          "paired_neither_violate": 128,
+          "parent_count": 128,
+          "violation_rate_difference_ci95": [
+            0.0,
+            0.0
+          ],
+          "violation_rate_difference_mean": 0.0
+        },
+        {
+          "role": "locked_coefficient_ood",
+          "pde": "heat",
+          "comparator_only_violation": 0,
+          "method_only_violation": 0,
+          "normalized_cost_difference_ci95": [
+            0.2497855713661296,
+            0.28957531096645833
+          ],
+          "normalized_cost_difference_mean": 0.26963472241125824,
+          "paired_both_violate": 114,
+          "paired_neither_violate": 14,
+          "parent_count": 128,
+          "violation_rate_difference_ci95": [
+            0.0,
+            0.0
+          ],
+          "violation_rate_difference_mean": 0.0
+        },
+        {
+          "role": "locked_delay_dropout",
+          "pde": "burgers",
+          "comparator_only_violation": 0,
+          "method_only_violation": 0,
+          "normalized_cost_difference_ci95": [
+            0.18751243575831722,
+            0.32041338327487484
+          ],
+          "normalized_cost_difference_mean": 0.2502689378935464,
+          "paired_both_violate": 0,
+          "paired_neither_violate": 128,
+          "parent_count": 128,
+          "violation_rate_difference_ci95": [
+            0.0,
+            0.0
+          ],
+          "violation_rate_difference_mean": 0.0
+        },
+        {
+          "role": "locked_delay_dropout",
+          "pde": "heat",
+          "comparator_only_violation": 0,
+          "method_only_violation": 0,
+          "normalized_cost_difference_ci95": [
+            0.09809200839490895,
+            0.11106200173975174
+          ],
+          "normalized_cost_difference_mean": 0.10445867461007102,
+          "paired_both_violate": 115,
+          "paired_neither_violate": 13,
+          "parent_count": 128,
+          "violation_rate_difference_ci95": [
+            0.0,
+            0.0
+          ],
+          "violation_rate_difference_mean": 0.0
+        }
+      ],
+      "violation_interval_warning": "Degenerate paired bootstrap [0,0] does not establish population zero risk."
+    },
+    "H4": {
+      "status": "NOT_EVALUATED",
+      "reason": "No no-age ablation"
+    }
+  },
+  "risk": {
+    "conditional_harm": null,
+    "conditional_harm_status": "NOT_ESTIMABLE_NO_ACCEPTANCE_GATE",
+    "calibration_groups": 26,
+    "calibration_changes_actions": false,
+    "guaranteed_safety": false,
+    "heat_endpoint_saturated_at_first_step": true
+  },
+  "status_dimensions": {
+    "data_access": "COMPLETED_FROZEN_SYNTHETIC_V3_REVIEW_V2_PARTIAL_OUTCOMES_NOT_OPENED",
+    "physics_contract": "LIMITED_FIXTURES_PASS_HEAT_ENDPOINT_AND_CONTINUUM_LIMITS",
+    "implementation": "REQUIRED_COMPARATORS_COMPLETE_ORIGINAL_PROTOCOL_GAPS_DISCLOSED",
+    "optimization": "G2_FAIL_SUFFICIENCY_UNESTABLISHED",
+    "scientific_effect": "NEGATIVE_IMPLEMENTED_ENDPOINTS_SAFETY_INCONCLUSIVE",
+    "reproducibility": "RAW_HASH_AND_ARITHMETIC_AUDITED_HISTORICAL_GPU_HOURS_UNKNOWN"
+  },
+  "validation": {
+    "numerical_checks": 1694,
+    "numerical_failures": 0,
+    "frozen_entries_checked": 1072,
+    "entry_administrative_hash_differences": 2,
+    "frozen_raw_artifacts_verified": 360,
+    "new_experiment_runs": 0
+  },
+  "runtime_metadata": "reports/RUNTIME_METADATA.json",
+  "frozen_evidence_hashes": [
+    {
+      "path": "evidence/raw_evidence_freeze_v3.json",
+      "sha256": "2fc83da6f7c577d09d1c75ce44e276726a6705383e074974f94d9f321a3eea41"
+    },
+    {
+      "path": "evidence/locked_test_analysis_v3.json",
+      "sha256": "28f32812b8e1593da0a8a6f54bafc69460a0712a08e1bbc7991aa840308df3e9"
+    },
+    {
+      "path": "evidence/latency_summary_v3.json",
+      "sha256": "98555f0a22937792548b6826ea8542f3135858334fa83ebfa844d07666ced4bb"
+    },
+    {
+      "path": "evidence/latency_analysis_v3.json",
+      "sha256": "f46114814f3f0b59dc27659336c73d9b8ade9d87c0cb62b30022aad879d584f4"
+    },
+    {
+      "path": "evidence/confirmatory_checkpoint_manifest_v3.json",
+      "sha256": "c1fa3e36b0750b1c5f0a9be0132b85c3df7764b4b493938ac4ff2b364bbb1007"
+    },
+    {
+      "path": "evidence/calibration_lock_v3.json",
+      "sha256": "b8afd86d16cc1ed8cbaf31505673af942ec4446aedd44766dc8b4dd5f77e6d13"
+    },
+    {
+      "path": "config/final_spec_v3.json",
+      "sha256": "afc57e2be4d9af716c7c43ba53c3a51ccaac0a1843c8bc9363ad00b2362a8902"
+    },
+    {
+      "path": "evidence/cuda_runtime_assessment_v3.json",
+      "sha256": "f20a168cb1f8bcb9556384cf9738feba8e674f14becaa22028366ae164bb5d72"
+    },
+    {
+      "path": "evidence/cuda_runtime_assessment_v3_corrected.json",
+      "sha256": "f3b5d28f8e02b18143a8f508e9c5001ed4a93a8ef273d5a1cd979154bf214a6d"
+    },
+    {
+      "path": "AUTHOR_INPUT_REQUIRED.md",
+      "sha256": "8f9aebddd60504a5e369813e1353c494a7e90b76d00e85816d19a26408273a86"
+    }
+  ],
+  "limitations": [
+    "Synthetic 1D environments; no plant/PLC/HIL",
+    "Unequal temporal feature utilization",
+    "Failed field gate; optimization sufficiency not established",
+    "Heat initial conditions often violate nonnegative constraint",
+    "No acceptance gate or conditional-harm estimate",
+    "Original cost-normalization and checkpoint-YAML mismatch",
+    "No scheduled/contention or latency-aware closed-loop result",
+    "50 warmups and no original extended-tail stabilization",
+    "Three fitted seeds and sequential sessions, one machine",
+    "No independent test PDE residual/balance endpoint",
+    "Earlier E2E loader repair changed source relative to pretest freeze",
+    "Supplied post-freeze CUDA diagnostic label collision corrected separately",
+    "Event spans do not establish GPU compute occupancy",
+    "Historical GPU-active hours and prior executor model unknown",
+    "Author information/declarations unresolved"
+  ],
+  "next_action": "Human review of bounded negative-result manuscript; any new science or runtime optimization requires a separate prospectively frozen version. Do not rerun v3.",
+  "actions_not_taken": [
+    "No frozen-artifact edits",
+    "No training, calibration generation, solver execution, test rerun or CUDA optimization benchmark",
+    "No external upload, submission, author invention, signature, payment or contact"
+  ],
+  "claim_table": "reports/claim_evidence.csv",
+  "claim_rows": 183
+}

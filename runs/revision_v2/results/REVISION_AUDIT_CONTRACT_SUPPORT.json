@@ -1,0 +1,49 @@
+{
+  "status": "PASS_SYNTHETIC_CPU_SUPPORT_ONLY",
+  "cases": [
+    {
+      "case": "complete synthetic status set accepted",
+      "pass": true
+    },
+    {
+      "case": "existing but incomplete receipt rejected",
+      "pass": true
+    },
+    {
+      "case": "duplicate training condition rejected",
+      "pass": true
+    },
+    {
+      "case": "all sixty independent E5 fixture keys accepted",
+      "pass": true
+    },
+    {
+      "case": "same count with wrong PDE rejected",
+      "pass": true
+    },
+    {
+      "case": "same count with duplicated missing condition rejected",
+      "pass": true
+    },
+    {
+      "case": "all failed field gates legitimately yield zero E3 outcomes",
+      "pass": true
+    },
+    {
+      "case": "exact field gate boundary yields three matching role arrays",
+      "pass": true
+    },
+    {
+      "case": "gate passing model with missing evaluation rejected",
+      "pass": true
+    },
+    {
+      "case": "E1 factorial and ten new E4 cells exclude original baseline",
+      "pass": true
+    }
+  ],
+  "case_count": 10,
+  "gpu_operations": 0,
+  "source_sha256": "3de0822ba0dd30676bed79cd19e82225e34c030a3c99ce401325e04425ec50b0",
+  "limits": "Synthetic keys/statuses only. Final scientific arrays, full checkpoint seals and outcome arithmetic remain subject to the complete revision audit."
+}

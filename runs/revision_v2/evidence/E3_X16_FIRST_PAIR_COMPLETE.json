@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-10-02T06:34:31.236014+00:00",
+  "status": "COMPLETED_X16_SEED11_PAIR_NOT_FINAL_E3_GATE",
+  "completed_fits_at_observation": 17,
+  "required_fits": 21,
+  "rows": [
+    {
+      "condition": "burgers_x16_P_s11",
+      "actual_updates": 15000,
+      "selected_update": 14500,
+      "field_nrmse": 0.10909414291381836,
+      "wall_seconds": 898.4956639999873,
+      "summary": "runs/revision_v2/checkpoints/E3/burgers_x16_P_s11.summary.json",
+      "summary_sha256": "02b5ee82a71261c95039faff3e940b222418d99fa61f4433a6d8ee7fbe0a64a7"
+    },
+    {
+      "condition": "burgers_x16_B4_s11",
+      "actual_updates": 17000,
+      "selected_update": 14500,
+      "field_nrmse": 0.10804809629917145,
+      "wall_seconds": 1055.7542314000311,
+      "summary": "runs/revision_v2/checkpoints/E3/burgers_x16_B4_s11.summary.json",
+      "summary_sha256": "281b07aeccb237113f1ad8a4774c59985984286b87e9e3e924fd89cb2da3515d"
+    }
+  ],
+  "limits": "Only first factor16 seed pair complete. Formal18operator gate waits for all21fits and seal; no final architecture/scaling or closed-loop conclusion."
+}

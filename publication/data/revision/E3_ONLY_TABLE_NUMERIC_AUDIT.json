@@ -1,0 +1,375 @@
+{
+  "status": "PASS_E3_ONLY_TABLE_TRANSCRIPTION",
+  "tables": 3,
+  "rows": 18,
+  "displayed_values_checked": 72,
+  "checks": [
+    {
+      "location": "('E3', '1', 'B4', '11')/actual",
+      "displayed": "18500",
+      "expected": "18500"
+    },
+    {
+      "location": "('E3', '1', 'B4', '11')/selected",
+      "displayed": "18500",
+      "expected": "18500"
+    },
+    {
+      "location": "('E3', '1', 'B4', '11')/field_nrmse",
+      "displayed": "0.0829",
+      "expected": "0.0829"
+    },
+    {
+      "location": "('E3', '1', 'B4', '11')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '1', 'B4', '23')/actual",
+      "displayed": "15000",
+      "expected": "15000"
+    },
+    {
+      "location": "('E3', '1', 'B4', '23')/selected",
+      "displayed": "15000",
+      "expected": "15000"
+    },
+    {
+      "location": "('E3', '1', 'B4', '23')/field_nrmse",
+      "displayed": "0.0884",
+      "expected": "0.0884"
+    },
+    {
+      "location": "('E3', '1', 'B4', '23')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '1', 'B4', '37')/actual",
+      "displayed": "15000",
+      "expected": "15000"
+    },
+    {
+      "location": "('E3', '1', 'B4', '37')/selected",
+      "displayed": "14500",
+      "expected": "14500"
+    },
+    {
+      "location": "('E3', '1', 'B4', '37')/field_nrmse",
+      "displayed": "0.0890",
+      "expected": "0.0890"
+    },
+    {
+      "location": "('E3', '1', 'B4', '37')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '1', 'P', '11')/actual",
+      "displayed": "12000",
+      "expected": "12000"
+    },
+    {
+      "location": "('E3', '1', 'P', '11')/selected",
+      "displayed": "11500",
+      "expected": "11500"
+    },
+    {
+      "location": "('E3', '1', 'P', '11')/field_nrmse",
+      "displayed": "0.0982",
+      "expected": "0.0982"
+    },
+    {
+      "location": "('E3', '1', 'P', '11')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '1', 'P', '23')/actual",
+      "displayed": "14000",
+      "expected": "14000"
+    },
+    {
+      "location": "('E3', '1', 'P', '23')/selected",
+      "displayed": "14000",
+      "expected": "14000"
+    },
+    {
+      "location": "('E3', '1', 'P', '23')/field_nrmse",
+      "displayed": "0.0972",
+      "expected": "0.0972"
+    },
+    {
+      "location": "('E3', '1', 'P', '23')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '1', 'P', '37')/actual",
+      "displayed": "18000",
+      "expected": "18000"
+    },
+    {
+      "location": "('E3', '1', 'P', '37')/selected",
+      "displayed": "17500",
+      "expected": "17500"
+    },
+    {
+      "location": "('E3', '1', 'P', '37')/field_nrmse",
+      "displayed": "0.0885",
+      "expected": "0.0885"
+    },
+    {
+      "location": "('E3', '1', 'P', '37')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '4', 'B4', '11')/actual",
+      "displayed": "14500",
+      "expected": "14500"
+    },
+    {
+      "location": "('E3', '4', 'B4', '11')/selected",
+      "displayed": "14500",
+      "expected": "14500"
+    },
+    {
+      "location": "('E3', '4', 'B4', '11')/field_nrmse",
+      "displayed": "0.1056",
+      "expected": "0.1056"
+    },
+    {
+      "location": "('E3', '4', 'B4', '11')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '4', 'B4', '23')/actual",
+      "displayed": "19500",
+      "expected": "19500"
+    },
+    {
+      "location": "('E3', '4', 'B4', '23')/selected",
+      "displayed": "19000",
+      "expected": "19000"
+    },
+    {
+      "location": "('E3', '4', 'B4', '23')/field_nrmse",
+      "displayed": "0.1025",
+      "expected": "0.1025"
+    },
+    {
+      "location": "('E3', '4', 'B4', '23')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '4', 'B4', '37')/actual",
+      "displayed": "19500",
+      "expected": "19500"
+    },
+    {
+      "location": "('E3', '4', 'B4', '37')/selected",
+      "displayed": "19500",
+      "expected": "19500"
+    },
+    {
+      "location": "('E3', '4', 'B4', '37')/field_nrmse",
+      "displayed": "0.1010",
+      "expected": "0.1010"
+    },
+    {
+      "location": "('E3', '4', 'B4', '37')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '4', 'P', '11')/actual",
+      "displayed": "16500",
+      "expected": "16500"
+    },
+    {
+      "location": "('E3', '4', 'P', '11')/selected",
+      "displayed": "14500",
+      "expected": "14500"
+    },
+    {
+      "location": "('E3', '4', 'P', '11')/field_nrmse",
+      "displayed": "0.1065",
+      "expected": "0.1065"
+    },
+    {
+      "location": "('E3', '4', 'P', '11')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '4', 'P', '23')/actual",
+      "displayed": "15500",
+      "expected": "15500"
+    },
+    {
+      "location": "('E3', '4', 'P', '23')/selected",
+      "displayed": "15500",
+      "expected": "15500"
+    },
+    {
+      "location": "('E3', '4', 'P', '23')/field_nrmse",
+      "displayed": "0.1067",
+      "expected": "0.1067"
+    },
+    {
+      "location": "('E3', '4', 'P', '23')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '4', 'P', '37')/actual",
+      "displayed": "16500",
+      "expected": "16500"
+    },
+    {
+      "location": "('E3', '4', 'P', '37')/selected",
+      "displayed": "15000",
+      "expected": "15000"
+    },
+    {
+      "location": "('E3', '4', 'P', '37')/field_nrmse",
+      "displayed": "0.1061",
+      "expected": "0.1061"
+    },
+    {
+      "location": "('E3', '4', 'P', '37')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '16', 'B4', '11')/actual",
+      "displayed": "17000",
+      "expected": "17000"
+    },
+    {
+      "location": "('E3', '16', 'B4', '11')/selected",
+      "displayed": "14500",
+      "expected": "14500"
+    },
+    {
+      "location": "('E3', '16', 'B4', '11')/field_nrmse",
+      "displayed": "0.1080",
+      "expected": "0.1080"
+    },
+    {
+      "location": "('E3', '16', 'B4', '11')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '16', 'B4', '23')/actual",
+      "displayed": "15500",
+      "expected": "15500"
+    },
+    {
+      "location": "('E3', '16', 'B4', '23')/selected",
+      "displayed": "15000",
+      "expected": "15000"
+    },
+    {
+      "location": "('E3', '16', 'B4', '23')/field_nrmse",
+      "displayed": "0.1072",
+      "expected": "0.1072"
+    },
+    {
+      "location": "('E3', '16', 'B4', '23')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '16', 'B4', '37')/actual",
+      "displayed": "16500",
+      "expected": "16500"
+    },
+    {
+      "location": "('E3', '16', 'B4', '37')/selected",
+      "displayed": "15500",
+      "expected": "15500"
+    },
+    {
+      "location": "('E3', '16', 'B4', '37')/field_nrmse",
+      "displayed": "0.1061",
+      "expected": "0.1061"
+    },
+    {
+      "location": "('E3', '16', 'B4', '37')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '16', 'P', '11')/actual",
+      "displayed": "15000",
+      "expected": "15000"
+    },
+    {
+      "location": "('E3', '16', 'P', '11')/selected",
+      "displayed": "14500",
+      "expected": "14500"
+    },
+    {
+      "location": "('E3', '16', 'P', '11')/field_nrmse",
+      "displayed": "0.1091",
+      "expected": "0.1091"
+    },
+    {
+      "location": "('E3', '16', 'P', '11')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '16', 'P', '23')/actual",
+      "displayed": "15500",
+      "expected": "15500"
+    },
+    {
+      "location": "('E3', '16', 'P', '23')/selected",
+      "displayed": "15500",
+      "expected": "15500"
+    },
+    {
+      "location": "('E3', '16', 'P', '23')/field_nrmse",
+      "displayed": "0.1086",
+      "expected": "0.1086"
+    },
+    {
+      "location": "('E3', '16', 'P', '23')/gate",
+      "displayed": "No",
+      "expected": "No"
+    },
+    {
+      "location": "('E3', '16', 'P', '37')/actual",
+      "displayed": "16500",
+      "expected": "16500"
+    },
+    {
+      "location": "('E3', '16', 'P', '37')/selected",
+      "displayed": "16000",
+      "expected": "16000"
+    },
+    {
+      "location": "('E3', '16', 'P', '37')/field_nrmse",
+      "displayed": "0.1075",
+      "expected": "0.1075"
+    },
+    {
+      "location": "('E3', '16', 'P', '37')/gate",
+      "displayed": "No",
+      "expected": "No"
+    }
+  ],
+  "sha256": {
+    "data\\revision\\E3_TRAINING_CURVES.csv": "f5a844d352a8ee33f5ea3d85f64a8db42b9d2fcbecb0b8bc332889e2774e3878",
+    "data\\revision\\E3_TRAINING_EXPORT.json": "8e0f283813e3e72711a8b27526d67e3f00869ff9e6ea87df91f7cefd61476c48",
+    "data\\revision\\E3_TRAINING_SELECTION.csv": "cfcdf00e38a8caefda1f6c5dab764ada4cb2da22203d94b9334e5b858fce2ba0",
+    "tables\\revision_scaling_selection.tex": "cbf767002bf82721c38fe54cb240daac85de0d1ba59ac23d297d3f7514e6e6d6"
+  },
+  "limits": "Keyed summary-to-table identities, aggregation and rounding only. No raw recomputation, confidence-interval methodology, prose/main-paper numeric coverage or PDF review."
+}

@@ -1,0 +1,175 @@
+{
+  "status": "PASS_FRESH_CPU_ENVIRONMENT_LOCAL_ARCHIVES",
+  "tested_source_manifest_sha256": "9b8e7f39c8599cdb96c91556d83caf06fabca6d28a80d040464aa99e84f7df4b",
+  "identical_reviewed_source_file_count": 1327,
+  "environment": {
+    "python": "3.11.9",
+    "torch": "2.12.0+cpu",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "matplotlib": "3.11.2"
+  },
+  "checks": {
+    "cpu_tests": 47,
+    "regenerated_figures": 14,
+    "main_and_completed_table_values": 1150,
+    "timing_table_values": 860,
+    "revision_training_table_values": 1259,
+    "original_checkpoint_cases": 12,
+    "revision_checkpoints": 50,
+    "raw_checks": 3812,
+    "revision_interval_rows": 72,
+    "revision_interval_values": 360,
+    "identical_csv_exports": 10
+  },
+  "commands": [
+    {
+      "name": "environment",
+      "arguments": [
+        "-c",
+        "import json,sys,torch,numpy,scipy,matplotlib,pdno; print(json.dumps({'python':sys.version,'executable':sys.executable,'torch':torch.__version__,'cuda_available':torch.cuda.is_available(),'numpy':numpy.__version__,'scipy':scipy.__version__,'matplotlib':matplotlib.__version__,'pdno_file':pdno.__file__})); assert not torch.cuda.is_available()"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "cpu_tests",
+      "arguments": [
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "tables",
+      "arguments": [
+        "publication/scripts/build_tables.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "revision_tables",
+      "arguments": [
+        "publication/scripts/audit_revision_training_tables.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "figures",
+      "arguments": [
+        "publication/scripts/build_figures.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "original_checkpoints",
+      "arguments": [
+        "runs/revision_v2/tests/check_checkpoint_relocation.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "revision_checkpoints",
+      "arguments": [
+        "runs/revision_v2/tests/check_revision_checkpoint_relocation.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "raw_audit",
+      "arguments": [
+        "runs/revision_v2/scripts/audit_revision_raw.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "interval_audit",
+      "arguments": [
+        "runs/revision_v2/scripts/audit_revision_intervals.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "heat_seal",
+      "arguments": [
+        "runs/revision_v2/scripts/audit_e5_policy_freeze.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "training_export",
+      "arguments": [
+        "runs/revision_v2/scripts/export_training_evidence.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "timing_summary",
+      "arguments": [
+        "runs/revision_v2/scripts/summarize_e2.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "control_summary",
+      "arguments": [
+        "runs/revision_v2/scripts/summarize_revision.py"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "csv_reproduction": {
+    "REVISION_TRAINING_SELECTION.csv": {
+      "before": "7510cf96d86f80ecc0698aaeb49e8f964d4cc683b2925758513ea26f26fdffe9",
+      "after": "7510cf96d86f80ecc0698aaeb49e8f964d4cc683b2925758513ea26f26fdffe9",
+      "equal": true
+    },
+    "REVISION_TRAINING_CURVES.csv": {
+      "before": "909aac5bf11b1e4a8cc1f1dac0da6a90ff3c56bbd1eaf169e238ec3af83abf34",
+      "after": "909aac5bf11b1e4a8cc1f1dac0da6a90ff3c56bbd1eaf169e238ec3af83abf34",
+      "equal": true
+    },
+    "E2_per_session.csv": {
+      "before": "1440c2e6ad86b563d611191dfa27584fb2e90c1fa6c5cf1942791421d6992270",
+      "after": "1440c2e6ad86b563d611191dfa27584fb2e90c1fa6c5cf1942791421d6992270",
+      "equal": true
+    },
+    "E2_per_seed.csv": {
+      "before": "7e67cf613f1f54fdf4b622759d5df95fc11ecc2eae1cd83af84e167aef1c866d",
+      "after": "7e67cf613f1f54fdf4b622759d5df95fc11ecc2eae1cd83af84e167aef1c866d",
+      "equal": true
+    },
+    "E2_pooled.csv": {
+      "before": "3e57cf886f5cfadd7a01805c7749c687446c20fda7dd2ffd89920583782de907",
+      "after": "3e57cf886f5cfadd7a01805c7749c687446c20fda7dd2ffd89920583782de907",
+      "equal": true
+    },
+    "E2_ratio_bootstrap.csv": {
+      "before": "044aec3379f660f636203404946e34648388ab3dd1ee3fa740e97d0a7c7dfc3b",
+      "after": "044aec3379f660f636203404946e34648388ab3dd1ee3fa740e97d0a7c7dfc3b",
+      "equal": true
+    },
+    "E2_stage_profile.csv": {
+      "before": "e5b437450d2a4f61d6bc8723df72153313d16615b20f4b45fb2d7e4e9a53ebf4",
+      "after": "e5b437450d2a4f61d6bc8723df72153313d16615b20f4b45fb2d7e4e9a53ebf4",
+      "equal": true
+    },
+    "E2_latency_histograms.csv": {
+      "before": "8aec3835066961335edc970fbcd6411b52426796f1be938d932b187ee31b9765",
+      "after": "8aec3835066961335edc970fbcd6411b52426796f1be938d932b187ee31b9765",
+      "equal": true
+    },
+    "REVISION_COST_SUMMARY.csv": {
+      "before": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741",
+      "after": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741",
+      "equal": true
+    },
+    "E4_ACTION_AGREEMENT.csv": {
+      "before": "b0a3eb28a137bfefd6257e8b603b122a6a39bb1251a44a3b4c5708a70bf995d8",
+      "after": "b0a3eb28a137bfefd6257e8b603b122a6a39bb1251a44a3b4c5708a70bf995d8",
+      "equal": true
+    }
+  },
+  "archive_manifest_sha256": "52b46e52cf2f461af91ac866e990e5fde987f2337ca3d828268e0df2bcab7e55",
+  "limits": "Fresh CPU environment with locally built archives. Not an actual downloaded-release check, fresh GPU experiment, statistical guarantee, or author approval."
+}

@@ -1,0 +1,14 @@
+{
+  "elapsed_seconds": 339.5368255000212,
+  "episode_ticks": 200,
+  "method": "B3",
+  "paired_parent_unit": true,
+  "parent_count": 128,
+  "pde": "burgers",
+  "q_max_heat_train_validation_only": null,
+  "raw_sha256": "3fb6f02f1bf233710d4d7ba37dfe1e7ac424e036f467a2767ff1cc60fcdff1e6",
+  "role": "locked_delay_dropout",
+  "seed": 23,
+  "status": "SHARD_COMPLETE",
+  "test_opened": true
+}

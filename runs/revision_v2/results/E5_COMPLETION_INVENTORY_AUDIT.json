@@ -1,0 +1,313 @@
+{
+  "status": "PASS_E5_COMPLETION_INVENTORY_HASHES_AND_PARENT_ALIGNMENT",
+  "utc": "2026-10-02T09:26:03.330693+00:00",
+  "conditions": 20,
+  "raw_arrays": 60,
+  "episode_executions": 12800,
+  "distinct_test_parents": 640,
+  "evaluation_process_wall_seconds": 2465.765924600011,
+  "evaluation_receipt_sha256": "259781ccb4af83191e604b301135224871cdbe40b7570d347a8dff3b304c5430",
+  "rows": [
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\B0_sna.npz",
+      "sha256": "0e8705313e7fb56bcdd82bd1360def58b1e7046a488c636c7c10d6c9ed064cc3",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\B1_sna.npz",
+      "sha256": "69cefdbe2a09e2ea86b09bb264eaab762bd8b813e65c0f85d1aa7c38276a5f24",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\B2_s11.npz",
+      "sha256": "b8f80efcdacac101bf8f55c3e860866a8063e712cc3ae01055abed594e0aa21a",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\B2_s23.npz",
+      "sha256": "56dd22ca8ebfd24e827979ae6189155a3c433cb8e02c5489c5389c5178efcc1d",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\B2_s37.npz",
+      "sha256": "a35d6eac0ddeed11c858b91b09010e7006ad5e9f4b9b892b1491c57e37785275",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\B3_s11.npz",
+      "sha256": "b4e97f2d9091f9b5b6e57ece948c926e15814d8a2f56d3c0487a5325e730c235",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\B3_s23.npz",
+      "sha256": "5c8b137a0e711a5b66c5138cd13b8e497b69a94fbc55e02b3ed0a0cb1977f5ee",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\B3_s37.npz",
+      "sha256": "f821fd13a713202165c22512884c039b441106b68bf1e26ffa6795f1410d0550",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\B4_s11.npz",
+      "sha256": "56a110f50b1c1f8be4780244f174e9d87f919bab44b7a4860b22b6f02925d2c7",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\B4_s23.npz",
+      "sha256": "8d950419a8ffc3442128ffe58e016ec65c19948394c2430020777301c1912f61",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\B4_s37.npz",
+      "sha256": "aa3e57c514d6a3ed8fa8de78da442745d161ac5a79d8439b49ffac00e635ffe4",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\B5_s11.npz",
+      "sha256": "70a1dda02641762d89e5d45cd7226a1f363a6be89c567845945490505496f66e",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\B5_s23.npz",
+      "sha256": "2698cfe2970b0d6d7c969b61f27cd5ed108891fcaea343323cbde173f3d39786",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\B5_s37.npz",
+      "sha256": "3f3f438d41c36090f5d7149066413e1cf44e4e263b5e52175ba767a7e043a873",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\P-no-rank_s11.npz",
+      "sha256": "0a1edcfac7e65b5537a0160feff6b59ca9f9ac271fc57e2008c700f3884e9ed9",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\P-no-rank_s23.npz",
+      "sha256": "4646b3ee904903d0562aea1585622c35d4a5596c13321c2d0debd8901b8e3f33",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\P-no-rank_s37.npz",
+      "sha256": "38b50070d6f82fbdd8b3f102360ea69b252d2929140591814372645f0b2fd84f",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\P_s11.npz",
+      "sha256": "3845868a898d0659acc1a1c5b9a89ad2f0d53c9fa0d9bfbcf43cc319b7d8b999",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\P_s23.npz",
+      "sha256": "a5d2606e61872a6ed1f2c8af2c61d4e8547870517d17df39d7a9e8fbc05286b2",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_coefficient_ood\\heat\\P_s37.npz",
+      "sha256": "3f3f438d41c36090f5d7149066413e1cf44e4e263b5e52175ba767a7e043a873",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\B0_sna.npz",
+      "sha256": "d1a76f2cbcf4652b7ba5684e04bae4d1ce7fde218802908db81fd9643a776646",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\B1_sna.npz",
+      "sha256": "e9666116514dddb44a295cbba5583e8548433e3bead5bafdebb907d5b61725fd",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\B2_s11.npz",
+      "sha256": "8161e3c7053074b1d001fd119a369898a5f2055d9a8439b779b5fcc02f4bec1b",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\B2_s23.npz",
+      "sha256": "b241f4424c910193f3e7ea39e7d80ee8b653a2e63275600b7257a03bd912a0ea",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\B2_s37.npz",
+      "sha256": "782dcc7ed97b63b733dcdc49b7fbdfa53e6a13209aa1c7a8119e4b088381c5ef",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\B3_s11.npz",
+      "sha256": "e019d1cbf339a86e90c16117f2db8c27a1e43afc9ca53d38e83608a35a90cf62",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\B3_s23.npz",
+      "sha256": "e1babe3473d54fd5fe24ecc408c87b826b7e66d8e0b71b1256765dafe0d99740",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\B3_s37.npz",
+      "sha256": "ac5c7402eb53ee0522a116819b0d777e5037d5a459f0c68649fbf91f4cb65fc0",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\B4_s11.npz",
+      "sha256": "3808c28be4e3d62f57a2126c7f5667ba786814f80b79e70e62d8aa33fbc84875",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\B4_s23.npz",
+      "sha256": "6597ae2fe4fd7583a733aa1dab64285c7720f01555d5f4c10910517d1ef8f567",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\B4_s37.npz",
+      "sha256": "b86c7df28f5539ad6525a8a93600b1aba005ae92ac2b9c499c51d58b73b5357a",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\B5_s11.npz",
+      "sha256": "6f596decb53da793b1f2d871ee73604ac332ea2cdf79d57c89dadf3adae7cb8c",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\B5_s23.npz",
+      "sha256": "bc0b60f99f39e49987198f76af17757758caa344572e38613a2a5a90fa4f2d9b",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\B5_s37.npz",
+      "sha256": "19d3e146c3c37e57f2f36c8c14dd7ef00356bcf26865f3af990bc39c579b15a2",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\P-no-rank_s11.npz",
+      "sha256": "5b8265f802a5d393a8ee20a6bb5e9756724d8bd1d168da8b62222b519009a948",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\P-no-rank_s23.npz",
+      "sha256": "5d9073867656de37d706ae8ef546ffe157e58d30a8a74995a0c560e0a8958ffb",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\P-no-rank_s37.npz",
+      "sha256": "98b50d1b875f34f64b32a352059b26fe86f9e0e4516319a881de235b0f59a084",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\P_s11.npz",
+      "sha256": "cd0388e232bb241e055d32ffcb2ca730a7d80aa6441326fb391059a3f26a81ee",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\P_s23.npz",
+      "sha256": "bc0b60f99f39e49987198f76af17757758caa344572e38613a2a5a90fa4f2d9b",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_delay_dropout\\heat\\P_s37.npz",
+      "sha256": "19d3e146c3c37e57f2f36c8c14dd7ef00356bcf26865f3af990bc39c579b15a2",
+      "parents": 128
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\B0_sna.npz",
+      "sha256": "4c1765f01d2128e7deb9c417e4a50f9770c485759bf27288a8b1601097b4e787",
+      "parents": 384
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\B1_sna.npz",
+      "sha256": "5722b5d2490061359b8cc911c6cbea938ca208f11dafcbcb0eea28df40a52034",
+      "parents": 384
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\B2_s11.npz",
+      "sha256": "0b7604f324944bfa290fbf13f5568451243e4f37575b6954c8b11c7e819e86f0",
+      "parents": 384
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\B2_s23.npz",
+      "sha256": "8155e54d085735f91db1a2f09d368c58ec4962fcde69348f0a15117a50fef9ff",
+      "parents": 384
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\B2_s37.npz",
+      "sha256": "b683d5a2741912c6c1e8814fb9ff44458d774d1ca61f58b2ffc9b6a11e22cbcd",
+      "parents": 384
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\B3_s11.npz",
+      "sha256": "72410d9bf5fd81650c1e0d3fd79782f47d87bb51fe62970d36f60be256cb3628",
+      "parents": 384
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\B3_s23.npz",
+      "sha256": "6ff36eb9774c52bace409c15799be84643cc8beb636647ca1c29ab3d18f8b887",
+      "parents": 384
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\B3_s37.npz",
+      "sha256": "71b4e6d38ffcf717843834f368813ec6a940a45de63ca6964de4c578b14487ae",
+      "parents": 384
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\B4_s11.npz",
+      "sha256": "6240cd1c95932508f172be7661bfd62645899ef39ec078101346ee2ed25b040f",
+      "parents": 384
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\B4_s23.npz",
+      "sha256": "e52bca149304522f52c5fe9d5a75faece1d10c018c363f7492e523c88e0ffb6a",
+      "parents": 384
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\B4_s37.npz",
+      "sha256": "51d73b4ccc28ddc138dd9c06d54395d8f2015f7b8fee886cc8c64c282442a638",
+      "parents": 384
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\B5_s11.npz",
+      "sha256": "105cd5fa9c18934e92c876bbc1dc2b0e990d6fee5353650c51eda0c669f85dba",
+      "parents": 384
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\B5_s23.npz",
+      "sha256": "970336b4d1c4d492afc8617a478ce79cfab78e303e5aafebc0df90a5e534285f",
+      "parents": 384
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\B5_s37.npz",
+      "sha256": "5fcc4c0baf44bd02b711a34f884be1060863dbb1d612304ef8d675d153b51a12",
+      "parents": 384
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\P-no-rank_s11.npz",
+      "sha256": "c8766d255ed170495296ec5754b8485a14be40f3cf357ae975eb9e17ac824817",
+      "parents": 384
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\P-no-rank_s23.npz",
+      "sha256": "68a2f1b0259132e93d40eba3155581878a9092dfd8bb6a8f07e8d739798e868c",
+      "parents": 384
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\P-no-rank_s37.npz",
+      "sha256": "9e188038d2457901753d8b8a5714a70487487d2f4f7880c46dfd5091e0315df9",
+      "parents": 384
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\P_s11.npz",
+      "sha256": "7a08451f5cc266fe69addf0fedaf09f99caf56bbb2a4638103787d548b589e7d",
+      "parents": 384
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\P_s23.npz",
+      "sha256": "52adc4f8b2d7f773968ece9a6954bc475e2abe486125d4013872b80b47a7dbb1",
+      "parents": 384
+    },
+    {
+      "path": "results\\E5_raw\\locked_nominal\\heat\\P_s37.npz",
+      "sha256": "45484810ee27b10df9b4b4feeac19af5f2aeb292cf4b3d1ea7a5efd054e4adf2",
+      "parents": 384
+    }
+  ],
+  "limits": "Complete condition inventory, raw/input/recorded-checkpoint hashes, exact parent alignment, finite saved costs and recorded means checked. Does not reconstruct full state/action costs, confidence intervals or prove scientific benefit. Full revision raw/statistical audit remains pending E4."
+}

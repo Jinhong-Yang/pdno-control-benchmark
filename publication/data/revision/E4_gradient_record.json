@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETE",
+  "rows": 240,
+  "batches_per_checkpoint": 20,
+  "data": "train only, common seed batches across conditions",
+  "ramp": "full ramp 1 at validation-selected weights; not historical per-update training gradients",
+  "device": "cpu FP32",
+  "updates_performed": 0
+}

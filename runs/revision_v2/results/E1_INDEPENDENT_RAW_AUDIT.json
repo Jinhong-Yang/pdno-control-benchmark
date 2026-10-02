@@ -1,0 +1,1260 @@
+{
+  "status": "PASS_E1_INDEPENDENT_RAW_ARITHMETIC",
+  "time_utc": "2026-10-02T03:45:19.456592+00:00",
+  "checks": [
+    {
+      "name": "E1_heat_COMPLETE.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "E1_burgers_cuda_COMPLETE.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "full E1 factorial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz/hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz/goal_contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz/record_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz/shapes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz/finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz/recorded_runtime_counters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz/indices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz/parent_alignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz/action_constraints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz/cost",
+      "passed": true,
+      "detail": 2.1457502441535325e-10
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz/rmse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz/strict_event_mask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz/summary_key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz/summary/mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz/summary/B0_mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz/summary/tracking_rmse_mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz/summary/any_violation_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz/summary/relative_excess",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz/hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz/goal_contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz/record_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz/shapes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz/finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz/recorded_runtime_counters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz/indices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz/parent_alignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz/action_constraints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz/cost",
+      "passed": true,
+      "detail": 2.1457413623693355e-10
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz/rmse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz/strict_event_mask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz/summary_key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz/summary/mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz/summary/B0_mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz/summary/tracking_rmse_mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz/summary/any_violation_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz/summary/relative_excess",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz/hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz/goal_contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz/record_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz/shapes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz/finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz/recorded_runtime_counters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz/indices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz/parent_alignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz/action_constraints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz/cost",
+      "passed": true,
+      "detail": 1.136826028869109e-07
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz/rmse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz/strict_event_mask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz/summary_key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz/summary/mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz/summary/B0_mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz/summary/tracking_rmse_mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz/summary/any_violation_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz/summary/relative_excess",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz/hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz/goal_contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz/record_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz/shapes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz/finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz/recorded_runtime_counters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz/indices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz/parent_alignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz/action_constraints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz/cost",
+      "passed": true,
+      "detail": 1.1492714335759047e-07
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz/rmse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz/strict_event_mask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz/summary_key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz/summary/mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz/summary/B0_mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz/summary/tracking_rmse_mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz/summary/any_violation_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz/summary/relative_excess",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz/hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz/goal_contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz/record_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz/shapes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz/finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz/recorded_runtime_counters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz/indices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz/parent_alignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz/action_constraints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz/cost",
+      "passed": true,
+      "detail": 1.0728840038609633e-10
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz/rmse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz/strict_event_mask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz/summary_key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz/summary/mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz/summary/B0_mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz/summary/tracking_rmse_mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz/summary/any_violation_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz/summary/relative_excess",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz/hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz/goal_contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz/record_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz/shapes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz/finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz/recorded_runtime_counters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz/indices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz/parent_alignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz/action_constraints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz/cost",
+      "passed": true,
+      "detail": 1.0728840038609633e-10
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz/rmse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz/strict_event_mask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz/summary_key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz/summary/mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz/summary/B0_mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz/summary/tracking_rmse_mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz/summary/any_violation_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz/summary/relative_excess",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz/hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz/goal_contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz/record_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz/shapes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz/finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz/recorded_runtime_counters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz/indices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz/parent_alignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz/action_constraints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz/cost",
+      "passed": true,
+      "detail": 1.936795221979537e-07
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz/rmse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz/strict_event_mask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz/summary_key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz/summary/mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz/summary/B0_mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz/summary/tracking_rmse_mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz/summary/any_violation_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz/summary/relative_excess",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz/hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz/goal_contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz/record_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz/shapes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz/finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz/recorded_runtime_counters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz/indices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz/parent_alignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz/action_constraints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz/cost",
+      "passed": true,
+      "detail": 1.9298592590644148e-07
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz/rmse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz/strict_event_mask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz/summary_key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz/summary/mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz/summary/B0_mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz/summary/tracking_rmse_mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz/summary/any_violation_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz/summary/relative_excess",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz/hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz/goal_contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz/record_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz/shapes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz/finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz/recorded_runtime_counters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz/indices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz/parent_alignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz/action_constraints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz/cost",
+      "passed": true,
+      "detail": 2.1457791099521728e-10
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz/rmse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz/strict_event_mask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz/summary_key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz/summary/mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz/summary/B0_mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz/summary/tracking_rmse_mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz/summary/any_violation_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz/summary/relative_excess",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz/hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz/goal_contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz/record_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz/shapes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz/finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz/recorded_runtime_counters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz/indices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz/parent_alignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz/action_constraints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz/cost",
+      "passed": true,
+      "detail": 1.0728973265372588e-10
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz/rmse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz/strict_event_mask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz/summary_key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz/summary/mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz/summary/B0_mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz/summary/tracking_rmse_mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz/summary/any_violation_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz/summary/relative_excess",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz/hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz/goal_contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz/record_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz/shapes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz/finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz/recorded_runtime_counters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz/indices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz/parent_alignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz/action_constraints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz/cost",
+      "passed": true,
+      "detail": 1.200120465227883e-07
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz/rmse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz/strict_event_mask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz/summary_key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz/summary/mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz/summary/B0_mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz/summary/tracking_rmse_mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz/summary/any_violation_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz/summary/relative_excess",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz/hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz/goal_contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz/record_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz/shapes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz/finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz/recorded_runtime_counters",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz/indices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz/parent_alignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz/action_constraints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz/cost",
+      "passed": true,
+      "detail": 1.2157167006421332e-07
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz/rmse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz/strict_event_mask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz/summary_key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz/summary/mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz/summary/B0_mean_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz/summary/tracking_rmse_mean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz/summary/any_violation_rate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz/summary/relative_excess",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "parent and execution totals",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "check_count": 220,
+  "arrays": 12,
+  "unique_parents": 1280,
+  "executions": 2560,
+  "records": [
+    {
+      "role": "locked_coefficient_ood",
+      "pde": "burgers",
+      "method": "O-cand-obs",
+      "parents": 128,
+      "cost_max_abs_reconstruction_error": 2.1457502441535325e-10,
+      "max_slew": 0.15000000596046448,
+      "sha256": "52af482edf1ba6e53482059dc7a755911ce685851417a7a9fef736a379c6531f"
+    },
+    {
+      "role": "locked_coefficient_ood",
+      "pde": "burgers",
+      "method": "O-cand-state",
+      "parents": 128,
+      "cost_max_abs_reconstruction_error": 2.1457413623693355e-10,
+      "max_slew": 0.15000000596046448,
+      "sha256": "a7ef010e1cd29267f9bd3e362c4850557da808f3ec979e20ae751504fd38e802"
+    },
+    {
+      "role": "locked_coefficient_ood",
+      "pde": "heat",
+      "method": "O-cand-obs",
+      "parents": 128,
+      "cost_max_abs_reconstruction_error": 1.136826028869109e-07,
+      "max_slew": 0.10000002384185791,
+      "sha256": "99b625dc98cf2f29ca9c90c5e6f236f9198808e23f0566b33af75f67d41f5314"
+    },
+    {
+      "role": "locked_coefficient_ood",
+      "pde": "heat",
+      "method": "O-cand-state",
+      "parents": 128,
+      "cost_max_abs_reconstruction_error": 1.1492714335759047e-07,
+      "max_slew": 0.10000002384185791,
+      "sha256": "eead628bbe79fb01da1720981d348e859d76645db13e2f6d2fa6a95cf34a4452"
+    },
+    {
+      "role": "locked_delay_dropout",
+      "pde": "burgers",
+      "method": "O-cand-obs",
+      "parents": 128,
+      "cost_max_abs_reconstruction_error": 1.0728840038609633e-10,
+      "max_slew": 0.15000000596046448,
+      "sha256": "fc07ea29021162ad5c8cb42b44b12ae0ad8d28bbf9f53b61f30b6aa3d20f665e"
+    },
+    {
+      "role": "locked_delay_dropout",
+      "pde": "burgers",
+      "method": "O-cand-state",
+      "parents": 128,
+      "cost_max_abs_reconstruction_error": 1.0728840038609633e-10,
+      "max_slew": 0.15000000596046448,
+      "sha256": "0294e6dbd073543f3c249bf26673240d627b401d2741a899f1487514465832c6"
+    },
+    {
+      "role": "locked_delay_dropout",
+      "pde": "heat",
+      "method": "O-cand-obs",
+      "parents": 128,
+      "cost_max_abs_reconstruction_error": 1.936795221979537e-07,
+      "max_slew": 0.10000002384185791,
+      "sha256": "a50f593f38550651bed0be47d0e1f53b110f8d0a6fec351e222e3f91dd664980"
+    },
+    {
+      "role": "locked_delay_dropout",
+      "pde": "heat",
+      "method": "O-cand-state",
+      "parents": 128,
+      "cost_max_abs_reconstruction_error": 1.9298592590644148e-07,
+      "max_slew": 0.10000002384185791,
+      "sha256": "3d04b0f587bd879c080bbd22ad35a02f6a37aadf2e6896b8823eb58a5781bc8d"
+    },
+    {
+      "role": "locked_nominal",
+      "pde": "burgers",
+      "method": "O-cand-obs",
+      "parents": 384,
+      "cost_max_abs_reconstruction_error": 2.1457791099521728e-10,
+      "max_slew": 0.15000000596046448,
+      "sha256": "6dc4f25b3040f39837f02e26c91f66329ed31950a3aad493a82e0f44df5bd7ae"
+    },
+    {
+      "role": "locked_nominal",
+      "pde": "burgers",
+      "method": "O-cand-state",
+      "parents": 384,
+      "cost_max_abs_reconstruction_error": 1.0728973265372588e-10,
+      "max_slew": 0.15000000596046448,
+      "sha256": "827e8d4c090647a760ad6663c71432f5425a17f8a0c9f238f43b24bd0abe408a"
+    },
+    {
+      "role": "locked_nominal",
+      "pde": "heat",
+      "method": "O-cand-obs",
+      "parents": 384,
+      "cost_max_abs_reconstruction_error": 1.200120465227883e-07,
+      "max_slew": 0.10000002384185791,
+      "sha256": "bd6486760060947b951c3e2223e92cc5d109388d4bbc1ec1274be91f2cff0105"
+    },
+    {
+      "role": "locked_nominal",
+      "pde": "heat",
+      "method": "O-cand-state",
+      "parents": 384,
+      "cost_max_abs_reconstruction_error": 1.2157167006421332e-07,
+      "max_slew": 0.10000002384185791,
+      "sha256": "afd7e4adfda2cfcd931fcea2631019de09afa92e5e778cb48f504c980ed199ff"
+    }
+  ],
+  "input_sha256": {
+    "results\\E1_heat_COMPLETE.json": "b7e725c2306f7c781e9fc9db7f2edc509764813f11c430462ed4f455df66a142",
+    "results\\E1_burgers_cuda_COMPLETE.json": "c1bc8d0539d5d87a31059c6760ae123ea11f7b655fe788f010abb5f745064b7c",
+    "scripts/audit_completed_oracles.py": "4d6e0c3ef5b1493f09247615ded0680ac33661c2567b08fc584787f8063f895c",
+    "scripts/run_e1_burgers_cuda.py": "a564e811c4d91699d968bcf76fab26c385d39007bdeed739421af534f55eb418",
+    "results/REVISION_COST_SUMMARY.csv": "49e40e6d98429eb05cab68d1665fb714cc66d317b095ce39d2c58121d5ad3a6f",
+    "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.record.json": "6627296b8347b3c3819a5602daad92e7876fa5f88572b16bd35baa9149387f96",
+    "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz": "52af482edf1ba6e53482059dc7a755911ce685851417a7a9fef736a379c6531f",
+    "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B0_sna.npz": "e66ef30505a56f796e1f928ea8ba618f4498524ae305716ef2da0232c5942fb1",
+    "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.record.json": "11fa7cdc65956a79104f123c2fb0313c244f9d589406cb8e7abf8b0c3f70202d",
+    "results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz": "a7ef010e1cd29267f9bd3e362c4850557da808f3ec979e20ae751504fd38e802",
+    "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.record.json": "ed8287d24defa4ce204b6f942b2dda84f349c27b0e3c46fbb401f7fc5e212883",
+    "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz": "99b625dc98cf2f29ca9c90c5e6f236f9198808e23f0566b33af75f67d41f5314",
+    "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B0_sna.npz": "fad905e6c82fa6a9325b229dacb7069951e2897d233320ca0434434fb8d7f878",
+    "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.record.json": "854c5cbde499d7b86f17bf33d043ba8adc9f69cf63a90235a480a73cb8933b39",
+    "results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz": "eead628bbe79fb01da1720981d348e859d76645db13e2f6d2fa6a95cf34a4452",
+    "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.record.json": "7b1b28ea79b9c3545d6206da67446b9119c0caac4c52472ecc4aa3bf9d860ab5",
+    "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz": "fc07ea29021162ad5c8cb42b44b12ae0ad8d28bbf9f53b61f30b6aa3d20f665e",
+    "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B0_sna.npz": "ec9b3697e22f8f44f8d29d8dd84055512dcbd2d7513f11a02c4e2dfe6dda9e0f",
+    "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.record.json": "2f22c7c7d49ebe5f3b4bb71710afe252b637583221a06bc6d4a06559610b320d",
+    "results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz": "0294e6dbd073543f3c249bf26673240d627b401d2741a899f1487514465832c6",
+    "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.record.json": "1303d161e91f7d89ec8bc9ee6833032ea5366a05994494d08a3ab000f506969b",
+    "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz": "a50f593f38550651bed0be47d0e1f53b110f8d0a6fec351e222e3f91dd664980",
+    "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B0_sna.npz": "a511f3ca75ce91bbd35e98e09b35446b064390fd5f8eb5f5b31700d80a7aabd9",
+    "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.record.json": "6513ff0eb3be0620b5bc7a72d5bbe6eaeeb285fbdde83412c218827927eb66f6",
+    "results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz": "3d04b0f587bd879c080bbd22ad35a02f6a37aadf2e6896b8823eb58a5781bc8d",
+    "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.record.json": "bf1175e7deb34fb34278e84708b88a4bef25d4ec815ef7d3b6f703b71bf8ec79",
+    "results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz": "6dc4f25b3040f39837f02e26c91f66329ed31950a3aad493a82e0f44df5bd7ae",
+    "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B0_sna.npz": "8da6b9937c8d735da9af7dc19cb1183957ff343c90b99297291eb576247a5a16",
+    "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.record.json": "ce1b9f7075a135ca138156653db9806c3828b811838a3cb53dc09f51ac7a6519",
+    "results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz": "827e8d4c090647a760ad6663c71432f5425a17f8a0c9f238f43b24bd0abe408a",
+    "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.record.json": "837061a0ebb5ee22ccad0178af7a799c7314bc54ad8911b4535e3845cb17dda0",
+    "results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz": "bd6486760060947b951c3e2223e92cc5d109388d4bbc1ec1274be91f2cff0105",
+    "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B0_sna.npz": "5e08db1436df14638505dd427d0ce49cd3479db386eee1273289a9fbf7e57d26",
+    "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.record.json": "4180969e8bdf4e355708302938aabd65b58ce602e7d562596eaa589665e6143b",
+    "results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz": "afd7e4adfda2cfcd931fcea2631019de09afa92e5e778cb48f504c980ed199ff"
+  },
+  "elapsed_seconds": 8.80003859999124,
+  "scope": "All12 E1 arrays: hashes, factorial/parent alignment, finite state/action/goal/cost, stored runtime counters, index range, action constraints, float64 cost/RMSE reconstruction, strict event masks and source-summary arithmetic.",
+  "limits": "No counterfactual candidate forecasts or complete timestamp arrays are stored here; this does not independently reconstruct argmin optimality or observation causality. The Burgers CUDA writer fills zero fallback/causality counters and separately asserts received sensor timestamps at runtime; those stored zeros are not independent timestamp evidence. Burgers zero goal is specified by the hashed runner; heat requires its recorded goal. Action bounds use1e-7 floating-point tolerance. Confidence intervals, other revision experiments, full original preservation and release still require separate audits."
+}

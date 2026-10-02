@@ -1,0 +1,14 @@
+{
+  "elapsed_seconds": 164.56201239998336,
+  "episode_ticks": 200,
+  "method": "B5",
+  "paired_parent_unit": true,
+  "parent_count": 128,
+  "pde": "heat",
+  "q_max_heat_train_validation_only": 2.1322593092918396,
+  "raw_sha256": "ca6ac7412d4f6460cb5131b106c7c39be29d5c59ed74fc97e851d8112938909a",
+  "role": "locked_coefficient_ood",
+  "seed": 23,
+  "status": "SHARD_COMPLETE",
+  "test_opened": true
+}

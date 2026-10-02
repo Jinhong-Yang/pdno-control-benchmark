@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0-draft",
+  "fields": {
+    "choice_index": "int32",
+    "action_proposed": "float32[2]",
+    "action_projected": "float32[2]",
+    "action_applied": "float32[2]",
+    "predicted_cost": "float32",
+    "predicted_constraint_margin": "float32",
+    "observation_age_ticks": "int32",
+    "fallback_used": "bool",
+    "reason_code": "fixed_enum"
+  },
+  "accounting_rule": "teacher, simulator state transition, and next observation use action_applied"
+}

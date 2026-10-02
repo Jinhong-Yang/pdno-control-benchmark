@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "errors": [],
+  "shards": [
+    {
+      "path": "data\\pilot_queries_smoke_v3\\train\\burgers\\teacher_queries.npz",
+      "split": "train",
+      "pde": "burgers",
+      "passed": true,
+      "errors": [],
+      "query_count": 2,
+      "parent_count": 2,
+      "candidate_count": 10,
+      "parent_id_sha256": "78e07c80d495fc1544e56b65375f29e00a5084e86b53056f79535411075a830b"
+    },
+    {
+      "path": "data\\pilot_queries_smoke_v3\\train\\heat\\teacher_queries.npz",
+      "split": "train",
+      "pde": "heat",
+      "passed": true,
+      "errors": [],
+      "query_count": 2,
+      "parent_count": 2,
+      "candidate_count": 10,
+      "parent_id_sha256": "f3e80308176a5b7353c9cca983ad9698684c1dc34e12b0079456f7e66e9a6ede"
+    },
+    {
+      "path": "data\\pilot_queries_smoke_v3\\validation\\burgers\\teacher_queries.npz",
+      "split": "validation",
+      "pde": "burgers",
+      "passed": true,
+      "errors": [],
+      "query_count": 2,
+      "parent_count": 2,
+      "candidate_count": 10,
+      "parent_id_sha256": "76eb03777c8d7e5006fa03b61a5580b5aa4fad8d96de2ff57724d2b2e781ccd5"
+    },
+    {
+      "path": "data\\pilot_queries_smoke_v3\\validation\\heat\\teacher_queries.npz",
+      "split": "validation",
+      "pde": "heat",
+      "passed": true,
+      "errors": [],
+      "query_count": 2,
+      "parent_count": 2,
+      "candidate_count": 10,
+      "parent_id_sha256": "363b99a43108e66c60b711e8386c99503a9f184096b8c67167aad2240a0f7e62"
+    }
+  ],
+  "calibration_or_test_query_shards_found": false
+}

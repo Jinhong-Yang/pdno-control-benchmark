@@ -1,0 +1,16 @@
+{
+  "stage": "E5",
+  "pde": "heat",
+  "method": "B3",
+  "seed": 37,
+  "label": "B3_s37",
+  "role": "locked_delay_dropout",
+  "parents": 128,
+  "sha256": "ac5c7402eb53ee0522a116819b0d777e5037d5a459f0c68649fbf91f4cb65fc0",
+  "input_sha256": "f3d5fc877bf1a2f072f149138256a8c63240de139c180ef137d17921f1c3c9a2",
+  "checkpoint_sha256": "20ebf928d90b27a5b59509f44f9413348a095c848fd61bda4660378dc0d06d56",
+  "elapsed_s": 2465.738642500015,
+  "post_hoc_original_parents": false,
+  "latency_measurement": false,
+  "mean_cost": 12.374281462523644
+}

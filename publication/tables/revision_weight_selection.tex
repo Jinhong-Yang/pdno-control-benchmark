@@ -1,0 +1,27 @@
+\begin{table}[ht]
+\centering\small
+\caption{E4 burgers, seed 11: equal physics/balance weights and ranking-weight sweep. The (0.01,0.1) cell reuses original P. Gradient ratios are medians over 20 common training batches at selected weights and full ramp; they are not historical per-update gradients.}\label{tab:weights_burgers}
+\begin{tabular}{@{}rrrrrrr@{}}\toprule
+$\lambda_{p,b}$ & $\lambda_r$ & nRMSE & Actual & Selected & Physics/data & Balance/data\\\midrule
+0.01 & 0.1 & 0.1583 & 5000 & 5000 & 5.220e-05 & 3.619e-06\\
+0.01 & 1.0 & 0.1583 & 5000 & 5000 & 5.366e-05 & 3.851e-06\\
+0.1 & 0.1 & 0.1583 & 5000 & 5000 & 5.220e-04 & 3.614e-05\\
+0.1 & 1.0 & 0.1583 & 5000 & 5000 & 5.366e-04 & 3.846e-05\\
+1.0 & 0.1 & 0.1583 & 5000 & 5000 & 5.219e-03 & 3.525e-04\\
+1.0 & 1.0 & 0.1583 & 5000 & 5000 & 5.363e-03 & 3.794e-04\\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+\centering\small
+\caption{E4 heat, seed 11: equal physics/balance weights and ranking-weight sweep. The (0.01,0.1) cell reuses original P. Gradient ratios are medians over 20 common training batches at selected weights and full ramp; they are not historical per-update gradients.}\label{tab:weights_heat}
+\begin{tabular}{@{}rrrrrrr@{}}\toprule
+$\lambda_{p,b}$ & $\lambda_r$ & nRMSE & Actual & Selected & Physics/data & Balance/data\\\midrule
+0.01 & 0.1 & 0.0789 & 5000 & 5000 & 9.135e-05 & 8.995e-05\\
+0.01 & 1.0 & 0.0852 & 5000 & 5000 & 8.369e-05 & 3.783e-05\\
+0.1 & 0.1 & 0.0789 & 5000 & 5000 & 9.147e-04 & 8.948e-04\\
+0.1 & 1.0 & 0.0852 & 5000 & 5000 & 8.352e-04 & 3.766e-04\\
+1.0 & 0.1 & 0.0788 & 5000 & 5000 & 9.252e-03 & 8.674e-03\\
+1.0 & 1.0 & 0.0852 & 5000 & 5000 & 8.198e-03 & 3.612e-03\\
+\bottomrule\end{tabular}
+\end{table}

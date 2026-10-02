@@ -1,0 +1,327 @@
+{
+  "status": "BOUND_VALUES_RESOLVED_ONLY",
+  "registry_status": "COMPLETED_E1_E2_PARTIAL_BINDINGS_FINAL_COVERAGE_PENDING",
+  "manuscript_scan": "PERFORMED",
+  "scope": "Each registered numeric locator and transformation resolved. Literal-number coverage, claim context, table/caption alignment and final rendered QA require separate final verification.",
+  "registry_sha256": "1d66183d9715e5bb7d6f196a2d967b30dbc220442dc2af75df5df4b3795056fd",
+  "tex_sha256": "c24d5e7a19c1994dffc3ab495f58a838b5286930b95876fe6e3eb6babb83befb",
+  "bindings": {
+    "OracleStateBurgersExcess": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E1",
+        "role": "locked_nominal",
+        "pde": "burgers",
+        "method": "O-cand-state"
+      },
+      "expected_rows": 1,
+      "column": "relative_excess",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original burgers nominal test parents, privileged-state oracle",
+      "metric": "relative_excess",
+      "unit": "percent excess versus B0",
+      "value": 28.23017287056686,
+      "formatted": "28.23",
+      "tex": "28.23",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "OracleStateBurgersLow": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E1",
+        "role": "locked_nominal",
+        "pde": "burgers",
+        "method": "O-cand-state"
+      },
+      "expected_rows": 1,
+      "column": "fixed_ci_low",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original burgers nominal test parents, privileged-state oracle",
+      "metric": "fixed_ci_low",
+      "unit": "percent excess versus B0",
+      "value": 23.60554073573065,
+      "formatted": "23.61",
+      "tex": "23.61",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "OracleStateBurgersHigh": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E1",
+        "role": "locked_nominal",
+        "pde": "burgers",
+        "method": "O-cand-state"
+      },
+      "expected_rows": 1,
+      "column": "fixed_ci_high",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original burgers nominal test parents, privileged-state oracle",
+      "metric": "fixed_ci_high",
+      "unit": "percent excess versus B0",
+      "value": 33.28028448282757,
+      "formatted": "33.28",
+      "tex": "33.28",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "OracleStateOriginalHeatExcess": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E1",
+        "role": "locked_nominal",
+        "pde": "heat",
+        "method": "O-cand-state"
+      },
+      "expected_rows": 1,
+      "column": "relative_excess",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original heat nominal test parents, privileged-state oracle",
+      "metric": "relative_excess",
+      "unit": "percent excess versus B0",
+      "value": 12.589154069717218,
+      "formatted": "12.59",
+      "tex": "12.59",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "OracleStateOriginalHeatLow": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E1",
+        "role": "locked_nominal",
+        "pde": "heat",
+        "method": "O-cand-state"
+      },
+      "expected_rows": 1,
+      "column": "fixed_ci_low",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original heat nominal test parents, privileged-state oracle",
+      "metric": "fixed_ci_low",
+      "unit": "percent excess versus B0",
+      "value": 11.79650406581782,
+      "formatted": "11.80",
+      "tex": "11.80",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "OracleStateOriginalHeatHigh": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E1",
+        "role": "locked_nominal",
+        "pde": "heat",
+        "method": "O-cand-state"
+      },
+      "expected_rows": 1,
+      "column": "fixed_ci_high",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original heat nominal test parents, privileged-state oracle",
+      "metric": "fixed_ci_high",
+      "unit": "percent excess versus B0",
+      "value": 13.408771124624232,
+      "formatted": "13.41",
+      "tex": "13.41",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "E2HeatCacheKTwoHundredRatio": {
+      "kind": "csv",
+      "source": "data/revision/E2_ratio_bootstrap.csv",
+      "filter": {
+        "pde": "heat",
+        "K": "200",
+        "cache": "True"
+      },
+      "expected_rows": 1,
+      "column": "mean_per_seed_p99_ratio",
+      "reduce": "single",
+      "format": ".4f",
+      "population": "revision heat K200 cache on, three training seeds and three sequential same-process sessions",
+      "metric": "mean_per_seed_p99_ratio",
+      "unit": "dimensionless P/B4 p99 ratio",
+      "value": 0.6596826769099204,
+      "formatted": "0.6597",
+      "tex": "0.6597",
+      "source_sha256": "044aec3379f660f636203404946e34648388ab3dd1ee3fa740e97d0a7c7dfc3b"
+    },
+    "E2HeatCacheKTwoHundredLow": {
+      "kind": "csv",
+      "source": "data/revision/E2_ratio_bootstrap.csv",
+      "filter": {
+        "pde": "heat",
+        "K": "200",
+        "cache": "True"
+      },
+      "expected_rows": 1,
+      "column": "ci_low",
+      "reduce": "single",
+      "format": ".4f",
+      "population": "revision heat K200 cache on, three training seeds and three sequential same-process sessions",
+      "metric": "ci_low",
+      "unit": "dimensionless P/B4 p99 ratio",
+      "value": 0.47278656155508747,
+      "formatted": "0.4728",
+      "tex": "0.4728",
+      "source_sha256": "044aec3379f660f636203404946e34648388ab3dd1ee3fa740e97d0a7c7dfc3b"
+    },
+    "E2HeatCacheKTwoHundredHigh": {
+      "kind": "csv",
+      "source": "data/revision/E2_ratio_bootstrap.csv",
+      "filter": {
+        "pde": "heat",
+        "K": "200",
+        "cache": "True"
+      },
+      "expected_rows": 1,
+      "column": "ci_high",
+      "reduce": "single",
+      "format": ".4f",
+      "population": "revision heat K200 cache on, three training seeds and three sequential same-process sessions",
+      "metric": "ci_high",
+      "unit": "dimensionless P/B4 p99 ratio",
+      "value": 0.9822648448361448,
+      "formatted": "0.9823",
+      "tex": "0.9823",
+      "source_sha256": "044aec3379f660f636203404946e34648388ab3dd1ee3fa740e97d0a7c7dfc3b"
+    },
+    "E2PBurgersCacheOffRemainderMedian": {
+      "kind": "csv",
+      "source": "data/revision/E2_stage_profile.csv",
+      "filter": {
+        "pde": "burgers",
+        "method": "P",
+        "K": "10",
+        "cache": "False",
+        "stage": "field_assembly_and_other"
+      },
+      "expected_rows": 1,
+      "column": "p50_ms",
+      "reduce": "single",
+      "format": ".4f",
+      "population": "revision separately synchronized stage profile, seed11 session1 K10,500requests",
+      "metric": "field_assembly_and_other p50",
+      "unit": "milliseconds",
+      "value": 0.96475,
+      "formatted": "0.9647",
+      "tex": "0.9647",
+      "source_sha256": "e5b437450d2a4f61d6bc8723df72153313d16615b20f4b45fb2d7e4e9a53ebf4"
+    },
+    "E2PBurgersCacheOnRemainderMedian": {
+      "kind": "csv",
+      "source": "data/revision/E2_stage_profile.csv",
+      "filter": {
+        "pde": "burgers",
+        "method": "P",
+        "K": "10",
+        "cache": "True",
+        "stage": "field_assembly_and_other"
+      },
+      "expected_rows": 1,
+      "column": "p50_ms",
+      "reduce": "single",
+      "format": ".4f",
+      "population": "revision separately synchronized stage profile, seed11 session1 K10,500requests",
+      "metric": "field_assembly_and_other p50",
+      "unit": "milliseconds",
+      "value": 0.3607499999999999,
+      "formatted": "0.3607",
+      "tex": "0.3607",
+      "source_sha256": "e5b437450d2a4f61d6bc8723df72153313d16615b20f4b45fb2d7e4e9a53ebf4"
+    },
+    "E2PHeatCacheOffRemainderMedian": {
+      "kind": "csv",
+      "source": "data/revision/E2_stage_profile.csv",
+      "filter": {
+        "pde": "heat",
+        "method": "P",
+        "K": "10",
+        "cache": "False",
+        "stage": "field_assembly_and_other"
+      },
+      "expected_rows": 1,
+      "column": "p50_ms",
+      "reduce": "single",
+      "format": ".4f",
+      "population": "revision separately synchronized stage profile, seed11 session1 K10,500requests",
+      "metric": "field_assembly_and_other p50",
+      "unit": "milliseconds",
+      "value": 2.4307,
+      "formatted": "2.4307",
+      "tex": "2.4307",
+      "source_sha256": "e5b437450d2a4f61d6bc8723df72153313d16615b20f4b45fb2d7e4e9a53ebf4"
+    },
+    "E2PHeatCacheOnRemainderMedian": {
+      "kind": "csv",
+      "source": "data/revision/E2_stage_profile.csv",
+      "filter": {
+        "pde": "heat",
+        "method": "P",
+        "K": "10",
+        "cache": "True",
+        "stage": "field_assembly_and_other"
+      },
+      "expected_rows": 1,
+      "column": "p50_ms",
+      "reduce": "single",
+      "format": ".4f",
+      "population": "revision separately synchronized stage profile, seed11 session1 K10,500requests",
+      "metric": "field_assembly_and_other p50",
+      "unit": "milliseconds",
+      "value": 0.38585,
+      "formatted": "0.3859",
+      "tex": "0.3859",
+      "source_sha256": "e5b437450d2a4f61d6bc8723df72153313d16615b20f4b45fb2d7e4e9a53ebf4"
+    }
+  },
+  "manuscript_macro_uses": [
+    {
+      "file": "supplement.tex",
+      "line": 149,
+      "id": "E2HeatCacheKTwoHundredRatio"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 149,
+      "id": "E2HeatCacheKTwoHundredLow"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 149,
+      "id": "E2HeatCacheKTwoHundredHigh"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 164,
+      "id": "E2PHeatCacheOffRemainderMedian"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 164,
+      "id": "E2PBurgersCacheOffRemainderMedian"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 164,
+      "id": "E2PHeatCacheOnRemainderMedian"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 164,
+      "id": "E2PBurgersCacheOnRemainderMedian"
+    }
+  ]
+}

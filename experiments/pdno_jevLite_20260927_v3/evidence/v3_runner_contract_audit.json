@@ -1,0 +1,42 @@
+{
+  "calibration_generated": false,
+  "checks": {
+    "calibration_generation_requires_frozen_models": true,
+    "calibration_queries_use_v3_data_and_signed_cost": true,
+    "calibration_query_audit_checks_64x8_and_role": true,
+    "checkpoint_freeze_covers_36_models_and_g2_failure": true,
+    "confirmatory_covers_all_learned_families": true,
+    "host_latency_only_after_complete_locked_test": true,
+    "locked_aggregator_covers_every_mandatory_method": true,
+    "locked_data_audit_checks_v3_parent_manifest_and_heat_step": true,
+    "locked_generation_requires_calibration_and_200_ticks": true,
+    "locked_preopen_freeze_requires_audits": true,
+    "locked_runner_is_atomic_single_open_and_covers_inventory": true,
+    "no_precalibration_runner_reads_locked_payloads": true,
+    "v3_runners_have_no_v2_data_or_marker_paths": true
+  },
+  "passed": true,
+  "runner_sha256": {
+    "aggregate_locked_test_v3.py": "2043b07b5a0dd31276d9a1900c526ddcb4bb71f59d943ea3c706ac8b88845024",
+    "analyze_latency_v3.py": "ddffdf3379a5e3ca9c833682cbd982eeb176b5dc18f6344a0567e5af4584a5f2",
+    "audit_calibration_lock_v3.py": "f0ac801c955045b13bd65dcda6d2e1bc2301fb1a363fe37f9a24942cfc16576a",
+    "audit_calibration_queries_v3.py": "d95b38e5ed3727cb0550c9741f272c3dfb273562837a70c116260e2c0968213c",
+    "audit_locked_roles_v3.py": "5a0e0c89e70f61c32a1f83c75933ca82cc33bf64927ff6a1e72f63e1ff2ca9c1",
+    "audit_validation_comparator_v3.py": "90f615b7a42b9d7466527d2a5414c6ab873567ae5dd5557a363cbb0190517912",
+    "benchmark_host_e2e_v3.py": "8dc9ddaa20c70c7462c739c818d0e9ab8a3176dfd265f86aeb7efa4765b4203b",
+    "calibrate_forecast_margins_v3.py": "08f43bc6fa191778389bd254128dae2982d224f7e6b7728d6cd80cb541a70aa2",
+    "freeze_checkpoint_manifest_v3.py": "a62d02e28bc3f2071e6926297db890236f066fbfe3a5c979e3e4da830ccceaee",
+    "freeze_locked_evaluation_v3.py": "ac6e7af5f734c7bb02f6485ac88bd784b543957a65a4bdd9c0659fddde05cd16",
+    "freeze_pretraining_spec_v3.py": "e8db12dcdf522e58ca723d2cb7a78bdb46082fd97c972a04b4cac12ca1a146f4",
+    "generate_calibration_data_v3.py": "c642b4351efb374b0dd74bbf2934fc623071a470731d30b1454853dd131b0da5",
+    "generate_calibration_queries_v3.py": "de61fa848d57a4821f09a338486f073258bfd9e5b6c03a87d0f24684bda4900f",
+    "generate_locked_data_v3.py": "c82153198496f66cad92d48f02f90504ac83d8f9b6da2df6b7a63f5c223c0d37",
+    "run_confirmatory_models_v3.py": "ef6c07e007c9aac91cefd8f8c63d4a9d8eafebb4aaf84cc25b09e051e7a49907",
+    "run_locked_test_once_v3.py": "b03d8adb422b988e022187aea8d0e350d270a4e81f302374192da7977a136dcc",
+    "select_validation_comparator_v3.py": "9599c312662e2da5a99773da656fcad1b521dea68231dc0f4a350e4c3cfe5142",
+    "start_locked_test_v3.ps1": "97b0198cdc8aa478ddcd29c6050b8c453a572d9242e0cd4b59f027bbb72061f1"
+  },
+  "stale_path_files": [],
+  "status": "V3_RUNNER_CONTRACT_AUDIT_PASSED",
+  "test_opened": false
+}

@@ -1,0 +1,25 @@
+{
+  "time_utc": "2026-10-02T03:18:07.240182+00:00",
+  "status": "TWO_OPERATOR_FITS_COMPLETE_NOT_FINAL_E3_GATE",
+  "factor": 1,
+  "seed": 11,
+  "records": [
+    {
+      "method": "P",
+      "actual_updates": 12000,
+      "selected_update": 11500,
+      "selected_field_nrmse": 0.09816283732652664,
+      "elapsed_seconds": 665.9344525000197,
+      "summary_sha256": "49add17f292ec7a0af0d83e16d941e5351961a0d17c1f7e12b7e3addf5fb1944"
+    },
+    {
+      "method": "B4",
+      "actual_updates": 18500,
+      "selected_update": 18500,
+      "selected_field_nrmse": 0.08286678045988083,
+      "elapsed_seconds": 1089.7373702999903,
+      "summary_sha256": "38370dda740c69e0c72374a0090bba0b4a0748b7abe03e9538f542e961b682cb"
+    }
+  ],
+  "scope": "Both selected field errors exceed0.05; formal gate decisions remain after all21checkpoints and policy seal. Do not infer final scaling result or alter protocol."
+}

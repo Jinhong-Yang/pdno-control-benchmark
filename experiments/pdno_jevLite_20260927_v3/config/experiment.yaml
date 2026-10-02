@@ -1,0 +1,65 @@
+protocol_version: "0.1-derived-from-instruction-v1.0"
+project: PDNO_JevLite_RTX5080_72H
+domain: manufacturing_distributed_parameter_control
+autonomous_execution_means: research_agent_workflow
+budget:
+  total_wall_hours: 72
+  luna_evidence_wall_hours: 62
+  astra_reserved_wall_hours: 10
+  gpu_active_hours_cap: 62
+  clock_started_at_kst: "2026-09-25T23:09:10+09:00"
+hardware:
+  required_gpu: NVIDIA GeForce RTX 5080
+  max_vram_gib_target: 13
+  max_host_rss_gib_target: 48
+  working_disk_gib_target: 50
+primary_pde: forced_periodic_burgers
+crosscheck_pde: dirichlet_heat
+grids:
+  model: 128
+  truth: 256
+  refinement: [128, 256, 512]
+time:
+  simulation_dt: 0.02
+  solver_internal_dt_start: 0.00025
+  horizon_ticks: 8
+  episode_ticks: 200
+control:
+  request_batch: 1
+  candidates: 10
+  actuators: 2
+  action_hold: constant_over_prediction_horizon_apply_first_tick
+  deadline_ms: 5
+  target_host_e2e_p99_ms: 2
+  command_period_ms: 20
+  seeds:
+    pilot: 7
+    confirmatory: [11, 23, 37]
+observation:
+  sensor_count: 16
+  history_ticks: 8
+  image_shape: [1, 16, 64]
+  event_availability: "capture_time <= decision_time AND receive_time <= decision_time"
+splits:
+  unit: parent_episode
+  train: {burgers: 512, heat: 256}
+  validation: {burgers: 64, heat: 64}
+  calibration: {burgers: 64, heat: 64}
+  locked_nominal: {burgers: 384, heat: 384}
+  locked_coefficient_ood: {burgers: 128, heat: 128}
+  locked_delay_dropout: {burgers: 128, heat: 128}
+test_opened: false
+models:
+  required: [B0, B1, B2, B3, B4, B5, P]
+  candidate_batching: true
+  shared_encoder_for_B4: true
+  B3_policy: surrogate_gradient_direct_policy
+  confirmatory_seeds: [11, 23, 37]
+selection:
+  calibration_after_model_freeze: true
+  locked_test_once: true
+  no_test_tuning: true
+  no_test_access_before_freeze: true
+provenance:
+  source_instruction: "C:/Users/WIN/Downloads/PDNO_JevLite_RTX5080_72H_실험지시서.md"
+  absent_inputs_reconstructed: [config/experiment.yaml, config/model_roles.yaml, references.json]

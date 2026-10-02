@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETED_FIT_NOT_FINAL_E3_GATE",
+  "condition": "burgers_x4_P_s37",
+  "completed_fits": 13,
+  "required_fits": 21,
+  "actual_updates": 16500,
+  "selected_update": 15000,
+  "field_nrmse": 0.10609246790409088,
+  "elapsed_seconds": 973.8560525000212,
+  "summary": "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_P_s37.summary.json",
+  "summary_sha256": "bb0c72a9d0fa17cc4a64faee6711839d7f4ed02096aa9f8846858949062fd281",
+  "limits": "Formal all18-operator gate waits for all21 fits and seal; no final scaling or closed-loop conclusion."
+}

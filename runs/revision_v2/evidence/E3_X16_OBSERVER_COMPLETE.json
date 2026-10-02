@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-02T06:03:27.882164+00:00",
+  "condition": "burgers_x16_observer_s7",
+  "selected_update": 3300,
+  "actual_updates": 4000,
+  "observer_nrmse": 0.08392924070358276,
+  "process_wall_seconds": 35.16107919998467,
+  "summary": "runs/revision_v2/checkpoints/E3/observer/burgers_x16_seed7.summary.json",
+  "summary_sha256": "69f73dbe7336873cc22c5e66a54a89229637cea439d085322489e416e9a6c966",
+  "scope": "Observer reconstruction metric only; not operator field-accuracy gate or closed-loop result. Fifteen completed fits comprise three observers and twelve operators; all six factor16 operators remain."
+}

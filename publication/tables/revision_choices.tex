@@ -1,0 +1,50 @@
+\begin{table}[ht]
+\caption{Burgers: B0-command and hold-candidate frequencies (percent). Intervals are action-compatibility bounds at absolute tolerance $10^{-7}$ per actuator, not confidence intervals. Oracles use recorded indices at all 200 ticks; original learned methods use 20 stored snapshots per parent.}\label{tab:choices_burgers}
+\centering\small
+\begin{tabular}{@{}llll@{}}\toprule
+Condition & Method & B0 candidate & Hold candidate\\\midrule
+Nominal & P & 2.37 & 97.63 \\
+Nominal & B4 & 2.32 & 97.68 \\
+Nominal & B5 & 2.37 & 97.63 \\
+Nominal & P-nr & 2.32 & 97.68 \\
+Nominal & O-cand-state & 1.01 & 98.98 \\
+Nominal & O-cand-obs & 0.03 & 99.94 \\
+Coefficient shift & P & 2.20 & 97.79 \\
+Coefficient shift & B4 & 2.02 & 97.97 \\
+Coefficient shift & B5 & 2.20 & 97.79 \\
+Coefficient shift & P-nr & 2.29 & 97.71 \\
+Coefficient shift & O-cand-state & 1.21 & 98.77 \\
+Coefficient shift & O-cand-obs & 0.01 & 99.96 \\
+Delay/dropout & P & 2.03 & 97.97 \\
+Delay/dropout & B4 & 2.04 & 97.96 \\
+Delay/dropout & B5 & 2.03 & 97.97 \\
+Delay/dropout & P-nr & 2.16 & 97.84 \\
+Delay/dropout & O-cand-state & 1.07 & 98.93 \\
+Delay/dropout & O-cand-obs & 0.03 & 99.96 \\
+\bottomrule\end{tabular}
+\end{table}
+\begin{table}[ht]
+\caption{Heat: B0-command and hold-candidate frequencies (percent). Intervals are action-compatibility bounds at absolute tolerance $10^{-7}$ per actuator, not confidence intervals. Oracles use recorded indices at all 200 ticks; original learned methods use 20 stored snapshots per parent.}\label{tab:choices_heat}
+\centering\small
+\begin{tabular}{@{}llll@{}}\toprule
+Condition & Method & B0 candidate & Hold candidate\\\midrule
+Nominal & P & [0.11, 8.90] & [77.14, 90.62] \\
+Nominal & B4 & [0.11, 8.78] & [77.19, 90.46] \\
+Nominal & B5 & [0.11, 8.90] & [77.14, 90.62] \\
+Nominal & P-nr & [0.17, 9.25] & [77.09, 90.39] \\
+Nominal & O-cand-state & 0.10 & 89.88 \\
+Nominal & O-cand-obs & 0.10 & 90.04 \\
+Coefficient shift & P & [0.10, 2.30] & [91.91, 95.27] \\
+Coefficient shift & B4 & [0.07, 1.99] & [92.63, 95.27] \\
+Coefficient shift & B5 & [0.10, 2.30] & [91.93, 95.29] \\
+Coefficient shift & P-nr & [0.10, 2.15] & [92.36, 95.56] \\
+Coefficient shift & O-cand-state & 0.22 & 94.54 \\
+Coefficient shift & O-cand-obs & 0.29 & 94.48 \\
+Delay/dropout & P & [0.23, 9.78] & [79.56, 91.13] \\
+Delay/dropout & B4 & [0.23, 9.75] & [79.70, 91.00] \\
+Delay/dropout & B5 & [0.23, 9.78] & [79.56, 91.13] \\
+Delay/dropout & P-nr & [0.21, 9.90] & [79.66, 91.21] \\
+Delay/dropout & O-cand-state & 0.06 & 93.16 \\
+Delay/dropout & O-cand-obs & 0.09 & 93.29 \\
+\bottomrule\end{tabular}
+\end{table}

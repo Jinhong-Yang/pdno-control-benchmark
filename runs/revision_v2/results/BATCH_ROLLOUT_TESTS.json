@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "pde": "burgers",
+      "method": "B0",
+      "parents": 2,
+      "ticks": 200,
+      "max_state_error": 0.0,
+      "max_action_error": 0.0,
+      "max_cost_error": 2.220446049250313e-16
+    },
+    {
+      "pde": "burgers",
+      "method": "B1",
+      "parents": 2,
+      "ticks": 200,
+      "max_state_error": 0.0,
+      "max_action_error": 0.0,
+      "max_cost_error": 1.1102230246251565e-16
+    },
+    {
+      "pde": "burgers",
+      "method": "P",
+      "parents": 2,
+      "ticks": 200,
+      "max_state_error": 0.0,
+      "max_action_error": 0.0,
+      "max_cost_error": 1.3877787807814457e-17
+    },
+    {
+      "pde": "burgers",
+      "method": "B4",
+      "parents": 2,
+      "ticks": 200,
+      "max_state_error": 0.0,
+      "max_action_error": 0.0,
+      "max_cost_error": 1.3877787807814457e-17
+    },
+    {
+      "pde": "burgers",
+      "method": "B2",
+      "parents": 2,
+      "ticks": 200,
+      "max_state_error": 2.9802322387695312e-08,
+      "max_action_error": 4.3213367462158203e-07,
+      "max_cost_error": 9.58130674799662e-09
+    },
+    {
+      "pde": "burgers",
+      "method": "B3",
+      "parents": 2,
+      "ticks": 200,
+      "max_state_error": 2.9802322387695312e-08,
+      "max_action_error": 2.2351741790771484e-07,
+      "max_cost_error": 5.997607091523527e-09
+    },
+    {
+      "pde": "heat",
+      "method": "B0",
+      "parents": 2,
+      "ticks": 200,
+      "max_state_error": 0.0,
+      "max_action_error": 0.0,
+      "max_cost_error": 5.791642720964774e-09
+    },
+    {
+      "pde": "heat",
+      "method": "B1",
+      "parents": 2,
+      "ticks": 200,
+      "max_state_error": 0.0,
+      "max_action_error": 0.0,
+      "max_cost_error": 7.707001259404933e-09
+    },
+    {
+      "pde": "heat",
+      "method": "P",
+      "parents": 2,
+      "ticks": 200,
+      "max_state_error": 0.0,
+      "max_action_error": 0.0,
+      "max_cost_error": 6.451895018244613e-09
+    },
+    {
+      "pde": "heat",
+      "method": "B4",
+      "parents": 2,
+      "ticks": 200,
+      "max_state_error": 0.0,
+      "max_action_error": 0.0,
+      "max_cost_error": 6.451893241887774e-09
+    },
+    {
+      "pde": "heat",
+      "method": "B2",
+      "parents": 2,
+      "ticks": 200,
+      "max_state_error": 1.1920928955078125e-07,
+      "max_action_error": 2.384185791015625e-07,
+      "max_cost_error": 4.4743125648949444e-07
+    },
+    {
+      "pde": "heat",
+      "method": "B3",
+      "parents": 2,
+      "ticks": 200,
+      "max_state_error": 5.960464477539062e-07,
+      "max_action_error": 4.470348358154297e-06,
+      "max_cost_error": 1.6676123415493294e-07
+    }
+  ],
+  "elapsed_s": 71.9411038000253,
+  "not_latency_benchmark": true
+}

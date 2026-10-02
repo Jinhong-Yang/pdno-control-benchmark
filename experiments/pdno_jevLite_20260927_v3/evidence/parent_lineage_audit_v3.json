@@ -1,0 +1,67 @@
+{
+  "namespace": "pdno-jevLite-parent-pool-v3-fresh-20260927",
+  "metadata_only_for_predecessors": true,
+  "test_opened": false,
+  "v3_parent_tuple_count": 2304,
+  "cross_version_parent_seed_tuple_overlap": {
+    "v1": 0,
+    "v2": 0
+  },
+  "v3_within_pde_role_overlap_counts": {
+    "burgers:calibration__locked_coefficient_ood": 0,
+    "burgers:calibration__locked_delay_dropout": 0,
+    "burgers:calibration__locked_nominal": 0,
+    "burgers:calibration__train": 0,
+    "burgers:calibration__validation": 0,
+    "burgers:locked_coefficient_ood__locked_delay_dropout": 0,
+    "burgers:locked_coefficient_ood__locked_nominal": 0,
+    "burgers:locked_coefficient_ood__train": 0,
+    "burgers:locked_coefficient_ood__validation": 0,
+    "burgers:locked_delay_dropout__locked_nominal": 0,
+    "burgers:locked_delay_dropout__train": 0,
+    "burgers:locked_delay_dropout__validation": 0,
+    "burgers:locked_nominal__train": 0,
+    "burgers:locked_nominal__validation": 0,
+    "burgers:train__validation": 0,
+    "heat:calibration__locked_coefficient_ood": 0,
+    "heat:calibration__locked_delay_dropout": 0,
+    "heat:calibration__locked_nominal": 0,
+    "heat:calibration__train": 0,
+    "heat:calibration__validation": 0,
+    "heat:locked_coefficient_ood__locked_delay_dropout": 0,
+    "heat:locked_coefficient_ood__locked_nominal": 0,
+    "heat:locked_coefficient_ood__train": 0,
+    "heat:locked_coefficient_ood__validation": 0,
+    "heat:locked_delay_dropout__locked_nominal": 0,
+    "heat:locked_delay_dropout__train": 0,
+    "heat:locked_delay_dropout__validation": 0,
+    "heat:locked_nominal__train": 0,
+    "heat:locked_nominal__validation": 0,
+    "heat:train__validation": 0
+  },
+  "generated_train_validation_parent_check": {
+    "train/burgers": {
+      "expected": 512,
+      "actual": 512,
+      "match": true
+    },
+    "validation/burgers": {
+      "expected": 64,
+      "actual": 64,
+      "match": true
+    },
+    "train/heat": {
+      "expected": 256,
+      "actual": 256,
+      "match": true
+    },
+    "validation/heat": {
+      "expected": 64,
+      "actual": 64,
+      "match": true
+    }
+  },
+  "calibration_or_locked_shards_found": false,
+  "errors": [],
+  "passed": true
+}

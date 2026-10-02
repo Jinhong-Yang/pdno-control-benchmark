@@ -1,0 +1,18 @@
+{
+  "generator_version": "causal-observation-v5-200tick-locked-balanced-roles",
+  "observation_mapping_version": 2,
+  "outer_ticks": 128,
+  "role_assignment": "frozen manifest order; OOD low/high and heat step/no-step alternate exactly by role index",
+  "pde": "heat",
+  "split": "validation",
+  "parent_count": 64,
+  "elapsed_seconds": 1.6782640000456013,
+  "seconds_per_parent": 0.02622287500071252,
+  "file": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\revision_v2\\data\\positive_heat\\validation\\heat\\trajectories.npz",
+  "fields_shape": [
+    64,
+    129,
+    256
+  ],
+  "targets_generated": true
+}

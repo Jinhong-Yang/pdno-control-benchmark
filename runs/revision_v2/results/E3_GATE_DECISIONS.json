@@ -1,0 +1,95 @@
+{
+  "selected_for_evaluation": 0,
+  "skipped": [
+    {
+      "checkpoint": "checkpoints\\E3\\burgers_x16_B4_s11.pt",
+      "nrmse": 0.10804809629917145,
+      "reason": "accuracy gate not met; no closed-loop follow-up"
+    },
+    {
+      "checkpoint": "checkpoints\\E3\\burgers_x16_B4_s23.pt",
+      "nrmse": 0.10721487551927567,
+      "reason": "accuracy gate not met; no closed-loop follow-up"
+    },
+    {
+      "checkpoint": "checkpoints\\E3\\burgers_x16_B4_s37.pt",
+      "nrmse": 0.10614924132823944,
+      "reason": "accuracy gate not met; no closed-loop follow-up"
+    },
+    {
+      "checkpoint": "checkpoints\\E3\\burgers_x16_P_s11.pt",
+      "nrmse": 0.10909414291381836,
+      "reason": "accuracy gate not met; no closed-loop follow-up"
+    },
+    {
+      "checkpoint": "checkpoints\\E3\\burgers_x16_P_s23.pt",
+      "nrmse": 0.10859955102205276,
+      "reason": "accuracy gate not met; no closed-loop follow-up"
+    },
+    {
+      "checkpoint": "checkpoints\\E3\\burgers_x16_P_s37.pt",
+      "nrmse": 0.10753088444471359,
+      "reason": "accuracy gate not met; no closed-loop follow-up"
+    },
+    {
+      "checkpoint": "checkpoints\\E3\\burgers_x1_B4_s11.pt",
+      "nrmse": 0.08286678045988083,
+      "reason": "accuracy gate not met; no closed-loop follow-up"
+    },
+    {
+      "checkpoint": "checkpoints\\E3\\burgers_x1_B4_s23.pt",
+      "nrmse": 0.08838692307472229,
+      "reason": "accuracy gate not met; no closed-loop follow-up"
+    },
+    {
+      "checkpoint": "checkpoints\\E3\\burgers_x1_B4_s37.pt",
+      "nrmse": 0.08902544528245926,
+      "reason": "accuracy gate not met; no closed-loop follow-up"
+    },
+    {
+      "checkpoint": "checkpoints\\E3\\burgers_x1_P_s11.pt",
+      "nrmse": 0.09816283732652664,
+      "reason": "accuracy gate not met; no closed-loop follow-up"
+    },
+    {
+      "checkpoint": "checkpoints\\E3\\burgers_x1_P_s23.pt",
+      "nrmse": 0.09718384593725204,
+      "reason": "accuracy gate not met; no closed-loop follow-up"
+    },
+    {
+      "checkpoint": "checkpoints\\E3\\burgers_x1_P_s37.pt",
+      "nrmse": 0.08847656846046448,
+      "reason": "accuracy gate not met; no closed-loop follow-up"
+    },
+    {
+      "checkpoint": "checkpoints\\E3\\burgers_x4_B4_s11.pt",
+      "nrmse": 0.10562201589345932,
+      "reason": "accuracy gate not met; no closed-loop follow-up"
+    },
+    {
+      "checkpoint": "checkpoints\\E3\\burgers_x4_B4_s23.pt",
+      "nrmse": 0.10251856595277786,
+      "reason": "accuracy gate not met; no closed-loop follow-up"
+    },
+    {
+      "checkpoint": "checkpoints\\E3\\burgers_x4_B4_s37.pt",
+      "nrmse": 0.10099184513092041,
+      "reason": "accuracy gate not met; no closed-loop follow-up"
+    },
+    {
+      "checkpoint": "checkpoints\\E3\\burgers_x4_P_s11.pt",
+      "nrmse": 0.10648220777511597,
+      "reason": "accuracy gate not met; no closed-loop follow-up"
+    },
+    {
+      "checkpoint": "checkpoints\\E3\\burgers_x4_P_s23.pt",
+      "nrmse": 0.1066681370139122,
+      "reason": "accuracy gate not met; no closed-loop follow-up"
+    },
+    {
+      "checkpoint": "checkpoints\\E3\\burgers_x4_P_s37.pt",
+      "nrmse": 0.10609246790409088,
+      "reason": "accuracy gate not met; no closed-loop follow-up"
+    }
+  ]
+}

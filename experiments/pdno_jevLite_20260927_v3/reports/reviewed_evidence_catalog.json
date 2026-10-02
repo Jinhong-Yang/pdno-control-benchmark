@@ -1,0 +1,683 @@
+{
+  "catalog": [
+    {
+      "path": "evidence\\calibration_lock_v3.json",
+      "sha256": "b8afd86d16cc1ed8cbaf31505673af942ec4446aedd44766dc8b4dd5f77e6d13",
+      "status": "CALIBRATION_LOCKED_TEST_SEALED",
+      "passed": null,
+      "keys": [
+        "calibration_parents_per_pde",
+        "exchangeability_scope",
+        "groups",
+        "inputs_sha256",
+        "limitations",
+        "protocol",
+        "quantile",
+        "snapshots_per_parent",
+        "status",
+        "test_opened"
+      ]
+    },
+    {
+      "path": "evidence\\confirmatory_checkpoint_manifest_v3.json",
+      "sha256": "c1fa3e36b0750b1c5f0a9be0132b85c3df7764b4b493938ac4ff2b364bbb1007",
+      "status": "FROZEN_CONFIRMATORY_CHECKPOINTS",
+      "passed": null,
+      "keys": [
+        "checkpoints",
+        "g2_failure_retained",
+        "g2_field_gate_pass",
+        "g2_pilot_sha256",
+        "learned_checkpoint_count",
+        "observer_count",
+        "observers",
+        "protocol",
+        "status",
+        "test_opened",
+        "training_progress_sha256"
+      ]
+    },
+    {
+      "path": "evidence\\cross_version_parent_identity_audit_v3.json",
+      "sha256": "233287b3e3af03feecffbb898cf2822bc62aedcbc86ec21ad16b9ea1648113db",
+      "status": null,
+      "passed": null,
+      "keys": [
+        "v3_namespace",
+        "v3_parent_count",
+        "cross_version_parent_seed_tuple_overlaps_v1_v2",
+        "metadata_only",
+        "test_opened"
+      ]
+    },
+    {
+      "path": "evidence\\cuda_runtime_assessment_v3.json",
+      "sha256": "f20a168cb1f8bcb9556384cf9738feba8e674f14becaa22028366ae164bb5d72",
+      "status": "POST_FREEZE_CUDA_RUNTIME_ASSESSMENT",
+      "passed": null,
+      "keys": [
+        "derived_after_raw_freeze",
+        "groups",
+        "latency_analysis_sha256",
+        "latency_summary_sha256",
+        "limitations",
+        "method",
+        "raw_freeze_manifest_sha256",
+        "status"
+      ]
+    },
+    {
+      "path": "evidence\\deployed_solver_audit_v3.json",
+      "sha256": "4d2118e17c1c385a482a68282b80c2a8d1c3c8045690d84f6f6716020cd440b7",
+      "status": null,
+      "passed": true,
+      "keys": [
+        "protocol",
+        "test_opened",
+        "burgers",
+        "heat",
+        "passed"
+      ]
+    },
+    {
+      "path": "evidence\\full_teacher_query_audit_v3.json",
+      "sha256": "1df17d1549a0fa2801ee6a262737d741610d49a248ba299760954fc26eeeede8",
+      "status": null,
+      "passed": true,
+      "keys": [
+        "passed",
+        "errors",
+        "shards",
+        "calibration_or_test_query_shards_found"
+      ]
+    },
+    {
+      "path": "evidence\\full_train_validation_causal_action_audit_v3.json",
+      "sha256": "7c48b2b594d85e74115c7ad9a126f19da0cab2be05d1ead863d45133f965a304",
+      "status": null,
+      "passed": true,
+      "keys": [
+        "passed",
+        "errors",
+        "shards",
+        "locked_role_outputs_found"
+      ]
+    },
+    {
+      "path": "evidence\\latency_analysis_v3.json",
+      "sha256": "f46114814f3f0b59dc27659336c73d9b8ade9d87c0cb62b30022aad879d584f4",
+      "status": "LOCKED_LATENCY_ANALYSIS_COMPLETE",
+      "passed": null,
+      "keys": [
+        "H1_p99_ratio_analysis",
+        "boundary",
+        "controller_groups",
+        "hard_deadline_ms",
+        "latency_summary_sha256",
+        "requests_per_variant",
+        "sessions",
+        "status",
+        "target_p99_ms",
+        "test_opened"
+      ]
+    },
+    {
+      "path": "evidence\\latency_progress_v3.json",
+      "sha256": "65f77fea975e934cdf86e2588394f63792991b8c4bcc9ef1df51a18425baf2af",
+      "status": "COMPLETE",
+      "passed": null,
+      "keys": [
+        "elapsed_seconds",
+        "requests_complete",
+        "status",
+        "variants_complete"
+      ]
+    },
+    {
+      "path": "evidence\\latency_summary_v3.json",
+      "sha256": "98555f0a22937792548b6826ea8542f3135858334fa83ebfa844d07666ced4bb",
+      "status": "HOST_READY_E2E_THREE_SESSION_COMPLETE",
+      "passed": null,
+      "keys": [
+        "aggregate_rows",
+        "boundary",
+        "checkpoint_manifest_sha256",
+        "device",
+        "elapsed_seconds",
+        "hard_deadline_ms",
+        "raw_files_sha256",
+        "request_batch",
+        "requests_per_session_per_variant",
+        "sessions",
+        "single_process_sequential",
+        "status",
+        "target_p99_ms",
+        "test_marker_sha256",
+        "test_opened",
+        "truth_solver_included",
+        "unique_source_replay_pool_per_variant",
+        "warmup_requests_per_session_per_variant"
+      ]
+    },
+    {
+      "path": "evidence\\locked_200tick_data_audit_v3.json",
+      "sha256": "fa0adf7252409a7150aedc493ecfceb6bc4bda738bde48ca1b9c68250c432bd6",
+      "status": "V3_LOCKED_PARENT_DATA_AUDITED_TEST_SEALED",
+      "passed": true,
+      "keys": [
+        "generation_receipt_sha256",
+        "outer_ticks",
+        "passed",
+        "shards",
+        "status",
+        "test_opened"
+      ]
+    },
+    {
+      "path": "evidence\\locked_evaluation_freeze_v3.json",
+      "sha256": "0feb174dbc7d51634d6f3053da079ac9718eeaf6f8c8885e6a813dab8cd445b2",
+      "status": "LOCKED_EVALUATION_INPUTS_FROZEN_TEST_SEALED",
+      "passed": null,
+      "keys": [
+        "calibration_lock_audit_sha256",
+        "calibration_lock_sha256",
+        "checkpoint_manifest_sha256",
+        "checkpoint_sha256",
+        "episode_ticks",
+        "frozen_input_sha256",
+        "h3_selected_comparator",
+        "locked_data_audit_sha256",
+        "locked_parent_shards",
+        "parent_method_seed_episodes",
+        "pretraining_spec_freeze_sha256",
+        "protocol",
+        "query_tick",
+        "status",
+        "test_opened",
+        "test_tuning",
+        "validation_checkpoint_selection_sha256",
+        "validation_h3_sha256"
+      ]
+    },
+    {
+      "path": "evidence\\locked_test_analysis_v3.json",
+      "sha256": "28f32812b8e1593da0a8a6f54bafc69460a0712a08e1bbc7991aa840308df3e9",
+      "status": "LOCKED_TEST_AGGREGATED",
+      "passed": null,
+      "keys": [
+        "bootstrap_rng_seed",
+        "comparison_unit",
+        "groups",
+        "h3_validation_selected_comparator",
+        "paired_parent_bootstrap_replicates",
+        "raw_manifest_sha256",
+        "status",
+        "test_opened",
+        "training_seed_handling"
+      ]
+    },
+    {
+      "path": "evidence\\parent_lineage_audit_v3.json",
+      "sha256": "69a1e875f6d8bb10369a9fd3308a309ff387faa48bb0d6792476dc28f80615bd",
+      "status": null,
+      "passed": true,
+      "keys": [
+        "namespace",
+        "metadata_only_for_predecessors",
+        "test_opened",
+        "v3_parent_tuple_count",
+        "cross_version_parent_seed_tuple_overlap",
+        "v3_within_pde_role_overlap_counts",
+        "generated_train_validation_parent_check",
+        "calibration_or_locked_shards_found",
+        "errors",
+        "passed"
+      ]
+    },
+    {
+      "path": "evidence\\pilot_causal_action_audit_v3.json",
+      "sha256": "7478e53d8c855287a35eafa92de05f272bef6b9cfec96b2047cb17599a062ab5",
+      "status": null,
+      "passed": true,
+      "keys": [
+        "passed",
+        "errors",
+        "shards",
+        "locked_role_outputs_found"
+      ]
+    },
+    {
+      "path": "evidence\\pilot_teacher_query_audit_v3.json",
+      "sha256": "3e02595d30040b610ba55a08056260199197a5f57f435420fdf85b31818d57b6",
+      "status": null,
+      "passed": true,
+      "keys": [
+        "passed",
+        "errors",
+        "shards",
+        "calibration_or_test_query_shards_found"
+      ]
+    },
+    {
+      "path": "evidence\\preflight_v3.json",
+      "sha256": "c496ea13590837ea70ddcb3ae25bedf09e4e95e750e7f5e009f2dcc4a185263d",
+      "status": null,
+      "passed": null,
+      "keys": [
+        "observed_at_kst",
+        "workspace",
+        "python",
+        "venv",
+        "torch",
+        "cuda_runtime",
+        "cuda_available",
+        "gpu",
+        "compute_capability",
+        "driver",
+        "vram_total_mib",
+        "vram_free_mib_at_probe",
+        "gpu_utilization_percent_at_probe",
+        "forward_second_derivative_smoke",
+        "unit_tests",
+        "legacy_solver_refinement",
+        "deployed_forced_solver_audit",
+        "split_manifest",
+        "train_validation_smoke_data",
+        "full_train_validation_data",
+        "full_teacher_queries",
+        "validation_only_g2_pilot",
+        "validation_only_closed_loop_runtime_pilot",
+        "actual_experiment_model_id",
+        "actual_experiment_model_status",
+        "failures"
+      ]
+    },
+    {
+      "path": "evidence\\pretraining_spec_freeze_v3.json",
+      "sha256": "278bf5704cfe3efd06b9bcd2c611b59aa77c8212f230ee61c50fb594b252c584",
+      "status": "PRETRAINING_SPEC_FROZEN_TEST_SEALED",
+      "passed": null,
+      "keys": [
+        "author_input_required",
+        "calibration_generated",
+        "feature_use_limitation",
+        "g2_pilot_disposition",
+        "inputs_sha256",
+        "locked_test_generated",
+        "locked_test_opened",
+        "protocol",
+        "spec_path",
+        "spec_sha256",
+        "status",
+        "train_validation_target_data_only"
+      ]
+    },
+    {
+      "path": "evidence\\raw_evidence_freeze_v3.json",
+      "sha256": "2fc83da6f7c577d09d1c75ce44e276726a6705383e074974f94d9f321a3eea41",
+      "status": "RAW_EVIDENCE_FROZEN",
+      "passed": null,
+      "keys": [
+        "context_and_procedure_files",
+        "experiment_tree_file_count",
+        "experiment_tree_inventory",
+        "host_latency_raw_artifacts",
+        "host_latency_raw_count",
+        "host_latency_status",
+        "host_latency_summary_sha256",
+        "latency_analysis_sha256",
+        "locked_aggregate_sha256",
+        "locked_raw_artifacts",
+        "locked_raw_artifacts_count",
+        "locked_test_marker_sha256",
+        "locked_test_status",
+        "schema",
+        "status",
+        "test_opened"
+      ]
+    },
+    {
+      "path": "evidence\\runtime_cuda_optimizer_assessment_v3.json",
+      "sha256": "bae874f359293923248bc30e6f9b05c72fd2362744532325349540d7cf20dc08",
+      "status": "MEASURED_CANDIDATE_REQUIRES_V3_VALIDATION",
+      "passed": null,
+      "keys": [
+        "status",
+        "scope",
+        "hardware",
+        "predecessor_measurement",
+        "v3_current_pipeline",
+        "next_action",
+        "calibration_opened",
+        "locked_test_opened"
+      ]
+    },
+    {
+      "path": "evidence\\solver_refinement_audit.json",
+      "sha256": "e32a0155a95cfad8b09c43f781e37f6b51eaee3451e7fb914b347641d1094ae3",
+      "status": null,
+      "passed": null,
+      "keys": [
+        "pde",
+        "burgers",
+        "heat"
+      ]
+    },
+    {
+      "path": "evidence\\v3_calibration_data_audit_receipt.json",
+      "sha256": "7f72bd1b5c03a8a2e3fc2031d35a58605270c8cda98efe0a7506d8c8e37c1e26",
+      "status": "CALIBRATION_TRAJECTORY_AUDIT_PASSED",
+      "passed": null,
+      "keys": [
+        "all_checks_passed",
+        "generation_receipt_sha256",
+        "role_manifest_sha256",
+        "shards",
+        "status",
+        "test_opened"
+      ]
+    },
+    {
+      "path": "evidence\\v3_calibration_generation_receipt.json",
+      "sha256": "62ba920f44167d6826ff3e1642502f7dec4ec4d77a67f7037632294fcf509f56",
+      "status": "V3_CALIBRATION_TRAJECTORIES_GENERATED_TEST_SEALED",
+      "passed": null,
+      "keys": [
+        "outer_ticks",
+        "parent_manifest_sha256",
+        "roles",
+        "status",
+        "test_opened"
+      ]
+    },
+    {
+      "path": "evidence\\v3_calibration_lock_audit_receipt.json",
+      "sha256": "36e11edfdc4fe1b63dbaab241f5337b5688a38bafd514c6d95b7427e68f5e59a",
+      "status": "CALIBRATION_LOCK_AUDIT_PASSED",
+      "passed": null,
+      "keys": [
+        "all_checks_passed",
+        "calibration_lock_sha256",
+        "checkpoint_manifest_sha256",
+        "exchangeability_scope",
+        "generation_receipt_sha256",
+        "group_count",
+        "groups",
+        "limitations",
+        "quantile",
+        "query_audit_sha256",
+        "query_manifest_sha256",
+        "status",
+        "test_opened"
+      ]
+    },
+    {
+      "path": "evidence\\v3_calibration_query_audit_receipt.json",
+      "sha256": "7f7b68cac274a888574aeda8f2fcdb1c5c57b8ad15c830edc31063b267b88a3e",
+      "status": "CALIBRATION_QUERY_AUDIT_PASSED",
+      "passed": null,
+      "keys": [
+        "all_checks_passed",
+        "calibration_data_audit_sha256",
+        "generation_receipt_sha256",
+        "query_manifest_sha256",
+        "role_manifest_sha256",
+        "shards",
+        "status",
+        "test_opened"
+      ]
+    },
+    {
+      "path": "evidence\\v3_calibration_query_generation_receipt.json",
+      "sha256": "1a9718fda038e5c09598e31d12ad19780bad37afed017aa9c16fd3d58e78a664",
+      "status": "V3_CALIBRATION_QUERIES_GENERATED_TEST_SEALED",
+      "passed": null,
+      "keys": [
+        "heat_qmax_train_validation_only",
+        "parents_per_pde",
+        "rows",
+        "snapshots_per_parent",
+        "status",
+        "test_opened",
+        "trajectory_receipt_sha256"
+      ]
+    },
+    {
+      "path": "evidence\\v3_calibration_query_manifest.json",
+      "sha256": "cfac4518e07447926b616c42a13af8fd3fd46f503033638af1e37fe3b64b3a8b",
+      "status": "V3_CALIBRATION_QUERIES_AUDITED_TEST_SEALED",
+      "passed": null,
+      "keys": [
+        "all_checks_passed",
+        "data_generation_receipt_sha256",
+        "query_generation_receipt_sha256",
+        "role_manifest_sha256",
+        "shards",
+        "status",
+        "test_opened"
+      ]
+    },
+    {
+      "path": "evidence\\v3_closed_loop_runtime_pilot.json",
+      "sha256": "6910c4ed587a81a2a5e2d783319a35910973084896c4f58f39084ab867cd3446",
+      "status": "VALIDATION_ONLY_RUNTIME_PILOT_COMPLETE",
+      "passed": null,
+      "keys": [
+        "status",
+        "device",
+        "pdes",
+        "validation_parent_count",
+        "ticks_per_episode",
+        "variants_per_pde",
+        "locked_test_expected_executions",
+        "estimated_locked_evaluation_hours_unscaled",
+        "estimated_locked_evaluation_hours_with_15pct_margin",
+        "interpretation",
+        "test_opened",
+        "calibration_opened",
+        "elapsed_seconds",
+        "validation_data_sha256",
+        "rows"
+      ]
+    },
+    {
+      "path": "evidence\\v3_confirmatory_training_progress.json",
+      "sha256": "b06ff7036edc9a87831aee3d8b3c170bae9756048c4b03fca2d19321cce33a68",
+      "status": "TRAINING_COMPLETE",
+      "passed": null,
+      "keys": [
+        "status",
+        "elapsed_seconds",
+        "results"
+      ]
+    },
+    {
+      "path": "evidence\\v3_g2_pilot_progress.json",
+      "sha256": "6563fac12ed9447eeaf1fb015e16174d6cf76db2bf3e713cf4701dde7d3d1c23",
+      "status": "PILOT_COMPLETE",
+      "passed": null,
+      "keys": [
+        "status",
+        "pilot_seed",
+        "split",
+        "test_opened",
+        "calibration_opened",
+        "rows",
+        "elapsed_seconds",
+        "g2_field_gate_pass"
+      ]
+    },
+    {
+      "path": "evidence\\v3_h3_comparator_audit_receipt.json",
+      "sha256": "55eed99109f151824f37552ffa8c0a0e16c500244fd01ce1707431fd067ae6b1",
+      "status": "H3_VALIDATION_COMPARATOR_AUDIT_PASSED",
+      "passed": null,
+      "keys": [
+        "aggregation",
+        "all_passed",
+        "checkpoint_selection_sha256",
+        "checks",
+        "fallback_and_causal_violations",
+        "independent_parent_count_per_pde",
+        "learned_checkpoint_hashes_verified",
+        "method_scores",
+        "runner_source_sha256",
+        "selected_comparator",
+        "status",
+        "test_opened",
+        "validation_data_sha256",
+        "validation_parents_are_independent_units",
+        "validation_report_sha256"
+      ]
+    },
+    {
+      "path": "evidence\\v3_locked_generation_receipt.json",
+      "sha256": "810ea859db863ff9aab40601c8a901480e03d845cb7b8ed16d7f2fc7a574393f",
+      "status": "V3_LOCKED_PARENT_DATA_GENERATED_TEST_SEALED",
+      "passed": null,
+      "keys": [
+        "calibration_lock_sha256",
+        "checkpoint_manifest_sha256",
+        "outer_ticks",
+        "parent_total",
+        "roles",
+        "status",
+        "test_opened"
+      ]
+    },
+    {
+      "path": "evidence\\v3_runner_contract_audit.json",
+      "sha256": "3dbf816298f241f4f91c98d38174b94681a6a0292d207fc85e9e8636ec4bd468",
+      "status": "V3_RUNNER_CONTRACT_AUDIT_PASSED",
+      "passed": true,
+      "keys": [
+        "calibration_generated",
+        "checks",
+        "passed",
+        "runner_sha256",
+        "stale_path_files",
+        "status",
+        "test_opened"
+      ]
+    },
+    {
+      "path": "evidence\\validation_checkpoint_selection_v3.json",
+      "sha256": "345692754532c27798ec2d6be23ba01737ece221a6df0fe37d0f6fb8a6d24a52",
+      "status": "VALIDATION_SELECTED_G2_FAIL_RETAINED",
+      "passed": null,
+      "keys": [
+        "g2_failure_retained",
+        "g2_field_gate_pass",
+        "protocol",
+        "selected",
+        "selection_source",
+        "status",
+        "test_opened"
+      ]
+    },
+    {
+      "path": "evidence\\validation_closed_loop_comparator_v3.json",
+      "sha256": "850ab0b28c63cd4d3f6571adc80826137ef4fc29695ac1714db7a9c830789210",
+      "status": "VALIDATION_ONLY_H3_COMPARATOR_SELECTED",
+      "passed": null,
+      "keys": [
+        "baseline_mean_cost",
+        "device",
+        "eligible_methods",
+        "excluded_proposed_methods",
+        "independent_parent_count_per_pde",
+        "method_scores",
+        "pdes",
+        "seed_hierarchy",
+        "selected_comparator",
+        "selection_rule",
+        "status",
+        "test_opened",
+        "validation_data_sha256"
+      ]
+    },
+    {
+      "path": "config\\baseline_registry.csv",
+      "sha256": "5fb21da125d3aa56b68bba9d7f5e6146eea14aa0818f11259f3acf62fcc33460",
+      "content": "id,name,required,purpose,core_definition\nB0,nominal_lqr_projected_feedback,true,fast simple controller,linear modal feedback with common observer projection and fallback cost\nB1,finite_candidate_rom_predictive_controller,true,physics predictive baseline,16-mode Galerkin or thermal modal model; K=10 H=8\nB2,direct_bc_mlp_tcn,true,direct policy baseline,shared observation encoder and supervised teacher action\nB3,surrogate_gradient_direct_policy,true,policy optimization baseline,BC warm start then frozen B4 held-action cost gradients; <=1000 updates\nB4,candidate_conditioned_pi_deeponet,true,shared-computation control,shared context encoder; candidate axis batched; same operator rank and supervision as P\nB5,factorized_data_only_operator,true,physics-loss ablation,same architecture/parameters/teacher as P; physics and balance losses zero\nP,action_factorized_pi_deeponet,true,proposed method,shared branch and fixed polynomial candidate responses with explicit cost\n"
+    },
+    {
+      "path": "config\\checkpoint_selection_v2.yaml",
+      "sha256": "5bd878e8eaa7fd361e7f4cdaf9c2995670371bba23c20f44d05f44c04e9ac97e",
+      "content": "{\n  \"protocol\": \"validation_closed_loop_checkpoint_selection_v2\",\n  \"candidate_cadence_updates\": 500,\n  \"validation_parents_per_pde\": 8,\n  \"parent_selection\": \"lexicographically_first_parent_ids_after_sorted_order\",\n  \"candidate_gate\": {\n    \"require_finite_actions\": true,\n    \"require_zero_fallbacks\": true,\n    \"require_zero_causal_timestamp_violations\": true,\n    \"require_zero_truth_constraint_violations\": true\n  },\n  \"ranking\": {\n    \"primary\": \"minimum_mean_episode_control_cost\",\n    \"latency_tie_band\": 0.05,\n    \"tie_break\": \"minimum_p95_controller_latency_ms\",\n    \"final_tie_break\": \"earliest_update\"\n  },\n  \"if_no_candidate_passes_gate\": \"retain_minimum_violation_count_then_cost_as_diagnostic_and_mark_no_go\",\n  \"locked_test_access\": \"prohibited\"\n}\n"
+    },
+    {
+      "path": "config\\checkpoint_selection_v3.yaml",
+      "sha256": "83f42a7ad1e83d09583fa4cd135b383bfa0f473915a75d7b6d4c2c00b70ff6a2",
+      "content": "protocol: validation_closed_loop_checkpoint_selection_v3\ncandidate_cadence_updates: 500\nvalidation_parents_per_pde: 8\nparent_selection: lexicographically_first_parent_ids_after_sorted_order\ncandidate_gate:\n  require_finite_actions: true\n  require_zero_fallbacks: true\n  require_zero_causal_timestamp_violations: true\n  require_zero_truth_constraint_violations: true\nranking:\n  primary: minimum_mean_episode_control_cost\n  latency_tie_band: 0.05\n  tie_break: minimum_p95_controller_latency_ms\n  final_tie_break: earliest_update\nif_no_candidate_passes_gate: retain_minimum_violation_count_then_cost_as_diagnostic_and_mark_no_go\nlocked_test_access: prohibited\n"
+    },
+    {
+      "path": "config\\evaluation_addendum_v1.yaml",
+      "sha256": "58333b46a727a591f1cacb8f492ab9e9fbaaaa81a3c7e100e3d5709ad152f271",
+      "content": "protocol: PDNO_JevLite_RTX5080_72H_frozen_evaluation_addendum_v1\nparent_protocol: config/frozen_experiment.yaml\npurpose: implement source-specified OOD, delay/dropout, heat setpoint-step and calibration roles before any calibration/test target is generated\nlocked_targets_generated: false\ncoefficient_ood:\n  burgers:\n    balanced_halves:\n      low_nu: [0.005, 0.008]\n      high_nu: [0.035, 0.045]\n    assignment: alternating_manifest_role_order_exactly_64_per_range\n  heat:\n    kappa: [0.024, 0.032]\n    decay_uses_nominal_range: [0.2, 0.5]\ndelay_dropout:\n  sensor_event_missing_probability: 0.20\n  sensor_event_delay_ticks: [0, 1]\n  image_event_delay_ticks: [0, 2, 4, 8]\n  image_event_drop_probability: 0.03\n  assignment: deterministic_parent_seed_per_role_parent\nheat_step_tracking:\n  role: locked_nominal\n  parent_assignment: alternating_frozen_manifest_role_order_exactly_192_step_and_192_fixed\n  step_tick: 64\n  after_goal: second_random_reachable_steady_heat_target_with_same_kappa_decay\ncalibration:\n  role: calibration\n  parents_per_pde: 64\n  teacher_snapshots_per_parent: 8\n  models_with_predictive_field_for_margin: [B1, P, B4, B5]\n  direct_policies_without_field_margin: [B0, B2, B3]\n  endpoint: parent_max_over_queries_and_grid_of_abs_predicted_vs_truth_future_field\n  quantile: 0.95\n  finite_sample_order_index_zero_based: ceil((64 + 1) * 0.95) - 1\n  order_index_value: 61\n  margin_changes_action_selection: false\n  exchangeability_scope: nominal_calibration_parents_only\n  no_ood_safety_guarantee: true\nsequence:\n  calibration_targets_after_model_freeze: true\n  lock_calibration_margin_before_locked_data_generation: true\n  locked_evaluation_once: true\n  no_test_tuning: true\n"
+    },
+    {
+      "path": "config\\evaluation_addendum_v2.yaml",
+      "sha256": "bf8bca609167ff1de8a47c7bac394d3753e788ada88392e2ca3374761f497342",
+      "content": "protocol: PDNO_JevLite_RTX5080_72H_locked_execution_addendum_v2\nparent_protocol: config/frozen_experiment.yaml\ncalibration_protocol: config/evaluation_addendum_v1.yaml\ncalibration_lock: evidence/calibration_lock_v2.json\nreason: source_protocol_requires_200_tick_closed_loop_episodes; pre-test_execution_correction\nclosed_loop:\n  episode_ticks: 200\n  simulation_dt_seconds: 0.02\n  horizon_ticks: 8\n  all_methods_share_parent_initial_condition_material_disturbance_and_observation_schedule: true\n  controllers: [B0, B1, P, P-no-rank, B4, B5, B2, B3]\n  learned_seeds: [11, 23, 37]\n  heat_mid_episode_step_tick: 100\n  heat_step_parents: 192_of_384_locked_nominal\n  action_projection: common_box_and_slew_each_tick\n  online_field_forecast_error_and_candidate_regret_snapshot_tick: 100\n  exact_candidate_regret: actual_selected_action_horizon_cost_minus_minimum_shared_K10_candidate_horizon_cost\n  per_episode_metrics: [cumulative_control_cost, tracking_rmse, constraint_violation, fallback_rate, forecast_nrmse, candidate_regret]\nstatistics:\n  independent_unit: parent_episode\n  training_seed_is_hierarchical_not_an_environment_replication\n  paired_parent_bootstrap_replicates: 10000\n  all_methods_and_seeds_use_identical_parent_condition_schedules: true\nh3_comparator:\n  select_before_test_from: [B0, B1, B2, B3, B4, B5]\n  exclude_proposed_methods: [P, P-no-rank]\n  criterion: lowest_validation_mean_control_cost_after_equal_weight_normalization_within_each_pde; learned seeds averaged within parent\n  validation_parent_episode_count_per_pde: 64\n  global_selection_rule: mean_of_burgers_and_heat_within_pde_cost_ratio_to_B0\n  tie_break: B0\n  selected_before_test: null\n  selection_evidence: evidence/validation_closed_loop_comparator_v2.json\nsequence:\n  generated_128_tick_locked_v1_is_superseded_provenance_only: true\n  only_200_tick_locked_v2_is_eligible_for_one_time_evaluation: true\n  locked_test_result_accessed_only_after_every_method_runner_and_hash_is_frozen: true\n  no_test_tuning: true\nruntime_budget:\n  measured_locked_evaluation_point_estimate_hours: 12.84\n  measured_locked_evaluation_planning_estimate_with_25pct_margin_hours: 16.05\n  runtime_estimate_evidence: evidence/v2_evaluation_budget_reconciliation.json\n  runtime_estimate_scope: one validation parent per PDE and method; not a robust guarantee\n  evidence_window_hours: 62\n  astra_reserve_hours: 10\n  required_methods_and_parent_counts_retained: true\n"
+    },
+    {
+      "path": "config\\evaluation_addendum_v3.yaml",
+      "sha256": "a5c4590224975047e4c8175c996e15b74588cd97de03c14e519d0121132fa89c",
+      "content": "protocol: PDNO_JevLite_RTX5080_72H_locked_execution_addendum_v3\nparent_protocol: config/final_spec_v3.json\ncalibration_lock: evidence/calibration_lock_v3.json\nreason: v3 fresh parent namespace, signed thermal bounds, and 200-tick source-specified closed-loop evaluation\nclosed_loop:\n  episode_ticks: 200\n  simulation_dt_seconds: 0.02\n  horizon_ticks: 8\n  all_methods_share_parent_initial_condition_material_disturbance_and_observation_schedule: true\n  controllers: [B0, B1, P, P-no-rank, B4, B5, B2, B3]\n  learned_seeds: [11, 23, 37]\n  heat_mid_episode_step_tick: 100\n  heat_step_parents: 192_of_384_locked_nominal\n  action_projection: common_box_and_slew_each_tick\n  online_field_forecast_error_and_candidate_regret_snapshot_tick: 100\n  exact_candidate_regret: actual_selected_action_horizon_cost_minus_minimum_shared_K10_candidate_horizon_cost\n  per_episode_metrics: [cumulative_control_cost, tracking_rmse, constraint_violation, fallback_rate, forecast_nrmse, candidate_regret, conditional_harm]\nstatistics:\n  independent_unit: parent_episode\n  training_seed_is_hierarchical_not_an_environment_replication\n  paired_parent_bootstrap_replicates: 10000\n  all_methods_and_seeds_use_identical_parent_condition_schedules: true\nh3_comparator:\n  select_before_test_from: [B0, B1, B2, B3, B4, B5]\n  exclude_proposed_methods: [P, P-no-rank]\n  criterion: minimum_equal_pde_mean_episode_cost_ratio_to_B0; learned seeds averaged within parent\n  validation_parent_episode_count_per_pde: 64\n  tie_break: B0\n  selected_before_test: null\n  selection_evidence: evidence/validation_closed_loop_comparator_v3.json\nsequence:\n  train_validation_data_namespace: pdno-jevLite-parent-pool-v3-fresh-20260927\n  only_200_tick_locked_v3_is_eligible_for_one_time_evaluation: true\n  locked_test_result_accessed_only_after_every_method_runner_and_hash_is_frozen: true\n  no_test_tuning: true\nruntime_budget:\n  measured_locked_evaluation_point_estimate_hours: 13.3054\n  measured_locked_evaluation_planning_estimate_with_15pct_margin_hours: 15.3012\n  runtime_estimate_evidence: evidence/v3_closed_loop_runtime_pilot.json\n  runtime_estimate_scope: one validation parent per PDE and method; includes CPU truth solver, not a robust guarantee\n  evidence_window_hours: 62\n  astra_reserve_hours: 10\n  required_methods_and_parent_counts_retained: true\n"
+    },
+    {
+      "path": "config\\experiment.yaml",
+      "sha256": "a692f3946db727b62502934c9079e0ac4e3eef270b358e415a7c47507467e5bf",
+      "content": "protocol_version: \"0.1-derived-from-instruction-v1.0\"\nproject: PDNO_JevLite_RTX5080_72H\ndomain: manufacturing_distributed_parameter_control\nautonomous_execution_means: research_agent_workflow\nbudget:\n  total_wall_hours: 72\n  luna_evidence_wall_hours: 62\n  astra_reserved_wall_hours: 10\n  gpu_active_hours_cap: 62\n  clock_started_at_kst: \"2026-09-25T23:09:10+09:00\"\nhardware:\n  required_gpu: NVIDIA GeForce RTX 5080\n  max_vram_gib_target: 13\n  max_host_rss_gib_target: 48\n  working_disk_gib_target: 50\nprimary_pde: forced_periodic_burgers\ncrosscheck_pde: dirichlet_heat\ngrids:\n  model: 128\n  truth: 256\n  refinement: [128, 256, 512]\ntime:\n  simulation_dt: 0.02\n  solver_internal_dt_start: 0.00025\n  horizon_ticks: 8\n  episode_ticks: 200\ncontrol:\n  request_batch: 1\n  candidates: 10\n  actuators: 2\n  action_hold: constant_over_prediction_horizon_apply_first_tick\n  deadline_ms: 5\n  target_host_e2e_p99_ms: 2\n  command_period_ms: 20\n  seeds:\n    pilot: 7\n    confirmatory: [11, 23, 37]\nobservation:\n  sensor_count: 16\n  history_ticks: 8\n  image_shape: [1, 16, 64]\n  event_availability: \"capture_time <= decision_time AND receive_time <= decision_time\"\nsplits:\n  unit: parent_episode\n  train: {burgers: 512, heat: 256}\n  validation: {burgers: 64, heat: 64}\n  calibration: {burgers: 64, heat: 64}\n  locked_nominal: {burgers: 384, heat: 384}\n  locked_coefficient_ood: {burgers: 128, heat: 128}\n  locked_delay_dropout: {burgers: 128, heat: 128}\ntest_opened: false\nmodels:\n  required: [B0, B1, B2, B3, B4, B5, P]\n  candidate_batching: true\n  shared_encoder_for_B4: true\n  B3_policy: surrogate_gradient_direct_policy\n  confirmatory_seeds: [11, 23, 37]\nselection:\n  calibration_after_model_freeze: true\n  locked_test_once: true\n  no_test_tuning: true\n  no_test_access_before_freeze: true\nprovenance:\n  source_instruction: \"C:/Users/WIN/Downloads/PDNO_JevLite_RTX5080_72H_실험지시서.md\"\n  absent_inputs_reconstructed: [config/experiment.yaml, config/model_roles.yaml, references.json]\n"
+    },
+    {
+      "path": "config\\final_spec_v2.json",
+      "sha256": "d16cfacb62cabe84130cfef9f9ebce1de317ed4fd5774e0a5a8303ef1895fb9d",
+      "content": "{\n  \"protocol\": \"PDNO_JevLite_RTX5080_72H_frozen_spec_v2\",\n  \"status\": \"FROZEN_FAIL_INCLUSIVE_PRETRAINING_SPEC\",\n  \"domain\": \"synthetic manufacturing distributed-parameter PDE low-latency control\",\n  \"decision_context\": {\n    \"g2_pilot_status\": \"G2_FAIL_AFTER_REVISION1\",\n    \"g2_field_nrmse_threshold\": 0.05,\n    \"observed_selected_p_field_nrmse\": {\"burgers\": 0.12985, \"heat\": 0.08203},\n    \"disposition\": \"retain negative G2 result; no threshold relaxation; any later confirmatory evaluation is descriptive and cannot be presented as G2 success\"\n  },\n  \"split_contract\": {\n    \"independent_unit\": \"parent trajectory episode\",\n    \"train_validation_shared_parent\": false,\n    \"calibration_parent_count_per_pde\": 64,\n    \"locked_parent_counts_per_pde\": {\n      \"locked_nominal\": 384,\n      \"locked_coefficient_ood\": 128,\n      \"locked_delay_dropout\": 128\n    },\n    \"locked_parent_total\": 1280,\n    \"locked_model_parent_runs\": 25600,\n    \"v1_locked_parent_reuse\": false\n  },\n  \"mandatory_controllers\": {\n    \"classical\": [\"B0\", \"B1\"],\n    \"learned_families\": [\"P\", \"P-no-rank\", \"B4\", \"B5\", \"B2\", \"B3\"],\n    \"seeds\": [11, 23, 37],\n    \"B4_shared_encoder\": true,\n    \"B4_candidate_batching\": true,\n    \"B3_direct_policy_surrogate_gradient\": true,\n    \"total_variants_per_pde\": 20,\n    \"training_execution\": \"one CUDA training process at a time\"\n  },\n  \"model_selection\": {\n    \"checkpoint_candidates\": \"every 500 updates\",\n    \"parent_count_per_pde\": 8,\n    \"parents\": \"lexicographically first validation parent IDs\",\n    \"finite_actions_required\": true,\n    \"zero_fallback_required\": true,\n    \"zero_causal_timestamp_violation_required\": true,\n    \"zero_truth_constraint_violation_required\": true,\n    \"primary\": \"minimum mean episode control cost among eligible candidates\",\n    \"latency_tie_band\": 0.05,\n    \"tie_break\": \"minimum p95 controller latency, then earliest update\",\n    \"no_eligible_candidate\": \"retain diagnostic checkpoint with explicit NO_GO selection status\"\n  },\n  \"H3_comparator\": {\n    \"eligible\": [\"B0\", \"B1\", \"B2\", \"B3\", \"B4\", \"B5\"],\n    \"excluded\": [\"P\", \"P-no-rank\"],\n    \"validation_parents_per_pde\": 64,\n    \"seed_handling\": \"average learned seeds within parent\",\n    \"criterion\": \"minimum equal-PDE mean episode-cost ratio to B0; B0 exact-tie preference\"\n  },\n  \"calibration\": {\n    \"new_parent_count_per_pde\": 64,\n    \"endpoint\": \"per-parent maximum absolute future-field error across fixed queries/grid\",\n    \"margin\": \"empirical 95th percentile by PDE and model\",\n    \"calibration_retrains_model_or_score\": false,\n    \"locked_test_opened_once\": true\n  },\n  \"locked_test\": {\n    \"episode_ticks\": 200,\n    \"query_tick\": 100,\n    \"parent_pairing_across_all_methods_and_seeds\": true,\n    \"all_controller_variants\": 20,\n    \"total_parent_method_seed_episodes\": 25600,\n    \"primary_metrics\": [\"episode_control_cost\", \"tracking_rmse\", \"truth_constraint_violation\", \"fallback_rate\", \"field_nrmse\", \"candidate_regret\"],\n    \"paired_parent_bootstrap_replicates\": 10000,\n    \"report_per_seed\": true,\n    \"test_tuning\": false\n  },\n  \"runtime_budget\": {\n    \"locked_budget_hours\": 20,\n    \"measured_point_estimate_hours\": 12.84,\n    \"planning_estimate_with_25pct_margin_hours\": 16.05,\n    \"runtime_evidence\": \"evidence/v2_evaluation_budget_reconciliation.json\",\n    \"estimate_limit\": \"single validation parent per PDE and method; not a robust guarantee\"\n  },\n  \"latency\": {\n    \"runs_after_complete_locked_test\": true,\n    \"request_batch\": 1,\n    \"sessions\": 3,\n    \"requests_per_session\": 20000,\n    \"hard_deadline_ms\": 5,\n    \"target_p99_ms\": 2,\n    \"include_host_prepare_transfer_inference_projection_return\": true,\n    \"truth_solver_included\": false,\n    \"cpu_and_cuda_reported_separately\": true\n  },\n  \"research_claims\": {\n    \"conditional_harm\": \"not estimable without an acceptance gate and completed locked test\",\n    \"residual_space_coverage_is_not_actual_solution_error_guarantee\": true,\n    \"positive_G2_claim_prohibited\": true,\n    \"author_metadata\": \"AUTHOR_INPUT_REQUIRED\"\n  },\n  \"sealed_state_at_freeze\": {\"calibration_generated\": false, \"locked_test_generated\": false, \"locked_test_opened\": false}\n}\n"
+    },
+    {
+      "path": "config\\final_spec_v3.json",
+      "sha256": "afc57e2be4d9af716c7c43ba53c3a51ccaac0a1843c8bc9363ad00b2362a8902",
+      "content": "{\n  \"calibration\": {\n    \"endpoint\": \"per-parent maximum absolute selected-action future-field error over 8 fixed snapshots and 128-point grid\",\n    \"finite_sample_order_index_zero_based\": 61,\n    \"margin_changes_action_selection\": false,\n    \"quantile\": 0.95,\n    \"scope\": \"nominal calibration parents only; no OOD or uniform safety guarantee\"\n  },\n  \"data\": {\n    \"calibration_parents_per_pde\": 64,\n    \"calibration_queries_per_parent\": 8,\n    \"locked_parent_counts_per_pde\": {\n      \"locked_coefficient_ood\": 128,\n      \"locked_delay_dropout\": 128,\n      \"locked_nominal\": 384\n    },\n    \"locked_parent_total\": 1280,\n    \"namespace\": \"pdno-jevLite-parent-pool-v3-fresh-20260927\",\n    \"train_queries_per_parent\": 4,\n    \"train_validation_parent_counts\": {\n      \"burgers_train\": 512,\n      \"burgers_validation\": 64,\n      \"heat_train\": 256,\n      \"heat_validation\": 64\n    },\n    \"unit\": \"independent parent trajectory episode\",\n    \"v1_v2_parent_identity_and_seed_tuple_overlap\": 0,\n    \"validation_queries_per_parent\": 1\n  },\n  \"decision_context\": {\n    \"disposition\": \"preserve G2 field-accuracy failure; no threshold relaxation; any later test is confirmatory/descriptive and cannot be described as G2 success\",\n    \"g2_field_nrmse_threshold\": 0.05,\n    \"g2_pilot_status\": \"G2_FAIL_RETAINED\",\n    \"median_teacher_regret\": 0.0,\n    \"observed_field_nrmse\": {\n      \"burgers\": {\n        \"B4\": 0.23486115,\n        \"B5\": 0.235772505,\n        \"P\": 0.235772491,\n        \"P-no-rank\": 0.235893145\n      },\n      \"heat\": {\n        \"B4\": 0.113252372,\n        \"B5\": 0.10975717,\n        \"P\": 0.10975714,\n        \"P-no-rank\": 0.109805517\n      }\n    }\n  },\n  \"domain\": \"synthetic manufacturing distributed-parameter PDE low-latency control\",\n  \"hardware\": {\n    \"PDE_residual_autocast\": false,\n    \"cuda_runtime\": \"13.0\",\n    \"driver\": \"591.86\",\n    \"local_gpu\": \"NVIDIA GeForce RTX 5080\",\n    \"precision\": \"FP32\",\n    \"pytorch\": \"2.12.0+cu130\",\n    \"training_optimizer\": \"eager AdamW; fused variant not selected for this freeze\"\n  },\n  \"latency\": {\n    \"host_ready_measurement_after_complete_locked_test\": true,\n    \"include_host_prepare_transfer_inference_projection_return\": true,\n    \"pretest_controller_p99_is_not_host_ready_e2e\": true,\n    \"report_cpu_and_cuda_separately\": true,\n    \"request_batch\": 1,\n    \"requests_per_session\": 20000,\n    \"sessions\": 3\n  },\n  \"locked_test\": {\n    \"all_methods_share_parent_state_material_disturbance_and_observation_schedule\": true,\n    \"episode_ticks\": 200,\n    \"executions\": 25600,\n    \"paired_parent_bootstrap_replicates\": 10000,\n    \"paired_parent_unit\": true,\n    \"query_tick\": 100,\n    \"report_each_training_seed\": true,\n    \"single_open_only\": true,\n    \"test_tuning\": false\n  },\n  \"mandatory_controllers\": {\n    \"B3_direct_policy_surrogate_gradient\": true,\n    \"B4_candidate_batching\": true,\n    \"B4_shared_encoder\": true,\n    \"classical\": [\n      \"B0\",\n      \"B1\"\n    ],\n    \"learned_families\": [\n      \"P\",\n      \"P-no-rank\",\n      \"B4\",\n      \"B5\",\n      \"B2\",\n      \"B3\"\n    ],\n    \"seeds\": [\n      11,\n      23,\n      37\n    ],\n    \"training_execution\": \"one CUDA process at a time\",\n    \"variants_per_pde_in_locked_evaluation\": 20\n  },\n  \"physics_cost_contract\": {\n    \"action_effort_weight\": 0.01,\n    \"action_slew_weight\": 0.05,\n    \"burgers_bounds\": [\n      -1.2,\n      1.2\n    ],\n    \"heat_bounds\": [\n      0.0,\n      \"1.25*max reachable steady goal from train/validation\"\n    ],\n    \"same_cost_applies_to\": [\n      \"teacher\",\n      \"B1\",\n      \"P\",\n      \"P-no-rank\",\n      \"B2\",\n      \"B3\",\n      \"B4\",\n      \"B5\",\n      \"closed-loop truth\"\n    ],\n    \"violation_weight\": 10.0\n  },\n  \"protocol\": \"PDNO_JevLite_RTX5080_72H_frozen_spec_v3\",\n  \"research_claims\": {\n    \"authors\": \"AUTHOR_INPUT_REQUIRED\",\n    \"conditional_harm_requires_nonempty_acceptance_gate\": true,\n    \"positive_g2_claim_prohibited\": true,\n    \"residual_or_selected_forecast_coverage_is_not_actual_solution_error_guarantee\": true\n  },\n  \"runtime_budget\": {\n    \"astra_reserved_hours\": 10,\n    \"estimate_includes_cpu_truth_solver\": true,\n    \"estimate_is_not_a_guarantee\": true,\n    \"luna_evidence_deadline_hours\": 62,\n    \"pilot_planning_hours_with_15pct_margin\": 15.3012,\n    \"pilot_point_hours\": 13.3054\n  },\n  \"scientific_gates\": {\n    \"normalized_teacher_regret_median_max\": 0.05,\n    \"operator_field_nrmse_max\": 0.05,\n    \"reject_all_is_success\": false,\n    \"thresholds_may_change\": false\n  },\n  \"sealed_at_pretraining_freeze\": {\n    \"calibration_generated\": false,\n    \"locked_test_generated\": false,\n    \"locked_test_opened\": false\n  },\n  \"status\": \"FROZEN_FAIL_INCLUSIVE_PRETRAINING_SPEC\",\n  \"training\": {\n    \"b3_surrogate_updates\": 1000,\n    \"batch_size\": 64,\n    \"checkpoint_selection\": \"registered training selection score over train/validation; no calibration/test inputs\",\n    \"direct_policy_updates\": 3000,\n    \"gradient_clip\": 1.0,\n    \"learning_rate\": 0.001,\n    \"observer_seed\": 7,\n    \"observer_updates_per_pde\": 1000,\n    \"operator_field_updates\": 2000,\n    \"operator_physics_updates\": 3000,\n    \"optimizer\": \"AdamW\",\n    \"scheduler\": \"cosine\",\n    \"validation_interval\": 500,\n    \"weight_decay\": 0.0001\n  }\n}\n"
+    },
+    {
+      "path": "config\\frozen_experiment.yaml",
+      "sha256": "ca8dc0ac17b22ffa8dd71dc445f8f52acc9b85bb890af9d050c9c5cd75a26c56",
+      "content": "protocol: PDNO_JevLite_RTX5080_72H_frozen_v1\nstatus: FROZEN_WITH_PILOT_G2_FAIL\nfrozen_at_kst: \"2026-09-26T00:42:00+09:00\"\nsource_instruction: \"C:/Users/WIN/Downloads/PDNO_JevLite_RTX5080_72H_실험지시서.md\"\ndomain: manufacturing_distributed_parameter_control\nautonomous_execution_means: research_workflow_autonomy\nbudget:\n  total_wall_hours: 72\n  luna_evidence_deadline_hours: 62\n  reserved_astra_hours: 10\n  max_gpu_active_hours: 62\n  started_at_kst: \"2026-09-25T23:09:10+09:00\"\n  test_opened: false\nhardware:\n  required_gpu: NVIDIA_GeForce_RTX_5080\n  max_vram_gib_target: 13\n  max_host_rss_gib_target: 48\n  model_precision: FP32\n  compile: false\nnumerics:\n  pde_primary: forced_periodic_burgers\n  pde_crosscheck: dirichlet_heat\n  model_grid: 128\n  truth_grid: 256\n  horizon_ticks: 8\n  simulation_dt_seconds: 0.02\n  action_held_constant_across_horizon: true\n  future_supervised_disturbance: 0\n  truth_projection: conservative_or_cell_center_contract_v2\nobservation:\n  sensor_count: 16\n  history_ticks: 8\n  image_shape: [1, 16, 64]\n  event_available_only_if_capture_and_receive_at_or_before_decision: true\n  shared_frozen_neural_observer: true\n  observer_seed: 7\n  observer_max_updates: 1000\n  observer_validation_interval: 100\nsplits:\n  unit: parent_episode\n  train_parents: {burgers: 512, heat: 256}\n  validation_parents: {burgers: 64, heat: 64}\n  calibration_parents: {burgers: 64, heat: 64}\n  locked_nominal_parents: {burgers: 384, heat: 384}\n  locked_coefficient_ood_parents: {burgers: 128, heat: 128}\n  locked_delay_dropout_parents: {burgers: 128, heat: 128}\n  train_queries_per_parent: 4\n  validation_queries_per_parent: 1\n  calibration_targets_generated_after_model_freeze: true\n  locked_test_targets_opened_once_after_calibration_lock: true\nmodels:\n  required: [B0, B1, B2, B3, B4, B5, P]\n  trained_seed_set: [11, 23, 37]\n  classic_baselines_use_same_parent_inputs_not_duplicate_training_seeds: true\n  candidates: 10\n  horizon: 8\n  b0: projected_modal_lqr\n  b1: finite_candidate_16_state_galerkin_rom\n  b2: frozen_shared_encoder_direct_bc_policy\n  b3: b2_warm_started_direct_policy_optimized_through_frozen_b4\n  b3_max_updates: 1000\n  b3_bc_penalty: 0.1\n  b4: shared_encoder_candidate_conditioned_pi_deeponet\n  b4_candidate_axis_gpu_batched: true\n  b5: same_action_factorized_operator_without_physics_or_balance_losses\n  p: action_factorized_pi_deeponet_quadratic_action_basis_p6_rank32\n  p_lambda_phys: 0.01\n  lambda_balance: 0.01\n  lambda_rank: 0.1\ntraining:\n  optimizer: AdamW\n  learning_rate: 0.001\n  weight_decay: 0.0001\n  scheduler: cosine\n  gradient_norm_clip: 1.0\n  batch_size: 64\n  gradient_accumulation: 1\n  observer_max_updates: 1000\n  operator_field_warmup_max_updates: 2000\n  operator_physics_ranking_max_updates: 3000\n  b2_max_updates: 3000\n  b3_max_updates: 1000\n  validation_interval_updates: 100\n  early_stop_after_validation_evals_without_0_5_percent_improvement: 5\n  pde_collocation_points_per_sample: 32\n  pde_autograd_precision: FP32\n  residual_scale: train_only_fixed_per_pde\n  checkpoint_selection_score: 0.5*validation_field_nrmse+0.5*mean_train_iqr_normalized_teacher_regret\n  pilot_lambda_screen: [0.01, 0.1, 1.0]\n  pilot_lambda_screen_pde: burgers\n  pilot_lambda_screen_seed: 7\n  pilot_quality_gate_field_nrmse_max: 0.05\n  pilot_quality_gate_status: FAIL\n  gate_failure_action: preserve_required_models_and_report_no_positive_claim_without_revalidation\ncost:\n  tracking: horizon_mean_spatial_mean_squared_error\n  action_effort_weight: 0.01\n  action_slew_weight: 0.05\n  state_violation_weight: 10.0\n  state_limit: {burgers_abs_field: 1.2, heat_positive_upper_limit: 1.25_times_max_train_validation_steady_goal}\ncalibration:\n  endpoint: per_parent_max_absolute_future_field_error\n  margin: empirical_95th_percentile_by_pde_and_model\n  action_selection_uses_margin: false\n  claim_scope: diagnostic_empirical_margin_not_a_uniform_or_ood_safety_guarantee\nlocked_test:\n  once_only: true\n  no_training_or_configuration_changes_after_unlock: true\n  primary_metrics: [episode_control_cost, tracking_rmse, truth_constraint_violation, fallback_rate, field_nrmse, candidate_regret]\n  units: independent_parent_episode\n  paired_parent_bootstrap_replicates: 10000\n  report_each_seed: true\nlatency:\n  request_batch: 1\n  hard_deadline_ms: 5\n  target_p99_ms: 2\n  sessions: 3\n  quantiles_ms: [50, 95, 99, 99.9]\n  include_host_prepare_transfer_inference_projection_return_copy: true\n  report_cpu_baseline_and_gpu_separately: true\nquality_review:\n  pilot_validation_result: evidence/full_data_pilot_v2.json\n  observation_floor_result: evidence/observation_interpolation_floor_v2.json\n  classical_baseline_result: evidence/classical_validation_pilot_v2.json\n  current_g2_gate: FAIL\n  root_cause: sparse_observation_reconstruction_floor_and_validation_generalization; no test-based tuning\n  claim_rule: do_not_claim_hypothesis_success_from_pilot_or_low_teacher_regret_alone\n"
+    },
+    {
+      "path": "config\\model_roles.yaml",
+      "sha256": "07ab74cb20157f30cae98cd59cce2ad702a1e169df69b7c08516b8f28108637f",
+      "content": "roles:\n  experiment_execution:\n    requested_model: gpt-6-luna\n    actual_model: null\n    status: unverified_in_this_runtime\n    required_reasoning: high\n    tasks: [preflight, numerics, implementation, pilot, confirmatory_training, calibration, locked_test, timing, evidence_freeze]\n  final_independent_analysis:\n    requested_model: gpt-6-astra\n    actual_model: null\n    status: not_started\n    reserved_wall_hours: 10\n    required_reasoning: xhigh_or_highest_available\n    tasks: [raw_evidence_reaggregation, independent_audit, literature_scope_check, manuscript, journal_package]\ndelegation:\n  requires_actual_runtime_model_metadata: true\n  if_unavailable: create_complete_handoff_and_mark_HANDOFF_READY\n  never_claim_unperformed_analysis: true\n"
+    },
+    {
+      "path": "config\\research_version_2_preregistration.yaml",
+      "sha256": "8c615c26c191690cebce145848750676963311ddd2f7a2966e70a36164db19cb",
+      "content": "version: PDNO_JevLite_RTX5080_72H_research_v2\nstatus: PRE_REGISTRATION_DRAFT_BEFORE_V2_NUMERICAL_AND_CAUSAL_GATES\ncreated_at_kst: '2026-09-26T12:50:20+09:00'\nsource_instruction: C:/Users/WIN/Downloads/PDNO_JevLite_RTX5080_72H_실험지시서.md\nparent_version: ../pdno_jevLite_20260925\nparent_version_disposition: PRESERVED_INCONCLUSIVE; opened v1 test and all v1 raw evidence remain immutable\nv1_prohibitions:\n  - Do not open, aggregate, or tune against v1 partial controller metrics.\n  - Do not resume or restart the v1 locked runner.\n  - Do not reuse any v1 locked parent inputs as v2 calibration or test.\n  - Do not claim v1 results are confirmatory after any code changes.\nresearch_scope:\n  domain: synthetic manufacturing distributed-parameter PDE low-latency control\n  autonomous_driving_meaning: autonomous research workflow, not automotive research\n  pdes: [forced_periodic_burgers, dirichlet_heat]\n  deployment: simulation/software replay only; no plant, PLC, actuator, HIL, or external service\n  hardware: one local RTX 5080; no cloud/GPU equivalence assumption\nbudget:\n  started_at_kst: '2026-09-25T23:09:10+09:00'\n  total_wall_hours: 72\n  luna_evidence_deadline_hours: 62\n  astra_reserve_hours: 10\n  observed_at_kst: '2026-09-26T12:50:20+09:00'\n  elapsed_wall_hours: 13.687\n  remaining_wall_hours: 58.313\n  remaining_until_luna_deadline_hours: 48.313\n  remaining_astra_reserve_hours: 9.687\n  gpu_active_total: UNKNOWN; retain current telemetry snapshots and do not infer from wall time\nruntime_basis:\n  confirmatory_training_profiles: evidence/runtime_pilot_50_200.json in parent version\n  observed_training_p90_ms_update: {P: 49.91, B4: 49.59, B5: 11.93, B2: 3.88, B3: 9.11}\n  v1_locked_eval_observed_runs: 12352\n  v1_locked_eval_total_runs: 21760\n  v1_locked_eval_elapsed_seconds: 32691.403\n  v1_extrapolated_complete_eval_hours: 15.98\n  v1_estimate_is_not_v2_runtime_guarantee: true\n  v2_required_models_and_ablation: 8 methods (B0,B1,B2,B3,B4,B5,P,P-no-rank); P-no-rank adds 3 seeds for each PDE\n  v2_budgeted_new_locked_eval_hours: 20\n  profiling_action: Prioritize optional experiments and speed pathways before reducing independent sample counts, seeds, or matched controls.\n  v2_rtx5080_profile_evidence: evidence/v2_runtime_pilot_50_200.json\n  v2_synchronized_training_median_ms_per_step:\n    P_burgers: 79.45\n    B4_burgers: 82.13\n    B5_burgers: 24.79\n    B2_burgers: 3.88\n    B3_burgers: 9.91\n    P_heat: 80.12\n    B4_heat: 77.02\n    B5_heat: 25.06\n    B2_heat: 3.91\n    B3_heat: 10.15\n  v2_cuda_speed_candidate: fused_AdamW\n  v2_cuda_speed_candidate_evidence: evidence/v2_cuda_optimizer_comparison.json\n  v2_cuda_speed_candidate_disposition: NOT_SELECTED_SHORT_PILOT_ALL_FIELD_NRMSE_MISSED_G2\n  v2_torch_compile_disposition: UNSUPPORTED_WINDOWS_ENVIRONMENT_TRITON_MISSING\nprotocol_corrections_required_before_final_freeze:\n  training_losses:\n    - Implement and log source-defined L_field, L_obs with observation-operator consistency, L_PDE at random x/tau and random train actions, L_balance including forcing and boundary flux, L_rank, and diagnostic L_BC.\n    - Keep a common observation/initialization path across P and B5; B5 disables only predeclared physics/balance terms.\n    - Use train-only scales; collocation/autograd physics remains FP32 with autocast off.\n  causal_input_parity:\n    - Feed declared causal applied-action history to learned policies or revise the entire input contract before new data; do not include unavailable/future actions.\n    - Audit comparator observer information, sensor/image mask/age, no-observation behavior, and all applied-action projection stages.\n  model_and_baseline_selection:\n    - Checkpoint order: numerical validity, validation state-violation gate, validation closed-loop cost, then predeclared latency tie band.\n    - Select H3 comparator over eligible non-generative required methods on validation only, not only B0/B1 by convenience; freeze it before v2 lock.\n  evaluation_and_statistics:\n    - Rebuild aggregator from source-defined estimands with independent parent as unit, per-parent comparator/floor normalization, paired parent bootstrap, explicit seed hierarchy, and per-seed and pooled violation endpoints.\n    - Predeclare missingness, fallback, timeout, and failure handling; no partial locked metrics.\n  systems:\n    - Preserve B4 shared encoder and candidate-axis batching.\n    - Preserve B3 as direct policy optimized through a frozen B4 action-cost surrogate; inference remains direct-policy only.\n    - Measure CPU and CUDA closed-loop pilot and episode-batched evaluator equivalence. Any speed optimization must be applied fairly to all affected methods and be frozen pre-test.\nallowed_pretest_revision_budget:\n  structural_or_protocol_revisions_max: 2\n  structural_or_protocol_revisions_used: 1\n  revision_1:\n    change: train_only_sensor_scalar_and_material_feature_normalization_in_shared_observer_buffers\n    evidence: [evidence/v2_rev1_pilot_g2_validation_metrics.json, evidence/v2_rev1_g2_train_val_diagnostic.json]\n    outcome: G2_FAIL; field_nrmse_improved_but_remains_above_0.05; no_threshold_changes; no_test_access\n  scope: Fix audited source-contract defects and validate on train/validation only; record each change and cost.\n  thresholds_may_change: false\n  locked_data_may_be_generated_before_final_freeze: false\n  stop_condition: If two predeclared structural revisions still fail G2 on validation, stop confirmatory claims and report the gate failure; do not search indefinitely.\nrequired_methods:\n  classical: [B0, B1]\n  learned: [B2, B3, B4, B5, P]\n  mechanism_ablation: [P-no-rank]\n  learned_seeds: [11, 23, 37]\n  b4_shared_encoder: true\n  b4_candidate_batching: true\n  b3_direct_surrogate_gradient_policy: true\n  execution: one GPU training process at a time\nnew_v2_data_plan:\n  reuse_copied_pretest_train_validation_parents: true\n  reuse_v1_calibration_or_locked_inputs: false\n  regenerate_v2_train_teacher_queries_after_causal_input_audit: true\n  new_calibration_parents_after_final_model_selection: {per_pde: 64}\n  new_locked_parents_after_final_code_spec_and_model_freeze:\n    nominal: {per_pde: 384}\n    coefficient_ood: {per_pde: 128}\n    delay_dropout: {per_pde: 128}\n  locked_parent_total: 1280\n  confirmatory_episodes: 25600\n  unit: independent_parent_episode; model seeds are hierarchy, not new environment parents\nhypotheses_and_gates:\n  g1_numerics: Follow source instruction §7.3 exactly; hold if analytic/refinement tolerances fail.\n  g2_prediction_gate: Keep field nRMSE <= 0.05 and teacher candidate regret normalized median <= 0.05; do not relax based on v1 or v2 locked results.\n  h1: P vs B4 host-ready batch-1 p99 latency and control-quality noninferiority, estimates conditional on full v2 evaluation only.\n  h2: P vs P-no-rank, P vs B5, and physical diagnostics; distinguish mechanism from predictive fit.\n  h3: P vs validation-selected strongest eligible non-generative required comparator.\n  h4: P vs P-no-age on independent delay/dropout parents, if pilot/runtime budget allows within optional selection rules.\n  safety: empirical truth-state violation rates and uncertainty; no guaranteed safety language.\nstatistics:\n  independent_unit: parent_episode\n  preserve_parent_pairing_across_methods: true\n  training_seed_is_environment_replication: false\n  bootstrap_replicates: 10000\n  report_each_seed: true\n  conditional_harm: not_estimable_without_a_locked_acceptance_gate_and_completed_test\n  locked_test_open_once_for_v2: true\n  locked_test_requires_hash_freeze_of_source_config_models_calibration_metrics_and_runner: true\nlatency:\n  run_after_complete_v2_locked_test_only: true\n  request_batch: 1\n  sessions: 3\n  standard_requests_per_session: 20000\n  deadline_ms: 5\n  target_p99_ms: 2\n  include_host_prepare_h2d_encoder_operator_candidate_cost_projection_d2h_return: true\n  include_truth_solver: false\n  report_cpu_and_gpu_separately: true\n  scheduler_replay: 3_sessions_x_120_seconds_per_condition_for_primary_methods\nphase_budget_hours_from_observation:\n  source_audit_and_implementation_solver_causal_fixes: 7\n  fresh_data_split_and_audits: 4\n  pilot_g2_g3_and_one_revision_if_needed: 4\n  final_freeze_training_all_required_models_and_ablation: 7\n  validation_comparator_calibration_final_hash_freeze: 1\n  new_locked_evaluation: 20\n  host_ready_tail_and_scheduled_replay: 4\n  raw_evidence_freeze_and_handoff: 1\n  astra_final_analysis_manuscript: 9.687\n  reserve: 0.626\nnext_executable_step: Complete the ordered G2 diagnosis and the source-contract review; implement validation checkpoint selection, full H3 comparator, parent-level aggregator, and supervised atomic runner; then freeze a fail-inclusive spec and train every required model × 3 seeds sequentially. Fused AdamW stays unselected. Calibration/test data remain sealed until all model and runner hashes are frozen.\n"
+    },
+    {
+      "path": "config\\v3_preregistration.yaml",
+      "sha256": "1601723faa5c8de683faf02697be014b5077c4215182122a21da17bf3fded98d",
+      "content": "version: PDNO_JevLite_RTX5080_72H_research_v3\nstatus: DRAFT_NOT_FROZEN\ncreated_at_local: 2026-09-27\nparent_versions: [../pdno_jevLite_20260925, ../pdno_jevLite_20260926_v2]\nscope:\n  domain: manufacturing distributed-parameter PDE low-latency control\n  autonomous_driving_meaning: autonomous research execution, not automotive research\n  pdes: [forced periodic Burgers, Dirichlet heat]\n  deployment: simulation and software replay only\n  hardware: one locally verified RTX 5080; no cloud equivalence\n  previous_versions: preserved; no v1/v2 locked outcome payloads may be read or reused\nbudget:\n  original_total_wall_hours: 72\n  original_luna_evidence_deadline_hours: 62\n  reserved_astra_hours: 10\n  status: recalculate from original start timestamp before any long run\npredeclared_repairs:\n  - generate all parent identities under namespace pdno-jevLite-parent-pool-v3-fresh-20260927; include namespace in identity and RNG input\n  - correct heat classical sensor coordinates to match truth-grid interpolation at indices linspace(0,255,16)\n  - preserve analytic heat boundary derivatives in the observer basis used by PDE balance loss\n  - extend numerical verification to deployed forced 200-tick trajectories and method/source-term contract\n  - make baseline observation availability and applied-action history match the declared input contract\n  - repair version-specific runners, hashes and split audit before any confirmatory data generation\nunchanged_scientific_gates:\n  operator_field_nrmse_max: 0.05\n  normalized_teacher_regret_median_max: 0.05\n  thresholds_may_change: false\nnumerical_predata_gates:\n  burgers_forced_200_tick_relative_l2_vs_half_timestep_max: 0.01\n  burgers_forced_200_tick_mean_balance_abs_max: 1.0e-10\n  heat_forced_200_tick_relative_l2_vs_half_outer_timestep_max: 0.05\n  all_fields_and_source_sign_fixtures_must_be_finite: true\nstate_constraints:\n  burgers:\n    lower: -1.2\n    upper: 1.2\n    violation_penalty: relu(lower-q)^2 + relu(q-upper)^2\n  heat:\n    interpretation: normalized excess temperature above ambient\n    lower: 0.0\n    upper: 1.25_times_max_reachable_steady_goal_from_train_and_validation_only\n    violation_penalty: relu(lower-theta)^2 + relu(theta-upper)^2\n  weight: 10.0\n  quadrature: equal-weight spatial mean, averaged across horizon\n  apply_identically_to: [teacher, B1, B2, B3, B4, B5, P, P-no-rank, closed-loop truth evaluation]\n  upper_bound_freezes_before_calibration: true\nrequired_models:\n  classical: [B0, B1]\n  learned: [B2, B3, B4, B5, P]\n  mechanism_ablation: [P-no-rank]\n  seeds: [11, 23, 37]\n  b3_direct_surrogate_gradient_policy: true\n  b4_shared_encoder_and_candidate_batching: true\npilot:\n  seed: 7\n  observer_updates_per_pde: 500\n  field_updates_per_operator: 500\n  physics_updates_per_operator: 500\n  direct_policy_updates: 500\n  b3_surrogate_updates: 300\n  candidate_methods: [P, P-no-rank, B4, B5, B2, B3]\n  use_train_validation_only: true\n  report_accuracy_gate_even_if_failed: true\n  only_one_registered_candidate_per_family: true\nsplit_contract:\n  unit: independent parent episode\n  roles: [train, validation, gate_fit, calibration, locked_test]\n  cross_version_identity_overlap: 0\n  generate_calibration_after_model_normalizer_corrector_feature_score_grid_endpoint_bstar_family_freeze: true\n  open_locked_test_once_after_calibration_lock: true\n  never_resume_interrupted_locked_test: true\nstage_order:\n  - solver tests and deployed-horizon numerical audit\n  - causal observation, parent split, action accounting audits\n  - version-fresh train/validation data and teacher queries\n  - validation-only pilot and runtime measurement\n  - freeze complete model/data/evaluator specification\n  - train every mandatory model for three seeds sequentially\n  - calibration and calibration lock\n  - one locked test run\n  - host-ready E2E and tail latency if locked run completes\n  - hash freeze all raw evidence, failures and logs\n  - actual GPT-6 Astra handoff for final analysis and bounded manuscript\ndecision_rule:\n  failed_gates: report honestly; do not tune on calibration or locked test\n  shrinking_budget: remove optional experiments before seeds, matched controls, audit or independent test\n  submission: do not submit, pay, sign, or act for authors\n  authors: preserve missing fields in AUTHOR_INPUT_REQUIRED and continue research\nnext_executable_step: create isolated v3 runtime, run source-contract unit tests and solver verification, then rebuild metadata-only v3 parent manifest and cross-version overlap audit\n"
+    },
+    {
+      "path": "contracts\\action_schema.json",
+      "sha256": "99b0684d42dea83dec28a24e878b6b1b1b9d993589d3fa70936f1432ee8ab125",
+      "content": "{\n  \"schema_version\": \"1.0-draft\",\n  \"fields\": {\n    \"choice_index\": \"int32\",\n    \"action_proposed\": \"float32[2]\",\n    \"action_projected\": \"float32[2]\",\n    \"action_applied\": \"float32[2]\",\n    \"predicted_cost\": \"float32\",\n    \"predicted_constraint_margin\": \"float32\",\n    \"observation_age_ticks\": \"int32\",\n    \"fallback_used\": \"bool\",\n    \"reason_code\": \"fixed_enum\"\n  },\n  \"accounting_rule\": \"teacher, simulator state transition, and next observation use action_applied\"\n}\n"
+    },
+    {
+      "path": "contracts\\data_schema.json",
+      "sha256": "eb88c59ee02a0a42719493aa19947e49e0bcec40dfe228b7e418fe6f739ff745",
+      "content": "{\n  \"schema_version\": \"1.0-draft\",\n  \"split_unit\": \"parent_episode\",\n  \"required_parent_fields\": [\"parent_id\", \"pde_config\", \"initial_condition_seed\", \"physical_parameter_seed\", \"disturbance_seed\", \"split\", \"generation_commit\", \"source_hash\"],\n  \"trajectory_fields\": [\"grid\", \"dt\", \"state_true\", \"action_proposed\", \"action_projected\", \"action_applied\", \"goal\", \"disturbances\", \"sensor_capture_time\", \"sensor_receive_time\", \"image_capture_time\", \"image_receive_time\", \"masks\"],\n  \"query_fields\": [\"parent_id\", \"decision_tick\", \"observation_window_ref\", \"candidate_action\", \"future_field\", \"teacher_cost\", \"teacher_peak\", \"action_hold_convention\"],\n  \"test_access\": \"metadata_only_until_frozen_spec_and_calibration_lock\"\n}\n"
+    },
+    {
+      "path": "contracts\\input_schema.json",
+      "sha256": "75f7f40a6407b00c0a7f64a1168a31c6c94e42a974d603ba4eb6678f7159d9af",
+      "content": "{\n  \"schema_version\": \"1.1-draft\",\n  \"decision_time\": {\"type\": \"int64_tick\", \"units\": \"simulation_tick\"},\n  \"sensor_value\": {\"shape\": [\"B\", 8, 16], \"dtype\": \"float32\", \"unit\": \"normalized_by_train_only_scalar_mean_std\"},\n  \"sensor_mask\": {\"shape\": [\"B\", 8, 16], \"dtype\": \"bool\"},\n  \"sensor_capture_time\": {\"shape\": [\"B\", 8, 16], \"dtype\": \"int64_tick\"},\n  \"sensor_receive_time\": {\"shape\": [\"B\", 8, 16], \"dtype\": \"int64_tick\"},\n  \"instrument_image\": {\"shape\": [\"B\", 1, 16, 64], \"dtype\": \"float32\", \"units\": \"train_fixed_synthetic_sensor_mapping\"},\n  \"image_mask\": {\"shape\": [\"B\", 1, 16, 64], \"dtype\": \"bool\"},\n  \"image_capture_time\": {\"shape\": [\"B\"], \"dtype\": \"int64_tick\"},\n  \"image_receive_time\": {\"shape\": [\"B\"], \"dtype\": \"int64_tick\"},\n  \"applied_action_history\": {\"shape\": [\"B\", 8, 2], \"dtype\": \"float32\", \"source\": \"actual_simulator_applied_actions\"},\n  \"goal_coefficients\": {\"shape\": [\"B\", \"Q\"], \"dtype\": \"float32\"},\n  \"material_context\": {\"shape\": [\"B\", 8], \"dtype\": \"featurewise_train_only_standardization\"},\n  \"previous_applied_action\": {\"shape\": [\"B\", 2], \"dtype\": \"float32\"},\n  \"causality_rule\": \"capture_time <= decision_time AND receive_time <= decision_time\",\n  \"normalizer_fit_split\": \"train_parents_only\",\n  \"normalizer_storage\": \"shared_observer_checkpoint_buffers_loaded_by_all_learned_methods\"\n}\n"
+    }
+  ],
+  "source_reference_library": "../pdno_jevLite_20260925/references.json",
+  "source_reference_library_sha256": "a13cf46d4c01126e385a6c977f3f3de3b436e2d44521da9fc7d66de3801f8f45",
+  "scope": "All top-level v3 evidence JSON parsed; full frozen inventory hash checked; authoritative source and predecessor audit manually reviewed. Legacy configs retained as historical, not silently promoted to executed protocol."
+}

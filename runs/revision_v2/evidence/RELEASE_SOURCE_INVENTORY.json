@@ -1,0 +1,3576 @@
+{
+  "status": "SOURCE_INVENTORY_ONLY_NOT_A_RELEASE",
+  "file_count": 892,
+  "bytes": 12300954,
+  "paths": [
+    {
+      "source": "publications\\ieee_access_pdno_v3_20261001\\public_release\\pdno-control-benchmark\\LICENSE",
+      "target": "LICENSE"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_v3_20261001\\public_release\\pdno-control-benchmark\\NOTICE",
+      "target": "NOTICE"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_v3_20261001\\public_release\\pdno-control-benchmark\\.gitattributes",
+      "target": ".gitattributes"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\pyproject.toml",
+      "target": "pyproject.toml"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\__init__.py",
+      "target": "src/pdno/__init__.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\controllers\\actions.py",
+      "target": "src/pdno/controllers/actions.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\controllers\\linear.py",
+      "target": "src/pdno/controllers/linear.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\controllers\\objectives.py",
+      "target": "src/pdno/controllers/objectives.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\controllers\\revision_oracle.py",
+      "target": "src/pdno/controllers/revision_oracle.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\controllers\\revision_oracle_cuda.py",
+      "target": "src/pdno/controllers/revision_oracle_cuda.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\controllers\\rom.py",
+      "target": "src/pdno/controllers/rom.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\data\\audit_generated.py",
+      "target": "src/pdno/data/audit_generated.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\data\\audit_teacher.py",
+      "target": "src/pdno/data/audit_teacher.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\data\\causal.py",
+      "target": "src/pdno/data/causal.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\data\\generate.py",
+      "target": "src/pdno/data/generate.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\data\\manifests.py",
+      "target": "src/pdno/data/manifests.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\data\\revision_heat.py",
+      "target": "src/pdno/data/revision_heat.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\data\\splits.py",
+      "target": "src/pdno/data/splits.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\data\\teacher_queries.py",
+      "target": "src/pdno/data/teacher_queries.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\evaluation\\__init__.py",
+      "target": "src/pdno/evaluation/__init__.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\evaluation\\closed_loop.py",
+      "target": "src/pdno/evaluation/closed_loop.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\evaluation\\revision_batch.py",
+      "target": "src/pdno/evaluation/revision_batch.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\models\\__init__.py",
+      "target": "src/pdno/models/__init__.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\models\\encoders.py",
+      "target": "src/pdno/models/encoders.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\models\\operators.py",
+      "target": "src/pdno/models/operators.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\models\\policies.py",
+      "target": "src/pdno/models/policies.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\models\\revision_cache.py",
+      "target": "src/pdno/models/revision_cache.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\physics\\__init__.py",
+      "target": "src/pdno/physics/__init__.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\physics\\burgers.py",
+      "target": "src/pdno/physics/burgers.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\physics\\finite_volume.py",
+      "target": "src/pdno/physics/finite_volume.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\physics\\heat.py",
+      "target": "src/pdno/physics/heat.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\training\\__init__.py",
+      "target": "src/pdno/training/__init__.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\training\\confirmatory.py",
+      "target": "src/pdno/training/confirmatory.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\training\\fit.py",
+      "target": "src/pdno/training/fit.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\training\\losses.py",
+      "target": "src/pdno/training/losses.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_action_accounting.py",
+      "target": "tests/test_action_accounting.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_causality.py",
+      "target": "tests/test_causality.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_closed_loop.py",
+      "target": "tests/test_closed_loop.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_data_contract_audits.py",
+      "target": "tests/test_data_contract_audits.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_encoder_normalizer.py",
+      "target": "tests/test_encoder_normalizer.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_numerics.py",
+      "target": "tests/test_numerics.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_objective_constraints.py",
+      "target": "tests/test_objective_constraints.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_operator_factorization.py",
+      "target": "tests/test_operator_factorization.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_rom_controller.py",
+      "target": "tests/test_rom_controller.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_splits.py",
+      "target": "tests/test_splits.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_training_losses.py",
+      "target": "tests/test_training_losses.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\__init__.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/__init__.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\controllers\\actions.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/controllers/actions.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\controllers\\linear.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/controllers/linear.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\controllers\\objectives.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/controllers/objectives.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\controllers\\rom.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/controllers/rom.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\data\\audit_generated.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/data/audit_generated.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\data\\audit_teacher.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/data/audit_teacher.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\data\\causal.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/data/causal.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\data\\generate.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/data/generate.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\data\\manifests.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/data/manifests.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\data\\splits.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/data/splits.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\data\\teacher_queries.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/data/teacher_queries.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\evaluation\\__init__.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/evaluation/__init__.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\evaluation\\closed_loop.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/evaluation/closed_loop.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\models\\__init__.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/models/__init__.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\models\\encoders.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/models/encoders.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\models\\operators.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/models/operators.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\models\\policies.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/models/policies.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\physics\\__init__.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/physics/__init__.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\physics\\burgers.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/physics/burgers.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\physics\\finite_volume.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/physics/finite_volume.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\physics\\heat.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/physics/heat.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\training\\__init__.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/training/__init__.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\training\\confirmatory.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/training/confirmatory.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\training\\fit.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/training/fit.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\training\\losses.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno/training/losses.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno_jevLite.egg-info\\dependency_links.txt",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno_jevLite.egg-info/dependency_links.txt"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno_jevLite.egg-info\\requires.txt",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno_jevLite.egg-info/requires.txt"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno_jevLite.egg-info\\SOURCES.txt",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno_jevLite.egg-info/SOURCES.txt"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\src\\pdno_jevLite.egg-info\\top_level.txt",
+      "target": "experiments/pdno_jevLite_20260927_v3/src/pdno_jevLite.egg-info/top_level.txt"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\aggregate_locked_test.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/aggregate_locked_test.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\aggregate_locked_test_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/aggregate_locked_test_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\aggregate_locked_test_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/aggregate_locked_test_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\analyze_latency.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/analyze_latency.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\analyze_latency_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/analyze_latency_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\analyze_latency_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/analyze_latency_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\audit_calibration.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/audit_calibration.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\audit_calibration_lock_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/audit_calibration_lock_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\audit_calibration_lock_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/audit_calibration_lock_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\audit_calibration_queries_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/audit_calibration_queries_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\audit_calibration_queries_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/audit_calibration_queries_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\audit_data.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/audit_data.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\audit_locked_roles.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/audit_locked_roles.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\audit_locked_roles_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/audit_locked_roles_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\audit_locked_roles_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/audit_locked_roles_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\audit_observation_floor.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/audit_observation_floor.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\audit_parent_lineage_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/audit_parent_lineage_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\audit_teacher_queries.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/audit_teacher_queries.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\audit_v3_runner_contracts.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/audit_v3_runner_contracts.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\audit_validation_comparator_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/audit_validation_comparator_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\audit_validation_comparator_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/audit_validation_comparator_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\benchmark_host_e2e.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/benchmark_host_e2e.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\benchmark_host_e2e_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/benchmark_host_e2e_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\benchmark_host_e2e_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/benchmark_host_e2e_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\benchmark_validation_rollout_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/benchmark_validation_rollout_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\build_parent_manifest.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/build_parent_manifest.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\calibrate_forecast_margins.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/calibrate_forecast_margins.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\calibrate_forecast_margins_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/calibrate_forecast_margins_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\calibrate_forecast_margins_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/calibrate_forecast_margins_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\deployed_solver_audit_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/deployed_solver_audit_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\estimate_v2_evaluation_budget.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/estimate_v2_evaluation_budget.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\evaluate_classical_pilots.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/evaluate_classical_pilots.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\evaluate_pilot.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/evaluate_pilot.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\evaluate_selected_pilot_g2_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/evaluate_selected_pilot_g2_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\freeze_checkpoint_manifest.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/freeze_checkpoint_manifest.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\freeze_checkpoint_manifest_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/freeze_checkpoint_manifest_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\freeze_checkpoint_manifest_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/freeze_checkpoint_manifest_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\freeze_locked_evaluation.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/freeze_locked_evaluation.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\freeze_locked_evaluation_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/freeze_locked_evaluation_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\freeze_locked_evaluation_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/freeze_locked_evaluation_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\freeze_pretraining_spec_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/freeze_pretraining_spec_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\freeze_pretraining_spec_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/freeze_pretraining_spec_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\freeze_raw_evidence_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/freeze_raw_evidence_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\generate_calibration_data.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/generate_calibration_data.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\generate_calibration_data_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/generate_calibration_data_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\generate_calibration_data_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/generate_calibration_data_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\generate_calibration_queries.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/generate_calibration_queries.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\generate_calibration_queries_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/generate_calibration_queries_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\generate_calibration_queries_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/generate_calibration_queries_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\generate_data.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/generate_data.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\generate_locked_data_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/generate_locked_data_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\generate_locked_data_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/generate_locked_data_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\generate_teacher_queries.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/generate_teacher_queries.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\pilot_closed_loop_runtime.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/pilot_closed_loop_runtime.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\pilot_closed_loop_runtime_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/pilot_closed_loop_runtime_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\profile_training_classes.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/profile_training_classes.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\run_confirmatory_models.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/run_confirmatory_models.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\run_confirmatory_models_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/run_confirmatory_models_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\run_confirmatory_models_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/run_confirmatory_models_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\run_full_pilot.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/run_full_pilot.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\run_locked_test_once.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/run_locked_test_once.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\run_locked_test_once_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/run_locked_test_once_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\run_locked_test_once_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/run_locked_test_once_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\run_v3_g2_pilot.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/run_v3_g2_pilot.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\select_validation_checkpoints_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/select_validation_checkpoints_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\select_validation_comparator.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/select_validation_comparator.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\select_validation_comparator_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/select_validation_comparator_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\select_validation_comparator_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/select_validation_comparator_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\smoke_closed_loop.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/smoke_closed_loop.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\smoke_closed_loop_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/smoke_closed_loop_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\smoke_confirmatory.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/smoke_confirmatory.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\smoke_train_normalizer_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/smoke_train_normalizer_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\solver_refinement_audit.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/solver_refinement_audit.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\summarize_confirmatory.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/summarize_confirmatory.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\summarize_cuda_optimizer_v2.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/summarize_cuda_optimizer_v2.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\scripts\\train_pilot.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/scripts/train_pilot.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_action_accounting.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/tests/test_action_accounting.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_causality.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/tests/test_causality.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_closed_loop.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/tests/test_closed_loop.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_data_contract_audits.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/tests/test_data_contract_audits.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_encoder_normalizer.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/tests/test_encoder_normalizer.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_numerics.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/tests/test_numerics.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_objective_constraints.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/tests/test_objective_constraints.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_operator_factorization.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/tests/test_operator_factorization.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_rom_controller.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/tests/test_rom_controller.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_splits.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/tests/test_splits.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\tests\\test_training_losses.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/tests/test_training_losses.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\config\\baseline_registry.csv",
+      "target": "experiments/pdno_jevLite_20260927_v3/config/baseline_registry.csv"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\config\\checkpoint_selection_v2.yaml",
+      "target": "experiments/pdno_jevLite_20260927_v3/config/checkpoint_selection_v2.yaml"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\config\\checkpoint_selection_v3.yaml",
+      "target": "experiments/pdno_jevLite_20260927_v3/config/checkpoint_selection_v3.yaml"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\config\\evaluation_addendum_v1.yaml",
+      "target": "experiments/pdno_jevLite_20260927_v3/config/evaluation_addendum_v1.yaml"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\config\\evaluation_addendum_v2.yaml",
+      "target": "experiments/pdno_jevLite_20260927_v3/config/evaluation_addendum_v2.yaml"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\config\\evaluation_addendum_v3.yaml",
+      "target": "experiments/pdno_jevLite_20260927_v3/config/evaluation_addendum_v3.yaml"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\config\\experiment.yaml",
+      "target": "experiments/pdno_jevLite_20260927_v3/config/experiment.yaml"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\config\\final_spec_v2.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/config/final_spec_v2.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\config\\final_spec_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/config/final_spec_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\config\\frozen_experiment.yaml",
+      "target": "experiments/pdno_jevLite_20260927_v3/config/frozen_experiment.yaml"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\config\\model_roles.yaml",
+      "target": "experiments/pdno_jevLite_20260927_v3/config/model_roles.yaml"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\config\\research_version_2_preregistration.yaml",
+      "target": "experiments/pdno_jevLite_20260927_v3/config/research_version_2_preregistration.yaml"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\config\\v3_preregistration.yaml",
+      "target": "experiments/pdno_jevLite_20260927_v3/config/v3_preregistration.yaml"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\contracts\\action_schema.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/contracts/action_schema.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\contracts\\data_schema.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/contracts/data_schema.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\contracts\\input_schema.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/contracts/input_schema.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\calibration_lock_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/calibration_lock_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\confirmatory_checkpoint_manifest_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/confirmatory_checkpoint_manifest_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\cross_version_parent_identity_audit_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/cross_version_parent_identity_audit_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\cuda_runtime_assessment_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/cuda_runtime_assessment_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\cuda_runtime_assessment_v3_corrected.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/cuda_runtime_assessment_v3_corrected.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\deployed_solver_audit_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/deployed_solver_audit_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\failures_and_modifications_v3.jsonl",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/failures_and_modifications_v3.jsonl"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\full_teacher_query_audit_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/full_teacher_query_audit_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\full_train_validation_causal_action_audit_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/full_train_validation_causal_action_audit_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_analysis_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/latency_analysis_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_progress_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/latency_progress_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_summary_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/latency_summary_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_200tick_data_audit_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_200tick_data_audit_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_evaluation_freeze_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_evaluation_freeze_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_analysis_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_analysis_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B0_sna.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/B0_sna.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B1_sna.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/B1_sna.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B2_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/B2_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B2_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/B2_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B2_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/B2_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B3_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/B3_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B3_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/B3_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B3_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/B3_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B4_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/B4_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B4_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/B4_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B4_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/B4_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B5_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/B5_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B5_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/B5_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B5_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/B5_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\P-no-rank_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/P-no-rank_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\P-no-rank_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/P-no-rank_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\P-no-rank_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/P-no-rank_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\P_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/P_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\P_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/P_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\P_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/burgers/P_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B0_sna.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/B0_sna.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B1_sna.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/B1_sna.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B2_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/B2_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B2_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/B2_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B2_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/B2_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B3_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/B3_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B3_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/B3_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B3_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/B3_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B4_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/B4_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B4_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/B4_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B4_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/B4_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B5_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/B5_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B5_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/B5_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B5_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/B5_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\P-no-rank_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/P-no-rank_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\P-no-rank_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/P-no-rank_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\P-no-rank_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/P-no-rank_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\P_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/P_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\P_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/P_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\P_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_coefficient_ood/heat/P_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B0_sna.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/B0_sna.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B1_sna.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/B1_sna.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B2_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/B2_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B2_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/B2_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B2_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/B2_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B3_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/B3_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B3_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/B3_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B3_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/B3_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B4_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/B4_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B4_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/B4_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B4_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/B4_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B5_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/B5_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B5_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/B5_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B5_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/B5_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\P-no-rank_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/P-no-rank_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\P-no-rank_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/P-no-rank_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\P-no-rank_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/P-no-rank_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\P_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/P_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\P_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/P_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\P_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/burgers/P_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B0_sna.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/B0_sna.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B1_sna.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/B1_sna.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B2_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/B2_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B2_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/B2_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B2_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/B2_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B3_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/B3_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B3_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/B3_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B3_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/B3_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B4_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/B4_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B4_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/B4_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B4_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/B4_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B5_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/B5_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B5_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/B5_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B5_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/B5_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\P-no-rank_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/P-no-rank_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\P-no-rank_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/P-no-rank_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\P-no-rank_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/P-no-rank_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\P_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/P_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\P_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/P_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\P_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_delay_dropout/heat/P_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B0_sna.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/B0_sna.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B1_sna.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/B1_sna.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B2_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/B2_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B2_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/B2_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B2_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/B2_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B3_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/B3_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B3_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/B3_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B3_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/B3_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B4_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/B4_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B4_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/B4_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B4_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/B4_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B5_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/B5_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B5_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/B5_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B5_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/B5_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\P-no-rank_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/P-no-rank_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\P-no-rank_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/P-no-rank_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\P-no-rank_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/P-no-rank_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\P_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/P_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\P_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/P_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\P_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/P_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B0_sna.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/B0_sna.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B1_sna.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/B1_sna.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B2_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/B2_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B2_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/B2_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B2_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/B2_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B3_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/B3_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B3_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/B3_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B3_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/B3_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B4_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/B4_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B4_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/B4_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B4_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/B4_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B5_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/B5_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B5_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/B5_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B5_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/B5_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\P-no-rank_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/P-no-rank_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\P-no-rank_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/P-no-rank_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\P-no-rank_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/P-no-rank_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\P_s11.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/P_s11.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\P_s23.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/P_s23.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\P_s37.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/P_s37.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\progress.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/progress.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\parent_lineage_audit_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/parent_lineage_audit_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\pilot_causal_action_audit_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/pilot_causal_action_audit_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\pilot_teacher_query_audit_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/pilot_teacher_query_audit_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\preflight_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/preflight_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\pretraining_spec_freeze_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/pretraining_spec_freeze_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\raw_evidence_freeze_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/raw_evidence_freeze_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\raw_evidence_freeze_v3.sha256",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/raw_evidence_freeze_v3.sha256"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\runtime_cuda_optimizer_assessment_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/runtime_cuda_optimizer_assessment_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\solver_refinement_audit.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/solver_refinement_audit.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\v3_calibration_data_audit_receipt.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/v3_calibration_data_audit_receipt.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\v3_calibration_generation_receipt.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/v3_calibration_generation_receipt.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\v3_calibration_lock_audit_receipt.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/v3_calibration_lock_audit_receipt.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\v3_calibration_query_audit_receipt.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/v3_calibration_query_audit_receipt.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\v3_calibration_query_generation_receipt.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/v3_calibration_query_generation_receipt.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\v3_calibration_query_manifest.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/v3_calibration_query_manifest.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\v3_closed_loop_runtime_pilot.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/v3_closed_loop_runtime_pilot.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\v3_confirmatory_training_progress.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/v3_confirmatory_training_progress.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\v3_g2_pilot_progress.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/v3_g2_pilot_progress.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\v3_h3_comparator_audit_receipt.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/v3_h3_comparator_audit_receipt.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\v3_locked_generation_receipt.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/v3_locked_generation_receipt.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\v3_runner_contract_audit.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/v3_runner_contract_audit.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\validation_checkpoint_selection_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/validation_checkpoint_selection_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\evidence\\validation_closed_loop_comparator_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/evidence/validation_closed_loop_comparator_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\calibration_v3\\calibration\\burgers\\generation_record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/calibration_v3/calibration/burgers/generation_record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\calibration_v3\\calibration\\heat\\generation_record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/calibration_v3/calibration/heat/generation_record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\locked_v3\\locked_coefficient_ood\\burgers\\generation_record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/locked_v3/locked_coefficient_ood/burgers/generation_record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\locked_v3\\locked_coefficient_ood\\heat\\generation_record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/locked_v3/locked_coefficient_ood/heat/generation_record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\locked_v3\\locked_delay_dropout\\burgers\\generation_record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/locked_v3/locked_delay_dropout/burgers/generation_record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\locked_v3\\locked_delay_dropout\\heat\\generation_record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/locked_v3/locked_delay_dropout/heat/generation_record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\locked_v3\\locked_nominal\\burgers\\generation_record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/locked_v3/locked_nominal/burgers/generation_record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\locked_v3\\locked_nominal\\heat\\generation_record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/locked_v3/locked_nominal/heat/generation_record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\manifests\\parent_roles_audit.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/manifests/parent_roles_audit.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\manifests\\parent_roles_metadata_only.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/manifests/parent_roles_metadata_only.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\pilot_queries_smoke_v3\\train\\burgers\\teacher_queries.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/pilot_queries_smoke_v3/train/burgers/teacher_queries.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\pilot_queries_smoke_v3\\train\\heat\\teacher_queries.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/pilot_queries_smoke_v3/train/heat/teacher_queries.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\pilot_queries_smoke_v3\\validation\\burgers\\teacher_queries.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/pilot_queries_smoke_v3/validation/burgers/teacher_queries.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\pilot_queries_smoke_v3\\validation\\heat\\teacher_queries.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/pilot_queries_smoke_v3/validation/heat/teacher_queries.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\pilot_smoke_v3\\train\\burgers\\generation_record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/pilot_smoke_v3/train/burgers/generation_record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\pilot_smoke_v3\\train\\heat\\generation_record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/pilot_smoke_v3/train/heat/generation_record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\pilot_smoke_v3\\validation\\burgers\\generation_record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/pilot_smoke_v3/validation/burgers/generation_record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\pilot_smoke_v3\\validation\\heat\\generation_record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/pilot_smoke_v3/validation/heat/generation_record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\queries_calibration_v3\\calibration\\burgers\\teacher_queries.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/queries_calibration_v3/calibration/burgers/teacher_queries.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\queries_calibration_v3\\calibration\\heat\\teacher_queries.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/queries_calibration_v3/calibration/heat/teacher_queries.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\queries_v3\\train\\burgers\\teacher_queries.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/queries_v3/train/burgers/teacher_queries.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\queries_v3\\train\\heat\\teacher_queries.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/queries_v3/train/heat/teacher_queries.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\queries_v3\\validation\\burgers\\teacher_queries.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/queries_v3/validation/burgers/teacher_queries.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\queries_v3\\validation\\heat\\teacher_queries.record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/queries_v3/validation/heat/teacher_queries.record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\train_validation_v3\\train\\burgers\\generation_record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/train_validation_v3/train/burgers/generation_record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\train_validation_v3\\train\\heat\\generation_record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/train_validation_v3/train/heat/generation_record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\train_validation_v3\\validation\\burgers\\generation_record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/train_validation_v3/validation/burgers/generation_record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\data\\train_validation_v3\\validation\\heat\\generation_record.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/data/train_validation_v3/validation/heat/generation_record.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\state\\CONFIRMATORY_TRAINING_PROCESS_V3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/state/CONFIRMATORY_TRAINING_PROCESS_V3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\state\\LOCKED_TEST_ONCE_V3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/state/LOCKED_TEST_ONCE_V3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\state\\LOCKED_TEST_PROCESS_V3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/state/LOCKED_TEST_PROCESS_V3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\state\\post_freeze_state_update_v3.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/state/post_freeze_state_update_v3.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\state\\RUN_STATE.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/state/RUN_STATE.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\B2_s11.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B2_s11.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\B2_s23.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B2_s23.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\B2_s37.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B2_s37.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\B3_s11.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B3_s11.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\B3_s23.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B3_s23.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\B3_s37.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B3_s37.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\B4_s11.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B4_s11.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\B4_s23.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B4_s23.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\B4_s37.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B4_s37.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\B5_s11.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B5_s11.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\B5_s23.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B5_s23.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\B5_s37.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/B5_s37.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\P-no-rank_s11.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/P-no-rank_s11.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\P-no-rank_s23.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/P-no-rank_s23.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\P-no-rank_s37.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/P-no-rank_s37.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\P_s11.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/P_s11.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\P_s23.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/P_s23.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\P_s37.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/burgers/P_s37.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\B2_s11.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B2_s11.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\B2_s23.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B2_s23.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\B2_s37.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B2_s37.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\B3_s11.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B3_s11.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\B3_s23.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B3_s23.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\B3_s37.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B3_s37.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\B4_s11.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B4_s11.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\B4_s23.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B4_s23.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\B4_s37.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B4_s37.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\B5_s11.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B5_s11.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\B5_s23.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B5_s23.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\B5_s37.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/B5_s37.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\P-no-rank_s11.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/P-no-rank_s11.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\P-no-rank_s23.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/P-no-rank_s23.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\P-no-rank_s37.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/P-no-rank_s37.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\P_s11.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/P_s11.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\P_s23.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/P_s23.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\P_s37.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/heat/P_s37.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\observer\\burgers_seed7.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/observer/burgers_seed7.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\observer\\heat_seed7.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/confirmatory_v3_training/observer/heat_seed7.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\g2_pilot_v3\\burgers\\B2_s7.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/burgers/B2_s7.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\g2_pilot_v3\\burgers\\B3_s7.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/burgers/B3_s7.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\g2_pilot_v3\\burgers\\B4_s7.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/burgers/B4_s7.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\g2_pilot_v3\\burgers\\B5_s7.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/burgers/B5_s7.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\g2_pilot_v3\\burgers\\P-no-rank_s7.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/burgers/P-no-rank_s7.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\g2_pilot_v3\\burgers\\P_s7.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/burgers/P_s7.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\g2_pilot_v3\\heat\\B2_s7.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/heat/B2_s7.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\g2_pilot_v3\\heat\\B3_s7.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/heat/B3_s7.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\g2_pilot_v3\\heat\\B4_s7.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/heat/B4_s7.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\g2_pilot_v3\\heat\\B5_s7.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/heat/B5_s7.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\g2_pilot_v3\\heat\\P-no-rank_s7.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/heat/P-no-rank_s7.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\g2_pilot_v3\\heat\\P_s7.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/heat/P_s7.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\g2_pilot_v3\\observer\\burgers_s7.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/observer/burgers_s7.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\runs\\g2_pilot_v3\\observer\\heat_s7.summary.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/runs/g2_pilot_v3/observer/heat_s7.summary.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\administrative_update_before\\root_HANDOFF.md",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/administrative_update_before/root_HANDOFF.md"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\administrative_update_before\\root_STATE.md",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/administrative_update_before/root_STATE.md"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\administrative_update_before\\v3_HANDOFF.md",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/administrative_update_before/v3_HANDOFF.md"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\administrative_update_before\\v3_RUN_LEDGER.md",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/administrative_update_before/v3_RUN_LEDGER.md"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\administrative_update_before\\v3_RUN_STATE.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/administrative_update_before/v3_RUN_STATE.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\administrative_update_before\\v3_STATE.md",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/administrative_update_before/v3_STATE.md"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\analysis_20260928\\audit.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/analysis_20260928/audit.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\analysis_20260928\\calibration_margins.csv",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/analysis_20260928/calibration_margins.csv"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\analysis_20260928\\control_all_methods.csv",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/analysis_20260928/control_all_methods.csv"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\analysis_20260928\\control_per_seed.csv",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/analysis_20260928/control_per_seed.csv"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\analysis_20260928\\failure_event_index.csv",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/analysis_20260928/failure_event_index.csv"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\analysis_20260928\\freeze_hash_verification.csv",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/analysis_20260928/freeze_hash_verification.csv"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\analysis_20260928\\heat_constraint_diagnostic.csv",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/analysis_20260928/heat_constraint_diagnostic.csv"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\analysis_20260928\\latency_per_seed.csv",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/analysis_20260928/latency_per_seed.csv"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\analysis_20260928\\latency_pooled_descriptive.csv",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/analysis_20260928/latency_pooled_descriptive.csv"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\analysis_20260928\\P_B5_matched_actions.csv",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/analysis_20260928/P_B5_matched_actions.csv"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\analysis_20260928\\selected_checkpoints.csv",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/analysis_20260928/selected_checkpoints.csv"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\audit_frozen_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/audit_frozen_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\audit_sources_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/audit_sources_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\build_packet_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/build_packet_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\claim_evidence.csv",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/claim_evidence.csv"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\COMPLETION_RECEIPT.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/COMPLETION_RECEIPT.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\cuda_diagnostic_correction.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/cuda_diagnostic_correction.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\DECISION_PACKET.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/DECISION_PACKET.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\DELIVERABLE_HASHES.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/DELIVERABLE_HASHES.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\failures_and_limitations.md",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/failures_and_limitations.md"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\FEATURE_USAGE_AND_RUNTIME_BOUNDARY_v3.md",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/FEATURE_USAGE_AND_RUNTIME_BOUNDARY_v3.md"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\FINAL_ANALYSIS_STATE_UPDATE.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/FINAL_ANALYSIS_STATE_UPDATE.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\FINAL_PACKET_VALIDATION.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/FINAL_PACKET_VALIDATION.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\finalize_packet_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/finalize_packet_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\historical_commands.csv",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/historical_commands.csv"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\ledger_review_snapshot.md",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/ledger_review_snapshot.md"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\qa_history\\initial_validation_false_positive.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/qa_history/initial_validation_false_positive.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\REPORT_KO.md",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/REPORT_KO.md"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\REPRODUCE.md",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/REPRODUCE.md"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\reviewed_evidence_catalog.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/reviewed_evidence_catalog.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\RUNTIME_METADATA.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/RUNTIME_METADATA.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\source_audit.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/source_audit.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\table_provenance.json",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/table_provenance.json"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\reports\\validate_packet_v3.py",
+      "target": "experiments/pdno_jevLite_20260927_v3/reports/validate_packet_v3.py"
+    },
+    {
+      "source": "experiments\\pdno_jevLite_20260927_v3\\pyproject.toml",
+      "target": "experiments/pdno_jevLite_20260927_v3/pyproject.toml"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\__init__.py",
+      "target": "runs/revision_v2/src/pdno/__init__.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\controllers\\actions.py",
+      "target": "runs/revision_v2/src/pdno/controllers/actions.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\controllers\\linear.py",
+      "target": "runs/revision_v2/src/pdno/controllers/linear.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\controllers\\objectives.py",
+      "target": "runs/revision_v2/src/pdno/controllers/objectives.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\controllers\\revision_oracle.py",
+      "target": "runs/revision_v2/src/pdno/controllers/revision_oracle.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\controllers\\revision_oracle_cuda.py",
+      "target": "runs/revision_v2/src/pdno/controllers/revision_oracle_cuda.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\controllers\\rom.py",
+      "target": "runs/revision_v2/src/pdno/controllers/rom.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\data\\audit_generated.py",
+      "target": "runs/revision_v2/src/pdno/data/audit_generated.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\data\\audit_teacher.py",
+      "target": "runs/revision_v2/src/pdno/data/audit_teacher.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\data\\causal.py",
+      "target": "runs/revision_v2/src/pdno/data/causal.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\data\\generate.py",
+      "target": "runs/revision_v2/src/pdno/data/generate.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\data\\manifests.py",
+      "target": "runs/revision_v2/src/pdno/data/manifests.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\data\\revision_heat.py",
+      "target": "runs/revision_v2/src/pdno/data/revision_heat.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\data\\splits.py",
+      "target": "runs/revision_v2/src/pdno/data/splits.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\data\\teacher_queries.py",
+      "target": "runs/revision_v2/src/pdno/data/teacher_queries.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\evaluation\\__init__.py",
+      "target": "runs/revision_v2/src/pdno/evaluation/__init__.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\evaluation\\closed_loop.py",
+      "target": "runs/revision_v2/src/pdno/evaluation/closed_loop.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\evaluation\\revision_batch.py",
+      "target": "runs/revision_v2/src/pdno/evaluation/revision_batch.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\models\\__init__.py",
+      "target": "runs/revision_v2/src/pdno/models/__init__.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\models\\encoders.py",
+      "target": "runs/revision_v2/src/pdno/models/encoders.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\models\\operators.py",
+      "target": "runs/revision_v2/src/pdno/models/operators.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\models\\policies.py",
+      "target": "runs/revision_v2/src/pdno/models/policies.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\models\\revision_cache.py",
+      "target": "runs/revision_v2/src/pdno/models/revision_cache.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\physics\\__init__.py",
+      "target": "runs/revision_v2/src/pdno/physics/__init__.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\physics\\burgers.py",
+      "target": "runs/revision_v2/src/pdno/physics/burgers.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\physics\\finite_volume.py",
+      "target": "runs/revision_v2/src/pdno/physics/finite_volume.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\physics\\heat.py",
+      "target": "runs/revision_v2/src/pdno/physics/heat.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\training\\__init__.py",
+      "target": "runs/revision_v2/src/pdno/training/__init__.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\training\\confirmatory.py",
+      "target": "runs/revision_v2/src/pdno/training/confirmatory.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\training\\fit.py",
+      "target": "runs/revision_v2/src/pdno/training/fit.py"
+    },
+    {
+      "source": "runs\\revision_v2\\src\\pdno\\training\\losses.py",
+      "target": "runs/revision_v2/src/pdno/training/losses.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\audit_choice_frequencies.py",
+      "target": "runs/revision_v2/scripts/audit_choice_frequencies.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\audit_provenance_and_saved_results.py",
+      "target": "runs/revision_v2/scripts/audit_provenance_and_saved_results.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\audit_revision_raw.py",
+      "target": "runs/revision_v2/scripts/audit_revision_raw.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\build_release_evidence.py",
+      "target": "runs/revision_v2/scripts/build_release_evidence.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\e4_selected_gradient_diagnostics.py",
+      "target": "runs/revision_v2/scripts/e4_selected_gradient_diagnostics.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\evaluate_revision.py",
+      "target": "runs/revision_v2/scripts/evaluate_revision.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\export_training_evidence.py",
+      "target": "runs/revision_v2/scripts/export_training_evidence.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\generate_e3_targets.py",
+      "target": "runs/revision_v2/scripts/generate_e3_targets.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\insert_completed_supplement.py",
+      "target": "runs/revision_v2/scripts/insert_completed_supplement.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\mechanical_manuscript_cleanup.py",
+      "target": "runs/revision_v2/scripts/mechanical_manuscript_cleanup.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\p0_gradient_audit.py",
+      "target": "runs/revision_v2/scripts/p0_gradient_audit.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\prepare_positive_heat.py",
+      "target": "runs/revision_v2/scripts/prepare_positive_heat.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\revise_figure1_source.py",
+      "target": "runs/revision_v2/scripts/revise_figure1_source.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\revision_queue.py",
+      "target": "runs/revision_v2/scripts/revision_queue.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\run_e1_burgers_cuda.py",
+      "target": "runs/revision_v2/scripts/run_e1_burgers_cuda.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\run_e1_oracles.py",
+      "target": "runs/revision_v2/scripts/run_e1_oracles.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\run_e2_timing.py",
+      "target": "runs/revision_v2/scripts/run_e2_timing.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\run_e4_weight_sweep.py",
+      "target": "runs/revision_v2/scripts/run_e4_weight_sweep.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\run_gpu_training.py",
+      "target": "runs/revision_v2/scripts/run_gpu_training.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\stage_completed_evidence.py",
+      "target": "runs/revision_v2/scripts/stage_completed_evidence.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\stage_release_source.py",
+      "target": "runs/revision_v2/scripts/stage_release_source.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\summarize_e2.py",
+      "target": "runs/revision_v2/scripts/summarize_e2.py"
+    },
+    {
+      "source": "runs\\revision_v2\\scripts\\summarize_revision.py",
+      "target": "runs/revision_v2/scripts/summarize_revision.py"
+    },
+    {
+      "source": "runs\\revision_v2\\tests\\check_batch_rollout.py",
+      "target": "runs/revision_v2/tests/check_batch_rollout.py"
+    },
+    {
+      "source": "runs\\revision_v2\\tests\\check_cache_equivalence.py",
+      "target": "runs/revision_v2/tests/check_cache_equivalence.py"
+    },
+    {
+      "source": "runs\\revision_v2\\tests\\check_cuda_oracle.py",
+      "target": "runs/revision_v2/tests/check_cuda_oracle.py"
+    },
+    {
+      "source": "runs\\revision_v2\\tests\\check_oracle_reference.py",
+      "target": "runs/revision_v2/tests/check_oracle_reference.py"
+    },
+    {
+      "source": "runs\\revision_v2\\tests\\check_release_verification.py",
+      "target": "runs/revision_v2/tests/check_release_verification.py"
+    },
+    {
+      "source": "runs\\revision_v2\\config\\E2_COUNT_CORRECTION.json",
+      "target": "runs/revision_v2/config/E2_COUNT_CORRECTION.json"
+    },
+    {
+      "source": "runs\\revision_v2\\config\\E3_OBSERVER_SCOPE_AMENDMENT.json",
+      "target": "runs/revision_v2/config/E3_OBSERVER_SCOPE_AMENDMENT.json"
+    },
+    {
+      "source": "runs\\revision_v2\\config\\EXECUTION_SCOPE.json",
+      "target": "runs/revision_v2/config/EXECUTION_SCOPE.json"
+    },
+    {
+      "source": "runs\\revision_v2\\config\\heat_parent_manifest.json",
+      "target": "runs/revision_v2/config/heat_parent_manifest.json"
+    },
+    {
+      "source": "runs\\revision_v2\\config\\PHASE1_SPEC.json",
+      "target": "runs/revision_v2/config/PHASE1_SPEC.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\BATCH_ROLLOUT_TESTS.json",
+      "target": "runs/revision_v2/results/BATCH_ROLLOUT_TESTS.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E1_burgers_cuda_COMPLETE.json",
+      "target": "runs/revision_v2/results/E1_burgers_cuda_COMPLETE.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E1_candidate_frequency.csv",
+      "target": "runs/revision_v2/results/E1_candidate_frequency.csv"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E1_candidate_frequency_record.json",
+      "target": "runs/revision_v2/results/E1_candidate_frequency_record.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E1_cuda_reference_equivalence.json",
+      "target": "runs/revision_v2/results/E1_cuda_reference_equivalence.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E1_full_rollout_equivalence.json",
+      "target": "runs/revision_v2/results/E1_full_rollout_equivalence.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E1_heat_COMPLETE.json",
+      "target": "runs/revision_v2/results/E1_heat_COMPLETE.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.record.json",
+      "target": "runs/revision_v2/results/E1_raw/locked_coefficient_ood/burgers/O-cand-obs.record.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.record.json",
+      "target": "runs/revision_v2/results/E1_raw/locked_coefficient_ood/burgers/O-cand-state.record.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.record.json",
+      "target": "runs/revision_v2/results/E1_raw/locked_coefficient_ood/heat/O-cand-obs.record.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.record.json",
+      "target": "runs/revision_v2/results/E1_raw/locked_coefficient_ood/heat/O-cand-state.record.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.record.json",
+      "target": "runs/revision_v2/results/E1_raw/locked_delay_dropout/burgers/O-cand-obs.record.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.record.json",
+      "target": "runs/revision_v2/results/E1_raw/locked_delay_dropout/burgers/O-cand-state.record.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.record.json",
+      "target": "runs/revision_v2/results/E1_raw/locked_delay_dropout/heat/O-cand-obs.record.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.record.json",
+      "target": "runs/revision_v2/results/E1_raw/locked_delay_dropout/heat/O-cand-state.record.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.record.json",
+      "target": "runs/revision_v2/results/E1_raw/locked_nominal/burgers/O-cand-obs.record.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.record.json",
+      "target": "runs/revision_v2/results/E1_raw/locked_nominal/burgers/O-cand-state.record.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.record.json",
+      "target": "runs/revision_v2/results/E1_raw/locked_nominal/heat/O-cand-obs.record.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E1_raw\\locked_nominal\\heat\\O-cand-state.record.json",
+      "target": "runs/revision_v2/results/E1_raw/locked_nominal/heat/O-cand-state.record.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E1_reference_equivalence.json",
+      "target": "runs/revision_v2/results/E1_reference_equivalence.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_cache_CPU_tests.json",
+      "target": "runs/revision_v2/results/E2_cache_CPU_tests.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_profiles\\session1_burgers_B4_s11_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_profiles/session1_burgers_B4_s11_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_profiles\\session1_burgers_B4_s11_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_profiles/session1_burgers_B4_s11_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_profiles\\session1_burgers_B4_s11_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_profiles/session1_burgers_B4_s11_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_profiles\\session1_burgers_B4_s11_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_profiles/session1_burgers_B4_s11_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_profiles\\session1_burgers_P_s11_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_profiles/session1_burgers_P_s11_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_profiles\\session1_burgers_P_s11_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_profiles/session1_burgers_P_s11_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_profiles\\session1_burgers_P_s11_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_profiles/session1_burgers_P_s11_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_profiles\\session1_burgers_P_s11_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_profiles/session1_burgers_P_s11_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_profiles\\session1_heat_B4_s11_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_profiles/session1_heat_B4_s11_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_profiles\\session1_heat_B4_s11_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_profiles/session1_heat_B4_s11_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_profiles\\session1_heat_B4_s11_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_profiles/session1_heat_B4_s11_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_profiles\\session1_heat_B4_s11_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_profiles/session1_heat_B4_s11_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_profiles\\session1_heat_P_s11_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_profiles/session1_heat_P_s11_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_profiles\\session1_heat_P_s11_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_profiles/session1_heat_P_s11_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_profiles\\session1_heat_P_s11_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_profiles/session1_heat_P_s11_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_profiles\\session1_heat_P_s11_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_profiles/session1_heat_P_s11_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s11_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s11_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s11_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s11_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s11_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s11_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s11_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s11_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s11_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s11_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s11_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s11_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s11_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s11_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s11_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s11_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s11_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s11_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s11_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s11_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s23_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s23_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s23_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s23_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s23_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s23_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s23_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s23_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s23_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s23_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s23_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s23_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s23_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s23_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s23_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s23_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s23_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s23_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s23_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s23_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s37_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s37_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s37_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s37_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s37_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s37_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s37_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s37_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s37_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s37_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s37_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s37_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s37_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s37_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s37_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s37_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s37_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s37_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s37_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_B4_s37_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s11_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s11_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s11_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s11_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s11_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s11_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s11_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s11_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s11_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s11_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s11_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s11_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s11_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s11_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s11_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s11_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s11_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s11_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s11_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s11_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s23_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s23_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s23_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s23_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s23_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s23_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s23_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s23_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s23_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s23_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s23_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s23_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s23_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s23_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s23_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s23_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s23_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s23_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s23_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s23_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s37_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s37_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s37_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s37_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s37_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s37_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s37_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s37_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s37_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s37_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s37_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s37_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s37_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s37_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s37_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s37_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s37_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s37_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s37_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_burgers_P_s37_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s11_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s11_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s11_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s11_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s11_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s11_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s11_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s11_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s11_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s11_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s11_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s11_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s11_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s11_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s11_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s11_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s11_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s11_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s11_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s11_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s23_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s23_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s23_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s23_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s23_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s23_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s23_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s23_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s23_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s23_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s23_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s23_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s23_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s23_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s23_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s23_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s23_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s23_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s23_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s23_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s37_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s37_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s37_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s37_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s37_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s37_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s37_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s37_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s37_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s37_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s37_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s37_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s37_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s37_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s37_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s37_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s37_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s37_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_B4_s37_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_B4_s37_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s11_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s11_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s11_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s11_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s11_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s11_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s11_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s11_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s11_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s11_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s11_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s11_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s11_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s11_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s11_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s11_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s11_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s11_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s11_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s11_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s23_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s23_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s23_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s23_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s23_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s23_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s23_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s23_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s23_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s23_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s23_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s23_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s23_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s23_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s23_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s23_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s23_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s23_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s23_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s23_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s37_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s37_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s37_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s37_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s37_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s37_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s37_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s37_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s37_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s37_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s37_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s37_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s37_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s37_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s37_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s37_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s37_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s37_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session1_heat_P_s37_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session1_heat_P_s37_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s11_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s11_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s11_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s11_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s11_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s11_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s11_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s11_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s11_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s11_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s11_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s11_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s11_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s11_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s23_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s23_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s23_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s23_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s23_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s23_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s23_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s23_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s23_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s23_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s23_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s23_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s23_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s23_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s23_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s23_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s23_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s23_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s37_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s37_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s37_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s37_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s37_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s37_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s37_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s37_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s37_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s37_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s37_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s37_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s37_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s37_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s37_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s37_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s37_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_B4_s37_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s11_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s11_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s11_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s11_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s11_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s11_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s11_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s11_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s11_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s11_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s11_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s11_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s11_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s11_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s11_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s11_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s11_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s11_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s23_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s23_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s23_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s23_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s23_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s23_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s23_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s23_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s23_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s23_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s23_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s23_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s23_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s23_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s23_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s23_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s23_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s23_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s23_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s23_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s37_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s37_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s37_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s37_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s37_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s37_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s37_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s37_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s37_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s37_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s37_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s37_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s37_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s37_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s37_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s37_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s37_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s37_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s37_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_burgers_P_s37_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s11_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s11_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s11_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s11_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s11_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s11_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s11_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s11_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s11_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s11_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s11_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s11_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s11_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s11_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s11_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s11_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s23_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s23_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s23_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s23_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s23_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s23_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s23_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s23_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s23_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s23_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s23_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s23_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s23_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s23_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s23_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s23_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s23_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s23_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s37_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s37_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s37_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s37_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s37_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s37_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s37_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s37_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s37_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s37_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s37_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s37_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s37_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s37_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s37_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s37_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s37_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s37_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_B4_s37_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_B4_s37_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s11_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s11_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s11_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s11_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s11_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s11_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s11_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s11_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s11_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s11_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s11_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s11_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s11_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s11_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s11_K25_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s11_K25_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s11_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s11_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s11_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s11_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s23_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s23_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s23_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s23_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s23_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s23_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s23_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s23_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s23_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s23_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s23_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s23_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s23_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s23_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s23_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s23_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s23_K50_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s23_K50_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s37_K100_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s37_K100_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s37_K100_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s37_K100_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s37_K10_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s37_K10_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s37_K10_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s37_K10_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s37_K200_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s37_K200_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s37_K200_cache1.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s37_K200_cache1.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s37_K25_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s37_K25_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E2_raw\\session2_heat_P_s37_K50_cache0.json",
+      "target": "runs/revision_v2/results/E2_raw/session2_heat_P_s37_K50_cache0.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E5_initial_condition_tests.json",
+      "target": "runs/revision_v2/results/E5_initial_condition_tests.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E5_train_generation.json",
+      "target": "runs/revision_v2/results/E5_train_generation.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E6_E7_receipt.json",
+      "target": "runs/revision_v2/results/E6_E7_receipt.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E6_original_heat_cost_decomposition.csv",
+      "target": "runs/revision_v2/results/E6_original_heat_cost_decomposition.csv"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E7_joint_denominator_bootstrap.csv",
+      "target": "runs/revision_v2/results/E7_joint_denominator_bootstrap.csv"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\E9_B0_tuning_audit.json",
+      "target": "runs/revision_v2/results/E9_B0_tuning_audit.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\ORIGINAL_TRAINING_CURVES.csv",
+      "target": "runs/revision_v2/results/ORIGINAL_TRAINING_CURVES.csv"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\ORIGINAL_TRAINING_EXPORT.json",
+      "target": "runs/revision_v2/results/ORIGINAL_TRAINING_EXPORT.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\ORIGINAL_TRAINING_SELECTION.csv",
+      "target": "runs/revision_v2/results/ORIGINAL_TRAINING_SELECTION.csv"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\P0_1_gradient_audit.json",
+      "target": "runs/revision_v2/results/P0_1_gradient_audit.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\P0_1_gradient_trace.csv",
+      "target": "runs/revision_v2/results/P0_1_gradient_trace.csv"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\P0_2_runtime_repairs.json",
+      "target": "runs/revision_v2/results/P0_2_runtime_repairs.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\P0_3_registration_audit.json",
+      "target": "runs/revision_v2/results/P0_3_registration_audit.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\RELEASE_VERIFIER_SUPPORT_TESTS.json",
+      "target": "runs/revision_v2/results/RELEASE_VERIFIER_SUPPORT_TESTS.json"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\REVISION_COST_SUMMARY.csv",
+      "target": "runs/revision_v2/results/REVISION_COST_SUMMARY.csv"
+    },
+    {
+      "source": "runs\\revision_v2\\results\\REVISION_SUMMARY_RECEIPT.json",
+      "target": "runs/revision_v2/results/REVISION_SUMMARY_RECEIPT.json"
+    },
+    {
+      "source": "runs\\revision_v2\\evidence\\E2_ENVIRONMENT_MIDRUN.json",
+      "target": "runs/revision_v2/evidence/E2_ENVIRONMENT_MIDRUN.json"
+    },
+    {
+      "source": "runs\\revision_v2\\evidence\\ORIGINAL_240_ARRAYS.json",
+      "target": "runs/revision_v2/evidence/ORIGINAL_240_ARRAYS.json"
+    },
+    {
+      "source": "runs\\revision_v2\\evidence\\ORIGINAL_PROTECTION.json",
+      "target": "runs/revision_v2/evidence/ORIGINAL_PROTECTION.json"
+    },
+    {
+      "source": "runs\\revision_v2\\evidence\\PHASE1_SPEC_SHA256.txt",
+      "target": "runs/revision_v2/evidence/PHASE1_SPEC_SHA256.txt"
+    },
+    {
+      "source": "runs\\revision_v2\\evidence\\RELATED_WORK_VERIFIED.json",
+      "target": "runs/revision_v2/evidence/RELATED_WORK_VERIFIED.json"
+    },
+    {
+      "source": "runs\\revision_v2\\evidence\\RELEASE_EVIDENCE_INVENTORY.json",
+      "target": "runs/revision_v2/evidence/RELEASE_EVIDENCE_INVENTORY.json"
+    },
+    {
+      "source": "runs\\revision_v2\\evidence\\REVISION_IMPLEMENTATION_SNAPSHOT.json",
+      "target": "runs/revision_v2/evidence/REVISION_IMPLEMENTATION_SNAPSHOT.json"
+    },
+    {
+      "source": "runs\\revision_v2\\data\\positive_heat\\train\\heat\\generation_record.json",
+      "target": "runs/revision_v2/data/positive_heat/train/heat/generation_record.json"
+    },
+    {
+      "source": "runs\\revision_v2\\data\\positive_heat\\validation\\heat\\generation_record.json",
+      "target": "runs/revision_v2/data/positive_heat/validation/heat/generation_record.json"
+    },
+    {
+      "source": "runs\\revision_v2\\data\\positive_heat_queries\\train\\heat\\teacher_queries.record.json",
+      "target": "runs/revision_v2/data/positive_heat_queries/train/heat/teacher_queries.record.json"
+    },
+    {
+      "source": "runs\\revision_v2\\data\\positive_heat_queries\\validation\\heat\\teacher_queries.record.json",
+      "target": "runs/revision_v2/data/positive_heat_queries/validation/heat/teacher_queries.record.json"
+    },
+    {
+      "source": "runs\\revision_v2\\release_support\\verify_evidence.py",
+      "target": "runs/revision_v2/release_support/verify_evidence.py"
+    },
+    {
+      "source": "runs\\revision_v2\\heat_ic_spec.md",
+      "target": "runs/revision_v2/heat_ic_spec.md"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\scripts\\build_diagram.py",
+      "target": "publication/scripts/build_diagram.py"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\scripts\\build_figures.py",
+      "target": "publication/scripts/build_figures.py"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\scripts\\build_revision_figures.py",
+      "target": "publication/scripts/build_revision_figures.py"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\scripts\\build_revision_tables.py",
+      "target": "publication/scripts/build_revision_tables.py"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\scripts\\build_revision_timing_tables.py",
+      "target": "publication/scripts/build_revision_timing_tables.py"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\scripts\\build_revision_training_tables.py",
+      "target": "publication/scripts/build_revision_training_tables.py"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\scripts\\build_tables.py",
+      "target": "publication/scripts/build_tables.py"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\scripts\\prepare_assets_from_workspace.py",
+      "target": "publication/scripts/prepare_assets_from_workspace.py"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\calibration_margins.csv",
+      "target": "publication/data/calibration_margins.csv"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\control_all_methods.csv",
+      "target": "publication/data/control_all_methods.csv"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\figure_provenance.json",
+      "target": "publication/data/figure_provenance.json"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\final_spec_v3.json",
+      "target": "publication/data/final_spec_v3.json"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\h1_results.json",
+      "target": "publication/data/h1_results.json"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\heat_constraint_diagnostic.csv",
+      "target": "publication/data/heat_constraint_diagnostic.csv"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\latency_analysis_v3.json",
+      "target": "publication/data/latency_analysis_v3.json"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\latency_per_seed.csv",
+      "target": "publication/data/latency_per_seed.csv"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\latency_pooled_descriptive.csv",
+      "target": "publication/data/latency_pooled_descriptive.csv"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\P_B5_matched_actions.csv",
+      "target": "publication/data/P_B5_matched_actions.csv"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\revision\\BATCH_ROLLOUT_TESTS.json",
+      "target": "publication/data/revision/BATCH_ROLLOUT_TESTS.json"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\revision\\E1_burgers_cuda_COMPLETE.json",
+      "target": "publication/data/revision/E1_burgers_cuda_COMPLETE.json"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\revision\\E1_candidate_frequency.csv",
+      "target": "publication/data/revision/E1_candidate_frequency.csv"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\revision\\E1_candidate_frequency_record.json",
+      "target": "publication/data/revision/E1_candidate_frequency_record.json"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\revision\\E1_heat_COMPLETE.json",
+      "target": "publication/data/revision/E1_heat_COMPLETE.json"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\revision\\E2_COUNT_CORRECTION.json",
+      "target": "publication/data/revision/E2_COUNT_CORRECTION.json"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\revision\\E6_original_heat_cost_decomposition.csv",
+      "target": "publication/data/revision/E6_original_heat_cost_decomposition.csv"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\revision\\E7_joint_denominator_bootstrap.csv",
+      "target": "publication/data/revision/E7_joint_denominator_bootstrap.csv"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\revision\\E9_B0_tuning_audit.json",
+      "target": "publication/data/revision/E9_B0_tuning_audit.json"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\revision\\P0_1_gradient_audit.json",
+      "target": "publication/data/revision/P0_1_gradient_audit.json"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\revision\\P0_1_gradient_trace.csv",
+      "target": "publication/data/revision/P0_1_gradient_trace.csv"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\revision\\P0_2_runtime_repairs.json",
+      "target": "publication/data/revision/P0_2_runtime_repairs.json"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\revision\\P0_3_registration_audit.json",
+      "target": "publication/data/revision/P0_3_registration_audit.json"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\revision\\PHASE1_SPEC.json",
+      "target": "publication/data/revision/PHASE1_SPEC.json"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\revision\\REVISION_COST_SUMMARY.csv",
+      "target": "publication/data/revision/REVISION_COST_SUMMARY.csv"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\revision\\REVISION_SUMMARY_RECEIPT.json",
+      "target": "publication/data/revision/REVISION_SUMMARY_RECEIPT.json"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\revision\\STAGED_EVIDENCE.json",
+      "target": "publication/data/revision/STAGED_EVIDENCE.json"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\revision\\table_provenance.json",
+      "target": "publication/data/revision/table_provenance.json"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\selected_checkpoints.csv",
+      "target": "publication/data/selected_checkpoints.csv"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\data\\training_history.csv",
+      "target": "publication/data/training_history.csv"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\tables\\nominal.tex",
+      "target": "publication/tables/nominal.tex"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\tables\\revision_bootstrap.tex",
+      "target": "publication/tables/revision_bootstrap.tex"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\tables\\revision_choices.tex",
+      "target": "publication/tables/revision_choices.tex"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\tables\\revision_gradients.tex",
+      "target": "publication/tables/revision_gradients.tex"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\tables\\revision_heat_cost.tex",
+      "target": "publication/tables/revision_heat_cost.tex"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\tables\\revision_oracle.tex",
+      "target": "publication/tables/revision_oracle.tex"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\tables\\supp_calibration.tex",
+      "target": "publication/tables/supp_calibration.tex"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\tables\\supp_control.tex",
+      "target": "publication/tables/supp_control.tex"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\tables\\supp_latency.tex",
+      "target": "publication/tables/supp_latency.tex"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\fig01_design.pdf",
+      "target": "publication/figures/fig01_design.pdf"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\fig01_design.png",
+      "target": "publication/figures/fig01_design.png"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\fig01_design.svg",
+      "target": "publication/figures/fig01_design.svg"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\fig01_design.tex",
+      "target": "publication/figures/fig01_design.tex"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\fig02_prediction.pdf",
+      "target": "publication/figures/fig02_prediction.pdf"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\fig02_prediction.png",
+      "target": "publication/figures/fig02_prediction.png"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\fig02_prediction.svg",
+      "target": "publication/figures/fig02_prediction.svg"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\fig03_control.pdf",
+      "target": "publication/figures/fig03_control.pdf"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\fig03_control.png",
+      "target": "publication/figures/fig03_control.png"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\fig03_control.svg",
+      "target": "publication/figures/fig03_control.svg"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\fig04_latency.pdf",
+      "target": "publication/figures/fig04_latency.pdf"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\fig04_latency.png",
+      "target": "publication/figures/fig04_latency.png"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\fig04_latency.svg",
+      "target": "publication/figures/fig04_latency.svg"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\fig05_h1.pdf",
+      "target": "publication/figures/fig05_h1.pdf"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\fig05_h1.png",
+      "target": "publication/figures/fig05_h1.png"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\fig05_h1.svg",
+      "target": "publication/figures/fig05_h1.svg"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\fig06_heat.pdf",
+      "target": "publication/figures/fig06_heat.pdf"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\fig06_heat.png",
+      "target": "publication/figures/fig06_heat.png"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\fig06_heat.svg",
+      "target": "publication/figures/fig06_heat.svg"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\figS01_training.pdf",
+      "target": "publication/figures/figS01_training.pdf"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\figS01_training.png",
+      "target": "publication/figures/figS01_training.png"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\figures\\figS01_training.svg",
+      "target": "publication/figures/figS01_training.svg"
+    },
+    {
+      "source": "publications\\ieee_access_pdno_revision_v2_20261002\\overleaf\\requirements-figures.txt",
+      "target": "publication/requirements-figures.txt"
+    }
+  ],
+  "limits": "Figures and metadata remain unfinished. No files copied, hashed as final, committed or uploaded."
+}

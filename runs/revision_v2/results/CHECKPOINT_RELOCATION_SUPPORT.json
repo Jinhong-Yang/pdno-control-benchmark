@@ -1,0 +1,171 @@
+{
+  "status": "PASS_RELOCATED_ARCHIVED_CONTROLLERS_CPU_SUPPORT",
+  "scope": "Twelve original seed11 controllers, one training observation per PDE. No evaluation of revision fitted checkpoints, full source-release layout, scientific utility or GPU latency.",
+  "external_checkpoint_reads_allowed": false,
+  "input_sha256": {
+    "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\P_s11.pt": "7b222060d53a024baef3515715a5877d67ebf369748cc1ac16d4be1002457a0c",
+    "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\P-no-rank_s11.pt": "4eba43f50ab6acb6d2abd1160e271819cc67991799d04255300eb9be8d08cce5",
+    "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\B5_s11.pt": "06ccfa4271a1aecef18288189df09be9cfcc52621810a6ee71c74b382aedc513",
+    "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\B4_s11.pt": "ae65b087136663f66500d58fccad3cb7e7437ea5559c62675ebf39a334f0e20b",
+    "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\B2_s11.pt": "773ff10aa1fd91a5a6a8f3e9838729deb81d608f2aa0dc0ef582f3e8d3ed415b",
+    "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\burgers\\B3_s11.pt": "12996a2f2a99f762e73389c3386324c4ddd1519f1cb1c8e6a4ed38cce652aede",
+    "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\P_s11.pt": "335cd17c3fe439ab3d5987e117524559307f7447e41d9d3cdf2f7921630b26c4",
+    "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\P-no-rank_s11.pt": "40a77757d674a8da22ce0f9b93ff209a02e72ef5a8eab44ecc4f3d1af6b8a5f2",
+    "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\B5_s11.pt": "f499e54b081a7018e2759f7824b2060fa381a54f99577cf307f8d97fc6e2e115",
+    "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\B4_s11.pt": "93f5ce1932228c1785a8aa5aabb95d01d7a78ab6ead34c287622ccf0c74adc02",
+    "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\B2_s11.pt": "07f22e864895b091253d7795930ae7097a5bfb41b25e302d630cce400b93890b",
+    "experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\B3_s11.pt": "77a52e5711e7b49773fbf211709e34b7157a41c6723e4f19177a8fff219e0d00"
+  },
+  "rows": [
+    {
+      "pde": "burgers",
+      "method": "P",
+      "seed": 11,
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "248f2520fa7f46e7a5c2714eca0a4e9220244bd69b908bde6ee74f7306a85bb7"
+    },
+    {
+      "pde": "burgers",
+      "method": "P-no-rank",
+      "seed": 11,
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "64c9be1186665f2b462bdaf0ccde89034c42bfd969b56af2f0cffd5b715c5c94"
+    },
+    {
+      "pde": "burgers",
+      "method": "B5",
+      "seed": 11,
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "e65bdbd43aa75c78fe8ef99e804413385a811b6c2c37727b18fc69580163eb6e"
+    },
+    {
+      "pde": "burgers",
+      "method": "B4",
+      "seed": 11,
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "378a3e13e928af908dc66e37dddf024daf7a78340d798f4a70eea2f110156d85"
+    },
+    {
+      "pde": "burgers",
+      "method": "B2",
+      "seed": 11,
+      "shape": [
+        1,
+        2
+      ],
+      "output_sha256": "3dbb94e1c480d1518fe217e10b9a6f59da279072b5ba310237c3c5fd45e202c7"
+    },
+    {
+      "pde": "burgers",
+      "method": "B3",
+      "seed": 11,
+      "shape": [
+        1,
+        2
+      ],
+      "output_sha256": "0d0933938031d4e0c9565becd7655983be3a087da9f4ef9f6e5b9fc2cc791bec"
+    },
+    {
+      "pde": "heat",
+      "method": "P",
+      "seed": 11,
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "de47a6349129f00ec6885bc22bdf79879f424721baa10ee1cdb9dabae669bdd0"
+    },
+    {
+      "pde": "heat",
+      "method": "P-no-rank",
+      "seed": 11,
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "067f994c3b8601cef3e56b5f3575db868a78ddea608dd83556774ca8dd7c354e"
+    },
+    {
+      "pde": "heat",
+      "method": "B5",
+      "seed": 11,
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "0b5f372c35de85bfcb0f5b58e8955e98ac2c53949fc6917f750603ed01b9e8fd"
+    },
+    {
+      "pde": "heat",
+      "method": "B4",
+      "seed": 11,
+      "shape": [
+        1,
+        10,
+        8,
+        128
+      ],
+      "output_sha256": "6bbc58fb0ecc444c9c9e43615b0c39bc106ffb060e607f65f104d2efa7d37c59"
+    },
+    {
+      "pde": "heat",
+      "method": "B2",
+      "seed": 11,
+      "shape": [
+        1,
+        2
+      ],
+      "output_sha256": "9dfd26bc7358dcaa1bd253dc17a819ef14ae36605a3b368436038d09a0cfb317"
+    },
+    {
+      "pde": "heat",
+      "method": "B3",
+      "seed": 11,
+      "shape": [
+        1,
+        2
+      ],
+      "output_sha256": "6a2ac0209e84cddb64ca85e1b7ccd98c6feb9cda55456eb01243c09e04eadfec"
+    }
+  ],
+  "checkpoint_reads": [
+    "burgers_P.pt",
+    "burgers_P-no-rank.pt",
+    "burgers_B5.pt",
+    "burgers_B4.pt",
+    "burgers_B2.pt",
+    "burgers_B3.pt",
+    "heat_P.pt",
+    "heat_P-no-rank.pt",
+    "heat_B5.pt",
+    "heat_B4.pt",
+    "heat_B2.pt",
+    "heat_B3.pt"
+  ]
+}

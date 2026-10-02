@@ -1,0 +1,80 @@
+{
+  "status": "COMPLETE",
+  "device": "cpu",
+  "threads": 2,
+  "elapsed_seconds": 47.084567399986554,
+  "restart_limitation": "Saved update-2000 checkpoints contain model weights and metadata only, no Adam moments or RNG state. Both optimizers were identically reinitialized at the scheduled update-2000 learning rate. This is a matched weight-restart diagnostic, not bitwise continuation of the original CUDA training.",
+  "training_data_only": true,
+  "test_access": false,
+  "reports": [
+    {
+      "pde": "burgers",
+      "seed": 11,
+      "updates": 100,
+      "initial_parameter_difference": 0.0,
+      "final_parameter_difference": 6.541419182575401e-06,
+      "physics_gradient_nonzero_updates": 100,
+      "median_weighted_physics_data_gradient_ratio": 2.4405323105530035e-06,
+      "max_weighted_physics_data_gradient_ratio": 7.432185286507304e-06,
+      "median_balance_data_gradient_ratio": 3.988658729360995e-07,
+      "classification": "G-B",
+      "checkpoints": {
+        "P": {
+          "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_candidates\\burgers\\P_s11\\update_02000.pt",
+          "sha256": "2fadada55ade8bf95f68a80b61d836047e4c4a5a207d4724f9b7d19cc582d30e",
+          "keys": [
+            "state_dict",
+            "metadata"
+          ]
+        },
+        "B5": {
+          "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_candidates\\burgers\\B5_s11\\update_02000.pt",
+          "sha256": "f11e668db26948ec67f97b5e5ca3c293b55d43b08d379d7d55556632ba6dc828",
+          "keys": [
+            "state_dict",
+            "metadata"
+          ]
+        }
+      },
+      "train_sha256": "3e9b36fdce4ba64ab4aa399b47a1721233e13bd195010148a666873d97491e3d"
+    },
+    {
+      "pde": "heat",
+      "seed": 11,
+      "updates": 100,
+      "initial_parameter_difference": 0.0,
+      "final_parameter_difference": 1.0638179157509429e-05,
+      "physics_gradient_nonzero_updates": 100,
+      "median_weighted_physics_data_gradient_ratio": 3.4714997681877505e-06,
+      "max_weighted_physics_data_gradient_ratio": 3.100087877018496e-05,
+      "median_balance_data_gradient_ratio": 2.1606406661055226e-06,
+      "classification": "G-B",
+      "checkpoints": {
+        "P": {
+          "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_candidates\\heat\\P_s11\\update_02000.pt",
+          "sha256": "e2e37050bde64607a8accb55cc86a46b68e208f72ee005b93447b92cb908575d",
+          "keys": [
+            "state_dict",
+            "metadata"
+          ]
+        },
+        "B5": {
+          "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_candidates\\heat\\B5_s11\\update_02000.pt",
+          "sha256": "2b3dbe9939a500dc007c859a957259855e3dc35e8ed72925af60d284dc23e4ce",
+          "keys": [
+            "state_dict",
+            "metadata"
+          ]
+        }
+      },
+      "train_sha256": "858136df212d5a7df23e607abd58e4f8df39cf7e5e7683e3079b488d8d33f3a4"
+    }
+  ],
+  "paths_findings": {
+    "coordinate_detach": "only x/tau are detached then require gradients; prediction graph retains model parameters",
+    "create_graph": true,
+    "observer_and_initial_head": "intentionally frozen for both methods; response branch and trunk remain trainable",
+    "autocast": "explicitly rejected; float casts retain autograd",
+    "physics_scaling": "both physics and balance divided by residual_scale squared then multiplied by 0.01 and phase ramp"
+  }
+}

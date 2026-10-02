@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETE",
+  "source_sha256": "1ab16ce3f3ca203201a814986a739fee1ca3d06288a8f1e91361e0cd5571c892",
+  "records": [
+    {
+      "factor": 4,
+      "queries": 8192,
+      "parents": 512,
+      "sha256": "c5c4d37d7bebefb0a4deccc3a0250c08d7b59636a3d77a72e210623ed6670089",
+      "path": "data\\E3_queries\\x4\\teacher_queries.npz"
+    },
+    {
+      "factor": 16,
+      "queries": 32768,
+      "parents": 512,
+      "sha256": "321a4ae9f1ea5985f96e0e3f4c90d6b1dff591ead1b06229e086949d99e61ad9",
+      "path": "data\\E3_queries\\x16\\teacher_queries.npz"
+    }
+  ],
+  "original_overlap_max_abs_error": 2.9802322387695312e-08,
+  "elapsed_s": 297.46890480001457,
+  "device": "cuda FP64",
+  "test_used": false
+}

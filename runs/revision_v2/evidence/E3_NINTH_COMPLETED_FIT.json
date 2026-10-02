@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETED_FIT_NOT_FINAL_E3_GATE",
+  "created_utc": "2026-10-02T04:39:24.669519+00:00",
+  "condition": "burgers_x4_P_s11",
+  "completed_fits": 9,
+  "required_fits": 21,
+  "actual_updates": 16500,
+  "selected_update": 14500,
+  "selected_validation_field_nrmse": 0.10648220777511597,
+  "elapsed_seconds": 1005.2492299999576,
+  "summary_path": "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_P_s11.summary.json",
+  "summary_sha256": "aa39842c908ba482925d09a0174260a2a4d6b0b4ce1ebd4a05588d0109ee27f5",
+  "limits": "One completed x4 P seed; full E3 sealed gate evaluation pending. No population or final scenario conclusion."
+}

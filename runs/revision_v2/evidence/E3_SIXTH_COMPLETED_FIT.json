@@ -1,0 +1,10 @@
+{
+  "condition": "burgers_x1_P_s37",
+  "source": "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s37.summary.json",
+  "source_sha256": "7884156ab42eeb0ff9d836d3204eca6814193ce71a754b5cb46a5012640d2d3b",
+  "actual_updates": 18000,
+  "selected_update": 17500,
+  "field_nrmse": 0.08847656846046448,
+  "process_wall_seconds": 1098.9906860999763,
+  "scope": "Six of21E3fits complete includingobserver; formalall18operatorgate decisionsafterfulltrainingseal. Not a newclosedloop result."
+}

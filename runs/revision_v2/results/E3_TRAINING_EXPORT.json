@@ -1,0 +1,35 @@
+{
+  "status": "COMPLETE_E3_ONLY",
+  "selected_checkpoint_rows": 21,
+  "curve_metric_rows": 7452,
+  "input_sha256": {
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_B4_s11.summary.json": "281b07aeccb237113f1ad8a4774c59985984286b87e9e3e924fd89cb2da3515d",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_B4_s23.summary.json": "7f3814242e16a3d5f51179a55e2a30b0d4ec9a250fadc6f6bb7476011869dc14",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_B4_s37.summary.json": "239811f15e4b3ea7072d828712f5b88259099540605c1fda5c8f1ee6873fab98",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_P_s11.summary.json": "02b5ee82a71261c95039faff3e940b222418d99fa61f4433a6d8ee7fbe0a64a7",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_P_s23.summary.json": "e6e7eaf5660a067a422c5807fac6ebe3668c3b1a99e3c50cd46ea22a980c352e",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x16_P_s37.summary.json": "ca4606855c61bcfd10fed1667eded4151633a55a8d34fb47d334be829900203f",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s11.summary.json": "38370dda740c69e0c72374a0090bba0b4a0748b7abe03e9538f542e961b682cb",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s23.summary.json": "a6fa672a6bcba7fc03fc502ca18f3f31de32e19c32976aafc5b728667fe5b8c3",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_B4_s37.summary.json": "5a606b5ac0b77499a1493ef3e5299cad481e4658720522a8020f6358d7f36c98",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s11.summary.json": "49add17f292ec7a0af0d83e16d941e5351961a0d17c1f7e12b7e3addf5fb1944",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s23.summary.json": "e36e08638331c76b75c394e038a4e504fdb6a3881a25e3170f7f7c331d7fe042",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x1_P_s37.summary.json": "7884156ab42eeb0ff9d836d3204eca6814193ce71a754b5cb46a5012640d2d3b",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_B4_s11.summary.json": "756ca4a215996a3c731caa620343c78df290deef179d91edd6cc49c2c919b4a7",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_B4_s23.summary.json": "8d9bc2e502efee875e029812932accd3a175a3680e6b3e0ec9d798231011bf49",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_B4_s37.summary.json": "a33aa7506505b054753196c43cb6d024c3a7d3ef6dd14e6e46ffe8affc62bc5d",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_P_s11.summary.json": "aa39842c908ba482925d09a0174260a2a4d6b0b4ce1ebd4a05588d0109ee27f5",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_P_s23.summary.json": "1107b37e9c734e3083e34ad7f1f7ec5234daafd64dfd7cb8cfbf38dcbc03f421",
+    "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_P_s37.summary.json": "bb0c72a9d0fa17cc4a64faee6711839d7f4ed02096aa9f8846858949062fd281",
+    "runs\\revision_v2\\checkpoints\\E3\\observer\\burgers_x16_seed7.summary.json": "69f73dbe7336873cc22c5e66a54a89229637cea439d085322489e416e9a6c966",
+    "runs\\revision_v2\\checkpoints\\E3\\observer\\burgers_x1_seed7.summary.json": "be2c27b0cd279e2ccfec099713b73bbf1e679ed790258be41ea360c5d540f8f8",
+    "runs\\revision_v2\\checkpoints\\E3\\observer\\burgers_x4_seed7.summary.json": "07af52d730ab5e8b92e6e66f3ab5a805714d6a090f4e7c6a9177f335d9cf313b"
+  },
+  "output_sha256": {
+    "E3_TRAINING_SELECTION.csv": "cfcdf00e38a8caefda1f6c5dab764ada4cb2da22203d94b9334e5b858fce2ba0",
+    "E3_TRAINING_CURVES.csv": "f5a844d352a8ee33f5ea3d85f64a8db42b9d2fcbecb0b8bc332889e2774e3878"
+  },
+  "completion_audit_sha256": "cdba9ce81d76743c233a0576ce6dbf6bc5a3f974ee498db63210b6de3b268c0c",
+  "scope": "All E3 conditions only; E4/E5 completion is not asserted.",
+  "selection": "Recorded composite selection; no minimum-field-error reselection."
+}

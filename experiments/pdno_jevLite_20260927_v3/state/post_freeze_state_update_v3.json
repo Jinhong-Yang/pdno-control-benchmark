@@ -1,0 +1,50 @@
+{
+  "status": "POST_FREEZE_STATE_UPDATE_ADDENDUM",
+  "created_at_local": "2026-09-28T04:12:00+09:00",
+  "raw_freeze_manifest_sha256": "2fc83da6f7c577d09d1c75ce44e276726a6705383e074974f94d9f321a3eea41",
+  "frozen_locked_and_latency_raw_artifacts_reverified": true,
+  "frozen_raw_artifact_count_reverified": 360,
+  "context_files_postfreeze_updates": {
+    "state/RUN_LEDGER.md": {
+      "frozen_manifest_sha256": "16bfd6bd1ccee6f03d959e069f13feee834b00fabfadce4d61fa6387d0b0ee74",
+      "current_sha256": "134bb5d227c7d6964efc6ed8ac0aa28fd7769718f0049d4e513a88e48c43d051",
+      "updated_after_raw_freeze": true,
+      "new_handoff_artifact": false
+    },
+    "state/RUN_STATE.json": {
+      "frozen_manifest_sha256": "db86920a72f420a30a059748046bb43c1cf9c9c1a5315f8e891aaabcd3e66f8d",
+      "current_sha256": "30bba95c4a907ac9aa58e40ef9196a88bb0194c5b48ef43b7de46ebadb37841d",
+      "updated_after_raw_freeze": true,
+      "new_handoff_artifact": false
+    },
+    "state/HANDOFF.md": {
+      "frozen_manifest_sha256": null,
+      "current_sha256": "079a4faa45e61c0d278f7e2504cdbb905096c2c3ab1e9cc6be38ddcd8a4bc13e",
+      "updated_after_raw_freeze": false,
+      "new_handoff_artifact": true
+    },
+    "state/HANDOFF_V3_ASTRA.md": {
+      "frozen_manifest_sha256": null,
+      "current_sha256": "079a4faa45e61c0d278f7e2504cdbb905096c2c3ab1e9cc6be38ddcd8a4bc13e",
+      "updated_after_raw_freeze": false,
+      "new_handoff_artifact": true
+    },
+    "state/CUDA_RUNTIME_ASSESSMENT_ERRATUM.md": {
+      "frozen_manifest_sha256": null,
+      "current_sha256": "5a1f5b05a673ec472adb8c1b56aa59bb5c1396122be0d46e964ea1477ddafde0",
+      "updated_after_raw_freeze": false,
+      "new_handoff_artifact": true
+    }
+  },
+  "post_freeze_cuda_assessment_original_sha256": "f20a168cb1f8bcb9556384cf9738feba8e674f14becaa22028366ae164bb5d72",
+  "post_freeze_cuda_assessment_corrected_sha256": "f3b5d28f8e02b18143a8f508e9c5001ed4a93a8ef273d5a1cd979154bf214a6d",
+  "cuda_erratum_sha256": "5a1f5b05a673ec472adb8c1b56aa59bb5c1396122be0d46e964ea1477ddafde0",
+  "failures_log_matches_frozen_hash": true,
+  "astra_final_task_id": "01a0e439-093f-7601-8a7d-6e8929a7ced4",
+  "astra_runtime": {
+    "actual_model": "gpt-6-astra",
+    "actual_effort": "xhigh",
+    "session_sha256": "b22feec39352494b157ba5da2ea393a0d35e27b964c430b55edb6fc28ae7ba3c"
+  },
+  "chain_of_custody_note": "The original raw freeze manifest remains unchanged. All 360 frozen locked-test/latency raw artifacts match. The original derived CUDA summary and its corrected post-freeze version are both retained; the erratum identifies p99/p99.9 collision in the original percentile-value fields. Registered latency analysis and frozen raw arrays are unchanged. RUN_STATE/RUN_LEDGER post-freeze status updates are hash-tracked here; failures JSONL still matches frozen hash."
+}

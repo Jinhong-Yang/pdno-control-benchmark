@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "errors": [],
+  "shards": [
+    {
+      "path": "data\\queries_v3\\train\\burgers\\teacher_queries.npz",
+      "split": "train",
+      "pde": "burgers",
+      "passed": true,
+      "errors": [],
+      "query_count": 2048,
+      "parent_count": 512,
+      "candidate_count": 10,
+      "teacher_cost_recompute_max_abs_difference": 1.973735111460151e-08,
+      "teacher_peak_recompute_max_abs_difference": 0.0,
+      "parent_id_sha256": "3c3e6bc48566d6b981d0b99763a32669f2252f6781217fad714c792f4c007294"
+    },
+    {
+      "path": "data\\queries_v3\\train\\heat\\teacher_queries.npz",
+      "split": "train",
+      "pde": "heat",
+      "passed": true,
+      "errors": [],
+      "query_count": 1024,
+      "parent_count": 256,
+      "candidate_count": 10,
+      "teacher_cost_recompute_max_abs_difference": 1.328008911727352e-07,
+      "teacher_peak_recompute_max_abs_difference": 0.0,
+      "parent_id_sha256": "28a60ec96dba507687fa77f5f34c578118884fb1b7ab2c9690d022c8ff5eb3b1"
+    },
+    {
+      "path": "data\\queries_v3\\validation\\burgers\\teacher_queries.npz",
+      "split": "validation",
+      "pde": "burgers",
+      "passed": true,
+      "errors": [],
+      "query_count": 64,
+      "parent_count": 64,
+      "candidate_count": 10,
+      "teacher_cost_recompute_max_abs_difference": 1.877040710362987e-09,
+      "teacher_peak_recompute_max_abs_difference": 0.0,
+      "parent_id_sha256": "a95aa83d653ec9cf44cc34270dd58d8f1f7363a6e771162699c67e9ee8b8c070"
+    },
+    {
+      "path": "data\\queries_v3\\validation\\heat\\teacher_queries.npz",
+      "split": "validation",
+      "pde": "heat",
+      "passed": true,
+      "errors": [],
+      "query_count": 64,
+      "parent_count": 64,
+      "candidate_count": 10,
+      "teacher_cost_recompute_max_abs_difference": 1.3368724105511376e-07,
+      "teacher_peak_recompute_max_abs_difference": 0.0,
+      "parent_id_sha256": "161d475976d5cd5f163cdbc9374574a6cb0fc6e5e6f72d80823620c6bdcef1df"
+    }
+  ],
+  "calibration_or_test_query_shards_found": false
+}

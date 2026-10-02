@@ -1,0 +1,27 @@
+{
+  "status": "COMPLETED_X4_SEED11_PAIR_NOT_FINAL_E3_GATE",
+  "utc": "2026-10-02T04:52:05.113859+00:00",
+  "completed_fits": 10,
+  "required_fits": 21,
+  "rows": [
+    {
+      "condition": "burgers_x4_P_s11",
+      "actual_updates": 16500,
+      "selected_update": 14500,
+      "selected_validation_field_nrmse": 0.10648220777511597,
+      "elapsed_seconds": 1005.2492299999576,
+      "summary": "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_P_s11.summary.json",
+      "summary_sha256": "aa39842c908ba482925d09a0174260a2a4d6b0b4ce1ebd4a05588d0109ee27f5"
+    },
+    {
+      "condition": "burgers_x4_B4_s11",
+      "actual_updates": 14500,
+      "selected_update": 14500,
+      "selected_validation_field_nrmse": 0.10562201589345932,
+      "elapsed_seconds": 831.1399669999955,
+      "summary": "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_B4_s11.summary.json",
+      "summary_sha256": "756ca4a215996a3c731caa620343c78df290deef179d91edd6cc49c2c919b4a7"
+    }
+  ],
+  "limits": "Both selected field metrics exceed0.05; only seed11 pair of factor4. Formal18-model gate waits for all21 fits and seal. Not a final scaling or closed-loop conclusion."
+}

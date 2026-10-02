@@ -1,0 +1,42 @@
+protocol: PDNO_JevLite_RTX5080_72H_frozen_evaluation_addendum_v1
+parent_protocol: config/frozen_experiment.yaml
+purpose: implement source-specified OOD, delay/dropout, heat setpoint-step and calibration roles before any calibration/test target is generated
+locked_targets_generated: false
+coefficient_ood:
+  burgers:
+    balanced_halves:
+      low_nu: [0.005, 0.008]
+      high_nu: [0.035, 0.045]
+    assignment: alternating_manifest_role_order_exactly_64_per_range
+  heat:
+    kappa: [0.024, 0.032]
+    decay_uses_nominal_range: [0.2, 0.5]
+delay_dropout:
+  sensor_event_missing_probability: 0.20
+  sensor_event_delay_ticks: [0, 1]
+  image_event_delay_ticks: [0, 2, 4, 8]
+  image_event_drop_probability: 0.03
+  assignment: deterministic_parent_seed_per_role_parent
+heat_step_tracking:
+  role: locked_nominal
+  parent_assignment: alternating_frozen_manifest_role_order_exactly_192_step_and_192_fixed
+  step_tick: 64
+  after_goal: second_random_reachable_steady_heat_target_with_same_kappa_decay
+calibration:
+  role: calibration
+  parents_per_pde: 64
+  teacher_snapshots_per_parent: 8
+  models_with_predictive_field_for_margin: [B1, P, B4, B5]
+  direct_policies_without_field_margin: [B0, B2, B3]
+  endpoint: parent_max_over_queries_and_grid_of_abs_predicted_vs_truth_future_field
+  quantile: 0.95
+  finite_sample_order_index_zero_based: ceil((64 + 1) * 0.95) - 1
+  order_index_value: 61
+  margin_changes_action_selection: false
+  exchangeability_scope: nominal_calibration_parents_only
+  no_ood_safety_guarantee: true
+sequence:
+  calibration_targets_after_model_freeze: true
+  lock_calibration_margin_before_locked_data_generation: true
+  locked_evaluation_once: true
+  no_test_tuning: true

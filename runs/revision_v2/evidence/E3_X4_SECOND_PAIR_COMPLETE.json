@@ -1,0 +1,26 @@
+{
+  "status": "COMPLETED_X4_SEED23_PAIR_NOT_FINAL_E3_GATE",
+  "completed_fits": 12,
+  "required_fits": 21,
+  "rows": [
+    {
+      "condition": "burgers_x4_P_s23",
+      "actual_updates": 15500,
+      "selected_update": 15500,
+      "field_nrmse": 0.1066681370139122,
+      "wall_seconds": 888.8140010000207,
+      "summary": "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_P_s23.summary.json",
+      "summary_sha256": "1107b37e9c734e3083e34ad7f1f7ec5234daafd64dfd7cb8cfbf38dcbc03f421"
+    },
+    {
+      "condition": "burgers_x4_B4_s23",
+      "actual_updates": 19500,
+      "selected_update": 19000,
+      "field_nrmse": 0.10251856595277786,
+      "wall_seconds": 1154.988783799985,
+      "summary": "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_B4_s23.summary.json",
+      "summary_sha256": "8d9bc2e502efee875e029812932accd3a175a3680e6b3e0ec9d798231011bf49"
+    }
+  ],
+  "limits": "Formal all18-operator gate waits for all21 fits and seal; no final scaling or closed-loop conclusion."
+}

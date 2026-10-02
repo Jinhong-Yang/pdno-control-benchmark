@@ -1,0 +1,11 @@
+{
+  "scope_change": false,
+  "timing_started": false,
+  "reason": "Arithmetic correction before execution: 2 PDEs x 2 methods x 3 training seeds x 5 candidate counts x 2 cache states x 3 sessions = 360 conditions, not the 180 stated in PHASE1_SPEC's explanatory note.",
+  "conditions": 360,
+  "requests_each": 5000,
+  "total_requests_excluding_warmup_and_profiling": 1800000,
+  "profiling_requests_each": 500,
+  "profiling_scope": "session 1, seed 11, both PDEs and methods, both cache states, K=10 and K=200 (16 conditions)",
+  "fixed_spec_is_preserved": true
+}

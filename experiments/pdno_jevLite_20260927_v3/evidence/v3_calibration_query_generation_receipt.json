@@ -1,0 +1,44 @@
+{
+  "heat_qmax_train_validation_only": 2.1322593092918396,
+  "parents_per_pde": 64,
+  "rows": [
+    {
+      "action_hold": "constant for horizon; first tick applied in closed loop",
+      "candidate_count": 10,
+      "future_disturbance": "zero in supervised counterfactuals",
+      "generator_version": "v3-fresh-parent-split-signed-thermal-constraint",
+      "locked_test_opened": false,
+      "parent_count": 64,
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\data\\queries_calibration_v3\\calibration\\burgers\\teacher_queries.npz",
+      "pde": "burgers",
+      "query_count": 512,
+      "runtime_seconds": 274.67684909998206,
+      "seconds_per_query": 0.5364782208984025,
+      "snapshots_per_parent": 8,
+      "split": "calibration",
+      "state_constraint": "Burgers symmetric; heat lower=0 and train/validation-frozen upper",
+      "targets_generated": true
+    },
+    {
+      "action_hold": "constant for horizon; first tick applied in closed loop",
+      "candidate_count": 10,
+      "future_disturbance": "zero in supervised counterfactuals",
+      "generator_version": "v3-fresh-parent-split-signed-thermal-constraint",
+      "locked_test_opened": false,
+      "parent_count": 64,
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\data\\queries_calibration_v3\\calibration\\heat\\teacher_queries.npz",
+      "pde": "heat",
+      "query_count": 512,
+      "runtime_seconds": 1.9086210999812465,
+      "seconds_per_query": 0.003727775585900872,
+      "snapshots_per_parent": 8,
+      "split": "calibration",
+      "state_constraint": "Burgers symmetric; heat lower=0 and train/validation-frozen upper",
+      "targets_generated": true
+    }
+  ],
+  "snapshots_per_parent": 8,
+  "status": "V3_CALIBRATION_QUERIES_GENERATED_TEST_SEALED",
+  "test_opened": false,
+  "trajectory_receipt_sha256": "62ba920f44167d6826ff3e1642502f7dec4ec4d77a67f7037632294fcf509f56"
+}

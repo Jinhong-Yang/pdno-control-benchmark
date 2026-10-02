@@ -1,0 +1,27 @@
+{
+  "status": "PASS_MATCHED_REPLAY_INDICES",
+  "conditions": 360,
+  "pde_seed_session_groups": 18,
+  "variants_per_group": 20,
+  "group_index_sha256": {
+    "burgers/37/1": "3e89b38124efbc9445ad661acac99bf5a06f92be26360d6009d7e6e8d9196179",
+    "burgers/11/1": "fa868d976c67f7eede79015d5ddacbfc804fa837202b86d5fbed873a237f68f0",
+    "burgers/23/1": "ee65befd0b465a0c5b62ff39756ddeaf793ec29db3ee7b597f00132fb4089ed1",
+    "heat/11/1": "8a159fec05e10814994c62a151742bc65bc41c7a4fd9973341a76b8682875bcc",
+    "heat/23/1": "0dc15226671ec0eebc84eb918ea96b3b2105e968ff3218b4373ca65434a78d58",
+    "heat/37/1": "f1a6dd8ff2ae3099a3e06c6ab32eb2777cf484c86403ac64d251a05b0396c6e4",
+    "heat/37/2": "2ba934095552a28262e359cf06d42b126bf51ec6773701c2b3c134487cc3172d",
+    "burgers/23/2": "14226d8eb1354ee04b6bf7b1df05f5f52c47392a30e59f28b4545e83efdb9e6b",
+    "heat/11/2": "0913aecbbd34da5064aa21c39675ac404d7985f8251d056bcd6089cf0cc18b3e",
+    "heat/23/2": "66292d6c2ba2d2df76e3fa1a784a897f92c0ab160231800af7186a217a032bea",
+    "burgers/37/2": "777e16a25ea4e60929a9894175bdf6f2a7e3dc7eb266929a7731d287cfd825ad",
+    "burgers/11/2": "09da830a11d9abbddaf08755c80e4d0b855db175813f5593f157d94b62f983ac",
+    "burgers/23/3": "6ae3cd2b77b5612ec88b15597f0270313e760239f246ea1d32cd5afb0e6a7902",
+    "heat/11/3": "9040d570494e574da7c433b1bcf95ad1fa9ceee41757df7796581d454f174313",
+    "heat/37/3": "531386064987630b3dc8cf6af7f4f1c4ab067a161f4c983a89f3597ce8108097",
+    "burgers/37/3": "63d42b41f623dd2e64394f73124a733f2dbd0c601a2921eea42b736757300ca3",
+    "burgers/11/3": "0edf039b8471498fb7b5253f924e33d0ed29040b751c10ace66d5f07830a1297",
+    "heat/23/3": "e64267ac215df019246ae8dcb185509ca547882ac31f610a0dcb12d99fc7f14d"
+  },
+  "scope": "Source role/index sequences match acrossP/B4,K,cache within each PDE/seed/session; observation values still come from method-specific trajectories."
+}

@@ -1,0 +1,189 @@
+{
+  "status": "PASS_ORIGINAL_CHECKPOINT_TIMING_SCOPE",
+  "checked_conditions": 360,
+  "distinct_checkpoint_keys": 12,
+  "original_checkpoint_sha256": {
+    "burgers/P/11": "7b222060d53a024baef3515715a5877d67ebf369748cc1ac16d4be1002457a0c",
+    "burgers/P/23": "5e4edea83527e6d459825ec1bd578d224c78a4541204db72e3c530022aac91eb",
+    "burgers/P/37": "dcc4d82ec51e115c5c36049255f4862298374916ecc26da616f3574ab18d8fbb",
+    "burgers/B4/11": "ae65b087136663f66500d58fccad3cb7e7437ea5559c62675ebf39a334f0e20b",
+    "burgers/B4/23": "c196d8bb83988455c23d19855448c9f0dab59f59b34c4d9de9c8340f9e5e77e5",
+    "burgers/B4/37": "7fb44fbefacd2f214fde3e47449f752aa7439faa62edde03372c9caf2f2fa972",
+    "heat/P/11": "335cd17c3fe439ab3d5987e117524559307f7447e41d9d3cdf2f7921630b26c4",
+    "heat/P/23": "556334358dbfbe5233045bb2bafc85f77d500712640b0cd2d21d0526feabd2e4",
+    "heat/P/37": "71d5a71cdd21cc57006e5d405b0824b0073aaff363ca17ea0eff36861b52d9a3",
+    "heat/B4/11": "93f5ce1932228c1785a8aa5aabb95d01d7a78ab6ead34c287622ccf0c74adc02",
+    "heat/B4/23": "c5b7fa56b4b2d2b13b846ea52499ffd972e9c8028c6529771f082cab2bd74dc2",
+    "heat/B4/37": "af01e898f027ba06271def0d3c1790b252e5912a43b4ead62678976b2839672d"
+  },
+  "classification": [
+    {
+      "pde": "burgers",
+      "K": 10,
+      "cache": false,
+      "point_at_most_075": false,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": false
+    },
+    {
+      "pde": "burgers",
+      "K": 10,
+      "cache": true,
+      "point_at_most_075": false,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": false
+    },
+    {
+      "pde": "burgers",
+      "K": 25,
+      "cache": false,
+      "point_at_most_075": false,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": false
+    },
+    {
+      "pde": "burgers",
+      "K": 25,
+      "cache": true,
+      "point_at_most_075": false,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": false
+    },
+    {
+      "pde": "burgers",
+      "K": 50,
+      "cache": false,
+      "point_at_most_075": false,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": false
+    },
+    {
+      "pde": "burgers",
+      "K": 50,
+      "cache": true,
+      "point_at_most_075": false,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": false
+    },
+    {
+      "pde": "burgers",
+      "K": 100,
+      "cache": false,
+      "point_at_most_075": false,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": false
+    },
+    {
+      "pde": "burgers",
+      "K": 100,
+      "cache": true,
+      "point_at_most_075": false,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": true
+    },
+    {
+      "pde": "burgers",
+      "K": 200,
+      "cache": false,
+      "point_at_most_075": false,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": false
+    },
+    {
+      "pde": "burgers",
+      "K": 200,
+      "cache": true,
+      "point_at_most_075": false,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": true
+    },
+    {
+      "pde": "heat",
+      "K": 10,
+      "cache": false,
+      "point_at_most_075": false,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": false
+    },
+    {
+      "pde": "heat",
+      "K": 10,
+      "cache": true,
+      "point_at_most_075": false,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": false
+    },
+    {
+      "pde": "heat",
+      "K": 25,
+      "cache": false,
+      "point_at_most_075": false,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": false
+    },
+    {
+      "pde": "heat",
+      "K": 25,
+      "cache": true,
+      "point_at_most_075": true,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": false
+    },
+    {
+      "pde": "heat",
+      "K": 50,
+      "cache": false,
+      "point_at_most_075": false,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": false
+    },
+    {
+      "pde": "heat",
+      "K": 50,
+      "cache": true,
+      "point_at_most_075": false,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": false
+    },
+    {
+      "pde": "heat",
+      "K": 100,
+      "cache": false,
+      "point_at_most_075": false,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": false
+    },
+    {
+      "pde": "heat",
+      "K": 100,
+      "cache": true,
+      "point_at_most_075": true,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": false
+    },
+    {
+      "pde": "heat",
+      "K": 200,
+      "cache": false,
+      "point_at_most_075": false,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": false
+    },
+    {
+      "pde": "heat",
+      "K": 200,
+      "cache": true,
+      "point_at_most_075": true,
+      "ci_upper_at_most_075": false,
+      "ci_upper_below_1": true
+    }
+  ],
+  "scope": "E2 uses original trained models and original method-specific observation replay; no E3/E5 retrained-model timing is measured. Three-seed/session pointwise intervals do not establish simultaneous or 25percent minimum speedup guarantees.",
+  "sources": {
+    "runs\\revision_v2\\results\\E2_TIMING.json": "616cf3574cc3b3a79b0104fb47b661119513c778fc6192fbb8dab36683a0298e",
+    "runs\\revision_v2\\results\\E2_ratio_bootstrap.csv": "044aec3379f660f636203404946e34648388ab3dd1ee3fa740e97d0a7c7dfc3b",
+    "runs\\revision_v2\\scripts\\run_e2_timing.py": "3446b19593aaee51c3d48ef585e45116924b12e67a8a4b6dbc5cc411adeaa8ad",
+    "runs\\revision_v2\\WORK_ORDER.md": "16aa3027064a98091a15110babadf669b80bf7abc6a48b0d7526c779b5fb670f"
+  },
+  "phase2_rule": "S4 is a point-ratio condition in work-order4.1. Report it separately from CI-supported effect size and control outcomes; final overallscenario remainspendingremainingmandatoryexperiments."
+}

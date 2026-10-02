@@ -1,0 +1,143 @@
+\begin{table}[ht]
+\centering\small
+\caption{Revision burgers, $K=10$, cache off: separately synchronized stage profiling, 500 requests per method, seed 11, session 1. Times are in ms. Instrumentation perturbs execution; marginal stage quantiles must not be summed.}\label{tab:e2_profile_burgers_10_off}
+\begin{tabular}{@{}lrrrr@{}}\toprule
+Stage & P p50 & P p99 & B4 p50 & B4 p99\\\midrule
+Request preparation & 0.6294 & 0.9146 & 0.6224 & 0.7123\\
+Host-to-device / grid & 0.3145 & 8.7457 & 0.3012 & 0.8735\\
+Encoder & 0.7758 & 8.8976 & 0.7460 & 1.8087\\
+Branch & 0.0746 & 0.3259 & 0.0854 & 0.1997\\
+Trunk & 0.0960 & 0.3665 & 0.0930 & 0.2197\\
+Field assembly / remainder & 0.9647 & 9.6021 & 0.9711 & 2.3835\\
+Scoring / goal transfer & 0.2947 & 6.1165 & 0.2843 & 0.6889\\
+Device-to-host return & 0.1015 & 0.2278 & 0.0989 & 0.1993\\
+Projection & 0.0206 & 0.0454 & 0.0202 & 0.0268\\
+Finite-value verification & 0.0091 & 0.0180 & 0.0089 & 0.0106\\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+\centering\small
+\caption{Revision burgers, $K=200$, cache off: separately synchronized stage profiling, 500 requests per method, seed 11, session 1. Times are in ms. Instrumentation perturbs execution; marginal stage quantiles must not be summed.}\label{tab:e2_profile_burgers_200_off}
+\begin{tabular}{@{}lrrrr@{}}\toprule
+Stage & P p50 & P p99 & B4 p50 & B4 p99\\\midrule
+Request preparation & 1.2847 & 1.3616 & 1.2803 & 1.3688\\
+Host-to-device / grid & 0.2990 & 0.3720 & 0.3006 & 0.8926\\
+Encoder & 0.7357 & 0.8603 & 0.7482 & 1.7652\\
+Branch & 0.0677 & 0.1174 & 0.1058 & 0.2326\\
+Trunk & 0.0910 & 0.1386 & 0.0869 & 0.2289\\
+Field assembly / remainder & 0.9159 & 1.1231 & 0.9393 & 2.3295\\
+Scoring / goal transfer & 0.2677 & 0.3551 & 0.2746 & 0.6301\\
+Device-to-host return & 0.0899 & 0.1307 & 0.0888 & 0.1958\\
+Projection & 0.0199 & 0.0255 & 0.0200 & 0.0271\\
+Finite-value verification & 0.0089 & 0.0100 & 0.0089 & 0.0144\\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+\centering\small
+\caption{Revision burgers, $K=10$, cache on: separately synchronized stage profiling, 500 requests per method, seed 11, session 1. Times are in ms. Instrumentation perturbs execution; marginal stage quantiles must not be summed.}\label{tab:e2_profile_burgers_10_on}
+\begin{tabular}{@{}lrrrr@{}}\toprule
+Stage & P p50 & P p99 & B4 p50 & B4 p99\\\midrule
+Request preparation & 0.6240 & 0.8600 & 0.6249 & 0.8684\\
+Host-to-device / grid & 0.3120 & 8.9444 & 0.3210 & 9.1984\\
+Encoder & 0.7642 & 8.8811 & 0.7748 & 7.7183\\
+Branch & 0.0915 & 0.3352 & 0.0938 & 0.4100\\
+Trunk & 0.0000 & 0.0000 & 0.0000 & 0.0000\\
+Field assembly / remainder & 0.3607 & 2.8088 & 0.4094 & 8.6935\\
+Scoring / goal transfer & 0.2851 & 1.0533 & 0.2981 & 3.9276\\
+Device-to-host return & 0.0975 & 0.3290 & 0.1012 & 0.2909\\
+Projection & 0.0203 & 0.0425 & 0.0205 & 0.0446\\
+Finite-value verification & 0.0090 & 0.0166 & 0.0090 & 0.0196\\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+\centering\small
+\caption{Revision burgers, $K=200$, cache on: separately synchronized stage profiling, 500 requests per method, seed 11, session 1. Times are in ms. Instrumentation perturbs execution; marginal stage quantiles must not be summed.}\label{tab:e2_profile_burgers_200_on}
+\begin{tabular}{@{}lrrrr@{}}\toprule
+Stage & P p50 & P p99 & B4 p50 & B4 p99\\\midrule
+Request preparation & 1.2736 & 1.3503 & 1.2873 & 1.5865\\
+Host-to-device / grid & 0.3000 & 0.8608 & 0.3277 & 9.2544\\
+Encoder & 0.7371 & 1.7738 & 0.7904 & 7.7488\\
+Branch & 0.0858 & 0.1790 & 0.1151 & 0.5543\\
+Trunk & 0.0000 & 0.0000 & 0.0000 & 0.0000\\
+Field assembly / remainder & 0.3580 & 0.7759 & 0.3977 & 3.6447\\
+Scoring / goal transfer & 0.2685 & 0.6331 & 0.3078 & 2.2965\\
+Device-to-host return & 0.0896 & 0.1935 & 0.1008 & 0.2425\\
+Projection & 0.0198 & 0.0246 & 0.0205 & 0.0417\\
+Finite-value verification & 0.0088 & 0.0154 & 0.0090 & 0.0162\\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+\centering\small
+\caption{Revision heat, $K=10$, cache off: separately synchronized stage profiling, 500 requests per method, seed 11, session 1. Times are in ms. Instrumentation perturbs execution; marginal stage quantiles must not be summed.}\label{tab:e2_profile_heat_10_off}
+\begin{tabular}{@{}lrrrr@{}}\toprule
+Stage & P p50 & P p99 & B4 p50 & B4 p99\\\midrule
+Request preparation & 0.6798 & 0.7364 & 0.6902 & 0.9815\\
+Host-to-device / grid & 0.3154 & 0.9011 & 0.3369 & 9.0918\\
+Encoder & 0.7529 & 1.8036 & 0.7918 & 9.0687\\
+Branch & 0.0725 & 0.1764 & 0.0857 & 2.4855\\
+Trunk & 0.0909 & 0.2183 & 0.0953 & 0.4082\\
+Field assembly / remainder & 2.4307 & 5.4833 & 2.5606 & 14.0304\\
+Scoring / goal transfer & 0.3412 & 0.7925 & 0.3626 & 6.4127\\
+Device-to-host return & 0.0993 & 0.1781 & 0.1018 & 0.2876\\
+Projection & 0.0183 & 0.0249 & 0.0190 & 0.0421\\
+Finite-value verification & 0.0089 & 0.0127 & 0.0093 & 0.0180\\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+\centering\small
+\caption{Revision heat, $K=200$, cache off: separately synchronized stage profiling, 500 requests per method, seed 11, session 1. Times are in ms. Instrumentation perturbs execution; marginal stage quantiles must not be summed.}\label{tab:e2_profile_heat_200_off}
+\begin{tabular}{@{}lrrrr@{}}\toprule
+Stage & P p50 & P p99 & B4 p50 & B4 p99\\\midrule
+Request preparation & 1.3476 & 1.6848 & 1.3262 & 1.3854\\
+Host-to-device / grid & 0.3346 & 8.7630 & 0.3124 & 0.9080\\
+Encoder & 0.7772 & 2.5537 & 0.7388 & 1.7448\\
+Branch & 0.0741 & 0.2393 & 0.1053 & 0.2287\\
+Trunk & 0.0949 & 0.2853 & 0.0882 & 0.2020\\
+Field assembly / remainder & 2.5220 & 13.9155 & 2.4287 & 5.4324\\
+Scoring / goal transfer & 0.3538 & 5.1072 & 0.3265 & 0.7438\\
+Device-to-host return & 0.0988 & 0.3514 & 0.0887 & 0.1758\\
+Projection & 0.0186 & 0.0345 & 0.0178 & 0.0223\\
+Finite-value verification & 0.0093 & 0.0180 & 0.0089 & 0.0102\\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+\centering\small
+\caption{Revision heat, $K=10$, cache on: separately synchronized stage profiling, 500 requests per method, seed 11, session 1. Times are in ms. Instrumentation perturbs execution; marginal stage quantiles must not be summed.}\label{tab:e2_profile_heat_10_on}
+\begin{tabular}{@{}lrrrr@{}}\toprule
+Stage & P p50 & P p99 & B4 p50 & B4 p99\\\midrule
+Request preparation & 0.6744 & 0.7372 & 0.6679 & 0.7231\\
+Host-to-device / grid & 0.3073 & 0.9406 & 0.2934 & 0.8597\\
+Encoder & 0.7511 & 1.8014 & 0.7339 & 1.6859\\
+Branch & 0.0923 & 0.2083 & 0.0817 & 0.1643\\
+Trunk & 0.0000 & 0.0000 & 0.0000 & 0.0000\\
+Field assembly / remainder & 0.3859 & 0.9147 & 0.4188 & 0.9102\\
+Scoring / goal transfer & 0.3439 & 0.8053 & 0.3310 & 0.7352\\
+Device-to-host return & 0.1007 & 0.2003 & 0.0913 & 0.1720\\
+Projection & 0.0179 & 0.0246 & 0.0176 & 0.0226\\
+Finite-value verification & 0.0088 & 0.0106 & 0.0088 & 0.0101\\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+\centering\small
+\caption{Revision heat, $K=200$, cache on: separately synchronized stage profiling, 500 requests per method, seed 11, session 1. Times are in ms. Instrumentation perturbs execution; marginal stage quantiles must not be summed.}\label{tab:e2_profile_heat_200_on}
+\begin{tabular}{@{}lrrrr@{}}\toprule
+Stage & P p50 & P p99 & B4 p50 & B4 p99\\\midrule
+Request preparation & 1.3226 & 1.4027 & 1.3297 & 1.7176\\
+Host-to-device / grid & 0.3139 & 0.4409 & 0.3322 & 8.7784\\
+Encoder & 0.7341 & 0.8566 & 0.7725 & 3.2341\\
+Branch & 0.0847 & 0.1296 & 0.1088 & 0.4387\\
+Trunk & 0.0000 & 0.0000 & 0.0000 & 0.0000\\
+Field assembly / remainder & 0.3881 & 0.4924 & 0.4275 & 4.3212\\
+Scoring / goal transfer & 0.3312 & 0.4222 & 0.3410 & 4.9640\\
+Device-to-host return & 0.0924 & 0.1541 & 0.0935 & 0.3289\\
+Projection & 0.0176 & 0.0230 & 0.0180 & 0.0317\\
+Finite-value verification & 0.0086 & 0.0100 & 0.0090 & 0.0165\\
+\bottomrule\end{tabular}
+\end{table}

@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-02T07:23:23.044022+00:00",
+  "status": "COMPLETED_FIT_NOT_FINAL_E3_GATE",
+  "completed_fits_at_observation": 20,
+  "required_fits": 21,
+  "condition": "burgers_x16_P_s37",
+  "actual_updates": 16500,
+  "selected_update": 16000,
+  "field_nrmse": 0.10753088444471359,
+  "wall_seconds": 964.1364841999603,
+  "summary": "runs/revision_v2/checkpoints/E3/burgers_x16_P_s37.summary.json",
+  "summary_sha256": "ca4606855c61bcfd10fed1667eded4151633a55a8d34fb47d334be829900203f",
+  "limits": "Last seed P only; final E3 fit B4 remains. All21-fit seal and formal gate pending."
+}

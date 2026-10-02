@@ -1,0 +1,37 @@
+{
+  "method": "B2",
+  "pde": "heat",
+  "seed": 7,
+  "best_step": 500,
+  "validation_action_mse": 0.001218514579356622,
+  "actual_updates": 500,
+  "elapsed_seconds": 1.4774522999941837,
+  "history": [
+    {
+      "step": 100,
+      "train_action_mse": 0.0027854503132402897,
+      "validation_action_mse": 0.0015081890198871406
+    },
+    {
+      "step": 200,
+      "train_action_mse": 0.00260765478014946,
+      "validation_action_mse": 0.0013133118818586809
+    },
+    {
+      "step": 300,
+      "train_action_mse": 0.002093646675348282,
+      "validation_action_mse": 0.0012492642769217355
+    },
+    {
+      "step": 400,
+      "train_action_mse": 0.0019140361109748483,
+      "validation_action_mse": 0.0012190055423317858
+    },
+    {
+      "step": 500,
+      "train_action_mse": 0.0019781463779509068,
+      "validation_action_mse": 0.001218514579356622
+    }
+  ],
+  "checkpoint": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\runs\\g2_pilot_v3\\heat\\B2_s7.pt"
+}

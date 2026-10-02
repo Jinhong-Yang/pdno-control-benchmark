@@ -1,0 +1,82 @@
+{
+  "method": "observer",
+  "pde": "heat",
+  "seed": 7,
+  "updates": 1000,
+  "best_step": 1000,
+  "best_validation_nrmse": 0.04769822955131531,
+  "elapsed_seconds": 17.329849799978547,
+  "history": [
+    {
+      "step": 100,
+      "validation_nrmse": 0.15453222393989563,
+      "train_normalized_loss": 0.0058573028072714806,
+      "train_initial_field_loss": 0.0028369438368827105,
+      "train_sensor_consistency_loss": 0.0030203587375581264
+    },
+    {
+      "step": 200,
+      "validation_nrmse": 0.09112609177827835,
+      "train_normalized_loss": 0.0033102890010923147,
+      "train_initial_field_loss": 0.0012989072129130363,
+      "train_sensor_consistency_loss": 0.0020113817881792784
+    },
+    {
+      "step": 300,
+      "validation_nrmse": 0.07498416304588318,
+      "train_normalized_loss": 0.0023399079218506813,
+      "train_initial_field_loss": 0.0007534300675615668,
+      "train_sensor_consistency_loss": 0.0015864777378737926
+    },
+    {
+      "step": 400,
+      "validation_nrmse": 0.06380593776702881,
+      "train_normalized_loss": 0.0018674975726753473,
+      "train_initial_field_loss": 0.0004142180841881782,
+      "train_sensor_consistency_loss": 0.0014532795175909996
+    },
+    {
+      "step": 500,
+      "validation_nrmse": 0.05572934076189995,
+      "train_normalized_loss": 0.0015777486842125654,
+      "train_initial_field_loss": 0.00032986613223329186,
+      "train_sensor_consistency_loss": 0.0012478824937716126
+    },
+    {
+      "step": 600,
+      "validation_nrmse": 0.050493352115154266,
+      "train_normalized_loss": 0.0015614285366609693,
+      "train_initial_field_loss": 0.0003155058075208217,
+      "train_sensor_consistency_loss": 0.001245922758243978
+    },
+    {
+      "step": 700,
+      "validation_nrmse": 0.04901328682899475,
+      "train_normalized_loss": 0.0013714574743062258,
+      "train_initial_field_loss": 0.00027307093841955066,
+      "train_sensor_consistency_loss": 0.001098386594094336
+    },
+    {
+      "step": 800,
+      "validation_nrmse": 0.04809488356113434,
+      "train_normalized_loss": 0.0017536793602630496,
+      "train_initial_field_loss": 0.0004272323858458549,
+      "train_sensor_consistency_loss": 0.0013264470035210252
+    },
+    {
+      "step": 900,
+      "validation_nrmse": 0.04775981605052948,
+      "train_normalized_loss": 0.0014373864978551865,
+      "train_initial_field_loss": 0.0002930932096205652,
+      "train_sensor_consistency_loss": 0.0011442932300269604
+    },
+    {
+      "step": 1000,
+      "validation_nrmse": 0.04769822955131531,
+      "train_normalized_loss": 0.0014102293644100428,
+      "train_initial_field_loss": 0.00023638563288841397,
+      "train_sensor_consistency_loss": 0.001173843746073544
+    }
+  ],
+  "checkpoint": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\revision_v2\\checkpoints\\E5\\observer\\heat_seed7.pt"
+}

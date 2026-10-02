@@ -1,0 +1,16 @@
+{
+  "stage": "E5",
+  "pde": "heat",
+  "method": "P-no-rank",
+  "seed": 11,
+  "label": "P-no-rank_s11",
+  "role": "locked_nominal",
+  "parents": 384,
+  "sha256": "c8766d255ed170495296ec5754b8485a14be40f3cf357ae975eb9e17ac824817",
+  "input_sha256": "7efc65cc3dcfbaf0516a99b482482233fad6bc9d1555f1810584184e9fb8c08d",
+  "checkpoint_sha256": "c9da22166f447a9971dec43a06ef324f66264468d8d6daa82965ead0aef45c13",
+  "elapsed_s": 1530.4032079000026,
+  "post_hoc_original_parents": false,
+  "latency_measurement": false,
+  "mean_cost": 9.270604154226719
+}

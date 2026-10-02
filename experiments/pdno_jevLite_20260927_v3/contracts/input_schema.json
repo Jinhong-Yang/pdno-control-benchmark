@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.1-draft",
+  "decision_time": {"type": "int64_tick", "units": "simulation_tick"},
+  "sensor_value": {"shape": ["B", 8, 16], "dtype": "float32", "unit": "normalized_by_train_only_scalar_mean_std"},
+  "sensor_mask": {"shape": ["B", 8, 16], "dtype": "bool"},
+  "sensor_capture_time": {"shape": ["B", 8, 16], "dtype": "int64_tick"},
+  "sensor_receive_time": {"shape": ["B", 8, 16], "dtype": "int64_tick"},
+  "instrument_image": {"shape": ["B", 1, 16, 64], "dtype": "float32", "units": "train_fixed_synthetic_sensor_mapping"},
+  "image_mask": {"shape": ["B", 1, 16, 64], "dtype": "bool"},
+  "image_capture_time": {"shape": ["B"], "dtype": "int64_tick"},
+  "image_receive_time": {"shape": ["B"], "dtype": "int64_tick"},
+  "applied_action_history": {"shape": ["B", 8, 2], "dtype": "float32", "source": "actual_simulator_applied_actions"},
+  "goal_coefficients": {"shape": ["B", "Q"], "dtype": "float32"},
+  "material_context": {"shape": ["B", 8], "dtype": "featurewise_train_only_standardization"},
+  "previous_applied_action": {"shape": ["B", 2], "dtype": "float32"},
+  "causality_rule": "capture_time <= decision_time AND receive_time <= decision_time",
+  "normalizer_fit_split": "train_parents_only",
+  "normalizer_storage": "shared_observer_checkpoint_buffers_loaded_by_all_learned_methods"
+}

@@ -1,0 +1,28 @@
+{
+  "protocol": "v3 forced deployed-grid 200 tick audit; thresholds frozen in v3_preregistration.yaml before run",
+  "test_opened": false,
+  "burgers": {
+    "grid": 256,
+    "outer_ticks": 200,
+    "outer_dt": 0.02,
+    "nu": 0.02,
+    "relative_l2_dt_0.00025_vs_0.000125": 8.472578674639081e-09,
+    "mean_error_vs_initial_plus_integrated_mean_source": 4.461708780212348e-15,
+    "threshold_relative_l2": 0.01,
+    "threshold_mean_error": 1e-10,
+    "finite": true
+  },
+  "heat": {
+    "grid": 256,
+    "outer_ticks": 200,
+    "outer_dt": 0.02,
+    "kappa": 0.01,
+    "decay": 0.3,
+    "relative_l2_dt_0.02_vs_0.01": 1.379054638218142e-06,
+    "max_abs_no_source_minus_forced": 0.5826736030828423,
+    "positive_forcing_increases_mean": true,
+    "threshold_relative_l2": 0.05,
+    "finite": true
+  },
+  "passed": true
+}

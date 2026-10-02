@@ -1,0 +1,42 @@
+{
+  "aggregation": "mean learned seeds within each parent, then aggregate independent parents",
+  "all_passed": true,
+  "checkpoint_selection_sha256": "345692754532c27798ec2d6be23ba01737ece221a6df0fe37d0f6fb8a6d24a52",
+  "checks": {
+    "checkpoint_hashes": true,
+    "checkpoint_selection_coverage": true,
+    "eligible_methods": true,
+    "independent_parent_claim": true,
+    "locked_test_unopened": true,
+    "parent_method_seed_coverage": true,
+    "parent_then_seed_aggregation": true,
+    "pde_coverage": true,
+    "proposed_methods_excluded": true,
+    "runner_enforces_no_fallback_and_causal_violation": true,
+    "selection_rule_recomputed": true,
+    "selection_scores_recomputed": true,
+    "status_validation_only": true,
+    "validation_data_hashes": true
+  },
+  "fallback_and_causal_violations": "runner raises before reporting if any episode has either; H3 completed successfully",
+  "independent_parent_count_per_pde": 64,
+  "learned_checkpoint_hashes_verified": 24,
+  "method_scores": {
+    "B0": 1.0,
+    "B1": 1.2018290518001318,
+    "B2": 1.2654458718991872,
+    "B3": 1.26714840744397,
+    "B4": 1.2066298206154262,
+    "B5": 1.207666857047747
+  },
+  "runner_source_sha256": "9599c312662e2da5a99773da656fcad1b521dea68231dc0f4a350e4c3cfe5142",
+  "selected_comparator": "B0",
+  "status": "H3_VALIDATION_COMPARATOR_AUDIT_PASSED",
+  "test_opened": false,
+  "validation_data_sha256": {
+    "burgers": "eea488d03ec62b3f3951cd58d4458c46d784d40e123090960ab2ac560121cc14",
+    "heat": "8b8f5aebef30208d8b1ea3186e8125bdd2d26bd8cd94d7f3193be4f0db4f5000"
+  },
+  "validation_parents_are_independent_units": true,
+  "validation_report_sha256": "850ab0b28c63cd4d3f6571adc80826137ef4fc29695ac1714db7a9c830789210"
+}

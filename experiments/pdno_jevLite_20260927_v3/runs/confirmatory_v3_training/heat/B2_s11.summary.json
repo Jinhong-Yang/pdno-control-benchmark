@@ -1,0 +1,42 @@
+{
+  "method": "B2",
+  "pde": "heat",
+  "seed": 11,
+  "best_step": 2500,
+  "validation_action_mse": 0.0009708134203867402,
+  "actual_updates": 3000,
+  "elapsed_seconds": 7.966637300007278,
+  "history": [
+    {
+      "step": 500,
+      "train_action_mse": 0.0015994175337255,
+      "validation_action_mse": 0.0010863823760889346
+    },
+    {
+      "step": 1000,
+      "train_action_mse": 0.0013550741132348776,
+      "validation_action_mse": 0.0010177271745268612
+    },
+    {
+      "step": 1500,
+      "train_action_mse": 0.001532694441266358,
+      "validation_action_mse": 0.0009956115067550897
+    },
+    {
+      "step": 2000,
+      "train_action_mse": 0.0013012102572247386,
+      "validation_action_mse": 0.0010183260185154808
+    },
+    {
+      "step": 2500,
+      "train_action_mse": 0.001125682145357132,
+      "validation_action_mse": 0.0009708134203867402
+    },
+    {
+      "step": 3000,
+      "train_action_mse": 0.0007977418135851622,
+      "validation_action_mse": 0.0009722001686256476
+    }
+  ],
+  "checkpoint": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\runs\\confirmatory_v3_training\\heat\\B2_s11.pt"
+}

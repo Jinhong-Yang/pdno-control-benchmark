@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-01T23:47:53.754406+00:00",
+  "authorization": "User explicitly requested execution of attached revision work order on 2026-10-02",
+  "original_root": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3",
+  "revision_root": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\revision_v2",
+  "publication_root": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\publications\\ieee_access_pdno_revision_v2_20261002",
+  "work_order_sha256": "16aa3027064a98091a15110babadf669b80bf7abc6a48b0d7526c779b5fb670f",
+  "new_experiments_are_post_hoc": true,
+  "original_evaluation_immutable": true,
+  "gpu_concurrency": 1,
+  "other_project_gpu_processes": [
+    3112,
+    32088
+  ],
+  "initial_work": "CPU Phase 0 diagnostics and read-only provenance; no concurrent GPU work",
+  "resource_accounting": "Record actual task wall/CPU/GPU use separately. Original terminal campaign budget is not reset."
+}

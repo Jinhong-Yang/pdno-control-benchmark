@@ -1,0 +1,97 @@
+{
+  "protocol": "PDNO_JevLite_RTX5080_72H_frozen_spec_v2",
+  "status": "FROZEN_FAIL_INCLUSIVE_PRETRAINING_SPEC",
+  "domain": "synthetic manufacturing distributed-parameter PDE low-latency control",
+  "decision_context": {
+    "g2_pilot_status": "G2_FAIL_AFTER_REVISION1",
+    "g2_field_nrmse_threshold": 0.05,
+    "observed_selected_p_field_nrmse": {"burgers": 0.12985, "heat": 0.08203},
+    "disposition": "retain negative G2 result; no threshold relaxation; any later confirmatory evaluation is descriptive and cannot be presented as G2 success"
+  },
+  "split_contract": {
+    "independent_unit": "parent trajectory episode",
+    "train_validation_shared_parent": false,
+    "calibration_parent_count_per_pde": 64,
+    "locked_parent_counts_per_pde": {
+      "locked_nominal": 384,
+      "locked_coefficient_ood": 128,
+      "locked_delay_dropout": 128
+    },
+    "locked_parent_total": 1280,
+    "locked_model_parent_runs": 25600,
+    "v1_locked_parent_reuse": false
+  },
+  "mandatory_controllers": {
+    "classical": ["B0", "B1"],
+    "learned_families": ["P", "P-no-rank", "B4", "B5", "B2", "B3"],
+    "seeds": [11, 23, 37],
+    "B4_shared_encoder": true,
+    "B4_candidate_batching": true,
+    "B3_direct_policy_surrogate_gradient": true,
+    "total_variants_per_pde": 20,
+    "training_execution": "one CUDA training process at a time"
+  },
+  "model_selection": {
+    "checkpoint_candidates": "every 500 updates",
+    "parent_count_per_pde": 8,
+    "parents": "lexicographically first validation parent IDs",
+    "finite_actions_required": true,
+    "zero_fallback_required": true,
+    "zero_causal_timestamp_violation_required": true,
+    "zero_truth_constraint_violation_required": true,
+    "primary": "minimum mean episode control cost among eligible candidates",
+    "latency_tie_band": 0.05,
+    "tie_break": "minimum p95 controller latency, then earliest update",
+    "no_eligible_candidate": "retain diagnostic checkpoint with explicit NO_GO selection status"
+  },
+  "H3_comparator": {
+    "eligible": ["B0", "B1", "B2", "B3", "B4", "B5"],
+    "excluded": ["P", "P-no-rank"],
+    "validation_parents_per_pde": 64,
+    "seed_handling": "average learned seeds within parent",
+    "criterion": "minimum equal-PDE mean episode-cost ratio to B0; B0 exact-tie preference"
+  },
+  "calibration": {
+    "new_parent_count_per_pde": 64,
+    "endpoint": "per-parent maximum absolute future-field error across fixed queries/grid",
+    "margin": "empirical 95th percentile by PDE and model",
+    "calibration_retrains_model_or_score": false,
+    "locked_test_opened_once": true
+  },
+  "locked_test": {
+    "episode_ticks": 200,
+    "query_tick": 100,
+    "parent_pairing_across_all_methods_and_seeds": true,
+    "all_controller_variants": 20,
+    "total_parent_method_seed_episodes": 25600,
+    "primary_metrics": ["episode_control_cost", "tracking_rmse", "truth_constraint_violation", "fallback_rate", "field_nrmse", "candidate_regret"],
+    "paired_parent_bootstrap_replicates": 10000,
+    "report_per_seed": true,
+    "test_tuning": false
+  },
+  "runtime_budget": {
+    "locked_budget_hours": 20,
+    "measured_point_estimate_hours": 12.84,
+    "planning_estimate_with_25pct_margin_hours": 16.05,
+    "runtime_evidence": "evidence/v2_evaluation_budget_reconciliation.json",
+    "estimate_limit": "single validation parent per PDE and method; not a robust guarantee"
+  },
+  "latency": {
+    "runs_after_complete_locked_test": true,
+    "request_batch": 1,
+    "sessions": 3,
+    "requests_per_session": 20000,
+    "hard_deadline_ms": 5,
+    "target_p99_ms": 2,
+    "include_host_prepare_transfer_inference_projection_return": true,
+    "truth_solver_included": false,
+    "cpu_and_cuda_reported_separately": true
+  },
+  "research_claims": {
+    "conditional_harm": "not estimable without an acceptance gate and completed locked test",
+    "residual_space_coverage_is_not_actual_solution_error_guarantee": true,
+    "positive_G2_claim_prohibited": true,
+    "author_metadata": "AUTHOR_INPUT_REQUIRED"
+  },
+  "sealed_state_at_freeze": {"calibration_generated": false, "locked_test_generated": false, "locked_test_opened": false}
+}

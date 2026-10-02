@@ -1,12 +1,22 @@
 [
   {
     "id": "fig01_design",
-    "description": "TikZ: causal loop, aligned P/B4 computation and distinct evidence roles",
+    "description": "TikZ: causal loop, aligned P/B4, oracle and cache paths; distinct original/revision evidence",
     "sources": [
       "final_spec_v3.json",
       "figures/fig01_design.tex"
     ],
-    "pdf_sha256": "6bc2180f3f66c87476e68d974f8599ccb12e653c90bf9cbd6c78c53ffb18eb49",
+    "input_sha256": [
+      {
+        "path": "data\\final_spec_v3.json",
+        "sha256": "afc57e2be4d9af716c7c43ba53c3a51ccaac0a1843c8bc9363ad00b2362a8902"
+      },
+      {
+        "path": "figures\\fig01_design.tex",
+        "sha256": "468d72254a0265b9e54aa65c2e2ae5c3d47663f9a7ed4165689b1d46b98de615"
+      }
+    ],
+    "pdf_sha256": "8f48af15ce737f4fcb3ce49ab8be393ded4fa1d6f2c15c85a08bc134cfaf49b9",
     "vector": true
   },
   {
@@ -15,16 +25,28 @@
     "sources": [
       "selected_checkpoints.csv"
     ],
-    "pdf_sha256": "62084d6e2ca92ff547229358bdb8d1d33747ffe53f9294b08d0e5819b9fbbadb",
+    "input_sha256": [
+      {
+        "path": "data\\selected_checkpoints.csv",
+        "sha256": "b4b73cc78f14c9857df1d12ec6fe9ba158b001694f2f80652fe98b3fc5aa65ae"
+      }
+    ],
+    "pdf_sha256": "b90206e9c8f386e80631ba9446a1f95373b8b34a3675ac5d46e987db1ee1f865",
     "vector": true
   },
   {
     "id": "fig03_control",
-    "description": "All eight controllers; registered paired-parent 95% intervals; dashed 5% margin",
+    "description": "All eight controllers; primary paired-parent 95% intervals; dashed 5% margin",
     "sources": [
       "control_all_methods.csv"
     ],
-    "pdf_sha256": "9d410ecb4011b9ccc0a558cbe261eb3b6905ed732aa3d08f1820c89e73d93329",
+    "input_sha256": [
+      {
+        "path": "data\\control_all_methods.csv",
+        "sha256": "a95f79272504bbdd50f5d75ee6aacde27d14db27c89f3449a2364bfb337a571a"
+      }
+    ],
+    "pdf_sha256": "9a41c9bcfbb7537ea208c0a7f77b502b4a96be826da5622638fa10ab16af0742",
     "vector": true
   },
   {
@@ -33,7 +55,13 @@
     "sources": [
       "latency_pooled_descriptive.csv"
     ],
-    "pdf_sha256": "ef98320ebd8c4ef88b14519809aaf709045024889e421e891fa0dba05756ac4e",
+    "input_sha256": [
+      {
+        "path": "data\\latency_pooled_descriptive.csv",
+        "sha256": "f4b6cef4f93550ec44faf220b2ff34239c15317bb8bb1f24df1c2e8e6f594ee9"
+      }
+    ],
+    "pdf_sha256": "1d2486ff6a550c8f768f61873d6f16acbc87c9ca85e27a7f6b421ee6710f6547",
     "vector": true
   },
   {
@@ -42,7 +70,13 @@
     "sources": [
       "h1_results.json"
     ],
-    "pdf_sha256": "249b15ddb98630dac5bd78ae68d60ef64455ed32045505c41d1a3e270a1abab1",
+    "input_sha256": [
+      {
+        "path": "data\\h1_results.json",
+        "sha256": "72444aaa5175ec0e389aeacd587fee987e165ad2cd417c9fdc129d4ef3d1fda4"
+      }
+    ],
+    "pdf_sha256": "108f912821919590596e3fa2e072e4d2677996992e5dc5a0118e65c720c85120",
     "vector": true
   },
   {
@@ -51,7 +85,13 @@
     "sources": [
       "heat_constraint_diagnostic.csv"
     ],
-    "pdf_sha256": "293b7bfa47d84ad2bb6cbeaa9ab63a8909ad276f3a06447a4868c14d8429a583",
+    "input_sha256": [
+      {
+        "path": "data\\heat_constraint_diagnostic.csv",
+        "sha256": "b0e83a4c25577d0fda5a5b6e34ad1b360160e4e8609d5100922d5db659341912"
+      }
+    ],
+    "pdf_sha256": "54f24057a4a597b30d398be61ec509dc7ee460510b6403f4a4358ea5d31f5bb4",
     "vector": true
   },
   {
@@ -60,7 +100,168 @@
     "sources": [
       "training_history.csv"
     ],
-    "pdf_sha256": "980d345ee69af0af3524c8d85f80be677158201fa918e1e53614e7448906d50d",
+    "input_sha256": [
+      {
+        "path": "data\\training_history.csv",
+        "sha256": "999115b45060de48016ecc60751ae1612bd05249ebd7b10ab6ab193637be13ee"
+      }
+    ],
+    "pdf_sha256": "f74fc2d53af8e97a2fbf612104ca27b97ad7043799fda90e1dba9784d8d7b056",
+    "vector": true
+  },
+  {
+    "id": "figR01_oracles",
+    "description": "Original parents only: privileged-state and observed-state oracle comparisons. Primary fixed-denominator paired-parent95% intervals; learned-controller seeds averaged within parent. Shared horizontal scales within each PDE; no new-heat oracle implied.",
+    "sources": [
+      "revision/REVISION_COST_SUMMARY.csv",
+      "control_all_methods.csv"
+    ],
+    "input_sha256": [
+      {
+        "path": "data\\revision\\REVISION_COST_SUMMARY.csv",
+        "sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+      },
+      {
+        "path": "data\\control_all_methods.csv",
+        "sha256": "a95f79272504bbdd50f5d75ee6aacde27d14db27c89f3449a2364bfb337a571a"
+      }
+    ],
+    "output_sha256": {
+      "pdf": "10b123e1a47105dc0d8bca34495c5752926e37d6f24d27f446f984d773e4497a",
+      "svg": "920c433e9042eb7f063f009eac78bd0db25dc4afdb7356274a513085757b7c72",
+      "png": "858028fe3e65ec2e665157c47e11b8eca8a1e925fc9f7937bcc6ae827f9d1cbf"
+    },
+    "pdf_sha256": "10b123e1a47105dc0d8bca34495c5752926e37d6f24d27f446f984d773e4497a",
+    "vector": true
+  },
+  {
+    "id": "figR05_main_control",
+    "description": "Main control comparison: original Burgers parents including two oracles; separately generated positive-initial-field heat parents and retrained learned controllers. Fixed-denominator paired-parent95% intervals. Symlog axis is linear between-5% and5%, logarithmic outside; common horizontal scales within each row. No original-heat oracle is compared with new-heat models.",
+    "sources": [
+      "revision/REVISION_COST_SUMMARY.csv",
+      "control_all_methods.csv"
+    ],
+    "input_sha256": [
+      {
+        "path": "data\\revision\\REVISION_COST_SUMMARY.csv",
+        "sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+      },
+      {
+        "path": "data\\control_all_methods.csv",
+        "sha256": "a95f79272504bbdd50f5d75ee6aacde27d14db27c89f3449a2364bfb337a571a"
+      }
+    ],
+    "output_sha256": {
+      "pdf": "cd3e46872f6978b3e926b72439c65ef9c141a2900914b90f93e9f9d2643ee683",
+      "svg": "c5427ee7bb27ce6527573bc641164093fe20eb9234c0d4f483e76e4349a35acc",
+      "png": "36a21500333d78a26a2d25804def7f045c8c910579cddb1dac83aa1f8ab2468d"
+    },
+    "pdf_sha256": "cd3e46872f6978b3e926b72439c65ef9c141a2900914b90f93e9f9d2643ee683",
+    "vector": true
+  },
+  {
+    "id": "figR02_new_heat_constraints",
+    "description": "New nonnegative-initial-field heat population only. Descriptive parent-and-seed means; duration, maximum and integrated excess accompany binary frequency. Zero observations do not establish a risk guarantee or discriminatory endpoint.",
+    "sources": [
+      "revision/REVISION_COST_SUMMARY.csv"
+    ],
+    "input_sha256": [
+      {
+        "path": "data\\revision\\REVISION_COST_SUMMARY.csv",
+        "sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+      }
+    ],
+    "output_sha256": {
+      "pdf": "6a431218fd781d08356745b4a55d92ee18e92873dc5fc845d136439616392bc5",
+      "svg": "25869ac66f44aa055593da9089c799ae2fd0c79a36e72a97dbcdb43570165234",
+      "png": "5d2a7004bdd22381b9d4c5d4de06f6b95199b24d6a55ea47e4df6d5b97f52e4c"
+    },
+    "pdf_sha256": "6a431218fd781d08356745b4a55d92ee18e92873dc5fc845d136439616392bc5",
+    "vector": true
+  },
+  {
+    "id": "figR03_K_ratio",
+    "description": "Complete20-cell K/cache sweep, mean seed-specific p99 ratio and pointwise95% matched seed/session intervals. Slight horizontal offsets distinguish cache conditions; reference lines1 and0.75. No simultaneous coverage.",
+    "sources": [
+      "revision/E2_ratio_bootstrap.csv"
+    ],
+    "input_sha256": [
+      {
+        "path": "data\\revision\\E2_ratio_bootstrap.csv",
+        "sha256": "044aec3379f660f636203404946e34648388ab3dd1ee3fa740e97d0a7c7dfc3b"
+      }
+    ],
+    "output_sha256": {
+      "pdf": "2393be863aeb8b7c7727de0a61eca8f9ba52c333ab917c5647385b8d8dd64230",
+      "svg": "3c4515a380db765b3652c54ac4c1f07b60078659d98f8c98b93bd95106233a1a",
+      "png": "4ef789cfc711d284a21f64101e7e9ee3bad010ed762e9fb16d209202393ac490"
+    },
+    "pdf_sha256": "2393be863aeb8b7c7727de0a61eca8f9ba52c333ab917c5647385b8d8dd64230",
+    "vector": true
+  },
+  {
+    "id": "figR04_K_p99",
+    "description": "Descriptive pooled request p99,45,000 requests per point, shared scales. These pooled percentiles are not the seed-specific ratio statistic.",
+    "sources": [
+      "revision/E2_pooled.csv"
+    ],
+    "input_sha256": [
+      {
+        "path": "data\\revision\\E2_pooled.csv",
+        "sha256": "3e57cf886f5cfadd7a01805c7749c687446c20fda7dd2ffd89920583782de907"
+      }
+    ],
+    "output_sha256": {
+      "pdf": "c5c3d1fd6f9a16f474bd1e4595929bdd479042c8204a4e520e2c87f8791939db",
+      "svg": "d4496c32c5ee8e23b12d31c1ffe3fecb716cd3c0115c791e16cdd5004f198905",
+      "png": "7f8e603489c4012b8146aa3dc6744581e087e676c523acd6bc67b7e73d18b2b6"
+    },
+    "pdf_sha256": "c5c3d1fd6f9a16f474bd1e4595929bdd479042c8204a4e520e2c87f8791939db",
+    "vector": true
+  },
+  {
+    "id": "figRS02_latency_distributions",
+    "description": "All observed timing values retained in shared log-spaced bins. Original campaign P/B4/B2 is separated from revisionK10 P/B4 cache conditions. Density is per log10 latency, not per linear millisecond.",
+    "sources": [
+      "revision/E2_latency_histograms.csv"
+    ],
+    "input_sha256": [
+      {
+        "path": "data\\revision\\E2_latency_histograms.csv",
+        "sha256": "8aec3835066961335edc970fbcd6411b52426796f1be938d932b187ee31b9765"
+      }
+    ],
+    "output_sha256": {
+      "pdf": "563242fbf0cd696da59a6826a4374053e03c96dc3d84026578e125925ca21dfe",
+      "svg": "ddfef330f9a33c13c3baac00a70b986270bf546cee1eed97801f4fd20c6a91bd",
+      "png": "2ca1af88bd71f3dd4c112f3123aacf4b12c2108c128deb21bb85a786cfb5846b"
+    },
+    "pdf_sha256": "563242fbf0cd696da59a6826a4374053e03c96dc3d84026578e125925ca21dfe",
+    "vector": true
+  },
+  {
+    "id": "figRS03_scaling_curves",
+    "description": "E3 Burgers recorded validation curves. Same512parents with nested temporal target density; one refitted observer per factor shared across methods/seeds. Lines stop at actual termination; points mark composite-validation-selected updates, not minimum field-error reselection. Dashed horizontal gate0.05.",
+    "sources": [
+      "revision/REVISION_TRAINING_CURVES.csv",
+      "revision/REVISION_TRAINING_SELECTION.csv"
+    ],
+    "input_sha256": [
+      {
+        "path": "data\\revision\\REVISION_TRAINING_CURVES.csv",
+        "sha256": "909aac5bf11b1e4a8cc1f1dac0da6a90ff3c56bbd1eaf169e238ec3af83abf34"
+      },
+      {
+        "path": "data\\revision\\REVISION_TRAINING_SELECTION.csv",
+        "sha256": "7510cf96d86f80ecc0698aaeb49e8f964d4cc683b2925758513ea26f26fdffe9"
+      }
+    ],
+    "output_sha256": {
+      "pdf": "20fab6757278f7b515d65195e4538587b37b5f4193adb35872bb5834ef0ce463",
+      "svg": "a9e6ed34105c14eaab955a426b74822d667e76da7d8afb7a0d23552005493a41",
+      "png": "5c972e50bfdf2b7e43929e742fb714a029ca63c7b106dc1dfa200503c4fd80e7"
+    },
+    "pdf_sha256": "20fab6757278f7b515d65195e4538587b37b5f4193adb35872bb5834ef0ce463",
     "vector": true
   }
 ]

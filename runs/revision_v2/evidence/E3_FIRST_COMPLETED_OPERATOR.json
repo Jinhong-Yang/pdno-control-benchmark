@@ -1,0 +1,12 @@
+{
+  "status": "OBSERVED_COMPLETED_FIT_NOT_E3_FINAL_GATE",
+  "observed_utc": "2026-10-02T03:04:22.924505+00:00",
+  "summary_sha256": "49add17f292ec7a0af0d83e16d941e5351961a0d17c1f7e12b7e3addf5fb1944",
+  "condition": "burgers_x1_P_s11",
+  "actual_updates": 12000,
+  "update_cap": 20000,
+  "selected_update": 11500,
+  "selected_validation_field_nrmse": 0.09816283732652664,
+  "process_wall_seconds": 665.9344525000197,
+  "scope": "Existing early-stopping and composite validation selection unchanged. One fit does not determine full E3 or Phase2 conclusion; test follow-up only after all21checkpoints are sealed."
+}

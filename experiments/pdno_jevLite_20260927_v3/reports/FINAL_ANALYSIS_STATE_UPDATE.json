@@ -1,0 +1,45 @@
+{
+  "at_kst": "2026-09-28T04:28:22+09:00",
+  "administrative_only": true,
+  "historical_text_preserved": true,
+  "state_backup_directory": "reports\\administrative_update_before",
+  "files": [
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\state\\STATE.md",
+      "before_sha256": "49e182e5ad08144842e2bec5457647401b163dd5b45af2b312e0134a0d5306a2",
+      "after_sha256": "7c368bb9044cb5154d91d5ab3af2526aa29f523650a17047661c5a1999b549b9"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\state\\HANDOFF.md",
+      "before_sha256": "079a4faa45e61c0d278f7e2504cdbb905096c2c3ab1e9cc6be38ddcd8a4bc13e",
+      "after_sha256": "467bafbb1f2420b178b884244b5c535a467abda16a0db7f15638f834923e7a98"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\state\\RUN_LEDGER.md",
+      "before_sha256": "134bb5d227c7d6964efc6ed8ac0aa28fd7769718f0049d4e513a88e48c43d051",
+      "after_sha256": "46fe8e6d19f33abd0fdd085f6ca0a8e0784a598d36ec31d4cbf60dc31c09ae89"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\state\\RUN_STATE.json",
+      "before_sha256": "30bba95c4a907ac9aa58e40ef9196a88bb0194c5b48ef43b7de46ebadb37841d",
+      "after_sha256": "43fe643aec41eb6c50dce437d6505bee7d518aaef9a10859a409f5a974753524"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\state\\STATE.md",
+      "before_sha256": "7145eb3c246d1c78154bc6ca4b2934c52a88c557b281c49fe600540d79389bc1",
+      "after_sha256": "ca0201faf0d07b385abc3451cf67af438b28f42e8797a47b711a971e30ce1721"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\state\\HANDOFF.md",
+      "before_sha256": "2c9302430123486b9c1e993433e7309495e7569f65ac8b48f471c180f1c8a813",
+      "after_sha256": "3871424719791fb14153bb55ed1ef0d5618eace9010ed3c280019e93aeaa7421"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\state\\RUN_LEDGER.md",
+      "before_sha256": null,
+      "after_sha256": "2d2c3c89de224e96f5bf8076d87374734ca89cd480657aa7739991486de5de44"
+    }
+  ],
+  "frozen_evidence_modified": false,
+  "note": "STATE/HANDOFF/RUN_LEDGER/RUN_STATE are administrative. Manifest hashes themselves are preserved; changes are not hidden by regenerating the raw freeze."
+}

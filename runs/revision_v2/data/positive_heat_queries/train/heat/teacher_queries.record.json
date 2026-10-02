@@ -1,0 +1,17 @@
+{
+  "pde": "heat",
+  "split": "train",
+  "parent_count": 256,
+  "query_count": 1024,
+  "snapshots_per_parent": 4,
+  "runtime_seconds": 4.1939756000065245,
+  "seconds_per_query": 0.0040956792968813716,
+  "generator_version": "v3-fresh-parent-split-signed-thermal-constraint",
+  "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\revision_v2\\data\\positive_heat_queries\\train\\heat\\teacher_queries.npz",
+  "action_hold": "constant for horizon; first tick applied in closed loop",
+  "future_disturbance": "zero in supervised counterfactuals",
+  "candidate_count": 10,
+  "state_constraint": "Burgers symmetric; heat lower=0 and train/validation-frozen upper",
+  "targets_generated": true,
+  "locked_test_opened": false
+}

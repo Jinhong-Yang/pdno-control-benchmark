@@ -1,0 +1,16 @@
+{
+  "stage": "E5",
+  "pde": "heat",
+  "method": "B0",
+  "seed": null,
+  "label": "B0_sna",
+  "role": "locked_coefficient_ood",
+  "parents": 128,
+  "sha256": "0e8705313e7fb56bcdd82bd1360def58b1e7046a488c636c7c10d6c9ed064cc3",
+  "input_sha256": "777a4216071c74bfcf0e89b4c11a4ac2d18d9c0434a5750c2c15b38468384f15",
+  "checkpoint_sha256": null,
+  "elapsed_s": 111.88583059998928,
+  "post_hoc_original_parents": false,
+  "latency_measurement": false,
+  "mean_cost": 2.8719022776790117
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0-draft",
+  "split_unit": "parent_episode",
+  "required_parent_fields": ["parent_id", "pde_config", "initial_condition_seed", "physical_parameter_seed", "disturbance_seed", "split", "generation_commit", "source_hash"],
+  "trajectory_fields": ["grid", "dt", "state_true", "action_proposed", "action_projected", "action_applied", "goal", "disturbances", "sensor_capture_time", "sensor_receive_time", "image_capture_time", "image_receive_time", "masks"],
+  "query_fields": ["parent_id", "decision_tick", "observation_window_ref", "candidate_action", "future_field", "teacher_cost", "teacher_peak", "action_hold_convention"],
+  "test_access": "metadata_only_until_frozen_spec_and_calibration_lock"
+}

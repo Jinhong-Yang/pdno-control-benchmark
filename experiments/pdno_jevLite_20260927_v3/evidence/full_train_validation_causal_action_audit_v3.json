@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "errors": [],
+  "shards": [
+    {
+      "path": "data\\train_validation_v3\\train\\burgers\\trajectories.npz",
+      "passed": true,
+      "errors": [],
+      "parent_count": 512,
+      "time_points": 129,
+      "parent_id_count": 512,
+      "parent_id_sha256": "3c3e6bc48566d6b981d0b99763a32669f2252f6781217fad714c792f4c007294",
+      "action_count": 128,
+      "finite_truth": true,
+      "all_applied_equal_projected": true
+    },
+    {
+      "path": "data\\train_validation_v3\\train\\heat\\trajectories.npz",
+      "passed": true,
+      "errors": [],
+      "parent_count": 256,
+      "time_points": 129,
+      "parent_id_count": 256,
+      "parent_id_sha256": "28a60ec96dba507687fa77f5f34c578118884fb1b7ab2c9690d022c8ff5eb3b1",
+      "action_count": 128,
+      "finite_truth": true,
+      "all_applied_equal_projected": true
+    },
+    {
+      "path": "data\\train_validation_v3\\validation\\burgers\\trajectories.npz",
+      "passed": true,
+      "errors": [],
+      "parent_count": 64,
+      "time_points": 129,
+      "parent_id_count": 64,
+      "parent_id_sha256": "a95aa83d653ec9cf44cc34270dd58d8f1f7363a6e771162699c67e9ee8b8c070",
+      "action_count": 128,
+      "finite_truth": true,
+      "all_applied_equal_projected": true
+    },
+    {
+      "path": "data\\train_validation_v3\\validation\\heat\\trajectories.npz",
+      "passed": true,
+      "errors": [],
+      "parent_count": 64,
+      "time_points": 129,
+      "parent_id_count": 64,
+      "parent_id_sha256": "161d475976d5cd5f163cdbc9374574a6cb0fc6e5e6f72d80823620c6bdcef1df",
+      "action_count": 128,
+      "finite_truth": true,
+      "all_applied_equal_projected": true
+    }
+  ],
+  "locked_role_outputs_found": false
+}

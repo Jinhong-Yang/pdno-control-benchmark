@@ -1,0 +1,15 @@
+{
+  "status": "EXITED_SUCCESS",
+  "launched_at": "2026-09-27T10:11:24.8570346+09:00",
+  "root": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3",
+  "python": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\.venv\\Scripts\\python.exe",
+  "runner": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\scripts\\run_locked_test_once_v3.py",
+  "stdout": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\logs\\locked_test_v3\\stdout.log",
+  "stderr": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\logs\\locked_test_v3\\stderr.log",
+  "test_marker": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\state\\LOCKED_TEST_ONCE_V3.json",
+  "one_shot": true,
+  "pid": 27968,
+  "started_at": "2026-09-27T10:11:24.8877436+09:00",
+  "exit_code": 0,
+  "finished_at": "2026-09-28T01:02:49.9212879+09:00"
+}

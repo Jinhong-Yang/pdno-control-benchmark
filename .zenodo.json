@@ -1,27 +1,14 @@
 {
-  "title": "PDNO Control Benchmark: Frozen Code and Summary Results for Action-Factorized Neural-Operator Control",
+  "title": "PDNO Control Benchmark: Revision Experiments, Model Checkpoints, and Raw Evidence",
   "upload_type": "software",
-  "description": "Software and summary-data companion to \"Control Quality and Tail Latency of an Action-Factorized Neural Operator: A Frozen PDE Benchmark\" by Hyojin Park and Jinhong Yang. Contains the frozen Burgers/heat numerical, observation, controller and learning implementation, historical runner scripts, CPU tests, executed configuration, audited summary tables and reproducible publication figures. The evaluated implementation did not achieve its proposed control-quality/tail-latency hypothesis. This release reproduces figures from summaries and supports CPU implementation checks. Full trajectory arrays, request-level timing arrays and model checkpoints are not included; it is not a complete from-raw audit or retraining archive. The paper is a submission draft, not an accepted publication. Funding: National IT Industry Promotion Agency (NIPA), Korea government (MSIT), Development of Adaptive Physics-aware Synthetic Data Generation Technology, No.RS-2026-25621689.",
+  "description": "Code, selected model checkpoints, synthetic data, raw outcomes and request timings accompanying the submission draft When Candidate-Based Neural-Operator Control Loses to Modal Feedback: Separating Predictor Error, Controller Design, and Execution-Regime-Dependent Tail Latency in a PDE Benchmark, by Hyojin Park and Jinhong Yang. Version 1.1.0 preserves the original campaign and adds reference-solver candidate comparisons, enlarged Burgers training, a single-seed loss-weight sweep, a new nonnegative-initial-field heat evaluation, and candidate-count/cache timing probes. Includes 50 selected revision checkpoints and original protected checkpoints; binary evidence is supplied as 11 independent ZIP archives with a SHA-256 manifest. Provides figure/table regeneration, CPU implementation and checkpoint checks, and saved-array arithmetic audits. Historical runners are not a one-command fresh GPU replication interface. The findings are conditional on the executed controller designs and timing setup and do not establish deployment safety or isolated causality. IEEE manuscript templates and author portraits are excluded from the software archive. The paper is not an accepted publication. Funding: National IT Industry Promotion Agency (NIPA), Korea government (MSIT), Development of Adaptive Physics-aware Synthetic Data Generation Technology, No.RS-2026-25621689.",
   "creators": [
-    {
-      "name": "Park, Hyojin",
-      "affiliation": "Gyeongnam Intelligence Innovation Center (GIIC), Kyungnam University, Republic of Korea"
-    },
-    {
-      "name": "Yang, Jinhong",
-      "affiliation": "Department of Medical Information Technology, Inje University, Republic of Korea"
-    }
+    {"name": "Park, Hyojin", "affiliation": "Gyeongnam Intelligence Innovation Center (GIIC), Kyungnam University, Republic of Korea"},
+    {"name": "Yang, Jinhong", "affiliation": "Department of Medical Information Technology, Inje University, Republic of Korea"}
   ],
-  "version": "1.0.0",
-  "publication_date": "2026-10-01",
+  "version": "1.1.0",
   "access_right": "open",
   "license": "Apache-2.0",
-  "keywords": [
-    "neural operators",
-    "PDE control",
-    "negative results",
-    "tail latency",
-    "Burgers equation",
-    "heat equation"
-  ]
+  "keywords": ["neural operators", "PDE control", "negative results", "tail latency", "Burgers equation", "heat equation", "reproducibility"],
+  "related_identifiers": [{"identifier": "https://github.com/Jinhong-Yang/pdno-control-benchmark", "relation": "isSupplementTo", "scheme": "url"}]
 }

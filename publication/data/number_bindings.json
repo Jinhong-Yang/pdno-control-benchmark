@@ -1,0 +1,233 @@
+{
+  "status": "COMPLETED_E1_E2_PARTIAL_BINDINGS_FINAL_COVERAGE_PENDING",
+  "bindings": {
+    "OracleStateBurgersExcess": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E1",
+        "role": "locked_nominal",
+        "pde": "burgers",
+        "method": "O-cand-state"
+      },
+      "expected_rows": 1,
+      "column": "relative_excess",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original burgers nominal test parents, privileged-state oracle",
+      "metric": "relative_excess",
+      "unit": "percent excess versus B0"
+    },
+    "OracleStateBurgersLow": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E1",
+        "role": "locked_nominal",
+        "pde": "burgers",
+        "method": "O-cand-state"
+      },
+      "expected_rows": 1,
+      "column": "fixed_ci_low",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original burgers nominal test parents, privileged-state oracle",
+      "metric": "fixed_ci_low",
+      "unit": "percent excess versus B0"
+    },
+    "OracleStateBurgersHigh": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E1",
+        "role": "locked_nominal",
+        "pde": "burgers",
+        "method": "O-cand-state"
+      },
+      "expected_rows": 1,
+      "column": "fixed_ci_high",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original burgers nominal test parents, privileged-state oracle",
+      "metric": "fixed_ci_high",
+      "unit": "percent excess versus B0"
+    },
+    "OracleStateOriginalHeatExcess": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E1",
+        "role": "locked_nominal",
+        "pde": "heat",
+        "method": "O-cand-state"
+      },
+      "expected_rows": 1,
+      "column": "relative_excess",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original heat nominal test parents, privileged-state oracle",
+      "metric": "relative_excess",
+      "unit": "percent excess versus B0"
+    },
+    "OracleStateOriginalHeatLow": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E1",
+        "role": "locked_nominal",
+        "pde": "heat",
+        "method": "O-cand-state"
+      },
+      "expected_rows": 1,
+      "column": "fixed_ci_low",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original heat nominal test parents, privileged-state oracle",
+      "metric": "fixed_ci_low",
+      "unit": "percent excess versus B0"
+    },
+    "OracleStateOriginalHeatHigh": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E1",
+        "role": "locked_nominal",
+        "pde": "heat",
+        "method": "O-cand-state"
+      },
+      "expected_rows": 1,
+      "column": "fixed_ci_high",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original heat nominal test parents, privileged-state oracle",
+      "metric": "fixed_ci_high",
+      "unit": "percent excess versus B0"
+    },
+    "E2HeatCacheKTwoHundredRatio": {
+      "kind": "csv",
+      "source": "data/revision/E2_ratio_bootstrap.csv",
+      "filter": {
+        "pde": "heat",
+        "K": "200",
+        "cache": "True"
+      },
+      "expected_rows": 1,
+      "column": "mean_per_seed_p99_ratio",
+      "reduce": "single",
+      "format": ".4f",
+      "population": "revision heat K200 cache on, three training seeds and three sequential same-process sessions",
+      "metric": "mean_per_seed_p99_ratio",
+      "unit": "dimensionless P/B4 p99 ratio"
+    },
+    "E2HeatCacheKTwoHundredLow": {
+      "kind": "csv",
+      "source": "data/revision/E2_ratio_bootstrap.csv",
+      "filter": {
+        "pde": "heat",
+        "K": "200",
+        "cache": "True"
+      },
+      "expected_rows": 1,
+      "column": "ci_low",
+      "reduce": "single",
+      "format": ".4f",
+      "population": "revision heat K200 cache on, three training seeds and three sequential same-process sessions",
+      "metric": "ci_low",
+      "unit": "dimensionless P/B4 p99 ratio"
+    },
+    "E2HeatCacheKTwoHundredHigh": {
+      "kind": "csv",
+      "source": "data/revision/E2_ratio_bootstrap.csv",
+      "filter": {
+        "pde": "heat",
+        "K": "200",
+        "cache": "True"
+      },
+      "expected_rows": 1,
+      "column": "ci_high",
+      "reduce": "single",
+      "format": ".4f",
+      "population": "revision heat K200 cache on, three training seeds and three sequential same-process sessions",
+      "metric": "ci_high",
+      "unit": "dimensionless P/B4 p99 ratio"
+    },
+    "E2PBurgersCacheOffRemainderMedian": {
+      "kind": "csv",
+      "source": "data/revision/E2_stage_profile.csv",
+      "filter": {
+        "pde": "burgers",
+        "method": "P",
+        "K": "10",
+        "cache": "False",
+        "stage": "field_assembly_and_other"
+      },
+      "expected_rows": 1,
+      "column": "p50_ms",
+      "reduce": "single",
+      "format": ".4f",
+      "population": "revision separately synchronized stage profile, seed11 session1 K10,500requests",
+      "metric": "field_assembly_and_other p50",
+      "unit": "milliseconds"
+    },
+    "E2PBurgersCacheOnRemainderMedian": {
+      "kind": "csv",
+      "source": "data/revision/E2_stage_profile.csv",
+      "filter": {
+        "pde": "burgers",
+        "method": "P",
+        "K": "10",
+        "cache": "True",
+        "stage": "field_assembly_and_other"
+      },
+      "expected_rows": 1,
+      "column": "p50_ms",
+      "reduce": "single",
+      "format": ".4f",
+      "population": "revision separately synchronized stage profile, seed11 session1 K10,500requests",
+      "metric": "field_assembly_and_other p50",
+      "unit": "milliseconds"
+    },
+    "E2PHeatCacheOffRemainderMedian": {
+      "kind": "csv",
+      "source": "data/revision/E2_stage_profile.csv",
+      "filter": {
+        "pde": "heat",
+        "method": "P",
+        "K": "10",
+        "cache": "False",
+        "stage": "field_assembly_and_other"
+      },
+      "expected_rows": 1,
+      "column": "p50_ms",
+      "reduce": "single",
+      "format": ".4f",
+      "population": "revision separately synchronized stage profile, seed11 session1 K10,500requests",
+      "metric": "field_assembly_and_other p50",
+      "unit": "milliseconds"
+    },
+    "E2PHeatCacheOnRemainderMedian": {
+      "kind": "csv",
+      "source": "data/revision/E2_stage_profile.csv",
+      "filter": {
+        "pde": "heat",
+        "method": "P",
+        "K": "10",
+        "cache": "True",
+        "stage": "field_assembly_and_other"
+      },
+      "expected_rows": 1,
+      "column": "p50_ms",
+      "reduce": "single",
+      "format": ".4f",
+      "population": "revision separately synchronized stage profile, seed11 session1 K10,500requests",
+      "metric": "field_assembly_and_other p50",
+      "unit": "milliseconds"
+    }
+  }
+}

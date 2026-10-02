@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "parents": 128,
+  "precision": "FP64 CUDA reference with graph replay; original FP32 tick states",
+  "role": "locked_delay_dropout",
+  "method": "O-cand-obs",
+  "sha256": "fc07ea29021162ad5c8cb42b44b12ae0ad8d28bbf9f53b61f30b6aa3d20f665e",
+  "source_data_sha256": "14ed53d5e59c4a125d6bb8a1ebcd9c6136d46fc7ecb4add171488ce11695d926",
+  "post_hoc": true
+}

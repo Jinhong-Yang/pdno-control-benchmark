@@ -1,0 +1,145 @@
+version: PDNO_JevLite_RTX5080_72H_research_v2
+status: PRE_REGISTRATION_DRAFT_BEFORE_V2_NUMERICAL_AND_CAUSAL_GATES
+created_at_kst: '2026-09-26T12:50:20+09:00'
+source_instruction: C:/Users/WIN/Downloads/PDNO_JevLite_RTX5080_72H_실험지시서.md
+parent_version: ../pdno_jevLite_20260925
+parent_version_disposition: PRESERVED_INCONCLUSIVE; opened v1 test and all v1 raw evidence remain immutable
+v1_prohibitions:
+  - Do not open, aggregate, or tune against v1 partial controller metrics.
+  - Do not resume or restart the v1 locked runner.
+  - Do not reuse any v1 locked parent inputs as v2 calibration or test.
+  - Do not claim v1 results are confirmatory after any code changes.
+research_scope:
+  domain: synthetic manufacturing distributed-parameter PDE low-latency control
+  autonomous_driving_meaning: autonomous research workflow, not automotive research
+  pdes: [forced_periodic_burgers, dirichlet_heat]
+  deployment: simulation/software replay only; no plant, PLC, actuator, HIL, or external service
+  hardware: one local RTX 5080; no cloud/GPU equivalence assumption
+budget:
+  started_at_kst: '2026-09-25T23:09:10+09:00'
+  total_wall_hours: 72
+  luna_evidence_deadline_hours: 62
+  astra_reserve_hours: 10
+  observed_at_kst: '2026-09-26T12:50:20+09:00'
+  elapsed_wall_hours: 13.687
+  remaining_wall_hours: 58.313
+  remaining_until_luna_deadline_hours: 48.313
+  remaining_astra_reserve_hours: 9.687
+  gpu_active_total: UNKNOWN; retain current telemetry snapshots and do not infer from wall time
+runtime_basis:
+  confirmatory_training_profiles: evidence/runtime_pilot_50_200.json in parent version
+  observed_training_p90_ms_update: {P: 49.91, B4: 49.59, B5: 11.93, B2: 3.88, B3: 9.11}
+  v1_locked_eval_observed_runs: 12352
+  v1_locked_eval_total_runs: 21760
+  v1_locked_eval_elapsed_seconds: 32691.403
+  v1_extrapolated_complete_eval_hours: 15.98
+  v1_estimate_is_not_v2_runtime_guarantee: true
+  v2_required_models_and_ablation: 8 methods (B0,B1,B2,B3,B4,B5,P,P-no-rank); P-no-rank adds 3 seeds for each PDE
+  v2_budgeted_new_locked_eval_hours: 20
+  profiling_action: Prioritize optional experiments and speed pathways before reducing independent sample counts, seeds, or matched controls.
+  v2_rtx5080_profile_evidence: evidence/v2_runtime_pilot_50_200.json
+  v2_synchronized_training_median_ms_per_step:
+    P_burgers: 79.45
+    B4_burgers: 82.13
+    B5_burgers: 24.79
+    B2_burgers: 3.88
+    B3_burgers: 9.91
+    P_heat: 80.12
+    B4_heat: 77.02
+    B5_heat: 25.06
+    B2_heat: 3.91
+    B3_heat: 10.15
+  v2_cuda_speed_candidate: fused_AdamW
+  v2_cuda_speed_candidate_evidence: evidence/v2_cuda_optimizer_comparison.json
+  v2_cuda_speed_candidate_disposition: NOT_SELECTED_SHORT_PILOT_ALL_FIELD_NRMSE_MISSED_G2
+  v2_torch_compile_disposition: UNSUPPORTED_WINDOWS_ENVIRONMENT_TRITON_MISSING
+protocol_corrections_required_before_final_freeze:
+  training_losses:
+    - Implement and log source-defined L_field, L_obs with observation-operator consistency, L_PDE at random x/tau and random train actions, L_balance including forcing and boundary flux, L_rank, and diagnostic L_BC.
+    - Keep a common observation/initialization path across P and B5; B5 disables only predeclared physics/balance terms.
+    - Use train-only scales; collocation/autograd physics remains FP32 with autocast off.
+  causal_input_parity:
+    - Feed declared causal applied-action history to learned policies or revise the entire input contract before new data; do not include unavailable/future actions.
+    - Audit comparator observer information, sensor/image mask/age, no-observation behavior, and all applied-action projection stages.
+  model_and_baseline_selection:
+    - Checkpoint order: numerical validity, validation state-violation gate, validation closed-loop cost, then predeclared latency tie band.
+    - Select H3 comparator over eligible non-generative required methods on validation only, not only B0/B1 by convenience; freeze it before v2 lock.
+  evaluation_and_statistics:
+    - Rebuild aggregator from source-defined estimands with independent parent as unit, per-parent comparator/floor normalization, paired parent bootstrap, explicit seed hierarchy, and per-seed and pooled violation endpoints.
+    - Predeclare missingness, fallback, timeout, and failure handling; no partial locked metrics.
+  systems:
+    - Preserve B4 shared encoder and candidate-axis batching.
+    - Preserve B3 as direct policy optimized through a frozen B4 action-cost surrogate; inference remains direct-policy only.
+    - Measure CPU and CUDA closed-loop pilot and episode-batched evaluator equivalence. Any speed optimization must be applied fairly to all affected methods and be frozen pre-test.
+allowed_pretest_revision_budget:
+  structural_or_protocol_revisions_max: 2
+  structural_or_protocol_revisions_used: 1
+  revision_1:
+    change: train_only_sensor_scalar_and_material_feature_normalization_in_shared_observer_buffers
+    evidence: [evidence/v2_rev1_pilot_g2_validation_metrics.json, evidence/v2_rev1_g2_train_val_diagnostic.json]
+    outcome: G2_FAIL; field_nrmse_improved_but_remains_above_0.05; no_threshold_changes; no_test_access
+  scope: Fix audited source-contract defects and validate on train/validation only; record each change and cost.
+  thresholds_may_change: false
+  locked_data_may_be_generated_before_final_freeze: false
+  stop_condition: If two predeclared structural revisions still fail G2 on validation, stop confirmatory claims and report the gate failure; do not search indefinitely.
+required_methods:
+  classical: [B0, B1]
+  learned: [B2, B3, B4, B5, P]
+  mechanism_ablation: [P-no-rank]
+  learned_seeds: [11, 23, 37]
+  b4_shared_encoder: true
+  b4_candidate_batching: true
+  b3_direct_surrogate_gradient_policy: true
+  execution: one GPU training process at a time
+new_v2_data_plan:
+  reuse_copied_pretest_train_validation_parents: true
+  reuse_v1_calibration_or_locked_inputs: false
+  regenerate_v2_train_teacher_queries_after_causal_input_audit: true
+  new_calibration_parents_after_final_model_selection: {per_pde: 64}
+  new_locked_parents_after_final_code_spec_and_model_freeze:
+    nominal: {per_pde: 384}
+    coefficient_ood: {per_pde: 128}
+    delay_dropout: {per_pde: 128}
+  locked_parent_total: 1280
+  confirmatory_episodes: 25600
+  unit: independent_parent_episode; model seeds are hierarchy, not new environment parents
+hypotheses_and_gates:
+  g1_numerics: Follow source instruction §7.3 exactly; hold if analytic/refinement tolerances fail.
+  g2_prediction_gate: Keep field nRMSE <= 0.05 and teacher candidate regret normalized median <= 0.05; do not relax based on v1 or v2 locked results.
+  h1: P vs B4 host-ready batch-1 p99 latency and control-quality noninferiority, estimates conditional on full v2 evaluation only.
+  h2: P vs P-no-rank, P vs B5, and physical diagnostics; distinguish mechanism from predictive fit.
+  h3: P vs validation-selected strongest eligible non-generative required comparator.
+  h4: P vs P-no-age on independent delay/dropout parents, if pilot/runtime budget allows within optional selection rules.
+  safety: empirical truth-state violation rates and uncertainty; no guaranteed safety language.
+statistics:
+  independent_unit: parent_episode
+  preserve_parent_pairing_across_methods: true
+  training_seed_is_environment_replication: false
+  bootstrap_replicates: 10000
+  report_each_seed: true
+  conditional_harm: not_estimable_without_a_locked_acceptance_gate_and_completed_test
+  locked_test_open_once_for_v2: true
+  locked_test_requires_hash_freeze_of_source_config_models_calibration_metrics_and_runner: true
+latency:
+  run_after_complete_v2_locked_test_only: true
+  request_batch: 1
+  sessions: 3
+  standard_requests_per_session: 20000
+  deadline_ms: 5
+  target_p99_ms: 2
+  include_host_prepare_h2d_encoder_operator_candidate_cost_projection_d2h_return: true
+  include_truth_solver: false
+  report_cpu_and_gpu_separately: true
+  scheduler_replay: 3_sessions_x_120_seconds_per_condition_for_primary_methods
+phase_budget_hours_from_observation:
+  source_audit_and_implementation_solver_causal_fixes: 7
+  fresh_data_split_and_audits: 4
+  pilot_g2_g3_and_one_revision_if_needed: 4
+  final_freeze_training_all_required_models_and_ablation: 7
+  validation_comparator_calibration_final_hash_freeze: 1
+  new_locked_evaluation: 20
+  host_ready_tail_and_scheduled_replay: 4
+  raw_evidence_freeze_and_handoff: 1
+  astra_final_analysis_manuscript: 9.687
+  reserve: 0.626
+next_executable_step: Complete the ordered G2 diagnosis and the source-contract review; implement validation checkpoint selection, full H3 comparator, parent-level aggregator, and supervised atomic runner; then freeze a fail-inclusive spec and train every required model × 3 seeds sequentially. Fused AdamW stays unselected. Calibration/test data remain sealed until all model and runner hashes are frozen.

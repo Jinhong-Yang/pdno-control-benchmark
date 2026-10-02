@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "errors": [],
+  "shards": [
+    {
+      "path": "data\\pilot_smoke_v3\\train\\burgers\\trajectories.npz",
+      "passed": true,
+      "errors": [],
+      "parent_count": 2,
+      "time_points": 129,
+      "parent_id_count": 2,
+      "parent_id_sha256": "78e07c80d495fc1544e56b65375f29e00a5084e86b53056f79535411075a830b",
+      "action_count": 128,
+      "finite_truth": true,
+      "all_applied_equal_projected": true
+    },
+    {
+      "path": "data\\pilot_smoke_v3\\train\\heat\\trajectories.npz",
+      "passed": true,
+      "errors": [],
+      "parent_count": 2,
+      "time_points": 129,
+      "parent_id_count": 2,
+      "parent_id_sha256": "f3e80308176a5b7353c9cca983ad9698684c1dc34e12b0079456f7e66e9a6ede",
+      "action_count": 128,
+      "finite_truth": true,
+      "all_applied_equal_projected": true
+    },
+    {
+      "path": "data\\pilot_smoke_v3\\validation\\burgers\\trajectories.npz",
+      "passed": true,
+      "errors": [],
+      "parent_count": 2,
+      "time_points": 129,
+      "parent_id_count": 2,
+      "parent_id_sha256": "76eb03777c8d7e5006fa03b61a5580b5aa4fad8d96de2ff57724d2b2e781ccd5",
+      "action_count": 128,
+      "finite_truth": true,
+      "all_applied_equal_projected": true
+    },
+    {
+      "path": "data\\pilot_smoke_v3\\validation\\heat\\trajectories.npz",
+      "passed": true,
+      "errors": [],
+      "parent_count": 2,
+      "time_points": 129,
+      "parent_id_count": 2,
+      "parent_id_sha256": "363b99a43108e66c60b711e8386c99503a9f184096b8c67167aad2240a0f7e62",
+      "action_count": 128,
+      "finite_truth": true,
+      "all_applied_equal_projected": true
+    }
+  ],
+  "locked_role_outputs_found": false
+}

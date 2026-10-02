@@ -1,0 +1,33 @@
+{
+  "status": "MEASURED_CANDIDATE_REQUIRES_V3_VALIDATION",
+  "scope": "training optimizer step latency; not end-to-end study runtime",
+  "hardware": "RTX 5080",
+  "predecessor_measurement": {
+    "source": "../../pdno_jevLite_20260926_v2/evidence/v2_cuda_optimizer_comparison.json",
+    "pilot_steps_per_variant": 250,
+    "warmup_steps": 50,
+    "fused_adamw_step_median_speedup_percent_range": [4.2756511547, 15.68271041897],
+    "median_across_rows_percent": 8.26,
+    "limitations": [
+      "short pilot only",
+      "all evaluated field nRMSE values failed the preregistered G2 limit",
+      "fused optimizer changes floating-point update order",
+      "does not establish full-study or host-ready latency improvement"
+    ],
+    "selection": "not yet selected for v3 confirmatory training"
+  },
+  "v3_current_pipeline": {
+    "training_optimizer": "eager AdamW in confirmatory staged trainer",
+    "PDE_physics_loss_autocast": "explicitly disabled in residual path",
+    "B4_candidate_batching": "implemented",
+    "teacher_query_solver": "CPU NumPy-based Burgers IMEX and heat Crank-Nicolson routines",
+    "current_teacher_query_process_started_local": "2026-09-27T06:13:20+09:00",
+    "process_id_at_observation": 27868,
+    "observed_process_cpu_seconds_at_06_26": 777.7,
+    "one_gpu_utilization_sample_percent": 0,
+    "interpretation": "current teacher-query generation is CPU-bound; CUDA training optimization will not speed this stage"
+  },
+  "next_action": "finish the live teacher-query generation, audit it, then use the v3 quality/runtime pilot to determine whether fused AdamW materially reduces training wall time while the fixed validation quality gates remain unchanged. Do not add mixed precision to PDE residual evaluation without a separate numerical-contract audit.",
+  "calibration_opened": false,
+  "locked_test_opened": false
+}

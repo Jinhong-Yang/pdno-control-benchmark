@@ -1,0 +1,27 @@
+{
+  "session": 1,
+  "pde": "burgers",
+  "method": "B4",
+  "seed": 37,
+  "K": 200,
+  "cache": false,
+  "requests": 5000,
+  "warmup": 50,
+  "p50_ms": 3.7827,
+  "p99_ms": 7.37062,
+  "cache_init_ms": 1.9262999994680285,
+  "sha256": "4788f80ce5e4b3e491d3123bfb551201904a3395eea3dfcd2b0e6710c69cb3c3",
+  "checkpoint_sha256": "7fb44fbefacd2f214fde3e47449f752aa7439faa62edde03372c9caf2f2fa972",
+  "input_sha256": {
+    "evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B4_s37.npz": "0c334c38a6fb1e88a1740eae062115024faf08262917eac2a8e1225b6a7826c2",
+    "evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B4_s37.npz": "42d379fcb63112225616c4933cebe5bbfb97c983a956374a0d5557e104854172",
+    "evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B4_s37.npz": "e605e3cbc90592da76e4570a38fd86869ba2f3546b8095a7fb1fa87e4e47239e"
+  },
+  "equivalence": {
+    "pde": "burgers",
+    "method": "B4",
+    "seed": 37,
+    "K": 200,
+    "max_abs_error": 0.0
+  }
+}

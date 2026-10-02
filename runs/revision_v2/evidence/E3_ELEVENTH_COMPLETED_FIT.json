@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETED_FIT_NOT_FINAL_E3_GATE",
+  "condition": "burgers_x4_P_s23",
+  "completed_fits": 11,
+  "required_fits": 21,
+  "actual_updates": 15500,
+  "selected_update": 15500,
+  "selected_validation_field_nrmse": 0.1066681370139122,
+  "elapsed_seconds": 888.8140010000207,
+  "summary_sha256": "1107b37e9c734e3083e34ad7f1f7ec5234daafd64dfd7cb8cfbf38dcbc03f421",
+  "summary": "runs\\revision_v2\\checkpoints\\E3\\burgers_x4_P_s23.summary.json",
+  "limits": "Single condition; formal all18-operator gate and scaling interpretation pending all21 fits and seal."
+}

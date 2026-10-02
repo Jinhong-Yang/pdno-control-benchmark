@@ -1,0 +1,15 @@
+{
+  "pde": "heat",
+  "split": "validation",
+  "parent_count": 2,
+  "query_count": 2,
+  "snapshots_per_parent": 1,
+  "runtime_seconds": 0.008708399982424453,
+  "seconds_per_query": 0.0043541999912122265,
+  "path": "data\\pilot_queries_smoke_v3\\validation\\heat\\teacher_queries.npz",
+  "action_hold": "constant for horizon; first tick applied in closed loop",
+  "future_disturbance": "zero in supervised counterfactuals",
+  "candidate_count": 10,
+  "targets_generated": true,
+  "locked_test_opened": false
+}

@@ -1,0 +1,17 @@
+{
+  "pde": "heat",
+  "split": "train",
+  "parent_count": 256,
+  "query_count": 1024,
+  "snapshots_per_parent": 4,
+  "runtime_seconds": 3.9936291000049096,
+  "seconds_per_query": 0.0039000284179735445,
+  "generator_version": "v3-fresh-parent-split-signed-thermal-constraint",
+  "path": "data\\queries_v3\\train\\heat\\teacher_queries.npz",
+  "action_hold": "constant for horizon; first tick applied in closed loop",
+  "future_disturbance": "zero in supervised counterfactuals",
+  "candidate_count": 10,
+  "state_constraint": "Burgers symmetric; heat lower=0 and train/validation-frozen upper",
+  "targets_generated": true,
+  "locked_test_opened": false
+}

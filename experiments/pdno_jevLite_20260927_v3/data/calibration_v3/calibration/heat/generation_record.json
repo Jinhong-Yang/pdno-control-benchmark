@@ -1,0 +1,18 @@
+{
+  "generator_version": "causal-observation-v5-200tick-locked-balanced-roles",
+  "observation_mapping_version": 2,
+  "outer_ticks": 200,
+  "role_assignment": "frozen manifest order; OOD low/high and heat step/no-step alternate exactly by role index",
+  "pde": "heat",
+  "split": "calibration",
+  "parent_count": 64,
+  "elapsed_seconds": 2.9557002000219654,
+  "seconds_per_parent": 0.04618281562534321,
+  "file": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\data\\calibration_v3\\calibration\\heat\\trajectories.npz",
+  "fields_shape": [
+    64,
+    201,
+    256
+  ],
+  "targets_generated": true
+}

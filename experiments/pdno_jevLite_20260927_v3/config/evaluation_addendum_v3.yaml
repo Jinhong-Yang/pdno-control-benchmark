@@ -1,0 +1,43 @@
+protocol: PDNO_JevLite_RTX5080_72H_locked_execution_addendum_v3
+parent_protocol: config/final_spec_v3.json
+calibration_lock: evidence/calibration_lock_v3.json
+reason: v3 fresh parent namespace, signed thermal bounds, and 200-tick source-specified closed-loop evaluation
+closed_loop:
+  episode_ticks: 200
+  simulation_dt_seconds: 0.02
+  horizon_ticks: 8
+  all_methods_share_parent_initial_condition_material_disturbance_and_observation_schedule: true
+  controllers: [B0, B1, P, P-no-rank, B4, B5, B2, B3]
+  learned_seeds: [11, 23, 37]
+  heat_mid_episode_step_tick: 100
+  heat_step_parents: 192_of_384_locked_nominal
+  action_projection: common_box_and_slew_each_tick
+  online_field_forecast_error_and_candidate_regret_snapshot_tick: 100
+  exact_candidate_regret: actual_selected_action_horizon_cost_minus_minimum_shared_K10_candidate_horizon_cost
+  per_episode_metrics: [cumulative_control_cost, tracking_rmse, constraint_violation, fallback_rate, forecast_nrmse, candidate_regret, conditional_harm]
+statistics:
+  independent_unit: parent_episode
+  training_seed_is_hierarchical_not_an_environment_replication
+  paired_parent_bootstrap_replicates: 10000
+  all_methods_and_seeds_use_identical_parent_condition_schedules: true
+h3_comparator:
+  select_before_test_from: [B0, B1, B2, B3, B4, B5]
+  exclude_proposed_methods: [P, P-no-rank]
+  criterion: minimum_equal_pde_mean_episode_cost_ratio_to_B0; learned seeds averaged within parent
+  validation_parent_episode_count_per_pde: 64
+  tie_break: B0
+  selected_before_test: null
+  selection_evidence: evidence/validation_closed_loop_comparator_v3.json
+sequence:
+  train_validation_data_namespace: pdno-jevLite-parent-pool-v3-fresh-20260927
+  only_200_tick_locked_v3_is_eligible_for_one_time_evaluation: true
+  locked_test_result_accessed_only_after_every_method_runner_and_hash_is_frozen: true
+  no_test_tuning: true
+runtime_budget:
+  measured_locked_evaluation_point_estimate_hours: 13.3054
+  measured_locked_evaluation_planning_estimate_with_15pct_margin_hours: 15.3012
+  runtime_estimate_evidence: evidence/v3_closed_loop_runtime_pilot.json
+  runtime_estimate_scope: one validation parent per PDE and method; includes CPU truth solver, not a robust guarantee
+  evidence_window_hours: 62
+  astra_reserve_hours: 10
+  required_methods_and_parent_counts_retained: true

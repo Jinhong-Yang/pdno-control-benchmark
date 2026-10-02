@@ -24,7 +24,7 @@ def save(fig,name,desc,sources):
  fig.savefig(F/(name+'.pdf'),bbox_inches='tight',pad_inches=.04)
  fig.savefig(F/(name+'.svg'),bbox_inches='tight',pad_inches=.04)
  fig.savefig(F/(name+'.png'),dpi=300,bbox_inches='tight',pad_inches=.04)
- fig_records.append({'id':name,'description':desc,'sources':sources,'pdf_sha256':sha(F/(name+'.pdf')),'vector':True})
+ fig_records.append({'id':name,'description':desc,'sources':sources,'input_sha256':[{'path':str((D/s).relative_to(O)),'sha256':sha(D/s)} for s in sources],'pdf_sha256':sha(F/(name+'.pdf')),'vector':True})
  plt.close(fig)
 def panel(ax,title):
  ax.set_title(title,loc='left',fontweight='bold',pad=9)
@@ -34,7 +34,7 @@ def panel(ax,title):
 # 1. Editable TikZ diagram; keeps node layout and labels in vector form.
 import subprocess, sys
 subprocess.run([sys.executable,str(O/'scripts/build_diagram.py')],check=True)
-fig_records.append({'id':'fig01_design','description':'TikZ: causal loop, aligned P/B4 computation and distinct evidence roles','sources':['final_spec_v3.json','figures/fig01_design.tex'],'pdf_sha256':sha(F/'fig01_design.pdf'),'vector':True})
+fig_records.append({'id':'fig01_design','description':'TikZ: causal loop, aligned P/B4, oracle and cache paths; distinct original/revision evidence','sources':['final_spec_v3.json','figures/fig01_design.tex'],'input_sha256':[{'path':str(p.relative_to(O)),'sha256':sha(p)} for p in [D/'final_spec_v3.json',F/'fig01_design.tex']],'pdf_sha256':sha(F/'fig01_design.pdf'),'vector':True})
 
 # 2. Seed-level prediction gates, common quantitative scale.
 cp=rows(D/'selected_checkpoints.csv')
@@ -51,7 +51,7 @@ axs[0].set_ylabel('Validation field nRMSE')
 axs[1].legend([Line2D([],[],marker=m,color=GREY,ls='none',ms=4) for m in ['o','s','^']],['Seed 11','Seed 23','Seed 37'],loc='upper right',frameon=False,ncol=1)
 save(fig,'fig02_prediction','Selected field validation error for all 24 predictive checkpoints',['selected_checkpoints.csv'])
 
-# 3. Full comparator family in every locked condition with registered intervals.
+# 3. Full comparator family in every locked condition with primary intervals.
 control=rows(D/'control_all_methods.csv')
 roles=['locked_nominal','locked_coefficient_ood','locked_delay_dropout']; rolelabels=['Nominal','Coefficient shift','Delay / dropout']
 fig,axs=plt.subplots(2,3,figsize=(7.16,4.75),sharey=True,layout='constrained')
@@ -67,7 +67,7 @@ for pi,pde in enumerate(['burgers','heat']):
   ax.set_xlim((-3,58) if pde=='burgers' else (-8,175));ax.set_xticks([0,20,40] if pde=='burgers' else [0,50,100,150])
   panel(ax,f'{chr(97+pi*3+ri)}  {pde.capitalize()}\n{rolelabels[ri]}')
   if pi==1:ax.set_xlabel('Cost difference vs. B0 (%)')
-save(fig,'fig03_control','All eight controllers; registered paired-parent 95% intervals; dashed 5% margin',['control_all_methods.csv'])
+save(fig,'fig03_control','All eight controllers; primary paired-parent 95% intervals; dashed 5% margin',['control_all_methods.csv'])
 
 # 4. All-method tail latency and exact deadline-miss proportions (linear scales).
 lat=rows(D/'latency_pooled_descriptive.csv')
@@ -87,12 +87,12 @@ for pi,pde in enumerate(['burgers','heat']):
 axs[1,0].set_xlabel('Host-ready latency (ms)');axs[1,1].set_xlabel('Deadline-miss proportion (%)')
 save(fig,'fig04_latency','Pooled raw-request p99 and exact 5 ms miss proportions for all methods',['latency_pooled_descriptive.csv'])
 
-# 5. Registered H1 interval, rather than a ratio of pooled percentiles.
+# 5. Primary H1 interval, rather than a ratio of pooled percentiles.
 h1=js(D/'latency_analysis_v3.json')['H1_p99_ratio_analysis']
 (D/'h1_results.json').write_text(json.dumps(h1,indent=2))
 print('H1 schema:',list(h1[0]))
 fig,ax=plt.subplots(figsize=(3.45,1.8),layout='constrained')
-# Exact field names are resolved from the registered artifact, never guessed values.
+# Exact field names are resolved from the primary artifact, never guessed values.
 for i,r in enumerate(h1):
  mean=r['mean_per_seed_ratio']
  ci=r['hierarchical_seed_session_bootstrap_ci95']
@@ -133,6 +133,10 @@ for pi,pde in enumerate(['burgers','heat']):
   if pi==1:ax.set_xlabel('Update')
 axs[0,3].legend(title='Seed',frameon=False,fontsize=6,title_fontsize=6)
 save(fig,'figS01_training','Recorded validation histories; phase boundary at update 2000',['training_history.csv'])
+from build_revision_figures import build as build_revision
+fig_records.extend(build_revision(O))
 (D/'figure_provenance.json').write_text(json.dumps(fig_records,indent=2)+'\n')
+from build_figure_guide import build as build_guide
+build_guide(O)
 print('Figures:',len(fig_records))
 

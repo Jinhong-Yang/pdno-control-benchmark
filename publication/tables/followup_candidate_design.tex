@@ -1,0 +1,32 @@
+\begin{table}[ht]
+\centering\small
+\caption{D6 Burgers: the same first 128 lexically sorted scenarios for every design. $K/H$ denotes candidate count and horizon; +FB adds one feedback-rollout candidate. Fixed and joint denote B0-denominator bootstrap treatments for pointwise 95\% intervals.}
+\begin{tabular}{@{}lrrrrrr@{}}\toprule
+$K/H$ & $n$ & Cost & Excess (\%) & Fixed interval (\%) & Joint interval (\%) & RMSE\\\midrule
+10/1 & 128 & 0.322703 & +29.03 & [+21.22, +37.78] & [+23.04, +35.26] & 0.036293\\
+10/4 & 128 & 0.322390 & +28.90 & [+21.08, +37.66] & [+22.86, +35.16] & 0.036270\\
+10/8 & 128 & 0.323170 & +29.22 & [+21.18, +38.46] & [+23.13, +35.54] & 0.036183\\
+10/16 & 128 & 0.325489 & +30.14 & [+22.59, +38.17] & [+24.25, +36.10] & 0.036196\\
+50/1 & 128 & 0.321135 & +28.40 & [+21.04, +36.54] & [+22.54, +34.58] & 0.036256\\
+50/4 & 128 & 0.300781 & +20.26 & [+16.15, +24.73] & [+16.96, +23.87] & 0.035319\\
+50/8 & 128 & 0.294803 & +17.87 & [+14.88, +21.04] & [+15.02, +21.15] & 0.034862\\
+50/16 & 128 & 0.272825 & +9.09 & [+7.99, +10.22] & [+7.42, +11.11] & 0.033463\\
+10/8+FB & 128 & 0.335669 & +34.21 & [+24.67, +44.67] & [+26.50, +42.41] & 0.036648\\
+\bottomrule\end{tabular}
+\end{table}
+\begin{table}[ht]
+\centering\small
+\caption{D6 NH heat: the same first 128 lexically sorted scenarios for every design. $K/H$ denotes candidate count and horizon; +FB adds one feedback-rollout candidate. Fixed and joint denote B0-denominator bootstrap treatments for pointwise 95\% intervals.}
+\begin{tabular}{@{}lrrrrrr@{}}\toprule
+$K/H$ & $n$ & Cost & Excess (\%) & Fixed interval (\%) & Joint interval (\%) & RMSE\\\midrule
+10/1 & 128 & 19.088134 & +166.68 & [+145.15, +189.09] & [+158.09, +175.51] & 0.284261\\
+10/4 & 128 & 13.898914 & +94.18 & [+85.85, +102.87] & [+82.98, +106.68] & 0.245004\\
+10/8 & 128 & 9.074214 & +26.78 & [+24.66, +29.12] & [+22.51, +31.87] & 0.191231\\
+10/16 & 128 & 7.570578 & +5.77 & [+5.05, +6.49] & [+4.63, +7.14] & 0.164862\\
+50/1 & 128 & 25.012587 & +249.45 & [+227.49, +272.02] & [+231.13, +269.87] & 0.338284\\
+50/4 & 128 & 14.376453 & +100.86 & [+94.21, +107.71] & [+90.14, +112.91] & 0.253250\\
+50/8 & 128 & 9.843419 & +37.52 & [+35.35, +39.80] & [+32.65, +43.17] & 0.202082\\
+50/16 & 128 & 7.911430 & +10.53 & [+9.65, +11.41] & [+8.86, +12.46] & 0.171590\\
+10/8+FB & 128 & 8.233100 & +15.03 & [+13.75, +16.32] & [+12.91, +17.33] & 0.176125\\
+\bottomrule\end{tabular}
+\end{table}

@@ -1,0 +1,36 @@
+{
+  "status": "COMPLETE",
+  "pde": "heat",
+  "cell": {
+    "id": "K10_H1",
+    "K": 10,
+    "H": 1,
+    "feedback_rollout": false
+  },
+  "parent_count": 128,
+  "scenario_id_order": "ascending lexical scenario ID; first n only",
+  "source_data": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\revision_v2\\data\\positive_heat\\locked_nominal\\heat\\trajectories.npz",
+  "source_data_sha256": "7efc65cc3dcfbaf0516a99b482482233fad6bc9d1555f1810584184e9fb8c08d",
+  "config_sha256": "e275613e82d0acecd21631c3e90b7b54e160e3b67521ab8b19a6ab67c9a161c7",
+  "analysis_plan_sha256": "7a0bc3c5da1491f79c90a5560558d7efd55bd2bac78c68042893ff48963311ab",
+  "baseline_verification_sha256": "57e0c4ba78d8688845d93a90fb3195998024c468e2cdf6909bb0b80ba76bbd44",
+  "x1_source_sha256": {
+    "src\\x1\\__init__.py": "4a3abf26c68e5171fa0830637d55fff8f88b57d8aa1ba9b681457fe354b30021",
+    "src\\x1\\design.py": "dde4a579999b10d5ef85a57de5b65161524544d16fcfff57b6d7e1d9f52d1ea8",
+    "src\\x1\\solvers.py": "c604f8aa0980c73d72962648518400e54c2eff970a1660804d8d9d84611b0e46"
+  },
+  "runner_sha256": "de77653c38d32a4c175ff5928998789abc5c30f2be3d47c3f0d035b31599c8d8",
+  "git_commit": "4ef58a96bcc681c9873490bccd05872db607f735",
+  "created_utc": "2026-10-02T16:15:10Z",
+  "elapsed_seconds": 33.90371619997313,
+  "device": "NVIDIA GeForce RTX 5080",
+  "result_sha256": "aec933d64904fe95362de2c521bfc4ed8e8c78e9443de7a8aa3adbb2450e4626",
+  "metrics": {
+    "mean_episode_cost": 19.088134389644402,
+    "mean_tracking_rmse": 0.2842607621742585,
+    "hold_selection_rate": 0.9930078125,
+    "b0_selection_rate": 0.0,
+    "feedback_rollout_selection_rate": null,
+    "mean_abs_action_change": 0.0003554687288124114
+  }
+}

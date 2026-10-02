@@ -1,0 +1,53 @@
+{
+  "status": "TRAIN_VALIDATION_FULL_EPISODE_BENCHMARK_ONLY",
+  "created_utc": "2026-10-02T15:01:36Z",
+  "input_data_sha256": {
+    "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\data\\train_validation_v3\\validation\\burgers\\trajectories.npz": "eea488d03ec62b3f3951cd58d4458c46d784d40e123090960ab2ac560121cc14",
+    "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\data\\train_validation_v3\\validation\\heat\\trajectories.npz": "8b8f5aebef30208d8b1ea3186e8125bdd2d26bd8cd94d7f3193be4f0db4f5000"
+  },
+  "runs": [
+    {
+      "pde": "burgers",
+      "cell": "K50_H16",
+      "n_scenarios": 4,
+      "ticks_per_scenario": 200,
+      "seconds": 82.2767725000158,
+      "seconds_per_scenario": 20.56919312500395,
+      "device": "NVIDIA GeForce RTX 5080",
+      "finite_costs": true
+    },
+    {
+      "pde": "burgers",
+      "cell": "K10_H8_FB",
+      "n_scenarios": 4,
+      "ticks_per_scenario": 200,
+      "seconds": 67.3486371000181,
+      "seconds_per_scenario": 16.837159275004524,
+      "device": "NVIDIA GeForce RTX 5080",
+      "finite_costs": true
+    },
+    {
+      "pde": "heat",
+      "cell": "K50_H16",
+      "n_scenarios": 4,
+      "ticks_per_scenario": 200,
+      "seconds": 12.279190000030212,
+      "seconds_per_scenario": 3.069797500007553,
+      "device": "NVIDIA GeForce RTX 5080",
+      "finite_costs": true
+    },
+    {
+      "pde": "heat",
+      "cell": "K10_H8_FB",
+      "n_scenarios": 4,
+      "ticks_per_scenario": 200,
+      "seconds": 3.256828800018411,
+      "seconds_per_scenario": 0.8142072000046028,
+      "device": "NVIDIA GeForce RTX 5080",
+      "finite_costs": true
+    }
+  ],
+  "estimate_method": "For the 4 worst-cell (K50/H16) and feedback episode timing, project candidate forecast cells from the 64-parent synchronized microbenchmark and add measured per-episode orchestration/plant time. Root-approved locked scope is 128 per cell on each PDE plus a separate 384-scenario Burgers baseline.",
+  "scope": "Synthetic validation scenarios only; no locked or test arrays opened.",
+  "gpu_contention_observed": "An external lace_no_v3 training process overlapped this validation-only benchmark and drove reported GPU utilization near 95%; it was not interrupted. Treat timings as conservative and shared-device measurements, not exclusive GPU benchmarks."
+}

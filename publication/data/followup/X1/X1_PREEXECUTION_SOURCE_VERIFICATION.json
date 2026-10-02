@@ -1,0 +1,26 @@
+{
+  "status": "PASS_PREEXECUTION_SOURCE_HASH_VERIFICATION",
+  "created_utc": "2026-10-02T16:34:37.706627+00:00",
+  "source_commit": "e5fd69628378e9de32a6d2f7cfd054535d5da337",
+  "source_commit_utc": "2026-10-03T00:20:46+09:00",
+  "freeze_receipt_sha256": "8289cefd75fdb232b212565cb632de3a1d25ab49c840d4e5498f6c2c4e32b623",
+  "archived_files": 11,
+  "files_sha256_verified_against_freeze_record": true,
+  "archive": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\followup_v120\\evidence\\X1_PREEXECUTION_SOURCE.zip",
+  "archive_sha256": "769e2ecbfebd0f80824efcede4954e15fdd8d48ae43b43bdf78147a445d3ea1b",
+  "archive_bytes": 23626,
+  "entries_sha256": {
+    "X1_PREEXECUTION_SOURCE/config/X1_SPEC.json": "e275613e82d0acecd21631c3e90b7b54e160e3b67521ab8b19a6ab67c9a161c7",
+    "X1_PREEXECUTION_SOURCE/config/X1_ANALYSIS_PLAN.md": "7a0bc3c5da1491f79c90a5560558d7efd55bd2bac78c68042893ff48963311ab",
+    "X1_PREEXECUTION_SOURCE/src/x1/__init__.py": "4a3abf26c68e5171fa0830637d55fff8f88b57d8aa1ba9b681457fe354b30021",
+    "X1_PREEXECUTION_SOURCE/src/x1/design.py": "dde4a579999b10d5ef85a57de5b65161524544d16fcfff57b6d7e1d9f52d1ea8",
+    "X1_PREEXECUTION_SOURCE/src/x1/solvers.py": "c604f8aa0980c73d72962648518400e54c2eff970a1660804d8d9d84611b0e46",
+    "X1_PREEXECUTION_SOURCE/scripts/x1_run.py": "de77653c38d32a4c175ff5928998789abc5c30f2be3d47c3f0d035b31599c8d8",
+    "X1_PREEXECUTION_SOURCE/scripts/verify_x1_baseline.py": "ce7a2eec7af66711855de423ddcd23a7173ec72c5539305ad6b48a645b5e265e",
+    "X1_PREEXECUTION_SOURCE/scripts/extract_x1_anchor_subset.py": "fc5171537ad9803064b413698a6729a0083a9dc6629195c9d545952dd4b0ef85",
+    "X1_PREEXECUTION_SOURCE/scripts/analyze_x1.py": "75fcb405cd7830cfbacfe7516dfeb52c7eca1a2584bf1a944024518f2cd9e85a",
+    "X1_PREEXECUTION_SOURCE/scripts/audit_x1_raw.py": "da6ce109059008b4f5d604511800e2b31e41632853395356ecba9becafcf9f58",
+    "X1_PREEXECUTION_SOURCE/tests/test_x1_design.py": "79d6e194210ac7a7196b9e6e035bd7c8e9ed5f7dab009ef7aa0ee76c48f5265c",
+    "X1_PREEXECUTION_SOURCE/evidence/X1_FREEZE_RECORD.json": "8289cefd75fdb232b212565cb632de3a1d25ab49c840d4e5498f6c2c4e32b623"
+  }
+}

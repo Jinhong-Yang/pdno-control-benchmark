@@ -1,0 +1,146 @@
+{
+  "version": "revision_v2",
+  "locked_before_revision_outcomes": true,
+  "created_utc": "2026-10-01T23:59:10.774401+00:00",
+  "post_hoc_analyses": true,
+  "E1": {
+    "methods": [
+      "O-cand-state",
+      "O-cand-obs"
+    ],
+    "original_test_parents": 1280,
+    "candidates": 10,
+    "horizon_ticks": 8,
+    "reference_grid": 256,
+    "candidate_cost_grid": 128,
+    "future_disturbance": "zero, matching original teacher counterfactuals",
+    "closed_loop_ticks": 200,
+    "oracle_state": "privileged true current state diagnostic only",
+    "oracle_obs": "7-mode B0 observation reconstruction, no true state",
+    "optional_dense": false
+  },
+  "E2": {
+    "methods": [
+      "P",
+      "B4"
+    ],
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "cache": [
+      false,
+      true
+    ],
+    "K": [
+      10,
+      25,
+      50,
+      100,
+      200
+    ],
+    "sessions": 3,
+    "requests": 5000,
+    "warmup": 50,
+    "request_reduction_reason": "Work order permits 5000 for K sweep; 180 variants imply 900000 requests before breakdown",
+    "boundary": "stored assembled observation to finite projected host action; CPU request assembly, candidate construction, H2D, inference, scoring, D2H, projection, verification included",
+    "timing_requires_exclusive_gpu": true,
+    "cache_initialization_excluded": "one-time fixed grid trunk/basis setup reported separately",
+    "K_rule": "K10 original projected 3x3 plus B0; larger K uses ceil(sqrt(K-2)) square offset grid, evenly spaced flattened grid indices for K-2 candidates, then previous action and B0; projected duplicates retained",
+    "breakdown": "separate synchronized profiling; sums of stage percentiles are not E2E percentiles",
+    "B4_rep": false
+  },
+  "E3": {
+    "pde": "burgers",
+    "methods": [
+      "P",
+      "B4"
+    ],
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "train_targets_per_factor": {
+      "1": 2048,
+      "4": 8192,
+      "16": 32768
+    },
+    "update_cap": 20000,
+    "original_3200_is_total": "2048 Burgers train +1024 heat train +64 validation per PDE",
+    "validation_unchanged": true,
+    "sweep_is_exploratory": true
+  },
+  "E4": {
+    "mandatory": "P0_1 G-B",
+    "pdes": [
+      "burgers",
+      "heat"
+    ],
+    "seed": 11,
+    "physics_balance_weights": [
+      0.01,
+      0.1,
+      1.0
+    ],
+    "ranking_weights": [
+      0.1,
+      1.0
+    ],
+    "field_updates": 2000,
+    "physics_updates": 3000,
+    "batch": 64,
+    "selection": "same validation composite and stopping as original",
+    "interpretation": "single-training-seed sensitivity, no multi-seed population mechanism claim",
+    "baseline_cell": "existing P seed11; five additional cells per PDE"
+  },
+  "E5": {
+    "distribution_change_requires_retraining": true,
+    "learned_methods": [
+      "P",
+      "P-no-rank",
+      "B4",
+      "B5",
+      "B2",
+      "B3"
+    ],
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "observer_seed": 7,
+    "train_parents": 256,
+    "validation_parents": 64,
+    "test_parents": 640,
+    "test_roles": {
+      "locked_nominal": 384,
+      "locked_coefficient_ood": 128,
+      "locked_delay_dropout": 128
+    },
+    "q_min": 0,
+    "q_max": 2.1322593092918396,
+    "q_max_source": "original train/validation derived threshold held fixed; no new test-dependent threshold",
+    "new_parent_namespace": "pdno-revision-v2-positive-heat-20261002",
+    "initial_condition": "u(x)=A sin(pi x)(0.2+v(x)^2)/max_grid[sin(pi x)(0.2+v(x)^2)], v=sum_{k=1}^8 z_k sin(k pi x)/k, z_k iid N(0,1), A Uniform(0.1,0.5)",
+    "state_metrics": [
+      "any_violation",
+      "duration_seconds",
+      "max_violation",
+      "integrated_mean_violation",
+      "squared_penalty_cost"
+    ],
+    "roundoff": "report strict violations and tolerance-qualified 1e-7 diagnostic separately; primary endpoint not silently altered"
+  },
+  "E6_E7": "original and new arrays, seed-averaged paired-parent units",
+  "E8": "optional omitted; explicitly retain 3-seed limitation",
+  "E9": "code parameters documented; tuning ledger unavailable",
+  "operational_limits": {
+    "max_new_wall_hours": 72,
+    "max_new_gpu_process_wall_hours": 24,
+    "interpretation": "conservative self-imposed upper ceilings, not prediction of required use; excludes occupied-GPU waiting; all task consumption separately recorded",
+    "avoid_existing_processes": true,
+    "bounded_retry_per_stage": 2
+  }
+}

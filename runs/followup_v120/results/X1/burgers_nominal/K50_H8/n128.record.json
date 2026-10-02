@@ -1,0 +1,36 @@
+{
+  "status": "COMPLETE",
+  "pde": "burgers",
+  "cell": {
+    "id": "K50_H8",
+    "K": 50,
+    "H": 8,
+    "feedback_rollout": false
+  },
+  "parent_count": 128,
+  "scenario_id_order": "ascending lexical scenario ID; first n only",
+  "source_data": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\data\\locked_v3\\locked_nominal\\burgers\\trajectories.npz",
+  "source_data_sha256": "3593372427758053bbf13ced3d7f4957409ba230f2fb9b89867ef24843c34e0c",
+  "config_sha256": "e275613e82d0acecd21631c3e90b7b54e160e3b67521ab8b19a6ab67c9a161c7",
+  "analysis_plan_sha256": "7a0bc3c5da1491f79c90a5560558d7efd55bd2bac78c68042893ff48963311ab",
+  "baseline_verification_sha256": "57e0c4ba78d8688845d93a90fb3195998024c468e2cdf6909bb0b80ba76bbd44",
+  "x1_source_sha256": {
+    "src\\x1\\__init__.py": "4a3abf26c68e5171fa0830637d55fff8f88b57d8aa1ba9b681457fe354b30021",
+    "src\\x1\\design.py": "dde4a579999b10d5ef85a57de5b65161524544d16fcfff57b6d7e1d9f52d1ea8",
+    "src\\x1\\solvers.py": "c604f8aa0980c73d72962648518400e54c2eff970a1660804d8d9d84611b0e46"
+  },
+  "runner_sha256": "de77653c38d32a4c175ff5928998789abc5c30f2be3d47c3f0d035b31599c8d8",
+  "git_commit": "4ef58a96bcc681c9873490bccd05872db607f735",
+  "created_utc": "2026-10-02T15:55:49Z",
+  "elapsed_seconds": 518.5764146000147,
+  "device": "NVIDIA GeForce RTX 5080",
+  "result_sha256": "4458064d1b1ab3640883e8d1775430fb6ab87f731161aa9cbad92bee8ab941cd",
+  "metrics": {
+    "mean_episode_cost": 0.2948033434347039,
+    "mean_tracking_rmse": 0.03486221922769722,
+    "hold_selection_rate": 0.0,
+    "b0_selection_rate": 0.0067578125,
+    "feedback_rollout_selection_rate": null,
+    "mean_abs_action_change": 0.00026478393204895667
+  }
+}

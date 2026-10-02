@@ -1,9 +1,9 @@
 {
   "status": "PASS_CURRENT_FIGURE_FILE_CORRESPONDENCE",
-  "figure_count": 14,
+  "figure_count": 17,
   "pending_assets": [],
-  "provenance_sha256": "b2e51f98dd5c449fa6b0447f95b8e2fd00b21364327b773cb28e529719988e92",
-  "guide_sha256": "1304453e436c29fd29d069aec4d89d5b166b7422d9557e6ae4365e5571aaa00b",
+  "provenance_sha256": "016495f2ca232291b364a53dcdf1557cbe1b30964f5ccad15897694ca39bb3be",
+  "guide_sha256": "7c53079597c7aa62565fc3b3b52ea1ad659ae2448506154e7cd3b3e7a6ba816d",
   "input_checks": [
     "data\\final_spec_v3.json",
     "figures\\fig01_design.tex",
@@ -22,7 +22,10 @@
     "data\\revision\\E2_pooled.csv",
     "data\\revision\\E2_latency_histograms.csv",
     "data\\revision\\REVISION_TRAINING_CURVES.csv",
-    "data\\revision\\REVISION_TRAINING_SELECTION.csv"
+    "data\\revision\\REVISION_TRAINING_SELECTION.csv",
+    "data\\followup\\X2\\X2a_stage_shares.csv",
+    "data\\followup\\X3\\X3_OPERATOR_SUMMARIES.json",
+    "data\\followup\\X1\\X1_ANALYSIS.csv"
   ],
   "limits": "Hash correspondence and asset existence only, not visual or scientific validation."
 }

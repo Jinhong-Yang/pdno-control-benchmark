@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "required_mean": 0.341698,
+  "absolute_mean_tolerance": 5e-07,
+  "mean_new": 0.3416981652459941,
+  "mean_archived_full_precision": 0.3416981652459941,
+  "difference_new_vs_archived": 0.0,
+  "max_paired_absolute_cost_difference": 0.0,
+  "choice_exact_agreement": 1.0,
+  "action_exact_agreement_fraction": 1.0,
+  "state_max_absolute_difference": 0.0,
+  "new_sha256": "d5718c5462b32b718ef7add3102214800cc16768af166960fe525e367f9d3415",
+  "archived_sha256": "827e8d4c090647a760ad6663c71432f5425a17f8a0c9f238f43b24bd0abe408a",
+  "new_scenario_ids_sha256": "64a5f45ba543ee075cd42be89db783a81ca5090686f5a4ccba790c35d64a5967",
+  "frozen_scenario_ids_sha256": "64a5f45ba543ee075cd42be89db783a81ca5090686f5a4ccba790c35d64a5967",
+  "interpretation": "Acceptance uses only the preregistered six-decimal rounding tolerance for both the target mean and archived raw mean; per-scenario/action/choice differences are diagnostics and cannot be tuned post hoc."
+}

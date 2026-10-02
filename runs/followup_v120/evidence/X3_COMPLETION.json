@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE_WITH_GATE_REPRODUCTION_MISMATCH",
+  "operator_count": 54,
+  "paired_vector_rows": 3456,
+  "gate_reproduction_mismatch_count": 5,
+  "summary_sha256": "f63839b109516182be2cca3834b31cd562815df45c4bf2b30ebe91019ccbbf42",
+  "paired_vectors_sha256": "c7ee45a543c99a43f4b44a6683640ca4071fb6e6944bdc3a0ac4cc55302225e7",
+  "freeze_sha256": "020797dda719cd6c4b436fa50402db6c096ce38ba793c6fb8a7147ebf3acdf48",
+  "script_sha256": "7db6684109a397736a1dcab6d5ae1ea7207bfc389e7330c25d1fdbb608617600",
+  "completed_utc": "2026-10-02T14:56:51.945016+00:00",
+  "device": "CPU"
+}

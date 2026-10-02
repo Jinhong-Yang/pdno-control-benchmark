@@ -1,19 +1,31 @@
 \begin{table*}[t]
-\caption{Original nominal parents: mean cost, tracking RMSE and excess cost relative to B0. Learned seeds are averaged within parent. Oracle rows reuse the original parents and are separate post-hoc diagnostics; State has privileged current truth and Observed uses B0 reconstruction. Original heat is distinct from the new heat population in Fig.~\ref{fig:control}.}\label{tab:nominal}
+\caption{Mean episode cost and excess cost relative to B0 across nominal and stress conditions. Burgers is the primary population; NH heat is the separate nonnegative follow-up population. Learned seeds are averaged within scenario. RS rows are follow-up reference-solver controls on the same Burgers scenarios. Paired intervals and tracking errors are in the supplementary tables.}\label{tab:nominal}
 \centering\small
 \begin{tabular}{@{}lrrrrrr@{}}\toprule
-& \multicolumn{3}{c}{Burgers} & \multicolumn{3}{c}{Original heat}\\
-\cmidrule(lr){2-4}\cmidrule(l){5-7}
-Method & Cost & RMSE & $\Delta$ (\%) & Cost & RMSE & $\Delta$ (\%)\\\midrule
-B0 & 0.266473 & 0.032749 & +0.00 & 12.055011 & 0.194435 & +0.00\\
-B1 & 0.339718 & 0.037131 & +27.49 & 13.563123 & 0.222567 & +12.51\\
-B2 & 0.278148 & 0.032973 & +4.38 & 16.883117 & 0.257170 & +40.05\\
-B3 & 0.279906 & 0.033204 & +5.04 & 16.735510 & 0.254743 & +38.83\\
-B4 & 0.340785 & 0.037201 & +27.89 & 13.700599 & 0.224151 & +13.65\\
-B5 & 0.341189 & 0.037221 & +28.04 & 13.706314 & 0.224296 & +13.70\\
-P-nr & 0.341181 & 0.037220 & +28.04 & 13.678660 & 0.223901 & +13.47\\
-P & 0.341189 & 0.037221 & +28.04 & 13.706313 & 0.224296 & +13.70\\
-Oracle: State & 0.341698 & 0.037153 & +28.23 & 13.572635 & 0.222604 & +12.59\\
-Oracle: Observed & 0.346007 & 0.037353 & +29.85 & 13.586433 & 0.222918 & +12.70\\
-\bottomrule\end{tabular}
+& \multicolumn{2}{c}{Nominal} & \multicolumn{2}{c}{Coefficient shift} & \multicolumn{2}{c}{Delay/dropout}\\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(l){6-7}
+Method & Cost & Excess (\%) & Cost & Excess (\%) & Cost & Excess (\%)\\\midrule
+\multicolumn{7}{l}{\textit{Primary Burgers}}\\
+B0 & 0.266473 & +0.00 & 0.389039 & +0.00 & 0.250153 & +0.00\\
+B1 & 0.339718 & +27.49 & 0.536929 & +38.01 & 0.312457 & +24.91\\
+B2 & 0.278148 & +4.38 & 0.411125 & +5.68 & 0.260546 & +4.15\\
+B3 & 0.279906 & +5.04 & 0.411351 & +5.74 & 0.260462 & +4.12\\
+B4 & 0.340785 & +27.89 & 0.537655 & +38.20 & 0.312714 & +25.01\\
+B5 & 0.341189 & +28.04 & 0.537780 & +38.23 & 0.312759 & +25.03\\
+P-nr & 0.341181 & +28.04 & 0.540584 & +38.95 & 0.312792 & +25.04\\
+P & 0.341189 & +28.04 & 0.537780 & +38.23 & 0.312759 & +25.03\\
+RS-true & 0.341698 & +28.23 & 0.535725 & +37.70 & 0.311253 & +24.43\\
+RS-obs & 0.346007 & +29.85 & 0.535012 & +37.52 & 0.316309 & +26.45\\
+\midrule
+\multicolumn{7}{l}{\textit{Follow-up NH heat}}\\
+B0 & 7.242664 & +0.00 & 2.871902 & +0.00 & 7.069461 & +0.00\\
+B1 & 9.118768 & +25.90 & 4.448797 & +54.91 & 8.574835 & +21.29\\
+B2 & 12.154613 & +67.82 & 7.684250 & +167.57 & 12.295526 & +73.92\\
+B3 & 12.362595 & +70.69 & 7.820357 & +172.31 & 12.469471 & +76.39\\
+B4 & 9.326493 & +28.77 & 4.638952 & +61.53 & 8.917261 & +26.14\\
+B5 & 9.231219 & +27.46 & 4.594399 & +59.98 & 8.839740 & +25.04\\
+P-nr & 9.268920 & +27.98 & 4.512963 & +57.14 & 8.905168 & +25.97\\
+P & 9.231207 & +27.46 & 4.594455 & +59.98 & 8.839717 & +25.04\\
+\bottomrule
+\end{tabular}
 \end{table*}

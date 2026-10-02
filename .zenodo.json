@@ -1,14 +1,34 @@
 {
-  "title": "PDNO Control Benchmark: Revision Experiments, Model Checkpoints, and Raw Evidence",
+  "title": "PDNO Control Benchmark: Source Code and Reproducibility Metadata (v1.2.0)",
   "upload_type": "software",
-  "description": "Code, selected model checkpoints, synthetic data, raw outcomes and request timings accompanying the submission draft When Candidate-Based Neural-Operator Control Loses to Modal Feedback: Separating Predictor Error, Controller Design, and Execution-Regime-Dependent Tail Latency in a PDE Benchmark, by Hyojin Park and Jinhong Yang. Version 1.1.0 preserves the original campaign and adds reference-solver candidate comparisons, enlarged Burgers training, a single-seed loss-weight sweep, a new nonnegative-initial-field heat evaluation, and candidate-count/cache timing probes. Includes 50 selected revision checkpoints and original protected checkpoints; binary evidence is supplied as 11 independent ZIP archives with a SHA-256 manifest. Provides figure/table regeneration, CPU implementation and checkpoint checks, and saved-array arithmetic audits. Historical runners are not a one-command fresh GPU replication interface. The findings are conditional on the executed controller designs and timing setup and do not establish deployment safety or isolated causality. IEEE manuscript templates and author portraits are excluded from the software archive. The paper is not an accepted publication. Funding: National IT Industry Promotion Agency (NIPA), Korea government (MSIT), Development of Adaptive Physics-aware Synthetic Data Generation Technology, No.RS-2026-25621689.",
+  "description": "Source code and reproducibility metadata accompanying the submission draft Candidate Design, Not Predictor Accuracy, Limits Neural-Operator Control in a PDE Benchmark, by Hyojin Park and Jinhong Yang. Version 1.2.0 adds candidate-design control experiments, saved timing-stage analyses and observer/operator error diagnostics. It preserves the primary evaluation and historical evidence. The Zenodo core contains the source ZIP, evidence manifest, checksum list and scope guide. Large raw outcomes, synthetic trajectories, checkpoints and timing arrays are provided through versioned GitHub releases; the eleven v1.1.0 evidence archives remain explicit external dependencies. CPU arithmetic reconstruction and GPU experimentation have separately documented scopes. IEEE templates, manuscript sources and author portraits are excluded from this software archive. The manuscript is not an accepted publication. Funding: National IT Industry Promotion Agency (NIPA), Korea government (MSIT), Development of Adaptive Physics-aware Synthetic Data Generation Technology, No. RS-2026-25621689.",
   "creators": [
-    {"name": "Park, Hyojin", "affiliation": "Gyeongnam Intelligence Innovation Center (GIIC), Kyungnam University, Republic of Korea"},
-    {"name": "Yang, Jinhong", "affiliation": "Department of Medical Information Technology, Inje University, Republic of Korea"}
+    {
+      "name": "Park, Hyojin",
+      "affiliation": "Gyeongnam Intelligence Innovation Center (GIIC), Kyungnam University, Republic of Korea"
+    },
+    {
+      "name": "Yang, Jinhong",
+      "affiliation": "Department of Medical Information Technology, Inje University, Republic of Korea"
+    }
   ],
-  "version": "1.1.0",
+  "version": "1.2.0",
   "access_right": "open",
   "license": "Apache-2.0",
-  "keywords": ["neural operators", "PDE control", "negative results", "tail latency", "Burgers equation", "heat equation", "reproducibility"],
-  "related_identifiers": [{"identifier": "https://github.com/Jinhong-Yang/pdno-control-benchmark", "relation": "isSupplementTo", "scheme": "url"}]
+  "keywords": [
+    "neural operators",
+    "PDE control",
+    "negative results",
+    "tail latency",
+    "Burgers equation",
+    "heat equation",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Jinhong-Yang/pdno-control-benchmark",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
 }

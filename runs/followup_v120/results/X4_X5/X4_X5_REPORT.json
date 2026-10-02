@@ -1,0 +1,213 @@
+{
+  "utc": "2026-10-02T14:48:26.829568+00:00",
+  "X4": {
+    "status": "PASS_IMPLEMENTATION_SOURCE_OBJECTIVES_DOCUMENTED",
+    "B2": "Supervised action MSE against the minimum-reference-cost candidate action; the observation encoder is frozen. This is not direct imitation of B0.",
+    "B3": "B2 initialization; optimize constant-action cost predicted through frozen B4 plus 0.1 action-MSE regularization to the same reference-solver candidate target; policy encoder frozen. Validation selects that combined surrogate-cost-plus-MSE score.",
+    "source_functions": [
+      {
+        "function": "train_direct_staged",
+        "line": 289,
+        "source": "runs/revision_v2/src/pdno/training/confirmatory.py"
+      },
+      {
+        "function": "train_b3_staged",
+        "line": 346,
+        "source": "runs/revision_v2/src/pdno/training/confirmatory.py"
+      }
+    ],
+    "limits": "Actual executed staged-trainer definitions; no claim these training objectives equal realized closed-loop cost."
+  },
+  "X5": {
+    "status": "PASS_SPECIFIED_SOURCE_INTEGRITY_CHECKS",
+    "rounded_timing_ratios": [
+      {
+        "K": 100,
+        "mean_seed_ratio": 0.780427739404292,
+        "seed_ratios": [
+          0.9455621889077819,
+          0.4121235508058555,
+          0.9835974784992386
+        ],
+        "formatted4": "0.7804"
+      },
+      {
+        "K": 200,
+        "mean_seed_ratio": 0.7804479720955951,
+        "seed_ratios": [
+          0.43430694291939437,
+          0.979841589858389,
+          0.9271953835090021
+        ],
+        "formatted4": "0.7804"
+      }
+    ],
+    "ratio_interpretation": "Distinct raw-derived point estimates round to the same four-decimal display; no copied value detected.",
+    "NH_checkpoint_comparison": [
+      {
+        "seed": 11,
+        "checkpoint_sha256": {
+          "P": "442090f3dac69036a029212ad64de5bae6ef6b01ac0745cf0a8a52ad68777626",
+          "B5": "12697767856b6a04e53ec20fde3c05876f91f4d3f3bd0e08fa720464a7ca6ac8"
+        },
+        "different_tensors": 12,
+        "total_tensors": 36,
+        "max_abs_state_difference": 0.0002586487680673599,
+        "state_difference_l2": 0.005066788173109321,
+        "metrics": {
+          "P": {
+            "validation_field_nrmse": 0.051408495754003525,
+            "selection_score": 0.025704247877001762
+          },
+          "B5": {
+            "validation_field_nrmse": 0.05140890181064606,
+            "selection_score": 0.02570445090532303
+          }
+        },
+        "formatted6": {
+          "P": {
+            "validation_field_nrmse": "0.051408",
+            "selection_score": "0.025704"
+          },
+          "B5": {
+            "validation_field_nrmse": "0.051409",
+            "selection_score": "0.025704"
+          }
+        }
+      },
+      {
+        "seed": 23,
+        "checkpoint_sha256": {
+          "P": "5dd4372da1081eba71fc1a161b79cd055e18c5b6420da2d0d6d3f738f2a484dc",
+          "B5": "658e3244891117f26eb4b9162562be41e3f79be816d6c70d7f67cf34dbefac76"
+        },
+        "different_tensors": 12,
+        "total_tensors": 36,
+        "max_abs_state_difference": 5.074404180049896e-05,
+        "state_difference_l2": 0.0009131035448416227,
+        "metrics": {
+          "P": {
+            "validation_field_nrmse": 0.051951486617326736,
+            "selection_score": 0.025975743308663368
+          },
+          "B5": {
+            "validation_field_nrmse": 0.05195160210132599,
+            "selection_score": 0.025975801050662994
+          }
+        },
+        "formatted6": {
+          "P": {
+            "validation_field_nrmse": "0.051951",
+            "selection_score": "0.025976"
+          },
+          "B5": {
+            "validation_field_nrmse": "0.051952",
+            "selection_score": "0.025976"
+          }
+        }
+      },
+      {
+        "seed": 37,
+        "checkpoint_sha256": {
+          "P": "4dd873fc99864dbde4fe4f5a0ee74e5b021101b8506d61bbc2f6a02f5b5f8066",
+          "B5": "d876ebd6d7b3fe24275e442133f2ad4b748362fb42e1e5236cbceb8e55333b0f"
+        },
+        "different_tensors": 12,
+        "total_tensors": 36,
+        "max_abs_state_difference": 1.0728836059570312e-05,
+        "state_difference_l2": 0.0002911280920907998,
+        "metrics": {
+          "P": {
+            "validation_field_nrmse": 0.052668072283267975,
+            "selection_score": 0.026334036141633987
+          },
+          "B5": {
+            "validation_field_nrmse": 0.052668120712041855,
+            "selection_score": 0.026334060356020927
+          }
+        },
+        "formatted6": {
+          "P": {
+            "validation_field_nrmse": "0.052668",
+            "selection_score": "0.026334"
+          },
+          "B5": {
+            "validation_field_nrmse": "0.052668",
+            "selection_score": "0.026334"
+          }
+        }
+      }
+    ],
+    "NH_metric_interpretation": "Checkpoint hashes and tensors differ. Inspect per-seed formatted values rather than assuming all composite/nRMSE pairs agree to six decimals.",
+    "SH_weight_baseline": {
+      "seed11_mean_cost": 13.751036464184628,
+      "three_seed_means": [
+        13.751036464184628,
+        13.682524308287052,
+        13.6853795919367
+      ],
+      "three_seed_mean_cost": 13.706313454802794,
+      "B0_mean_cost": 12.055011377213518,
+      "seed11_excess": 0.140690459253896,
+      "three_seed_excess": 0.1369805490777538,
+      "baseline_source_kind": "original_P_seed11_baseline"
+    },
+    "weight_interpretation": "The0.01physics/0.1ranking reference cell is primary P seed11, not a new fit. Its14.07percent and three-seed13.70percent use different seed aggregation. Other weight cells remain genuine single-seed sensitivity results."
+  },
+  "input_sha256": {
+    "runs/revision_v2/src/pdno/training/confirmatory.py": "8dddb65948e9cf698325720a74fda5d2496dfe3f6108b12c66973c55547bcd30",
+    "runs/revision_v2/src/pdno/data/teacher_queries.py": "faf7ec46c4c8f1ae67515ae804d8d2f0b65ababcfe47f68587361058416fe707",
+    "runs/revision_v2/src/pdno/controllers/objectives.py": "313ebd60bc2b873fbf25bc530c88077cded936f825cf1d9cfb5f73bd1418958e",
+    "runs/revision_v2/results/E2_ratio_bootstrap.csv": "044aec3379f660f636203404946e34648388ab3dd1ee3fa740e97d0a7c7dfc3b",
+    "runs/revision_v2/results/E2_raw/session1_burgers_P_s11_K100_cache1.npz": "5134a06c11c8ed996528651b780a352c48a1455968b461d6f771342bbc4fe537",
+    "runs/revision_v2/results/E2_raw/session2_burgers_P_s11_K100_cache1.npz": "54c27195fabd84acfcd8a793f8b479b3080a4c97623a831435b1438bdb7c4620",
+    "runs/revision_v2/results/E2_raw/session3_burgers_P_s11_K100_cache1.npz": "247e00e8dff2a5fd4206df3d9b2cf56d7390e120a981212f66ecde1480ffbbe5",
+    "runs/revision_v2/results/E2_raw/session1_burgers_B4_s11_K100_cache1.npz": "f96801add2382937868c228a7f8d2bcee87db7019d6863ddaabb381e59d6e307",
+    "runs/revision_v2/results/E2_raw/session2_burgers_B4_s11_K100_cache1.npz": "1f0b93e77ffed8000dfc6b027f5f4ec03f1416159b0a37e059b53c5bc73c43a7",
+    "runs/revision_v2/results/E2_raw/session3_burgers_B4_s11_K100_cache1.npz": "91d22546fd63b3c4b7c123b8235f07ae6e500a785503abf699340d60ee325b76",
+    "runs/revision_v2/results/E2_raw/session1_burgers_P_s23_K100_cache1.npz": "d238bc351a6e35361ec6501f9f83a12d78a3bca7bcac1b42736e11078728d44e",
+    "runs/revision_v2/results/E2_raw/session2_burgers_P_s23_K100_cache1.npz": "7d623d21513989b44cc992811b671eabb7632635952fea96d715750a1d84e7b1",
+    "runs/revision_v2/results/E2_raw/session3_burgers_P_s23_K100_cache1.npz": "693ff9e6ac6a70183aec1e77448e15fa1d9c7eb21eae0cb287ef0669578fc5e5",
+    "runs/revision_v2/results/E2_raw/session1_burgers_B4_s23_K100_cache1.npz": "98f617f8f6ad1263f72ed1800ccd40ff084dfc40f447bf57286af9d46f9ee57f",
+    "runs/revision_v2/results/E2_raw/session2_burgers_B4_s23_K100_cache1.npz": "682ca0bfcd28d37a74895253311aeddfbe97b2be07f5d09a82e9c5ee5d9e5711",
+    "runs/revision_v2/results/E2_raw/session3_burgers_B4_s23_K100_cache1.npz": "fb6b42bc9437d71851bef3f789ca0264b424a0ee1c15e42b2a9d75e3af728add",
+    "runs/revision_v2/results/E2_raw/session1_burgers_P_s37_K100_cache1.npz": "71aaa01e1a1aa8f71e45b929d0d862f3ff9eb19df83f965d2958b0c2420e56e3",
+    "runs/revision_v2/results/E2_raw/session2_burgers_P_s37_K100_cache1.npz": "a9accf2850bdb9b04765c1c60445f405ace9e59c2036a0de0695dcd90caf55e4",
+    "runs/revision_v2/results/E2_raw/session3_burgers_P_s37_K100_cache1.npz": "cf39d8261891a938647e8c394a1d7333ba47498cead0fbe6b5392e597c76df7d",
+    "runs/revision_v2/results/E2_raw/session1_burgers_B4_s37_K100_cache1.npz": "c9c7362de4b73b084b7c278b02c6215962d37f89c5e91d7d312451901efeb43a",
+    "runs/revision_v2/results/E2_raw/session2_burgers_B4_s37_K100_cache1.npz": "9e866dfce847694614839efa5ff3f73e914a2dafa946d39b4eb9e3a4e72e6582",
+    "runs/revision_v2/results/E2_raw/session3_burgers_B4_s37_K100_cache1.npz": "56316323a4a15cefbdcd4b418ef753c852c03a3a44ee18ae5d776fda2818cd21",
+    "runs/revision_v2/results/E2_raw/session1_burgers_P_s11_K200_cache1.npz": "7b43299be1e91d786d015b6274ef4c520700bf6a5c90028e6cdfe0b83bbd1dff",
+    "runs/revision_v2/results/E2_raw/session2_burgers_P_s11_K200_cache1.npz": "1ee547a56d3e4d46f70a742ded5664f1b3d772d28d567f680dfda462836b98b9",
+    "runs/revision_v2/results/E2_raw/session3_burgers_P_s11_K200_cache1.npz": "bc7f3c8ad6df4a4f2cb0dc259709b81967b00c936318aa678acc369c3fba8efd",
+    "runs/revision_v2/results/E2_raw/session1_burgers_B4_s11_K200_cache1.npz": "3fc6ad3e7b0ff6c1c10d814af3c068e8717ad1f8f8b420c33f761b257638d432",
+    "runs/revision_v2/results/E2_raw/session2_burgers_B4_s11_K200_cache1.npz": "2a8c39cc2fd959449f101df8042a3ce12a4ad6c8c95fceda4bd5a92b8608018f",
+    "runs/revision_v2/results/E2_raw/session3_burgers_B4_s11_K200_cache1.npz": "d2e7497aace7c1ee50d96446a5bef162d87fee8d929db686628efe1d6229d582",
+    "runs/revision_v2/results/E2_raw/session1_burgers_P_s23_K200_cache1.npz": "23ce26d0d5ef210c110a363f10fc9ca01aabe6da4e8757be62ab3dc7bdf9bd6f",
+    "runs/revision_v2/results/E2_raw/session2_burgers_P_s23_K200_cache1.npz": "cc7771571fad0698d9546d0ce305a670be2daeeeb7aa29c5299cfcf0f901a879",
+    "runs/revision_v2/results/E2_raw/session3_burgers_P_s23_K200_cache1.npz": "6634e8a8b68cd65d33378ec27fb9ceb97c0e2225f517302029b0e3d37eddaf89",
+    "runs/revision_v2/results/E2_raw/session1_burgers_B4_s23_K200_cache1.npz": "ff0d3507493ee31273f8d6a83a1028565ea44e19835180b671b13874d8187d47",
+    "runs/revision_v2/results/E2_raw/session2_burgers_B4_s23_K200_cache1.npz": "f00b739dd2cac54c3d5d03d48e980e20977dc9148c84ed5760a262b2448fa705",
+    "runs/revision_v2/results/E2_raw/session3_burgers_B4_s23_K200_cache1.npz": "2739d24dfd1bc97ab70822af38a1f43c8a4e9f73f196627b0040e6c3c4505d93",
+    "runs/revision_v2/results/E2_raw/session1_burgers_P_s37_K200_cache1.npz": "9a4b321d47afe5eac52088f056fefb740ecb1a5fc308ddb25cb2e6a1c077822b",
+    "runs/revision_v2/results/E2_raw/session2_burgers_P_s37_K200_cache1.npz": "82aa7cf40c5820078882439470f4b1d933c0ede44d13587c26b14f80506a808d",
+    "runs/revision_v2/results/E2_raw/session3_burgers_P_s37_K200_cache1.npz": "60cb72480445ecf87ceeb27a3fc17dd1d55a995134829de1dbf4aaf7163a2278",
+    "runs/revision_v2/results/E2_raw/session1_burgers_B4_s37_K200_cache1.npz": "51856a6fe9ac1f397b236c7e34d4aefc71da8f4f9216248d5309054d3a3a1c7e",
+    "runs/revision_v2/results/E2_raw/session2_burgers_B4_s37_K200_cache1.npz": "9b066ad54f3de31e66575269b8caecfdc64bf6188024694f0e1f831bfef9f3d5",
+    "runs/revision_v2/results/E2_raw/session3_burgers_B4_s37_K200_cache1.npz": "7337ae9cfbad47481080f189a36495c7c4f20bc43d2f73d2e6f5586c78a6cb79",
+    "runs/revision_v2/results/REVISION_TRAINING_SELECTION.csv": "7510cf96d86f80ecc0698aaeb49e8f964d4cc683b2925758513ea26f26fdffe9",
+    "runs/revision_v2/checkpoints/E5/P_s11.pt": "442090f3dac69036a029212ad64de5bae6ef6b01ac0745cf0a8a52ad68777626",
+    "runs/revision_v2/checkpoints/E5/B5_s11.pt": "12697767856b6a04e53ec20fde3c05876f91f4d3f3bd0e08fa720464a7ca6ac8",
+    "runs/revision_v2/checkpoints/E5/P_s23.pt": "5dd4372da1081eba71fc1a161b79cd055e18c5b6420da2d0d6d3f738f2a484dc",
+    "runs/revision_v2/checkpoints/E5/B5_s23.pt": "658e3244891117f26eb4b9162562be41e3f79be816d6c70d7f67cf34dbefac76",
+    "runs/revision_v2/checkpoints/E5/P_s37.pt": "4dd873fc99864dbde4fe4f5a0ee74e5b021101b8506d61bbc2f6a02f5b5f8066",
+    "runs/revision_v2/checkpoints/E5/B5_s37.pt": "d876ebd6d7b3fe24275e442133f2ad4b748362fb42e1e5236cbceb8e55333b0f",
+    "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/P_s11.npz": "050338f6e7f5be9b302bed242debae31bb5ac629197294791033c3d41b8981d0",
+    "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/P_s23.npz": "e0d705b05167c93035495a464661c3dfa8f15b9da1292d9a6e76d210f7de9b17",
+    "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/P_s37.npz": "05a4a8ee9cc26075479d21af5b85fcede3c5da51d897cd404d56c610e0b6f9c9",
+    "experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/heat/B0_sna.npz": "5e08db1436df14638505dd427d0ce49cd3479db386eee1273289a9fbf7e57d26",
+    "runs/revision_v2/results/REVISION_COST_SUMMARY.csv": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+  },
+  "script_sha256": "1fdf6de120ad9982222037a04ad55d5d38438abadf585eeb92e8bde919bc5585",
+  "limits": "Read-only arithmetic/source review; no training, GPU timing or primary-endpoint changes."
+}

@@ -1,0 +1,126 @@
+{
+  "status": "PASS_PAIRED_ARITHMETIC_WITH_GATE_REPRODUCTION_MISMATCH",
+  "created_utc": "2026-10-02T14:58:49.233743+00:00",
+  "summary_sha256": "f63839b109516182be2cca3834b31cd562815df45c4bf2b30ebe91019ccbbf42",
+  "paired_vectors_sha256": "c7ee45a543c99a43f4b44a6683640ca4071fb6e6944bdc3a0ac4cc55302225e7",
+  "operator_count": 54,
+  "paired_parent_rows": 3456,
+  "reaggregated_scalar_metrics_max_abs_error": 1.0212188011893275e-08,
+  "error_vector_identity_max_abs_error": 1.1172300418138548e-08,
+  "prediction_target_reference_hashes_present": true,
+  "raw_target_hash_mismatches": [],
+  "branch_mismatches": [],
+  "four_decimal_gate_mismatch_count": 5,
+  "max_abs_Etotal_gate_difference": 1.7717480659484863e-05,
+  "gate_mismatches": [
+    {
+      "stage": "primary",
+      "pde": "heat",
+      "method": "P-no-rank",
+      "seed": 23,
+      "target_factor": null,
+      "cpu_E_total": 0.08245038986206055,
+      "frozen_gate_E_total": 0.08244631439447403,
+      "absolute_difference": 4.075467586517334e-06,
+      "cpu_4dp": "0.0825",
+      "gate_4dp": "0.0824"
+    },
+    {
+      "stage": "expanded_burgers",
+      "pde": "burgers",
+      "method": "B4",
+      "seed": 11,
+      "target_factor": 16,
+      "cpu_E_total": 0.10805147141218185,
+      "frozen_gate_E_total": 0.10804809629917145,
+      "absolute_difference": 3.375113010406494e-06,
+      "cpu_4dp": "0.1081",
+      "gate_4dp": "0.1080"
+    },
+    {
+      "stage": "expanded_burgers",
+      "pde": "burgers",
+      "method": "B4",
+      "seed": 37,
+      "target_factor": 16,
+      "cpu_E_total": 0.10615088045597076,
+      "frozen_gate_E_total": 0.10614924132823944,
+      "absolute_difference": 1.6391277313232422e-06,
+      "cpu_4dp": "0.1062",
+      "gate_4dp": "0.1061"
+    },
+    {
+      "stage": "nonnegative_heat",
+      "pde": "heat",
+      "method": "P",
+      "seed": 23,
+      "target_factor": null,
+      "cpu_E_total": 0.051948487758636475,
+      "frozen_gate_E_total": 0.051951486617326736,
+      "absolute_difference": 2.998858690261841e-06,
+      "cpu_4dp": "0.0519",
+      "gate_4dp": "0.0520"
+    },
+    {
+      "stage": "nonnegative_heat",
+      "pde": "heat",
+      "method": "B5",
+      "seed": 23,
+      "target_factor": null,
+      "cpu_E_total": 0.05194860324263573,
+      "frozen_gate_E_total": 0.05195160210132599,
+      "absolute_difference": 2.998858690261841e-06,
+      "cpu_4dp": "0.0519",
+      "gate_4dp": "0.0520"
+    }
+  ],
+  "group_summaries": [
+    {
+      "stage": "primary",
+      "pde": "burgers",
+      "operators": 12,
+      "ratio_min": 0.386175357447121,
+      "ratio_max": 0.39523535088799894,
+      "branches": {
+        "operator_error_substantial": 12
+      }
+    },
+    {
+      "stage": "primary",
+      "pde": "heat",
+      "operators": 12,
+      "ratio_min": 0.6805756048393856,
+      "ratio_max": 0.7458436769952126,
+      "branches": {
+        "both_contributions_present": 12
+      }
+    },
+    {
+      "stage": "expanded_burgers",
+      "pde": "burgers",
+      "operators": 18,
+      "ratio_min": 0.48207302680862096,
+      "ratio_max": 0.5710818642229591,
+      "branches": {
+        "both_contributions_present": 16,
+        "operator_error_substantial": 2
+      }
+    },
+    {
+      "stage": "nonnegative_heat",
+      "pde": "heat",
+      "operators": 12,
+      "ratio_min": 0.5727327970610174,
+      "ratio_max": 0.5871734088890003,
+      "branches": {
+        "both_contributions_present": 12
+      }
+    }
+  ],
+  "interpretation": "Gate values are preserved. Any four-decimal mismatches remain acceptance failures; no saved gate or recomputed result was substituted.",
+  "limits": [
+    "Validation-only, parent-clustered paired diagnostics.",
+    "Norm ratios are descriptive and are not explained-variance or causal shares.",
+    "Reference future targets follow the zero-future-disturbance teacher-query counterfactual contract."
+  ]
+}

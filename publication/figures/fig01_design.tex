@@ -69,7 +69,7 @@
 \draw[flow,draw=blue] (br.east)--(bf.west);
 \draw[flow,draw=blue] (bf.east)--(bs.west);
 \node[note,anchor=west,text=green,font=\bfseries\fontsize{9}{11}\selectfont]
-  at (.35,7.28) {O-cand \enspace Reference-solver diagnostic};
+  at (.35,7.28) {RS-true / RS-obs \enspace Reference-solver diagnostic};
 \node[box,draw=green,fill=greenbg] (oi) at (2.25,8.08)
   {\textbf{Initialize state}\\Truth / B0 estimate};
 \node[box,draw=green,fill=greenbg] (or) at (6.75,8.08)
@@ -86,14 +86,14 @@
   {\textbf{Control:} $K=10$, eight-step horizon. \quad
    \textbf{Timing:} $K=10,25,50,100,200$; cache off / on.\\
    Fixed-grid trunk and spatial-basis caches are specific to each frozen model; encoding remains once per request.};
-\node[head] at (.28,10.22) {(c) Original campaign and separately identified revision evidence};
+\node[head] at (.28,10.22) {(c) Primary evaluation / Follow-up diagnostics};
 \node[box,text width=3.48cm,minimum height=1.55cm,fill=panelbg] at (2.25,11.46)
-  {\textbf{Development / freeze}\\Parent-separated training\\Validation and calibration};
+  {\textbf{Development / freeze}\\Scenario-separated training\\Validation and calibration};
 \node[box,text width=3.48cm,minimum height=1.55cm,fill=panelbg] at (6.75,11.46)
-  {\textbf{Original control test}\\1,280 test parents\\25,600 executions};
+  {\textbf{Primary control evaluation}\\1,280 test scenarios\\25,600 executions};
 \node[box,text width=3.48cm,minimum height=1.55cm,fill=panelbg] at (11.25,11.46)
-  {\textbf{Original timing replay}\\Ready observations\\2.4 million requests};
+  {\textbf{Primary timing replay}\\Stored observations\\2.4 million requests};
 \node[box,text width=3.48cm,minimum height=1.55cm,fill=greenbg,draw=green] at (15.75,11.46)
-  {\textbf{Revision experiments}\\Oracles; cache / candidate count\\Budget; losses; new heat};
+  {\textbf{Follow-up diagnostics}\\RS controls; timing analysis\\Design; errors; NH heat};
 \end{tikzpicture}
 \end{document}

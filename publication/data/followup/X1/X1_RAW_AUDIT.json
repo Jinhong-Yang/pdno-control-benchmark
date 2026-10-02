@@ -1,0 +1,187 @@
+{
+  "status": "PASS",
+  "checked_arrays": 18,
+  "checks": [
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\followup_v120\\results\\X1\\burgers_nominal\\K10_H1\\n128.npz",
+      "sha256": "87a4deccdf6fbc901234bca3aa3d655ede8613abee622ce2382fb316e36cabdc",
+      "n": 128,
+      "rows_verified": 128,
+      "mean_cost": 0.3227034478844262,
+      "min_choice": 4,
+      "max_choice": 9,
+      "status": "PASS_RAW_ARRAY_RECONSTRUCTION"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\followup_v120\\results\\X1\\burgers_nominal\\K10_H4\\n128.npz",
+      "sha256": "023a9ce7544f72b4563e3fe7d770c7f627bc9f9e5f09415e6278e2fe5da55489",
+      "n": 128,
+      "rows_verified": 128,
+      "mean_cost": 0.3223899558785931,
+      "min_choice": 4,
+      "max_choice": 9,
+      "status": "PASS_RAW_ARRAY_RECONSTRUCTION"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\followup_v120\\results\\X1\\burgers_nominal\\K10_H8\\n128.npz",
+      "sha256": "0a84943d2bf27726196a0f1161a51cf320f477be0bdf76a5292698d1528241e2",
+      "n": 128,
+      "rows_verified": 128,
+      "mean_cost": 0.3231702119031551,
+      "min_choice": 1,
+      "max_choice": 9,
+      "status": "PASS_RAW_ARRAY_RECONSTRUCTION"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\followup_v120\\results\\X1\\burgers_nominal\\K10_H16\\n128.npz",
+      "sha256": "e7cc67c534cd5b21db59edf19bb8b1360373aa62e8b6a18b3f30162ff6754b50",
+      "n": 128,
+      "rows_verified": 128,
+      "mean_cost": 0.325488888332723,
+      "min_choice": 1,
+      "max_choice": 9,
+      "status": "PASS_RAW_ARRAY_RECONSTRUCTION"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\followup_v120\\results\\X1\\burgers_nominal\\K50_H1\\n128.npz",
+      "sha256": "7ad58e353a6c4e64b422ad4b413a402c3881d88c0ad0bd0e0433a0b2ad431b63",
+      "n": 128,
+      "rows_verified": 128,
+      "mean_cost": 0.321134825257887,
+      "min_choice": 17,
+      "max_choice": 49,
+      "status": "PASS_RAW_ARRAY_RECONSTRUCTION"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\followup_v120\\results\\X1\\burgers_nominal\\K50_H4\\n128.npz",
+      "sha256": "02bed40c72e3954b14e90d6e1f6ec514a15c1b42a99269dfafb59569a3d4beeb",
+      "n": 128,
+      "rows_verified": 128,
+      "mean_cost": 0.30078100327986046,
+      "min_choice": 17,
+      "max_choice": 49,
+      "status": "PASS_RAW_ARRAY_RECONSTRUCTION"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\followup_v120\\results\\X1\\burgers_nominal\\K50_H8\\n128.npz",
+      "sha256": "4458064d1b1ab3640883e8d1775430fb6ab87f731161aa9cbad92bee8ab941cd",
+      "n": 128,
+      "rows_verified": 128,
+      "mean_cost": 0.2948033434347039,
+      "min_choice": 10,
+      "max_choice": 49,
+      "status": "PASS_RAW_ARRAY_RECONSTRUCTION"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\followup_v120\\results\\X1\\burgers_nominal\\K50_H16\\n128.npz",
+      "sha256": "ffa285c1576bb2d108d8d44dbf34342235514f75d7468d5877dddb7c9a3f2de2",
+      "n": 128,
+      "rows_verified": 128,
+      "mean_cost": 0.2728250628913188,
+      "min_choice": 4,
+      "max_choice": 49,
+      "status": "PASS_RAW_ARRAY_RECONSTRUCTION"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\followup_v120\\results\\X1\\burgers_nominal\\K10_H8_FB\\n128.npz",
+      "sha256": "c92d8e7a8b48f2256c41b26c4b18bb694266cca6802691dc0887332f9c5e99f7",
+      "n": 128,
+      "rows_verified": 128,
+      "mean_cost": 0.33566856837849074,
+      "min_choice": 4,
+      "max_choice": 10,
+      "status": "PASS_RAW_ARRAY_RECONSTRUCTION"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\followup_v120\\results\\X1\\heat_nonnegative_nominal\\K10_H1\\n128.npz",
+      "sha256": "aec933d64904fe95362de2c521bfc4ed8e8c78e9443de7a8aa3adbb2450e4626",
+      "n": 128,
+      "rows_verified": 128,
+      "mean_cost": 19.088134389644402,
+      "min_choice": 0,
+      "max_choice": 4,
+      "status": "PASS_RAW_ARRAY_RECONSTRUCTION"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\followup_v120\\results\\X1\\heat_nonnegative_nominal\\K10_H4\\n128.npz",
+      "sha256": "df55c16ac7265e4bf5a18f0f2d51d8d316364ad0af1c367a74ed99a967342cb1",
+      "n": 128,
+      "rows_verified": 128,
+      "mean_cost": 13.898913999597807,
+      "min_choice": 0,
+      "max_choice": 9,
+      "status": "PASS_RAW_ARRAY_RECONSTRUCTION"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\followup_v120\\results\\X1\\heat_nonnegative_nominal\\K10_H8\\n128.npz",
+      "sha256": "122e7c6c23dab09fad9a0991fd7cf1112ecd76e61f3550fcccda89b71ee7bbfe",
+      "n": 128,
+      "rows_verified": 128,
+      "mean_cost": 9.074213681801133,
+      "min_choice": 0,
+      "max_choice": 9,
+      "status": "PASS_RAW_ARRAY_RECONSTRUCTION"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\followup_v120\\results\\X1\\heat_nonnegative_nominal\\K10_H16\\n128.npz",
+      "sha256": "ac0bceefc06efa599aae95705dd9e4b3aa4ce6348c9c21ae3d411807e03f7837",
+      "n": 128,
+      "rows_verified": 128,
+      "mean_cost": 7.570577624012409,
+      "min_choice": 0,
+      "max_choice": 9,
+      "status": "PASS_RAW_ARRAY_RECONSTRUCTION"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\followup_v120\\results\\X1\\heat_nonnegative_nominal\\K50_H1\\n128.npz",
+      "sha256": "236316bab7d16a5e062f832b4b039b051f694990508be84796d11654a3916179",
+      "n": 128,
+      "rows_verified": 128,
+      "mean_cost": 25.012587269564303,
+      "min_choice": 9,
+      "max_choice": 32,
+      "status": "PASS_RAW_ARRAY_RECONSTRUCTION"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\followup_v120\\results\\X1\\heat_nonnegative_nominal\\K50_H4\\n128.npz",
+      "sha256": "9363936c72bc41e1dad7ada8dbf128df0b8329a14cd1f35523a843325d511c89",
+      "n": 128,
+      "rows_verified": 128,
+      "mean_cost": 14.37645276859808,
+      "min_choice": 1,
+      "max_choice": 47,
+      "status": "PASS_RAW_ARRAY_RECONSTRUCTION"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\followup_v120\\results\\X1\\heat_nonnegative_nominal\\K50_H8\\n128.npz",
+      "sha256": "15a174144067404949e86825e28b816789b8179af46bc791dd53a472986407f2",
+      "n": 128,
+      "rows_verified": 128,
+      "mean_cost": 9.84341921295098,
+      "min_choice": 0,
+      "max_choice": 49,
+      "status": "PASS_RAW_ARRAY_RECONSTRUCTION"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\followup_v120\\results\\X1\\heat_nonnegative_nominal\\K50_H16\\n128.npz",
+      "sha256": "3df2bd574abab3ad719b1f4335173a2bf403fccdda6d8fcbfded1bcd775a8621",
+      "n": 128,
+      "rows_verified": 128,
+      "mean_cost": 7.911430442872497,
+      "min_choice": 0,
+      "max_choice": 49,
+      "status": "PASS_RAW_ARRAY_RECONSTRUCTION"
+    },
+    {
+      "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\runs\\followup_v120\\results\\X1\\heat_nonnegative_nominal\\K10_H8_FB\\n128.npz",
+      "sha256": "3f29d2d75786283abf661c4058509cf0205832e7aa21e10cfaa7f9a26a5ff2b4",
+      "n": 128,
+      "rows_verified": 128,
+      "mean_cost": 8.233100251263963,
+      "min_choice": 0,
+      "max_choice": 10,
+      "status": "PASS_RAW_ARRAY_RECONSTRUCTION"
+    }
+  ],
+  "scope": "Raw state/action/cost/choice arithmetic and common first128 cohort only; not solver-source or independent physics validation."
+}

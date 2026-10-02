@@ -1,0 +1,55 @@
+\begin{table}[!ht]
+\centering\small
+\caption{Primary allocation: Burgers, 2,048 reference-solver training targets from the same 512 scenarios. Selected update follows the recorded composite criterion. D3 refits one shared observer per target factor; it is a joint pipeline-budget comparison.}\label{tab:scaling_original_1}
+\begin{tabular}{@{}llrrrr@{}}\toprule
+Method & Seed & Actual updates & Selected update & nRMSE & $\leq0.05$\\\midrule
+B4 & 11 & 5000 & 5000 & 0.1588 & No\\
+B4 & 23 & 5000 & 5000 & 0.1591 & No\\
+B4 & 37 & 5000 & 5000 & 0.1592 & No\\
+P & 11 & 5000 & 5000 & 0.1583 & No\\
+P & 23 & 5000 & 5000 & 0.1598 & No\\
+P & 37 & 5000 & 5000 & 0.1618 & No\\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{table}[!ht]
+\centering\small
+\caption{D3, target factor 1: Burgers, 2,048 reference-solver training targets from the same 512 scenarios. Selected update follows the recorded composite criterion. D3 refits one shared observer per target factor; it is a joint pipeline-budget comparison.}\label{tab:scaling_E3_1}
+\begin{tabular}{@{}llrrrr@{}}\toprule
+Method & Seed & Actual updates & Selected update & nRMSE & $\leq0.05$\\\midrule
+B4 & 11 & 18500 & 18500 & 0.0829 & No\\
+B4 & 23 & 15000 & 15000 & 0.0884 & No\\
+B4 & 37 & 15000 & 14500 & 0.0890 & No\\
+P & 11 & 12000 & 11500 & 0.0982 & No\\
+P & 23 & 14000 & 14000 & 0.0972 & No\\
+P & 37 & 18000 & 17500 & 0.0885 & No\\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{table}[!ht]
+\centering\small
+\caption{D3, target factor 4: Burgers, 8,192 reference-solver training targets from the same 512 scenarios. Selected update follows the recorded composite criterion. D3 refits one shared observer per target factor; it is a joint pipeline-budget comparison.}\label{tab:scaling_E3_4}
+\begin{tabular}{@{}llrrrr@{}}\toprule
+Method & Seed & Actual updates & Selected update & nRMSE & $\leq0.05$\\\midrule
+B4 & 11 & 14500 & 14500 & 0.1056 & No\\
+B4 & 23 & 19500 & 19000 & 0.1025 & No\\
+B4 & 37 & 19500 & 19500 & 0.1010 & No\\
+P & 11 & 16500 & 14500 & 0.1065 & No\\
+P & 23 & 15500 & 15500 & 0.1067 & No\\
+P & 37 & 16500 & 15000 & 0.1061 & No\\
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{table}[!ht]
+\centering\small
+\caption{D3, target factor 16: Burgers, 32,768 reference-solver training targets from the same 512 scenarios. Selected update follows the recorded composite criterion. D3 refits one shared observer per target factor; it is a joint pipeline-budget comparison.}\label{tab:scaling_E3_16}
+\begin{tabular}{@{}llrrrr@{}}\toprule
+Method & Seed & Actual updates & Selected update & nRMSE & $\leq0.05$\\\midrule
+B4 & 11 & 17000 & 14500 & 0.1080 & No\\
+B4 & 23 & 15500 & 15000 & 0.1072 & No\\
+B4 & 37 & 16500 & 15500 & 0.1061 & No\\
+P & 11 & 15000 & 14500 & 0.1091 & No\\
+P & 23 & 15500 & 15500 & 0.1086 & No\\
+P & 37 & 16500 & 16000 & 0.1075 & No\\
+\bottomrule\end{tabular}
+\end{table}

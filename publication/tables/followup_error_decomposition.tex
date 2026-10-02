@@ -1,0 +1,75 @@
+\begin{table}[ht]
+\centering\small
+\caption{Follow-up error decomposition: primary checkpoints. CPU diagnostic norms are not additive; the propagated-error ratio is not explained variance. Persist denotes the persistence forecast error.}
+\begin{tabular}{@{}llrrrrrrrr@{}}\toprule
+PDE & Method & Seed & Factor & $E_{\rm obs}$ & $E_{\rm prop}$ & $E_{\rm total}$ & $E_{\rm op}$ & Persist & Ratio\\\midrule
+Burgers & B4 & 11 & -- & 0.0937 & 0.0626 & 0.1588 & 0.1376 & 0.3467 & 0.3938\\
+Burgers & B4 & 23 & -- & 0.0937 & 0.0626 & 0.1591 & 0.1378 & 0.3467 & 0.3931\\
+Burgers & B4 & 37 & -- & 0.0937 & 0.0626 & 0.1592 & 0.1384 & 0.3467 & 0.3929\\
+Burgers & B5 & 11 & -- & 0.0937 & 0.0626 & 0.1583 & 0.1377 & 0.3467 & 0.3952\\
+Burgers & B5 & 23 & -- & 0.0937 & 0.0626 & 0.1598 & 0.1391 & 0.3467 & 0.3914\\
+Burgers & B5 & 37 & -- & 0.0937 & 0.0626 & 0.1618 & 0.1403 & 0.3467 & 0.3865\\
+Burgers & P-nr & 11 & -- & 0.0937 & 0.0626 & 0.1585 & 0.1378 & 0.3467 & 0.3947\\
+Burgers & P-nr & 23 & -- & 0.0937 & 0.0626 & 0.1599 & 0.1392 & 0.3467 & 0.3911\\
+Burgers & P-nr & 37 & -- & 0.0937 & 0.0626 & 0.1620 & 0.1404 & 0.3467 & 0.3862\\
+Burgers & P & 11 & -- & 0.0937 & 0.0626 & 0.1583 & 0.1377 & 0.3467 & 0.3952\\
+Burgers & P & 23 & -- & 0.0937 & 0.0626 & 0.1598 & 0.1391 & 0.3467 & 0.3914\\
+Burgers & P & 37 & -- & 0.0937 & 0.0626 & 0.1618 & 0.1403 & 0.3467 & 0.3865\\
+SH heat & B4 & 11 & -- & 0.0819 & 0.0574 & 0.0834 & 0.0634 & 0.1772 & 0.6886\\
+SH heat & B4 & 23 & -- & 0.0819 & 0.0574 & 0.0842 & 0.0645 & 0.1772 & 0.6824\\
+SH heat & B4 & 37 & -- & 0.0819 & 0.0574 & 0.0831 & 0.0628 & 0.1772 & 0.6915\\
+SH heat & B5 & 11 & -- & 0.0819 & 0.0574 & 0.0789 & 0.0572 & 0.1772 & 0.7282\\
+SH heat & B5 & 23 & -- & 0.0819 & 0.0574 & 0.0835 & 0.0635 & 0.1772 & 0.6876\\
+SH heat & B5 & 37 & -- & 0.0819 & 0.0574 & 0.0844 & 0.0647 & 0.1772 & 0.6806\\
+SH heat & P-nr & 11 & -- & 0.0819 & 0.0574 & 0.0770 & 0.0549 & 0.1772 & 0.7458\\
+SH heat & P-nr & 23 & -- & 0.0819 & 0.0574 & 0.0825 & 0.0625 & 0.1772 & 0.6967\\
+SH heat & P-nr & 37 & -- & 0.0819 & 0.0574 & 0.0840 & 0.0642 & 0.1772 & 0.6837\\
+SH heat & P & 11 & -- & 0.0819 & 0.0574 & 0.0789 & 0.0572 & 0.1772 & 0.7282\\
+SH heat & P & 23 & -- & 0.0819 & 0.0574 & 0.0835 & 0.0635 & 0.1772 & 0.6876\\
+SH heat & P & 37 & -- & 0.0819 & 0.0574 & 0.0844 & 0.0647 & 0.1772 & 0.6806\\
+\bottomrule\end{tabular}
+\end{table}
+\begin{table}[ht]
+\centering\small
+\caption{Follow-up error decomposition: expanded-target Burgers checkpoints. CPU diagnostic norms are not additive; the propagated-error ratio is not explained variance. Persist denotes the persistence forecast error.}
+\begin{tabular}{@{}llrrrrrrrr@{}}\toprule
+PDE & Method & Seed & Factor & $E_{\rm obs}$ & $E_{\rm prop}$ & $E_{\rm total}$ & $E_{\rm op}$ & Persist & Ratio\\\midrule
+Burgers & B4 & 11 & 16 & 0.0839 & 0.0560 & 0.1081 & 0.0920 & 0.3368 & 0.5185\\
+Burgers & B4 & 23 & 16 & 0.0839 & 0.0560 & 0.1072 & 0.0912 & 0.3368 & 0.5225\\
+Burgers & B4 & 37 & 16 & 0.0839 & 0.0560 & 0.1062 & 0.0900 & 0.3368 & 0.5278\\
+Burgers & P & 11 & 16 & 0.0839 & 0.0560 & 0.1091 & 0.0926 & 0.3368 & 0.5135\\
+Burgers & P & 23 & 16 & 0.0839 & 0.0560 & 0.1086 & 0.0921 & 0.3368 & 0.5159\\
+Burgers & P & 37 & 16 & 0.0839 & 0.0560 & 0.1075 & 0.0906 & 0.3368 & 0.5210\\
+Burgers & B4 & 11 & 1 & 0.0691 & 0.0473 & 0.0829 & 0.0662 & 0.3302 & 0.5711\\
+Burgers & B4 & 23 & 1 & 0.0691 & 0.0473 & 0.0884 & 0.0728 & 0.3302 & 0.5354\\
+Burgers & B4 & 37 & 1 & 0.0691 & 0.0473 & 0.0890 & 0.0737 & 0.3302 & 0.5316\\
+Burgers & P & 11 & 1 & 0.0691 & 0.0473 & 0.0982 & 0.0841 & 0.3302 & 0.4821\\
+Burgers & P & 23 & 1 & 0.0691 & 0.0473 & 0.0972 & 0.0829 & 0.3302 & 0.4870\\
+Burgers & P & 37 & 1 & 0.0691 & 0.0473 & 0.0885 & 0.0732 & 0.3302 & 0.5349\\
+Burgers & B4 & 11 & 4 & 0.0788 & 0.0542 & 0.1056 & 0.0880 & 0.3346 & 0.5130\\
+Burgers & B4 & 23 & 4 & 0.0788 & 0.0542 & 0.1025 & 0.0849 & 0.3346 & 0.5285\\
+Burgers & B4 & 37 & 4 & 0.0788 & 0.0542 & 0.1010 & 0.0830 & 0.3346 & 0.5365\\
+Burgers & P & 11 & 4 & 0.0788 & 0.0542 & 0.1065 & 0.0883 & 0.3346 & 0.5088\\
+Burgers & P & 23 & 4 & 0.0788 & 0.0542 & 0.1067 & 0.0888 & 0.3346 & 0.5079\\
+Burgers & P & 37 & 4 & 0.0788 & 0.0542 & 0.1061 & 0.0881 & 0.3346 & 0.5107\\
+\bottomrule\end{tabular}
+\end{table}
+\begin{table}[ht]
+\centering\small
+\caption{Follow-up error decomposition: NH heat checkpoints. CPU diagnostic norms are not additive; the propagated-error ratio is not explained variance. Persist denotes the persistence forecast error.}
+\begin{tabular}{@{}llrrrrrrrr@{}}\toprule
+PDE & Method & Seed & Factor & $E_{\rm obs}$ & $E_{\rm prop}$ & $E_{\rm total}$ & $E_{\rm op}$ & Persist & Ratio\\\midrule
+NH heat & P & 11 & -- & 0.0477 & 0.0302 & 0.0514 & 0.0394 & 0.1312 & 0.5868\\
+NH heat & P & 23 & -- & 0.0477 & 0.0302 & 0.0519 & 0.0407 & 0.1312 & 0.5806\\
+NH heat & P & 37 & -- & 0.0477 & 0.0302 & 0.0527 & 0.0417 & 0.1312 & 0.5727\\
+NH heat & P-nr & 11 & -- & 0.0477 & 0.0302 & 0.0514 & 0.0393 & 0.1312 & 0.5872\\
+NH heat & P-nr & 23 & -- & 0.0477 & 0.0302 & 0.0519 & 0.0406 & 0.1312 & 0.5814\\
+NH heat & P-nr & 37 & -- & 0.0477 & 0.0302 & 0.0527 & 0.0415 & 0.1312 & 0.5729\\
+NH heat & B4 & 11 & -- & 0.0477 & 0.0302 & 0.0515 & 0.0402 & 0.1312 & 0.5861\\
+NH heat & B4 & 23 & -- & 0.0477 & 0.0302 & 0.0525 & 0.0423 & 0.1312 & 0.5742\\
+NH heat & B4 & 37 & -- & 0.0477 & 0.0302 & 0.0519 & 0.0408 & 0.1312 & 0.5812\\
+NH heat & B5 & 11 & -- & 0.0477 & 0.0302 & 0.0514 & 0.0394 & 0.1312 & 0.5868\\
+NH heat & B5 & 23 & -- & 0.0477 & 0.0302 & 0.0519 & 0.0407 & 0.1312 & 0.5806\\
+NH heat & B5 & 37 & -- & 0.0477 & 0.0302 & 0.0527 & 0.0417 & 0.1312 & 0.5727\\
+\bottomrule\end{tabular}
+\end{table}

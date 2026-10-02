@@ -1,10 +1,10 @@
 {
   "status": "BOUND_VALUES_RESOLVED_ONLY",
-  "registry_status": "COMPLETED_E1_E2_PARTIAL_BINDINGS_FINAL_COVERAGE_PENDING",
+  "registry_status": "MAIN_RESULT_ESTIMATES_BOUND_PROTOCOL_LITERALS_AND_FULL_CLAIM_COVERAGE_PENDING",
   "manuscript_scan": "PERFORMED",
   "scope": "Each registered numeric locator and transformation resolved. Literal-number coverage, claim context, table/caption alignment and final rendered QA require separate final verification.",
-  "registry_sha256": "1d66183d9715e5bb7d6f196a2d967b30dbc220442dc2af75df5df4b3795056fd",
-  "tex_sha256": "c24d5e7a19c1994dffc3ab495f58a838b5286930b95876fe6e3eb6babb83befb",
+  "registry_sha256": "4fe2cec43261a36e24edd7dad430ccae77449e129017628b56ce863fa28ccfbc",
+  "tex_sha256": "ce36febbf766ce013331ac91ab1d3d6cfe0fe330bbd23886112f8231591a9e34",
   "bindings": {
     "OracleStateBurgersExcess": {
       "kind": "csv",
@@ -285,43 +285,1256 @@
       "formatted": "0.3859",
       "tex": "0.3859",
       "source_sha256": "e5b437450d2a4f61d6bc8723df72153313d16615b20f4b45fb2d7e4e9a53ebf4"
+    },
+    "OracleObservedBurgersExcess": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E1",
+        "role": "locked_nominal",
+        "pde": "burgers",
+        "method": "O-cand-obs"
+      },
+      "expected_rows": 1,
+      "column": "relative_excess",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original burgers nominal parents; observed-state oracle",
+      "metric": "relative_excess",
+      "unit": "percent",
+      "value": 29.84709453584386,
+      "formatted": "29.85",
+      "tex": "29.85",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "OracleObservedHeatExcess": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E1",
+        "role": "locked_nominal",
+        "pde": "heat",
+        "method": "O-cand-obs"
+      },
+      "expected_rows": 1,
+      "column": "relative_excess",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original heat nominal parents; observed-state oracle",
+      "metric": "relative_excess",
+      "unit": "percent",
+      "value": 12.703605979093327,
+      "formatted": "12.70",
+      "tex": "12.70",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "OriginalPBurgersNominalExcess": {
+      "kind": "csv",
+      "source": "data/control_all_methods.csv",
+      "filter": {
+        "role": "locked_nominal",
+        "pde": "burgers",
+        "method": "P"
+      },
+      "expected_rows": 1,
+      "column": "relative_cost_difference_vs_B0",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original burgers locked_nominal; learned P seeds averaged within parent",
+      "metric": "relative_cost_difference_vs_B0",
+      "unit": "percent",
+      "value": 28.03926804718251,
+      "formatted": "28.04",
+      "tex": "28.04",
+      "source_sha256": "a95f79272504bbdd50f5d75ee6aacde27d14db27c89f3449a2364bfb337a571a"
+    },
+    "OriginalPBurgersNominalLow": {
+      "kind": "csv",
+      "source": "data/control_all_methods.csv",
+      "filter": {
+        "role": "locked_nominal",
+        "pde": "burgers",
+        "method": "P"
+      },
+      "expected_rows": 1,
+      "column": "ci_low",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original burgers locked_nominal; learned P seeds averaged within parent",
+      "metric": "ci_low",
+      "unit": "percent",
+      "value": 23.550975075586965,
+      "formatted": "23.55",
+      "tex": "23.55",
+      "source_sha256": "a95f79272504bbdd50f5d75ee6aacde27d14db27c89f3449a2364bfb337a571a"
+    },
+    "OriginalPBurgersNominalHigh": {
+      "kind": "csv",
+      "source": "data/control_all_methods.csv",
+      "filter": {
+        "role": "locked_nominal",
+        "pde": "burgers",
+        "method": "P"
+      },
+      "expected_rows": 1,
+      "column": "ci_high",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original burgers locked_nominal; learned P seeds averaged within parent",
+      "metric": "ci_high",
+      "unit": "percent",
+      "value": 32.872868455597754,
+      "formatted": "32.87",
+      "tex": "32.87",
+      "source_sha256": "a95f79272504bbdd50f5d75ee6aacde27d14db27c89f3449a2364bfb337a571a"
+    },
+    "OriginalPBurgersCoefficientExcess": {
+      "kind": "csv",
+      "source": "data/control_all_methods.csv",
+      "filter": {
+        "role": "locked_coefficient_ood",
+        "pde": "burgers",
+        "method": "P"
+      },
+      "expected_rows": 1,
+      "column": "relative_cost_difference_vs_B0",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original burgers locked_coefficient_ood; learned P seeds averaged within parent",
+      "metric": "relative_cost_difference_vs_B0",
+      "unit": "percent",
+      "value": 38.232719928169836,
+      "formatted": "38.23",
+      "tex": "38.23",
+      "source_sha256": "a95f79272504bbdd50f5d75ee6aacde27d14db27c89f3449a2364bfb337a571a"
+    },
+    "OriginalPBurgersDelayExcess": {
+      "kind": "csv",
+      "source": "data/control_all_methods.csv",
+      "filter": {
+        "role": "locked_delay_dropout",
+        "pde": "burgers",
+        "method": "P"
+      },
+      "expected_rows": 1,
+      "column": "relative_cost_difference_vs_B0",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original burgers locked_delay_dropout; learned P seeds averaged within parent",
+      "metric": "relative_cost_difference_vs_B0",
+      "unit": "percent",
+      "value": 25.026893789354638,
+      "formatted": "25.03",
+      "tex": "25.03",
+      "source_sha256": "a95f79272504bbdd50f5d75ee6aacde27d14db27c89f3449a2364bfb337a571a"
+    },
+    "OriginalPHeatNominalExcess": {
+      "kind": "csv",
+      "source": "data/control_all_methods.csv",
+      "filter": {
+        "role": "locked_nominal",
+        "pde": "heat",
+        "method": "P"
+      },
+      "expected_rows": 1,
+      "column": "relative_cost_difference_vs_B0",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original heat locked_nominal; learned P seeds averaged within parent",
+      "metric": "relative_cost_difference_vs_B0",
+      "unit": "percent",
+      "value": 13.698054907775367,
+      "formatted": "13.70",
+      "tex": "13.70",
+      "source_sha256": "a95f79272504bbdd50f5d75ee6aacde27d14db27c89f3449a2364bfb337a571a"
+    },
+    "OriginalPHeatNominalLow": {
+      "kind": "csv",
+      "source": "data/control_all_methods.csv",
+      "filter": {
+        "role": "locked_nominal",
+        "pde": "heat",
+        "method": "P"
+      },
+      "expected_rows": 1,
+      "column": "ci_low",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original heat locked_nominal; learned P seeds averaged within parent",
+      "metric": "ci_low",
+      "unit": "percent",
+      "value": 12.930612085453388,
+      "formatted": "12.93",
+      "tex": "12.93",
+      "source_sha256": "a95f79272504bbdd50f5d75ee6aacde27d14db27c89f3449a2364bfb337a571a"
+    },
+    "OriginalPHeatNominalHigh": {
+      "kind": "csv",
+      "source": "data/control_all_methods.csv",
+      "filter": {
+        "role": "locked_nominal",
+        "pde": "heat",
+        "method": "P"
+      },
+      "expected_rows": 1,
+      "column": "ci_high",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original heat locked_nominal; learned P seeds averaged within parent",
+      "metric": "ci_high",
+      "unit": "percent",
+      "value": 14.490742684800184,
+      "formatted": "14.49",
+      "tex": "14.49",
+      "source_sha256": "a95f79272504bbdd50f5d75ee6aacde27d14db27c89f3449a2364bfb337a571a"
+    },
+    "OriginalPHeatCoefficientExcess": {
+      "kind": "csv",
+      "source": "data/control_all_methods.csv",
+      "filter": {
+        "role": "locked_coefficient_ood",
+        "pde": "heat",
+        "method": "P"
+      },
+      "expected_rows": 1,
+      "column": "relative_cost_difference_vs_B0",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original heat locked_coefficient_ood; learned P seeds averaged within parent",
+      "metric": "relative_cost_difference_vs_B0",
+      "unit": "percent",
+      "value": 26.963472241125825,
+      "formatted": "26.96",
+      "tex": "26.96",
+      "source_sha256": "a95f79272504bbdd50f5d75ee6aacde27d14db27c89f3449a2364bfb337a571a"
+    },
+    "OriginalPHeatDelayExcess": {
+      "kind": "csv",
+      "source": "data/control_all_methods.csv",
+      "filter": {
+        "role": "locked_delay_dropout",
+        "pde": "heat",
+        "method": "P"
+      },
+      "expected_rows": 1,
+      "column": "relative_cost_difference_vs_B0",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "original heat locked_delay_dropout; learned P seeds averaged within parent",
+      "metric": "relative_cost_difference_vs_B0",
+      "unit": "percent",
+      "value": 10.445867461007103,
+      "formatted": "10.45",
+      "tex": "10.45",
+      "source_sha256": "a95f79272504bbdd50f5d75ee6aacde27d14db27c89f3449a2364bfb337a571a"
+    },
+    "NewHeatPNominalExcess": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E5",
+        "pde": "heat",
+        "method": "P",
+        "role": "locked_nominal"
+      },
+      "expected_rows": 1,
+      "column": "relative_excess",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "E5 nonnegative-initial-field heat locked_nominal; retrained P seeds averaged within parent",
+      "metric": "relative_excess",
+      "unit": "percent",
+      "value": 27.4559606597879,
+      "formatted": "27.46",
+      "tex": "27.46",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "NewHeatPNominalLow": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E5",
+        "pde": "heat",
+        "method": "P",
+        "role": "locked_nominal"
+      },
+      "expected_rows": 1,
+      "column": "fixed_ci_low",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "E5 nonnegative-initial-field heat locked_nominal; retrained P seeds averaged within parent",
+      "metric": "fixed_ci_low",
+      "unit": "percent",
+      "value": 26.051202665519607,
+      "formatted": "26.05",
+      "tex": "26.05",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "NewHeatPNominalHigh": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E5",
+        "pde": "heat",
+        "method": "P",
+        "role": "locked_nominal"
+      },
+      "expected_rows": 1,
+      "column": "fixed_ci_high",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "E5 nonnegative-initial-field heat locked_nominal; retrained P seeds averaged within parent",
+      "metric": "fixed_ci_high",
+      "unit": "percent",
+      "value": 28.934100358885225,
+      "formatted": "28.93",
+      "tex": "28.93",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "NewHeatPJointLow": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E5",
+        "pde": "heat",
+        "method": "P",
+        "role": "locked_nominal"
+      },
+      "expected_rows": 1,
+      "column": "joint_ci_low",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "E5 nonnegative-initial-field heat locked_nominal; retrained P seeds averaged within parent",
+      "metric": "joint_ci_low",
+      "unit": "percent",
+      "value": 24.567844094703798,
+      "formatted": "24.57",
+      "tex": "24.57",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "NewHeatPJointHigh": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E5",
+        "pde": "heat",
+        "method": "P",
+        "role": "locked_nominal"
+      },
+      "expected_rows": 1,
+      "column": "joint_ci_high",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "E5 nonnegative-initial-field heat locked_nominal; retrained P seeds averaged within parent",
+      "metric": "joint_ci_high",
+      "unit": "percent",
+      "value": 30.832231630364426,
+      "formatted": "30.83",
+      "tex": "30.83",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "NewHeatPCoefficientExcess": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E5",
+        "pde": "heat",
+        "method": "P",
+        "role": "locked_coefficient_ood"
+      },
+      "expected_rows": 1,
+      "column": "relative_excess",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "E5 nonnegative-initial-field heat locked_coefficient_ood; retrained P seeds averaged within parent",
+      "metric": "relative_excess",
+      "unit": "percent",
+      "value": 59.97948678985527,
+      "formatted": "59.98",
+      "tex": "59.98",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "NewHeatPDelayExcess": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E5",
+        "pde": "heat",
+        "method": "P",
+        "role": "locked_delay_dropout"
+      },
+      "expected_rows": 1,
+      "column": "relative_excess",
+      "reduce": "single",
+      "scale": 100,
+      "format": ".2f",
+      "population": "E5 nonnegative-initial-field heat locked_delay_dropout; retrained P seeds averaged within parent",
+      "metric": "relative_excess",
+      "unit": "percent",
+      "value": 25.04088800377044,
+      "formatted": "25.04",
+      "tex": "25.04",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "OriginalPBurgersErrorMin": {
+      "kind": "csv",
+      "source": "data/selected_checkpoints.csv",
+      "filter": {
+        "pde": "burgers",
+        "method": "P"
+      },
+      "expected_rows": 3,
+      "column": "validation_field_nrmse",
+      "reduce": "min",
+      "scale": 1,
+      "format": ".5f",
+      "population": "original burgers P selected validation checkpoints, three seeds",
+      "metric": "validation_field_nrmse",
+      "unit": "field nRMSE",
+      "value": 0.1582564264535904,
+      "formatted": "0.15826",
+      "tex": "0.15826",
+      "source_sha256": "b4b73cc78f14c9857df1d12ec6fe9ba158b001694f2f80652fe98b3fc5aa65ae"
+    },
+    "OriginalPBurgersErrorMax": {
+      "kind": "csv",
+      "source": "data/selected_checkpoints.csv",
+      "filter": {
+        "pde": "burgers",
+        "method": "P"
+      },
+      "expected_rows": 3,
+      "column": "validation_field_nrmse",
+      "reduce": "max",
+      "scale": 1,
+      "format": ".5f",
+      "population": "original burgers P selected validation checkpoints, three seeds",
+      "metric": "validation_field_nrmse",
+      "unit": "field nRMSE",
+      "value": 0.16182494163513184,
+      "formatted": "0.16182",
+      "tex": "0.16182",
+      "source_sha256": "b4b73cc78f14c9857df1d12ec6fe9ba158b001694f2f80652fe98b3fc5aa65ae"
+    },
+    "OriginalPHeatErrorMin": {
+      "kind": "csv",
+      "source": "data/selected_checkpoints.csv",
+      "filter": {
+        "pde": "heat",
+        "method": "P"
+      },
+      "expected_rows": 3,
+      "column": "validation_field_nrmse",
+      "reduce": "min",
+      "scale": 1,
+      "format": ".5f",
+      "population": "original heat P selected validation checkpoints, three seeds",
+      "metric": "validation_field_nrmse",
+      "unit": "field nRMSE",
+      "value": 0.07887555658817291,
+      "formatted": "0.07888",
+      "tex": "0.07888",
+      "source_sha256": "b4b73cc78f14c9857df1d12ec6fe9ba158b001694f2f80652fe98b3fc5aa65ae"
+    },
+    "OriginalPHeatErrorMax": {
+      "kind": "csv",
+      "source": "data/selected_checkpoints.csv",
+      "filter": {
+        "pde": "heat",
+        "method": "P"
+      },
+      "expected_rows": 3,
+      "column": "validation_field_nrmse",
+      "reduce": "max",
+      "scale": 1,
+      "format": ".5f",
+      "population": "original heat P selected validation checkpoints, three seeds",
+      "metric": "validation_field_nrmse",
+      "unit": "field nRMSE",
+      "value": 0.08439669758081436,
+      "formatted": "0.08440",
+      "tex": "0.08440",
+      "source_sha256": "b4b73cc78f14c9857df1d12ec6fe9ba158b001694f2f80652fe98b3fc5aa65ae"
+    },
+    "E3OperatorErrorMin": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_TRAINING_SELECTION.csv",
+      "filter": {
+        "stage": "E3"
+      },
+      "expected_rows": 18,
+      "column": "validation_field_nrmse",
+      "reduce": "min",
+      "scale": 1,
+      "format": ".5f",
+      "population": "E3 Burgers selected P/B4 operators: three target factors, three seeds, observers excluded",
+      "metric": "validation_field_nrmse",
+      "unit": "field nRMSE",
+      "filter_in": {
+        "method": [
+          "P",
+          "B4"
+        ]
+      },
+      "value": 0.08286678045988083,
+      "formatted": "0.08287",
+      "tex": "0.08287",
+      "source_sha256": "7510cf96d86f80ecc0698aaeb49e8f964d4cc683b2925758513ea26f26fdffe9"
+    },
+    "E3OperatorErrorMax": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_TRAINING_SELECTION.csv",
+      "filter": {
+        "stage": "E3"
+      },
+      "expected_rows": 18,
+      "column": "validation_field_nrmse",
+      "reduce": "max",
+      "scale": 1,
+      "format": ".5f",
+      "population": "E3 Burgers selected P/B4 operators: three target factors, three seeds, observers excluded",
+      "metric": "validation_field_nrmse",
+      "unit": "field nRMSE",
+      "filter_in": {
+        "method": [
+          "P",
+          "B4"
+        ]
+      },
+      "value": 0.10909414291381836,
+      "formatted": "0.10909",
+      "tex": "0.10909",
+      "source_sha256": "7510cf96d86f80ecc0698aaeb49e8f964d4cc683b2925758513ea26f26fdffe9"
+    },
+    "E4BurgersNominalExcessMin": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E4",
+        "pde": "burgers",
+        "role": "locked_nominal"
+      },
+      "expected_rows": 6,
+      "column": "relative_excess",
+      "reduce": "min",
+      "scale": 100,
+      "format": ".2f",
+      "population": "E4 burgers six single-seed nominal weight cells, includes original baseline",
+      "metric": "relative_excess",
+      "unit": "percent",
+      "value": 27.99744324085678,
+      "formatted": "28.00",
+      "tex": "28.00",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "E4BurgersNominalExcessMax": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E4",
+        "pde": "burgers",
+        "role": "locked_nominal"
+      },
+      "expected_rows": 6,
+      "column": "relative_excess",
+      "reduce": "max",
+      "scale": 100,
+      "format": ".2f",
+      "population": "E4 burgers six single-seed nominal weight cells, includes original baseline",
+      "metric": "relative_excess",
+      "unit": "percent",
+      "value": 28.039033018667038,
+      "formatted": "28.04",
+      "tex": "28.04",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "E4BurgersHistoryAgreementMin": {
+      "kind": "csv",
+      "source": "data/revision/E4_ACTION_AGREEMENT.csv",
+      "filter": {
+        "pde": "burgers",
+        "role": "locked_nominal"
+      },
+      "expected_rows": 5,
+      "column": "exact_history_agreement",
+      "reduce": "min",
+      "scale": 100,
+      "format": ".2f",
+      "population": "E4 burgers five new nominal cells vs original P seed11, full 200-tick exact history",
+      "metric": "exact_history_agreement",
+      "unit": "percent",
+      "filter_in": {
+        "condition": [
+          "burgers_phys0.01_rank1_s11",
+          "burgers_phys0.1_rank0.1_s11",
+          "burgers_phys0.1_rank1_s11",
+          "burgers_phys1_rank0.1_s11",
+          "burgers_phys1_rank1_s11"
+        ]
+      },
+      "value": 85.9375,
+      "formatted": "85.94",
+      "tex": "85.94",
+      "source_sha256": "b0a3eb28a137bfefd6257e8b603b122a6a39bb1251a44a3b4c5708a70bf995d8"
+    },
+    "E4BurgersHistoryAgreementMax": {
+      "kind": "csv",
+      "source": "data/revision/E4_ACTION_AGREEMENT.csv",
+      "filter": {
+        "pde": "burgers",
+        "role": "locked_nominal"
+      },
+      "expected_rows": 5,
+      "column": "exact_history_agreement",
+      "reduce": "max",
+      "scale": 100,
+      "format": ".2f",
+      "population": "E4 burgers five new nominal cells vs original P seed11, full 200-tick exact history",
+      "metric": "exact_history_agreement",
+      "unit": "percent",
+      "filter_in": {
+        "condition": [
+          "burgers_phys0.01_rank1_s11",
+          "burgers_phys0.1_rank0.1_s11",
+          "burgers_phys0.1_rank1_s11",
+          "burgers_phys1_rank0.1_s11",
+          "burgers_phys1_rank1_s11"
+        ]
+      },
+      "value": 98.17708333333334,
+      "formatted": "98.18",
+      "tex": "98.18",
+      "source_sha256": "b0a3eb28a137bfefd6257e8b603b122a6a39bb1251a44a3b4c5708a70bf995d8"
+    },
+    "E4HeatNominalExcessMin": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E4",
+        "pde": "heat",
+        "role": "locked_nominal"
+      },
+      "expected_rows": 6,
+      "column": "relative_excess",
+      "reduce": "min",
+      "scale": 100,
+      "format": ".2f",
+      "population": "E4 heat six single-seed nominal weight cells, includes original baseline",
+      "metric": "relative_excess",
+      "unit": "percent",
+      "value": 13.761342200030652,
+      "formatted": "13.76",
+      "tex": "13.76",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "E4HeatNominalExcessMax": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E4",
+        "pde": "heat",
+        "role": "locked_nominal"
+      },
+      "expected_rows": 6,
+      "column": "relative_excess",
+      "reduce": "max",
+      "scale": 100,
+      "format": ".2f",
+      "population": "E4 heat six single-seed nominal weight cells, includes original baseline",
+      "metric": "relative_excess",
+      "unit": "percent",
+      "value": 14.069045925389576,
+      "formatted": "14.07",
+      "tex": "14.07",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "E4HeatHistoryAgreementMin": {
+      "kind": "csv",
+      "source": "data/revision/E4_ACTION_AGREEMENT.csv",
+      "filter": {
+        "pde": "heat",
+        "role": "locked_nominal"
+      },
+      "expected_rows": 5,
+      "column": "exact_history_agreement",
+      "reduce": "min",
+      "scale": 100,
+      "format": ".2f",
+      "population": "E4 heat five new nominal cells vs original P seed11, full 200-tick exact history",
+      "metric": "exact_history_agreement",
+      "unit": "percent",
+      "filter_in": {
+        "condition": [
+          "heat_phys0.01_rank1_s11",
+          "heat_phys0.1_rank0.1_s11",
+          "heat_phys0.1_rank1_s11",
+          "heat_phys1_rank0.1_s11",
+          "heat_phys1_rank1_s11"
+        ]
+      },
+      "value": 4.427083333333334,
+      "formatted": "4.43",
+      "tex": "4.43",
+      "source_sha256": "b0a3eb28a137bfefd6257e8b603b122a6a39bb1251a44a3b4c5708a70bf995d8"
+    },
+    "E4HeatHistoryAgreementMax": {
+      "kind": "csv",
+      "source": "data/revision/E4_ACTION_AGREEMENT.csv",
+      "filter": {
+        "pde": "heat",
+        "role": "locked_nominal"
+      },
+      "expected_rows": 5,
+      "column": "exact_history_agreement",
+      "reduce": "max",
+      "scale": 100,
+      "format": ".2f",
+      "population": "E4 heat five new nominal cells vs original P seed11, full 200-tick exact history",
+      "metric": "exact_history_agreement",
+      "unit": "percent",
+      "filter_in": {
+        "condition": [
+          "heat_phys0.01_rank1_s11",
+          "heat_phys0.1_rank0.1_s11",
+          "heat_phys0.1_rank1_s11",
+          "heat_phys1_rank0.1_s11",
+          "heat_phys1_rank1_s11"
+        ]
+      },
+      "value": 96.35416666666666,
+      "formatted": "96.35",
+      "tex": "96.35",
+      "source_sha256": "b0a3eb28a137bfefd6257e8b603b122a6a39bb1251a44a3b4c5708a70bf995d8"
+    },
+    "OriginalBurgersMeanSeedRatio": {
+      "kind": "json",
+      "source": "data/h1_results.json",
+      "path": [
+        0,
+        "mean_per_seed_ratio"
+      ],
+      "population": "original burgers mean seed-specific P/B4 p99 ratios",
+      "metric": "mean_per_seed_ratio",
+      "unit": "dimensionless P/B4 p99 ratio",
+      "format": ".4f",
+      "assertions": [
+        {
+          "path": [
+            0,
+            "pde"
+          ],
+          "equals": "burgers"
+        }
+      ],
+      "value": 0.9859115128190182,
+      "formatted": "0.9859",
+      "tex": "0.9859",
+      "source_sha256": "72444aaa5175ec0e389aeacd587fee987e165ad2cd417c9fdc129d4ef3d1fda4"
+    },
+    "OriginalPBurgersPooledPnn": {
+      "kind": "csv",
+      "source": "data/latency_pooled_descriptive.csv",
+      "filter": {
+        "pde": "burgers",
+        "method": "P"
+      },
+      "expected_rows": 1,
+      "column": "p99_ms",
+      "reduce": "single",
+      "scale": 1,
+      "format": ".3f",
+      "population": "original burgers P pooled 180000 requests; distinct from mean-seed ratio",
+      "metric": "p99_ms",
+      "unit": "milliseconds",
+      "value": 6.714201000000001,
+      "formatted": "6.714",
+      "tex": "6.714",
+      "source_sha256": "f4b6cef4f93550ec44faf220b2ff34239c15317bb8bb1f24df1c2e8e6f594ee9"
+    },
+    "OriginalHeatMeanSeedRatio": {
+      "kind": "json",
+      "source": "data/h1_results.json",
+      "path": [
+        1,
+        "mean_per_seed_ratio"
+      ],
+      "population": "original heat mean seed-specific P/B4 p99 ratios",
+      "metric": "mean_per_seed_ratio",
+      "unit": "dimensionless P/B4 p99 ratio",
+      "format": ".4f",
+      "assertions": [
+        {
+          "path": [
+            1,
+            "pde"
+          ],
+          "equals": "heat"
+        }
+      ],
+      "value": 0.9929645585620724,
+      "formatted": "0.9930",
+      "tex": "0.9930",
+      "source_sha256": "72444aaa5175ec0e389aeacd587fee987e165ad2cd417c9fdc129d4ef3d1fda4"
+    },
+    "OriginalPHeatPooledPnn": {
+      "kind": "csv",
+      "source": "data/latency_pooled_descriptive.csv",
+      "filter": {
+        "pde": "heat",
+        "method": "P"
+      },
+      "expected_rows": 1,
+      "column": "p99_ms",
+      "reduce": "single",
+      "scale": 1,
+      "format": ".3f",
+      "population": "original heat P pooled 180000 requests; distinct from mean-seed ratio",
+      "metric": "p99_ms",
+      "unit": "milliseconds",
+      "value": 10.1408,
+      "formatted": "10.141",
+      "tex": "10.141",
+      "source_sha256": "f4b6cef4f93550ec44faf220b2ff34239c15317bb8bb1f24df1c2e8e6f594ee9"
+    },
+    "OriginalHeatPB5Mean": {
+      "kind": "json",
+      "source": "data/original_locked_test_analysis.json",
+      "path": [
+        "groups",
+        1,
+        "P_vs_B5_cost_gap",
+        "paired_parent_bootstrap",
+        "mean"
+      ],
+      "assertions": [
+        {
+          "path": [
+            "groups",
+            1,
+            "pde"
+          ],
+          "equals": "heat"
+        },
+        {
+          "path": [
+            "groups",
+            1,
+            "role"
+          ],
+          "equals": "locked_nominal"
+        }
+      ],
+      "format": ".3e",
+      "population": "Original nominal heat;384matched parents, learned seeds averaged within parent",
+      "metric": "P minus B5 raw episode-cost difference, paired-parent bootstrap OriginalHeatPB5Mean",
+      "unit": "dimensionless episode cost",
+      "value": -1.77975247002878e-07,
+      "formatted": "-1.780e-07",
+      "tex": "\\ensuremath{-1.780\\times10^{-7}}",
+      "source_sha256": "28f32812b8e1593da0a8a6f54bafc69460a0712a08e1bbc7991aa840308df3e9"
+    },
+    "OriginalHeatPB5Low": {
+      "kind": "json",
+      "source": "data/original_locked_test_analysis.json",
+      "path": [
+        "groups",
+        1,
+        "P_vs_B5_cost_gap",
+        "paired_parent_bootstrap",
+        "ci95_percentile",
+        0
+      ],
+      "assertions": [
+        {
+          "path": [
+            "groups",
+            1,
+            "pde"
+          ],
+          "equals": "heat"
+        },
+        {
+          "path": [
+            "groups",
+            1,
+            "role"
+          ],
+          "equals": "locked_nominal"
+        }
+      ],
+      "format": ".3e",
+      "population": "Original nominal heat;384matched parents, learned seeds averaged within parent",
+      "metric": "P minus B5 raw episode-cost difference, paired-parent bootstrap OriginalHeatPB5Low",
+      "unit": "dimensionless episode cost",
+      "value": -8.61458525809137e-06,
+      "formatted": "-8.615e-06",
+      "tex": "\\ensuremath{-8.615\\times10^{-6}}",
+      "source_sha256": "28f32812b8e1593da0a8a6f54bafc69460a0712a08e1bbc7991aa840308df3e9"
+    },
+    "OriginalHeatPB5High": {
+      "kind": "json",
+      "source": "data/original_locked_test_analysis.json",
+      "path": [
+        "groups",
+        1,
+        "P_vs_B5_cost_gap",
+        "paired_parent_bootstrap",
+        "ci95_percentile",
+        1
+      ],
+      "assertions": [
+        {
+          "path": [
+            "groups",
+            1,
+            "pde"
+          ],
+          "equals": "heat"
+        },
+        {
+          "path": [
+            "groups",
+            1,
+            "role"
+          ],
+          "equals": "locked_nominal"
+        }
+      ],
+      "format": ".3e",
+      "population": "Original nominal heat;384matched parents, learned seeds averaged within parent",
+      "metric": "P minus B5 raw episode-cost difference, paired-parent bootstrap OriginalHeatPB5High",
+      "unit": "dimensionless episode cost",
+      "value": 6.862739512521661e-06,
+      "formatted": "6.863e-06",
+      "tex": "\\ensuremath{6.863\\times10^{-6}}",
+      "source_sha256": "28f32812b8e1593da0a8a6f54bafc69460a0712a08e1bbc7991aa840308df3e9"
+    },
+    "E3OperatorErrorMinSupplement": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_TRAINING_SELECTION.csv",
+      "filter": {
+        "stage": "E3"
+      },
+      "expected_rows": 18,
+      "column": "validation_field_nrmse",
+      "reduce": "min",
+      "scale": 1,
+      "format": ".4f",
+      "population": "E3 Burgers selected P/B4 operators: three target factors, three seeds, observers excluded",
+      "metric": "validation_field_nrmse",
+      "unit": "field nRMSE",
+      "filter_in": {
+        "method": [
+          "P",
+          "B4"
+        ]
+      },
+      "value": 0.08286678045988083,
+      "formatted": "0.0829",
+      "tex": "0.0829",
+      "source_sha256": "7510cf96d86f80ecc0698aaeb49e8f964d4cc683b2925758513ea26f26fdffe9"
+    },
+    "E3OperatorErrorMaxSupplement": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_TRAINING_SELECTION.csv",
+      "filter": {
+        "stage": "E3"
+      },
+      "expected_rows": 18,
+      "column": "validation_field_nrmse",
+      "reduce": "max",
+      "scale": 1,
+      "format": ".4f",
+      "population": "E3 Burgers selected P/B4 operators: three target factors, three seeds, observers excluded",
+      "metric": "validation_field_nrmse",
+      "unit": "field nRMSE",
+      "filter_in": {
+        "method": [
+          "P",
+          "B4"
+        ]
+      },
+      "value": 0.10909414291381836,
+      "formatted": "0.1091",
+      "tex": "0.1091",
+      "source_sha256": "7510cf96d86f80ecc0698aaeb49e8f964d4cc683b2925758513ea26f26fdffe9"
+    },
+    "NewHeatPNominalMeanCost": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E5",
+        "pde": "heat",
+        "method": "P",
+        "role": "locked_nominal"
+      },
+      "expected_rows": 1,
+      "column": "mean_cost",
+      "reduce": "single",
+      "scale": 1,
+      "format": ".6f",
+      "population": "E5 nonnegative-initial-field heat locked_nominal; retrained P seeds averaged within parent",
+      "metric": "mean_cost",
+      "unit": "dimensionless episode cost",
+      "value": 9.23120683025127,
+      "formatted": "9.231207",
+      "tex": "9.231207",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "NewHeatB0NominalMeanCost": {
+      "kind": "csv",
+      "source": "data/revision/REVISION_COST_SUMMARY.csv",
+      "filter": {
+        "stage": "E5",
+        "pde": "heat",
+        "method": "P",
+        "role": "locked_nominal"
+      },
+      "expected_rows": 1,
+      "column": "B0_mean_cost",
+      "reduce": "single",
+      "scale": 1,
+      "format": ".6f",
+      "population": "E5 nonnegative-initial-field heat locked_nominal; retrained P seeds averaged within parent",
+      "metric": "B0_mean_cost",
+      "unit": "dimensionless episode cost",
+      "value": 7.242663883638749,
+      "formatted": "7.242664",
+      "tex": "7.242664",
+      "source_sha256": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741"
+    },
+    "NewHeatPNominalB0Frequency": {
+      "kind": "csv",
+      "source": "data/revision/E1_candidate_frequency.csv",
+      "filter": {
+        "source": "E5_raw_recorded_indices",
+        "role": "locked_nominal",
+        "pde": "heat",
+        "candidate": 9
+      },
+      "filter_in": {
+        "method_seed": [
+          "P_s11",
+          "P_s23",
+          "P_s37"
+        ]
+      },
+      "expected_rows": 3,
+      "column": "frequency_lower",
+      "reduce": "mean",
+      "scale": 100,
+      "format": ".2f",
+      "population": "New heat nominal P; equal384parent x200tick request sets for three training seeds",
+      "metric": "exact selected-index frequency; candidate 9",
+      "unit": "percent recorded requests",
+      "value": 0.06901041666666667,
+      "formatted": "0.07",
+      "tex": "0.07",
+      "source_sha256": "310efa12161af07c79fb701585235d0a0c1ecb93425b9d6671306a5d40bb8d96"
+    },
+    "NewHeatPNominalHoldFrequency": {
+      "kind": "csv",
+      "source": "data/revision/E1_candidate_frequency.csv",
+      "filter": {
+        "source": "E5_raw_recorded_indices",
+        "role": "locked_nominal",
+        "pde": "heat",
+        "candidate": 4
+      },
+      "filter_in": {
+        "method_seed": [
+          "P_s11",
+          "P_s23",
+          "P_s37"
+        ]
+      },
+      "expected_rows": 3,
+      "column": "frequency_lower",
+      "reduce": "mean",
+      "scale": 100,
+      "format": ".2f",
+      "population": "New heat nominal P; equal384parent x200tick request sets for three training seeds",
+      "metric": "exact selected-index frequency; candidate 4",
+      "unit": "percent recorded requests",
+      "value": 92.9670138888889,
+      "formatted": "92.97",
+      "tex": "92.97",
+      "source_sha256": "310efa12161af07c79fb701585235d0a0c1ecb93425b9d6671306a5d40bb8d96"
     }
   },
   "manuscript_macro_uses": [
     {
       "file": "supplement.tex",
-      "line": 149,
+      "line": 44,
+      "id": "E3OperatorErrorMinSupplement"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 44,
+      "id": "E3OperatorErrorMaxSupplement"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 97,
+      "id": "OriginalHeatPB5Mean"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 97,
+      "id": "OriginalHeatPB5Low"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 97,
+      "id": "OriginalHeatPB5High"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 115,
+      "id": "E4BurgersNominalExcessMin"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 115,
+      "id": "E4BurgersNominalExcessMax"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 115,
+      "id": "E4HeatNominalExcessMin"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 115,
+      "id": "E4HeatNominalExcessMax"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 115,
+      "id": "E4BurgersHistoryAgreementMin"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 115,
+      "id": "E4BurgersHistoryAgreementMax"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 115,
+      "id": "E4HeatHistoryAgreementMin"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 115,
+      "id": "E4HeatHistoryAgreementMax"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 132,
+      "id": "NewHeatPNominalMeanCost"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 132,
+      "id": "NewHeatB0NominalMeanCost"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 132,
+      "id": "NewHeatPNominalExcess"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 132,
+      "id": "NewHeatPNominalLow"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 132,
+      "id": "NewHeatPNominalHigh"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 132,
+      "id": "NewHeatPJointLow"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 132,
+      "id": "NewHeatPJointHigh"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 132,
+      "id": "NewHeatPCoefficientExcess"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 132,
+      "id": "NewHeatPDelayExcess"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 174,
       "id": "E2HeatCacheKTwoHundredRatio"
     },
     {
       "file": "supplement.tex",
-      "line": 149,
+      "line": 174,
       "id": "E2HeatCacheKTwoHundredLow"
     },
     {
       "file": "supplement.tex",
-      "line": 149,
+      "line": 174,
       "id": "E2HeatCacheKTwoHundredHigh"
     },
     {
       "file": "supplement.tex",
-      "line": 164,
+      "line": 191,
       "id": "E2PHeatCacheOffRemainderMedian"
     },
     {
       "file": "supplement.tex",
-      "line": 164,
+      "line": 191,
       "id": "E2PBurgersCacheOffRemainderMedian"
     },
     {
       "file": "supplement.tex",
-      "line": 164,
+      "line": 191,
       "id": "E2PHeatCacheOnRemainderMedian"
     },
     {
       "file": "supplement.tex",
-      "line": 164,
+      "line": 191,
       "id": "E2PBurgersCacheOnRemainderMedian"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 255,
+      "id": "NewHeatPNominalB0Frequency"
+    },
+    {
+      "file": "supplement.tex",
+      "line": 255,
+      "id": "NewHeatPNominalHoldFrequency"
     }
   ]
 }

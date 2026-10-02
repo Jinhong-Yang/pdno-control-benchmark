@@ -1,7 +1,7 @@
 [
   {
     "id": "fig01_design",
-    "description": "TikZ: causal loop, aligned P/B4, oracle and cache paths; distinct original/revision evidence",
+    "description": "TikZ: causal loop, aligned P/B4, reference-solver and cache paths; distinct primary/follow-up evidence",
     "sources": [
       "final_spec_v3.json",
       "figures/fig01_design.tex"
@@ -13,10 +13,10 @@
       },
       {
         "path": "figures\\fig01_design.tex",
-        "sha256": "468d72254a0265b9e54aa65c2e2ae5c3d47663f9a7ed4165689b1d46b98de615"
+        "sha256": "6d8e7b1311f5b39b9ca6917188d7fff58e94cfda44017767bb9144dac096eb96"
       }
     ],
-    "pdf_sha256": "8f48af15ce737f4fcb3ce49ab8be393ded4fa1d6f2c15c85a08bc134cfaf49b9",
+    "pdf_sha256": "4d6b728cb9eeb3e61917faf7f221e80079e83de71b7866679f5cfacb22b1440c",
     "vector": true
   },
   {
@@ -31,12 +31,12 @@
         "sha256": "b4b73cc78f14c9857df1d12ec6fe9ba158b001694f2f80652fe98b3fc5aa65ae"
       }
     ],
-    "pdf_sha256": "b90206e9c8f386e80631ba9446a1f95373b8b34a3675ac5d46e987db1ee1f865",
+    "pdf_sha256": "89cd73d2f3c800568a137911055cff5ca74c9f3b964bfd13a3ee299248bdb890",
     "vector": true
   },
   {
     "id": "fig03_control",
-    "description": "All eight controllers; primary paired-parent 95% intervals; dashed 5% margin",
+    "description": "All eight controllers; primary paired-scenario 95% intervals; dashed 5% margin",
     "sources": [
       "control_all_methods.csv"
     ],
@@ -46,7 +46,7 @@
         "sha256": "a95f79272504bbdd50f5d75ee6aacde27d14db27c89f3449a2364bfb337a571a"
       }
     ],
-    "pdf_sha256": "9a41c9bcfbb7537ea208c0a7f77b502b4a96be826da5622638fa10ab16af0742",
+    "pdf_sha256": "504cea74db8d6d3c49c6bc6f97d6388470fff28abd407ce599f12277e2bd7ec4",
     "vector": true
   },
   {
@@ -61,7 +61,7 @@
         "sha256": "f4b6cef4f93550ec44faf220b2ff34239c15317bb8bb1f24df1c2e8e6f594ee9"
       }
     ],
-    "pdf_sha256": "1d2486ff6a550c8f768f61873d6f16acbc87c9ca85e27a7f6b421ee6710f6547",
+    "pdf_sha256": "de919551c7b4bfc2b383c036477fb6a134459863232a7e9a045df88d5572a357",
     "vector": true
   },
   {
@@ -76,7 +76,7 @@
         "sha256": "72444aaa5175ec0e389aeacd587fee987e165ad2cd417c9fdc129d4ef3d1fda4"
       }
     ],
-    "pdf_sha256": "108f912821919590596e3fa2e072e4d2677996992e5dc5a0118e65c720c85120",
+    "pdf_sha256": "6399c57658a04d41e27761f6e40a68415af63de0ada4fdd2626e29937a7f1276",
     "vector": true
   },
   {
@@ -91,7 +91,7 @@
         "sha256": "b0e83a4c25577d0fda5a5b6e34ad1b360160e4e8609d5100922d5db659341912"
       }
     ],
-    "pdf_sha256": "54f24057a4a597b30d398be61ec509dc7ee460510b6403f4a4358ea5d31f5bb4",
+    "pdf_sha256": "339e62fbc67a9700545a245f4ea1481fe724092daf6b168a3d28069bf02293b4",
     "vector": true
   },
   {
@@ -106,12 +106,12 @@
         "sha256": "999115b45060de48016ecc60751ae1612bd05249ebd7b10ab6ab193637be13ee"
       }
     ],
-    "pdf_sha256": "f74fc2d53af8e97a2fbf612104ca27b97ad7043799fda90e1dba9784d8d7b056",
+    "pdf_sha256": "fab248e93221fec098c3db41430c7d90fc4fde2e2fe85dde99d7aba8b22f044f",
     "vector": true
   },
   {
     "id": "figR01_oracles",
-    "description": "Original parents only: privileged-state and observed-state oracle comparisons. Primary fixed-denominator paired-parent95% intervals; learned-controller seeds averaged within parent. Shared horizontal scales within each PDE; no new-heat oracle implied.",
+    "description": "Primary scenarios only: privileged-state and observed-state reference-solver comparisons. Primary fixed-denominator paired-scenario95% intervals; learned-controller seeds averaged within scenario. Shared horizontal scales within each PDE; no new-heat reference-solver implied.",
     "sources": [
       "revision/REVISION_COST_SUMMARY.csv",
       "control_all_methods.csv"
@@ -127,16 +127,16 @@
       }
     ],
     "output_sha256": {
-      "pdf": "10b123e1a47105dc0d8bca34495c5752926e37d6f24d27f446f984d773e4497a",
-      "svg": "920c433e9042eb7f063f009eac78bd0db25dc4afdb7356274a513085757b7c72",
-      "png": "858028fe3e65ec2e665157c47e11b8eca8a1e925fc9f7937bcc6ae827f9d1cbf"
+      "pdf": "1c0532af9a078ca65c466a62b81aff74d8d175c6b2460fa555f53255912ac7cf",
+      "svg": "d8a35471565567c8469bca23c2a1f0b00f3d76663598f8063a2becb38c6ee93d",
+      "png": "57e80fd62925fac5b21b369a0be95702b35004f3344b6f85f897d62407de4d09"
     },
-    "pdf_sha256": "10b123e1a47105dc0d8bca34495c5752926e37d6f24d27f446f984d773e4497a",
+    "pdf_sha256": "1c0532af9a078ca65c466a62b81aff74d8d175c6b2460fa555f53255912ac7cf",
     "vector": true
   },
   {
     "id": "figR05_main_control",
-    "description": "Main control comparison: original Burgers parents including two oracles; separately generated positive-initial-field heat parents and retrained learned controllers. Fixed-denominator paired-parent95% intervals. Symlog axis is linear between-5% and5%, logarithmic outside; common horizontal scales within each row. No original-heat oracle is compared with new-heat models.",
+    "description": "Main control comparison: primary Burgers scenarios including two reference-solver controls; separately generated positive-initial-field heat scenarios and retrained learned controllers. Fixed-denominator paired-scenario95% intervals. Symlog axis is linear between-5% and5%, logarithmic outside; common horizontal scales within each row. No primary-heat reference-solver is compared with new-heat models.",
     "sources": [
       "revision/REVISION_COST_SUMMARY.csv",
       "control_all_methods.csv"
@@ -152,16 +152,16 @@
       }
     ],
     "output_sha256": {
-      "pdf": "cd3e46872f6978b3e926b72439c65ef9c141a2900914b90f93e9f9d2643ee683",
-      "svg": "c5427ee7bb27ce6527573bc641164093fe20eb9234c0d4f483e76e4349a35acc",
-      "png": "36a21500333d78a26a2d25804def7f045c8c910579cddb1dac83aa1f8ab2468d"
+      "pdf": "4a05e278d8bfb93d18d260b5d5d5627e3ad04ee3f091ef918024e3f0c28c9524",
+      "svg": "cfe986cf3eee717f0702092c3bdb9ea292085171bb027c710688d521a4b1823e",
+      "png": "9c5a942715ad1311fc734dccfb76bffbfc4126c0572e22f597a6b5219cbc31c2"
     },
-    "pdf_sha256": "cd3e46872f6978b3e926b72439c65ef9c141a2900914b90f93e9f9d2643ee683",
+    "pdf_sha256": "4a05e278d8bfb93d18d260b5d5d5627e3ad04ee3f091ef918024e3f0c28c9524",
     "vector": true
   },
   {
     "id": "figR02_new_heat_constraints",
-    "description": "New nonnegative-initial-field heat population only. Descriptive parent-and-seed means; duration, maximum and integrated excess accompany binary frequency. Zero observations do not establish a risk guarantee or discriminatory endpoint.",
+    "description": "New nonnegative-initial-field heat population only. Descriptive scenario-and-seed means; duration, maximum and integrated excess accompany binary frequency. Zero observations do not establish a risk guarantee or discriminatory endpoint.",
     "sources": [
       "revision/REVISION_COST_SUMMARY.csv"
     ],
@@ -172,11 +172,11 @@
       }
     ],
     "output_sha256": {
-      "pdf": "6a431218fd781d08356745b4a55d92ee18e92873dc5fc845d136439616392bc5",
-      "svg": "25869ac66f44aa055593da9089c799ae2fd0c79a36e72a97dbcdb43570165234",
+      "pdf": "f35602e0eec151aa099a5493954e8a7b99eb9a86dabe0ac02d34d8066a54627b",
+      "svg": "fdbe16a8224d49ffbf9d4252321d179e353fd2483c4579720c02f92a54b03d0d",
       "png": "5d2a7004bdd22381b9d4c5d4de06f6b95199b24d6a55ea47e4df6d5b97f52e4c"
     },
-    "pdf_sha256": "6a431218fd781d08356745b4a55d92ee18e92873dc5fc845d136439616392bc5",
+    "pdf_sha256": "f35602e0eec151aa099a5493954e8a7b99eb9a86dabe0ac02d34d8066a54627b",
     "vector": true
   },
   {
@@ -192,11 +192,11 @@
       }
     ],
     "output_sha256": {
-      "pdf": "2393be863aeb8b7c7727de0a61eca8f9ba52c333ab917c5647385b8d8dd64230",
-      "svg": "3c4515a380db765b3652c54ac4c1f07b60078659d98f8c98b93bd95106233a1a",
+      "pdf": "ba80f92e43e4044d2a97dc3186291f8294c1a52252d89c0251b48161e31905d1",
+      "svg": "594337b26df7d154c3d03e91ec08113417551c11c6fbcca4a09f3b2a3ee74db0",
       "png": "4ef789cfc711d284a21f64101e7e9ee3bad010ed762e9fb16d209202393ac490"
     },
-    "pdf_sha256": "2393be863aeb8b7c7727de0a61eca8f9ba52c333ab917c5647385b8d8dd64230",
+    "pdf_sha256": "ba80f92e43e4044d2a97dc3186291f8294c1a52252d89c0251b48161e31905d1",
     "vector": true
   },
   {
@@ -212,16 +212,16 @@
       }
     ],
     "output_sha256": {
-      "pdf": "c5c3d1fd6f9a16f474bd1e4595929bdd479042c8204a4e520e2c87f8791939db",
-      "svg": "d4496c32c5ee8e23b12d31c1ffe3fecb716cd3c0115c791e16cdd5004f198905",
+      "pdf": "1ee0c8eb0212a7f0724cca226b9a97c4f398d91a9519facea8adfca78442b3dd",
+      "svg": "a5e9e6b7b1844774e3ff86adb62b32faff9268efc77e1b3949c3421821d49a00",
       "png": "7f8e603489c4012b8146aa3dc6744581e087e676c523acd6bc67b7e73d18b2b6"
     },
-    "pdf_sha256": "c5c3d1fd6f9a16f474bd1e4595929bdd479042c8204a4e520e2c87f8791939db",
+    "pdf_sha256": "1ee0c8eb0212a7f0724cca226b9a97c4f398d91a9519facea8adfca78442b3dd",
     "vector": true
   },
   {
     "id": "figRS02_latency_distributions",
-    "description": "All observed timing values retained in shared log-spaced bins. Original campaign P/B4/B2 is separated from revisionK10 P/B4 cache conditions. Density is per log10 latency, not per linear millisecond.",
+    "description": "All observed timing values retained in shared log-spaced bins. Primary campaign P/B4/B2 is separated from follow-upK10 P/B4 cache conditions. Density is per log10 latency, not per linear millisecond.",
     "sources": [
       "revision/E2_latency_histograms.csv"
     ],
@@ -232,16 +232,16 @@
       }
     ],
     "output_sha256": {
-      "pdf": "563242fbf0cd696da59a6826a4374053e03c96dc3d84026578e125925ca21dfe",
-      "svg": "ddfef330f9a33c13c3baac00a70b986270bf546cee1eed97801f4fd20c6a91bd",
-      "png": "2ca1af88bd71f3dd4c112f3123aacf4b12c2108c128deb21bb85a786cfb5846b"
+      "pdf": "41a5cf193d6239a60cf27d6c30d7ceffb70ff334079f217ad993fccd99aac794",
+      "svg": "c3929f10328e6945ea34e97b5cd66376de3453fd8f25a6792b7584cf5839a1bc",
+      "png": "3e30f9444f7ddbc8a882b281527d8afb1fe3581996e031c582c0d3fbb5df94c6"
     },
-    "pdf_sha256": "563242fbf0cd696da59a6826a4374053e03c96dc3d84026578e125925ca21dfe",
+    "pdf_sha256": "41a5cf193d6239a60cf27d6c30d7ceffb70ff334079f217ad993fccd99aac794",
     "vector": true
   },
   {
     "id": "figRS03_scaling_curves",
-    "description": "E3 Burgers recorded validation curves. Same512parents with nested temporal target density; one refitted observer per factor shared across methods/seeds. Lines stop at actual termination; points mark composite-validation-selected updates, not minimum field-error reselection. Dashed horizontal gate0.05.",
+    "description": "D3 Burgers recorded validation curves. Same512scenarios with nested temporal target density; one refitted observer per factor shared across methods/seeds. Lines stop at actual termination; points mark composite-validation-selected updates, not minimum field-error reselection. Dashed horizontal gate0.05.",
     "sources": [
       "revision/REVISION_TRAINING_CURVES.csv",
       "revision/REVISION_TRAINING_SELECTION.csv"
@@ -257,11 +257,71 @@
       }
     ],
     "output_sha256": {
-      "pdf": "20fab6757278f7b515d65195e4538587b37b5f4193adb35872bb5834ef0ce463",
-      "svg": "a9e6ed34105c14eaab955a426b74822d667e76da7d8afb7a0d23552005493a41",
+      "pdf": "602e2af80dc0cdf90e132aec4540afb9837188b6b3ecef637442d8444ff03674",
+      "svg": "140b37692de3cac0a38052e25098a0d2792d5ffc2941d28fe5a53d93ba6ad89e",
       "png": "5c972e50bfdf2b7e43929e742fb714a029ca63c7b106dc1dfa200503c4fd80e7"
     },
-    "pdf_sha256": "20fab6757278f7b515d65195e4538587b37b5f4193adb35872bb5834ef0ce463",
+    "pdf_sha256": "602e2af80dc0cdf90e132aec4540afb9837188b6b3ecef637442d8444ff03674",
+    "vector": true
+  },
+  {
+    "id": "figD02_stage_means",
+    "description": "Stage mean durations for all 16 profiles (two PDEs \u00d7 P/B4 \u00d7 K=10/200 \u00d7 cache off/on); ten separately synchronized stages and 500 records per case. The sum is not a separately recorded total profiled-request duration and gives no end-to-end or p99 deletion bound. Stage shares are reported in the accompanying table.",
+    "sources": [
+      "data/followup/X2/X2a_stage_shares.csv"
+    ],
+    "input_sha256": [
+      {
+        "path": "data\\followup\\X2\\X2a_stage_shares.csv",
+        "sha256": "65da3bf644dd5a18c07e282c67afe5908b387d9dc37c8a3cb3ad96b6f6f3c80a"
+      }
+    ],
+    "output_sha256": {
+      "pdf": "2de0e0e1d1f04673eb0c6b096e82a6d20fb91843bab3426f3799746d2ec370b7",
+      "svg": "3d39de937c6c18af2ac0b0130f3dc8f01a49916d5aea97f44f8927013513e20f",
+      "png": "fd3a52581d4bdee52459669ae7ce1239b6e28617c204222ca28ed4574dd91382"
+    },
+    "pdf_sha256": "2de0e0e1d1f04673eb0c6b096e82a6d20fb91843bab3426f3799746d2ec370b7",
+    "vector": true
+  },
+  {
+    "id": "figD07_error_decomposition",
+    "description": "Non-additive nRMSE dot plot by evaluation family, PDE, target factor, and method. Marker shape identifies E_obs, E_prop, or E_total; horizontal whiskers show the minimum and maximum of three model seeds, not a confidence interval. Ratios and errors do not imply additive variance decomposition.",
+    "sources": [
+      "data/followup/X3/X3_OPERATOR_SUMMARIES.json"
+    ],
+    "input_sha256": [
+      {
+        "path": "data\\followup\\X3\\X3_OPERATOR_SUMMARIES.json",
+        "sha256": "f63839b109516182be2cca3834b31cd562815df45c4bf2b30ebe91019ccbbf42"
+      }
+    ],
+    "output_sha256": {
+      "pdf": "8a89b56ccdc7cf4c1a0503832a11f35debbd9c186614fa5acfb4c55869e4006e",
+      "svg": "3d3bdd4bf207b023e9d807742d8041ce6b7ae4d417ef63cef6dec99f74480a24",
+      "png": "d51eed33c8116c29e5415d6498abd422d94c55e05c6be420b44f6733fc18ac6e"
+    },
+    "pdf_sha256": "8a89b56ccdc7cf4c1a0503832a11f35debbd9c186614fa5acfb4c55869e4006e",
+    "vector": true
+  },
+  {
+    "id": "figD06_candidate_design",
+    "description": "X1 candidate-design ablation on matched 128-scenario subsets: fixed-denominator relative excess cost with pointwise paired-scenario 95% intervals and exact applied-action no-change rate. Designated hold-slot rates are reported separately because K=50 contains duplicate zero-offset candidates. Horizontal references mark 0% and the 5% margin. The matched K=10/H=8 baseline is open-circle-marked. Feedback rollout is a separate candidate-set point. The full Burgers n=384 anchor is open-star-marked, outside the matched design trend.",
+    "sources": [
+      "data/followup/X1/X1_ANALYSIS.csv"
+    ],
+    "input_sha256": [
+      {
+        "path": "data\\followup\\X1\\X1_ANALYSIS.csv",
+        "sha256": "f8e30636e8b72f5c35d1b24d8c740928f9a43c31ed0a9510f8348c4a5a4bf34a"
+      }
+    ],
+    "output_sha256": {
+      "pdf": "7659d4d01f1c7d12b75f765edc3062b572f456bfd7107f73a57cf835e2f6a7de",
+      "svg": "f20d976b3a0620a995d9b3c26e380d8c58086a8556681f9431c1aac49f57e4ca",
+      "png": "65ad8eff625689584c601e10acbb3815164c8b8ea6ffb3a0f6201f0933ed4f40"
+    },
+    "pdf_sha256": "7659d4d01f1c7d12b75f765edc3062b572f456bfd7107f73a57cf835e2f6a7de",
     "vector": true
   }
 ]

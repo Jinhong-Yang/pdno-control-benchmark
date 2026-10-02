@@ -52,7 +52,7 @@ def build(root):
         oracles = [r for r in new if r['stage'] == 'E1']
         assert len(oracles) == 12
         methods = ['B0', 'O-cand-state', 'O-cand-obs', 'B4', 'P']
-        labels = ['B0', 'Oracle: state', 'Oracle: observed', 'B4', 'P']
+        labels = ['B0', 'RS-true', 'RS-obs', 'B4', 'P']
         fig, axes = plt.subplots(2, 3, figsize=(7.16, 3.9), sharey=True, layout='constrained')
         for pi, pde in enumerate(['burgers', 'heat']):
             row_bounds = [0., 5.]
@@ -76,14 +76,15 @@ def build(root):
                 ax.set_yticks(range(len(methods)), labels)
                 ax.set_ylim(len(methods)-.5, -.5)
                 ax.grid(axis='x', color='#E5E9ED', lw=.6)
-                ax.set_title(f'{chr(97+3*pi+ri)}  Original {pde}\n{ROLE_LABELS[ri]}', loc='left', fontsize=8)
+                population_label = 'Primary Burgers' if pde == 'burgers' else 'SH heat'
+                ax.set_title(f'{chr(97+3*pi+ri)}  {population_label}\n{ROLE_LABELS[ri]}', loc='left', fontsize=8)
                 if pi == 1:
                     ax.set_xlabel('Excess cost vs. B0 (%)')
             lower, upper = min(row_bounds), max(row_bounds)
             span = max(upper-lower, 1.)
             for ax in axes[pi]:
                 ax.set_xlim(lower-.05*span, upper+.07*span)
-        save(fig, 'figR01_oracles', 'Original parents only: privileged-state and observed-state oracle comparisons. Primary fixed-denominator paired-parent95% intervals; learned-controller seeds averaged within parent. Shared horizontal scales within each PDE; no new-heat oracle implied.',
+        save(fig, 'figR01_oracles', 'Primary scenarios only: privileged-state and observed-state oracle comparisons. Primary fixed-denominator paired-scenario95% intervals; learned-controller seeds averaged within parent. Shared horizontal scales within each PDE; no new-heat oracle implied.',
              ['revision/REVISION_COST_SUMMARY.csv', 'control_all_methods.csv'])
 
         heat = [r for r in new if r['stage'] == 'E5']
@@ -110,14 +111,14 @@ def build(root):
                         value, low, high = [100*float(rr[0][key]) for key in fields]
                         interval_point(ax, value, j, low, high, COLORS.get(method, GREY), 'D' if method.startswith('O-') else 'o')
                         bounds.extend([value, low, high])
-                    labels = [m.replace('P-no-rank', 'P-nr').replace('O-cand-state', 'Oracle: state').replace('O-cand-obs', 'Oracle: observed') for m in shown]
+                    labels = [m.replace('P-no-rank', 'P-nr').replace('O-cand-state', 'RS-true').replace('O-cand-obs', 'RS-obs') for m in shown]
                     ax.set_yticks(range(len(shown)), labels if ri == 0 else [])
                     ax.set_ylim(len(shown)-.5, -.5)
                     ax.axvline(0, color=DARK, lw=.7)
                     ax.axvline(5, color=DARK, lw=.7, ls='--')
                     ax.set_xscale('symlog', linthresh=5, linscale=1)
                     ax.grid(axis='x', color='#E5E9ED', lw=.6)
-                    title = 'Burgers, original parents' if pi == 0 else 'Heat, new initial fields'
+                    title = 'Primary Burgers scenarios' if pi == 0 else 'NH heat scenarios'
                     ax.set_title(f'{chr(97+3*pi+ri)}  {title}\n{ROLE_LABELS[ri]}', loc='left', fontsize=8)
                     if pi == 1:
                         ax.set_xlabel('Excess cost (%)\nsymlog; linear within ±5%')
@@ -132,7 +133,7 @@ def build(root):
                 for ax in axes[pi]:
                     ax.set_xlim(low, high)
                     ax.set_xticks(ticks, [str(x) for x in ticks])
-            save(fig, 'figR05_main_control', 'Main control comparison: original Burgers parents including two oracles; separately generated positive-initial-field heat parents and retrained learned controllers. Fixed-denominator paired-parent95% intervals. Symlog axis is linear between-5% and5%, logarithmic outside; common horizontal scales within each row. No original-heat oracle is compared with new-heat models.', ['revision/REVISION_COST_SUMMARY.csv', 'control_all_methods.csv'])
+            save(fig, 'figR05_main_control', 'Main control comparison: original Burgers parents including two oracles; separately generated positive-initial-field heat parents and retrained learned controllers. Fixed-denominator paired-scenario95% intervals. Symlog axis is linear between-5% and5%, logarithmic outside; common horizontal scales within each row. No original-heat oracle is compared with new-heat models.', ['revision/REVISION_COST_SUMMARY.csv', 'control_all_methods.csv'])
             fig, axes = plt.subplots(2, 2, figsize=(7.16, 4.5), layout='constrained')
             metrics = [('any_violation_rate', 'Parents with any violation (%)', 100),
                        ('violation_duration_seconds', 'Mean violating duration (s)', 1),
@@ -235,12 +236,12 @@ def build(root):
                     ax.stairs(values, edges, color=COLORS[method], ls='--' if cache == 'True' else '-', lw=1, label=label)
                 ax.set_xscale('log')
                 ax.axvline(5, color=DARK, lw=.7, ls=':')
-                ax.set_title(f'{chr(97+pi*2+ci)}  {pde.capitalize()}: '+('original' if ci == 0 else 'revision K=10'), loc='left', fontsize=8)
+                ax.set_title(f'{chr(97+pi*2+ci)}  {pde.capitalize()}: '+('primary' if ci == 0 else 'follow-up K=10'), loc='left', fontsize=8)
                 ax.legend(frameon=False, fontsize=6.3)
                 if ci == 0:
                     ax.set_ylabel('Density per log10(ms)')
                 if pi == 1:
-                    ax.set_xlabel('Host-ready latency (ms, log scale)')
+                    ax.set_xlabel('Request latency (ms, log scale)')
         save(fig, 'figRS02_latency_distributions', 'All observed timing values retained in shared log-spaced bins. Original campaign P/B4/B2 is separated from revisionK10 P/B4 cache conditions. Density is per log10 latency, not per linear millisecond.', ['revision/E2_latency_histograms.csv'])
 
     training_prefix = ('REVISION' if (revision / 'REVISION_TRAINING_EXPORT.json').exists()

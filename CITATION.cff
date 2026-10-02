@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite the versioned software archive when using this benchmark."
 type: software
-title: "PDNO Control Benchmark: Revision Experiments, Model Checkpoints, and Raw Evidence"
+title: "PDNO Control Benchmark: Source Code and Reproducibility Metadata (v1.2.0)"
 authors:
   - family-names: Park
     given-names: Hyojin
@@ -9,8 +9,8 @@ authors:
   - family-names: Yang
     given-names: Jinhong
     affiliation: "Department of Medical Information Technology, Inje University"
-version: 1.1.0
+version: 1.2.0
 license: Apache-2.0
 repository-code: "https://github.com/Jinhong-Yang/pdno-control-benchmark"
-# Reserved for this release; external registration follows publication.
-doi: "10.5281/zenodo.23094639"
+# DOI reserved for v1.2.0; publication status is external to this source archive.
+doi: "10.5281/zenodo.23105442"

@@ -1,0 +1,47 @@
+{
+  "study": "X3 observer/operator error decomposition",
+  "version": 1,
+  "freeze_timing": "This committed config is pre-evaluation. The exact UTC and commit are recorded in X3_FREEZE.json.",
+  "operator_roster": {
+    "primary": "24 selected original learned operators: PDE in {burgers, heat}, method in {P, P-no-rank, B4, B5}, seed in {11,23,37}",
+    "expanded_burgers": "18 selected E3 operators: target_factor in {1,4,16}, method in {P,B4}, seed in {11,23,37}",
+    "nonnegative_heat": "12 selected E5 operators: method in {P,P-no-rank,B4,B5}, seed in {11,23,37}",
+    "expected_total": 54,
+    "selection": "Use the already recorded validation-selected checkpoint for each condition; no reselection or retraining."
+  },
+  "evaluation_contract": {
+    "split": "the same frozen validation teacher-query snapshots used by each stage's checkpoint selection",
+    "grid": "128 points; Burgers x=j/128 and heat x=(j+1)/129, matching pdno.training.fit._grid",
+    "horizon": "8 output steps at tau=(1/8,...,1), under one constant action per query row and candidate",
+    "candidate_actions": "all 10 saved candidate actions for each validation query row",
+    "reference_solver": "same discrete teacher-query solver; Burgers 256-point spectral Strang/IMEX with dt=2.5e-4 and 80 substeps per output; heat 256-point Crank-Nicolson with dt=0.02; restrict to 128 points using the saved restrict_field rule",
+    "future_disturbance": "zero by the supervised counterfactual contract in teacher_queries.py",
+    "observer": "each checkpoint's frozen learned encoder and initial_head, evaluated from that row's matched observation; never use initial_field as an input",
+    "true_initial": "initial_field array in the frozen validation teacher-query file; used only as E_obs target",
+    "target_trajectory": "future_field array in the frozen validation teacher-query file; used only as E_prop/E_total/E_op targets and E_total denominator",
+    "normalizer": "checkpoint-specific saved encoder normalizer; load with the established load_state_with_normalizer_defaults helper"
+  },
+  "metrics": {
+    "nrmse": "sqrt(sum squared error / sum squared true reference field), pooled over all query rows, candidate actions, horizon steps, and 128 grid points",
+    "E_obs": "qhat0 versus true initial_field at tau=0, pooled over query rows and 128 grid points; candidate actions do not replicate this metric",
+    "E_prop": "reference rollout initialized from qhat0 versus saved future_field",
+    "E_total": "operator rollout versus saved future_field; must reproduce the selected checkpoint validation_field_nrmse and gate value to 4 decimal places",
+    "E_op": "operator rollout minus qhat0-initialized reference rollout, normalized by the same true future_field norm as E_total",
+    "persistence": "qhat0 repeated at all eight forecast steps versus saved future_field",
+    "paired_identity": "e_total = e_prop + e_op; report pooled squared-norm components and 2*inner(e_prop,e_op) cross term; do not interpret them as causal shares or explained variance",
+    "aggregation": "pooled over saved validation query rows; report parent count and query count; no row/query is treated as an independent parent"
+  },
+  "frozen_decision_rules": {
+    "accuracy_gate_nrmse": 0.05,
+    "observer_dominant_if_Eprop_over_Etotal_at_least": 0.8,
+    "operator_error_substantial_if_Eprop_over_Etotal_below": 0.5,
+    "otherwise": "both contributions are present",
+    "decision_metric": "raw E_prop/E_total ratio only; separately report E_obs, E_prop, E_total, E_op and persistence",
+    "interpretation_limit": "This norm ratio is not an additive variance decomposition, causal attribution, or explained-variance percentage."
+  },
+  "known_semantics": [
+    "E_total is checked against the existing gate metric computed by confirmatory._evaluate_operator: pooled squared prediction error divided by pooled squared future_field, square-rooted.",
+    "The teacher-query source explicitly constructs counterfactual futures with zero unknown future disturbance. E_prop therefore represents that reference counterfactual contract, not the later disturbance-driven closed-loop trajectory.",
+    "The factor-1/factor-4/factor-16 E3 fits use their corresponding separately refit frozen observer heads, even though they share validation observations and parent scenarios."
+  ]
+}

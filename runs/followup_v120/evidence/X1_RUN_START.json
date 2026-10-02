@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE",
+  "baseline_start_utc": "2026-10-02T15:21:46.906134+00:00",
+  "four_hour_deadline_utc": "2026-10-02T19:21:46.906134+00:00",
+  "git_commit": "e5fd69628378e9de32a6d2f7cfd054535d5da337",
+  "scope": "384 Burgers nominal scenarios, K10_H8; stop all other X1 cells unless predeclared baseline verification passes",
+  "locked_data_first_open_utc": "2026-10-02T15:21:46.906134+00:00",
+  "production_end_utc": "2026-10-02T16:31:48.260231+00:00",
+  "production_elapsed_seconds": 4201.354097,
+  "anchor_verification_status": "PASS",
+  "matched_cells": 18,
+  "matched_parent_n_per_PDE": 128,
+  "analysis_status": "COMPLETE",
+  "analysis_completed_utc": "2026-10-02T16:33:48.873154+00:00",
+  "raw_audit_status": "PASS"
+}

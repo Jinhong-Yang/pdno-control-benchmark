@@ -1,0 +1,13 @@
+{
+  "status": "PRE_EVALUATION_DIAGNOSTIC_RETENTION_AMENDMENT",
+  "created_utc": "2026-10-02T14:55:09.953939+00:00",
+  "original_freeze_sha256": "020797dda719cd6c4b436fa50402db6c096ce38ba793c6fb8a7147ebf3acdf48",
+  "old_script_sha256": "33a60453e7cc5aeb51b4e754d15b0915567e6486e93fd1e8c93cf77a85b36568",
+  "new_script_sha256": "7db6684109a397736a1dcab6d5ae1ea7207bfc389e7330c25d1fdbb608617600",
+  "amendment_commit": "bd55cc1c313d9f1886001fadd28a5b2501c2ed5f",
+  "thresholds_changed": false,
+  "decision_rules_sha256": "0546b13929209eb6474c46c69a2a8e3a0b7d4e6a4913e59cbe117cfb390decd9",
+  "reason": "Preserve per-query nRMSE and vector hashes, and continue all 54 pre-frozen diagnostics after a CPU recomputation landed on the adjacent four-decimal rounding side of one saved CUDA gate value. Every operator retains an explicit four-decimal gate match boolean and raw absolute difference; the acceptance rule and frozen gate values are unchanged.",
+  "observed_issue_before_amendment": "Primary heat P-no-rank seed23 recomputed E_total 0.082450390 versus frozen gate 0.082446314 (absolute difference 0.000004076); output rounding differs at four decimal places. The operator/encoder sources are byte-equivalent to the original source tree. This was a failed formal attempt and its measurements are in the parent task message; it did not modify any inputs or thresholds.",
+  "prior_run_scope": "The first one-operator smoke remains DEVELOPMENT/SMOKE_ONLY. The failed 19-operator attempt is partial, did not write official result files, and does not count as X3 completion."
+}

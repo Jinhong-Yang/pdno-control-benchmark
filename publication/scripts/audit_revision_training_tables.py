@@ -145,7 +145,7 @@ def completed_campaign(selection):
         for row in rows:
             assert len(row) == 6
             source = candidates[row[0]]; loc=label+'/'+row[0]; count += 1
-            seeds = source['training_seed_count'] if stage in ['E3','E5'] and source['method'] not in ['B0','B1'] else '--'
+            seeds = source['training_seed_count'] if int(source['training_seed_count']) > 0 else '--'
             a.eq(row[1], seeds, loc+'/seeds')
             a.num(row[2], source['mean_cost'], 6, loc+'/cost')
             a.num(row[3], source['relative_excess'], 2, loc+'/excess', 100)

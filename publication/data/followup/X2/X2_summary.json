@@ -1,0 +1,113 @@
+{
+  "status": "ANALYSIS_COMPLETE",
+  "analysis_plan": "config/X2_ANALYSIS_PLAN.md",
+  "x2a_profiles": 16,
+  "x2a_requests": 8000,
+  "x2a_note": "means and shares use summed separately synchronized instrumented stages; no separately recorded profiled-request total",
+  "primary_rows": 120,
+  "followup_rows": 360,
+  "total_rows": 480,
+  "matched_method_rows": 72,
+  "matched_P_B4_ratio_rows": 36,
+  "threshold_definition": "latency_ms > 2 * row median (strict); secondary-mode proxy only",
+  "threshold_statement_assessment": {
+    "rows_with_share_0.5_to_2_percent": 93,
+    "row_count": 480,
+    "median_above_share": 0.0341,
+    "rows_p99_above_threshold": 327,
+    "rows_p99_at_or_below_threshold": 153,
+    "shares_near_1_percent_in_majority": false,
+    "p99_flag_varies": true,
+    "matched_ratio_by_flag": {
+      "primary_any_p99_above_false": {
+        "n": 0,
+        "mean_P_over_B4_p99_ratio": null
+      },
+      "primary_any_p99_above_true": {
+        "n": 18,
+        "mean_P_over_B4_p99_ratio": 0.9891455632710867
+      },
+      "followup_any_p99_above_false": {
+        "n": 0,
+        "mean_P_over_B4_p99_ratio": null
+      },
+      "followup_any_p99_above_true": {
+        "n": 18,
+        "mean_P_over_B4_p99_ratio": 1.0001509282895418
+      }
+    },
+    "work_order_expectation_supported": false,
+    "interpretation": "descriptive proxy association only; does not establish physical modes or causal mechanism"
+  },
+  "burgers_matched_seed_p99": {
+    "primary": {
+      "P_p99_ms_by_seed": {
+        "11": 6.692603,
+        "23": 6.7155,
+        "37": 6.731011000000002
+      },
+      "B4_p99_ms_by_seed": {
+        "11": 6.8011040000000005,
+        "23": 6.830604,
+        "37": 6.7953
+      },
+      "P_over_B4_p99_ratio_by_seed": {
+        "11": 0.9840465606760314,
+        "23": 0.9831487815718785,
+        "37": 0.9905391962091449
+      },
+      "mean_of_three_seed_ratios": 0.9859115128190182,
+      "aggregation": "pool three sessions within each seed, compute each seed P/B4 p99 ratio, then arithmetic mean across seeds"
+    },
+    "followup": {
+      "P_p99_ms_by_seed": {
+        "11": 12.758385000000002,
+        "23": 12.818915,
+        "37": 13.490416999999999
+      },
+      "B4_p99_ms_by_seed": {
+        "11": 6.7329110000000005,
+        "23": 12.469606,
+        "37": 14.278507999999999
+      },
+      "P_over_B4_p99_ratio_by_seed": {
+        "11": 1.8949285086346754,
+        "23": 1.0280128337655576,
+        "37": 0.9448057878316138
+      },
+      "mean_of_three_seed_ratios": 1.2892490434106156,
+      "aggregation": "pool three sessions within each seed, compute each seed P/B4 p99 ratio, then arithmetic mean across seeds"
+    }
+  },
+  "inputs": {
+    "runs\\followup_v120\\config\\X2_ANALYSIS_PLAN.md": "c2702eff6b4d49c37989bdcbcfcc320377d29040cedade83ab175f45afc4139c",
+    "runs\\revision_v2\\results\\E2_TIMING.json": "616cf3574cc3b3a79b0104fb47b661119513c778fc6192fbb8dab36683a0298e",
+    "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_summary_v3.json": "98555f0a22937792548b6826ea8542f3135858334fa83ebfa844d07666ced4bb",
+    "experiments\\pdno_jevLite_20260927_v3\\evidence\\confirmatory_checkpoint_manifest_v3.json": "c1fa3e36b0750b1c5f0a9be0132b85c3df7764b4b493938ac4ff2b364bbb1007",
+    "experiments\\pdno_jevLite_20260927_v3\\scripts\\benchmark_host_e2e_v3.py": "0db3169647c1249dda2b2ce5ea732ecf57696e3a24fd5bf1c58a46caf0698246",
+    "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\evaluation\\closed_loop.py": "cab74f4e7e9274da57127fa2a24ad53f17213e4a3e8937008a27f00e69f70e9f",
+    "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\controllers\\linear.py": "643e090f107f09d5532176773d9a5c50b9c062ace1bed49911ea1c87c0602ad1",
+    "experiments\\pdno_jevLite_20260927_v3\\src\\pdno\\data\\teacher_queries.py": "faf7ec46c4c8f1ae67515ae804d8d2f0b65ababcfe47f68587361058416fe707",
+    "runs\\revision_v2\\scripts\\run_e2_timing.py": "3446b19593aaee51c3d48ef585e45116924b12e67a8a4b6dbc5cc411adeaa8ad",
+    "runs\\revision_v2\\src\\pdno\\evaluation\\closed_loop.py": "6402a37c0e07c1169a11472f6d0f4d1b0f9c0943868298b5a05287f3067e203d",
+    "runs\\revision_v2\\src\\pdno\\controllers\\linear.py": "643e090f107f09d5532176773d9a5c50b9c062ace1bed49911ea1c87c0602ad1",
+    "runs\\revision_v2\\src\\pdno\\data\\teacher_queries.py": "faf7ec46c4c8f1ae67515ae804d8d2f0b65ababcfe47f68587361058416fe707",
+    "runs\\revision_v2\\results\\E2_profiles\\session1_burgers_B4_s11_K10_cache0.json": "6d27ccd6cfe82369a90689de9144ea983ebbab2f737a0ff7e0d9ae6cc764053b",
+    "runs\\revision_v2\\results\\E2_profiles\\session1_burgers_B4_s11_K10_cache1.json": "c21aae424ac370d6710d9eed9865b8a2248e34aab7caedbfe33c175ad94a3893",
+    "runs\\revision_v2\\results\\E2_profiles\\session1_burgers_B4_s11_K200_cache0.json": "ea1cfaf3b44e99ef31d45f406866621dabe09d022c7fd1e60dfee4a0327e36f2",
+    "runs\\revision_v2\\results\\E2_profiles\\session1_burgers_B4_s11_K200_cache1.json": "21d676ea8798901598d090232571fb325b4784d52526fdacc039dea2d957231b",
+    "runs\\revision_v2\\results\\E2_profiles\\session1_burgers_P_s11_K10_cache0.json": "9e038fe87441413266405b012127aa481c062bb6f7641bef992d45a08876a4f3",
+    "runs\\revision_v2\\results\\E2_profiles\\session1_burgers_P_s11_K10_cache1.json": "33fd628ec9dc5ea8d892e40bc4aaf228ea242d7ccf61980743d1f8eb5818a2bc",
+    "runs\\revision_v2\\results\\E2_profiles\\session1_burgers_P_s11_K200_cache0.json": "023e37164e9813253a7578c038f8143d4887a5b3861e133746a142440acaf6e0",
+    "runs\\revision_v2\\results\\E2_profiles\\session1_burgers_P_s11_K200_cache1.json": "9be9ac3d5e79e3aaa5e4db41635bd7b2d700d49698013063c9a8195289abffbc",
+    "runs\\revision_v2\\results\\E2_profiles\\session1_heat_B4_s11_K10_cache0.json": "4147dbb6d5266d6a3958875415b40443befd76517a3f79cce65c76f731121242",
+    "runs\\revision_v2\\results\\E2_profiles\\session1_heat_B4_s11_K10_cache1.json": "49611fa168ec7c2bf70c75a78b0756eb2680a9c84744eee21874ef9eded5a33b",
+    "runs\\revision_v2\\results\\E2_profiles\\session1_heat_B4_s11_K200_cache0.json": "30166df5a3cee87608c9291e2134291b0b71397b8b32886b4c7fca838e8fcca4",
+    "runs\\revision_v2\\results\\E2_profiles\\session1_heat_B4_s11_K200_cache1.json": "0bbba966ab21d1c4a462445b32ba5fcfb86d5fed691200a4f97641efed80ff22",
+    "runs\\revision_v2\\results\\E2_profiles\\session1_heat_P_s11_K10_cache0.json": "6436b760ba6e0f177803db4188aca48c320129856e2859b3ef42cb718b1722ec",
+    "runs\\revision_v2\\results\\E2_profiles\\session1_heat_P_s11_K10_cache1.json": "e31cbe988648b09cda84c27fa93db94309be179be192405febb5293aee54f4db",
+    "runs\\revision_v2\\results\\E2_profiles\\session1_heat_P_s11_K200_cache0.json": "e0b4d5e2c597cd10bc230ef27c93b79e7ca236883a44422295835c1eb8d896b3",
+    "runs\\revision_v2\\results\\E2_profiles\\session1_heat_P_s11_K200_cache1.json": "b27203b6b74b0761c0cd697d60208c8fa87d3667592e1f2c36b5e951d66c61af"
+  },
+  "analysis_script_sha256": "391c8f9462808aaff315c0f6fd76dee9078254827348c7b1b7adcc0f4972eefd"
+}

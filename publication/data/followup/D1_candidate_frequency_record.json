@@ -1,0 +1,7 @@
+{
+  "rows": 1200,
+  "B0_candidate_index": 9,
+  "hold_candidate_index": 4,
+  "original_bound_interpretation": "An action may equal several projected candidates. Lower bound counts uniquely identifying actions; upper bound counts all compatible actions. Never interpreted as exact original argmin frequency.",
+  "revision_oracle_files_available": 12
+}

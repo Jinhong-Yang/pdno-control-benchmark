@@ -1,0 +1,23 @@
+\begin{table}[ht]
+\centering\small
+\caption{Follow-up mean stage budgets. The denominator is the sum of ten instrumented mean stage durations, not an independently timed whole request. The final column is the branch-plus-trunk share, an ideal deletion bound only within this budget.}
+\begin{tabular}{@{}llrrrr@{}}\toprule
+PDE & Method & $K$ & Cache & Sum (ms) & Branch+trunk (\%)\\\midrule
+Burgers & B4 & 10 & off & 3.8931 & 5.56\\
+Burgers & B4 & 10 & on & 4.0302 & 3.64\\
+Burgers & B4 & 200 & off & 4.1485 & 5.15\\
+Burgers & B4 & 200 & on & 4.8675 & 3.25\\
+Burgers & P & 10 & off & 4.8417 & 5.39\\
+Burgers & P & 10 & on & 3.6048 & 3.64\\
+Burgers & P & 200 & off & 3.8133 & 4.51\\
+Burgers & P & 200 & on & 3.2762 & 2.78\\
+SH heat & B4 & 10 & off & 7.3900 & 4.32\\
+SH heat & B4 & 10 & on & 2.7235 & 3.30\\
+SH heat & B4 & 200 & off & 5.9044 & 3.66\\
+SH heat & B4 & 200 & on & 4.5872 & 3.31\\
+SH heat & P & 10 & off & 5.7102 & 3.54\\
+SH heat & P & 10 & on & 3.2197 & 3.31\\
+SH heat & P & 200 & off & 8.0108 & 3.13\\
+SH heat & P & 200 & on & 3.3073 & 2.66\\
+\bottomrule\end{tabular}
+\end{table}

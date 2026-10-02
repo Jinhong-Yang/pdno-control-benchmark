@@ -1,0 +1,6 @@
+{
+  "recorded_utc": "2026-10-02T01:03:03.560153+00:00",
+  "capture_phase": "mid-campaign E2; not represented as pre-run state",
+  "gpu": "name, driver_version, pstate, clocks.current.graphics [MHz], clocks.current.memory [MHz], temperature.gpu, power.draw [W], memory.used [MiB], utilization.gpu [%]\nNVIDIA GeForce RTX 5080, 591.86, P3, 2767 MHz, 7001 MHz, 47, 51.66 W, 1364 MiB, 17 %\n",
+  "note": "Read-only snapshot; desktop applications remain open. No clock locking, driver changes, or process termination performed."
+}

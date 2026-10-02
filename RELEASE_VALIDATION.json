@@ -1,0 +1,31 @@
+{
+  "status": "PREPUBLICATION_PREPARATION",
+  "version": "1.2.0",
+  "doi": "10.5281/zenodo.23105442",
+  "checks_completed": [
+    "Release staging receipt matches the staged PAYLOAD_INDEX.json.",
+    "Terminal X1 analysis contains 19 rows and its CSV hash matches its receipt.",
+    "X1 raw-array audit passed for the matched design.",
+    "X3 CUDA gate replay reproduced all 54 saved operators with zero four-decimal gate mismatches.",
+    "v1.1.0 tag remains at the recorded source commit."
+  ],
+  "source_archive_commit": "Pending the reviewed source commit; recorded in the external asset manifest after commit.",
+  "publication_validation": {
+    "github_release": "NOT_CHECKED",
+    "zenodo_record_and_doi": "NOT_CHECKED",
+    "downloaded_asset_sha256_reverification": "NOT_CHECKED"
+  },
+  "scope": {
+    "source_files": 75,
+    "new_raw_npz_payloads": 19,
+    "new_raw_npz_bytes": 502393151,
+    "external_v1_1_0_archives": 11,
+    "zenodo_core_files": [
+      "pdno-v1.2.0-source.zip",
+      "EVIDENCE_MANIFEST.json",
+      "SHA256SUMS.txt",
+      "CORE_ARCHIVE_SCOPE.md"
+    ]
+  },
+  "statement": "This preparation record does not assert a public release, Zenodo upload, DOI activation, or post-publication download verification."
+}

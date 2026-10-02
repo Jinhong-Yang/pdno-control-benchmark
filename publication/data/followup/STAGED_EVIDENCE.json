@@ -1,0 +1,150 @@
+{
+  "status": "COMPLETED_EVIDENCE_ONLY_NOT_FINAL_PACKAGE",
+  "items": [
+    {
+      "source": "results\\P0_1_gradient_audit.json",
+      "portable_path": "data\\revision\\P0_1_gradient_audit.json",
+      "sha256": "17a9c53dbaff4b7a3f2ac33a0f7ba1f2fade49f2100d53529cebb135e09a3764"
+    },
+    {
+      "source": "results\\P0_1_gradient_trace.csv",
+      "portable_path": "data\\revision\\P0_1_gradient_trace.csv",
+      "sha256": "323640a5b80638b69fb8a11a0cc1e8dcbfcabcb6b1dc20df555261c2179c15e6"
+    },
+    {
+      "source": "results\\P0_2_runtime_repairs.json",
+      "portable_path": "data\\revision\\P0_2_runtime_repairs.json",
+      "sha256": "77eac0fbc6d6411d063ea5f025bcf31fb274c642522b41f804ae384307ec6a92"
+    },
+    {
+      "source": "results\\P0_3_registration_audit.json",
+      "portable_path": "data\\revision\\P0_3_registration_audit.json",
+      "sha256": "85d468fe6ec4023a250a57f956e84d0c2d4bdab9bfadd293b946eca3b8b5126f"
+    },
+    {
+      "source": "results\\E1_candidate_frequency.csv",
+      "portable_path": "data\\revision\\E1_candidate_frequency.csv",
+      "sha256": "5d2931d09461199eaa80512dea97831b0f8143d7956013a0e1ccbcec94069182"
+    },
+    {
+      "source": "results\\E1_candidate_frequency_record.json",
+      "portable_path": "data\\revision\\E1_candidate_frequency_record.json",
+      "sha256": "9d7987793839b75931a9764be228c8b5fc21e7c02aae015eb663482cb6f11fdb"
+    },
+    {
+      "source": "results\\E6_original_heat_cost_decomposition.csv",
+      "portable_path": "data\\revision\\E6_original_heat_cost_decomposition.csv",
+      "sha256": "c9d28d0c553de66cb9ae202d07f030ede7fa29bdccd7c89e2a7abd1584d785e6"
+    },
+    {
+      "source": "results\\E7_joint_denominator_bootstrap.csv",
+      "portable_path": "data\\revision\\E7_joint_denominator_bootstrap.csv",
+      "sha256": "4e6f9fa668a06fdc2345f1c7c016846126557cad40ef798815d0a434a376634a"
+    },
+    {
+      "source": "results\\E9_B0_tuning_audit.json",
+      "portable_path": "data\\revision\\E9_B0_tuning_audit.json",
+      "sha256": "587d97db4a9e6f806330c1033bb8ac82f241853604274141acd2ce6011840c83"
+    },
+    {
+      "source": "results\\REVISION_COST_SUMMARY.csv",
+      "portable_path": "data\\revision\\REVISION_COST_SUMMARY.csv",
+      "sha256": "49e40e6d98429eb05cab68d1665fb714cc66d317b095ce39d2c58121d5ad3a6f"
+    },
+    {
+      "source": "results\\REVISION_SUMMARY_RECEIPT.json",
+      "portable_path": "data\\revision\\REVISION_SUMMARY_RECEIPT.json",
+      "sha256": "c9d9d668b12759d4b7319c8402eacf09fd366b38d660edd7d057430ba6915923"
+    },
+    {
+      "source": "results\\E1_heat_COMPLETE.json",
+      "portable_path": "data\\revision\\E1_heat_COMPLETE.json",
+      "sha256": "b7e725c2306f7c781e9fc9db7f2edc509764813f11c430462ed4f455df66a142"
+    },
+    {
+      "source": "results\\E1_burgers_cuda_COMPLETE.json",
+      "portable_path": "data\\revision\\E1_burgers_cuda_COMPLETE.json",
+      "sha256": "c1bc8d0539d5d87a31059c6760ae123ea11f7b655fe788f010abb5f745064b7c"
+    },
+    {
+      "source": "results\\BATCH_ROLLOUT_TESTS.json",
+      "portable_path": "data\\revision\\BATCH_ROLLOUT_TESTS.json",
+      "sha256": "7cdbc0d6acc7dcbcd4058ae342c8da38f1c600cbc052b150dbfbf5fc4673b347"
+    },
+    {
+      "source": "results\\E1_INDEPENDENT_RAW_AUDIT.json",
+      "portable_path": "data\\revision\\E1_INDEPENDENT_RAW_AUDIT.json",
+      "sha256": "effe737f4a45b747a80d879c317732b0c85a5830a7219844d7aacb4ed0f98722"
+    },
+    {
+      "source": "results\\E1_INTERVAL_AUDIT.json",
+      "portable_path": "data\\revision\\E1_INTERVAL_AUDIT.json",
+      "sha256": "6a60b6518b1557cc1c329230643b0b8ac35de299f03c175afe4ec550add8e650"
+    },
+    {
+      "source": "results\\E2_ANALYSIS.json",
+      "portable_path": "data\\revision\\E2_ANALYSIS.json",
+      "sha256": "771243c72e53f4fd5f1b7db1663f1a12da7be7a60ccf7f1598ad535549df4988"
+    },
+    {
+      "source": "results\\E2_per_session.csv",
+      "portable_path": "data\\revision\\E2_per_session.csv",
+      "sha256": "1440c2e6ad86b563d611191dfa27584fb2e90c1fa6c5cf1942791421d6992270"
+    },
+    {
+      "source": "results\\E2_per_seed.csv",
+      "portable_path": "data\\revision\\E2_per_seed.csv",
+      "sha256": "7e67cf613f1f54fdf4b622759d5df95fc11ecc2eae1cd83af84e167aef1c866d"
+    },
+    {
+      "source": "results\\E2_pooled.csv",
+      "portable_path": "data\\revision\\E2_pooled.csv",
+      "sha256": "3e57cf886f5cfadd7a01805c7749c687446c20fda7dd2ffd89920583782de907"
+    },
+    {
+      "source": "results\\E2_ratio_bootstrap.csv",
+      "portable_path": "data\\revision\\E2_ratio_bootstrap.csv",
+      "sha256": "044aec3379f660f636203404946e34648388ab3dd1ee3fa740e97d0a7c7dfc3b"
+    },
+    {
+      "source": "results\\E2_stage_profile.csv",
+      "portable_path": "data\\revision\\E2_stage_profile.csv",
+      "sha256": "e5b437450d2a4f61d6bc8723df72153313d16615b20f4b45fb2d7e4e9a53ebf4"
+    },
+    {
+      "source": "results\\E2_latency_histograms.csv",
+      "portable_path": "data\\revision\\E2_latency_histograms.csv",
+      "sha256": "8aec3835066961335edc970fbcd6411b52426796f1be938d932b187ee31b9765"
+    },
+    {
+      "source": "config\\PHASE1_SPEC.json",
+      "portable_path": "data\\revision\\PHASE1_SPEC.json",
+      "sha256": "7b671a8112c9bafd9e55b21be02334458009cc2d8650b71c555a9bc87600d415"
+    },
+    {
+      "source": "config\\E2_COUNT_CORRECTION.json",
+      "portable_path": "data\\revision\\E2_COUNT_CORRECTION.json",
+      "sha256": "ffb15575dc04de9d0a828c1d095992a4d6f3c3e7a6d587d53eaaffcae28d137d"
+    },
+    {
+      "source": "config\\E3_OBSERVER_SCOPE_AMENDMENT.json",
+      "portable_path": "data\\revision\\E3_OBSERVER_SCOPE_AMENDMENT.json",
+      "sha256": "768865d64bac364becad03a68d663897999b5b29efe34274c2b9ff9fc893e63e"
+    },
+    {
+      "source": "evidence\\E2_ENVIRONMENT_MIDRUN.json",
+      "portable_path": "data\\revision\\E2_ENVIRONMENT_MIDRUN.json",
+      "sha256": "57281f97f8bb222090648e6212c1e0d0afd0515d0fa1e057b69479ad60f6f707"
+    },
+    {
+      "source": "evidence\\E2_ENVIRONMENT_LATE_RUN.json",
+      "portable_path": "data\\revision\\E2_ENVIRONMENT_LATE_RUN.json",
+      "sha256": "6906e0296fd8e666424a58bf51dc3843894fc3caba84befef65c7ba1bfec7fd5"
+    },
+    {
+      "source": "evidence\\E2_CODE_PATH_AUDIT.json",
+      "portable_path": "data\\revision\\E2_CODE_PATH_AUDIT.json",
+      "sha256": "840658dcf862ee6b002342c5266ace079753616dff932059f44db828b96a1c2d"
+    }
+  ]
+}

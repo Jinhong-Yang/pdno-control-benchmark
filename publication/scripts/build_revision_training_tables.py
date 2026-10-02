@@ -136,12 +136,12 @@ def build(root):
                     elif stage == 'E3':
                         parts = r['method'].split('_')
                         method = parts[2]+' ('+parts[1]+')'
-                    body.append(' & '.join([method, r['training_seed_count'] if stage in ['E3', 'E5'] and r['method'] not in ['B0', 'B1'] else '--', f"{float(r['mean_cost']):.6f}", f"{100*float(r['relative_excess']):.2f}", interval(r, 'fixed'), interval(r, 'joint')]) + r'\\')
+                    body.append(' & '.join([method, r['training_seed_count'] if int(r['training_seed_count']) > 0 else '--', f"{float(r['mean_cost']):.6f}", f"{100*float(r['relative_excess']):.2f}", interval(r, 'fixed'), interval(r, 'joint')]) + r'\\')
                 population = 'new heat parents' if stage == 'E5' else 'original parents'
                 scope = (' Only gate-passing checkpoints enter E3 rows; the displayed seed count can be below three.' if stage == 'E3' else
                          ' Conditions list physics/balance weight and ranking weight, separated by a slash; all use seed 11 and the (0.01,0.1) cell reuses original P.' if stage == 'E4' else '')
                 sections.append(table(f'{stage}, {pde}, {label.lower()}, {population}: mean cost and excess percent relative to the matched B0. Fixed-denominator primary and jointly resampled-denominator sensitivity intervals use the same paired parent draws.'+scope,
-                                      f'tab:revision_cost_{stage}_{pde}_{role}', 'lrrrrl', r'Condition & Seeds & Cost & Excess (\%) & Fixed 95\% & Joint 95\%', body))
+                                      f'tab:revision_cost_{stage}_{pde}_{role}', 'lrrrrl', r'Condition & Seeds ($n$) & Cost & Excess (\%) & Fixed 95\% & Joint 95\%', body))
     save('revision_all_cost_intervals.tex', sections, ['REVISION_COST_SUMMARY.csv'])
 
     decomposition = read('E6_new_heat_cost_decomposition.csv')

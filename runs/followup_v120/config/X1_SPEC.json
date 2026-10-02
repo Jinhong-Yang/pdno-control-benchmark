@@ -1,0 +1,43 @@
+{
+  "id": "X1",
+  "label": "candidate design ablation (D6)",
+  "controller": "RS-true only",
+  "populations": [
+    {"id": "burgers_nominal", "pde": "burgers", "split": "locked_nominal", "population_n": 384},
+    {"id": "heat_nonnegative_nominal", "pde": "heat", "split": "locked_nominal", "population_n": 384}
+  ],
+  "cells": [
+    {"id": "K10_H1", "K": 10, "H": 1, "feedback_rollout": false},
+    {"id": "K10_H4", "K": 10, "H": 4, "feedback_rollout": false},
+    {"id": "K10_H8", "K": 10, "H": 8, "feedback_rollout": false},
+    {"id": "K10_H16", "K": 10, "H": 16, "feedback_rollout": false},
+    {"id": "K50_H1", "K": 50, "H": 1, "feedback_rollout": false},
+    {"id": "K50_H4", "K": 50, "H": 4, "feedback_rollout": false},
+    {"id": "K50_H8", "K": 50, "H": 8, "feedback_rollout": false},
+    {"id": "K50_H16", "K": 50, "H": 16, "feedback_rollout": false},
+    {"id": "K10_H8_FB", "K": 10, "H": 8, "feedback_rollout": true}
+  ],
+  "candidate_rule": {
+    "K10": "unchanged projected 3x3 offset grid followed by B0 command",
+    "K50": "ceil(sqrt(K-2)) square offsets over [-delta,delta]^2; evenly spaced flattened grid indices for K-2; append projected hold and projected B0; retain duplicate projected actions",
+    "delta": {"burgers": 0.15, "heat": 0.1},
+    "projection": "same box and per-step slew limits as the archived controller"
+  },
+  "objective": "For each candidate, average squared tracking error over H forecast steps and 128-point score grid, then add the unchanged single-decision effort, slew, and state-penalty terms from Eq. (3). Feedback-rollout scores its H-step state path but its first action incurs the decision action terms.",
+  "forecast": {
+    "initial_state": "true current 256-point field (RS-true)",
+    "future_disturbance": 0,
+    "burgers": "unchanged 256-point FP64 CUDA IMEX/RK4 reference; every control step is 80 inner steps at dt=2.5e-4; score at every H endpoint on indices 0,2,...,254",
+    "heat": "unchanged 256-point cell-interior Crank-Nicolson reference, dt=0.02; score by unchanged 128-point restriction",
+    "feedback_rollout": "one additional candidate, initialized by B0's current command; at each future control step recompute the same seven-mode B0 feedback law from the predicted full state and project against the rollout's preceding action; execute only the rollout's first command"
+  },
+  "seals": {
+    "sample_policy": "all X1a/X1c cells and both PDEs use the same first 128 scenario IDs sorted ascending lexically by actual scenario ID; independently run full384 Burgers K10_H8 first as the reference-reproduction anchor, then use its matched 128 rows for paired cells; run heat K10_H8 on the same first128 cohort",
+    "primary_baseline": "Full384 Burgers K10_H8 must reproduce both target mean 0.341698 and archived raw full-precision mean within absolute 0.0000005 (six-decimal rounding half-unit); stop if either fails. Per-scenario/action/choice differences are diagnostics only and cannot change the threshold.",
+    "branch_rule": "a fixed-action cell at <= 0.5 times its paired K10_H8 excess cost selects branch A; if none, but feedback-rollout is <=0.5 times baseline, branch C; otherwise branch B",
+    "bootstrap": {"draws": 10000, "seed": 2026100270, "unit": "paired scenario", "reported": ["fixed B0 denominator", "paired B0 denominator"], "interval": "pointwise percentile 2.5% and 97.5%; same PCG64 seed and resampling convention as frozen E1 interval audit"},
+    "metrics": ["episode_control_cost", "B0-relative_excess_fixed", "B0-relative_excess_paired", "tracking_rmse", "selected_candidate_index_each_tick", "hold_selection_rate", "B0_selection_rate", "mean_abs_action_change"]
+  },
+  "locked_execution_budget": "User-authorized approximately 4 hours; first128 fixed for all ablation cells, full384 Burgers K10_H8 anchor",
+  "test_seal_status": "FROZEN_IN_X1_PLAN_COMMIT; commit SHA, commit UTC, and exact source hashes recorded in evidence/X1_FREEZE_RECORD.json"
+}

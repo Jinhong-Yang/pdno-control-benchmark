@@ -1,96 +1,52 @@
-# Reproducing version 1.1.0
+# Reproducing version 1.2.0
 
-These instructions distinguish summary regeneration, recorded-evidence verification, checkpoint loading and fresh experimentation. Use a new directory rather than an existing research workspace. The supplied manuscript is a draft.
+These steps describe saved-evidence checks. They do not constitute a fresh training, control-evaluation, or latency campaign. Confirm external release availability and independently verify archive hashes before using release URLs. DOI `10.5281/zenodo.23105442` is reserved; this guide does not assert its publication status.
 
-## 1. Source and environment
+## 1. Retrieve and verify
 
-Obtain the v1.1.0 source. Use Python 3.11 and a short root on Windows, for example `D:\pdno-v1.1.0`. Create and activate a separate environment, then run from that source root:
+Download `pdno-v1.2.0-source.zip`, `EVIDENCE_MANIFEST.json`, `SHA256SUMS.txt`, and every `pdno-v1.2.0-evidence-NN.zip` from the matching GitHub release. Also download the eleven `pdno-v1.1.0-evidence-NN.zip` assets listed as external dependencies in the manifest from the v1.1.0 GitHub release. The v1.2.0 package does not duplicate those historical ZIPs.
+
+Verify each downloaded file against `SHA256SUMS.txt` and each evidence member against `EVIDENCE_MANIFEST.json` before extraction. Extract the source archive into a new, empty directory, then extract v1.1.0 and v1.2.0 evidence ZIPs into that source root while preserving member paths. Keep verified evidence unchanged; use a separate working copy for commands that write derived outputs.
+
+## 2. Create an isolated environment
+
+From the source root, use Python 3.11 and install the declared project and development dependencies:
 
 ```text
 python -m venv .venv
-# Activate .venv using your operating system's usual command.
+# Windows PowerShell: .venv\Scripts\Activate.ps1
+# macOS/Linux: source .venv/bin/activate
 python -m pip install -e ".[dev,gpu]"
-python -m pip install -r publication/requirements-figures.txt
 python -m pytest -q
 ```
 
-The historical `gpu` extra installs PyTorch. CPU-only PyTorch is sufficient for the checks below. The training/timing campaign used Windows, Python 3.11.9 and PyTorch 2.12.0+cu130 on an RTX 5080; CPU checks do not replicate that GPU timing environment. Figure dependencies are pinned in `publication/requirements-figures.txt`.
+The `gpu` extra declares PyTorch and CUDA-related runtime dependencies; a CPU-built PyTorch installation is sufficient for the CPU checks below. The archived implementation tests are CPU checks. Consult the v1.1.0 `REPRODUCE.md` for historical baseline-specific checks. Do not infer exclusive-GPU timing from runs that overlapped other processes.
 
-## 2. Validate and extract the evidence
+## 3. Recompute analyses and CPU reference propagation
 
-Download `EVIDENCE_MANIFEST.json` and every evidence ZIP in its `archives` list from the same v1.1.0 release. There are 11 independent ZIP files containing 1,223 payload files, totaling 14,281,511,705 uncompressed bytes. The manifest's build status describes packaging provenance and does not itself certify external publication or a scientific outcome.
-
-Replace `ARCHIVE_DIRECTORY` below with the download directory:
+After extracting the required v1.1.0 and v1.2.0 raw evidence into their manifest paths, run these commands from the source root in a disposable working copy:
 
 ```text
-python runs/revision_v2/release_support/verify_evidence.py ARCHIVE_DIRECTORY/EVIDENCE_MANIFEST.json --archives ARCHIVE_DIRECTORY
+python runs/followup_v120/scripts/audit_x1_raw.py
+python runs/followup_v120/scripts/analyze_x1.py --b0-burgers experiments/pdno_jevLite_20260927_v3/evidence/locked_test_raw_v3/locked_nominal/burgers/B0_sna.npz --b0-heat runs/revision_v2/results/E5_raw/locked_nominal/heat/B0_sna.npz
+python runs/followup_v120/scripts/x2_saved_array_analysis.py
+python runs/followup_v120/scripts/x3_decompose.py --evaluate
 ```
 
-Extract every ZIP into the source-tree root while preserving its member paths. Then verify extracted sizes and hashes:
+The X1 commands audit stored episode arrays and recompute paired summaries; they do not independently verify solver physics. X2 recomputes statistics from saved request arrays, reporting instrumented stage sums, row-median threshold shares, and p99 summaries. The strict `latency > 2 횞 row median` share is a proxy and does not prove a second physical mode. Stage shares normalize by the summed measured stages, not a separately recorded request total. `x3_decompose.py --evaluate` performs CPU reference-solver propagation for the frozen X3 cases using the archived inputs and operators; it is not only a saved-summary calculation. It does not launch CUDA, train models, or run a new control campaign.
+
+`x2_saved_array_analysis.py` has no command-line options and directly recomputes the saved-array summaries; do not append `--help`. The X1 baseline paths above refer to the bundled v1.1.0 evidence tree after it has been extracted into the source root. Run these commands in a disposable writable copy because analysis scripts may create derived outputs.
+
+## 4. Optional: reproduce the archived X3 CUDA gate
+
+This optional command requires a compatible CUDA/PyTorch environment and the saved gate inputs. It reproduces the archived selected-validation values; it does not retrain weights or change inputs, endpoints, or thresholds. The command refuses to substitute CPU execution for the CUDA replay:
 
 ```text
-python runs/revision_v2/release_support/verify_evidence.py ARCHIVE_DIRECTORY/EVIDENCE_MANIFEST.json --root .
+python runs/followup_v120/scripts/x3_gate_gpu_reproduction.py --run
 ```
 
-Keep this verified copy intact. Run scripts that write derived outputs in a separate disposable copy. Do not extract evidence over an existing experiment.
+Record the device, library versions, gate receipt, and any mismatch. A CPU summary and a CUDA gate reproduction are distinct records. X3 observed, propagated, and total errors are separate diagnostics, not additive variance terms; ratios do not establish causality.
 
-## 3. Regenerate figures and tables
+## 5. Interpretation boundaries
 
-From the source root:
-
-```text
-python publication/scripts/build_figures.py
-python publication/scripts/build_tables.py
-python publication/scripts/audit_completed_tables.py
-python publication/scripts/audit_revision_timing_tables.py
-python publication/scripts/audit_revision_training_tables.py
-```
-
-Figure 1 uses pdfLaTeX with TikZ and the standalone class. Its editable source is `publication/figures/fig01_design.tex`; PDF/SVG/PNG renders are supplied. The other figures use supplied CSV/JSON summaries. These commands do not train models, reopen evaluation decisions or benchmark a GPU.
-
-The completed-table auditor covers 22 supplementary tables and the main nominal table, including the two oracle rows. Separate auditors cover 14 timing tables and 35 revision training/control tables. Their checks establish keyed transcription, aggregation and rounding against source summaries, not the scientific validity of a claim or the PDF layout. The code release intentionally excludes manuscript sources and template assets, so evidence-number generation skips manuscript scanning when both main and supplement are absent.
-
-## 4. Load the archived checkpoints on CPU
-
-After evidence extraction:
-
-```text
-python runs/revision_v2/tests/check_checkpoint_relocation.py
-python runs/revision_v2/tests/check_revision_checkpoint_relocation.py
-```
-
-The first command checks twelve original seed-11 controller/PDE cases. The second requires all 50 selected revision checkpoints: 21 E3, ten E4-CUDA and 19 E5, including four observers. Both copy code and weights to a temporary directory, disable GPU visibility, block checkpoint reads outside that copy and evaluate one training-observation fixture per model. This verifies loading and finite output shapes. It does not evaluate closed-loop quality, optimizer continuation or GPU performance. The tests write receipts below `runs/revision_v2/results`.
-
-## 5. Recompute analyses from recorded arrays
-
-Use a disposable copy because these scripts write derived files under their historical names. The following commands process saved observations/results rather than generating new trajectories or fitting models:
-
-```text
-python runs/revision_v2/scripts/audit_revision_raw.py
-python runs/revision_v2/scripts/audit_revision_intervals.py
-python runs/revision_v2/scripts/audit_e5_policy_freeze.py
-```
-
-The raw audit reconstructs state/action costs, tracking, strict/tolerance violations, amounts, timing quantiles and counts, and preservation hashes. The completed author-workspace result was 3,812 checks over 102 outcome arrays and 360 timing arrays. The interval audit independently checks all 72 revision summary rows and 360 estimate/interval values with 10,000 paired-parent draws. Parent seeds and repeated methods are not treated as independent environments. Fixed-denominator and jointly resampled-denominator intervals are pointwise and conditional on the available trained models.
-
-The E5 audit checks 19 checkpoint hashes, 35 source/configuration hashes, split identities and linkage between the local seal and subsequent test generation. It does not certify an external timestamp or preregistration. The original campaign's independent arithmetic audit is preserved under `experiments/pdno_jevLite_20260927_v3/reports`; its recorded 1,694 checks are separate from the revision audit.
-
-Additional derived-export entry points are:
-
-```text
-python runs/revision_v2/scripts/export_training_evidence.py
-python runs/revision_v2/scripts/summarize_e2.py
-python runs/revision_v2/scripts/summarize_revision.py
-```
-
-The training exporter needs checkpoint companion `.summary.json` files from both campaign snapshots. Exported values may be compared to the supplied CSVs; receipts contain local paths and times and need not be byte-identical after relocation. Run exports in a separate copy, since overwriting an input receipt can invalidate a prior receipt's file hash even when scientific values agree. Retain the immutable provided manifests for comparison.
-
-## 6. What requires a new experiment
-
-The historical runners expect staged data, completion receipts, fixed output locations or author-workspace dependencies. They document the executed campaign and are not a one-command fresh replication interface. Do not launch the historical supervisor against the supplied evidence tree. A new training/control/timing campaign needs a distinct output namespace, validation-only selection, policy freezing and sequential GPU scheduling.
-
-No E3 operator passed the field-error gate, so the absence of E3 closed-loop arrays is intentional. E4 is a seed-11 sweep on original parents; E5 uses new heat parents and retrained models. E2 timing uses original P/B4 weights. Do not join the E2 latency and E5 control numbers as measurements of one deployed configuration.
-
-Timing sessions shared a process with persistent gain caches, ran on Windows with unfixed clocks and retained outliers. Instrumented stage profiles add synchronization; marginal stage quantiles cannot be summed into end-to-end p99. Neither CPU tests nor archived-array checks reproduce real deployment deadlines or a safety guarantee.
-
-The archive identifier allocated to this version is `10.5281/zenodo.23094639`. The original v1.0.0 record and DOI `10.5281/zenodo.23083472` remain unchanged. Verify actual release availability and downloaded bytes independently of the author-workspace receipts retained in this source tree.
+Keep primary-evaluation results separate from follow-up diagnostics. Preserve the original source commit and v1.1.0 assets byte-for-byte. Do not describe the timing proxy as a measured physical mode, stage-sum shares as an end-to-end latency budget, the branch/trunk fraction as a causal p99 improvement bound, or the X3 ratios as an additive error decomposition. No saved-array or gate reproduction constitutes a new independent test or establishes deployment safety.

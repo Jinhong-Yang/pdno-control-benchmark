@@ -1,0 +1,15 @@
+\begin{table}[ht]
+\centering\small
+\caption{Matched Burgers request-latency comparison at $K=10$, cache off. Sessions are pooled within each seed before computing p99. The mean row averages the three seed-specific ratios; it is not a ratio of average percentiles. All recorded requests are retained.}
+\begin{tabular}{@{}llrrr@{}}\toprule
+Archive & Seed & P p99 (ms) & B4 p99 (ms) & P/B4 ratio\\\midrule
+Primary & 11 & 6.6926 & 6.8011 & 0.98\\
+Primary & 23 & 6.7155 & 6.8306 & 0.98\\
+Primary & 37 & 6.7310 & 6.7953 & 0.99\\
+Mean & -- & -- & -- & 0.99\\
+Follow-up & 11 & 12.7584 & 6.7329 & 1.89\\
+Follow-up & 23 & 12.8189 & 12.4696 & 1.03\\
+Follow-up & 37 & 13.4904 & 14.2785 & 0.94\\
+Mean & -- & -- & -- & 1.29\\
+\bottomrule\end{tabular}
+\end{table}

@@ -1,0 +1,88 @@
+{
+  "status": "DOCUMENTED_WITH_LIMITATION",
+  "control_started": "2026-09-27T10:11:26+09:00",
+  "control_completed_inferred": "2026-09-28T01:02:39.305185+09:00",
+  "completion_inference": "opened marker plus recorded elapsed_seconds; not an independent timestamp",
+  "repairs": [
+    {
+      "line_number": 115,
+      "at_kst": "2026-09-28T01:10:00+09:00",
+      "stage": "host_e2e_preflight",
+      "event": "MISSING_TRAINING_PROCESS_RECEIPT_REPAIRED",
+      "detail": "Registered E2E failed before writing output because transient training supervisor receipt was absent. Receipt reconstructed transparently from persisted RUN_STATE entry (session 44307 exit 0), TRAINING_COMPLETE progress (38/38), 38 summaries/checkpoints, and frozen manifest (36 learned checkpoints); marked reconstruction so it is not misrepresented as a live process observation.",
+      "evidence": [
+        "state/RUN_STATE.json",
+        "evidence/v3_confirmatory_training_progress.json",
+        "evidence/confirmatory_checkpoint_manifest_v3.json"
+      ],
+      "test_outcome_arrays_opened": false
+    },
+    {
+      "line_number": 116,
+      "at_kst": "2026-09-28T01:10:20+09:00",
+      "stage": "host_e2e_preflight",
+      "event": "STALE_DATA_PATH_CORRECTED",
+      "detail": "Registered E2E aborted before output creation because it looked under data/train and data/validation. Authoritative frozen spec hashes and causal audit identify data/train_validation_v3/{train,validation}/heat/trajectories.npz; both on-disk hashes matched frozen input hashes. Corrected only the input root literal in the E2E script; no algorithm, protocol, input content, timing, or coverage changed.",
+      "observed_error": "FileNotFoundError for data/train/heat/trajectories.npz",
+      "frozen_heat_hashes": {
+        "train": "a99037066b40360e72df4f5a993f0aea7f6bd8fd6e81eda1e2479d8f76060322",
+        "validation": "8b8f5aebef30208d8b1ea3186e8125bdd2d26bd8cd94d7f3193be4f0db4f5000"
+      },
+      "changed_source": "scripts/benchmark_host_e2e_v3.py",
+      "test_outcome_arrays_opened": false
+    },
+    {
+      "line_number": 117,
+      "at_kst": "2026-09-28T01:11:40+09:00",
+      "stage": "host_e2e_preflight",
+      "event": "LOCKED_REPLAY_AXIS_HANDLING_CORRECTED",
+      "detail": "Registered E2E stopped before output creation because latency pools are parent\u00d720 snapshots while the loader sampled first axis as flat observations. Verified source stores one replay snapshot every ten ticks (ticks 0..190) and checked archived array shapes. Loader now flattens only those two existing leading axes and keeps each observation intact. Corrected summary claim to 20 stored snapshots, not all 200 decision ticks. Target counts, sessions, request count, timing and raw data unchanged.",
+      "observed_error": "latency replay count mismatch: heat/B3/11/locked_nominal first dimension 384, expected 7680",
+      "source": "src/pdno/evaluation/closed_loop.py replay append at tick%10==0; scripts/run_locked_test_once_v3.py stacks parent axis",
+      "test_outcome_arrays_opened": false
+    },
+    {
+      "line_number": 118,
+      "at_kst": "2026-09-28T01:12:00+09:00",
+      "stage": "host_e2e_preflight",
+      "event": "SYNTAX_ERROR_DURING_REPAIR",
+      "detail": "A patch mis-indented the loader block, and Python stopped at parse time before any benchmark code ran. Corrected the indentation; no outputs or data were changed.",
+      "observed_error": "IndentationError: expected an indented block after with statement",
+      "source": "scripts/benchmark_host_e2e_v3.py",
+      "test_outcome_arrays_opened": false
+    }
+  ],
+  "repaired_code": {
+    "path": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\scripts\\benchmark_host_e2e_v3.py",
+    "sha256": "0db3169647c1249dda2b2ce5ea732ecf57696e3a24fd5bf1c58a46caf0698246",
+    "relevant_lines": [
+      {
+        "line": 53,
+        "text": "            block = {key: z[f\"latency_{key}\"].reshape((-1,) + z[f\"latency_{key}\"].shape[2:])"
+      },
+      {
+        "line": 120,
+        "text": "    destination = ROOT / \"evidence\" / \"latency_raw_v3\""
+      },
+      {
+        "line": 132,
+        "text": "        with np.load(ROOT / \"data\" / \"train_validation_v3\" / role / \"heat\" / \"trajectories.npz\", allow_pickle=False) as z:"
+      },
+      {
+        "line": 138,
+        "text": "    progress = destination.parent / \"latency_progress_v3.json\""
+      },
+      {
+        "line": 174,
+        "text": "                np.savez_compressed(stream, latency_ms=times, cuda_stream_span_ms=stream_times,"
+      },
+      {
+        "line": 217,
+        "text": "    output = ROOT / \"evidence\" / \"latency_summary_v3.json\""
+      }
+    ]
+  },
+  "pre_repair_source_snapshot_available": false,
+  "literal_before_after_diff_available": false,
+  "conclusion": "Repairs concern later serialized latency replay, after the original control campaign had completed. Current runner source and historical log support separation from control-output generation. Full before/after source diffs were not retained; zero effect on the latency measurement itself cannot be independently established. Replay snapshots originate in original test trajectories, so access was not train/validation-only. Do not describe the control test as running after these repairs."
+}

@@ -4,9 +4,8 @@ import hashlib
 import json
 
 PLANNED = {
-    "figR02_new_heat_constraints": "New positive-initial-condition heat constraint metrics (E5)",
-    "figR05_main_control": "Original Burgers and separately generated new heat control comparison",
-    "figRS03_scaling_curves": "Complete E3 validation histories and selected checkpoints",
+    "figD06_candidate_design": "Matched candidate-design diagnostic (D6)",
+    "figD07_error_decomposition": "Observer and operator error diagnostic (D7)",
 }
 ORIGINAL = {"fig02_prediction", "fig03_control", "fig04_latency",
             "fig05_h1", "fig06_heat", "figS01_training"}
@@ -45,11 +44,14 @@ def build(root):
         pdf = root/"figures"/(r["id"]+".pdf")
         assert pdf.is_file() and sha(pdf)==r["pdf_sha256"], ("stale figure PDF", r["id"])
         assert all((root/"figures"/(r["id"]+"."+ext)).is_file() for ext in ("svg","png"))
-        scope = ("Original campaign" if r["id"] in ORIGINAL else
-                 "Implemented design, with original and revision paths" if r["id"]=="fig01_design" else
-                 "Revision or explicitly separated original/revision comparison")
+        scope = ("Primary evaluation" if r["id"] in ORIGINAL else
+                 "Implemented design and follow-up paths" if r["id"]=="fig01_design" else
+                 "Follow-up diagnostic; populations distinguished explicitly")
         sources = ", ".join("`"+x["path"].replace("\\","/")+"`" for x in r["input_sha256"])
-        lines.append("| "+ " | ".join(map(clean, (r["id"],scope,r["description"],sources)))+" |")
+        description = r["description"]
+        for old, new in [("original/revision", "primary/follow-up"), ("original", "primary"), ("Original", "Primary"), ("Revision", "Follow-up"), ("revision", "follow-up"), ("oracles", "reference-solver controls"), ("oracle", "reference-solver"), ("parents", "scenarios"), ("parent", "scenario"), ("E3", "D3"), ("E5", "D5")]:
+            description = description.replace(old, new)
+        lines.append("| "+ " | ".join(map(clean, (r["id"],scope,description,sources)))+" |")
     missing = {name: detail for name, detail in PLANNED.items()
                if name not in {r["id"] for r in records}}
     if missing:
@@ -63,12 +65,12 @@ def build(root):
         "must distinguish fixed-denominator cost intervals, joint-denominator sensitivity",
         "intervals, hierarchical seed/session latency intervals, and descriptive pooled",
         "quantiles. These are different statistics and must not be interchanged.", "",
-        "The original signed-heat event figure (`fig06_heat`) belongs to Supplement S8.",
-        "The new heat constraint figure reports a different initial-condition population.",
-        "Original heat oracles must not be plotted as if evaluated on that new population.",
+        "The signed-heat event figure (`fig06_heat`) belongs to Supplement S7.",
+        "The unused all-zero NH constraint asset is retained for source continuity; it is not included in the manuscript.",
+        "SH reference-solver controls must not be plotted as if evaluated on the NH population.",
         "The main control figure uses a symmetric logarithmic axis outside the central",
         "linear region and must retain that explanation in its caption.", "",
-        "Figure 1 depicts implemented information flow, including the diagnostic oracle",
+        "Figure 1 depicts implemented information flow, including the diagnostic reference-solver",
         "and cache paths. It is not a physical apparatus or a simulated field image.",
         "Long protocol qualifications belong in Supplement S2 and the Discussion;",
         "sampling units, axes, interval definitions and population distinctions remain",

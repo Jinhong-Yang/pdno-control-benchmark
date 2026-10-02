@@ -27,7 +27,10 @@ def resolve(root, binding):
     if binding['kind'] == 'csv':
         with source.open(encoding='utf-8-sig', newline='') as stream:
             rows = list(csv.DictReader(stream))
-        selected = [r for r in rows if all(r[key] == str(value) for key, value in binding.get('filter', {}).items())]
+        selected = [r for r in rows
+                    if all(r[key] == str(value) for key, value in binding.get('filter', {}).items())
+                    and all(r[key] in [str(v) for v in values]
+                            for key, values in binding.get('filter_in', {}).items())]
         assert len(selected) == binding['expected_rows'], (binding, len(selected))
         operation = binding.get('reduce', 'single')
         if operation == 'count':

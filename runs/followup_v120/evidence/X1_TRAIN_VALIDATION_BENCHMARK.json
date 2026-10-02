@@ -1,0 +1,255 @@
+{
+  "status": "TRAIN_VALIDATION_MICROBENCHMARK_ONLY",
+  "created_utc": "2026-10-02T14:50:09Z",
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "torch": "2.12.0+cu130",
+  "source_hashes": {
+    "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\data\\train_validation_v3\\train\\burgers\\trajectories.npz": "1ab16ce3f3ca203201a814986a739fee1ca3d06288a8f1e91361e0cd5571c892",
+    "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\data\\train_validation_v3\\validation\\burgers\\trajectories.npz": "eea488d03ec62b3f3951cd58d4458c46d784d40e123090960ab2ac560121cc14",
+    "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\data\\train_validation_v3\\train\\heat\\trajectories.npz": "a99037066b40360e72df4f5a993f0aea7f6bd8fd6e81eda1e2479d8f76060322",
+    "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction\\experiments\\pdno_jevLite_20260927_v3\\data\\train_validation_v3\\validation\\heat\\trajectories.npz": "8b8f5aebef30208d8b1ea3186e8125bdd2d26bd8cd94d7f3193be4f0db4f5000"
+  },
+  "records": [
+    {
+      "pde": "burgers",
+      "K": 10,
+      "H": 1,
+      "batch_scenarios": 64,
+      "median_elapsed_s_per_batch": 0.04288169997744262,
+      "elapsed_s_per_scenario_equivalent": 0.000670026562147541,
+      "forecast_shape": [
+        64,
+        10,
+        1,
+        128
+      ],
+      "finite": true
+    },
+    {
+      "pde": "burgers",
+      "K": 10,
+      "H": 4,
+      "batch_scenarios": 64,
+      "median_elapsed_s_per_batch": 0.16896539996378124,
+      "elapsed_s_per_scenario_equivalent": 0.002640084374434082,
+      "forecast_shape": [
+        64,
+        10,
+        4,
+        128
+      ],
+      "finite": true
+    },
+    {
+      "pde": "burgers",
+      "K": 10,
+      "H": 8,
+      "batch_scenarios": 64,
+      "median_elapsed_s_per_batch": 0.3459559000330046,
+      "elapsed_s_per_scenario_equivalent": 0.005405560938015697,
+      "forecast_shape": [
+        64,
+        10,
+        8,
+        128
+      ],
+      "finite": true
+    },
+    {
+      "pde": "burgers",
+      "K": 10,
+      "H": 16,
+      "batch_scenarios": 64,
+      "median_elapsed_s_per_batch": 0.6672461000271142,
+      "elapsed_s_per_scenario_equivalent": 0.010425720312923659,
+      "forecast_shape": [
+        64,
+        10,
+        16,
+        128
+      ],
+      "finite": true
+    },
+    {
+      "pde": "burgers",
+      "K": 50,
+      "H": 1,
+      "batch_scenarios": 64,
+      "median_elapsed_s_per_batch": 0.1825051999767311,
+      "elapsed_s_per_scenario_equivalent": 0.0028516437496364233,
+      "forecast_shape": [
+        64,
+        50,
+        1,
+        128
+      ],
+      "finite": true
+    },
+    {
+      "pde": "burgers",
+      "K": 50,
+      "H": 4,
+      "batch_scenarios": 64,
+      "median_elapsed_s_per_batch": 0.7324837999767624,
+      "elapsed_s_per_scenario_equivalent": 0.011445059374636912,
+      "forecast_shape": [
+        64,
+        50,
+        4,
+        128
+      ],
+      "finite": true
+    },
+    {
+      "pde": "burgers",
+      "K": 50,
+      "H": 8,
+      "batch_scenarios": 64,
+      "median_elapsed_s_per_batch": 1.4616802000091411,
+      "elapsed_s_per_scenario_equivalent": 0.02283875312514283,
+      "forecast_shape": [
+        64,
+        50,
+        8,
+        128
+      ],
+      "finite": true
+    },
+    {
+      "pde": "burgers",
+      "K": 50,
+      "H": 16,
+      "batch_scenarios": 64,
+      "median_elapsed_s_per_batch": 2.9405022999853827,
+      "elapsed_s_per_scenario_equivalent": 0.045945348437271605,
+      "forecast_shape": [
+        64,
+        50,
+        16,
+        128
+      ],
+      "finite": true
+    },
+    {
+      "pde": "heat",
+      "K": 10,
+      "H": 1,
+      "batch_scenarios": 64,
+      "median_elapsed_s_per_batch": 0.00017169062448374461,
+      "elapsed_s_per_scenario_equivalent": 2.6826660075585096e-06,
+      "forecast_shape": [
+        64,
+        10,
+        1,
+        128
+      ],
+      "finite": true
+    },
+    {
+      "pde": "heat",
+      "K": 10,
+      "H": 4,
+      "batch_scenarios": 64,
+      "median_elapsed_s_per_batch": 0.0009263015626856941,
+      "elapsed_s_per_scenario_equivalent": 1.447346191696397e-05,
+      "forecast_shape": [
+        64,
+        10,
+        4,
+        128
+      ],
+      "finite": true
+    },
+    {
+      "pde": "heat",
+      "K": 10,
+      "H": 8,
+      "batch_scenarios": 64,
+      "median_elapsed_s_per_batch": 0.0019058171874348773,
+      "elapsed_s_per_scenario_equivalent": 2.9778393553669957e-05,
+      "forecast_shape": [
+        64,
+        10,
+        8,
+        128
+      ],
+      "finite": true
+    },
+    {
+      "pde": "heat",
+      "K": 10,
+      "H": 16,
+      "batch_scenarios": 64,
+      "median_elapsed_s_per_batch": 0.004188978125057474,
+      "elapsed_s_per_scenario_equivalent": 6.545278320402304e-05,
+      "forecast_shape": [
+        64,
+        10,
+        16,
+        128
+      ],
+      "finite": true
+    },
+    {
+      "pde": "heat",
+      "K": 50,
+      "H": 1,
+      "batch_scenarios": 64,
+      "median_elapsed_s_per_batch": 0.0014880625003570458,
+      "elapsed_s_per_scenario_equivalent": 2.325097656807884e-05,
+      "forecast_shape": [
+        64,
+        50,
+        1,
+        128
+      ],
+      "finite": true
+    },
+    {
+      "pde": "heat",
+      "K": 50,
+      "H": 4,
+      "batch_scenarios": 64,
+      "median_elapsed_s_per_batch": 0.0025812296880758367,
+      "elapsed_s_per_scenario_equivalent": 4.033171387618495e-05,
+      "forecast_shape": [
+        64,
+        50,
+        4,
+        128
+      ],
+      "finite": true
+    },
+    {
+      "pde": "heat",
+      "K": 50,
+      "H": 8,
+      "batch_scenarios": 64,
+      "median_elapsed_s_per_batch": 0.005225845312452293,
+      "elapsed_s_per_scenario_equivalent": 8.165383300706708e-05,
+      "forecast_shape": [
+        64,
+        50,
+        8,
+        128
+      ],
+      "finite": true
+    },
+    {
+      "pde": "heat",
+      "K": 50,
+      "H": 16,
+      "batch_scenarios": 64,
+      "median_elapsed_s_per_batch": 0.010678090625333425,
+      "elapsed_s_per_scenario_equivalent": 0.00016684516602083477,
+      "forecast_shape": [
+        64,
+        50,
+        16,
+        128
+      ],
+      "finite": true
+    }
+  ],
+  "scale_note": "Burgers timings are five synchronized forecasts on a batch of up to 64 validation scenarios (median); they exclude 200-tick observation/reconstruction/plant work, while heat is CPU batched-by-scenario timing. K10/H8 Burgers output is compared against both frozen CUDA and CPU reference solvers. Combine with archived per-scenario overhead; these data do not include locked scenarios."
+}

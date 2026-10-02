@@ -1,0 +1,26 @@
+\begin{table}[ht]
+\centering\small
+\caption{NH heat training: all six learned controller families and their shared observer. The selection metric is method-specific; a direct policy does not have a field-prediction nRMSE. Composite values for operator and B3 selection use different definitions and are not comparable across method families.}\label{tab:new_heat_selection}
+\begin{tabular}{@{}llrrlrr@{}}\toprule
+Method & Seed & Actual & Selected & Selection metric & Value & Field nRMSE\\\midrule
+B2 & 11 & 3000 & 2500 & Action MSE & 0.001575 & --\\
+B2 & 23 & 3000 & 3000 & Action MSE & 0.001579 & --\\
+B2 & 37 & 3000 & 3000 & Action MSE & 0.001587 & --\\
+B3 & 11 & 1000 & 1000 & Composite & 0.147638 & --\\
+B3 & 23 & 1000 & 1000 & Composite & 0.147704 & --\\
+B3 & 37 & 1000 & 1000 & Composite & 0.147676 & --\\
+B4 & 11 & 5000 & 5000 & Composite & 0.025734 & 0.0515\\
+B4 & 23 & 5000 & 5000 & Composite & 0.026268 & 0.0525\\
+B4 & 37 & 5000 & 5000 & Composite & 0.025950 & 0.0519\\
+B5 & 11 & 5000 & 5000 & Composite & 0.025704 & 0.0514\\
+B5 & 23 & 5000 & 5000 & Composite & 0.025976 & 0.0520\\
+B5 & 37 & 5000 & 5000 & Composite & 0.026334 & 0.0527\\
+P & 11 & 5000 & 5000 & Composite & 0.025704 & 0.0514\\
+P & 23 & 5000 & 5000 & Composite & 0.025976 & 0.0520\\
+P & 37 & 5000 & 5000 & Composite & 0.026334 & 0.0527\\
+P-nr & 11 & 5000 & 5000 & Composite & 0.025703 & 0.0514\\
+P-nr & 23 & 5000 & 5000 & Composite & 0.025953 & 0.0519\\
+P-nr & 37 & 5000 & 5000 & Composite & 0.026340 & 0.0527\\
+observer & 7 & 1000 & 1000 & Observer nRMSE & 0.047698 & --\\
+\bottomrule\end{tabular}
+\end{table}

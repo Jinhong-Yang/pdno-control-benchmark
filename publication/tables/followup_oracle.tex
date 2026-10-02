@@ -1,0 +1,19 @@
+\begin{table}[ht]
+\caption{Reference-solver candidate controllers on the primary scenarios. Excess cost and fixed-denominator paired-scenario 95\% intervals are in percent relative to B0. State uses privileged current truth; Observed uses B0 modal reconstruction.}\label{tab:revision_oracles}
+\centering\small
+\begin{tabular}{@{}lllrrl@{}}\toprule
+PDE & Condition & Reference-solver & Cost & Excess (\%) & 95\% interval\\\midrule
+Burgers & Nominal & Observed & 0.346007 & 29.85 & [24.84, 35.55] \\
+Burgers & Nominal & State & 0.341698 & 28.23 & [23.61, 33.28] \\
+Heat & Nominal & Observed & 13.586433 & 12.70 & [11.93, 13.50] \\
+Heat & Nominal & State & 13.572635 & 12.59 & [11.80, 13.41] \\
+Burgers & Coefficient shift & Observed & 0.535012 & 37.52 & [26.07, 50.53] \\
+Burgers & Coefficient shift & State & 0.535725 & 37.70 & [26.03, 51.08] \\
+Heat & Coefficient shift & Observed & 6.900211 & 24.40 & [21.77, 27.12] \\
+Heat & Coefficient shift & State & 6.864443 & 23.76 & [21.15, 26.46] \\
+Burgers & Delay/dropout & Observed & 0.316309 & 26.45 & [19.49, 33.86] \\
+Burgers & Delay/dropout & State & 0.311253 & 24.43 & [18.08, 31.28] \\
+Heat & Delay/dropout & Observed & 14.215194 & 9.37 & [8.70, 10.05] \\
+Heat & Delay/dropout & State & 14.251135 & 9.65 & [9.00, 10.30] \\
+\bottomrule\end{tabular}
+\end{table}

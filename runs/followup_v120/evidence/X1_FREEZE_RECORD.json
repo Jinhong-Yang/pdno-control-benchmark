@@ -1,0 +1,39 @@
+{
+  "status": "SEALED_PRE_RESULT",
+  "freeze_utc": "2026-10-02T15:21:14.222836+00:00",
+  "git_commit": "e5fd69628378e9de32a6d2f7cfd054535d5da337",
+  "git_commit_utc": "2026-10-03T00:20:46+09:00",
+  "work_order_sha256": "1e084b7836b023e5321b3d380a8bf4dadcebf253860ac9d6038193534bc83071",
+  "files": {
+    "config/X1_SPEC.json": "e275613e82d0acecd21631c3e90b7b54e160e3b67521ab8b19a6ab67c9a161c7",
+    "config/X1_ANALYSIS_PLAN.md": "7a0bc3c5da1491f79c90a5560558d7efd55bd2bac78c68042893ff48963311ab",
+    "src/x1/__init__.py": "4a3abf26c68e5171fa0830637d55fff8f88b57d8aa1ba9b681457fe354b30021",
+    "src/x1/design.py": "dde4a579999b10d5ef85a57de5b65161524544d16fcfff57b6d7e1d9f52d1ea8",
+    "src/x1/solvers.py": "c604f8aa0980c73d72962648518400e54c2eff970a1660804d8d9d84611b0e46",
+    "scripts/x1_run.py": "de77653c38d32a4c175ff5928998789abc5c30f2be3d47c3f0d035b31599c8d8",
+    "scripts/verify_x1_baseline.py": "ce7a2eec7af66711855de423ddcd23a7173ec72c5539305ad6b48a645b5e265e",
+    "scripts/extract_x1_anchor_subset.py": "fc5171537ad9803064b413698a6729a0083a9dc6629195c9d545952dd4b0ef85",
+    "scripts/analyze_x1.py": "75fcb405cd7830cfbacfe7516dfeb52c7eca1a2584bf1a944024518f2cd9e85a",
+    "scripts/audit_x1_raw.py": "da6ce109059008b4f5d604511800e2b31e41632853395356ecba9becafcf9f58",
+    "tests/test_x1_design.py": "79d6e194210ac7a7196b9e6e035bd7c8e9ed5f7dab009ef7aa0ee76c48f5265c"
+  },
+  "pre_run_validation": {
+    "unit_tests": "PASS 6/6",
+    "ast_parse": "PASS 11 Python files",
+    "candidate_K10": "exact equality with archived helper",
+    "K50": "50 candidates; hold index48 and B0 index49",
+    "heat_forecast": "matches frozen CN helper on validation snapshot",
+    "heat_plant": "matches frozen full-grid advance on validation snapshot",
+    "Burgers_K10_H8_solver": "matches frozen CUDA and CPU solver on validation snapshot, absolute tolerance 2e-6",
+    "scorer": "exact equality with archived FP32 _cost fixture for Burgers and heat"
+  },
+  "frozen_locked_scope": {
+    "scenario_selection": "first128 sorted lexical actual scenario ID per PDE for all matched cells",
+    "full_anchor": "Burgers K10_H8 all384 first; both means must differ from 0.341698 and aligned archived mean by <=0.0000005",
+    "other_cells": "run only after PASS anchor verification",
+    "cells_per_pde": 9,
+    "B0": "paired on same128 IDs",
+    "bootstrap_seed": 2026100270,
+    "bootstrap_draws": 10000
+  }
+}

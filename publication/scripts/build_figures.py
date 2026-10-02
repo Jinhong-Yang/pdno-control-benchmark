@@ -67,7 +67,7 @@ for pi,pde in enumerate(['burgers','heat']):
   ax.set_xlim((-3,58) if pde=='burgers' else (-8,175));ax.set_xticks([0,20,40] if pde=='burgers' else [0,50,100,150])
   panel(ax,f'{chr(97+pi*3+ri)}  {pde.capitalize()}\n{rolelabels[ri]}')
   if pi==1:ax.set_xlabel('Cost difference vs. B0 (%)')
-save(fig,'fig03_control','All eight controllers; primary paired-parent 95% intervals; dashed 5% margin',['control_all_methods.csv'])
+save(fig,'fig03_control','All eight controllers; primary paired-scenario 95% intervals; dashed 5% margin',['control_all_methods.csv'])
 
 # 4. All-method tail latency and exact deadline-miss proportions (linear scales).
 lat=rows(D/'latency_pooled_descriptive.csv')
@@ -84,7 +84,7 @@ for pi,pde in enumerate(['burgers','heat']):
   panel(axs[pi,ri],f'{chr(97+pi*2+ri)}  {pde.capitalize()}: '+('99th percentile' if ri==0 else '>5 ms requests'))
  axs[pi,0].set_xlim(0,17);axs[pi,0].set_xticks([0,2,5,10,15]);axs[pi,0].axvline(2,color=DARK,ls='--',lw=.8);axs[pi,0].axvline(5,color=GREY,ls=':',lw=.8)
  axs[pi,1].set_xlim(0,112);axs[pi,1].set_xticks([0,25,50,75,100])
-axs[1,0].set_xlabel('Host-ready latency (ms)');axs[1,1].set_xlabel('Deadline-miss proportion (%)')
+axs[1,0].set_xlabel('Request latency (ms)');axs[1,1].set_xlabel('Deadline-miss proportion (%)')
 save(fig,'fig04_latency','Pooled raw-request p99 and exact 5 ms miss proportions for all methods',['latency_pooled_descriptive.csv'])
 
 # 5. Primary H1 interval, rather than a ratio of pooled percentiles.
@@ -99,7 +99,7 @@ for i,r in enumerate(h1):
  if mean is None or ci is None:
   print(json.dumps(r));plt.close(fig);break
  ax.errorbar(mean,i,xerr=[[mean-ci[0]],[ci[1]-mean]],fmt='o',color=ORANGE,ms=5,capsize=3)
- ax.text(.76,i+.18,f'{mean:.4f} [{ci[0]:.4f}, {ci[1]:.4f}]',fontsize=6.8)
+ ax.text(.76,i+.18,f'{mean:.2f} [{ci[0]:.2f}, {ci[1]:.2f}]',fontsize=6.8)
 else:
  ax.axvline(.75,color=BLUE,ls='--',lw=.9);ax.axvline(1,color=DARK,lw=.8);ax.set_xlim(.73,1.03);ax.set_ylim(1.55,-.55)
  ax.set_yticks([0,1],['Burgers','Heat']);ax.set_xticks([.75,.85,.95,1]);ax.set_xlabel('Mean seed-specific p99 ratio, P / B4')
@@ -115,7 +115,7 @@ for i,role in enumerate(roles):
  ax.barh(i,100*first/n,color=ORANGE,height=.52,label='First-step violation' if i==0 else None)
  ax.barh(i,100*valid/n,left=100*first/n,color='#DCE4EB',height=.52,label='No recorded violation' if i==0 else None)
  ax.text(2,i,f'{first}/{n}',color='white',weight='bold',fontsize=8,va='center')
-ax.set_yticks(range(3),['Nominal','Coefficient shift','Delay / dropout']);ax.set_xlim(0,100);ax.invert_yaxis();ax.set_xlabel('Parents (%)');ax.set_xticks([0,25,50,75,100])
+ax.set_yticks(range(3),['Nominal','Coefficient shift','Delay / dropout']);ax.set_xlim(0,100);ax.invert_yaxis();ax.set_xlabel('Scenarios (%)');ax.set_xticks([0,25,50,75,100])
 ax.legend(frameon=False,fontsize=6.2,loc='upper center',bbox_to_anchor=(.43,-.24),ncol=1)
 save(fig,'fig06_heat','All observed heat episode events already occur at first advanced step; no later new or upper events',['heat_constraint_diagnostic.csv'])
 
@@ -136,7 +136,11 @@ save(fig,'figS01_training','Recorded validation histories; phase boundary at upd
 from build_revision_figures import build as build_revision
 fig_records.extend(build_revision(O))
 (D/'figure_provenance.json').write_text(json.dumps(fig_records,indent=2)+'\n')
-from build_figure_guide import build as build_guide
-build_guide(O)
+from build_submission_figures import build as build_submission
+fig_records.extend(build_submission(O))
+for record in fig_records:
+ for old,new in [('original/revision','primary/follow-up'),('original','primary'),('Original','Primary'),('Revision','Follow-up'),('revision','follow-up'),('oracles','reference-solver controls'),('oracle','reference-solver'),('parents','scenarios'),('parent','scenario'),('E3','D3'),('E5','D5')]:
+  record['description']=record['description'].replace(old,new)
+(D/'figure_provenance.json').write_text(json.dumps(fig_records,indent=2)+'\n')
 print('Figures:',len(fig_records))
 

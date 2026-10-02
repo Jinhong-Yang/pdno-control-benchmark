@@ -1,0 +1,13 @@
+{
+  "study": "X3 selected-validation E_total numerical reproduction",
+  "version": 1,
+  "scope": "Read-only CUDA replay of the existing validation field-error metric for the same frozen 54 operators. This is a numerical reproduction check, not model selection, training, or a new endpoint.",
+  "freeze_timing": "This config is committed before the CUDA replay; exact commit and start/end UTC are recorded in X3_GATE_GPU_REPRODUCTION.json.",
+  "roster_source": "evidence/X3_FREEZE.json",
+  "gate_source": "the selected-checkpoint validation_field_nrmse recorded at the already selected update in the primary/E3 selection CSV or E5 checkpoint summary history",
+  "inputs": "same frozen validation teacher-query snapshots, all 10 stored candidate actions, same 128-point model grid, same normalizer buffers and selected checkpoint weights",
+  "metric": "per-batch FP32 accumulation of sum((operator_prediction - future_field)^2) divided by sum(future_field^2), square root after the 64-query validation set; batch size 32, matching confirmatory._evaluate_operator",
+  "acceptance": "compare CUDA replay to the unchanged saved gate at four decimal places; retain full-precision CUDA value, CPU X3 value, saved gate, and absolute differences for every operator",
+  "execution": "single GPU, sequential operator order, inference only; no checkpoint writes, no updates, no solver rollout",
+  "interpretation": "A failure remains an acceptance failure; no gate values or tolerance may be changed."
+}

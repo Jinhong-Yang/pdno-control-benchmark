@@ -1,0 +1,13 @@
+{
+  "status": "PRE_ANALYSIS_AMENDMENT",
+  "recorded_utc": "2026-10-02T15:32:11.200108Z",
+  "old_analyzer_sha256": "75fcb405cd7830cfbacfe7516dfeb52c7eca1a2584bf1a944024518f2cd9e85a",
+  "new_analyzer_sha256": "c7225834e35856712004bcd8683a469c07b6a935e39b755ca37d17c9cd98b903",
+  "cause": [
+    "The full384 Burgers anchor row shares K10_H8 with the matched128 decision cohort and is appended after it; the decision lookup must select burgers_nominal only, or full384 would overwrite the matched128 baseline excess.",
+    "For K50 the zero-offset lattice candidate and explicit appended hold candidate are retained as distinct candidate identities. The existing hold_selection_rate counts only the explicit appended index; add applied_no_change_rate based on exact float32 equality of both applied action components to the preceding action, including initialized previous action."
+  ],
+  "scope": "Analysis dictionary cohort selection and descriptive action metric only. No execution code, candidate design, outcome, endpoint, threshold, bootstrap, inclusion, or branch rule changed.",
+  "branch_rule": "Branch A if any of eight fixed-action Burgers matched128 cells has point relative excess <= 0.5 times matched128 K10_H8 excess; otherwise C if matched128 feedback K10_H8_FB <= 0.5 times matched128 K10_H8; else B.",
+  "pre_analysis": "No X1 analysis output had been generated or inspected at recording time."
+}

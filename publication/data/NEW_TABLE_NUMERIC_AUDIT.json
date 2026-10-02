@@ -1,0 +1,5272 @@
+{
+  "status": "PASS_NEW_TABLE_TRANSCRIPTION_FIGURE_HASHES_X1_COMPLETE",
+  "repo_root": "D:\\Codex Research\\Risk-Calibrated Selective Physics Correction",
+  "cpu_raw_data_required": true,
+  "cpu_raw_data_requirement": "X2b raw request latency arrays and (when available) X1 raw result NPZ files must be present under this checkout; use --repo-root for an extracted Overleaf tree.",
+  "numeric_cells_checked": 666,
+  "checks": [
+    {
+      "key": "nominal/burgers/B0/locked_nominal/cost",
+      "display": "0.266473",
+      "raw": "0.2664725139151905",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/B0/locked_nominal/excess",
+      "display": "+0.00",
+      "raw": "0.0",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/B0/locked_coefficient_ood/cost",
+      "display": "0.389039",
+      "raw": "0.38903927566715957",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/B0/locked_coefficient_ood/excess",
+      "display": "+0.00",
+      "raw": "0.0",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/B0/locked_delay_dropout/cost",
+      "display": "0.250153",
+      "raw": "0.2501530770118818",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/B0/locked_delay_dropout/excess",
+      "display": "+0.00",
+      "raw": "0.0",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/B1/locked_nominal/cost",
+      "display": "0.339718",
+      "raw": "0.33971799909582345",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/B1/locked_nominal/excess",
+      "display": "+27.49",
+      "raw": "0.27487069530910263",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/B1/locked_coefficient_ood/cost",
+      "display": "0.536929",
+      "raw": "0.536928536349823",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/B1/locked_coefficient_ood/excess",
+      "display": "+38.01",
+      "raw": "0.38013966695020596",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/B1/locked_delay_dropout/cost",
+      "display": "0.312457",
+      "raw": "0.3124569792712778",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/B1/locked_delay_dropout/excess",
+      "display": "+24.91",
+      "raw": "0.2490631056936257",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/B2/locked_nominal/cost",
+      "display": "0.278148",
+      "raw": "0.2781477773912076",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/B2/locked_nominal/excess",
+      "display": "+4.38",
+      "raw": "0.043814137917927654",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/B2/locked_coefficient_ood/cost",
+      "display": "0.411125",
+      "raw": "0.411125045904559",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/B2/locked_coefficient_ood/excess",
+      "display": "+5.68",
+      "raw": "0.05677002713806931",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/B2/locked_delay_dropout/cost",
+      "display": "0.260546",
+      "raw": "0.2605463042062284",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/B2/locked_delay_dropout/excess",
+      "display": "+4.15",
+      "raw": "0.0415474689278075",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/B3/locked_nominal/cost",
+      "display": "0.279906",
+      "raw": "0.2799057781479067",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/B3/locked_nominal/excess",
+      "display": "+5.04",
+      "raw": "0.05041144407483452",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/B3/locked_coefficient_ood/cost",
+      "display": "0.411351",
+      "raw": "0.41135105643601216",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/B3/locked_coefficient_ood/excess",
+      "display": "+5.74",
+      "raw": "0.05735097241940518",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/B3/locked_delay_dropout/cost",
+      "display": "0.260462",
+      "raw": "0.26046190071941216",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/B3/locked_delay_dropout/excess",
+      "display": "+4.12",
+      "raw": "0.04121006157777838",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/B4/locked_nominal/cost",
+      "display": "0.340785",
+      "raw": "0.34078455738970614",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/B4/locked_nominal/excess",
+      "display": "+27.89",
+      "raw": "0.2788732030282371",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/B4/locked_coefficient_ood/cost",
+      "display": "0.537655",
+      "raw": "0.5376551674121741",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/B4/locked_coefficient_ood/excess",
+      "display": "+38.20",
+      "raw": "0.38200742454641534",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/B4/locked_delay_dropout/cost",
+      "display": "0.312714",
+      "raw": "0.31271404140600234",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/B4/locked_delay_dropout/excess",
+      "display": "+25.01",
+      "raw": "0.250090725012945",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/B5/locked_nominal/cost",
+      "display": "0.341189",
+      "raw": "0.34118945636393655",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/B5/locked_nominal/excess",
+      "display": "+28.04",
+      "raw": "0.2803926804718251",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/B5/locked_coefficient_ood/cost",
+      "display": "0.537780",
+      "raw": "0.5377795723435652",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/B5/locked_coefficient_ood/excess",
+      "display": "+38.23",
+      "raw": "0.38232719928169834",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/B5/locked_delay_dropout/cost",
+      "display": "0.312759",
+      "raw": "0.31275862190644793",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/B5/locked_delay_dropout/excess",
+      "display": "+25.03",
+      "raw": "0.2502689378935464",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/P-no-rank/locked_nominal/cost",
+      "display": "0.341181",
+      "raw": "0.34118125528960613",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/P-no-rank/locked_nominal/excess",
+      "display": "+28.04",
+      "raw": "0.2803619040355995",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/P-no-rank/locked_coefficient_ood/cost",
+      "display": "0.540584",
+      "raw": "0.540584477822883",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/P-no-rank/locked_coefficient_ood/excess",
+      "display": "+38.95",
+      "raw": "0.389537025267796",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/P-no-rank/locked_delay_dropout/cost",
+      "display": "0.312792",
+      "raw": "0.31279156756623616",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/P-no-rank/locked_delay_dropout/excess",
+      "display": "+25.04",
+      "raw": "0.25040063989050654",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/P/locked_nominal/cost",
+      "display": "0.341189",
+      "raw": "0.34118945636393655",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/P/locked_nominal/excess",
+      "display": "+28.04",
+      "raw": "0.2803926804718251",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/P/locked_coefficient_ood/cost",
+      "display": "0.537780",
+      "raw": "0.5377795723435652",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/P/locked_coefficient_ood/excess",
+      "display": "+38.23",
+      "raw": "0.38232719928169834",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/P/locked_delay_dropout/cost",
+      "display": "0.312759",
+      "raw": "0.31275862190644793",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/P/locked_delay_dropout/excess",
+      "display": "+25.03",
+      "raw": "0.2502689378935464",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/O-cand-state/locked_nominal/cost",
+      "display": "0.341698",
+      "raw": "0.3416981652459941",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/O-cand-state/locked_nominal/excess",
+      "display": "+28.23",
+      "raw": "0.2823017287056686",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/O-cand-state/locked_coefficient_ood/cost",
+      "display": "0.535725",
+      "raw": "0.5357249317074508",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/O-cand-state/locked_coefficient_ood/excess",
+      "display": "+37.70",
+      "raw": "0.3770458799789341",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/O-cand-state/locked_delay_dropout/cost",
+      "display": "0.311253",
+      "raw": "0.31125316304070805",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/O-cand-state/locked_delay_dropout/excess",
+      "display": "+24.43",
+      "raw": "0.24425078739256956",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/O-cand-obs/locked_nominal/cost",
+      "display": "0.346007",
+      "raw": "0.3460068170554971",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/O-cand-obs/locked_nominal/excess",
+      "display": "+29.85",
+      "raw": "0.2984709453584386",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/O-cand-obs/locked_coefficient_ood/cost",
+      "display": "0.535012",
+      "raw": "0.5350123556635814",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/O-cand-obs/locked_coefficient_ood/excess",
+      "display": "+37.52",
+      "raw": "0.3752142498879942",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/burgers/O-cand-obs/locked_delay_dropout/cost",
+      "display": "0.316309",
+      "raw": "0.316309482288514",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/burgers/O-cand-obs/locked_delay_dropout/excess",
+      "display": "+26.45",
+      "raw": "0.2644636878621723",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/B0/locked_nominal/cost",
+      "display": "7.242664",
+      "raw": "7.242663883638749",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/B0/locked_nominal/excess",
+      "display": "+0.00",
+      "raw": "0.0",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/B0/locked_coefficient_ood/cost",
+      "display": "2.871902",
+      "raw": "2.8719022776790117",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/B0/locked_coefficient_ood/excess",
+      "display": "+0.00",
+      "raw": "0.0",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/B0/locked_delay_dropout/cost",
+      "display": "7.069461",
+      "raw": "7.069460753995969",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/B0/locked_delay_dropout/excess",
+      "display": "+0.00",
+      "raw": "0.0",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/B1/locked_nominal/cost",
+      "display": "9.118768",
+      "raw": "9.11876818134811",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/B1/locked_nominal/excess",
+      "display": "+25.90",
+      "raw": "0.2590351185490601",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/B1/locked_coefficient_ood/cost",
+      "display": "4.448797",
+      "raw": "4.44879734894226",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/B1/locked_coefficient_ood/excess",
+      "display": "+54.91",
+      "raw": "0.5490768552673906",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/B1/locked_delay_dropout/cost",
+      "display": "8.574835",
+      "raw": "8.574835461219184",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/B1/locked_delay_dropout/excess",
+      "display": "+21.29",
+      "raw": "0.2129405282251991",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/B2/locked_nominal/cost",
+      "display": "12.154613",
+      "raw": "12.154613159152575",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/B2/locked_nominal/excess",
+      "display": "+67.82",
+      "raw": "0.6781964970941105",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/B2/locked_coefficient_ood/cost",
+      "display": "7.684250",
+      "raw": "7.684249712239517",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/B2/locked_coefficient_ood/excess",
+      "display": "+167.57",
+      "raw": "1.6756654542053933",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/B2/locked_delay_dropout/cost",
+      "display": "12.295526",
+      "raw": "12.295526231277826",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/B2/locked_delay_dropout/excess",
+      "display": "+73.92",
+      "raw": "0.7392452775592335",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/B3/locked_nominal/cost",
+      "display": "12.362595",
+      "raw": "12.362595448526642",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/B3/locked_nominal/excess",
+      "display": "+70.69",
+      "raw": "0.706912766786523",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/B3/locked_coefficient_ood/cost",
+      "display": "7.820357",
+      "raw": "7.820356724492034",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/B3/locked_coefficient_ood/excess",
+      "display": "+172.31",
+      "raw": "1.7230580877606392",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/B3/locked_delay_dropout/cost",
+      "display": "12.469471",
+      "raw": "12.469471165320332",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/B3/locked_delay_dropout/excess",
+      "display": "+76.39",
+      "raw": "0.763850398104557",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/B4/locked_nominal/cost",
+      "display": "9.326493",
+      "raw": "9.326492626189037",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/B4/locked_nominal/excess",
+      "display": "+28.77",
+      "raw": "0.28771578745462373",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/B4/locked_coefficient_ood/cost",
+      "display": "4.638952",
+      "raw": "4.638951582208637",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/B4/locked_coefficient_ood/excess",
+      "display": "+61.53",
+      "raw": "0.6152887994356492",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/B4/locked_delay_dropout/cost",
+      "display": "8.917261",
+      "raw": "8.917261120233043",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/B4/locked_delay_dropout/excess",
+      "display": "+26.14",
+      "raw": "0.2613778377923121",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/B5/locked_nominal/cost",
+      "display": "9.231219",
+      "raw": "9.231219205581489",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/B5/locked_nominal/excess",
+      "display": "+27.46",
+      "raw": "0.274561315268945",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/B5/locked_coefficient_ood/cost",
+      "display": "4.594399",
+      "raw": "4.594399013700485",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/B5/locked_coefficient_ood/excess",
+      "display": "+59.98",
+      "raw": "0.599775538815877",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/B5/locked_delay_dropout/cost",
+      "display": "8.839740",
+      "raw": "8.839739970773923",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/B5/locked_delay_dropout/excess",
+      "display": "+25.04",
+      "raw": "0.2504121995128575",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/P-no-rank/locked_nominal/cost",
+      "display": "9.268920",
+      "raw": "9.268919576835982",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/P-no-rank/locked_nominal/excess",
+      "display": "+27.98",
+      "raw": "0.2797666336242063",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/P-no-rank/locked_coefficient_ood/cost",
+      "display": "4.512963",
+      "raw": "4.512963407499673",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/P-no-rank/locked_coefficient_ood/excess",
+      "display": "+57.14",
+      "raw": "0.5714195578921021",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/P-no-rank/locked_delay_dropout/cost",
+      "display": "8.905168",
+      "raw": "8.905167644025155",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/P-no-rank/locked_delay_dropout/excess",
+      "display": "+25.97",
+      "raw": "0.2596671731986865",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/P/locked_nominal/cost",
+      "display": "9.231207",
+      "raw": "9.23120683025127",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/P/locked_nominal/excess",
+      "display": "+27.46",
+      "raw": "0.274559606597879",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/P/locked_coefficient_ood/cost",
+      "display": "4.594455",
+      "raw": "4.594454524937047",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/P/locked_coefficient_ood/excess",
+      "display": "+59.98",
+      "raw": "0.5997948678985527",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "nominal/heat/P/locked_delay_dropout/cost",
+      "display": "8.839717",
+      "raw": "8.839716503874605",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "nominal/heat/P/locked_delay_dropout/excess",
+      "display": "+25.04",
+      "raw": "0.2504088800377044",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "Burgers/B4/10/off/stage_sum",
+      "display": "3.8931",
+      "raw": "3.8931314",
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/10/off/share",
+      "display": "5.56",
+      "raw": "0.055600332421351095",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "Burgers/B4/10/on/stage_sum",
+      "display": "4.0302",
+      "raw": "4.0301896",
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/10/on/share",
+      "display": "3.64",
+      "raw": "0.036420073139983286",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "Burgers/B4/200/off/stage_sum",
+      "display": "4.1485",
+      "raw": "4.148526599999999",
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/200/off/share",
+      "display": "5.15",
+      "raw": "0.051510625483274",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "Burgers/B4/200/on/stage_sum",
+      "display": "4.8675",
+      "raw": "4.8674534",
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/200/on/share",
+      "display": "3.25",
+      "raw": "0.0324776812449812",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "Burgers/P/10/off/stage_sum",
+      "display": "4.8417",
+      "raw": "4.841677000000001",
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/10/off/share",
+      "display": "5.39",
+      "raw": "0.05389839099138584",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "Burgers/P/10/on/stage_sum",
+      "display": "3.6048",
+      "raw": "3.6047781999999997",
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/10/on/share",
+      "display": "3.64",
+      "raw": "0.036446070385134935",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "Burgers/P/200/off/stage_sum",
+      "display": "3.8133",
+      "raw": "3.813259800000001",
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/200/off/share",
+      "display": "4.51",
+      "raw": "0.04505457509084484",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "Burgers/P/200/on/stage_sum",
+      "display": "3.2762",
+      "raw": "3.2762405999999995",
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/200/on/share",
+      "display": "2.78",
+      "raw": "0.027849786123766374",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "SH heat/B4/10/off/stage_sum",
+      "display": "7.3900",
+      "raw": "7.390004399999999",
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/10/off/share",
+      "display": "4.32",
+      "raw": "0.043211882255442244",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "SH heat/B4/10/on/stage_sum",
+      "display": "2.7235",
+      "raw": "2.7234952000000003",
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/10/on/share",
+      "display": "3.30",
+      "raw": "0.03301301944648186",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "SH heat/B4/200/off/stage_sum",
+      "display": "5.9044",
+      "raw": "5.9044418",
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/200/off/share",
+      "display": "3.66",
+      "raw": "0.0366058312235375",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "SH heat/B4/200/on/stage_sum",
+      "display": "4.5872",
+      "raw": "4.587247800000001",
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/200/on/share",
+      "display": "3.31",
+      "raw": "0.03306313646278274",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "SH heat/P/10/off/stage_sum",
+      "display": "5.7102",
+      "raw": "5.7101936",
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/10/off/share",
+      "display": "3.54",
+      "raw": "0.0353565245143352",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "SH heat/P/10/on/stage_sum",
+      "display": "3.2197",
+      "raw": "3.2197077999999997",
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/10/on/share",
+      "display": "3.31",
+      "raw": "0.033126794922197604",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "SH heat/P/200/off/stage_sum",
+      "display": "8.0108",
+      "raw": "8.01081",
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/200/off/share",
+      "display": "3.13",
+      "raw": "0.03129543704069875",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "SH heat/P/200/on/stage_sum",
+      "display": "3.3073",
+      "raw": "3.3072794",
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/200/on/share",
+      "display": "2.66",
+      "raw": "0.026615773677905772",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "Burgers/B4/11/--/E_obs",
+      "display": "0.0937",
+      "raw": 0.09369522022485487,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/--/E_prop",
+      "display": "0.0626",
+      "raw": 0.06255114916242445,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/--/E_total",
+      "display": "0.1588",
+      "raw": 0.15884026885032654,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/--/E_op",
+      "display": "0.1376",
+      "raw": 0.1375737450715499,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/--/persistence",
+      "display": "0.3467",
+      "raw": 0.346669396359098,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/--/E_prop_over_E_total",
+      "display": "0.3938",
+      "raw": 0.393799063771201,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/--/E_obs",
+      "display": "0.0937",
+      "raw": 0.09369522022485487,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/--/E_prop",
+      "display": "0.0626",
+      "raw": 0.06255114916242445,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/--/E_total",
+      "display": "0.1591",
+      "raw": 0.1591200977563858,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/--/E_op",
+      "display": "0.1378",
+      "raw": 0.13781085039826327,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/--/persistence",
+      "display": "0.3467",
+      "raw": 0.346669396359098,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/--/E_prop_over_E_total",
+      "display": "0.3931",
+      "raw": 0.3931065279898884,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/--/E_obs",
+      "display": "0.0937",
+      "raw": 0.09369522022485487,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/--/E_prop",
+      "display": "0.0626",
+      "raw": 0.06255114916242445,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/--/E_total",
+      "display": "0.1592",
+      "raw": 0.15918859839439392,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/--/E_op",
+      "display": "0.1384",
+      "raw": 0.13840907574485675,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/--/persistence",
+      "display": "0.3467",
+      "raw": 0.346669396359098,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/--/E_prop_over_E_total",
+      "display": "0.3929",
+      "raw": 0.39293736984512134,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B5/11/--/E_obs",
+      "display": "0.0937",
+      "raw": 0.09369522022485487,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B5/11/--/E_prop",
+      "display": "0.0626",
+      "raw": 0.06255114916242445,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B5/11/--/E_total",
+      "display": "0.1583",
+      "raw": 0.15826310217380524,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B5/11/--/E_op",
+      "display": "0.1377",
+      "raw": 0.13770811322482907,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B5/11/--/persistence",
+      "display": "0.3467",
+      "raw": 0.346669396359098,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B5/11/--/E_prop_over_E_total",
+      "display": "0.3952",
+      "raw": 0.3952352020354719,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B5/23/--/E_obs",
+      "display": "0.0937",
+      "raw": 0.09369522022485487,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B5/23/--/E_prop",
+      "display": "0.0626",
+      "raw": 0.06255114916242445,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B5/23/--/E_total",
+      "display": "0.1598",
+      "raw": 0.1598055362701416,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B5/23/--/E_op",
+      "display": "0.1391",
+      "raw": 0.13907831598651027,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B5/23/--/persistence",
+      "display": "0.3467",
+      "raw": 0.346669396359098,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B5/23/--/E_prop_over_E_total",
+      "display": "0.3914",
+      "raw": 0.3914204139754302,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B5/37/--/E_obs",
+      "display": "0.0937",
+      "raw": 0.09369522022485487,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B5/37/--/E_prop",
+      "display": "0.0626",
+      "raw": 0.06255114916242445,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B5/37/--/E_total",
+      "display": "0.1618",
+      "raw": 0.16183188557624817,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B5/37/--/E_op",
+      "display": "0.1403",
+      "raw": 0.14025635357434282,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B5/37/--/persistence",
+      "display": "0.3467",
+      "raw": 0.346669396359098,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B5/37/--/E_prop_over_E_total",
+      "display": "0.3865",
+      "raw": 0.386519312555084,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P-nr/11/--/E_obs",
+      "display": "0.0937",
+      "raw": 0.09369522022485487,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P-nr/11/--/E_prop",
+      "display": "0.0626",
+      "raw": 0.06255114916242445,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P-nr/11/--/E_total",
+      "display": "0.1585",
+      "raw": 0.15846602618694305,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P-nr/11/--/E_op",
+      "display": "0.1378",
+      "raw": 0.13782195242740247,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P-nr/11/--/persistence",
+      "display": "0.3467",
+      "raw": 0.346669396359098,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P-nr/11/--/E_prop_over_E_total",
+      "display": "0.3947",
+      "raw": 0.39472908274125956,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P-nr/23/--/E_obs",
+      "display": "0.0937",
+      "raw": 0.09369522022485487,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P-nr/23/--/E_prop",
+      "display": "0.0626",
+      "raw": 0.06255114916242445,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P-nr/23/--/E_total",
+      "display": "0.1599",
+      "raw": 0.1599491536617279,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P-nr/23/--/E_op",
+      "display": "0.1392",
+      "raw": 0.13916778478579672,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P-nr/23/--/persistence",
+      "display": "0.3467",
+      "raw": 0.346669396359098,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P-nr/23/--/E_prop_over_E_total",
+      "display": "0.3911",
+      "raw": 0.39106895991905133,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P-nr/37/--/E_obs",
+      "display": "0.0937",
+      "raw": 0.09369522022485487,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P-nr/37/--/E_prop",
+      "display": "0.0626",
+      "raw": 0.06255114916242445,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P-nr/37/--/E_total",
+      "display": "0.1620",
+      "raw": 0.16197602450847626,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P-nr/37/--/E_op",
+      "display": "0.1404",
+      "raw": 0.14036775065543217,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P-nr/37/--/persistence",
+      "display": "0.3467",
+      "raw": 0.346669396359098,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P-nr/37/--/E_prop_over_E_total",
+      "display": "0.3862",
+      "raw": 0.386175357447121,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/--/E_obs",
+      "display": "0.0937",
+      "raw": 0.09369522022485487,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/--/E_prop",
+      "display": "0.0626",
+      "raw": 0.06255114916242445,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/--/E_total",
+      "display": "0.1583",
+      "raw": 0.15826304256916046,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/--/E_op",
+      "display": "0.1377",
+      "raw": 0.13770805211916617,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/--/persistence",
+      "display": "0.3467",
+      "raw": 0.346669396359098,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/--/E_prop_over_E_total",
+      "display": "0.3952",
+      "raw": 0.39523535088799894,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/--/E_obs",
+      "display": "0.0937",
+      "raw": 0.09369522022485487,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/--/E_prop",
+      "display": "0.0626",
+      "raw": 0.06255114916242445,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/--/E_total",
+      "display": "0.1598",
+      "raw": 0.15980547666549683,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/--/E_op",
+      "display": "0.1391",
+      "raw": 0.13907824281772496,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/--/persistence",
+      "display": "0.3467",
+      "raw": 0.346669396359098,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/--/E_prop_over_E_total",
+      "display": "0.3914",
+      "raw": 0.39142055996839126,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/--/E_obs",
+      "display": "0.0937",
+      "raw": 0.09369522022485487,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/--/E_prop",
+      "display": "0.0626",
+      "raw": 0.06255114916242445,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/--/E_total",
+      "display": "0.1618",
+      "raw": 0.1618318259716034,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/--/E_op",
+      "display": "0.1403",
+      "raw": 0.14025627907912433,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/--/persistence",
+      "display": "0.3467",
+      "raw": 0.346669396359098,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/--/E_prop_over_E_total",
+      "display": "0.3865",
+      "raw": 0.3865194549148836,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/11/--/E_obs",
+      "display": "0.0819",
+      "raw": 0.08189038598776127,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/11/--/E_prop",
+      "display": "0.0574",
+      "raw": 0.05743985977821169,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/11/--/E_total",
+      "display": "0.0834",
+      "raw": 0.08341459929943085,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/11/--/E_op",
+      "display": "0.0634",
+      "raw": 0.06340345055866424,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/11/--/persistence",
+      "display": "0.1772",
+      "raw": 0.1771943798711239,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/11/--/E_prop_over_E_total",
+      "display": "0.6886",
+      "raw": 0.688606793782244,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/23/--/E_obs",
+      "display": "0.0819",
+      "raw": 0.08189038598776127,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/23/--/E_prop",
+      "display": "0.0574",
+      "raw": 0.05743985977821169,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/23/--/E_total",
+      "display": "0.0842",
+      "raw": 0.0841740295290947,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/23/--/E_op",
+      "display": "0.0645",
+      "raw": 0.06454042474696049,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/23/--/persistence",
+      "display": "0.1772",
+      "raw": 0.1771943798711239,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/23/--/E_prop_over_E_total",
+      "display": "0.6824",
+      "raw": 0.6823940840132602,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/37/--/E_obs",
+      "display": "0.0819",
+      "raw": 0.08189038598776127,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/37/--/E_prop",
+      "display": "0.0574",
+      "raw": 0.05743985977821169,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/37/--/E_total",
+      "display": "0.0831",
+      "raw": 0.08306802809238434,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/37/--/E_op",
+      "display": "0.0628",
+      "raw": 0.0627561073751234,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/37/--/persistence",
+      "display": "0.1772",
+      "raw": 0.1771943798711239,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B4/37/--/E_prop_over_E_total",
+      "display": "0.6915",
+      "raw": 0.691479755777154,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B5/11/--/E_obs",
+      "display": "0.0819",
+      "raw": 0.08189038598776127,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B5/11/--/E_prop",
+      "display": "0.0574",
+      "raw": 0.05743985977821169,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B5/11/--/E_total",
+      "display": "0.0789",
+      "raw": 0.07888459414243698,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B5/11/--/E_op",
+      "display": "0.0572",
+      "raw": 0.05724247452310745,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B5/11/--/persistence",
+      "display": "0.1772",
+      "raw": 0.1771943798711239,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B5/11/--/E_prop_over_E_total",
+      "display": "0.7282",
+      "raw": 0.728150539438615,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B5/23/--/E_obs",
+      "display": "0.0819",
+      "raw": 0.08189038598776127,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B5/23/--/E_prop",
+      "display": "0.0574",
+      "raw": 0.05743985977821169,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B5/23/--/E_total",
+      "display": "0.0835",
+      "raw": 0.08353520184755325,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B5/23/--/E_op",
+      "display": "0.0635",
+      "raw": 0.06352526806501274,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B5/23/--/persistence",
+      "display": "0.1772",
+      "raw": 0.1771943798711239,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B5/23/--/E_prop_over_E_total",
+      "display": "0.6876",
+      "raw": 0.687612629260608,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B5/37/--/E_obs",
+      "display": "0.0819",
+      "raw": 0.08189038598776127,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B5/37/--/E_prop",
+      "display": "0.0574",
+      "raw": 0.05743985977821169,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B5/37/--/E_total",
+      "display": "0.0844",
+      "raw": 0.08439894020557404,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B5/37/--/E_op",
+      "display": "0.0647",
+      "raw": 0.06466733773767723,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B5/37/--/persistence",
+      "display": "0.1772",
+      "raw": 0.1771943798711239,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/B5/37/--/E_prop_over_E_total",
+      "display": "0.6806",
+      "raw": 0.6805756048393856,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P-nr/11/--/E_obs",
+      "display": "0.0819",
+      "raw": 0.08189038598776127,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P-nr/11/--/E_prop",
+      "display": "0.0574",
+      "raw": 0.05743985977821169,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P-nr/11/--/E_total",
+      "display": "0.0770",
+      "raw": 0.07701326906681061,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P-nr/11/--/E_op",
+      "display": "0.0549",
+      "raw": 0.05494815249443344,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P-nr/11/--/persistence",
+      "display": "0.1772",
+      "raw": 0.1771943798711239,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P-nr/11/--/E_prop_over_E_total",
+      "display": "0.7458",
+      "raw": 0.7458436769952126,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P-nr/23/--/E_obs",
+      "display": "0.0819",
+      "raw": 0.08189038598776127,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P-nr/23/--/E_prop",
+      "display": "0.0574",
+      "raw": 0.05743985977821169,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P-nr/23/--/E_total",
+      "display": "0.0825",
+      "raw": 0.08245038986206055,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P-nr/23/--/E_op",
+      "display": "0.0625",
+      "raw": 0.06252735163968147,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P-nr/23/--/persistence",
+      "display": "0.1772",
+      "raw": 0.1771943798711239,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P-nr/23/--/E_prop_over_E_total",
+      "display": "0.6967",
+      "raw": 0.6966596504189797,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P-nr/37/--/E_obs",
+      "display": "0.0819",
+      "raw": 0.08189038598776127,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P-nr/37/--/E_prop",
+      "display": "0.0574",
+      "raw": 0.05743985977821169,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P-nr/37/--/E_total",
+      "display": "0.0840",
+      "raw": 0.08401068300008774,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P-nr/37/--/E_op",
+      "display": "0.0642",
+      "raw": 0.06423672577381553,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P-nr/37/--/persistence",
+      "display": "0.1772",
+      "raw": 0.1771943798711239,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P-nr/37/--/E_prop_over_E_total",
+      "display": "0.6837",
+      "raw": 0.6837208998545067,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/11/--/E_obs",
+      "display": "0.0819",
+      "raw": 0.08189038598776127,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/11/--/E_prop",
+      "display": "0.0574",
+      "raw": 0.05743985977821169,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/11/--/E_total",
+      "display": "0.0789",
+      "raw": 0.07888397574424744,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/11/--/E_op",
+      "display": "0.0572",
+      "raw": 0.05724165766880939,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/11/--/persistence",
+      "display": "0.1772",
+      "raw": 0.1771943798711239,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/11/--/E_prop_over_E_total",
+      "display": "0.7282",
+      "raw": 0.728156247657186,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/23/--/E_obs",
+      "display": "0.0819",
+      "raw": 0.08189038598776127,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/23/--/E_prop",
+      "display": "0.0574",
+      "raw": 0.05743985977821169,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/23/--/E_total",
+      "display": "0.0835",
+      "raw": 0.08353502303361893,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/23/--/E_op",
+      "display": "0.0635",
+      "raw": 0.06352500621249958,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/23/--/persistence",
+      "display": "0.1772",
+      "raw": 0.1771943798711239,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/23/--/E_prop_over_E_total",
+      "display": "0.6876",
+      "raw": 0.6876141011548514,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/37/--/E_obs",
+      "display": "0.0819",
+      "raw": 0.08189038598776127,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/37/--/E_prop",
+      "display": "0.0574",
+      "raw": 0.05743985977821169,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/37/--/E_total",
+      "display": "0.0844",
+      "raw": 0.08439887315034866,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/37/--/E_op",
+      "display": "0.0647",
+      "raw": 0.06466724000833018,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/37/--/persistence",
+      "display": "0.1772",
+      "raw": 0.1771943798711239,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "SH heat/P/37/--/E_prop_over_E_total",
+      "display": "0.6806",
+      "raw": 0.6805761455592894,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/16/E_obs",
+      "display": "0.0839",
+      "raw": 0.0839316254990717,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/16/E_prop",
+      "display": "0.0560",
+      "raw": 0.05602187547199556,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/16/E_total",
+      "display": "0.1081",
+      "raw": 0.10805147141218185,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/16/E_op",
+      "display": "0.0920",
+      "raw": 0.09201084108271038,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/16/persistence",
+      "display": "0.3368",
+      "raw": 0.3368489932824677,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/16/E_prop_over_E_total",
+      "display": "0.5185",
+      "raw": 0.5184739711529702,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/16/E_obs",
+      "display": "0.0839",
+      "raw": 0.0839316254990717,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/16/E_prop",
+      "display": "0.0560",
+      "raw": 0.05602187547199556,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/16/E_total",
+      "display": "0.1072",
+      "raw": 0.10721510648727417,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/16/E_op",
+      "display": "0.0912",
+      "raw": 0.0912316693778202,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/16/persistence",
+      "display": "0.3368",
+      "raw": 0.3368489932824677,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/16/E_prop_over_E_total",
+      "display": "0.5225",
+      "raw": 0.5225184893011792,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/16/E_obs",
+      "display": "0.0839",
+      "raw": 0.0839316254990717,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/16/E_prop",
+      "display": "0.0560",
+      "raw": 0.05602187547199556,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/16/E_total",
+      "display": "0.1062",
+      "raw": 0.10615088045597076,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/16/E_op",
+      "display": "0.0900",
+      "raw": 0.0900457250865684,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/16/persistence",
+      "display": "0.3368",
+      "raw": 0.3368489932824677,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/16/E_prop_over_E_total",
+      "display": "0.5278",
+      "raw": 0.5277570495068319,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/16/E_obs",
+      "display": "0.0839",
+      "raw": 0.0839316254990717,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/16/E_prop",
+      "display": "0.0560",
+      "raw": 0.05602187547199556,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/16/E_total",
+      "display": "0.1091",
+      "raw": 0.1090962290763855,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/16/E_op",
+      "display": "0.0926",
+      "raw": 0.0926449120276615,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/16/persistence",
+      "display": "0.3368",
+      "raw": 0.3368489932824677,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/16/E_prop_over_E_total",
+      "display": "0.5135",
+      "raw": 0.5135088164483754,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/16/E_obs",
+      "display": "0.0839",
+      "raw": 0.0839316254990717,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/16/E_prop",
+      "display": "0.0560",
+      "raw": 0.05602187547199556,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/16/E_total",
+      "display": "0.1086",
+      "raw": 0.10860015451908112,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/16/E_op",
+      "display": "0.0921",
+      "raw": 0.09213339238150686,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/16/persistence",
+      "display": "0.3368",
+      "raw": 0.3368489932824677,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/16/E_prop_over_E_total",
+      "display": "0.5159",
+      "raw": 0.5158544729524531,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/16/E_obs",
+      "display": "0.0839",
+      "raw": 0.0839316254990717,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/16/E_prop",
+      "display": "0.0560",
+      "raw": 0.05602187547199556,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/16/E_total",
+      "display": "0.1075",
+      "raw": 0.10753229260444641,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/16/E_op",
+      "display": "0.0906",
+      "raw": 0.09061229659040775,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/16/persistence",
+      "display": "0.3368",
+      "raw": 0.3368489932824677,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/16/E_prop_over_E_total",
+      "display": "0.5210",
+      "raw": 0.5209772256792662,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/1/E_obs",
+      "display": "0.0691",
+      "raw": 0.06909215174544853,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/1/E_prop",
+      "display": "0.0473",
+      "raw": 0.04732220923560771,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/1/E_total",
+      "display": "0.0829",
+      "raw": 0.08286414295434952,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/1/E_op",
+      "display": "0.0662",
+      "raw": 0.06618087993956215,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/1/persistence",
+      "display": "0.3302",
+      "raw": 0.33015880469340697,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/1/E_prop_over_E_total",
+      "display": "0.5711",
+      "raw": 0.5710818642229591,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/1/E_obs",
+      "display": "0.0691",
+      "raw": 0.06909215174544853,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/1/E_prop",
+      "display": "0.0473",
+      "raw": 0.04732220923560771,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/1/E_total",
+      "display": "0.0884",
+      "raw": 0.0883832797408104,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/1/E_op",
+      "display": "0.0728",
+      "raw": 0.07284348319338897,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/1/persistence",
+      "display": "0.3302",
+      "raw": 0.33015880469340697,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/1/E_prop_over_E_total",
+      "display": "0.5354",
+      "raw": 0.5354203801260047,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/1/E_obs",
+      "display": "0.0691",
+      "raw": 0.06909215174544853,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/1/E_prop",
+      "display": "0.0473",
+      "raw": 0.04732220923560771,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/1/E_total",
+      "display": "0.0890",
+      "raw": 0.08902458101511002,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/1/E_op",
+      "display": "0.0737",
+      "raw": 0.07368846005693994,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/1/persistence",
+      "display": "0.3302",
+      "raw": 0.33015880469340697,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/1/E_prop_over_E_total",
+      "display": "0.5316",
+      "raw": 0.531563403006365,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/1/E_obs",
+      "display": "0.0691",
+      "raw": 0.06909215174544853,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/1/E_prop",
+      "display": "0.0473",
+      "raw": 0.04732220923560771,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/1/E_total",
+      "display": "0.0982",
+      "raw": 0.09816398471593857,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/1/E_op",
+      "display": "0.0841",
+      "raw": 0.08410617112320959,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/1/persistence",
+      "display": "0.3302",
+      "raw": 0.33015880469340697,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/1/E_prop_over_E_total",
+      "display": "0.4821",
+      "raw": 0.48207302680862096,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/1/E_obs",
+      "display": "0.0691",
+      "raw": 0.06909215174544853,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/1/E_prop",
+      "display": "0.0473",
+      "raw": 0.04732220923560771,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/1/E_total",
+      "display": "0.0972",
+      "raw": 0.09718083590269089,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/1/E_op",
+      "display": "0.0829",
+      "raw": 0.08289691314182138,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/1/persistence",
+      "display": "0.3302",
+      "raw": 0.33015880469340697,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/1/E_prop_over_E_total",
+      "display": "0.4870",
+      "raw": 0.4869500122739465,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/1/E_obs",
+      "display": "0.0691",
+      "raw": 0.06909215174544853,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/1/E_prop",
+      "display": "0.0473",
+      "raw": 0.04732220923560771,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/1/E_total",
+      "display": "0.0885",
+      "raw": 0.08847183734178543,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/1/E_op",
+      "display": "0.0732",
+      "raw": 0.07316362569916758,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/1/persistence",
+      "display": "0.3302",
+      "raw": 0.33015880469340697,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/1/E_prop_over_E_total",
+      "display": "0.5349",
+      "raw": 0.5348844407152075,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/4/E_obs",
+      "display": "0.0788",
+      "raw": 0.07882961950302994,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/4/E_prop",
+      "display": "0.0542",
+      "raw": 0.054187825622030866,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/4/E_total",
+      "display": "0.1056",
+      "raw": 0.10563765466213226,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/4/E_op",
+      "display": "0.0880",
+      "raw": 0.0880042920253714,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/4/persistence",
+      "display": "0.3346",
+      "raw": 0.33462139460523316,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/11/4/E_prop_over_E_total",
+      "display": "0.5130",
+      "raw": 0.5129593779352949,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/4/E_obs",
+      "display": "0.0788",
+      "raw": 0.07882961950302994,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/4/E_prop",
+      "display": "0.0542",
+      "raw": 0.054187825622030866,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/4/E_total",
+      "display": "0.1025",
+      "raw": 0.10253439098596573,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/4/E_op",
+      "display": "0.0849",
+      "raw": 0.08486786264560732,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/4/persistence",
+      "display": "0.3346",
+      "raw": 0.33462139460523316,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/23/4/E_prop_over_E_total",
+      "display": "0.5285",
+      "raw": 0.5284843953425126,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/4/E_obs",
+      "display": "0.0788",
+      "raw": 0.07882961950302994,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/4/E_prop",
+      "display": "0.0542",
+      "raw": 0.054187825622030866,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/4/E_total",
+      "display": "0.1010",
+      "raw": 0.10100750625133514,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/4/E_op",
+      "display": "0.0830",
+      "raw": 0.08295460630287384,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/4/persistence",
+      "display": "0.3346",
+      "raw": 0.33462139460523316,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/B4/37/4/E_prop_over_E_total",
+      "display": "0.5365",
+      "raw": 0.536473254643039,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/4/E_obs",
+      "display": "0.0788",
+      "raw": 0.07882961950302994,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/4/E_prop",
+      "display": "0.0542",
+      "raw": 0.054187825622030866,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/4/E_total",
+      "display": "0.1065",
+      "raw": 0.10649789869785309,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/4/E_op",
+      "display": "0.0883",
+      "raw": 0.08827723692246806,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/4/persistence",
+      "display": "0.3346",
+      "raw": 0.33462139460523316,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/11/4/E_prop_over_E_total",
+      "display": "0.5088",
+      "raw": 0.5088159135962675,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/4/E_obs",
+      "display": "0.0788",
+      "raw": 0.07882961950302994,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/4/E_prop",
+      "display": "0.0542",
+      "raw": 0.054187825622030866,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/4/E_total",
+      "display": "0.1067",
+      "raw": 0.10668371617794037,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/4/E_op",
+      "display": "0.0888",
+      "raw": 0.08882181553393603,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/4/persistence",
+      "display": "0.3346",
+      "raw": 0.33462139460523316,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/23/4/E_prop_over_E_total",
+      "display": "0.5079",
+      "raw": 0.5079296781492845,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/4/E_obs",
+      "display": "0.0788",
+      "raw": 0.07882961950302994,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/4/E_prop",
+      "display": "0.0542",
+      "raw": 0.054187825622030866,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/4/E_total",
+      "display": "0.1061",
+      "raw": 0.10611018538475037,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/4/E_op",
+      "display": "0.0881",
+      "raw": 0.08806860305564647,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/4/persistence",
+      "display": "0.3346",
+      "raw": 0.33462139460523316,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "Burgers/P/37/4/E_prop_over_E_total",
+      "display": "0.5107",
+      "raw": 0.5106750631482591,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P/11/--/E_obs",
+      "display": "0.0477",
+      "raw": 0.04769421321232841,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P/11/--/E_prop",
+      "display": "0.0302",
+      "raw": 0.030163217501495837,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P/11/--/E_total",
+      "display": "0.0514",
+      "raw": 0.05140431970357895,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P/11/--/E_op",
+      "display": "0.0394",
+      "raw": 0.039368899322601715,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P/11/--/persistence",
+      "display": "0.1312",
+      "raw": 0.1311798067543557,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P/11/--/E_prop_over_E_total",
+      "display": "0.5868",
+      "raw": 0.5867837114746559,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P/23/--/E_obs",
+      "display": "0.0477",
+      "raw": 0.04769421321232841,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P/23/--/E_prop",
+      "display": "0.0302",
+      "raw": 0.030163217501495837,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P/23/--/E_total",
+      "display": "0.0519",
+      "raw": 0.051948487758636475,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P/23/--/E_op",
+      "display": "0.0407",
+      "raw": 0.0407434192625483,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P/23/--/persistence",
+      "display": "0.1312",
+      "raw": 0.1311798067543557,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P/23/--/E_prop_over_E_total",
+      "display": "0.5806",
+      "raw": 0.5806370657340488,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P/37/--/E_obs",
+      "display": "0.0477",
+      "raw": 0.04769421321232841,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P/37/--/E_prop",
+      "display": "0.0302",
+      "raw": 0.030163217501495837,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P/37/--/E_total",
+      "display": "0.0527",
+      "raw": 0.05266537889838219,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P/37/--/E_op",
+      "display": "0.0417",
+      "raw": 0.04171134660070631,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P/37/--/persistence",
+      "display": "0.1312",
+      "raw": 0.1311798067543557,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P/37/--/E_prop_over_E_total",
+      "display": "0.5727",
+      "raw": 0.5727333237209922,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P-nr/11/--/E_obs",
+      "display": "0.0477",
+      "raw": 0.04769421321232841,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P-nr/11/--/E_prop",
+      "display": "0.0302",
+      "raw": 0.030163217501495837,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P-nr/11/--/E_total",
+      "display": "0.0514",
+      "raw": 0.051370203495025635,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P-nr/11/--/E_op",
+      "display": "0.0393",
+      "raw": 0.03934928097556572,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P-nr/11/--/persistence",
+      "display": "0.1312",
+      "raw": 0.1311798067543557,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P-nr/11/--/E_prop_over_E_total",
+      "display": "0.5872",
+      "raw": 0.5871734088890003,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P-nr/23/--/E_obs",
+      "display": "0.0477",
+      "raw": 0.04769421321232841,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P-nr/23/--/E_prop",
+      "display": "0.0302",
+      "raw": 0.030163217501495837,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P-nr/23/--/E_total",
+      "display": "0.0519",
+      "raw": 0.051876652985811234,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P-nr/23/--/E_op",
+      "display": "0.0406",
+      "raw": 0.040566328728783234,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P-nr/23/--/persistence",
+      "display": "0.1312",
+      "raw": 0.1311798067543557,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P-nr/23/--/E_prop_over_E_total",
+      "display": "0.5814",
+      "raw": 0.5814410869904381,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P-nr/37/--/E_obs",
+      "display": "0.0477",
+      "raw": 0.04769421321232841,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P-nr/37/--/E_prop",
+      "display": "0.0302",
+      "raw": 0.030163217501495837,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P-nr/37/--/E_total",
+      "display": "0.0527",
+      "raw": 0.052650533616542816,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P-nr/37/--/E_op",
+      "display": "0.0415",
+      "raw": 0.04151602813766558,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P-nr/37/--/persistence",
+      "display": "0.1312",
+      "raw": 0.1311798067543557,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/P-nr/37/--/E_prop_over_E_total",
+      "display": "0.5729",
+      "raw": 0.5728948109277765,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B4/11/--/E_obs",
+      "display": "0.0477",
+      "raw": 0.04769421321232841,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B4/11/--/E_prop",
+      "display": "0.0302",
+      "raw": 0.030163217501495837,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B4/11/--/E_total",
+      "display": "0.0515",
+      "raw": 0.051465366035699844,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B4/11/--/E_op",
+      "display": "0.0402",
+      "raw": 0.040236549144011105,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B4/11/--/persistence",
+      "display": "0.1312",
+      "raw": 0.1311798067543557,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B4/11/--/E_prop_over_E_total",
+      "display": "0.5861",
+      "raw": 0.5860876901287868,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B4/23/--/E_obs",
+      "display": "0.0477",
+      "raw": 0.04769421321232841,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B4/23/--/E_prop",
+      "display": "0.0302",
+      "raw": 0.030163217501495837,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B4/23/--/E_total",
+      "display": "0.0525",
+      "raw": 0.05253461003303528,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B4/23/--/E_op",
+      "display": "0.0423",
+      "raw": 0.04227183522776896,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B4/23/--/persistence",
+      "display": "0.1312",
+      "raw": 0.1311798067543557,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B4/23/--/E_prop_over_E_total",
+      "display": "0.5742",
+      "raw": 0.5741589683929953,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B4/37/--/E_obs",
+      "display": "0.0477",
+      "raw": 0.04769421321232841,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B4/37/--/E_prop",
+      "display": "0.0302",
+      "raw": 0.030163217501495837,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B4/37/--/E_total",
+      "display": "0.0519",
+      "raw": 0.05189746618270874,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B4/37/--/E_op",
+      "display": "0.0408",
+      "raw": 0.04077943471778786,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B4/37/--/persistence",
+      "display": "0.1312",
+      "raw": 0.1311798067543557,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B4/37/--/E_prop_over_E_total",
+      "display": "0.5812",
+      "raw": 0.5812079032009785,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B5/11/--/E_obs",
+      "display": "0.0477",
+      "raw": 0.04769421321232841,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B5/11/--/E_prop",
+      "display": "0.0302",
+      "raw": 0.030163217501495837,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B5/11/--/E_total",
+      "display": "0.0514",
+      "raw": 0.05140472576022148,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B5/11/--/E_op",
+      "display": "0.0394",
+      "raw": 0.03936936784825938,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B5/11/--/persistence",
+      "display": "0.1312",
+      "raw": 0.1311798067543557,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B5/11/--/E_prop_over_E_total",
+      "display": "0.5868",
+      "raw": 0.5867790763478217,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B5/23/--/E_obs",
+      "display": "0.0477",
+      "raw": 0.04769421321232841,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B5/23/--/E_prop",
+      "display": "0.0302",
+      "raw": 0.030163217501495837,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B5/23/--/E_total",
+      "display": "0.0519",
+      "raw": 0.05194860324263573,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B5/23/--/E_op",
+      "display": "0.0407",
+      "raw": 0.040743577582729285,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B5/23/--/persistence",
+      "display": "0.1312",
+      "raw": 0.1311798067543557,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B5/23/--/E_prop_over_E_total",
+      "display": "0.5806",
+      "raw": 0.5806357749526557,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B5/37/--/E_obs",
+      "display": "0.0477",
+      "raw": 0.04769421321232841,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B5/37/--/E_prop",
+      "display": "0.0302",
+      "raw": 0.030163217501495837,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B5/37/--/E_total",
+      "display": "0.0527",
+      "raw": 0.05266542732715607,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B5/37/--/E_op",
+      "display": "0.0417",
+      "raw": 0.04171144363828461,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B5/37/--/persistence",
+      "display": "0.1312",
+      "raw": 0.1311798067543557,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "NH heat/B5/37/--/E_prop_over_E_total",
+      "display": "0.5727",
+      "raw": 0.5727327970610174,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "X2b/primary/seed11/P_p99_ms",
+      "display": "6.6926",
+      "raw": 6.692603,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "X2b/primary/seed11/B4_p99_ms",
+      "display": "6.8011",
+      "raw": 6.8011040000000005,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "X2b/primary/seed11/P_over_B4_p99_ratio",
+      "display": "0.98",
+      "raw": 0.9840465606760314,
+      "scale": 1,
+      "decimals": 2
+    },
+    {
+      "key": "X2b/primary/seed23/P_p99_ms",
+      "display": "6.7155",
+      "raw": 6.7155,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "X2b/primary/seed23/B4_p99_ms",
+      "display": "6.8306",
+      "raw": 6.830604,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "X2b/primary/seed23/P_over_B4_p99_ratio",
+      "display": "0.98",
+      "raw": 0.9831487815718785,
+      "scale": 1,
+      "decimals": 2
+    },
+    {
+      "key": "X2b/primary/seed37/P_p99_ms",
+      "display": "6.7310",
+      "raw": 6.731011000000002,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "X2b/primary/seed37/B4_p99_ms",
+      "display": "6.7953",
+      "raw": 6.7953,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "X2b/primary/seed37/P_over_B4_p99_ratio",
+      "display": "0.99",
+      "raw": 0.9905391962091449,
+      "scale": 1,
+      "decimals": 2
+    },
+    {
+      "key": "X2b/primary/mean_of_seed_ratios",
+      "display": "0.99",
+      "raw": 0.9859115128190182,
+      "scale": 1,
+      "decimals": 2
+    },
+    {
+      "key": "X2b/followup/seed11/P_p99_ms",
+      "display": "12.7584",
+      "raw": 12.758385000000002,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "X2b/followup/seed11/B4_p99_ms",
+      "display": "6.7329",
+      "raw": 6.7329110000000005,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "X2b/followup/seed11/P_over_B4_p99_ratio",
+      "display": "1.89",
+      "raw": 1.8949285086346754,
+      "scale": 1,
+      "decimals": 2
+    },
+    {
+      "key": "X2b/followup/seed23/P_p99_ms",
+      "display": "12.8189",
+      "raw": 12.818915,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "X2b/followup/seed23/B4_p99_ms",
+      "display": "12.4696",
+      "raw": 12.469606,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "X2b/followup/seed23/P_over_B4_p99_ratio",
+      "display": "1.03",
+      "raw": 1.0280128337655576,
+      "scale": 1,
+      "decimals": 2
+    },
+    {
+      "key": "X2b/followup/seed37/P_p99_ms",
+      "display": "13.4904",
+      "raw": 13.490416999999999,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "X2b/followup/seed37/B4_p99_ms",
+      "display": "14.2785",
+      "raw": 14.278507999999999,
+      "scale": 1,
+      "decimals": 4
+    },
+    {
+      "key": "X2b/followup/seed37/P_over_B4_p99_ratio",
+      "display": "0.94",
+      "raw": 0.9448057878316138,
+      "scale": 1,
+      "decimals": 2
+    },
+    {
+      "key": "X2b/followup/mean_of_seed_ratios",
+      "display": "1.29",
+      "raw": 1.2892490434106156,
+      "scale": 1,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/1/n",
+      "display": "128",
+      "raw": "128",
+      "scale": 1,
+      "decimals": 0
+    },
+    {
+      "key": "X1/burgers_nominal/10/1/cost",
+      "display": "0.322703",
+      "raw": "0.3227034478844262",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/10/1/excess",
+      "display": "+29.03",
+      "raw": "0.2903030658215467",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/1/fixed_ci_low_fixed_ci_high",
+      "display": "[+21.22, +37.78]",
+      "raw": [
+        "0.21222587375866508",
+        "0.37775054174756095"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/1/paired_ci_low_paired_ci_high",
+      "display": "[+23.04, +35.26]",
+      "raw": [
+        "0.23040689013930474",
+        "0.3526479284730134"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/1/rmse",
+      "display": "0.036293",
+      "raw": "0.03629346563664389",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/10/4/n",
+      "display": "128",
+      "raw": "128",
+      "scale": 1,
+      "decimals": 0
+    },
+    {
+      "key": "X1/burgers_nominal/10/4/cost",
+      "display": "0.322390",
+      "raw": "0.3223899558785931",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/10/4/excess",
+      "display": "+28.90",
+      "raw": "0.28904959394546703",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/4/fixed_ci_low_fixed_ci_high",
+      "display": "[+21.08, +37.66]",
+      "raw": [
+        "0.21083491791020967",
+        "0.37661238854021"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/4/paired_ci_low_paired_ci_high",
+      "display": "[+22.86, +35.16]",
+      "raw": [
+        "0.2286276632805712",
+        "0.35155797163267233"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/4/rmse",
+      "display": "0.036270",
+      "raw": "0.036270241197249135",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/10/8/n",
+      "display": "128",
+      "raw": "128",
+      "scale": 1,
+      "decimals": 0
+    },
+    {
+      "key": "X1/burgers_nominal/10/8/cost",
+      "display": "0.323170",
+      "raw": "0.3231702119031551",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/10/8/excess",
+      "display": "+29.22",
+      "raw": "0.29216938317368363",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/8/fixed_ci_low_fixed_ci_high",
+      "display": "[+21.18, +38.46]",
+      "raw": [
+        "0.2118096074696878",
+        "0.3846086214666629"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/8/paired_ci_low_paired_ci_high",
+      "display": "[+23.13, +35.54]",
+      "raw": [
+        "0.23133519998251204",
+        "0.3554002304404038"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/8/rmse",
+      "display": "0.036183",
+      "raw": "0.036183408544858395",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/10/16/n",
+      "display": "128",
+      "raw": "128",
+      "scale": 1,
+      "decimals": 0
+    },
+    {
+      "key": "X1/burgers_nominal/10/16/cost",
+      "display": "0.325489",
+      "raw": "0.325488888332723",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/10/16/excess",
+      "display": "+30.14",
+      "raw": "0.3014404192451392",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/16/fixed_ci_low_fixed_ci_high",
+      "display": "[+22.59, +38.17]",
+      "raw": [
+        "0.22586809918174872",
+        "0.38172280050952007"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/16/paired_ci_low_paired_ci_high",
+      "display": "[+24.25, +36.10]",
+      "raw": [
+        "0.2424978840144635",
+        "0.36101572039547"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/16/rmse",
+      "display": "0.036196",
+      "raw": "0.03619611765726245",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/50/1/n",
+      "display": "128",
+      "raw": "128",
+      "scale": 1,
+      "decimals": 0
+    },
+    {
+      "key": "X1/burgers_nominal/50/1/cost",
+      "display": "0.321135",
+      "raw": "0.321134825257887",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/50/1/excess",
+      "display": "+28.40",
+      "raw": "0.28403105789163624",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/1/fixed_ci_low_fixed_ci_high",
+      "display": "[+21.04, +36.54]",
+      "raw": [
+        "0.21037977552905796",
+        "0.3653889937580009"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/1/paired_ci_low_paired_ci_high",
+      "display": "[+22.54, +34.58]",
+      "raw": [
+        "0.22541736758313424",
+        "0.3458067464964608"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/1/rmse",
+      "display": "0.036256",
+      "raw": "0.036256011960861353",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/50/4/n",
+      "display": "128",
+      "raw": "128",
+      "scale": 1,
+      "decimals": 0
+    },
+    {
+      "key": "X1/burgers_nominal/50/4/cost",
+      "display": "0.300781",
+      "raw": "0.30078100327986046",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/50/4/excess",
+      "display": "+20.26",
+      "raw": "0.2026479828993933",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/4/fixed_ci_low_fixed_ci_high",
+      "display": "[+16.15, +24.73]",
+      "raw": [
+        "0.16147145893182982",
+        "0.24730002320607775"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/4/paired_ci_low_paired_ci_high",
+      "display": "[+16.96, +23.87]",
+      "raw": [
+        "0.16959531555006904",
+        "0.23866993539185527"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/4/rmse",
+      "display": "0.035319",
+      "raw": "0.035318665234022044",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/50/8/n",
+      "display": "128",
+      "raw": "128",
+      "scale": 1,
+      "decimals": 0
+    },
+    {
+      "key": "X1/burgers_nominal/50/8/cost",
+      "display": "0.294803",
+      "raw": "0.2948033434347039",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/50/8/excess",
+      "display": "+17.87",
+      "raw": "0.1787468040455304",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/8/fixed_ci_low_fixed_ci_high",
+      "display": "[+14.88, +21.04]",
+      "raw": [
+        "0.14877877865962993",
+        "0.2103831832496427"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/8/paired_ci_low_paired_ci_high",
+      "display": "[+15.02, +21.15]",
+      "raw": [
+        "0.1501541566237016",
+        "0.21148125523022085"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/8/rmse",
+      "display": "0.034862",
+      "raw": "0.03486221922769722",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/50/16/n",
+      "display": "128",
+      "raw": "128",
+      "scale": 1,
+      "decimals": 0
+    },
+    {
+      "key": "X1/burgers_nominal/50/16/cost",
+      "display": "0.272825",
+      "raw": "0.2728250628913188",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/50/16/excess",
+      "display": "+9.09",
+      "raw": "0.09086846573669342",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/16/fixed_ci_low_fixed_ci_high",
+      "display": "[+7.99, +10.22]",
+      "raw": [
+        "0.07991020395186918",
+        "0.10223005715765623"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/16/paired_ci_low_paired_ci_high",
+      "display": "[+7.42, +11.11]",
+      "raw": [
+        "0.07423403934557252",
+        "0.1110565007608761"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/16/rmse",
+      "display": "0.033463",
+      "raw": "0.03346282031046271",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/10/8+FB/n",
+      "display": "128",
+      "raw": "128",
+      "scale": 1,
+      "decimals": 0
+    },
+    {
+      "key": "X1/burgers_nominal/10/8+FB/cost",
+      "display": "0.335669",
+      "raw": "0.33566856837849074",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/10/8+FB/excess",
+      "display": "+34.21",
+      "raw": "0.34214302858583845",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/8+FB/fixed_ci_low_fixed_ci_high",
+      "display": "[+24.67, +44.67]",
+      "raw": [
+        "0.2466505180229557",
+        "0.44669883473298766"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/8+FB/paired_ci_low_paired_ci_high",
+      "display": "[+26.50, +42.41]",
+      "raw": [
+        "0.2649915551192919",
+        "0.4241343197586308"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/8+FB/rmse",
+      "display": "0.036648",
+      "raw": "0.03664808206224762",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/1/n",
+      "display": "128",
+      "raw": "128",
+      "scale": 1,
+      "decimals": 0
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/1/cost",
+      "display": "19.088134",
+      "raw": "19.088134389644402",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/1/excess",
+      "display": "+166.68",
+      "raw": "1.6668335553132456",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/1/fixed_ci_low_fixed_ci_high",
+      "display": "[+145.15, +189.09]",
+      "raw": [
+        "1.4514796497753377",
+        "1.8908604028509923"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/1/paired_ci_low_paired_ci_high",
+      "display": "[+158.09, +175.51]",
+      "raw": [
+        "1.5808802745205617",
+        "1.7551492561570707"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/1/rmse",
+      "display": "0.284261",
+      "raw": "0.2842607621742585",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/4/n",
+      "display": "128",
+      "raw": "128",
+      "scale": 1,
+      "decimals": 0
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/4/cost",
+      "display": "13.898914",
+      "raw": "13.898913999597807",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/4/excess",
+      "display": "+94.18",
+      "raw": "0.9418393374603111",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/4/fixed_ci_low_fixed_ci_high",
+      "display": "[+85.85, +102.87]",
+      "raw": [
+        "0.8585177071045811",
+        "1.0287462521276718"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/4/paired_ci_low_paired_ci_high",
+      "display": "[+82.98, +106.68]",
+      "raw": [
+        "0.82976552639202",
+        "1.0668256593471603"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/4/rmse",
+      "display": "0.245004",
+      "raw": "0.24500420947813323",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8/n",
+      "display": "128",
+      "raw": "128",
+      "scale": 1,
+      "decimals": 0
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8/cost",
+      "display": "9.074214",
+      "raw": "9.074213681801133",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8/excess",
+      "display": "+26.78",
+      "raw": "0.26777279752589955",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8/fixed_ci_low_fixed_ci_high",
+      "display": "[+24.66, +29.12]",
+      "raw": [
+        "0.24661914635555407",
+        "0.2911731230037763"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8/paired_ci_low_paired_ci_high",
+      "display": "[+22.51, +31.87]",
+      "raw": [
+        "0.22507862363608647",
+        "0.31869833893382854"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8/rmse",
+      "display": "0.191231",
+      "raw": "0.1912314015984234",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/16/n",
+      "display": "128",
+      "raw": "128",
+      "scale": 1,
+      "decimals": 0
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/16/cost",
+      "display": "7.570578",
+      "raw": "7.570577624012409",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/16/excess",
+      "display": "+5.77",
+      "raw": "0.057697417080896464",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/16/fixed_ci_low_fixed_ci_high",
+      "display": "[+5.05, +6.49]",
+      "raw": [
+        "0.050497211241923266",
+        "0.06486038747490255"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/16/paired_ci_low_paired_ci_high",
+      "display": "[+4.63, +7.14]",
+      "raw": [
+        "0.04628484897084393",
+        "0.07138940950877029"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/16/rmse",
+      "display": "0.164862",
+      "raw": "0.16486161763938595",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/1/n",
+      "display": "128",
+      "raw": "128",
+      "scale": 1,
+      "decimals": 0
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/1/cost",
+      "display": "25.012587",
+      "raw": "25.012587269564303",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/1/excess",
+      "display": "+249.45",
+      "raw": "2.4945482714048337",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/1/fixed_ci_low_fixed_ci_high",
+      "display": "[+227.49, +272.02]",
+      "raw": [
+        "2.274903009252207",
+        "2.7201942698782835"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/1/paired_ci_low_paired_ci_high",
+      "display": "[+231.13, +269.87]",
+      "raw": [
+        "2.311333400664172",
+        "2.698749636038372"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/1/rmse",
+      "display": "0.338284",
+      "raw": "0.3382843943176978",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/4/n",
+      "display": "128",
+      "raw": "128",
+      "scale": 1,
+      "decimals": 0
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/4/cost",
+      "display": "14.376453",
+      "raw": "14.37645276859808",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/4/excess",
+      "display": "+100.86",
+      "raw": "1.008557036903155",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/4/fixed_ci_low_fixed_ci_high",
+      "display": "[+94.21, +107.71]",
+      "raw": [
+        "0.9420927659161993",
+        "1.0771447002513017"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/4/paired_ci_low_paired_ci_high",
+      "display": "[+90.14, +112.91]",
+      "raw": [
+        "0.90140104781403",
+        "1.1290597474810355"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/4/rmse",
+      "display": "0.253250",
+      "raw": "0.25324964968386643",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/8/n",
+      "display": "128",
+      "raw": "128",
+      "scale": 1,
+      "decimals": 0
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/8/cost",
+      "display": "9.843419",
+      "raw": "9.84341921295098",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/8/excess",
+      "display": "+37.52",
+      "raw": "0.37523972328873584",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/8/fixed_ci_low_fixed_ci_high",
+      "display": "[+35.35, +39.80]",
+      "raw": [
+        "0.35348056710760833",
+        "0.39803009502415376"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/8/paired_ci_low_paired_ci_high",
+      "display": "[+32.65, +43.17]",
+      "raw": [
+        "0.32653376293399916",
+        "0.43173422512896203"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/8/rmse",
+      "display": "0.202082",
+      "raw": "0.20208155556787663",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/16/n",
+      "display": "128",
+      "raw": "128",
+      "scale": 1,
+      "decimals": 0
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/16/cost",
+      "display": "7.911430",
+      "raw": "7.911430442872497",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/16/excess",
+      "display": "+10.53",
+      "raw": "0.10531850545988089",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/16/fixed_ci_low_fixed_ci_high",
+      "display": "[+9.65, +11.41]",
+      "raw": [
+        "0.09646998918287175",
+        "0.11405946868618917"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/16/paired_ci_low_paired_ci_high",
+      "display": "[+8.86, +12.46]",
+      "raw": [
+        "0.08857583238441387",
+        "0.1245741183430812"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/16/rmse",
+      "display": "0.171590",
+      "raw": "0.1715896059514016",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8+FB/n",
+      "display": "128",
+      "raw": "128",
+      "scale": 1,
+      "decimals": 0
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8+FB/cost",
+      "display": "8.233100",
+      "raw": "8.233100251263963",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8+FB/excess",
+      "display": "+15.03",
+      "raw": "0.15025950499595583",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8+FB/fixed_ci_low_fixed_ci_high",
+      "display": "[+13.75, +16.32]",
+      "raw": [
+        "0.13749189343349932",
+        "0.16318602639178187"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8+FB/paired_ci_low_paired_ci_high",
+      "display": "[+12.91, +17.33]",
+      "raw": [
+        "0.1291411766341335",
+        "0.17326703460346127"
+      ],
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8+FB/rmse",
+      "display": "0.176125",
+      "raw": "0.17612540002989974",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/10/1/hold_selection_rate",
+      "display": "99.94",
+      "raw": "0.9994140625",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/1/b0_selection_rate",
+      "display": "0.06",
+      "raw": "0.0005859375",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/1/applied_no_change_rate",
+      "display": "99.94",
+      "raw": "0.9994140625",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/1/mean_abs_action_change",
+      "display": "0.000000",
+      "raw": "3.1885547597254595e-07",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/10/4/hold_selection_rate",
+      "display": "99.67",
+      "raw": "0.99671875",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/4/b0_selection_rate",
+      "display": "0.33",
+      "raw": "0.00328125",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/4/applied_no_change_rate",
+      "display": "99.67",
+      "raw": "0.99671875",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/4/mean_abs_action_change",
+      "display": "0.000004",
+      "raw": "4.206116456811903e-06",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/10/8/hold_selection_rate",
+      "display": "99.05",
+      "raw": "0.990546875",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/8/b0_selection_rate",
+      "display": "0.92",
+      "raw": "0.0091796875",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/8/applied_no_change_rate",
+      "display": "99.05",
+      "raw": "0.990546875",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/8/mean_abs_action_change",
+      "display": "0.000040",
+      "raw": "4.0283061935681986e-05",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/10/16/hold_selection_rate",
+      "display": "97.80",
+      "raw": "0.9780078125",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/16/b0_selection_rate",
+      "display": "2.06",
+      "raw": "0.0205859375",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/16/applied_no_change_rate",
+      "display": "97.80",
+      "raw": "0.9780078125",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/16/mean_abs_action_change",
+      "display": "0.000183",
+      "raw": "0.00018343144900529417",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/50/1/hold_selection_rate",
+      "display": "0.00",
+      "raw": "0.0",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/1/b0_selection_rate",
+      "display": "0.06",
+      "raw": "0.0005859375",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/1/applied_no_change_rate",
+      "display": "99.94",
+      "raw": "0.999375",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/1/mean_abs_action_change",
+      "display": "0.000001",
+      "raw": "1.2954179905244614e-06",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/50/4/hold_selection_rate",
+      "display": "0.00",
+      "raw": "0.0",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/4/b0_selection_rate",
+      "display": "0.39",
+      "raw": "0.0039453125",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/4/applied_no_change_rate",
+      "display": "99.33",
+      "raw": "0.9933203125",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/4/mean_abs_action_change",
+      "display": "0.000078",
+      "raw": "7.844425383099263e-05",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/50/8/hold_selection_rate",
+      "display": "0.00",
+      "raw": "0.0",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/8/b0_selection_rate",
+      "display": "0.68",
+      "raw": "0.0067578125",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/8/applied_no_change_rate",
+      "display": "98.45",
+      "raw": "0.9844921875",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/8/mean_abs_action_change",
+      "display": "0.000265",
+      "raw": "0.00026478393204895667",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/50/16/hold_selection_rate",
+      "display": "0.00",
+      "raw": "0.0",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/16/b0_selection_rate",
+      "display": "1.23",
+      "raw": "0.01234375",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/16/applied_no_change_rate",
+      "display": "96.92",
+      "raw": "0.96921875",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/50/16/mean_abs_action_change",
+      "display": "0.000591",
+      "raw": "0.0005914385311073114",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/burgers_nominal/10/8+FB/hold_selection_rate",
+      "display": "97.12",
+      "raw": "0.9712109375",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/8+FB/b0_selection_rate",
+      "display": "0.21",
+      "raw": "0.0020703125",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/8+FB/feedback_rollout_selection_rate",
+      "display": "2.67",
+      "raw": "0.0266796875",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/8+FB/applied_no_change_rate",
+      "display": "97.12",
+      "raw": "0.9712109375",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/burgers_nominal/10/8+FB/mean_abs_action_change",
+      "display": "0.000151",
+      "raw": "0.00015146440500242163",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/1/hold_selection_rate",
+      "display": "99.30",
+      "raw": "0.9930078125",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/1/b0_selection_rate",
+      "display": "0.00",
+      "raw": "0.0",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/1/applied_no_change_rate",
+      "display": "99.30",
+      "raw": "0.9930078125",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/1/mean_abs_action_change",
+      "display": "0.000355",
+      "raw": "0.0003554687288124114",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/4/hold_selection_rate",
+      "display": "98.11",
+      "raw": "0.98109375",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/4/b0_selection_rate",
+      "display": "0.01",
+      "raw": "0.0001171875",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/4/applied_no_change_rate",
+      "display": "98.47",
+      "raw": "0.9847265625",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/4/mean_abs_action_change",
+      "display": "0.000881",
+      "raw": "0.0008811039676947985",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8/hold_selection_rate",
+      "display": "93.34",
+      "raw": "0.9334375",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8/b0_selection_rate",
+      "display": "0.04",
+      "raw": "0.0004296875",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8/applied_no_change_rate",
+      "display": "94.84",
+      "raw": "0.9483984375",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8/mean_abs_action_change",
+      "display": "0.003260",
+      "raw": "0.0032597487344173713",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/16/hold_selection_rate",
+      "display": "88.77",
+      "raw": "0.8876953125",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/16/b0_selection_rate",
+      "display": "1.19",
+      "raw": "0.011875",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/16/applied_no_change_rate",
+      "display": "90.69",
+      "raw": "0.9069140625",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/16/mean_abs_action_change",
+      "display": "0.005422",
+      "raw": "0.005422438393143238",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/1/hold_selection_rate",
+      "display": "0.00",
+      "raw": "0.0",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/1/b0_selection_rate",
+      "display": "0.00",
+      "raw": "0.0",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/1/applied_no_change_rate",
+      "display": "95.77",
+      "raw": "0.957734375",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/1/mean_abs_action_change",
+      "display": "0.000891",
+      "raw": "0.0008906249469146133",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/4/hold_selection_rate",
+      "display": "0.00",
+      "raw": "0.0",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/4/b0_selection_rate",
+      "display": "0.00",
+      "raw": "0.0",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/4/applied_no_change_rate",
+      "display": "90.97",
+      "raw": "0.9096875",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/4/mean_abs_action_change",
+      "display": "0.002007",
+      "raw": "0.0020071618900692556",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/8/hold_selection_rate",
+      "display": "0.00",
+      "raw": "0.0",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/8/b0_selection_rate",
+      "display": "0.00",
+      "raw": "3.90625e-05",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/8/applied_no_change_rate",
+      "display": "83.79",
+      "raw": "0.8378515625",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/8/mean_abs_action_change",
+      "display": "0.004378",
+      "raw": "0.004377673992858036",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/16/hold_selection_rate",
+      "display": "0.00",
+      "raw": "0.0",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/16/b0_selection_rate",
+      "display": "0.01",
+      "raw": "0.0001171875",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/16/applied_no_change_rate",
+      "display": "80.12",
+      "raw": "0.801171875",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/50/16/mean_abs_action_change",
+      "display": "0.006004",
+      "raw": "0.006004410471650771",
+      "scale": 1,
+      "decimals": 6
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8+FB/hold_selection_rate",
+      "display": "89.54",
+      "raw": "0.8953515625",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8+FB/b0_selection_rate",
+      "display": "0.02",
+      "raw": "0.00015625",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8+FB/feedback_rollout_selection_rate",
+      "display": "3.43",
+      "raw": "0.0342578125",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8+FB/applied_no_change_rate",
+      "display": "90.91",
+      "raw": "0.9090625",
+      "scale": 100,
+      "decimals": 2
+    },
+    {
+      "key": "X1/heat_nonnegative_nominal/10/8+FB/mean_abs_action_change",
+      "display": "0.006282",
+      "raw": "0.006281601517985109",
+      "scale": 1,
+      "decimals": 6
+    }
+  ],
+  "x2b_rows_checked": 20,
+  "x2b_source_arrays_checked": 36,
+  "x2b_unique_source_arrays_checked": 36,
+  "x2b_raw_source_hashes": [
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_raw_v3\\session1_burgers_P_s11.npz",
+      "sha256": "3ed1b548016f84fc4797c52e1e59d26e8ef5462f038f58c013ec70ff583c1c6f"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_raw_v3\\session2_burgers_P_s11.npz",
+      "sha256": "a97330116d87640fe828b477dd88f1eb970da9d93b73952363142ea3fca693bd"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_raw_v3\\session3_burgers_P_s11.npz",
+      "sha256": "59c3c60aebea6851e50fd57d0037625a0c57e68cae3fc2b8db18c47b7724fc28"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_raw_v3\\session1_burgers_B4_s11.npz",
+      "sha256": "4e5c3b5b8c3206ddb5a219c0ddbb404eade1f12b69761c5f153cc9714b3170b6"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_raw_v3\\session2_burgers_B4_s11.npz",
+      "sha256": "7c2b05d33ffd4cc6e3166d1c87cb782da453186ca0782c10dc0d1f4bc6fd49a4"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_raw_v3\\session3_burgers_B4_s11.npz",
+      "sha256": "a41f7421fbb92325583b027a8d1ca5886d5348b98980567371b9b9bc41ae071f"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_raw_v3\\session1_burgers_P_s23.npz",
+      "sha256": "e376a250cdad6a1a1da9245dec9ea499187237d9c852bb69bc882d3e68ee8b98"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_raw_v3\\session2_burgers_P_s23.npz",
+      "sha256": "7618eb87bf5e0007f1bc51cc1f1e5354a713d1ed3c075770681e21e0535c61fa"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_raw_v3\\session3_burgers_P_s23.npz",
+      "sha256": "357dae405b9961516998b6f42d6ad1776c2cac99aac000bbf68416af942b95aa"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_raw_v3\\session1_burgers_B4_s23.npz",
+      "sha256": "104c3f092d89bdcdbcc55fdc149008ae415d1421e23a0a76693f9697b7a99fa1"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_raw_v3\\session2_burgers_B4_s23.npz",
+      "sha256": "9527e6ffe21d4a2caa3d23f309cde1cf6f8b9239cdf1c9e0d4c2331a828cabf7"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_raw_v3\\session3_burgers_B4_s23.npz",
+      "sha256": "ed5a012c918f8e28c81802afc7a394c8fad3e522b054506edc7ad4cf35d9dec5"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_raw_v3\\session1_burgers_P_s37.npz",
+      "sha256": "8c13fea611aa6df96b13f0eb33e694f8f2a833fe466be1351cbb12126c177fb0"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_raw_v3\\session2_burgers_P_s37.npz",
+      "sha256": "46ada1e0cf4c01f43ffe6683f3fe422e64c1426f045005a8b0f3861c0a6b0bed"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_raw_v3\\session3_burgers_P_s37.npz",
+      "sha256": "d052f49b510297a1a0e80cf1e6052756e2cf10a19e85da4711a8557ffce10aff"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_raw_v3\\session1_burgers_B4_s37.npz",
+      "sha256": "bac16ddaea014361935990e9cbf8dafdd521b826d830ac610a69c91c6dd4b0c7"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_raw_v3\\session2_burgers_B4_s37.npz",
+      "sha256": "3310922d8fe605d80bbc442fec596b8009fbd6570b4e5e0420024022b4ba80a7"
+    },
+    {
+      "path": "experiments\\pdno_jevLite_20260927_v3\\evidence\\latency_raw_v3\\session3_burgers_B4_s37.npz",
+      "sha256": "2a595205c36f77d42d06ca1c74e68c0da730a3cd211b360ab757f1b2e065881f"
+    },
+    {
+      "path": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s11_K10_cache0.npz",
+      "sha256": "214d87b81b3eb9e25acdb26b87b35d07664482339d917c962b599980bf3b5164"
+    },
+    {
+      "path": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s11_K10_cache0.npz",
+      "sha256": "60ddd125af5041ea5c60e83c40658f095bb7ec060ae7a434cd31e326ac6f58bc"
+    },
+    {
+      "path": "runs\\revision_v2\\results\\E2_raw\\session3_burgers_P_s11_K10_cache0.npz",
+      "sha256": "c8c8ea621958c13dd264c97ed0129abaeaff6f79c7d97b9abc01f13bf80a6409"
+    },
+    {
+      "path": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s11_K10_cache0.npz",
+      "sha256": "513b1447030da172fc742bee782bb638cac9a2ded5517edd72f71bc413c50801"
+    },
+    {
+      "path": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s11_K10_cache0.npz",
+      "sha256": "e965f39a3bbb48e394a3f7fa0930009dd4191746b0e32a2538fedee1d9f2b506"
+    },
+    {
+      "path": "runs\\revision_v2\\results\\E2_raw\\session3_burgers_B4_s11_K10_cache0.npz",
+      "sha256": "058378e51beb4fe1917cbcfbacc87f2e9cfcdd5c74af4f379241a7eb5d28b023"
+    },
+    {
+      "path": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s23_K10_cache0.npz",
+      "sha256": "e258d043c8a5e6c599b9fb678838f998d633db6bda21aa2de952f293f68fead4"
+    },
+    {
+      "path": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s23_K10_cache0.npz",
+      "sha256": "e40d715db5677b479e5cfbf6092b53abb6c62c370b0b5357456f84a233bbfb1d"
+    },
+    {
+      "path": "runs\\revision_v2\\results\\E2_raw\\session3_burgers_P_s23_K10_cache0.npz",
+      "sha256": "67d0f1b3c8ce3ecbf8a10c0f3059b7304eb4a17bdb04c54b5d4d774f42c211c6"
+    },
+    {
+      "path": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s23_K10_cache0.npz",
+      "sha256": "8b6a30492c1903392821c880ebd8d5bdafa4929ffaa03d4da01140c8b0dd6dba"
+    },
+    {
+      "path": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s23_K10_cache0.npz",
+      "sha256": "da7c9ae1325887bb463eb0d7fe658e2e464e0f05cd528865d777f24b2ebe04bd"
+    },
+    {
+      "path": "runs\\revision_v2\\results\\E2_raw\\session3_burgers_B4_s23_K10_cache0.npz",
+      "sha256": "cd58581b7a2f487dcad07aad3a72025bdf6f25dd4061bed118e06e0204fc9bd9"
+    },
+    {
+      "path": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_P_s37_K10_cache0.npz",
+      "sha256": "17a79282243328f9265b73aaad0ab3632c937c8b2562388834abd71aefd1df91"
+    },
+    {
+      "path": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_P_s37_K10_cache0.npz",
+      "sha256": "de46903223d25dba3a9700b55e9effbbcb3fc154132c23e4abf1b0658d7987fd"
+    },
+    {
+      "path": "runs\\revision_v2\\results\\E2_raw\\session3_burgers_P_s37_K10_cache0.npz",
+      "sha256": "e70d14a8d4cfef8a33dfd461178eb93d1ee4c8619c68b94c05d7f20816736600"
+    },
+    {
+      "path": "runs\\revision_v2\\results\\E2_raw\\session1_burgers_B4_s37_K10_cache0.npz",
+      "sha256": "95bf284ac4eb933a794dbe8b532b9e6620966e7da199715dc4f838ecb1985256"
+    },
+    {
+      "path": "runs\\revision_v2\\results\\E2_raw\\session2_burgers_B4_s37_K10_cache0.npz",
+      "sha256": "a767b01c8f56cf9de197e32b922259487c880037b09eadf99ed22e563f016bb9"
+    },
+    {
+      "path": "runs\\revision_v2\\results\\E2_raw\\session3_burgers_B4_s37_K10_cache0.npz",
+      "sha256": "aff0e2ca11496e1019ce223785a4f90766a85d6944e7ad9e220c41d66b94fb1a"
+    }
+  ],
+  "x1_status": "PASS_X1_TABLES_AND_RAW_ARRAY_MATCH",
+  "x1_analysis_rows_checked": 19,
+  "x1_raw_array_checks": [
+    {
+      "population": "burgers_nominal",
+      "cell": "K10_H1",
+      "n": 128,
+      "raw_sha256": "87a4deccdf6fbc901234bca3aa3d655ede8613abee622ce2382fb316e36cabdc",
+      "metric_fields_checked": [
+        "applied_no_change_rate",
+        "b0_selection_rate",
+        "hold_selection_rate",
+        "mean_abs_action_change",
+        "mean_episode_cost",
+        "mean_tracking_rmse"
+      ]
+    },
+    {
+      "population": "burgers_nominal",
+      "cell": "K10_H4",
+      "n": 128,
+      "raw_sha256": "023a9ce7544f72b4563e3fe7d770c7f627bc9f9e5f09415e6278e2fe5da55489",
+      "metric_fields_checked": [
+        "applied_no_change_rate",
+        "b0_selection_rate",
+        "hold_selection_rate",
+        "mean_abs_action_change",
+        "mean_episode_cost",
+        "mean_tracking_rmse"
+      ]
+    },
+    {
+      "population": "burgers_nominal",
+      "cell": "K10_H8",
+      "n": 128,
+      "raw_sha256": "0a84943d2bf27726196a0f1161a51cf320f477be0bdf76a5292698d1528241e2",
+      "metric_fields_checked": [
+        "applied_no_change_rate",
+        "b0_selection_rate",
+        "hold_selection_rate",
+        "mean_abs_action_change",
+        "mean_episode_cost",
+        "mean_tracking_rmse"
+      ]
+    },
+    {
+      "population": "burgers_nominal",
+      "cell": "K10_H16",
+      "n": 128,
+      "raw_sha256": "e7cc67c534cd5b21db59edf19bb8b1360373aa62e8b6a18b3f30162ff6754b50",
+      "metric_fields_checked": [
+        "applied_no_change_rate",
+        "b0_selection_rate",
+        "hold_selection_rate",
+        "mean_abs_action_change",
+        "mean_episode_cost",
+        "mean_tracking_rmse"
+      ]
+    },
+    {
+      "population": "burgers_nominal",
+      "cell": "K50_H1",
+      "n": 128,
+      "raw_sha256": "7ad58e353a6c4e64b422ad4b413a402c3881d88c0ad0bd0e0433a0b2ad431b63",
+      "metric_fields_checked": [
+        "applied_no_change_rate",
+        "b0_selection_rate",
+        "hold_selection_rate",
+        "mean_abs_action_change",
+        "mean_episode_cost",
+        "mean_tracking_rmse"
+      ]
+    },
+    {
+      "population": "burgers_nominal",
+      "cell": "K50_H4",
+      "n": 128,
+      "raw_sha256": "02bed40c72e3954b14e90d6e1f6ec514a15c1b42a99269dfafb59569a3d4beeb",
+      "metric_fields_checked": [
+        "applied_no_change_rate",
+        "b0_selection_rate",
+        "hold_selection_rate",
+        "mean_abs_action_change",
+        "mean_episode_cost",
+        "mean_tracking_rmse"
+      ]
+    },
+    {
+      "population": "burgers_nominal",
+      "cell": "K50_H8",
+      "n": 128,
+      "raw_sha256": "4458064d1b1ab3640883e8d1775430fb6ab87f731161aa9cbad92bee8ab941cd",
+      "metric_fields_checked": [
+        "applied_no_change_rate",
+        "b0_selection_rate",
+        "hold_selection_rate",
+        "mean_abs_action_change",
+        "mean_episode_cost",
+        "mean_tracking_rmse"
+      ]
+    },
+    {
+      "population": "burgers_nominal",
+      "cell": "K50_H16",
+      "n": 128,
+      "raw_sha256": "ffa285c1576bb2d108d8d44dbf34342235514f75d7468d5877dddb7c9a3f2de2",
+      "metric_fields_checked": [
+        "applied_no_change_rate",
+        "b0_selection_rate",
+        "hold_selection_rate",
+        "mean_abs_action_change",
+        "mean_episode_cost",
+        "mean_tracking_rmse"
+      ]
+    },
+    {
+      "population": "burgers_nominal",
+      "cell": "K10_H8_FB",
+      "n": 128,
+      "raw_sha256": "c92d8e7a8b48f2256c41b26c4b18bb694266cca6802691dc0887332f9c5e99f7",
+      "metric_fields_checked": [
+        "applied_no_change_rate",
+        "b0_selection_rate",
+        "feedback_rollout_selection_rate",
+        "hold_selection_rate",
+        "mean_abs_action_change",
+        "mean_episode_cost",
+        "mean_tracking_rmse"
+      ]
+    },
+    {
+      "population": "burgers_anchor_full384",
+      "cell": "K10_H8",
+      "n": 384,
+      "raw_sha256": "d5718c5462b32b718ef7add3102214800cc16768af166960fe525e367f9d3415",
+      "metric_fields_checked": [
+        "applied_no_change_rate",
+        "b0_selection_rate",
+        "hold_selection_rate",
+        "mean_abs_action_change",
+        "mean_episode_cost",
+        "mean_tracking_rmse"
+      ]
+    },
+    {
+      "population": "heat_nonnegative_nominal",
+      "cell": "K10_H1",
+      "n": 128,
+      "raw_sha256": "aec933d64904fe95362de2c521bfc4ed8e8c78e9443de7a8aa3adbb2450e4626",
+      "metric_fields_checked": [
+        "applied_no_change_rate",
+        "b0_selection_rate",
+        "hold_selection_rate",
+        "mean_abs_action_change",
+        "mean_episode_cost",
+        "mean_tracking_rmse"
+      ]
+    },
+    {
+      "population": "heat_nonnegative_nominal",
+      "cell": "K10_H4",
+      "n": 128,
+      "raw_sha256": "df55c16ac7265e4bf5a18f0f2d51d8d316364ad0af1c367a74ed99a967342cb1",
+      "metric_fields_checked": [
+        "applied_no_change_rate",
+        "b0_selection_rate",
+        "hold_selection_rate",
+        "mean_abs_action_change",
+        "mean_episode_cost",
+        "mean_tracking_rmse"
+      ]
+    },
+    {
+      "population": "heat_nonnegative_nominal",
+      "cell": "K10_H8",
+      "n": 128,
+      "raw_sha256": "122e7c6c23dab09fad9a0991fd7cf1112ecd76e61f3550fcccda89b71ee7bbfe",
+      "metric_fields_checked": [
+        "applied_no_change_rate",
+        "b0_selection_rate",
+        "hold_selection_rate",
+        "mean_abs_action_change",
+        "mean_episode_cost",
+        "mean_tracking_rmse"
+      ]
+    },
+    {
+      "population": "heat_nonnegative_nominal",
+      "cell": "K10_H16",
+      "n": 128,
+      "raw_sha256": "ac0bceefc06efa599aae95705dd9e4b3aa4ce6348c9c21ae3d411807e03f7837",
+      "metric_fields_checked": [
+        "applied_no_change_rate",
+        "b0_selection_rate",
+        "hold_selection_rate",
+        "mean_abs_action_change",
+        "mean_episode_cost",
+        "mean_tracking_rmse"
+      ]
+    },
+    {
+      "population": "heat_nonnegative_nominal",
+      "cell": "K50_H1",
+      "n": 128,
+      "raw_sha256": "236316bab7d16a5e062f832b4b039b051f694990508be84796d11654a3916179",
+      "metric_fields_checked": [
+        "applied_no_change_rate",
+        "b0_selection_rate",
+        "hold_selection_rate",
+        "mean_abs_action_change",
+        "mean_episode_cost",
+        "mean_tracking_rmse"
+      ]
+    },
+    {
+      "population": "heat_nonnegative_nominal",
+      "cell": "K50_H4",
+      "n": 128,
+      "raw_sha256": "9363936c72bc41e1dad7ada8dbf128df0b8329a14cd1f35523a843325d511c89",
+      "metric_fields_checked": [
+        "applied_no_change_rate",
+        "b0_selection_rate",
+        "hold_selection_rate",
+        "mean_abs_action_change",
+        "mean_episode_cost",
+        "mean_tracking_rmse"
+      ]
+    },
+    {
+      "population": "heat_nonnegative_nominal",
+      "cell": "K50_H8",
+      "n": 128,
+      "raw_sha256": "15a174144067404949e86825e28b816789b8179af46bc791dd53a472986407f2",
+      "metric_fields_checked": [
+        "applied_no_change_rate",
+        "b0_selection_rate",
+        "hold_selection_rate",
+        "mean_abs_action_change",
+        "mean_episode_cost",
+        "mean_tracking_rmse"
+      ]
+    },
+    {
+      "population": "heat_nonnegative_nominal",
+      "cell": "K50_H16",
+      "n": 128,
+      "raw_sha256": "3df2bd574abab3ad719b1f4335173a2bf403fccdda6d8fcbfded1bcd775a8621",
+      "metric_fields_checked": [
+        "applied_no_change_rate",
+        "b0_selection_rate",
+        "hold_selection_rate",
+        "mean_abs_action_change",
+        "mean_episode_cost",
+        "mean_tracking_rmse"
+      ]
+    },
+    {
+      "population": "heat_nonnegative_nominal",
+      "cell": "K10_H8_FB",
+      "n": 128,
+      "raw_sha256": "3f29d2d75786283abf661c4058509cf0205832e7aa21e10cfaa7f9a26a5ff2b4",
+      "metric_fields_checked": [
+        "applied_no_change_rate",
+        "b0_selection_rate",
+        "feedback_rollout_selection_rate",
+        "hold_selection_rate",
+        "mean_abs_action_change",
+        "mean_episode_cost",
+        "mean_tracking_rmse"
+      ]
+    }
+  ],
+  "figure_hashes_verified": [
+    "fig01_design",
+    "fig02_prediction",
+    "fig03_control",
+    "fig04_latency",
+    "fig05_h1",
+    "fig06_heat",
+    "figS01_training",
+    "figR01_oracles",
+    "figR05_main_control",
+    "figR02_new_heat_constraints",
+    "figR03_K_ratio",
+    "figR04_K_p99",
+    "figRS02_latency_distributions",
+    "figRS03_scaling_curves",
+    "figD02_stage_means",
+    "figD07_error_decomposition",
+    "figD06_candidate_design"
+  ],
+  "source_hashes": {
+    "data\\control_all_methods.csv": "a95f79272504bbdd50f5d75ee6aacde27d14db27c89f3449a2364bfb337a571a",
+    "data\\revision\\REVISION_COST_SUMMARY.csv": "0c2891f5b2e37451b9b9053e58d9e8a91280715977cbd24df7c2d1450bc68741",
+    "data\\followup\\X2\\X2a_profile_totals.csv": "48c1441144bf6d8e8b481b9eba5016070e09d7f5b9b564cd1ebe72d953fa0dd4",
+    "data\\followup\\X2\\X2b_row_statistics.csv": "788ac3e93df6fe63608ed3b20fda400c86cad5fb4a8371e17542acc33d98eaec",
+    "data\\followup\\X2\\X2b_seed_pooled_ratios.csv": "0dd62fb0ab14a62c98262fb7372be4ee4912becd6c3d4af72f69f4175f9f022d",
+    "data\\followup\\X3\\X3_OPERATOR_SUMMARIES.json": "f63839b109516182be2cca3834b31cd562815df45c4bf2b30ebe91019ccbbf42"
+  },
+  "table_hashes": {
+    "evidence_numbers.tex": "ce36febbf766ce013331ac91ab1d3d6cfe0fe330bbd23886112f8231591a9e34",
+    "followup_all_cost_intervals.tex": "9de0b1f17e4325116527cf939c519444b36b3b6805b44b543aa11a1d135fc61b",
+    "followup_bootstrap.tex": "1ccd6b652d97f18d42ff9c90eca2062942b542c7d610ce407eb601198e03375e",
+    "followup_candidate_choices.tex": "b02f35048977f4aabcf3bc861da20af63a86b30a782a4d028a7f044716b28cad",
+    "followup_candidate_design.tex": "29422578de2b695d43e75affced984f1e1bc46352d64fc590efdef91db30bece",
+    "followup_choices.tex": "a07691260347e09f2594dd3d4d98aefeb6acd2b303d36c4312cd43a17c309a9e",
+    "followup_error_decomposition.tex": "1026e15c04e2e7f0a4e710124eb71e46b00c8aa4b40e9cb52824bdb824c60ac8",
+    "followup_gradients.tex": "f6222bf95832423e28a40d1d186cd9f9a2ce86b005da28e6da2ada9b8161fc2e",
+    "followup_heat_cost.tex": "d060efecb38b0a56fc10f11b4fba62464e9a749e1e80e208a22382e6cd53cf4a",
+    "followup_heat_selection.tex": "96951670cb703a1704ca68525b451e6e30067dc6a1f4aaa4793c193f61123168",
+    "followup_latency_per_seed.tex": "69ede782ceb33187fc1a69ff214ace66b90021b17370553bdec83c1efc9bcb55",
+    "followup_latency_profiles.tex": "2da5485940bf00b718ecd923a3ee494b59d27ff402a8eb3f8a987e1bc876a62d",
+    "followup_latency_ratios.tex": "49d87d8fe76b1b7071366468b1c72ff719eac451d3f1dacd4531091eb90db8c6",
+    "followup_new_heat_choices.tex": "80dda5b0ab70c0946e68af033cd24471d622a3d306f4dd091982a4bcd4066bb8",
+    "followup_new_heat_constraints.tex": "40b174ed4d68aabf2f1c8158a0708acd902b21ae3b30c7aacf2e0a749b6706df",
+    "followup_new_heat_cost.tex": "b7da99393caa299ba50a2f71156afcf442cb72efce99576d88f3c6ab1d2fc395",
+    "followup_oracle.tex": "6a8c5c2d0bc86d26a69d55d7a77218fcdb4ba84444c3af67b19e8a15c685ff1d",
+    "followup_scaling_selection.tex": "83d01fdaaee69b2db5e0525c858fcea8e965b56bdd04c14cbd27d4c41a62499a",
+    "followup_stage_shares.tex": "394909a46780448698583152cd4e92d8b808dcae4685d71f45a09bbaed7aa0ba",
+    "followup_timing_reconciliation.tex": "559b537eb1aba469a2603c511588702372a7eab0dae4c92a602c251932e657a0",
+    "followup_weight_control.tex": "42355f56340cfa81f326fae3ea34135739e3e0173e306d1b3126bd8a7a15c864",
+    "followup_weight_selection.tex": "61e9e6c135f8bb7e5690819736ebfec0c239af5c0446ec075a08e895a90787a7",
+    "nominal.tex": "3f551212d1a917158226df165d4561b875f60006904349d12614c8b62ac7d947",
+    "revision_all_cost_intervals.tex": "d63e1e5bb2da7a5fcc9c19ce45d31a32df8e3076b05035eec3c3766cbc22db7c",
+    "revision_bootstrap.tex": "8cf74282e14411fd085fd638379ae43be9a6a9ce804288f7640b7e7d28aedc16",
+    "revision_choices.tex": "5a8825002fcbf5d55e7282ef78df5e008137a7787b9ab462dfda53255deb5500",
+    "revision_gradients.tex": "f6222bf95832423e28a40d1d186cd9f9a2ce86b005da28e6da2ada9b8161fc2e",
+    "revision_heat_cost.tex": "72803ad79014e2b6544871185b334a38d7cae0c6acde939c0e6423dec9c12cfc",
+    "revision_heat_selection.tex": "f856b79b7202ce6e8f3b1090fae8127b8ade49a623628247d275e8356437963d",
+    "revision_latency_per_seed.tex": "66d7028a6db4b7d894a45b6820e01393258c7e78e1667601ac57278f4bdc0d31",
+    "revision_latency_profiles.tex": "ae0e86ab4484b3974a2ddf5a36509203aee906625d9b7c9518ae4a130d8da3c6",
+    "revision_latency_ratios.tex": "0be73d1d1e8e5766bacaedf5e8af1341c813d1408cedfe95d445608aab83e411",
+    "revision_new_heat_choices.tex": "1760d0b7e05f9f2f2367a1fbfdd0bae6eea4ea555fe5fbd90a56435494e04aaf",
+    "revision_new_heat_constraints.tex": "0f9fe42dba0e3172f12f612fa7a323897f55d4fc2382bb8414e3ffcdcdeb42cc",
+    "revision_new_heat_cost.tex": "a9d3aa2cf0488343260a70c84a52a4698630ee1fd08f7cc1421906bc0f2b159c",
+    "revision_oracle.tex": "7da201a8a637203e19d580ec0aa10b3ae923d49af78ecb16aab245c086aad2fd",
+    "revision_scaling_selection.tex": "db98857383ea688ffaadaba05079a5f2bc9cc0496147f654836773b5a30a29a8",
+    "revision_weight_control.tex": "e7970dca1d41f6b831a4c9a14c1300fd11c95b1b008724733c671c587d7e210b",
+    "revision_weight_selection.tex": "e183aa533227920d7bd970f5c04b93e1f7e1b1972d428e9269f53b9ec6486e4b",
+    "supp_calibration.tex": "c87e3e745ca3fd068849dcdb063f4563a317c9a7476a84f5406b5b01784c24d0",
+    "supp_control.tex": "9baaee3af1f7b0003fbfedb4be3d64197036fffff1a13c4f7656f9cf2382a160",
+    "supp_latency.tex": "0265994b14479d76cfaf604275fa1a41c1628069790ae9ab952ffa19e379d005"
+  },
+  "limits": "Keyed checks of replacement main table, X2a/X2b timing tables and X3 norm tables; conditional X1 numeric tables are explicitly pending until both the source CSV and tables arrive. Legacy tables have separate pre-presentation audits and numeric-cell conservation receipt. Does not certify all prose or PDF layout."
+}

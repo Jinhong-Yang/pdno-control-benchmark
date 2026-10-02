@@ -1,0 +1,14 @@
+{
+  "status": "CODE_DOCUMENTED_TUNING_HISTORY_UNAVAILABLE",
+  "modes": 7,
+  "ridge": 0.001,
+  "LQR_Q": "identity",
+  "LQR_R": "0.1 identity",
+  "dt": 0.02,
+  "gain": "discrete algebraic Riccati solution per material parameters; zero Burgers constant-mode feedback",
+  "heat_feedforward": "least-squares steady input for 7-mode target",
+  "action_constraints": "box and slew projection",
+  "validation_comparator_selection": "existing comparator selection evaluated B0 versus B1-B5 on 64 parents/PDE; this is method selection, not a documented B0 hyperparameter search",
+  "hyperparameter_tuning_budget": "not recorded; no claim of validation-tuned gains/mode count",
+  "source_sha256": "643e090f107f09d5532176773d9a5c50b9c062ace1bed49911ea1c87c0602ad1"
+}

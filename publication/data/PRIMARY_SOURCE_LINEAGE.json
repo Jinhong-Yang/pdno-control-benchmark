@@ -1,0 +1,82 @@
+[
+  {
+    "source": "reports/analysis_20260928/control_all_methods.csv",
+    "sha256": "a95f79272504bbdd50f5d75ee6aacde27d14db27c89f3449a2364bfb337a571a",
+    "bytes": 7595
+  },
+  {
+    "source": "reports/analysis_20260928/latency_pooled_descriptive.csv",
+    "sha256": "f4b6cef4f93550ec44faf220b2ff34239c15317bb8bb1f24df1c2e8e6f594ee9",
+    "bytes": 1802
+  },
+  {
+    "source": "reports/analysis_20260928/latency_per_seed.csv",
+    "sha256": "50f5064774a445f82bbd14d37da2a12af80329bddccaeabcdf4789587b82845a",
+    "bytes": 4251
+  },
+  {
+    "source": "reports/analysis_20260928/selected_checkpoints.csv",
+    "sha256": "b4b73cc78f14c9857df1d12ec6fe9ba158b001694f2f80652fe98b3fc5aa65ae",
+    "bytes": 5867
+  },
+  {
+    "source": "reports/analysis_20260928/heat_constraint_diagnostic.csv",
+    "sha256": "b0e83a4c25577d0fda5a5b6e34ad1b360160e4e8609d5100922d5db659341912",
+    "bytes": 7743
+  },
+  {
+    "source": "reports/analysis_20260928/P_B5_matched_actions.csv",
+    "sha256": "38dc9792543abf10cbe3d40d996d6c75fa4b42587e64c2036202dbca7355c16f",
+    "bytes": 1048
+  },
+  {
+    "source": "reports/analysis_20260928/calibration_margins.csv",
+    "sha256": "c5e443647e44db1324726d566bd0084f12ade005d3b2cf0d8ea4ece4a54bd5aa",
+    "bytes": 1438
+  },
+  {
+    "source": "evidence/latency_analysis_v3.json",
+    "sha256": "f46114814f3f0b59dc27659336c73d9b8ade9d87c0cb62b30022aad879d584f4",
+    "bytes": 17875
+  },
+  {
+    "source": "evidence/confirmatory_checkpoint_manifest_v3.json",
+    "sha256": "c1fa3e36b0750b1c5f0a9be0132b85c3df7764b4b493938ac4ff2b364bbb1007",
+    "bytes": 283706
+  },
+  {
+    "source": "evidence/locked_test_analysis_v3.json",
+    "sha256": "28f32812b8e1593da0a8a6f54bafc69460a0712a08e1bbc7991aa840308df3e9",
+    "bytes": 127639
+  },
+  {
+    "source": "config/final_spec_v3.json",
+    "sha256": "afc57e2be4d9af716c7c43ba53c3a51ccaac0a1843c8bc9363ad00b2362a8902",
+    "bytes": 5325
+  },
+  {
+    "source": "reports/source_audit.json",
+    "sha256": "4195a45c3e4099129ace1b288cfffe93b5b549c3b0c3aeeabc6d7cbbabb099d9",
+    "bytes": 9363
+  },
+  {
+    "source": "evidence/raw_evidence_freeze_v3.json",
+    "sha256": "2fc83da6f7c577d09d1c75ce44e276726a6705383e074974f94d9f321a3eea41",
+    "bytes": 252857
+  },
+  {
+    "source": "AUTHOR_INPUT_REQUIRED.md",
+    "sha256": "8f9aebddd60504a5e369813e1353c494a7e90b76d00e85816d19a26408273a86",
+    "bytes": 349
+  },
+  {
+    "source": "reports/claim_evidence.csv",
+    "sha256": "abaacc91eaff09bbf5edad6d57bf7907ddb00c5da8d13f5fd2f1c137e0180280",
+    "bytes": 147666
+  },
+  {
+    "source": "reports/analysis_20260928/audit.json",
+    "sha256": "1933f8d81664727664e609b61c41cfca9e0480f23a8a65d88c4d22d260f468b4",
+    "bytes": 202328
+  }
+]

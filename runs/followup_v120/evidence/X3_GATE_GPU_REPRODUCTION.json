@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE_GATE_REPRODUCED",
+  "result_sha256": "306aab08e0c53869470e09ed09f15bd7e3e6dd214ac7939aa3500df2510017f7",
+  "spec_sha256": "5029afb4a8926bf031608230d59279b5df839e6934516efce19e816387e8859a",
+  "script_sha256": "f4a414768dd0f1f2ad9707b9f94b996df45693ac220e1cff3473a90fb7a6ecf0",
+  "operator_count": 54,
+  "four_decimal_gate_mismatch_count": 0,
+  "max_cuda_abs_gate_difference": 7.450580596923828e-09,
+  "elapsed_wall_seconds": 4.483722599979956,
+  "start_utc": "2026-10-02T15:19:42.920580+00:00",
+  "end_utc": "2026-10-02T15:19:47.401953+00:00"
+}

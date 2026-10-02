@@ -1,0 +1,32 @@
+\begin{table}[ht]
+\centering\small
+\caption{D6 Burgers: candidate-index selection frequencies and realized action changes on the matched subset. Hold slot counts the designated candidate index; duplicate zero-offset candidates make this distinct from an unchanged applied action. Feedback rollout has its own selection index.}
+\begin{tabular}{@{}lrrrrr@{}}\toprule
+$K/H$ & Hold slot (\%) & B0 slot (\%) & FB slot (\%) & No action change (\%) & Mean $|\Delta a|$\\\midrule
+10/1 & 99.94 & 0.06 & -- & 99.94 & 0.000000\\
+10/4 & 99.67 & 0.33 & -- & 99.67 & 0.000004\\
+10/8 & 99.05 & 0.92 & -- & 99.05 & 0.000040\\
+10/16 & 97.80 & 2.06 & -- & 97.80 & 0.000183\\
+50/1 & 0.00 & 0.06 & -- & 99.94 & 0.000001\\
+50/4 & 0.00 & 0.39 & -- & 99.33 & 0.000078\\
+50/8 & 0.00 & 0.68 & -- & 98.45 & 0.000265\\
+50/16 & 0.00 & 1.23 & -- & 96.92 & 0.000591\\
+10/8+FB & 97.12 & 0.21 & 2.67 & 97.12 & 0.000151\\
+\bottomrule\end{tabular}
+\end{table}
+\begin{table}[ht]
+\centering\small
+\caption{D6 NH heat: candidate-index selection frequencies and realized action changes on the matched subset. Hold slot counts the designated candidate index; duplicate zero-offset candidates make this distinct from an unchanged applied action. Feedback rollout has its own selection index.}
+\begin{tabular}{@{}lrrrrr@{}}\toprule
+$K/H$ & Hold slot (\%) & B0 slot (\%) & FB slot (\%) & No action change (\%) & Mean $|\Delta a|$\\\midrule
+10/1 & 99.30 & 0.00 & -- & 99.30 & 0.000355\\
+10/4 & 98.11 & 0.01 & -- & 98.47 & 0.000881\\
+10/8 & 93.34 & 0.04 & -- & 94.84 & 0.003260\\
+10/16 & 88.77 & 1.19 & -- & 90.69 & 0.005422\\
+50/1 & 0.00 & 0.00 & -- & 95.77 & 0.000891\\
+50/4 & 0.00 & 0.00 & -- & 90.97 & 0.002007\\
+50/8 & 0.00 & 0.00 & -- & 83.79 & 0.004378\\
+50/16 & 0.00 & 0.01 & -- & 80.12 & 0.006004\\
+10/8+FB & 89.54 & 0.02 & 3.43 & 90.91 & 0.006282\\
+\bottomrule\end{tabular}
+\end{table}

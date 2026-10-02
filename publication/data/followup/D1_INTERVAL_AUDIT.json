@@ -1,0 +1,327 @@
+{
+  "status": "PASS_SCOPED_E1_INTERVAL_AUDIT",
+  "scope": [
+    "E1"
+  ],
+  "summary_rows": 12,
+  "verified_values": 60,
+  "draws": 10000,
+  "seed": 2026100270,
+  "paired_unit": "parent; seed averaging within parent",
+  "method": "Count-weighted parent multiplicities; fixed and resampled denominator on identical draws",
+  "records": [
+    {
+      "key": [
+        "E1",
+        "locked_nominal",
+        "burgers",
+        "O-cand-obs"
+      ],
+      "parents": 384,
+      "model_arrays": 1,
+      "recomputed": {
+        "relative_excess": 0.2984709453584386,
+        "fixed_ci_low": 0.2484450230908004,
+        "fixed_ci_high": 0.35551505851528054,
+        "joint_ci_low": 0.2548788052520767,
+        "joint_ci_high": 0.3470501716400838
+      },
+      "absolute_errors": {
+        "relative_excess": 0.0,
+        "fixed_ci_low": 0.0,
+        "fixed_ci_high": 0.0,
+        "joint_ci_low": 5.551115123125783e-17,
+        "joint_ci_high": 0.0
+      }
+    },
+    {
+      "key": [
+        "E1",
+        "locked_nominal",
+        "burgers",
+        "O-cand-state"
+      ],
+      "parents": 384,
+      "model_arrays": 1,
+      "recomputed": {
+        "relative_excess": 0.2823017287056686,
+        "fixed_ci_low": 0.23605540735730643,
+        "fixed_ci_high": 0.3328028448282757,
+        "joint_ci_low": 0.24495005910891024,
+        "joint_ci_high": 0.3212579076317688
+      },
+      "absolute_errors": {
+        "relative_excess": 0.0,
+        "fixed_ci_low": 5.551115123125783e-17,
+        "fixed_ci_high": 0.0,
+        "joint_ci_low": 0.0,
+        "joint_ci_high": 0.0
+      }
+    },
+    {
+      "key": [
+        "E1",
+        "locked_nominal",
+        "heat",
+        "O-cand-obs"
+      ],
+      "parents": 384,
+      "model_arrays": 1,
+      "recomputed": {
+        "relative_excess": 0.12703605979093327,
+        "fixed_ci_low": 0.11927221270183495,
+        "fixed_ci_high": 0.13501422417644976,
+        "joint_ci_low": 0.11246818900786068,
+        "joint_ci_high": 0.14339401399707133
+      },
+      "absolute_errors": {
+        "relative_excess": 0.0,
+        "fixed_ci_low": 1.3877787807814457e-17,
+        "fixed_ci_high": 2.7755575615628914e-17,
+        "joint_ci_low": 0.0,
+        "joint_ci_high": 0.0
+      }
+    },
+    {
+      "key": [
+        "E1",
+        "locked_nominal",
+        "heat",
+        "O-cand-state"
+      ],
+      "parents": 384,
+      "model_arrays": 1,
+      "recomputed": {
+        "relative_excess": 0.12589154069717218,
+        "fixed_ci_low": 0.11796504065817821,
+        "fixed_ci_high": 0.13408771124624239,
+        "joint_ci_low": 0.11145740232473214,
+        "joint_ci_high": 0.14194842953640863
+      },
+      "absolute_errors": {
+        "relative_excess": 0.0,
+        "fixed_ci_low": 1.3877787807814457e-17,
+        "fixed_ci_high": 5.551115123125783e-17,
+        "joint_ci_low": 1.3877787807814457e-17,
+        "joint_ci_high": 2.7755575615628914e-17
+      }
+    },
+    {
+      "key": [
+        "E1",
+        "locked_coefficient_ood",
+        "burgers",
+        "O-cand-obs"
+      ],
+      "parents": 128,
+      "model_arrays": 1,
+      "recomputed": {
+        "relative_excess": 0.3752142498879942,
+        "fixed_ci_low": 0.2606674985083505,
+        "fixed_ci_high": 0.5053293882168799,
+        "joint_ci_low": 0.2834263776896775,
+        "joint_ci_high": 0.48243351086506053
+      },
+      "absolute_errors": {
+        "relative_excess": 0.0,
+        "fixed_ci_low": 0.0,
+        "fixed_ci_high": 0.0,
+        "joint_ci_low": 0.0,
+        "joint_ci_high": 1.1102230246251565e-16
+      }
+    },
+    {
+      "key": [
+        "E1",
+        "locked_coefficient_ood",
+        "burgers",
+        "O-cand-state"
+      ],
+      "parents": 128,
+      "model_arrays": 1,
+      "recomputed": {
+        "relative_excess": 0.3770458799789341,
+        "fixed_ci_low": 0.2603236601560925,
+        "fixed_ci_high": 0.5108489409117833,
+        "joint_ci_low": 0.2832217053804252,
+        "joint_ci_high": 0.48726785399760647
+      },
+      "absolute_errors": {
+        "relative_excess": 0.0,
+        "fixed_ci_low": 0.0,
+        "fixed_ci_high": 1.1102230246251565e-16,
+        "joint_ci_low": 0.0,
+        "joint_ci_high": 5.551115123125783e-17
+      }
+    },
+    {
+      "key": [
+        "E1",
+        "locked_coefficient_ood",
+        "heat",
+        "O-cand-obs"
+      ],
+      "parents": 128,
+      "model_arrays": 1,
+      "recomputed": {
+        "relative_excess": 0.24401003817424707,
+        "fixed_ci_low": 0.21768150086441324,
+        "fixed_ci_high": 0.2712402667027615,
+        "joint_ci_low": 0.2072477933562543,
+        "joint_ci_high": 0.2866060741699997
+      },
+      "absolute_errors": {
+        "relative_excess": 0.0,
+        "fixed_ci_low": 5.551115123125783e-17,
+        "fixed_ci_high": 0.0,
+        "joint_ci_low": 0.0,
+        "joint_ci_high": 0.0
+      }
+    },
+    {
+      "key": [
+        "E1",
+        "locked_coefficient_ood",
+        "heat",
+        "O-cand-state"
+      ],
+      "parents": 128,
+      "model_arrays": 1,
+      "recomputed": {
+        "relative_excess": 0.23756150195206852,
+        "fixed_ci_low": 0.21145517263702868,
+        "fixed_ci_high": 0.26456923608856103,
+        "joint_ci_low": 0.2009392509084622,
+        "joint_ci_high": 0.28013956601706197
+      },
+      "absolute_errors": {
+        "relative_excess": 0.0,
+        "fixed_ci_low": 2.7755575615628914e-17,
+        "fixed_ci_high": 0.0,
+        "joint_ci_low": 2.7755575615628914e-17,
+        "joint_ci_high": 0.0
+      }
+    },
+    {
+      "key": [
+        "E1",
+        "locked_delay_dropout",
+        "burgers",
+        "O-cand-obs"
+      ],
+      "parents": 128,
+      "model_arrays": 1,
+      "recomputed": {
+        "relative_excess": 0.2644636878621723,
+        "fixed_ci_low": 0.19494021268440748,
+        "fixed_ci_high": 0.3386445594082697,
+        "joint_ci_low": 0.2083004775489832,
+        "joint_ci_high": 0.3233919125121767
+      },
+      "absolute_errors": {
+        "relative_excess": 0.0,
+        "fixed_ci_low": 2.7755575615628914e-17,
+        "fixed_ci_high": 5.551115123125783e-17,
+        "joint_ci_low": 5.551115123125783e-17,
+        "joint_ci_high": 5.551115123125783e-17
+      }
+    },
+    {
+      "key": [
+        "E1",
+        "locked_delay_dropout",
+        "burgers",
+        "O-cand-state"
+      ],
+      "parents": 128,
+      "model_arrays": 1,
+      "recomputed": {
+        "relative_excess": 0.24425078739256956,
+        "fixed_ci_low": 0.18083966046035763,
+        "fixed_ci_high": 0.3128300191395839,
+        "joint_ci_low": 0.19346203662333303,
+        "joint_ci_high": 0.2981254562134292
+      },
+      "absolute_errors": {
+        "relative_excess": 0.0,
+        "fixed_ci_low": 0.0,
+        "fixed_ci_high": 5.551115123125783e-17,
+        "joint_ci_low": 2.7755575615628914e-17,
+        "joint_ci_high": 0.0
+      }
+    },
+    {
+      "key": [
+        "E1",
+        "locked_delay_dropout",
+        "heat",
+        "O-cand-obs"
+      ],
+      "parents": 128,
+      "model_arrays": 1,
+      "recomputed": {
+        "relative_excess": 0.09373215930381294,
+        "fixed_ci_low": 0.08697258731466197,
+        "fixed_ci_high": 0.10049939303788614,
+        "joint_ci_low": 0.0772532048250758,
+        "joint_ci_high": 0.11479227570351577
+      },
+      "absolute_errors": {
+        "relative_excess": 0.0,
+        "fixed_ci_low": 0.0,
+        "fixed_ci_high": 1.3877787807814457e-17,
+        "joint_ci_low": 2.7755575615628914e-17,
+        "joint_ci_high": 0.0
+      }
+    },
+    {
+      "key": [
+        "E1",
+        "locked_delay_dropout",
+        "heat",
+        "O-cand-state"
+      ],
+      "parents": 128,
+      "model_arrays": 1,
+      "recomputed": {
+        "relative_excess": 0.09649749796687017,
+        "fixed_ci_low": 0.09001569657892831,
+        "fixed_ci_high": 0.10296378505069141,
+        "joint_ci_low": 0.08021333018234816,
+        "joint_ci_high": 0.11746730238505006
+      },
+      "absolute_errors": {
+        "relative_excess": 0.0,
+        "fixed_ci_low": 0.0,
+        "fixed_ci_high": 2.7755575615628914e-17,
+        "joint_ci_low": 1.3877787807814457e-17,
+        "joint_ci_high": 2.7755575615628914e-17
+      }
+    }
+  ],
+  "source_sha256": {
+    "results\\E1_heat_COMPLETE.json": "b7e725c2306f7c781e9fc9db7f2edc509764813f11c430462ed4f455df66a142",
+    "results\\E1_burgers_cuda_COMPLETE.json": "c1bc8d0539d5d87a31059c6760ae123ea11f7b655fe788f010abb5f745064b7c",
+    "results\\REVISION_COST_SUMMARY.csv": "49e40e6d98429eb05cab68d1665fb714cc66d317b095ce39d2c58121d5ad3a6f",
+    "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\burgers\\B0_sna.npz": "8da6b9937c8d735da9af7dc19cb1183957ff343c90b99297291eb576247a5a16",
+    "runs\\revision_v2\\results\\E1_raw\\locked_nominal\\burgers\\O-cand-obs.npz": "6dc4f25b3040f39837f02e26c91f66329ed31950a3aad493a82e0f44df5bd7ae",
+    "runs\\revision_v2\\results\\E1_raw\\locked_nominal\\burgers\\O-cand-state.npz": "827e8d4c090647a760ad6663c71432f5425a17f8a0c9f238f43b24bd0abe408a",
+    "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_nominal\\heat\\B0_sna.npz": "5e08db1436df14638505dd427d0ce49cd3479db386eee1273289a9fbf7e57d26",
+    "runs\\revision_v2\\results\\E1_raw\\locked_nominal\\heat\\O-cand-obs.npz": "bd6486760060947b951c3e2223e92cc5d109388d4bbc1ec1274be91f2cff0105",
+    "runs\\revision_v2\\results\\E1_raw\\locked_nominal\\heat\\O-cand-state.npz": "afd7e4adfda2cfcd931fcea2631019de09afa92e5e778cb48f504c980ed199ff",
+    "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\burgers\\B0_sna.npz": "e66ef30505a56f796e1f928ea8ba618f4498524ae305716ef2da0232c5942fb1",
+    "runs\\revision_v2\\results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-obs.npz": "52af482edf1ba6e53482059dc7a755911ce685851417a7a9fef736a379c6531f",
+    "runs\\revision_v2\\results\\E1_raw\\locked_coefficient_ood\\burgers\\O-cand-state.npz": "a7ef010e1cd29267f9bd3e362c4850557da808f3ec979e20ae751504fd38e802",
+    "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_coefficient_ood\\heat\\B0_sna.npz": "fad905e6c82fa6a9325b229dacb7069951e2897d233320ca0434434fb8d7f878",
+    "runs\\revision_v2\\results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-obs.npz": "99b625dc98cf2f29ca9c90c5e6f236f9198808e23f0566b33af75f67d41f5314",
+    "runs\\revision_v2\\results\\E1_raw\\locked_coefficient_ood\\heat\\O-cand-state.npz": "eead628bbe79fb01da1720981d348e859d76645db13e2f6d2fa6a95cf34a4452",
+    "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\burgers\\B0_sna.npz": "ec9b3697e22f8f44f8d29d8dd84055512dcbd2d7513f11a02c4e2dfe6dda9e0f",
+    "runs\\revision_v2\\results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-obs.npz": "fc07ea29021162ad5c8cb42b44b12ae0ad8d28bbf9f53b61f30b6aa3d20f665e",
+    "runs\\revision_v2\\results\\E1_raw\\locked_delay_dropout\\burgers\\O-cand-state.npz": "0294e6dbd073543f3c249bf26673240d627b401d2741a899f1487514465832c6",
+    "experiments\\pdno_jevLite_20260927_v3\\evidence\\locked_test_raw_v3\\locked_delay_dropout\\heat\\B0_sna.npz": "a511f3ca75ce91bbd35e98e09b35446b064390fd5f8eb5f5b31700d80a7aabd9",
+    "runs\\revision_v2\\results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-obs.npz": "a50f593f38550651bed0be47d0e1f53b110f8d0a6fec351e222e3f91dd664980",
+    "runs\\revision_v2\\results\\E1_raw\\locked_delay_dropout\\heat\\O-cand-state.npz": "3d04b0f587bd879c080bbd22ad35a02f6a37aadf2e6896b8823eb58a5781bc8d"
+  },
+  "auditor_sha256": "142098a2473aecf3aadd0948448741bb0e0d59a9e0e033e90b68d9142d70bf8e",
+  "limits": "Numerical reconstruction under the recorded pointwise paired-parent bootstrap; not simultaneous coverage, more independent seeds, or an iid/OOD guarantee."
+}

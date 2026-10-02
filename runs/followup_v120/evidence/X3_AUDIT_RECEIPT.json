@@ -1,0 +1,9 @@
+{
+  "status": "PASS_PAIRED_ARITHMETIC_WITH_GATE_REPRODUCTION_MISMATCH",
+  "audit_sha256": "c370a6d6a5740a4836575d4ce531b27de4fa8f36765df7115805b4d7fca7943a",
+  "summary_sha256": "f63839b109516182be2cca3834b31cd562815df45c4bf2b30ebe91019ccbbf42",
+  "paired_vectors_sha256": "c7ee45a543c99a43f4b44a6683640ca4071fb6e6944bdc3a0ac4cc55302225e7",
+  "operator_count": 54,
+  "four_decimal_gate_mismatch_count": 5,
+  "created_utc": "2026-10-02T14:58:49.233743+00:00"
+}
